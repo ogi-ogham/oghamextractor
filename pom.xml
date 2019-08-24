@@ -29,6 +29,12 @@
     <artifactId>json</artifactId>
     <version>20190722</version>
 </dependency>
+  <!-- https://mvnrepository.com/artifact/org.apache.jena/jena-core -->
+<dependency>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>jena-core</artifactId>
+    <version>3.12.0</version>
+</dependency>
   
   </dependencies>
 </project>

@@ -1,0 +1,325 @@
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.i3mainz.de/ogham#Kerry_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-9.706264 52.266705)" .
+
+<http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Carlow_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.720154 52.784779)" .
+
+<http://www.i3mainz.de/ogham#+++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++++++Centuries_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" .
+
+<http://www.i3mainz.de/ogham#Maynooth+Monographs_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-10.249772 52.257546)" , "POINT (-10.405999 52.166581)" , "POINT (-6.397017 54.004625)" , "POINT (-7.222584 52.470256)" .
+
+<http://www.opengis.net/ont/geosparql#hasGeometry>
+      a       owl:ObjectProperty .
+
+<http://www.i3mainz.de/ogham#Old+Waterford+Society%2C+Decies>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Old+Waterford+Society%2C+Decies_geom> .
+
+<http://www.i3mainz.de/ogham#.>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#._geom> .
+
+<http://www.opengis.net/ont/geosparql#SpatialObject>
+      a       owl:Class .
+
+<http://www.i3mainz.de/ogham#+%28ed.+T.+Nyberg+et+al.%29>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#+%28ed.+T.+Nyberg+et+al.%29_geom> .
+
+<http://www.i3mainz.de/ogham#nd+Sprachmateriale.+TITUS+OGAMICA._geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-8.310399 53.797323)" .
+
+<http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian%0A++++++++++++++++++++++++++++++++Ecclesiastical+Settlement+in+Ireland+5th+to+12th+Centuries_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.570066 52.827385)" .
+
+<http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Wicklow_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.53639 52.995927)" , "POINT (-6.613903 52.944176)" .
+
+<http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A+++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.760951 53.028323)" , "POINT (-6.254558 53.340408)" .
+
+<http://www.opengis.net/ont/geosparql#Feature>
+      a       owl:Class ;
+      rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> .
+
+<http://www.i3mainz.de/ogham#Ogham+in+3D_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-8.369872 53.834331)" .
+
+<http://www.i3mainz.de/ogham#Ogham+in+3D>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Ogham+in+3D_geom> .
+
+<http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom> .
+
+<http://www.i3mainz.de/ogham#JRSAI_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" .
+
+<http://www.i3mainz.de/ogham#Maynooth%0A++++++++++++++++++++++++++++Monographs_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" , "POINT (-10.130758 52.135851)" .
+
+<http://www.opengis.net/ont/geosparql#Geometry>
+      a       owl:Class ;
+      rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> .
+
+<http://www.i3mainz.de/ogham#+%28ed.+T.+Nyberg+et+al.%29_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" .
+
+<http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Wicklow>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Wicklow_geom> .
+
+<http://www.i3mainz.de/ogham#Corpus+inscriptionum+insularum%0A++++++++++++++++++++++++++++Celticarum_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-10.405999 52.166581)" .
+
+<http://www.i3mainz.de/ogham#JCHAS>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#JCHAS_geom> .
+
+<http://www.i3mainz.de/ogham#West%0A++++++++++++++++++++++++++++++++Cork_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" .
+
+<http://www.opengis.net/ont/geosparql#asWKT>
+      a       owl:DatatypeProperty .
+
+<http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" , "POINT (-6.761012 53.028493)" , "POINT (-6.071241 52.904532)" .
+
+<http://www.i3mainz.de/ogham#Kerry>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Kerry_geom> .
+
+<http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.760801 53.028514)" .
+
+<http://www.i3mainz.de/ogham#West%0A++++++++++++++++++++++++++++++++Cork>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#West%0A++++++++++++++++++++++++++++++++Cork_geom> .
+
+<http://www.i3mainz.de/ogham#Mid+Cork_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" , "POINT (-10.405999 52.166581)" .
+
+<http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A+++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A+++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom> .
+
+<http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer+Text-und%0A++++++++++++++++++++++++++++++++Sprachmateriale.+Ogam-Inschriften%3A+Bilderverzeichnis+%28picture+catalogue%29.>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer+Text-und%0A++++++++++++++++++++++++++++++++Sprachmateriale.+Ogam-Inschriften%3A+Bilderverzeichnis+%28picture+catalogue%29._geom> .
+
+<http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer%0A++++++++++++++++++++++++++++++++Text-und+Sprachmateriale.+TITUS+OGAMICA.>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer%0A++++++++++++++++++++++++++++++++Text-und+Sprachmateriale.+TITUS+OGAMICA._geom> .
+
+<http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer%0A++++++++++++++++++++++++++++++++Text-und+Sprachmateriale.+TITUS+OGAMICA._geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-8.369881 53.834383)" , "POINT (-8.310399 53.797323)" , "POINT (-9.254148 54.246617)" .
+
+<http://www.i3mainz.de/ogham#Maynooth+Monographs>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Maynooth+Monographs_geom> .
+
+<http://www.i3mainz.de/ogham#nd+Sprachmateriale.+TITUS+OGAMICA.>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#nd+Sprachmateriale.+TITUS+OGAMICA._geom> .
+
+<http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++++++Centuries_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-7.881039 52.148923)" , "POINT (-6.254558 53.340408)" , "POINT (-7.46537 52.163318)" , "POINT (-7.684968 52.194711)" , "POINT (-7.129917 52.579293)" , "POINT (-7.064559 52.628962)" , "POINT (-7.847708 52.074382)" , "POINT (-10.243303 52.127798)" , "POINT (-7.847713 52.074413)" , "POINT (-7.684809 52.194724)" , "POINT (-7.685057 52.194773)" , "POINT (-7.481665 52.113809)" , "POINT (-7.684857 52.194802)" , "POINT (-7.725916 51.9488)" , "POINT (-7.130026 52.57928)" , "POINT (-7.685104 52.194752)" .
+
+<http://www.i3mainz.de/ogham#JCHAS_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" .
+
+<http://www.i3mainz.de/ogham#Mid+Cork>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Mid+Cork_geom> .
+
+<http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian%0A++++++++++++++++++++++++++++++++Ecclesiastical+Settlement+in+Ireland+5th+to+12th+Centuries>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian%0A++++++++++++++++++++++++++++++++Ecclesiastical+Settlement+in+Ireland+5th+to+12th+Centuries_geom> .
+
+<http://www.i3mainz.de/ogham#+++++++++++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-9.745808 52.073955)" .
+
+<http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Carlow>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Carlow_geom> .
+
+<http://www.i3mainz.de/ogham#+++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++++++Centuries>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#+++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++++++Centuries_geom> .
+
+<http://www.i3mainz.de/ogham#Celtica_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-9.721501 52.333343)" .
+
+<http://www.i3mainz.de/ogham#Die+Sprache+der+altirischen%0A++++++++++++++++++++++++++++Ogam-Inschriften_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-7.293674 53.299424)" .
+
+<http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom> .
+
+<http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer+Text-und%0A++++++++++++++++++++++++++++++++Sprachmateriale.+Ogam-Inschriften%3A+Bilderverzeichnis+%28picture+catalogue%29._geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" , "POINT (-9.725848 52.169079)" , "POINT (-10.121919 51.764123)" , "POINT (-10.473639 52.110137)" , "POINT (-10.306267 52.126711)" , "POINT (-9.944582 51.712874)" , "POINT (-8.606904 52.078037)" .
+
+<http://www.i3mainz.de/ogham#cal+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-9.745808 52.073955)" .
+
+<http://www.i3mainz.de/ogham#East+and+South+%0A++++++++++++++++++++++++++++++++Cork_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" .
+
+<http://www.i3mainz.de/ogham#Old+Waterford+Society%2C+Decies_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-7.362347 52.140285)" , "POINT (-7.362428 52.140308)" .
+
+<http://www.i3mainz.de/ogham#+++++++++++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#+++++++++++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom> .
+
+<http://www.i3mainz.de/ogham#Corpus+inscriptionum+insularum%0A++++++++++++++++++++++++++++Celticarum>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Corpus+inscriptionum+insularum%0A++++++++++++++++++++++++++++Celticarum_geom> .
+
+<http://www.i3mainz.de/ogham#The+Iveragh+Peninsula%3A%0A++++++++++++++++++++++++++++An+Archaeological+Survey+of+South+Kerry>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#The+Iveragh+Peninsula%3A%0A++++++++++++++++++++++++++++An+Archaeological+Survey+of+South+Kerry_geom> .
+
+<http://www.i3mainz.de/ogham#Celtica>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Celtica_geom> .
+
+<http://www.i3mainz.de/ogham#._geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" , "POINT (-9.634923 52.06042)" , "POINT (-10.407357 52.158683)" , "POINT (-10.216217 52.131625)" , "POINT (-8.606844 52.077595)" , "POINT (-10.306267 52.126711)" , "POINT (-7.293729 53.299464)" , "POINT (-6.613237 53.021622)" .
+
+<http://www.i3mainz.de/ogham#cal+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#cal+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom> .
+
+<http://www.i3mainz.de/ogham#The+Iveragh+Peninsula%3A%0A++++++++++++++++++++++++++++An+Archaeological+Survey+of+South+Kerry_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-6.254558 53.340408)" .
+
+<http://www.i3mainz.de/ogham#Die+Sprache+der+altirischen%0A++++++++++++++++++++++++++++Ogam-Inschriften>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Die+Sprache+der+altirischen%0A++++++++++++++++++++++++++++Ogam-Inschriften_geom> .
+
+<http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++Centuries_geom>
+      a       <http://www.opengis.net/ont/geosparql#Geometry> ;
+      <http://www.opengis.net/ont/geosparql#asWKT>
+              "POINT (-10.137728 52.13606)" , "POINT (-8.494544 51.896371)" , "POINT (-9.725848 52.169079)" , "POINT (-9.782728 52.328817)" , "POINT (-10.388106 52.178511)" , "POINT (-10.196619 52.126261)" , "POINT (-9.642423 52.275865)" , "POINT (-6.256657 53.343981)" , "POINT (-10.336582 52.184757)" , "POINT (-10.358471 52.143726)" , "POINT (-9.634923 52.06042)" , "POINT (-6.254558 53.340408)" , "POINT (-9.781661 52.328526)" , "POINT (-9.554356 52.076795)" , "POINT (-9.514446 52.614625)" , "POINT (-10.306267 52.126711)" , "POINT (-10.243303 52.127798)" , "POINT (-10.196581 52.126196)" , "POINT (-10.306496 52.157768)" , "POINT (-10.030458 52.181881)" , "POINT (-9.681883 52.267049)" , "POINT (-7.725908 51.948852)" , "POINT (-10.183738 51.888405)" , "POINT (-10.331399 52.154449)" , "POINT (-9.745808 52.073955)" .
+
+<http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++Centuries>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++Centuries_geom> .
+
+<http://www.i3mainz.de/ogham#Maynooth%0A++++++++++++++++++++++++++++Monographs>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#Maynooth%0A++++++++++++++++++++++++++++Monographs_geom> .
+
+<http://www.i3mainz.de/ogham#JRSAI>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#JRSAI_geom> .
+
+<http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++++++Centuries>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++++++Centuries_geom> .
+
+<http://www.i3mainz.de/ogham#East+and+South+%0A++++++++++++++++++++++++++++++++Cork>
+      a       <http://www.i3mainz.de/ogham#OghamObject> ;
+      <http://www.opengis.net/ont/geosparql#hasGeometry>
+              <http://www.i3mainz.de/ogham#East+and+South+%0A++++++++++++++++++++++++++++++++Cork_geom> .
+
+<http://www.i3mainz.de/ogham#OghamObject>
+      a       owl:Class ;
+      rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Feature> .
