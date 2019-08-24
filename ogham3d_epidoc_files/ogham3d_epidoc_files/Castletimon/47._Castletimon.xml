@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 47. Castletimon</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                
+                <respStmt>
+                    <resp>3d model created using photogrammetry (68 images with a Canon EOS 1100D) on 6/8/2016 and processed using Agisoft PhotoScan software</resp>
+                    <name>Nora White</name>
+                    <orgName></orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8
+                in <date>August 2018</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 47. <placeName type="townland"
+                >Castletimon</placeName></name>, Co. <placeName type="county"
+                >Wicklow</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI036-010----"
+                >WI036-010----</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Unassociated</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Lying in a niche at the side of the road overlooking the Potter's River valley and approximately 100 meters north-east of an early ecclesiastical site (Castletimon church and graveyard, WI036-009001-)
+                        <ref type="bibliog" target="GRO1997">(<bibl><author>Grogan and
+                                    Kilfeather</author>
+                                <date>1997</date>, <biblScope type="pp"
+                            >no. 1006</biblScope></bibl>)</ref>.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>National Monument in state guardianship No. 304. Granite slab<rs type="material"/>, 
+                        <rs type="dimensions"> 
+                            <measure unit="metre" type="length" rend="height">1.50</measure>m x
+                            <measure unit="metre" type="length" rend="width">0.48</measure>m x
+                            <measure unit="metre" type="length" rend="depth">0.25</measure>m
+                            (converted from <ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >51</biblScope></bibl></ref>)</rs>. There is a depression at the flat end of the stone which has the appearance of the mortise half of a mortise and tenon joint.
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>The inscription is <rs type="execution">cut</rs> (up-top) on the rounded angle and is <q>quite clear, though worn, owing to the stone being used as a seat by weary wayfarers</q> 
+                        (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >51</biblScope></bibl></ref>).</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <persName><w lemma="NETA-CARI">NETA-CARI</w></persName>
+                    <persName><w lemma="NETA-CAGI">NETA-CAGI</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ga">
+                <head>Translation</head>
+                <p><q>of Nadcaeir of Nadc...</q></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-images">
+                    <head>3D Images</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDeatil">
+                    <item n="1"><p>NET(T)A 'champion' (later falling together with NIOT(T)A 'sister's son' when both became <foreign xml:lang="ga"><hi rend="italic">Nad</hi></foreign>-) is frequently found as an element 
+                        in personal/kin group names (eg. NETA-SEGAMONAS on <ref
+                            target="search.php?ciic=263"
+                            >CIIC 263</ref>. Ardmore I and <ref
+                                target="search.php?ciic=300"
+                                >CIIC 300</ref>. Island). In this case, the NETA spelling would suggest the word meaning 'champion', rather than NIOT(T)A, which can be used alone as a formula word meaning 'sister's son' (cf. <ref
+                                    target="search.php?ciic=252"
+                                    >CIIC 252</ref>. Gurrane, Co. Kerry).</p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Lying by the roadside near Brittas Bay in the townland of <placeName type="townland">Castletimon</placeName>, barony
+                            of <placeName type="barony">Arklow</placeName>. (GPS coordinates
+                            <geo>-6.071241, 52.904532</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation">Still at the find site. The location of this stone may be
+                            accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI036-010----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head> History of Recording</head>
+                <p>Inscription identified by J.C. Toumey in
+                        <date when="1854">1854</date>. Known locally as 'the Giant's Stone'.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="TUO1854">
+                        <author>
+                            <surname>Tuomey</surname>, <forename>J.C.</forename>
+                        </author> (<date>1854</date>): <title level="a">'Description of a cromleac and ogham monument near Castletimon church, County of Wicklow'</title>, 
+                        <title level="j" type="main"> <hi rend="italic">JRSAI</hi></title>, <biblScope type="vol">Vol. 3</biblScope>,
+                        <biblScope type="pp">pp 191-4</biblScope>.
+                    </bibl>
+                    <bibl xml:id="MAC1916"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1916"
+                            >1916-1917</date>): <title level="a">'On an ogham edition recently
+                                discovered in County Wicklow'</title>, <title level="j"><hi rend="italic">PRIA</hi></title>
+                        <biblScope type="part">C</biblScope>
+                        <biblScope type="vol">33</biblScope>, <biblScope type="pp">p.
+                            84</biblScope>.</bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus editionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 51-2</biblScope>.</bibl>
+                    <bibl xml:id="GRO1997"><author><surname>Grogan</surname>,
+                                <forename>E.</forename></author> and
+                                <author><surname>Kilfeather</surname>, <forename>
+                            A.</forename></author> (<date when="1997">1997</date>): <title level="m"
+                                ><hi rend="italic">Archaeological Inventory of County Wicklow</hi></title>.
+                            <pubPlace>Dublin</pubPlace>, <biblScope type="pp">no. 1006</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"
+                            ><hi rend="italic">Monasticon Hibernicum database - Early Christian Ecclesiastical
+                                Settlement in Ireland 5th to 12th Centuries</hi></title>: <ref
+                                    target="http://monasticon.celt.dias.ie/showrecord.php?id=2043"
+                                    >monasticon.celt.dias.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

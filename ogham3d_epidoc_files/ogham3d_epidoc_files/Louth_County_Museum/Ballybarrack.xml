@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ballybarrack</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                                
+                <respStmt>
+                    <resp>scanned using Artec Eva on 13/2/2017 and processed using Geomagic software</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+                </titleStmt>
+            <publicationStmt>
+                <distributor><orgName>Dublin Institute for Advanced Studies</orgName></distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>Nov 2018</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"><placeName type="townland">Ballybarrack</placeName></name>, 
+                Co. <placeName type="county">Louth</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=LH007-072006-"
+                >LH007-072006-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Souterrain in enclosure</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Settlement within an oval enclosure (LH007-072001-), which measured 90m in max. diameter. Complex of three souterrains (LH007-072002-, LH007-072004- and LH007-072005-) found within the enclosure, <ref
+                        target="https://excavations.ie/report/1977-79/Louth/0000334/"
+                        >excavated</ref> by E. P. Kelly in 1977.  
+                                 The third and largest souterrain (<ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=LH007-072005-"
+                            >LH007-072005-</ref>) consists of a passage in three sections (overall L 34m), partially drystone-built and partly rock-cut. 
+                        At the junction of Passages 1 and 2 an ogham stone was used as a lintel (<ref
+                            type="bibliog" target="#BUC1991"><bibl><author>Buckley and Sweetman</author> <date
+                                when="1991">1991</date>, <biblScope type="pp"
+                                    >103-4</biblScope></bibl></ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>A rectanular block with some damage, particularly at the top. 
+                            <rs type="material"/>
+                        <rs type="material"/><rs type="dimensions"> Maximum dimensions: 
+                            <measure unit="metre" type="length" rend="height">1.06</measure>m x
+                            <measure unit="metre" type="length" rend="width">0.50</measure>m x
+                            <measure unit="metre" type="length" rend="depth">0.25</measure>m
+                            <lb/> (from 3d data).</rs>
+                    </p>
+                </div>
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up on two angles (up-up). Damage to the top and angles of the stone has resulted in the loss of some letters. <q>Though <rs type="execution">incised very finely</rs> the [surviving] consonants are legible but the vowel notches were not cut very deeply and many are uncertain</q> (<ref type="bibliog"
+                        target="#MCM1991"><bibl><author>McManus</author> <date when="1991"
+                            >1991</date>, <biblScope type="pp">76</biblScope></bibl></ref>).</p>
+                    
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/>Left angle: 
+                    <persName><w lemma="MAQI-CORABIR">MAQI-COR<unclear reason="damage">A</unclear>BIR</w></persName>
+                    <w lemma="MAQI" type="formula">M<unclear reason="damage">A</unclear>Q<unclear reason="damage">I</unclear></w>
+                    <persName><w lemma="TAN...">TAN<gap reason="lost"></gap><unclear reason="damage">B</unclear></w></persName>
+                    <lb/>Right angle: 
+                    <persName><w lemma="NETA-SALAGIA?">N<unclear reason="damage">E</unclear>T<unclear reason="damage">A</unclear>-S<unclear reason="damage">A</unclear>L<unclear reason="damage">A</unclear>GI<unclear reason="damage">A</unclear></w></persName>
+                    <w lemma="MAQI" type="formula">MAQ<unclear reason="damage">I</unclear></w>
+                    <w lemma="MUCOI" type="formula">M<unclear reason="damage">U</unclear>C<unclear reason="damage">OI</unclear></w>
+                    </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p>
+                    <lb/>
+                    <q>of <persName>Mac-Coirpri</persName> son of Tan...?</q>
+                        <lb/><q>of Nad-S...? son of the descendant of ...</q>
+                </p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-images">
+                    <head>3D Images</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                    <ab><name type="author">Macalister</name><ptr type="bibliog" target="#MAC1945"
+                        />: <ref
+                            target="http://www.ucl.ac.uk/archaeology/cisp/database/picpage/monat_1_1.html"
+                            >http://www.ucl.ac.uk/archaeology/cisp/database/picpage/monat_1_1.html</ref></ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>It is not clear if this is one continuous inscription or two seperate commemorations. <q>The first name is probably <hi rend="italic">Mac-Coirpri</hi> but the remainder is doubtful. 
+                        As the gen. NETAS is not attested the S following NeTa probably belongs to the following word</q> 
+                        (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date
+                            when="1991">1991</date>, <biblScope type="pp"
+                                >76</biblScope></bibl></ref>). </p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Acting as a lintel at the junction of two passages in one of three souterrains within an enclosure in the townland of 
+                                <placeName type="townland">Ballybarrack</placeName>, barony of
+                                <placeName type="barony">Upper Dundalk</placeName>. The find 
+                            location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=LH007-072006-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-6.424467, 53.986185</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">From the <orgName>National Museum of Ireland</orgName> collection,
+                            (<idno>NMI Ref. L.1978:2</idno>). On display in County Museum, Dundalk. The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=LH007-188----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>.  (GPS coordinates
+                            <geo>-6.397017, 54.004625</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered during excavation in <date when="1977">1977</date> by E. P. Kelly (<ref
+                    type="bibliog" target="#BUC1991"><bibl><author>Buckley and Sweetman</author> <date
+                        when="1991">1991</date>, <biblScope type="pp"
+                            >103-4</biblScope></bibl></ref>). </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BUC1991">
+                        <author>
+                            <surname>Buckley</surname>, <forename>V. M.</forename>
+                        </author> and <author>
+                            <surname>Sweetman</surname>, <forename>P. D.</forename>
+                        </author> (<date>1991</date>): <hi rend="italic"><title level="m" type="main">Archaeological Survey of
+                                County Louth</title></hi>. <pubPlace>Dublin</pubPlace>. </bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to
+                            ogam</hi></title>. <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">p.76</biblScope>.</bibl>                  
+                        
+                    
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                       
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">Excavations.ie</hi></name>:<ref
+                            target="https://excavations.ie/report/1977-79/Louth/0000334/">https://excavations.ie/report/1977-79/Louth/0000334/</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

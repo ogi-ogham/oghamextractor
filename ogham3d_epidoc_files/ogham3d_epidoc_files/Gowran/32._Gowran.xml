@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 32. Gowran</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                    <resp>3D laser scanned with Cobra Fastscan on 6/12/2012 and processed using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is
+                            licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>December 2012</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Edition</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 32. <placeName type="townland">Gowran</placeName></name>,
+                Co. <placeName type="county">Kilkenny</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-060007-">KK020-060007-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Saint Marys late 13th century church on the site of an earlier monastery. 
+                        The tower was inserted between the nave and chancel in the late middle ages.
+                        In the 19th century this tower was incorporated into the
+                            parish church which was built in place of the chancel and which now
+                            takes up about half of the building (<ref type="bibliog"
+                            target="http://www.heritageireland.ie/en/South-East/StMarysChurchGowranCoKilkenny/"
+                            >heritageireland.ie</ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material">Grit</rs>, <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.50</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.38</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.30</measure>m
+                            (Converted from <ref type="bibliog" target="#MAC1945"
+                                        ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >38</biblScope></bibl>)</ref></rs>. <q>A large <rs type="feature">cross</rs> potent,
+                            crookedly set out, is cut on the original base of the inscribed face</q>
+                        <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >38</biblScope></bibl>)</ref>.</p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Inscription <rs type="execution">cut</rs>, on two edges (up-up) and, `though chipped in places, on
+                            the whole in quite good condition</q>. Macalister records in detail that
+                            <q>in the first line, the two ends of IM, IA, all of the Q except parts
+                            of Q125 and 2I345 are chipped away. The second MAQI is on the top of the
+                            stone, faint but traceable: its first two letters are chipped away. The
+                            ending of the second line of writing has been spalled away ... The first
+                            few letters of this line form a name, DIMAQA (the second A chipped off)
+                            which has nothing to do with MAQ or MAQI</q>
+                        <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >38</biblScope></bibl>)</ref>.</p>
+                    <p>On the scanned model five notches (I of MAQI) are barely visible before the E
+                        of ERACIAS and possibly part of the final Q score. The first two notches of the I after the C in ERACIAS are
+                        relatively clear. Also, although there is no trace of the following MA, five
+                        partial scores (Q) can be made out on the top of the stone, followed by
+                        faint traces of at least three of the five notches of the final I. The vowels
+                        of DIMAQA are very unclear but the C of a possible MUCOI and at least one
+                        following vowel notch are discernible.</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb rend="up-up"/><w type="formula" lemma="MAQI"><supplied reason="lost">MAQ</supplied><unclear
+                            reason="worn">I</unclear></w>
+                    <persName><w lemma="ERACIAS">ERAC<unclear reason="worn">I</unclear>AS</w></persName>
+                    <w type="formula" lemma="MAQI"><supplied reason="lost">MA</supplied><unclear reason="worn"
+                            >QI</unclear></w>/
+                    <persName><w lemma="DIMAQA">D<unclear reason="worn">I</unclear>M<unclear
+                                reason="worn">A</unclear>Q<unclear reason="worn"
+                        >A</unclear></w></persName>
+                    <w type="formula" lemma="MUCOI">MUC<unclear reason="worn">O</unclear><supplied reason="lost"
+                            cert="high">I</supplied></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ga">
+                <head>Translation</head>
+
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found"> in the foundation of the chancel of the old
+                            church <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >38</biblScope></bibl>)</ref> in the townland of Gowran and barony
+                            of Gowran. (GPS coordinates
+                            <geo>-7.064559, 52.628962</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation">On site in the rebuilt chancel. The present location
+                            of this stone may be accessed via the <ref target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-060007-">National Monuments Service Historic Environment viewer on www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head> History of Recording</head>
+                <p><q>G.V. du Noyer first noticed the inscription in 1849</q>. <q>Discovered in the foundation of the chancel of the old
+                    church of Gowran, when it was rebuilt as the parish church. It lay
+                    prostrate for a long time in the ruined nave</q>
+                    <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                            >38</biblScope></bibl>)</ref>.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 37-8</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 66</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date
+                            when="2001">2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. TITUS OGAMICA</hi>.</title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/frame</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                                Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                                Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=3812"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                        <bibl><name type="website"><hi rend="italic">Heritage Ireland</hi></name>: <ref
+                                target="http://www.heritageireland.ie/en/South-East/StMarysChurchGowranCoKilkenny/"
+                                >www.heritageireland.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

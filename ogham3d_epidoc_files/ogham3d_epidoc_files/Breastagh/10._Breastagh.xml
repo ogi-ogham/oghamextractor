@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 10. Breastagh</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D laser scanned using Artec Eva scanner on 1/8/2014 and later processed
+                        using Geomagic software</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13 in <date>June 2014</date>
+                by <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 10. <placeName type="townland"
+                >Breastagh</placeName></name>, Co. <placeName
+                    type="county">Mayo</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=MA015-018001-"
+                >MA015-018001-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Unassociated</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>A large standing stone situated in the centre of a field on farmland. Probably a pre-historic standing stone later re-used for an ogham inscription. </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p><rs type="material"/>
+                        <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">3.66</measure>m x
+                            <measure unit="metre" type="length" rend="width">0.76</measure>m x
+                            <measure unit="metre" type="length" rend="depth">0.60</measure>m
+                            (converted from <ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >13</biblScope></bibl></ref>). </rs>
+                    </p>
+                   
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up/up on two the angles of the S face. <q>A large flake has gone from the B-surface of the injured [dexter] angle...and nothing now appears but an L, followed by a vowel 
+                        (apparently E), and after that the B-halves of two G's. A smaller, but yet more effective, fracture on the H-surface has abolished the H-halves of the G's and 
+                        anything else that there might have been on that side. A battered length of angle follows, and then follows a row of fairly perfect letters, running up to the 
+                        top... After several examinations of the stone, I have given up all hope of filling, even imperfectly, the long gap after the G. The gap after 1D cannot have 
+                        contained anything but vowels, of which three notches remain. Having regard to the length of the space, the most likely restoration is IU. The remainder of the 
+                        inscription is quite clear: the final D is, and always was, the last letter on this side, but I have no suggestion to make as to the meaning of this part on the 
+                        inscription</q> (<ref type="bibliog" target="#MAC1945"
+                        ><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >13-14</biblScope></bibl></ref>). The final D on this angle is no longer discernible, pesumably due to the loss of the top corner of this angle at some 
+                        stage since Macalister's reading.  
+                        </p>   
+                       <p>The right hand angle (sinister) is relatively clear for the most part. However, the top third of the stone is heavily covered in lichen obscuring much of the inscription 
+                           after the LL of the second personal name. There is also what appears to be a fracture between the LL and final T, as noted by <ref type="bibliog"
+                               target="#MCM1986"><bibl><author>McManus</author> (<date when="1986"
+                                   >1986</date>, <biblScope type="pp">22</biblScope></bibl></ref>). </p>                    
+                               
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>Dexter angle: 
+                    <w>L<gap reason="lost" extent="unknown"></gap><unclear reason="damaged">GG</unclear><gap reason="lost" extent="unknown">
+                    </gap>SD<gap reason="lost" extent="unknown"></gap>LENG<unclear reason="damage">ES</unclear>C<unclear reason="damage">A</unclear><supplied reason="lost">D</supplied></w>
+                    
+                </ab><lb rend="up/up"/>
+                <ab>Sinister angle: 
+                    <w lemma="MAQI" type="formula">MAQ</w>
+                    <persName><w lemma="CORRBRI">CORRB<unclear reason="damaged">R</unclear>I</w></persName>  
+                    <w lemma="MAQI" type="formula">MAQ</w>
+                    <persName><w lemma="AMMLLONGITT?">AMMLL<unclear reason="damaged">ONG</unclear><supplied reason="lost">I</supplied><unclear reason="damaged">T</unclear>T</w></persName>                    
+                   </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>'... son of Coirpre son of Amalgaid'</ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                    <p><ref
+                        target="http://titus.fkidg1.uni-frankfurt.de/ogam/l/011/011x011l.jpg"
+                        >Photo from <ref type="bibliog" target="#MAC1914"
+                            ><bibl><author>Macalister</author>
+                                (<date when="1914">1914</date>, <biblScope type="pp"
+                                    >Pl. XV</biblScope></bibl></ref>)</ref> </p>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p><ref type="bibliog" target="#MAC1945"
+                        ><bibl><author>Macalister</author> 
+                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                >15</biblScope></bibl>)</ref> suggests that <q>the barony of Tirawley, where this stone stands, takes its name from the fifth-century 
+                        local king Amalgaid; as Amlongad is an early form of this name, and as the king had a son,Coirpre, it is quite likely 
+                        that this stone is actually a monument of a member of his family</q>. <ref type="bibliog" target="#MAC1909"
+                            ><bibl><author>MacNeill</author> 
+                                (<date when="1909">1909</date>, <biblScope type="pp"
+                                    >332</biblScope></bibl>)</ref> also, identified this name as - Amlongaid / Amolngaid, 
+                        king of Connacht, who died between 440 and 450. However, <ref type="bibliog"
+                            target="#MCM1991"><bibl><author>McManus</author> (<date when="1991"
+                                >1991</date>, <biblScope type="pp">53</biblScope></bibl></ref>) cautions that the condition of this stone 
+                        <q>is such as to leave some doubt as to its reading and its language would appear to be more than two generations removed from the mid-fifth century</q>.
+                        Apparantly syncopated CORRB*RI (indicated by asterisk, cf. CIIC 106 CORIBIRI) would suggest a <origDate notBefore="0570" notAfter="0630">late sixth or early seventh century</origDate> date (<ref type="bibliog"
+                                target="#MCM1991"><bibl><author>McManus</author> <date when="1991"
+                                    >1991</date>, <biblScope type="pp">96-7</biblScope></bibl></ref>).</p>
+                       </item>
+                                   </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Discovered lying in a field in the townland of 
+                                <placeName type="townland">Breastagh</placeName> and barony of
+                            <placeName type="barony">Tirawley</placeName>. (GPS coordinates
+                            <geo>-9.254148, 54.246617</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">Still standing in the field. <ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=MA015-018001-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered lying in a field in April 1874 by an English tourist, W.K. Dover, and brought to the attention of S. Ferguson, who subequently had it re-erected. </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="FER1874">
+                        <author>
+                            <surname>
+                            Ferguson</surname>, <forename>S.</forename> 
+                        </author> (<date>1874</date>): <title level="a">'On a Recently-Discovered Ogham Inscription 
+                            at Breastagh, in the County of Mayo'</title>, <title
+                                level="j"><hi rend="italic">PRIA</hi></title> <biblScope type="vol">15</biblScope>, 
+                        <biblScope type="pp">201-6</biblScope>. </bibl>
+                    <bibl xml:id="MAC1919">
+                        <author>
+                            <surname>Macalister</surname>, <forename>R. A. S.</forename>
+                        </author> (<date>1919</date>): <title level="a">'Notes on Some Ogham Inscriptions, including Two Recently Discovered'</title>, 
+                        <title level="j"><hi rend="italic">PRIA</hi></title>, <biblScope type="vol">34 C</biblScope>, <biblScope type="pp">pp 400-404</biblScope>. JSTOR, <ref
+                            target="http://www.jstor.org/stable/25504216">www.jstor.org/stable/25504216</ref></bibl> 
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                        <forename>R.A.S.</forename></author> (<date when="1945"
+                            >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum
+                            insularum Celticarum</hi></title>, <biblScope type="pp">pp 13-15</biblScope>.</bibl>
+                    <bibl xml:id="MAC1909">
+                        <author>
+                            <surname>MacNeill</surname>, <forename>E.</forename>
+                        </author> (<date>1909</date>): <title level="a">'Notes on the distribution,
+                            history, grammar, and import of the Irish Ogham inscriptions'</title>, <title
+                                level="j"><hi rend="italic">Proceedings of the Royal Irish Academy</hi></title>
+                        <biblScope type="vol">27</biblScope>, <biblScope type="pp">pp 329-370</biblScope>. </bibl>
+                    <bibl xml:id="MCM1986">
+                        <author>
+                            <surname>McManus</surname>, <forename>D.</forename>
+                        </author> (<date>1986</date>): <title level="a">'Ogam: archaizing, orthography
+                            and the authenticity of the manuscript key to the alphabet'</title>, <title
+                                level="j"><hi rend="italic">Ériu</hi></title>
+                        <biblScope type="vol">37</biblScope>, <biblScope type="pp">pp 1–31</biblScope>.</bibl>
+                        <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                            when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to
+                                ogam</hi></title>. <title level="s">Maynooth Monographs</title>
+                            <biblScope type="vol">4,</biblScope>
+                            <biblScope type="pp">pp 53, 96, 108, 125</biblScope>.</bibl>
+                                      
+
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="author">Gippert, J.</name> (<date when="2001"
+                            >2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer
+                                Text-und Sprachmateriale. TITUS OGAMICA.</hi></title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                    Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                       
+                                           </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

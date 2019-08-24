@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ratass</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D laser scanned using Artec Eva scanner on 6/8/2014 and later processed
+                        using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13 in <date>September 2014</date>
+                by <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"><placeName type="townland"
+                >Ratass</placeName></name>, Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE029-157002-"
+                >KE029-157002-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Probable early ecclesiastical site - Romanesque and earlier fabric/elements within the surviving church. 
+                        A cross-slab was also found here, which is possibly contemporary with the cross inscribed on the ogham stone
+                        (<ref type="bibliog" target="#FAN1977"
+                            ><bibl><author>Fanning and Ó Corráin</author>
+                                <date when="1977">1977</date>, <biblScope type="pp"
+                                    >15-6</biblScope></bibl></ref>). Additionally, the first edition Ordnance Survey map shows a 'curved townland
+                        boundary aligned on curved field boundaries to the east, west and north of the early church and associated graveyard' 
+                        suggesting a possible large (230x140m) early ecclesiastical enclosure around the site (see <ref
+                            target="https://www.academia.edu/4404127/A_Parable_of_Parabolas_Graveyards_with_Evidence_for_Early_Enclosure"
+                            >Connolly</ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p><rs type="material"/>Fine purple sandstone, 
+                        <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.45</measure>m x
+                            <measure unit="metre" type="length" rend="width">0.34</measure>m x
+                            <measure unit="metre" type="length" rend="depth">0.20</measure>m
+                            (<ref type="bibliog" target="#FAN1977"
+                                ><bibl><author>Fanning and Ó Corráin</author>
+                                    <date when="1977">1977</date>, <biblScope type="pp"
+                                        >14</biblScope></bibl></ref>). </rs>
+                    </p>
+                    <p><q>On the opposite broad face to the Ogham and placed at the wider end of the pillar stone [upside down in relation to the ogham inscription] 
+                        is a simple Latin <rs type="feature">cross</rs> composed of double grooves. 
+                        It has closed terminals except at the stem which is open-ended... It is also worthy of note that the dressing on the top of the ogham inscription 
+                        is similar to the pocking behind the cross</q> (<ref type="bibliog" target="#FAN1977"
+                            ><bibl><author>Fanning and Ó Corráin</author>
+                                <date when="1977">1977</date>, <biblScope type="pp"
+                                    >15</biblScope></bibl></ref>).</p>
+                     <p>Fanning also notes that the stone went through a phase of being used as <q>a sharpening stone for knives and other blades</q> 
+                        with areas of <q>smoothing and polishing together with quite deep scoring</q>.
+                         These cuts and marks on the stone are similar to those found on <ref target="search.php?ciic=206">CIIC 206. Kilcoolaght East I</ref>, Co. Kerry; 
+                         <ref target="search.php?ciic=Church_Island">Church Island</ref>, Co. Kerry (used for sharpening 'some broad bladed implement'); <ref target="search.php?ciic=19">CIIC 19. 
+                             Colbinstown I</ref>, Co. Kildare (described as 'a blade mark'); <ref target="search.php?ciic=57">CIIC 57. Greenhill I</ref>, 
+                        Co. Cork, where they have been described as '<rs type="feature">hone scores</rs>' and to another cut on <ref target="search.php?ciic=35">CIIC 35. Tullaherin</ref>, 
+                        which Macalister describes as 'an oblique mark of no importance' (see <ref type="bibliog"
+                            target="#NEW2009"><bibl><author>Newman</author>
+                                <date when="2009">2009</date>, <biblScope type="pp"
+                                    >433-4</biblScope></bibl></ref>). </p>
+                   
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>The edge of the stone <q>appears to have been deliberately dressed or shaped and the incisions are clean, regular and unweathered</q> (<ref type="bibliog" target="#FAN1977"
+                        ><bibl><author>Fanning and Ó Corráin</author>
+                            <date when="1977">1977</date>, <biblScope type="pp"
+                                >14</biblScope></bibl></ref>). Fanning suggests that an initial A (giving ANM) was likely <q>obliterated by the chipping and polishing which is very apparant 
+                                below the N at this end of the stone</q>. He also suggests that <q>it is possible that another final letter - an A or O giving a genitive form - could 
+                                    have been removed</q> from the top of the stone (<ref type="bibliog" target="#FAN1977"
+                                        ><bibl><author>Fanning and Ó Corráin</author>
+                                            <date when="1977">1977</date>, <biblScope type="pp"
+                                                >14-5</biblScope></bibl></ref>).</p>                             
+                               
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <w lemma="ANM" type="formula"><supplied reason="lost" cert="high">A</supplied>NM</w>
+                        <persName><w lemma="SILLANN">SILLANN</w></persName>
+                    <w lemma="MAQI" type="formula">MAQ</w>
+                    <persName><w lemma="VATTILLOGG">VATTILLOGG</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab><q>name/insciption of Sílán son of Fáithloga?</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>Ó Corráin (<ref type="bibliog" target="#FAN1977"
+                        ><bibl><author>Fanning and Ó Corráin</author>
+                            <date when="1977">1977</date>, <biblScope type="pp"
+                                >17</biblScope></bibl></ref>) identifies the commemorand as <hi rend="italic">Sílán mac Áedloga</hi> 
+                    m. Domungein of the Uí Angáin who, he suggests could be placed in the eight or early ninth century. 
+                        However, McManus has convincingly outlined why this identification is doubtful <ref type="bibliog" target="#MCM1945"
+                            >(<bibl><author>McManus</author>
+                                <date when="1945">1991</date>, <biblScope type="pp">71</biblScope></bibl>)</ref>. 
+                        <ref type="bibliog" target="#LAN2006"
+                            ><bibl><author>Lankford</author> 
+                                (<date when="2006">2006</date></bibl>)</ref> notes a possible reflex in the the genealogies: <hi rend="italic">Síl Faidloga</hi> (earlier <hi rend="italic">Fáithloga</hi>, *VATTI + *LUGO) 
+                        but if this is the same name then a final vowel must have been omitted in the inscription. However, considering that the second G is right at the top corner of the vertical angle, 
+                        it is possible that damage to the very top of the stone may have resulted in the loss of a notch or two.</p></item>
+                    <item n="2"><p>In this inscription all endings are lost, including in the formula word 
+                        (MAQ, earlier MAQ(Q)I) but syncope has not yet taken place (VATT<hi rend="bold">I</hi>LLOGG). This may 
+                        suggest a date of approximately the <origDate notBefore="0550" notAfter="0600">second half of the sixth century</origDate> (<ref type="bibliog"
+                            target="#MCM1991"><bibl><author>McManus</author> <date when="1991"
+                                >1991</date>, <biblScope type="pp">96-7</biblScope></bibl></ref>).</p></item>
+                </list>
+                
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">built into a nineteenth-century burial vault or tomb in the south-west corner of the church in the townland of
+                                <placeName type="townland">Ratass</placeName> and barony of
+                            <placeName type="barony">Trughanacmy</placeName>. (GPS coordinates
+                            <geo>-9.681883, 52.267049</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">On site inside the church ruin at Ratass where it [along with the cross-slab] has been attached to the wall with a metal bracket. <ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE029-157002-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered in 1975 during a routine clean-up of the interior of the ancient church at Ratass. 
+                    </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="FAN1977">
+                        <author>
+                            <surname>Fanning</surname>
+                            <forename>T.</forename>
+                        </author> and <author>
+                            <surname>Ó Corráin</surname>
+                            <forename>D.</forename>
+                        </author> (<date>1977</date>): <title level="a" xml:lang="en">'An Ogham stone and
+                            cross-slab from Ratass church, Tralee'</title>, <title level="j"
+                                xml:lang="en"><hi rend="italic">Journal of the Kerry Archaeological and Historial
+                                    Society</hi></title>
+                        <biblScope type="vol">10</biblScope>, <biblScope type="pp">pp 14-18</biblScope>. </bibl>
+                    <bibl xml:id="LAN2006"><author><surname>Lankford</surname>, C.</author> (<date
+                        when="2006">2006</date>): <title level="m"><hi rend="italic">Ogham Stones</hi></title>. <title level="s">Privately published</title>. 
+                        </bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to
+                            ogam</hi></title>. <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 71, 80, 96, 107, 117, 172</biblScope>.</bibl>
+                    <bibl xml:id="TOA1995"><author><surname>Toal</surname>,
+                        <forename>C.</forename></author> (<date when="1995"
+                            >1995</date>): <title level="m"><hi rend="italic">North Kerry Archaeological Survey</hi></title>, 
+                        <pubPlace>Dingle</pubPlace>,<biblScope type="pp">no.   
+                        </biblScope>.</bibl>                
+                </listBibl>
+                
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases/resources</head>
+                    <listBibl>
+                        <bibl><name type="author">Connolly, M.</name>: <title type="article">(online article) <ref
+                            target="https://www.academia.edu/4404127/A_Parable_of_Parabolas_Graveyards_with_Evidence_for_Early_Enclosure"
+                            >'A Parable of Parabolas: Graveyards with Evidence for Early Enclosure'</ref></title></bibl>
+                       <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                    Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=4773"
+                                >monasticon.celt.dias.ie</ref></bibl> 
+                       
+                                           </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

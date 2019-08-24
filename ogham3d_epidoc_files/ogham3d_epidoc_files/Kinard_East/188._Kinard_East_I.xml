@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 188. Kinard East</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>captured in 3d by the Corca Dhuibhne 3d community project (Kathleen Reen) in 2017 using photogrammetry and processed using Agisoft Photoscan. Technical assisstance and uploading to SketchFab by Discovery Programme</resp>
+                    <name>Kathleen Reen</name>
+                    <orgName>Corca Dhuibhne 3d</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>Feb 2018</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 188. <placeName type="townland"
+                >Kinard East</placeName></name> I (<hi rend="italic">CINN AIRD THOIR </hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053005-"
+                >KE053-053005-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>There are no longer any visible remains of the parish church of Kinard/<hi rend="italic">Teampall Chinn Aird</hi> (KE053-053001-) in the rectangular graveyard (KE053-053004-) known as <hi rend="italic">Cinn Aird an Teampaill</hi>.
+                        The presence of two ogham stones (see also <ref
+                            target="search.php?ciic=189"
+                            >CIIC 189</ref>) and a bullaun stone at the site suggests that it is probably an early ecclesiastical site. 
+                        The surrounding district is known locally as <hi rend="italic">Tearmann Fhíonáin</hi>, from the patron saint of the Parish on whose feast-day a pattern was formerly held at the site (OSL; An Seabhac 1939, 150)
+                       (<ref target="#CUP1986"
+                           ><bibl><author>Cuppage</author> et al, <biblScope type="pp"
+                               >no. 863</biblScope></bibl></ref>). </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><q>Pulvinar of grit</q><rs type="dimensions">, 
+                            <measure unit="metre" type="length" rend="height">1.80</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.53</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.28</measure>m
+                            <lb/> (converted from <ref type="bibliog" target="#MAC1945"
+                                    ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >182</biblScope></bibl></ref>) </rs>
+                    </p>
+                    <p>On the east face of the stone is <q>an unusual <rs type="feature">cross</rs> inscription consisting of a rectangular outline divided into four roughly equal parts, 
+                        the upper quadrants being similarly subdivided. The small rude cross which <ref type="bibliog" target="#Bra1879"
+                            ><bibl><author>Brash</author> 
+                                (<date when="1879">1879</date>, <biblScope type="pp"
+                                    >217</biblScope></bibl>)</ref> noted below the main design is now buried</q> 
+                         (<ref type="bibliog"
+                            target="#CUP1986"><bibl><author>Cuppage</author>
+                            <date when="1986">1986</date>, <biblScope type="pp"
+                            >328</biblScope></bibl></ref>). </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up on the south east side of the stone and in good condition. The initial MA is now below ground level (see sketch below from  
+                        <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                >182</biblScope></bibl>)</ref>. 
+                    </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/> 
+                    <persName><w lemma="MARIANI"><supplied reason="subaudible">MA</supplied>RIANI</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab><q>of Marianus</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>This is one of the inscriptions listed by <ref type="bibliog"
+                        target="#MCM1991"><bibl><author>McManus</author> (<date when="1945"
+                            >1991</date>, <biblScope type="pp"
+                                >93-4</biblScope></bibl>)</ref> to be among the earliest in the corpus showing no trace of vowel affection. It may be dated to the <origDate notBefore="0400" notAfter="0470">first half, or the early second half, 
+                                    of the fifth century</origDate> 
+                        (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author><date when="1991">1991</date>, <biblScope type="pp"
+                            >97</biblScope></bibl>)</ref>                        
+                       </p></item>
+                    <item n="2"><p>MARIANI is an example of a genitive form of a Latin name, <persName xml:lang="la">Marianus</persName>,
+                        also found on <ref
+                            target="search.php?ciic=16"
+                            >CIIC 16</ref>
+                            <placeName type="findspot">Rathglass</placeName>,
+                        Co. <placeName type="county">Carlow</placeName> <ref type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
+                            <date when="1991">1991</date>, <biblScope type="pp"
+                                >113</biblScope></bibl>)</ref>.</p></item>
+                    </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Found in its current location in the graveyard in the townland of <placeName
+                                type="townland">Kinard East</placeName> and barony of <placeName
+                                type="barony">Corkaguiney</placeName>. (GPS coordinates
+                            <geo>-10.196581, 52.126196</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">In the west side of the graveyard, upright and half buried. The present location
+                            of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053005-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p><ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author> 
+                        (<date when="1945">1945</date>, <biblScope type="pp"
+                            >182</biblScope></bibl>)</ref> cites C. Graves as the first recorder of the stone in 1849. 
+                    It was last recorded in 2017 by Kathleen Reen, a participant on the Corca Dhuibhne 3d project, using Structure from Motion 3d technology and processed using Agisoft Photoscan (see 3D view tab).</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                        the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">21</biblScope>. </bibl>
+                    <bibl xml:id="BRA1879"><author><surname>Brash</surname>,
+                        <forename>R.R.</forename></author> (<date when="1879">1879</date>):
+                        <title level="m"><hi rend="italic">The Ogam inscribed monuments of the Gaedhilin the
+                            British Isles</hi>.</title>
+                        <pubPlace>London</pubPlace>, <biblScope>pp 217-8</biblScope>.</bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                            >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey of the
+                                <placeName>Dingle Peninsula</placeName></hi></title>.
+                        <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">no. 863</biblScope>.</bibl>
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">p. 181-2</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 93-4, 97, 113</biblScope>.</bibl>
+                   <bibl xml:id="SWI1997">
+                        <author>
+                            <surname>Swift</surname>, <forename>C.</forename>
+                        </author> (<date>1997</date>): <title level="m"><hi rend="italic">Ogam Stones and the Earliest
+                            Irish Christians</hi></title>. <pubPlace>Maynooth</pubPlace>, <biblScope type="pp">pp 91-6</biblScope>. </bibl>
+
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project">Corca Dhuibhne 3d</name>: <ref
+                            target="http://www.corcadhuibhne3d.ie/marianus.php">www.corcadhuibhne3d.ie</ref></bibl>
+                       
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=2454"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

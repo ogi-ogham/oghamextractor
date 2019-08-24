@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 241. Kilbonane</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                    <resp>3D laser scanned on 23/07/2015 using Artec Eva and processed using Geomagic software.</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US">
+                        <p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>July 2015</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 241. <placeName type="townland">Kilbonane</placeName></name>, Co. <placeName type="county"
+                    >Kerry</placeName></head>
+            <ab>
+                <rs>National Monuments Service Record Number: <ref
+                    target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-078002-"
+                    >KE057-078002-</ref>
+                </rs>
+            </ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Kilbonane church (KE057-078001-) graveyard (KE057-078003-) in pasture, on level ground, overlooking the valley of the Laune River to the S. The overgrown ruins of a rectangular church (21.4m E-W; 8m N-S). 
+                        The walls (H c. 4m; T 1m) are of rubble sandstone bonded with lime mortar. The church is entered through a pointed door ope at the W end of the S wall.                        
+                        This was the parish church of Kilbonane, recorded in 1841 as 'the church of Saint Benignus' (OSL, 196-7). According to local tradition, the church was thatched and burnt by the Cromwellian troops (ITA). The Minutes of the 
+                        CKFC records a belfry on top of the W gable and at the E end the 'south wall projects and widens showing what appears to be a souterrain leading under it'. The SE corner of the church has collapsed outwards, depositing a
+                        mound of rubble which obscures an area up to 4m outside the SE corner. There are no visible remains of the possible souterrain (KE057-078004-). The ogham stone formerly in the vault at the E end of the church 
+                        has been moved to Coolmagort, Beaufort (<ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-078001-"
+                            >Extract from ASI database, 
+                            www.archaeology.ie</ref>). </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/> 
+                            <rs type="dimensions">
+                                <measure unit="metre" type="length" rend="height">1.91</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.41</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.18</measure>m
+                                <lb/> (converted from <ref type="bibliog" target="#BRA1879"
+                                ><bibl><author>Brash</author> <date when="1879"
+                                    >1879</date>, <biblScope>234</biblScope></bibl></ref>). </rs>
+                        The stone was broken across the centre in its original location covering a vault beneath the E window inside the church ruin at Kilbonane (<ref type="bibliog" target="#BRA1879"
+                            ><bibl><author>Brash</author> <date when="1879"
+                                >1879</date>, <biblScope>234</biblScope></bibl></ref>). It is now upright (though up-side-down in comparison to Macalister's drawing) and supported by a concrete pillar in the enclosure at Coolmagort.
+                          </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    
+                    <p>Vertical, up, on two angles and up-up on the face, apparantly three separate inscriptions 
+                        (<ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >235-7</biblScope></bibl></ref>; see <ref
+                                    target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                    >Gippert</ref> for details of readings by others). There is quite a lot of damage to vowels on the angles. The inscription on the face is relatively easy to read but very difficult to interpret, 
+                        except for the last 8 letters, which appear to spell the name BAIDAGNI. This name may also occur in the inscription on the dexter angle. Although only B[...]AGNI remains, the space left 
+                        would accomodate -AID- as suggested by <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                >235</biblScope></bibl>)</ref>. The face inscription also contains some unidentifiable characters following NIR, described by Macalister as <q>short strokes being V-like zigzags 
+                                turned sideways, the long [2nd] stroke a similar W-like zigzag</q>. However, the first of the shorter characters is more C-shaped (see detailed image, which is up-side-down in comparison 
+                        to Macalister's sketch <ref type="bibliog" target="#MAC1945"><bibl> 
+                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                >235</biblScope></bibl>)</ref>, giving the appearance of a human-like representation).</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>Dexter angle:  
+                    <persName><w lemma="B[AID]AGNI">B<supplied reason="lost" cert="low">AID</supplied>AGN<unclear reason="damage">I</unclear></w></persName>
+                    <w lemma="MAQI" type="formula"><unclear reason="damae">M</unclear>A<unclear reason="damae">Q</unclear>I</w>
+                    <persName><w lemma="ADDILONA">ADD<unclear reason="damage">I</unclear>LONA</w></persName></ab><lb rend="up/up"/>
+                <ab>Sinister angle: 
+                    <persName><w lemma="NAG[U]N[I]">NAG<unclear reason="damage">U</unclear>N<supplied reason="lost" cert="low">I</supplied></w></persName>
+                    <w lemma="MUCO?" type="formula">M<supplied reason="lost" cert="low">U</supplied><unclear reason="damage">C</unclear><supplied reason="lost" cert="low">O</supplied></w>
+                    <persName><w lemma="B[AI]D[A]N[I]">B<supplied reason="lost" cert="low">AI</supplied>D<supplied reason="lost" cert="high">A</supplied>N<supplied reason="lost" cert="low">I</supplied></w></persName>   
+                </ab>
+                <ab>Face of stone:
+                    <w>NIR<g>[???]</g>M<unclear reason="damage">N</unclear><supplied reason="lost">I</supplied>DAGNIESSICONIDDALA</w>/
+                    <w>AMIT</w> <w>BAIDAGNI</w></ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>
+                    <q>of Báetán son of A.</q>
+                </ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>MacNeill <ref type="bibliog"
+                        target="#MAC1931"><bibl>(<date when="1931"
+                            >1931</date>, <biblScope type="pp"
+                                >51</biblScope></bibl>)</ref> sugested an identification of ADDILONA with a mid-sixth-century <hi rend="italic">Siadliu</hi>, son of <hi rend="italic">Ferb</hi> and greatgrandfather of <hi rend="italic">Mo Chutu</hi>. 
+                        However, <ref type="bibliog"
+                            target="#MCM1991"><bibl><author>McManus</author> (<date when="1991"
+                                >1991</date>, <biblScope type="pp"
+                                    >172, note 25</biblScope></bibl>)</ref> pointed out that <q>the Kilbonane stone (241) presents a number of difficulties which MacNeill attempted to solve in his discussion ... Bergin  <ref type="bibliog"
+                                        target="#BER1932"><bibl>(<date when="1932"
+                                            >1932</date>, <biblScope type="pp"
+                                                >107-11</biblScope></bibl>)</ref> rejected most of MacNeill's proposals including his 
+                                        explanation of ADDILONA, pointing out that *<hi rend="italic">Saidliu</hi> is a phantom, the correct form of the name, in the genitive, being <hi rend="italic">Saiglenn</hi> with -g- not -d-. The loss of an initial S on the inscription would be exceptional</q>.</p></item>
+                        
+                        <item n="1"><p>In Macalister's view <ref type="bibliog" target="#MAC1945"><bibl> 
+                        (<date when="1945">1945</date>, <biblScope type="pp"
+                            >237</biblScope></bibl>)</ref>, <q>the only reasonable interpretation for this inscription [on the face of the stone] so far offered is that of Prof. MacNeill <ref type="bibliog"
+                                target="#MAC1931"><bibl>(<date when="1931"
+                                    >1931</date>, <biblScope type="pp"
+                                        >53</biblScope></bibl>)</ref> (who reads the cryptical letters ABBA - <hi rend="italic">Ni raba amne dagni essi conidd ala amit 
+                                            Baidagni</hi>: `let it not be thus he makes it, but let him compose it thus, `Baidagni'</q>. This interpretation was also rejected by Bergin <ref type="bibliog"
+                                                target="#BER1932"><bibl>(<date when="1932"
+                                                    >1932</date>, <biblScope type="pp"
+                                                        >110</biblScope></bibl>)</ref> (see <ref
+                                                            target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                                            >Gippert</ref>, CIIC 241, for details of these discussions). 
+                         </p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">covering a vault beneath the E window inside the church ruin at <placeName
+                            type="townland">Kilbonane</placeName> in the barony of <placeName
+                                type="barony">Magunihy</placeName> (<ref type="bibliog" target="#BRA1879"
+                                        ><bibl><author>Brash</author> <date when="1879"
+                                            >1879</date>, <biblScope>234</biblScope></bibl></ref>) (GPS coordinates
+                            <geo>-9.668483, 52.084366</geo>). </rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">In a small modern enclosure in <placeName
+                            type="townland">Coolmagort</placeName> (together with the seven stones from a souterrain in that townland) near the entrance to the Gap of Dunloe. 
+                            The present location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078009-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-9.634923, 52.06042</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Reported to have been discovered by R. Hitchcock and visited by Brash in August 1869 (<ref type="bibliog" target="#BRA1879"
+                    ><bibl><author>Brash</author> <date when="1879"
+                        >1879</date>, <biblScope>234</biblScope></bibl></ref>). By the time of <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                >235</biblScope></bibl>)</ref> the stone had been moved to Coolmagort. <ref
+                                    target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                    >Gippert</ref> noted that <q>it was lying prostrate when the site was visited in 1978 and 1981, 
+                                    but had been erected leaning against a concrete pillar before 1998</q>.
+                    </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BER1932">
+                        <author>
+                            <surname>Bergin</surname>
+                            <forename>O.</forename>
+                        </author> (<date>1932</date>): <title level="a" xml:lang="en">'On the Kilbonane
+                            Ogams'</title>, <title level="j" xml:lang="ga"><hi rend="italic">Ériu</hi></title>
+                        <biblScope type="vol">11</biblScope>, <biblScope type="pp">pp 107-11</biblScope>. </bibl>
+                    <bibl xml:id="BRA1879">
+                        <author>
+                            <surname>Brash</surname>
+                            <forename>R. R.</forename>
+                        </author> (<date>1879</date>): <title level="m" xml:lang="en"><hi rend="italic">The Ogam Inscribed
+                            Monuments of the Gaedhil in the British Isles</hi></title>,
+                        <biblScope type="pp">p. 234</biblScope>. </bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                        <forename>R.A.S.</forename></author> (<date when="1945"
+                            >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                                Celticarum</hi></title>, <biblScope type="pp">pp
+                                235-7</biblScope>.</bibl>
+                    <bibl xml:id="MAC1931">
+                        <author>
+                            <surname>MacNeill</surname>, <forename>E.</forename>
+                        </author> (<date>1931</date>): <title level="a">'Archaisms in the Ogham
+                            inscriptions'</title>, <title level="j"><hi rend="italic">PRIA</hi></title>
+                        <biblScope type="vol">39</biblScope>, <biblScope type="pp"
+                            >pp 33-53</biblScope>.</bibl>
+                   <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                        <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 65, 102</biblScope>.</bibl>
+                                       
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date
+                            when="2001">2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. TITUS OGAMICA</hi>.</title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/frame</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=4025"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

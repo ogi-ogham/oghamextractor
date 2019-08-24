@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 145. Arraglen</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D laser scanned using Artec Eva scanner on 19/6/2013 and later processed
+                        using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13 in <date>June 2013</date>
+                by <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 145. <placeName type="townland"
+                    >Arraglen</placeName></name> (<hi rend="italic">AIRGHLEANN</hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                        target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE025-002001-"
+                        >KE025-002001-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Unassociated</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>This ogham stone <q>stands in the elevated and exposed gap between
+                            Masatiompan and the steep N slopes of Brandon mountain, and commands a
+                            dramatic view to both sides of the mountain range</q> (<ref
+                            type="bibliog" target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                >248</biblScope></bibl></ref>). On the Mount Brandon pilgrimage
+                        route.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/>Sandstone<rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.91</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.38</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.20</measure>m
+                            <lb/> (Converted from <ref type="bibliog" target="#MAC1945"
+                                        ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >140</biblScope></bibl></ref>). Note: 1.67m in height above
+                            ground (Fionnbarr Moore).</rs></p>
+                       <p><q>Both faces are inscribed with crosses and there appears to have been some
+                            dressing of the stone to prepare surfaces for the carvings. One face
+                            bears a Maltese <rs type="feature">cross</rs> with a hook-like expansion at the right side of
+                            the upper arm: this is a monogram form of the chi-rho symbol. The
+                            opposite face bears a Maltese <rs type="feature">cross</rs> within a circle; the lower arm is
+                            linked to the circle by a short, straight stem</q> (<ref type="bibliog"
+                            target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                >248</biblScope></bibl></ref>). <ref type="bibliog"
+                            target="#MCM1991"><bibl><author>McManus</author> (<date when="1991"
+                                    >1991</date>, <biblScope type="pp"/>172</bibl></ref>) notes that
+                        this ogham stone is <q>discussed by Henry (1937, 276 and 1940, 29), where it
+                            is described an an imitation of the Brito-Roman type of funerary
+                            monument</q>. </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up-top-down, <q>in <rs type="execution">pocked</rs> scores, now rather worn...The turn of the angle has
+                            confused him [the carver], so that on the sinister edge he has inverted
+                            the side-scores</q> (<ref type="bibliog" target="#MAC1945"
+                                    ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >141</biblScope></bibl></ref>) giving MAN SOMOGAQQ where presumably MAQ COMOGANN was intended. <q>The top right hand corner is
+                            damaged and the AN recorded by Macalister is unclear as is the Q further
+                            down the same edge. Otherwise the scores are clearly legible</q> (<ref
+                            type="bibliog" target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                />248</bibl></ref>). This reading was confirmed on inspection of the 3d data. 
+                        Regarding the unclear penultimate N of RONANN, two of the five scores are visible on the 3d model. Nothing remains of the preceding A. 
+                        Extra space has been left between initial word QRIMITIR and the following name RONAN, which may be taken as an example of word division in ogham.
+                        This phenomonen is found elsewhere in the ogham corpus (e.g. CIIC 229 Cunburrin, Co. Kerry  and <ref
+                            target="search.php?ciic=118"
+                            >CIIC 118</ref> Monataggart I, Co. Cork). However, in this case it could just as easily be an example 
+                        of letter division, distinguishing the final R of QRIMITIR and the initial R of RONAN. The use of space in ogham to distinguish letters and words has been discussed by <ref
+                            type="bibliog" target="#MOF2011"><bibl><author>Moffat</author> (<date
+                                when="2011">2011</date>, <biblScope type="pp"
+                                    >290</biblScope></bibl>)</ref>
+               </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <w>QRIMITIR</w><space></space>
+                    <persName><w lemma="RONANN">RO/<unclear reason="damaged"
+                        >N</unclear><supplied reason="lost">A</supplied>/<corr><unclear reason="damaged"
+                        >N</unclear>N</corr></w></persName>
+                    <w lemma="MAQI" type="formula"><corr>MA<unclear reason="worn">Q</unclear></corr></w>
+                    <persName><w lemma="COMOGANN"><corr cert="high">COMOGANN</corr></w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab><q>of the priest Rónán son of Comgán</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>Macalister's claims of evidence of Christianisation of this ogham
+                            stone are rightly argued against by <ref type="bibliog"
+                                target="#MCM1991"><bibl><author>McManus</author> 
+                                    (<date when="1991">1991</date>, <biblScope type="pp"
+                                        >56-7</biblScope></bibl>)</ref>. <ref type="bibliog"
+                                target="#MCM1991"><bibl><author>McManus</author> (<date when="1991"
+                                        >1991</date>, <biblScope type="pp">91,
+                                    117</biblScope></bibl>)</ref> also points out that <q>genitive forms
+                                often have the appearance of nominatives and Macalister was mislead
+                                by this in the case of [this ogham stone], which he
+                                described as a (Christian) `signature' as opposed to a (pagan)
+                                `epitaph'. Here RONANN, MAQ and COMOGANN have the deceptive
+                                appearance of nominatives but QRIMITIR with -IR, not -ER, is quite
+                                clearly genitive</q>.
+                    </p></item>
+                    <item n="2"><p>The personal names RONANN and COMOGANN come from <hi rend="italic">rón
+                    </hi> 'seal' and <hi rend="italic">com</hi>- `with' + <hi rend="italic">ag</hi> 'leads' 
+                        (Gailsh <hi rend="italic">Comagus</hi>) (<ref type="bibliog"
+                            target="#MCM1991"><bibl><author>McManus</author> <date when="1991"
+                                >1991</date>, <biblScope type="pp">107</biblScope></bibl></ref>) 
+                        and both ending with a late form of the diminutive suffix 
+                        -<hi rend="italic">AN(N)</hi> (earlier -<hi rend="italic">AGNI</hi>).</p></item>
+                    <item n="3"><p>In this inscription all endings are lost, including in the formula word 
+                        (MAQ, earlier MAQ(Q)I) but syncope has not yet taken place. This linguistic evidnece 
+                        suggests a date of approximately the <origDate notBefore="0550" notAfter="0600">second half of the sixth century</origDate> (<ref type="bibliog"
+                            target="#MCM1991"><bibl><author>McManus</author> <date when="1991"
+                                >1991</date>, <biblScope type="pp">96-7</biblScope></bibl></ref>).</p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">the stone was found upright on <placeName type="findspot">Mt Brandon</placeName> but
+                            buried in peat up to within 2 feet of the top (<ref type="bibliog"
+                                target="#MAC1945"><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >141</biblScope></bibl></ref>) in the townland of
+                                <placeName type="townland">Arraglen</placeName> and barony of
+                            <placeName type="barony">Corkaguiney</placeName>. (GPS coordinates <geo>-10.249772, 52.257546</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">Re-erected in 1980s just a few meters from find spot (personal comment from Fionnbarr Moore) on <placeName type="findspot">Mount Brandon</placeName>.
+                            The present location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE025-002001-"
+                                >National Monuments Service Historic Environment viewer on
+                            www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered by Hitchcock in 1840s <ref type="bibliog" target="#MAC1945"
+                                >(<bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                            >141</biblScope></bibl>)</ref>.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 29</biblScope>. </bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                            >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey
+                                of the <placeName>Dingle Peninsula</placeName></hi></title>.
+                            <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">pp 248-50
+                        </biblScope>.</bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                        >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum
+                                insularum Celticarum</hi></title>, <biblScope type="pp">pp 140-1
+                        </biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                            when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to
+                                ogam</hi></title>. <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 56-57, 65, 78, 89, 90, 91, 96, 107, 117, 118</biblScope>.</bibl>
+
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                    Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                                           </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 97. Ballyhank I</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+               
+                <respStmt>
+                     <resp>Scanned on 13/5/2016 using Artec Eva, structured-light scanner and processed using Geomagic software</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>The Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is
+                            licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>May 2016</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 97. <placeName type="townland">Ballyhank</placeName> 
+                    I</name>, Co. <placeName type="county">Cork</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067003-"
+                >CO085-067003-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Souterrain</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>A souterrain (CO085-067002-) in the SW quadrant of a ringfort (CO085-067001-). 
+                        <q>The souterrain was a passage 52' long, in three sections, 18', 16' and 18'
+                            long respectively, on a slight zig-zag plan and with no expansion at
+                            either end</q>
+                        <ref type="bibliog" target="#MAC1945"><bibl>(<author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >92-3</biblScope></bibl>)</ref>.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>1 of 6 Ogam stones re-used in the construction of a souterrain. The top of a broken stone.
+                        <rs type="material"></rs>
+                        <ref type="bibliog" target="#MAC1945"><bibl>(<author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >93</biblScope></bibl>)</ref>. <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">0.60</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.30</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.10</measure>m
+                                <ref type="bibliog" target="#POW1997">(<bibl><author>Power</author> 
+                                    et al <date when="1997">1997</date>, <biblScope type="pp"
+                                        >165</biblScope></bibl>)</ref></rs>
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Inscription in minute scores, like rather straggling <rs type="execution">knife-cuts</rs>, on two angles, up-top-down...
+                        This inscription is a palimpsest</q> <ref type="bibliog" target="#MAC1945"
+                                    >(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >93</biblScope></bibl>)</ref>. On the opposite angle <ref type="bibliog" target="#MAC1945"
+                                        ><bibl><author>Macalister</author> 
+                                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                                >93-4</biblScope></bibl>)</ref> described what he considered to be a copy of the original inscription on the stone (DIOBI), overwritten by the --LL MAQI VORRTIGURN. 
+                        This 'copy' <q>...has been scratched in minute pin-scrapes on the unoccupied part of the second inscribed angle, perhaps by the representatives of the earlier owner. 
+                        Of the original text, the initial DI is broken off, but can be restored from the later copy; the O remains, its notches flanking the proximal ends of the 1L; B is a thin scratch 
+                        between the L's: 2I<hi rend="superscript">1</hi> is at the proximal end of 2L; 2I<hi rend="superscript">2</hi> is between the scores of 2L; 2I<hi rend="superscript">3</hi> was in a (now broken) 
+                            place before the M; 2I<hi rend="superscript">4</hi> is extinguished by the M; and 2I<hi rend="superscript">5</hi> is between the 
+                        M and the A, inducing Brash's misreading MOQI. The restoration of the name is legible on the second angle, but of the second I, the first notch alone remains clear: the remaining 
+                        notches of this letter are rubbed, and are traceable only with difficulty</q>. While this earlier inscription suggested by Macalister is possible, it is far from certain.</p> 
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/><w><gap reason="lost" extent="unknown"></gap>LL</w>
+                    <w lemma="MAQI" type="formula">MAQI</w>
+                    <persName><w lemma="VORRTIGURN">VORR/TIGU<unclear reason="damage">R</unclear>/N</w></persName>
+                    </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>... son of Foirtchern</q></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>The name VORRTIGURN is a compound of OIr <hi rend="italic">for</hi> 'on, over' and Welsh <hi rend="italic">Gwrtheyrn</hi> (OIr <hi rend="italic">tigern</hi>)  'lord'  
+                        <ref type="bibliog" target="#MCM1991">(<bibl><author>McManus</author> <date when="1991">1991</date>, <biblScope type="pp"
+                            >105</biblScope></bibl>)</ref> and is also found in an inscription at Knockboy, Co. Waterford (<ref target="search.php?ciic=297">CIIC 297</ref>). In both instances the 
+                        ending -GURN appears in place of an expected -GERN <ref type="bibliog" target="#MCM1991">(<bibl><author>McManus</author> <date when="1991">1991</date>, <biblScope type="pp"
+                                >7</biblScope></bibl>)</ref> </p></item>
+                                    </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">In souterrain with 5 other Ogam stones in <placeName
+                                type="townland">Ballyhank</placeName>, barony of <placeName
+                                type="barony">East Muskerry</placeName>. (GPS coordinates
+                                <geo>-8.609923,51.831600</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation"><orgName>National Museum of Ireland</orgName> (<idno>NMI Ref. W.2, 2195?</idno>), 
+                                <placeName type="county">Dublin</placeName>. The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-371----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                                <geo>-6.254558,53.340408</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered by <placeName type="county">Cork</placeName> antiquaries <persName
+                        type="surname">Windele</persName>, <persName type="surname">Abell</persName>
+                    and <persName type="surname">Hawkes</persName> in <date when="1846">1846</date>.
+                        <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                                (<date when="1945">1945</date>, <biblScope type="pp"
+                                >92-3</biblScope></bibl>)</ref> records the removal of all ogham
+                    stones from their original location in the Ballyhank souterrain, <q>one of these
+                        was purchased from the local farmer by F. M. Jennings in 1846, and presented
+                        by him to the Royal Irish Academy (PRIA 3: 213, without any statement of
+                        provenance): in 1849 Windele removed the remaining stones to his own
+                        residence</q>. All six were later re-united in the National Museum of Ireland collection.
+                </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 92-4</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>,
+                                <forename>D.</forename></author> (<date when="1991">1991</date>):
+                        <title level="m"><hi rend="italic">A guide to Ogam</hi></title>.
+                        <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4</biblScope>, <biblScope type="pp">pp 7, 105</biblScope>.</bibl>
+                    <bibl xml:id="POW1997"><author><surname>Power</surname>,
+                            <forename>D.</forename></author> et al (<date when="1997">1997</date>):
+                        <title level="m"><hi rend="italic">Archaeological Inventory of County <placeName
+                                type="county">Cork</placeName>. Volume 3: <placeName type="region"
+                                >Mid Cork</placeName></hi></title>. <pubPlace>Dublin</pubPlace>,
+                            <biblScope type="pp">p. 165</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                       
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project</hi>)</name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

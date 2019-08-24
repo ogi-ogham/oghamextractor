@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 147. Ballineesteenigh</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>captured by the Corca Dhuibhne 3d community project (Kathleen Reen) in 2017 using photogrammetry and processed by Discovery Programme using Agisoft Photoscan</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>June 2018</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 147. <placeName type="findspot"
+                >Ballineesteenigh</placeName></name> (<hi rend="italic">BAILE AN ÍSTÍNIGH</hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-248----"
+                >KE043-248----</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Unassociated</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>This ogham stone was discovered upright in the middle of Ballineesteenigh village, less than 50m east of the site of a ringfort (KE043-247----). There is also holy well, Tobermartin/<hi rend="italic">Tobar Mártain</hi> (KE043-246----),   
+                        approximately 100m to the north                         
+                        (<ref type="bibliog"
+                            target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                    >250</biblScope></bibl></ref>; <ref
+                                        target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-248----">www.archaeology.ie</ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><q>Sandstone pulvinar</q>,<rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.93</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.33</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.36</measure>m
+                                        <lb/> (Converted from <ref type="bibliog" target="#MAC1945"
+                                            ><bibl><author>Macalister</author>
+                                                <date when="1945">1945</date>, <biblScope type="pp"
+                                                    >143</biblScope></bibl></ref>).</rs>  
+                        The stone is broken in two and partially flaked away on one side (<ref type="bibliog" target="#MAC1945"
+                                                        ><bibl><author>Macalister</author>
+                                                            <date when="1945">1945</date>, <biblScope type="pp"
+                                                                >142-3</biblScope></bibl></ref>). There is also a small plain <rs type="feature">cross</rs> on the opposite side of the stone to the inscription.
+                    </p>
+                    
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Inscription worn, but quite legible, in one line...The fracture crosses E3, in consequence of which this letter has previously been read U </q> <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                        (<date when="1945">1945</date>, <biblScope type="pp"
+                            >143</biblScope></bibl></ref>). There is no trace of a final -A in the father's name.
+                        </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <persName><w lemma="MOINENA">MOIN<unclear reason="damaged">E</unclear>NA</w></persName>
+                    <w lemma="MAQI" type="formula">MAQI</w>
+                    <persName><w lemma="OLACON">OLACON</w></persName>
+                </ab>
+               
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>'Of M son of Olchú'</ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list>
+                <item n="1"><p>This is one of the inscriptions listed by <ref type="bibliog"
+                    target="#MCM1991"><bibl><author>McManus</author> (<date when="1991"
+                        >1991</date>, <biblScope type="pp">94</biblScope></bibl>)</ref> in
+                    which apocope (loss of final consonants or syllables) begins to show
+                    itself (MOINENA (earlier -AS), OLACON (earlier -AS)). This suggests that it may be dated to the 
+                    <origDate notBefore="0500" notAfter="0550">first half of the sixth century</origDate> 
+                    <ref type="bibliog"
+                        target="#MCM1991">(<bibl><author>McManus</author> <date when="1991"
+                            >1991</date>, <biblScope type="pp">97</biblScope></bibl>)</ref>.</p></item>
+                    <item n="2"><p>The persosnal name OLACON(AS) is a compound of OL-, possibly OIr. <hi rend="italic">oll</hi> 'great, ample' (ogham L can represent L or LL), and -CONAS 'dog, hound, wolf' <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author>
+                                <date when="1991">1991</date>, <biblScope type="pp">102, 177 (n.7)</biblScope></bibl>)</ref>. </p></item>   
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">When first discovered, this ogham stone stood upright and in tact in the middle of Ballineesteenig village (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >142</biblScope></bibl></ref>), in the townland of <placeName type="townland">Ballineesteenigh</placeName> and barony of <placeName
+                                type="barony">Corkaguiney</placeName>. (GPS coordinates
+                            <geo>-10.204740, 52.140119</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">In the late 19th century this stone was moved by Lord Ventry to the grounds of Burnham House (now Coláiste Íde), between Dingle and Ventry, where it remains today. 
+                            The present location of this stone may be accessed via the <ref target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-012009-">National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates<geo>-10.306267, 52.126711</geo>) </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered in 1790 by Henry Pelham (<hi rend="italic">Collectanea de Rebus Hibernicis</hi> 6, 226). <q>Sometime before 1804 it was broken into two pieces, and part of the back of the stone was flaked away, as the result of kindling a fire against it. 
+                    When Brash saw it [1868], it was still on or near its original site</q>, where the pieces served various purposes around the farm prior to their removal to Burnham House <ref type="bibliog" target="#MAC1945"
+                            >(<bibl><author>Macalister</author>
+                        <date when="1945">1945</date>, <biblScope type="pp"
+                            >142</biblScope></bibl>)</ref>. This stone was recorded for the Ogham in 3D project in 2017 by Kathleen Reen, a participant on the Corca Dhuibhne 3d project, using Structure from Motion 3d technology.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">pp 7-8</biblScope>. </bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                            >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey of the
+                                <placeName>Dingle Peninsula</placeName></hi></title>.
+                            <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">pp 
+                            250</biblScope>.</bibl>
+                   
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 142-4</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">p. 94, 97, 102, 116, 121, 177</biblScope>.</bibl>                                       
+                    
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project">Corca Dhuibhne 3d</name>: <ref
+                            target="http://www.corcadhuibhne3d.ie/ballineesteenigh.php">www.corcadhuibhne3d.ie</ref></bibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date
+                            when="2001">2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. TITUS OGAMICA</hi>.</title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/frame</ref></bibl> 
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

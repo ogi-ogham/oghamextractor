@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 173. Brackloon</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>captured by the Corca Dhuibhne 3d community project (Isabel Bennett) in 2017 using photogrammetry and processed using Agisoft Photoscan. Technical assisstance and uploading to SketchFab by Discovery Programme</resp>
+                    <name>Isabel Bennett</name>
+                    <orgName>Corca Dhuibhne 3d</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>Oct 2018</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 173. <placeName type="findspot"
+                >Brackloon</placeName></name>, Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-081002-"
+                >KE045-081002-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Possible souterrain in ringfort/rath</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>It is possible that the univallate rath (KE045-081----) situated at the base of Knockafeehane mountain was the find-place of the Brackloon ogham stone 
+                        though the evidence is not altogether clear (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >166-7</biblScope></bibl></ref>; <ref type="bibliog"
+                            target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                    >124</biblScope></bibl></ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>A fragment of an ogham stone, possibly from the lost Brackloon stone,  
+                        <rs type="material"/><rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height"></measure>0.39m x
+                                <measure unit="metre" type="length" rend="width"></measure>0.23m x
+                                <measure unit="metre" type="length" rend="depth"></measure>0.08m
+                            <lb/>. (Photograph courtesy of Siobhán Dempsey, Latitude Photography) </rs>
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>The inscription appears to be <rs type="execution">pocked</rs> in broad scores.
+                       <q>At the beginning it was fractured through 2Q1 and at the end after 2C2</q> (<ref type="bibliog" target="#MAC1945"
+                        ><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >167</biblScope></bibl></ref>). 
+                       </p>
+                                   </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>                    
+                    <gap reason="lost" extent="unknown"></gap>
+                    <w lemma="MAQI" type="formula"><supplied reason="lost">MA</supplied><unclear reason="danage">Q</unclear>I</w>
+                    <w lemma="MUCOI" type="formula">MUC<unclear reason="damage">C</unclear><supplied reason="lost">OI</supplied></w>
+                    <gap reason="lost" extent="unknown"></gap>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>... son of the descendant of ...</ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">found in a fence in <placeName type="townland">Brackloon</placeName> (An Bhreac-chluain) townland in the barony of <placeName
+                            type="barony">Corkaguiney</placeName> (<ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >167</biblScope></bibl></ref>). <ref
+                                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-173----"
+                                            >National Monuments Service Historic Environment viewer on
+                                            www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-10.269093, 52.136316</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">On display in Musáem Chorca Dhuibhne, Ballyferriter (<ref
+                            target="http://www.westkerrymuseum.com/"
+                            >www.westkerrymuseum.com</ref>). (GPS coordinates
+                            <geo>-10.405999, 52.166581</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p><q>Hitchcock discovered the [Brackloon ogham] stone acting as a chimney-breast in a cottage in Ballintermon and was informed that it had been found in the souterrain of a rath in a field called <hi rend="italic">Páirc an Leasa</hi> in Brackloon townland. 
+                    There are two known raths in this townland and Hitchcock was informed that the one from which the ogham stone came had been levelled and this rath (KE045-081----) corresponds more closely to that description... 
+                    The field in which this rath is located is known locally as <hi rend="italic">Páirc na Claishe</hi>, not <hi rend="italic">Páirc an Leasa</hi>, but it is possible that Hitchcock confused the two names... All but one letter of the inscription were chipped off to prepare the stone 
+                    as a chimney-breast</q>. More fragments thought to belong to the stone <q>were presented by Hitchcock to the Royal Irish Academy but were subsequently lost or mislaid. The main stone, with its single letter, was later broken up for walling (Macalister 1897, 53) (<ref type="bibliog"
+                        target="#CUP1986"><bibl><author>Cuppage</author>
+                            <date when="1986">1986</date>, <biblScope type="pp"
+                                >124</biblScope></bibl></ref>).</q>
+                    Some years later, <ref type="bibliog" target="#MAC1945"
+                    ><bibl><author>Macalister</author> 
+                        (<date when="1945">1945</date>, <biblScope type="pp"
+                            >167</biblScope></bibl></ref>) recorded the following: <q>The late Canon Sweeney, sometime rector of Aunascaul, in the year 1902, showed me what he believed to be a fragment of this stone: found by his daughter in 1891 on a fence on the townland</q>. 
+                    This fragment was for many years preserved in the grounds of Ballinagroun House, near Inch, before being moved to Musáem Chorca Dhuibhne in Ballyferriter (<ref type="bibliog"
+                        target="#CUP1986"><bibl><author>Cuppage</author>
+                            <date when="1986">1986</date>, <biblScope type="pp"
+                                >124</biblScope></bibl></ref>). It was last recorded in 2017 by Isabel Bennett, Curator at Músaem Chorca Dhuibhne and participant on the Corca Dhuibhne 3d project, using Structure from Motion 3d technology and processed using Agisoft Photoscan (see 3D view tab)</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 6</biblScope>. </bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                            >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey of the
+                                <placeName>Dingle Peninsula</placeName></hi></title>.
+                            <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 124</biblScope>.</bibl>
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">p. 166-7</biblScope>.</bibl>
+                 
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                       
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

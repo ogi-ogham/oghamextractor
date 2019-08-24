@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 172. Ballywiheen</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>3D laser scanned using Artec Eva scanner on 30/5/2013 and later processed using Geomagic software</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>June 2013</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 172. <placeName type="findspot"
+                >Ballywiheen</placeName></name> (<hi rend="italic">BAILE AN BHOITHÍN</hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-093003-"
+                >KE042-093003-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Stone fort/cashel (possible souterrain)</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>A small circular cashel with a raised interior, known as <hi rend="italic">Cathair na gCat</hi>. 
+                        Inside are the remains of two stone huts, a possible souterrain and an ogham stone.                                                
+                        (<ref type="bibliog"
+                            target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                    >194-5</biblScope></bibl></ref>). It is worth noting, considering the number of ogham 
+                        stones associated with church sites, that there is an early Christian settlement close by, known as 
+                        <hi rend="italic">Raingiléis</hi>.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><q>smooth grey sandstone with a purple grain running through it</q>,<rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.92</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.46</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.16</measure>m
+                            <lb/> (<ref type="bibliog" target="#Moo1985"
+                                    ><bibl><author>Moore</author>
+                                <date when="1985"></date>, <biblScope type="pp"
+                                    >unpub MA thesis</biblScope></bibl></ref>) </rs>
+                    </p>
+                    <p><q>The stone was smashed into 3 pieces in the 1880's (in search of gold) and one fragment was lost</q> 
+                        (<ref type="bibliog"
+                            target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                    >194</biblScope></bibl></ref>) taking with it the last three letters (-TOS).</p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p> Apart from the loss of the last three letters, <q>the inscription is otherwise perfect</q>
+                        <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >165</biblScope></bibl>)</ref>. Inspection of the inscription with Fionnbarr Moore at 
+                        the time of scanning found that the initial T is faint but discernible. The M of MAQI 
+                        is at the point of the break in the stone but the lower half of the M, towards the back 
+                        of the stone, is clear. A spall has removed the upper half. SAGARRET is clear. 
+                        </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <persName><w lemma="TOGITTACC[I]">TOGITTACC</w></persName>
+                    <w lemma="MAQI" type="formula">MAQI</w>
+                    <persName><w lemma="SAG(A)RETTOS">SAG<surplus>A</surplus>RET<supplied reason="lost">TOS</supplied></w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab><q>of Toicthech son of Sáraid?</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>In this inscription we appear to have an example of an <q>erroneous...addition of a single score</q> with SAGARETTOS for expected SAGRETTOS 
+                        (<hi rend="italic">Sáraid</hi>?) 
+                        (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date when="1991">1991</date>, <biblScope type="pp"
+                            >7, 108</biblScope></bibl></ref>).</p></item>
+                    <item n="2"><p>According to <ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> (<date when="1991">1991</date>, <biblScope type="pp"
+                        >84</biblScope></bibl></ref>) the name TOGITTACC was formed from the word for 'good luck' with an adjectival suffix <hi rend="italic">-ākos</hi>. 
+                        The spelling of TOGITTACC (for an expected TOGETTACC[I]) may reflect the falling together of unstressed /e/ and /i/ prior to syncope 
+                        (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date when="1991">1991</date>, <biblScope type="pp"
+                        >82, 118</biblScope></bibl></ref>).</p></item>
+                    <item n="2"><p>This inscription may be dated to the <origDate notBefore="0500" notAfter="0550">first half of the sixth century</origDate> based on the preservation of -OS (though now lost) in 
+                        SAGARETTOS and the loss of -I in TOGITTACC (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date when="1991">1991</date>, <biblScope type="pp"
+                            >94, 97</biblScope></bibl></ref>).</p></item>
+                    </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">According to Hitchcock (1856, 439-41; <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >165</biblScope></bibl></ref>), it was found lying beside <hi rend="italic">Cathair na gCat</hi> and placed inside the fort by the discoverer 'for protection'. 
+                            According to Curran (OPW file) it was discovered acting as the entrance lintel to the souterrain within the cashel. He was of the opinion that the ogham stone had 
+                            been taken from the nearby ancient cemetery called the Raingiléis. 
+                            In 1887 Ferguson stated that the stone had been found in an adjoining killeen (<ref type="bibliog"
+                                target="#CUP1986"><bibl><author>Cuppage</author>
+                                    <date when="1986">1986</date>, <biblScope type="pp"
+                                        >194-5</biblScope></bibl></ref>). 
+                            Townland of <placeName type="townland">Ballywiheen</placeName> and barony of <placeName
+                                type="barony">Corkaguiney</placeName>. (GPS coordinates
+                            <geo>-10.407534, 52.156204</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">GPS coordinates of possible original location <geo>-10.407357, 52.158683</geo></rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">Lying on top of <hi rend="italic">Cathair na gCat</hi> fort in two pieces <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-093003-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered by Rev. J. Goodman in 1855 <ref type="bibliog" target="#MAC1945"
+                            >(<bibl><author>Macalister</author>
+                        <date when="1945">1945</date>, <biblScope type="pp"
+                    >165</biblScope></bibl>)</ref>.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 9</biblScope>. </bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                            >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey of the
+                                <placeName>Dingle Peninsula</placeName></hi></title>.
+                            <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">pp 
+                            194-5</biblScope>.</bibl>
+                    <bibl xml:id="MAC1898">
+                        <author>
+                            <surname>Macalister</surname>, <forename>R. A. S.</forename>
+                        </author> (<date>1898</date>): <title level="a">'Ballywiheen Church, Ballyneanig, Co. Kerry'</title>, <title level="j"
+                            ><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">28</biblScope>, <biblScope type="pp">pp 15-20</biblScope>. </bibl> 
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 165-6</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 7, 66, 82, 84, 87, 89, 108, 118, 123</biblScope>.</bibl>                                       
+                    
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date
+                            when="2001">2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. TITUS OGAMICA</hi>.</title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/frame</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

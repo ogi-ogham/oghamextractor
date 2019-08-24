@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 190. Lugnagappul</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                                
+                <respStmt>
+                    <resp>Scanned on 18/7/2013 using Artec Eva, structured-light scanner and processed using Geomagic software</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>The Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                    <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                        Celticarum</title>
+                    <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8
+                in <date>Jan 2017</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p> 
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 190. <placeName>Lugnagappul I (LOG NA gCAPALL)</placeName></name>, Co.
+                    <placeName type="county">Kerry</placeName>. 
+                </head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033002-"
+                >KE054-033002-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Cairn</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q><hi rend="italic">Cnoc na Fola</hi> is a low, sub-rectangular cairn located on the low ridge overlooking Minard to S. The level field in which it occurs is named <hi rend="italic">Páirc na Fola</hi> and was traditionally 
+                        the scene of a bloody battle in ancient times. The cairn reputedly marks the graves of those slain. It measures 7.4 x 8.2m and is .6m high. The cairn material is a mixture of earth and stones many of which are quartz. 
+                        Four low standing stones occur along the perimeter and 3 further prostrate slabs may formerly have stood upright. Two of the standing stones bear ogham inscriptions</q>  (see also <ref
+                        target="search.php?ciic=191"
+                        >CIIC 191</ref>) 
+                         (<ref target="#CUP1986"
+                                ><bibl><author>Cuppage</author> et al, <biblScope type="pp"
+                                >255</biblScope></bibl></ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/> 
+                        <rs type="dimensions">'A pulvinar', 
+                            <measure unit="metre" type="length" rend="height">0.91</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.41</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.30</measure>m
+                            (converted from <ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >183</biblScope></bibl></ref>)</rs>. The most northerly in the line of three standing stones (the fourth is lower and less obvious).
+                        
+                    </p>
+                </div>
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Inscription <rs type="execution">pocked</rs> up (<q>on the dexter side of the west face</q>) and over the top (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>  
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >184</biblScope></bibl></ref>). Weathered at the top of the stone but still legible.</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <persName><w lemma="GOSSUCTTIAS">GOSSUCTTIAS</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>of Gúasacht</q></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                    <ab>
+                       
+                    </ab>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                    <ab>
+                       
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p><foreign xml:lang="ga">GOSSUCTTIAS</foreign> - EOIr <foreign
+                        xml:lang="ga"><hi rend="italic">Gósacht</hi></foreign>, <hi
+                            rend="italic">gúas</hi> `danger' <ref type="bibliog"
+                                target="#MCM1991"><bibl>(<author>McManus</author>
+                                    <date when="1991">1991</date>, <biblScope type="pp">
+                                        108</biblScope></bibl>)</ref>. 
+                        This personal name also occurs in inscriptions from Whitefield, Co. Kerry (<ref
+                            target="search.php?ciic=216"
+                            >CIIC 216</ref>: GOSOCTEAS) and Garranmillon, Co. Waterford (CIIC 283: GOSACTAS). It is also later attested as a personal name in <hi rend="italic">Bethu Phátraic</hi>: 
+                        The tripartite life of Patrick (<hi rend="italic">épscop Gúasacht macc Milcon</hi>, see eDIL <ref
+                            target="http://dil.ie/26762"
+                            >http://dil.ie/26762</ref>).</p></item>
+                    <item n="2"><p>This is one of the inscriptions listed by <ref type="bibliog"
+                        target="#MCM1991"><bibl><author>McManus</author> (<date when="1945"
+                            >1991</date>, <biblScope type="pp"
+                                >93-4</biblScope></bibl>)</ref> to be among the earliest in the corpus showing no trace of vowel affection (as opposed to the -EAS ending of GOSOCTEAS). It may be dated to the <origDate notBefore="0400" notAfter="0470">first half, or the early second half, of the fifth century</origDate> 
+                        (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author><date when="1991">1991</date>, <biblScope type="pp"
+                            >97</biblScope></bibl>)</ref>.</p>
+                       </item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Found where it still stands at the perimeter of the cairn in the
+                            townland of <placeName type="findspot">Lugnagappul</placeName>, barony of <placeName
+                                type="barony">Corkaguiney</placeName>. (GPS coordinates, approximate location only
+                            <geo>-10.130758, 52.135851</geo>)</rs> </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">Still standing at the perimeter of the cairn where it was discovered along with the second ogham stone at this site.</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>First mentioned by Brash in 1879 (<ref type="bibliog" target="#MAC1945"
+                    ><bibl><author>Macalister</author>  
+                        <date when="1945">1945</date>, <biblScope type="pp"
+                            >183</biblScope></bibl></ref>).</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. </biblScope>. </bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                                    >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey of the
+                                <placeName>Dingle Peninsula</placeName></hi></title>.
+                            <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p
+                            255-6</biblScope>.</bibl>
+                    
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                                    Celticarum</hi></title>, <biblScope type="pp">p 183-4</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>,
+                        <forename>D.</forename></author> (<date when="1991">1991</date>):
+                        <title level="m"><hi rend="italic">A guide to Ogam</hi></title>. <title level="s">Maynooth
+                            Monographs</title>
+                        <biblScope type="vol">4</biblScope>, <biblScope type="pp">pp 93-94, 108</biblScope>.</bibl>
+                
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                       
+                        <bibl><name
+                            type="project"><hi rend="italic">CISP (Celtic Inscribed Stones Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                       
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

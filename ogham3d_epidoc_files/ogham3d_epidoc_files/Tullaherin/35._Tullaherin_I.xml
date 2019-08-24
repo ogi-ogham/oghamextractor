@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 35. Tullaherin I</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                    <resp>ogham stone 3D laser scanned using Cobra Fastscan 4/1/2013 and processed using Geomagic software. Site also scanned with Faro terrestrial scanner.</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is
+                            licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>January 2013</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Edition</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 35. <placeName type="townland"
+                    >Tullaherin</placeName> I </name>, Co. <placeName type="county"
+                    >Kilkenny</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                        target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062005-"
+                        >KK024-062005-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Tullaherin is an important early ecclesiastical site possibly to be equated with <hi rend="italic">Tulach Inmuinn</hi> mentioned in the annals.
+                        The site is associated with saint <hi rend="italic">Ciarán</hi> of <hi rend="italic">Saigir</hi> and has an
+                        11th-century round tower, an 11th-15th century ruined church and two ogham
+                        stones, one of which was discovered at nearby <placeName type="findspot">Loughboreen</placeName> but is believed to have originated here
+                        <ref type="bibliog" target="#MAN1998">(<bibl><author>Manning</author>
+                                <date when="1998">1998</date>, <biblScope type="pp"
+                                    >19-39</biblScope></bibl>)</ref>.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/>Grit <ref type="bibliog" target="#PRI1854"
+                                    >(<bibl><author>Prim</author>
+                                <date when="1854">1854</date>, <biblScope type="pp"
+                                >86</biblScope></bibl>)</ref>, <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">0.70</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.51</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.27</measure>m
+                            (Converted from <ref type="bibliog" target="#MAC1945"
+                                        ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >39</biblScope></bibl>)</ref></rs>. <q>The stump of a pillar
+                            stone...the top of the stone is broken off and lost</q>
+                        <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >39-40</biblScope></bibl>)</ref>. There is also a distinctive cut on the face of the stone which 
+                        Macalister dismisses as 'an oblique mark of no importance'. However, it bears some resemblance to those found on <ref target="search.php?ciic=206">CIIC 206. 
+                            Kilcoolaght East I</ref>, Co. Kerry; <ref target="search.php?ciic=Ratass">Ratass</ref>, Co. Kerry 
+                                (described as being used as `a sharpening stone for knives and other blades'); <ref target="search.php?ciic=Church_Island">Church Island</ref>, Co. Kerry (used for sharpening 'some broad bladed implement'); 
+                        <ref target="search.php?ciic=57">CIIC 57. Greenhill I</ref>, Co. Cork, 
+                        where they have been described as '<rs type="feature">hone scores</rs>' and to another on <ref target="search.php?ciic=19">CIIC 19. Colbinstown
+                        I</ref>, Co. Kildare which has been described as 'a blade mark' (<ref type="bibliog"
+                            target="#NEW2009"><bibl><author>Newman</author>
+                                <date when="2009">2009</date>, <biblScope type="pp"
+                                    >433-4</biblScope></bibl></ref>) </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Macalister records that <q>the inscription was on two angles, probably
+                            up-top-down</q>
+                        <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >39</biblScope></bibl>)</ref> but it is impossible to say when all
+                        that remains is less than three letters on one angle. He adds that <q>the
+                            lettering is <rs type="execution">pocked</rs> in broad short scores, and is much clogged with
+                            lichen</q>. On the 3d model, all that is visible of Macalister's possible 
+                        R are 2 scores crossing the stemline (more straight across than diagonal) and a partial third.</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/><w>VI<supplied reason="lost">R</supplied><gap reason="lost"/></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ga">
+                <head>Translation</head>
+
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Discovered standing close to the
+                                south wall of the church and 'nine paces' from the round tower
+                            <ref type="bibliog" target="#PRI1854">(<bibl><author>Prim</author>
+                                    <date when="1854">1854</date>, <biblScope type="pp"
+                                        >87</biblScope></bibl>)</ref> in the townland of Tullaherin
+                            and barony of Gowran. (GPS coordinates <geo>-7.129917, 52.579293</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation">On site at Tullaherin. The present location of this
+                            stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062005-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head> History of Recording</head>
+                <p>Reported by Prim in 1852.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 39-40</biblScope>.</bibl>
+                    <bibl xml:id="MAN1998"><author><surname>Manning</surname>,
+                                <forename>C.</forename></author> (<date when="1998">1998</date>):
+                            <title level="a">'Some notes on the early history and archaeology of
+                                Tullaherin'</title>, <title level="j"><hi rend="italic">In the Shadow of the
+                            Steeple</hi></title>, <biblScope type="vol">6</biblScope>, <biblScope
+                            type="pp">19–39</biblScope>.</bibl>
+                    <bibl xml:id="NEW2009">
+                        <author>
+                            <surname>Newman</surname>, <forename>C.</forename>
+                        </author> (<date>2009</date>): <title level="a">'The Sword in the Stone: previously unrecognised archaeological 
+                            evidence of ceremonies of the later Iron Age and early medieval period'</title>, in <editor>
+                                <forename>G.</forename>
+                                <surname>Cooney</surname></editor> et al (eds.), <title level="m"><hi rend="italic">Relics of old decency: 
+                                    archaeological studies in later prehistory. Festschrift for Barry Raftery</hi></title>. (<pubPlace>Dublin</pubPlace>), <biblScope
+                                        type="pp">pp 425-36</biblScope>. </bibl> 
+                                        <bibl xml:id="PRI1854"><author><surname>Prim</surname>,
+                                <forename>J.G.A.</forename></author> (<date when="1854"
+                        >1854</date>): <title level="a">'Proceedings and Transactions'</title>, <title
+                            level="j"><hi rend="italic">JRSAI</hi></title>, <biblScope type="vol">3</biblScope>,
+                            <biblScope type="pp">86-7</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                                Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                                Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=5464"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

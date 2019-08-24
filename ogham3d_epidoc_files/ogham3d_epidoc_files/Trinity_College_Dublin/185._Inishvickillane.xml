@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 185. Inishvickillane</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D laser scanned using Artec Eva scanner on 17/9/2014 and later processed
+                        using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13 in <date>August 2014</date>
+                by <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 185. <placeName type="townland"
+                >Inishvickillane</placeName></name> (<hi rend="italic">INIS MHIC AOIBHLEÁIN</hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE061-006008-"
+                >KE061-006008-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>At the south-east end of the island [of Inishvickillane] are the remains of an
+                        early monastic settlement. The site, although apparently lacking formal enclosure, comprises the 
+                        ruins of a dry-stone oratory, a graveyard, a leacht [and stone cross], a possible beehive hut-sit, and a holy well 
+                        dedicated to St Brendan</q> (<ref type="bibliog" target="#OKA2001"><bibl><author>Okasha and Forsyth</author>
+                            <date when="2001">2001</date>, <biblScope type="pp"
+                                >156</biblScope></bibl></ref>). Macalister (1949, 44) also 
+                        recorded <q>an inscribed stone lying on the S wall of the oratory but this is now missing. It bore a small cross followed by the inscription:                        
+                            OR DO MAC RUED U DALAC[H] ['A prayer for Mac-Ruaid, grandson of Dálach']. A 2nd stone inscribed with a 'plain cross of 2 lines' lay within the graveyard (Macalister 1902, 46)</q> 
+                        (<ref target="#CUP1986"><bibl><author>Cuppage</author> et al, <date when="1986">1986</date>, <biblScope type="pp"
+                                    >301</biblScope></bibl></ref>). </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.05</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.15</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.18</measure>m
+                            <lb/> (<ref target="#CUP1986"><bibl><author>Cuppage</author> et al, <date when="1986">1986</date>, <biblScope type="pp"
+                                >301</biblScope></bibl></ref>).</rs>
+                    </p>
+                    <p><q>Each of the four faces is inscribed with a <rs type="feature">cross</rs> of different form and one of the angles is used as 
+                        a stem-line for an ogham inscription.</q> (<ref target="#CUP1986"><bibl><author>Cuppage</author> et al, <date when="1986">1986</date>, <biblScope type="pp"
+                            >301</biblScope></bibl></ref>). Here, as elsewhere, Macalister sees the crosses 
+                        on this stone as a later attempt at Christianisation of a pagan monument but see <ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> 
+                            (<date when="1991">1991</date>, <biblScope type="pp"
+                                    >54-61</biblScope></bibl>)</ref> for a valid counter argument to this theory.
+                        
+                    </p>
+                    <p>Note: The stone is currently attached to a stand by a metal bracket, which has been removed from the 3d model and the smooth patches 
+                        (bands on two faces) towards the top of the model show where holes remaining following it's removal were filled for presentation purposes.
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up. <q>The inscription is on the dexter edge of one of the narrower faces, cut in very <rs type="execution">fine</rs> `knife cut' scores, of the kind common in Co. Cork</q> (<ref type="bibliog" target="#MAC1945"
+                                    ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >179</biblScope></bibl></ref>). The ogham inscription is inverted with respect to the crosses, and the deep, 
+                        but narrow incisions have suffered much damage and many are unclear (<ref target="#CUP1986"><bibl><author>Cuppage</author> et al, <date when="1986">1986</date>, <biblScope type="pp"
+                            >301</biblScope></bibl></ref>). According to <ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author> 
+                                    (<date when="1945">1945</date>, <biblScope type="pp"
+                                        >179</biblScope></bibl></ref>), <q>of the first name everything by the two B's is flaked away...the VL is hardly 
+                        distinguishable from an N...the T is reduced to tiny pin-scrapes: the Q is visible only in a strong cross-light</q>.
+                    </p>
+                    
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab><ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>'s reading 
+                    (<date when="1945">1945</date>, <biblScope type="pp">179</biblScope></bibl>)</ref>:   
+                    <lb/> <w><supplied reason="lost">CO?</supplied>BB<supplied reason="lost">A?</supplied></w>
+                    <w lemma="AVI" type="formula">AVI</w>
+                    <persName><w lemma="VLATIAMI">VLATIAMI</w></persName>
+                    <w>MAQ<unclear reason="lost"/>...</w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab><q>... Uí Flaithim? [son of...]</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>Although this inscription survives incomplete, it appears that the tribal name AVI VLATIAMI is followed by MAQ(QI) 
+                        'son of'. As <ref type="bibliog"
+                            target="#MCM1991"><bibl><author>McManus</author> 
+                                (<date when="1991">1991</date>, <biblScope type="pp"
+                                    >171, note 17</biblScope></bibl></ref>) has pointed out, this formula (X AVI Y MAQQI Z) is <q>quite exceptional</q> in the ogham corpus. 
+                    </p></item>
+                    <item n="2"><p>The personal name VLATIAMI (if the correct reading) may
+                            correspond to the later attested name <hi rend="italic">Flaithem</hi> 
+                            'ruler, prince', although an <hi rend="italic">n</hi>-stem gen. (*VLATIAMONAS) would be expected (<ref type="bibliog" target="#MCM1991"
+                                        ><bibl><author>McManus</author>
+                                    <date when="1991">1991</date>, <biblScope type="pp">108, 179,
+                                        note 45</biblScope></bibl></ref>). </p></item>
+                                   </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">In front of the oratory into which the inscribed stone may have been
+                            built (<ref type="bibliog" target="#OKA2001"><bibl><author>Okasha and Forsyth</author>
+                                <date when="2001">2001</date>, <biblScope type="pp"
+                                    >156</biblScope></bibl></ref>) in the townland of
+                                <placeName type="townland">Inishvickillane</placeName> and barony of
+                            <placeName type="barony">Corkaguiney</placeName>. (GPS coordinates
+                            <geo>-10.606058, 52.044046</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">on display as part of the 'Book of Kells' exhibition in the Library, <orgName>Trinity College</orgName>,
+                            <placeName>Dublin</placeName>. The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-294----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-6.256657, 53.343981</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p> When first discovered by Windele [c.1849], the cross-inscribed ogham stone lay in front of the oratory (Brash 1879, 226) 
+                    but by 1901 it had been placed as a lintel in that building (Macalister 1902, 44) and in 1902 it was removed to 
+                    Trinity College, Dublin (Foley 1903, 91) where it remains today.
+                    (<ref target="#CUP1986"><bibl><author>Cuppage</author> et al, <date when="1986">1986</date>, <biblScope type="pp"
+                        >301</biblScope></bibl></ref>).</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 11</biblScope>. </bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                            >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey
+                                of the <placeName>Dingle Peninsula</placeName></hi></title>.
+                        <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">no. 845
+                            </biblScope>.</bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                        >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum
+                                insularum Celticarum</hi></title>, <biblScope type="pp">pp 178-9
+                        </biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                            when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to
+                                ogam</hi></title>. <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 108, 171, 179</biblScope>.</bibl>
+                    <bibl xml:id="OKA2001"><author><surname>Okasha</surname>, 
+                        <forename>E.</forename> </author> And <author>
+                            <surname>Forsyth</surname>, <forename>K.</forename>
+                        </author> (<date>2001</date>): <hi rend="italic"><title level="m" type="main">Early Christian
+                            Inscriptions of Munster</title>: <title level="m" type="sub">A Corpus of the Inscribed
+                                Stones</title></hi>, <biblScope type="pp">p. 156</biblScope>. </bibl>
+
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                    Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=3961"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                                           </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

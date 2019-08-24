@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 79. Rathcanning I</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                              
+                <respStmt>
+                    <resp></resp>
+                    <name></name>
+                    <orgName></orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                   <msIdentifier></msIdentifier>
+               </msDesc>
+                            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8
+                in <date>May 2016</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 79. <placeName type="site">Rathcanning</placeName>
+                I</name> (<placeName type="townland">Glenaphuca</placeName>), Co. <placeName type="county">Cork</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-009----"
+                >CO066-009----</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Possible souterrain</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Reported to be from a souterrain (CO066-01002-) in a <q>large fort</q> (Rathcanning fort?) (CO066-01001-), in which a possible ogham fragment (<ref target="search.php?ciic=80">CIIC 80</ref>) was also found 
+                        (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >82</biblScope></bibl></ref>). 
+                    </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p><rs type="material"/>A flat slab of slate, 
+                        <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.73</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.61</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.14</measure>m
+                            (converted from <ref type="bibliog" target="#MAC1945"
+                                    ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >82</biblScope></bibl></ref>). Thickly coated with whitewash when recorded by Macalister.</rs>
+                    </p>
+                </div>
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Inscribed on one angle and along the top. This inscription has previously been read by Macalister and others as [T]ELUNA or [T]ULENA MU[C--
+                        (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >82</biblScope></bibl></ref>; <ref type="bibliog" target="#OKE1945"
+                                        ><bibl><author>O'Kelly</author>
+                                            <date when="1945">1945</date>, <biblScope type="pp"
+                                                >152-3</biblScope></bibl></ref>). An extra three letters running along the top were read by Fionnbarr Moore (pers. comm. 17 April 2015): 
+                        <q>The first three strokes of the R are damaged but the A is clear and the first three strokes of the N are faint but legible. No other letters are discernible</q>.
+                    </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/>
+                    <w><supplied reason="lost">T</supplied><unclear reason="damaged">U</unclear>LENA</w>
+                    <w type="formula" lemma="MUCOI?">MU<unclear reason="damaged">C</unclear><gap reason="lost"></gap></w>
+                    <w><unclear reason="damaged">R</unclear>A<unclear reason="damaged">N</unclear></w>
+                    
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                    <ab>
+                        
+                    </ab>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                    <ab>
+                        
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Discovered acting as the jamb of a cart-shed door on a farm in the townland of <placeName
+                                type="townland">Glenaphuca</placeName>, barony of <placeName
+                                    type="barony">Imokilly</placeName>. The find location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-009----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-8.072074, 51.968058</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">GPS coordinates of possible original location <geo>-8.075929, 51.971264</geo></rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation"><orgName>National Museum of Ireland</orgName> storage facility at 
+                                <placeName>Daingean</placeName>, Co. Offaly. The present location
+                            of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=OF018-198----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-7.293729, 53.299464</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered by E. Barry in 1896. <ref type="bibliog" target="#MAC1945"
+                    ><bibl><author>Macalister</author> 
+                        (<date when="1945">1945</date>, <biblScope type="pp"
+                            >82</biblScope></bibl></ref>) recorded that the stone came from a <q>large fort</q> in Rathcanning townland.
+                    However, he was presumably referring to the large ringfort in the neighbouring Glenaphuca townland to the south, which is much closer to the find site. 
+                    <ref type="bibliog" target="#BAR1897b"><bibl><author>Barry</author> 
+                            (<date when="1897">1897</date>, <biblScope type="pp"
+                                >79-80</biblScope></bibl>)</ref> records that it came from another souterrain (CO066-00054---) in the next field <q>a quarter of a mile south 
+                                    of Rathcanning fort</q> where <q>an underground pasage, and an underground beehive-shaped chamber, were discovered </q>. 
+                  </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BAR1897"><author><surname>Barry</surname>,
+                        <forename>E.</forename></author> (<date when="1897">1897</date>):
+                        <title level="a">'Discovery of an ogham inscription at Rathcanning in the county of Cork'</title>, <title level="j"><hi rend="italic">Journal of the Cork Historical and Archaeological Society</hi></title>
+                        <biblScope type="vol">3</biblScope>, <biblScope type="pp">pp
+                            41-4</biblScope>.</bibl>
+                    <bibl xml:id="BAR1897b"><author><surname>Barry</surname>,
+                        <forename>E.</forename></author> (<date when="1897">1897</date>):
+                        <title level="a">'Ogham Inscription in Co. Cork'</title>, <title level="j"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">27</biblScope>, <biblScope type="pp">pp
+                            79-80</biblScope>.</bibl>
+                    <bibl xml:id="OKE1945">
+                        <author>
+                            <surname>O'Kelly</surname>, <forename>M.J.</forename>
+                        </author> (<date>1945</date>): <title level="a">(Review of <hi rend="italic">Corpus</hi>)</title>, <title level="j"><hi rend="italic">Journal of the Cork Historical
+                            and Archaeological Society</hi></title>
+                        <biblScope type="vol">50</biblScope>, <biblScope type="pp">pp 152-3</biblScope>. </bibl>
+                    
+                   
+                    <bibl xml:id="MAC1907"><author><surname>Macalister</surname>, <forename>R. A.
+                                S.</forename></author> (<date when="1907">1907</date>): <title
+                                    level="m"><hi rend="italic">Studies in Irish Epigraphy</hi></title>
+                        <biblScope type="part">Part III</biblScope>. <pubPlace>London</pubPlace>:
+                        David Nutt, <biblScope type="pp">p. 44</biblScope>.</bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">p. 82</biblScope>.</bibl>
+                    
+                    <bibl xml:id="POW1994">
+                        <author>
+                            <surname>Power</surname>, <forename>D.</forename>
+                        </author> et al (<date>1994</date>):  <hi rend="italic"><title level="m" type="main">Archaeological
+                            Inventory of County Cork</title>: <title level="m" type="sub">East and South 
+                                Cork</title></hi>. <biblScope type="vol">Volume 2</biblScope>.
+                        <pubPlace>Dublin</pubPlace>, <biblScope type="pp">No. 4235</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date
+                            when="2001">2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. TITUS OGAMICA</hi>.</title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/frame</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

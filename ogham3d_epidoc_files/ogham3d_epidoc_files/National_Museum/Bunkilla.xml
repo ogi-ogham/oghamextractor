@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bunkilla</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                                
+                <respStmt>
+                    <resp>scanned using Artec Eva on 8/1/2015 and processed using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+                </titleStmt>
+            <publicationStmt>
+                <distributor><orgName>Dublin Institute for Advanced Studies</orgName></distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>June 2016</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"><placeName type="townland">Bunkilla</placeName></name>, 
+                Co. <placeName type="county">Cork</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-074----"
+                >CO061-074----</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Unassociated</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Discovered during drainage works in 1982. Details of the site do not appear to have been recorded (<ref
+                            type="bibliog" target="#POW1997"><bibl><author>Power</author> <date
+                                when="1997">1997</date>, <biblScope type="pp"
+                                    >166</biblScope></bibl></ref>) but it is worth noting that the stone was found approximately 200m NNE of a church site (CO061-073----),  
+                        with a curved field boundary running N to W, and a <hi rend="italic">fulacht fia</hi> (CO061-075----) c.100m to the SE of the find spot.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>A long narrow stone tapering and stained brown at the top. 
+                            <rs type="material"/>
+                        <rs type="dimensions"> <measure unit="metre" type="length" rend="height"
+                            >2.20</measure>m x <measure unit="metre" type="length" rend="width"
+                                >0.30</measure>m x <measure unit="metre" type="length" rend="depth"
+                                    >0.15</measure>m (<ref
+                                        type="bibliog" target="#POW1997"><bibl><author>Power</author> <date
+                                            when="1997">1997</date>, <biblScope type="pp"
+                                                >166</biblScope></bibl></ref>).</rs>
+                    </p>
+                </div>
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Seemingly a palimpsest. The earlier inscription appears to have been <rs type="execution">pocked</rs> on three angles and a later one <rs type="execution">cut</rs> on one angle. 
+                        In the latter, extra space has been left between the initial formula word ANM and the following personal name. This phenomonen is found elsewhere in the ogham corpus (e.g. CIIC 229 Cunburrin, Co. Kerry and <ref
+                            target="search.php?ciic=118"
+                            >CIIC 118</ref> Monataggart I, Co. Cork). 
+                        However, in this case it could just as easily be an example of letter division, distinguishing the final M of ANM and the initial M of MAQQI. The use of space in ogham to distinguish letters and words has been discussed by <ref
+                            type="bibliog" target="#MOF2011"><bibl><author>Moffat</author> (<date
+                                when="2011">2011</date>, <biblScope type="pp"
+                                    >290</biblScope></bibl>)</ref>.</p> 
+                        <p>This later inscription is mostly legible and was read by (<ref
+                            type="bibliog" target="#LAN1993"><bibl><author>Lankford</author> <date
+                                when="1993">1993</date>, <biblScope type="pp"
+                                    >3-5</biblScope></bibl></ref>) who interpreted the damaged X-<hi rend="italic">forfid</hi>, following the R of LASIR as a K, although he did note the possible alternative E.
+                        Considering the occurrence of ANM here, generally found in later inscriptions and frequently alongside vocalic use of the X-<hi rend="italic">forfid</hi> (e.g. <ref
+                            target="search.php?ciic=187"
+                            >CIIC 187</ref> Kilmalkedar), in the following transcription E is chosen as the better option. 
+                        After the X-<hi rend="italic">forfid</hi> there is an M score followed by a vowel notch and the spalled remains of the first Q of MAQQI. To the right of the angle at this point, the remains of 5 pocked scores (N) appear, 
+                        apparantly from the earlier inscription. These were suggested by Lankford to be vowel notches representing an I, which seems unlikely for a number of reasons, including their relative length (see close-up image below right).
+                        He also suggests that the MA could be read as O resulting in the well attested KOI formula word. However, it is far more straightforward to simply read the X-<hi rend="italic">forfid</hi> as an E and see the N as 
+                        a probable remnant of the earlier inscription.</p>
+                    <p>Regarding the last name, <ref
+                        type="bibliog" target="#LAN1993"><bibl><author>Lankford</author>'s (<date
+                            when="1993">1993</date>, <biblScope type="pp"
+                                >3-5</biblScope></bibl></ref>) BIR(R)AC(I)AS is questionable after the C. There is a spall on the top corner of the stone after the C and on the very top of the stone two scores 
+                        (representing a D?) and three possible vowel notches can be detected on the 3d model. However, it is difficult to say whether these scores belong with the earlier or later inscription. 
+                        The scores appear to be pocked rather than cut but some of the scores in the latter half of this inscription do not appear to be as sharply cut as the earlier ones, making distinguishing between 
+                        the two inscriptions difficult.</p>
+                    
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/>
+                    <w lemma="ANM" type="formula">ANM</w> <space></space>
+                    <persName><w lemma="MAQQI-LASIRE(N)">MAQQ<unclear reason="damage">I</unclear>-LASIR<unclear reason="damage">E</unclear></w></persName>
+                    <w lemma="MAQI" type="formula">MA<unclear reason="damage">Q</unclear>QI</w>
+                    <persName><w lemma="BIRRAC">BIR<unclear reason="damage">R</unclear>AC<damage>...?</damage></w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p>
+                    <q>name/inscription of <persName>Mac-Laisre</persName> son of Berrach</q>
+                </p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-images">
+                    <head>3D Images</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                    <ab><name type="author">Macalister</name><ptr type="bibliog" target="#MAC1945"
+                        />: <ref
+                            target="http://www.ucl.ac.uk/archaeology/cisp/database/picpage/monat_1_1.html"
+                            >http://www.ucl.ac.uk/archaeology/cisp/database/picpage/monat_1_1.html</ref></ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>The personal name <hi rend="italic">Mac-Laisre</hi> is well attested later and contains OIr <hi rend="italic">las(s)ar</hi>, g. <hi rend="italic">laisre</hi> 'flame, fire'.
+                        The name <hi rend="italic">Berrach</hi> is also attested later and occurs as BIRACO (leg. -I) in CIIC 89 (Ballyknock, Co. Cork).</p></item>
+                    <item n="2"><p>As argued above (under Text), the E of LASIRE is represented by the first supplementary character (or
+                        <hi rend="italic">forfid</hi>) with its <rs type="character">vocalic value</rs> /<hi rend="italic">e</hi>/, rather than its consonantal value
+                        /<hi rend="italic">k</hi>/ or /<hi rend="italic">x</hi>/, usually transliterated  <hi rend="italic">K</hi>.
+                        With this vocalic usage, <q>late linguistic features tend to be more
+                            frequent</q>. There is also <q>a correlation with this usage and that of
+                                the ANM formula, which is also symptomatic of late
+                                date</q> 
+                        (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date
+                            when="1991">1991</date>, <biblScope type="pp"
+                                >79</biblScope></bibl></ref>; <ref type="bibliog" target="#SWI1997"><bibl><author>Swift</author> <date
+                                    when="1997">1997</date>, <biblScope type="pp"
+                                        >83-90</biblScope></bibl></ref>). </p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">In the townland of 
+                                <placeName type="townland">Bunkilla</placeName>, barony of
+                                <placeName type="barony">East Muskerry</placeName>. The find 
+                            location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-074----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-8.699286, 51.978137</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation"><orgName>National Museum of Ireland</orgName>,
+                            <placeName>Dublin</placeName> (<idno>NMI Ref. 1983:3</idno>). The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-418----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>.  (GPS coordinates
+                                <geo>-6.254558,53.340408</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>found in <date when="1982">1982</date> by workmen doing drainage work. It was first brought to Cork Public Museum but is now part of the National Museum of Ireland collection (<ref
+                    type="bibliog" target="#POW1997"><bibl><author>Power</author> <date
+                        when="1997">1997</date>, <biblScope type="pp"
+                            >166</biblScope></bibl></ref>). </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    
+                        <bibl xml:id="LAN1993"><author><surname>Lankford</surname>, C.</author> (<date
+                            when="1993">1993</date>): <title level="m"><hi rend="italic">Five unpublished ogham stones from Co. Cork</hi></title>. <title level="s">Privately published pamphlet</title>, 
+                            <biblScope type="pp">pp 3-5</biblScope>. 
+                        </bibl>  
+                    <bibl xml:id="MOF2011">
+                        <author>
+                            <surname>Moffat</surname>
+                            <forename>K.</forename>
+                        </author> (<date>2011-12</date>): <title level="a" xml:lang="en">'The 'Grammar of Legibility': Word Separation in Ogam Inscriptions'</title>, 
+                        <title level="j" xml:lang="la"
+                            ><hi rend="italic">Peritia</hi></title>
+                        <biblScope type="vol">22-23</biblScope>, <biblScope type="pp">pp
+                            281-94</biblScope>.  
+                    </bibl>                 
+                        <bibl xml:id="POW1997"><author><surname>Power</surname>,
+                                    <forename>D.</forename></author> et al (<date when="1997"
+                                        >1997</date>): <title level="s"><hi rend="italic">Archaeological Inventory of County
+                                Cork</hi>.</title>
+                            <biblScope type="vol">Volume 3: Mid Cork</biblScope>.
+                                <pubPlace>Dublin</pubPlace>, <biblScope type="pp">p. 166</biblScope>.</bibl>
+                        
+                    
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                       
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

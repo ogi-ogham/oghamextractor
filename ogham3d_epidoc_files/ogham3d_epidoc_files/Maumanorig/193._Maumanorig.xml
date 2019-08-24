@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 193. Maumanorig</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>3D laser scanned using Artec Eva scanner and Faro scanner on 30/5/2013 and later processed using Geomagic software. Also photographed for SfM using PD camera and processed successfully using Photoscan.</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>June 2013</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 193. <placeName type="townland"
+                >Maumanorig</placeName></name> (<hi rend="italic">MÁM AN ÓRAIGH</hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-141006-"
+                >KE042-141006-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>An Early Christian church site [<placeName type="sitename">Kilcolman</placeName> (<hi rend="italic">Cill na gColmán</hi>)] 
+                        lying on the S slopes of an E-W spur of Lateevemore, overlooking Ventry Harbour. 
+                        It consists of a circular enclosure within which are the reputed site of a church, the foundations of a least 
+                        two huts and a number of graves and gravemarkers which probably relate to the use of the site, until the 
+                        19th century, as a calluragh burial ground (OSNB Marhin, 14). Also within the site are a cross-inscribed ogham 
+                        stone, a small cross inscribed stone, a holed stone and 3 bullaun stones. Another cross-inscribed 
+                        stone has been incorporated into the lane boundary wall on the N side of the field in which the enclosure is 
+                        situated, and S of the enclosure is a holy well dedicated to St. Brendan</q>                                             
+                        (<ref type="bibliog"
+                            target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                    >332</biblScope></bibl></ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p><q>a large irregularly-shaped boulder, its W face inscribed with an ogham inscription
+                        and 2 crosses...The main <rs type="feature">cross</rs> motif is a deeply inscribed cross of arcs within a circle, its lower arm linked to the circle by a 
+                        short stem. The latter continues beyond the circle to below the present ground surface and exhibits a triangular expansion at about 
+                        its mid-point. An equal-armed <rs type="feature">cross</rs> with fishtail like terminals occupies the upper right portion of this face of the stone</q>
+                        <rs type="material"/>Grit<rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.15</measure>m x
+                                <measure unit="metre" type="length" rend="width">1.58</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.54</measure>m
+                            <lb/> (<ref type="bibliog"
+                                target="#CUP1986"><bibl><author>Cuppage</author>
+                                    <date when="1986">1986</date>, <biblScope type="pp"
+                                        >333</biblScope></bibl></ref>; <ref type="bibliog" target="#MAC1945"
+                                    ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >186</biblScope></bibl></ref>) </rs>
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>The stem line for the ogham was carved up the left side of the face and across the top, framing the crosses.
+                        The ogham scores are clearly legible but the inscription is confused and puzzling. Macalister's ingenious 
+                        interpretation may be correct...and that the peculiarities can be explained as an attempt to correct mistakes 
+                        made during its execution</q> 
+                        (<ref type="bibliog"
+                            target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                    >333-4</biblScope></bibl></ref>). 
+                    </p>
+                    <p><q>The intention of the stone-cutter was obviously to write                       
+                        ANM COLMAN AILITHIR                        
+                        `Name of Colman the Pilgrim'. But he has blundered so badly that he has made the decipherment 
+                        of the inscription a very difficult matter. At best, the inscription is a `scholastic' essay.
+                        
+                        On the vertical part of the stem line he wrote ANM COL. He then realized that if he continued 
+                        here he would have his N at the angle, and, consequently, awkwardly cramped; or else, if he 
+                        carried on past the angle, it would run into the B-half of the M. Accordingly, he skipped the 
+                        angle and wrote MAN on the horizontal branch of his stem-line. He then wrote AIL, the beginning 
+                        of AILITHIR, before he saw that this word would have to be shortened to fit into the available 
+                        space, which he had rashly reduced by cutting the second cross. A feeling of reverence may have 
+                        prevented him from making room for himself by breaking this away. Accordingly, he squeezed an 
+                        L into the space between the A and the I - its cramped nature is obvious - thus abolishing 
+                        the first I of the word AILITHIR, and adapting the I which he had already fashioned to represent 
+                        the second I of this word. He next had to dispose of the L which was already on the stone, and 
+                        for which he would be obliged to substitute a T. This he ingeniously effected by cutting a line 
+                        joining the distal ends of the two scores, thus turning these underline scores into overline 
+                        scores, and then adding one more, and only one, in the orthodox position above the main stem-line. 
+                        This gave him the three overline scores of the T. He then proceeded with the final IR, which just 
+                        filled the available space, though it went beyond the range of the stem line which he had laid 
+                        out at the beginning. In order to make his correction clear, he wrote in the turn of the angle 
+                        of the stem line, which still remained blank, the letters O.L.Th - the Th being represented by 
+                        the O-<hi rend="italic">forfid</hi> - meaning <hi rend="italic">ó L, Th-</hi> 'from L [make] Th'</q>  
+                        (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >186-7</biblScope></bibl></ref>).</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <w lemma="ANM" type="formula">ANM</w>
+                    <persName><w lemma="COLMAN">COL<add cause="fix">(OL<unclear reason="obscure">TH</unclear>)</add><unclear reason="obscure">MAN</unclear></w></persName>
+                    <persName><w lemma="AILITHIR"><unclear reason="obscure">ALITH</unclear>IR</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab><q>name/inscription of Colmán the pilgrim</q>?</ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p><q>MacNeill (1909, 332)...suggested tentatively that [this inscription] might commemorate Colmán Oilither, 
+                        grandson of Díarmait mac Fergosa Cerrbéoil ([died] 565 or 572)</q> (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date
+                            when="1991">1991</date>, <biblScope type="pp"
+                                >53</biblScope></bibl></ref>).
+                        While Macalister's interpretation of this puzzling text appears too complicated to be accurate (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date
+                        when="1991">1991</date>, <biblScope type="pp"
+                            >61, 67, 79</biblScope></bibl></ref>), it is the only attempted interpretation to date. </p></item>
+                    </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">At Kilcolman early ecclesiastical site in the townland of <placeName type="townland">Maumanorig</placeName> and barony of <placeName
+                                type="barony">Corkaguiney</placeName>. (GPS coordinates
+                            <geo>-10.358471, 52.143726</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">On site at Kilcolman near the SE edge of the enclosure<ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-093003-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>First published in 1887 by C. Graves <ref type="bibliog" target="#MAC1945"
+                            >(<bibl><author>Macalister</author>
+                        <date when="1945">1945</date>, <biblScope type="pp"
+                    >186</biblScope></bibl>)</ref>.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 13-14</biblScope>. </bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                            >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey of the
+                                <placeName>Dingle Peninsula</placeName></hi></title>.
+                            <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">pp 
+                            332-4</biblScope>.</bibl>
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 186-8</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 53, 61, 67, 79</biblScope>.</bibl>                                       
+                   
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date when="1997"
+                            >1997</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. Ogam-Inschriften: Bilderverzeichnis (picture catalogue).</hi></title> (2nd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.uni-frankfurt.de/ogam/ogbildx.htm"
+                                >titus.uni-frankfurt.de/ogam/ogbildx.htm</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=2149"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

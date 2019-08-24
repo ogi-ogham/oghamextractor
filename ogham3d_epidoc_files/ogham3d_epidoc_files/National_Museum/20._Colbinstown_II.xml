@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 20. Colbinstown II</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                                <respStmt>
+                    <resp>XML assistant</resp>
+                    <name>
+                        <persName>Michelle Doran</persName>
+                        <roleName>Intern 2011</roleName>
+                    </name>
+                                </respStmt>
+                <respStmt>
+                    <resp>3D laser scanned 29/1/2010 and processed using Rapidform software</resp>
+                    <name>Thierry Daubos</name>
+                    <orgName>Moore Institute, Galway</orgName>
+                </respStmt>
+                
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl> 
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8
+                in <date>May 2011</date>
+                by
+                <name>
+                    <persName>Michelle Doran</persName>
+                    <roleName>Intern 2011</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 20. <placeName type="townland">Colbinstown</placeName> 
+                     II</name>, Co. <placeName type="county">Kildare</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044002-"
+                >KD032-044002-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>The site, a gravel mound known as <placeName type="sitename">Killeen Cormac</placeName> (<placeName xml:lang="ga"
+                        ><hi rend="italic">Cell Ingen
+                            Cormaic</hi></placeName>/<placeName xml:lang="ga"><hi rend="italic"
+                                >Cell Fhine Cormaic</hi></placeName>?) is classified as a
+                        'Burial Ground', but may be regarded as an important early ecclesiastical
+                        site. A recent geophysical survey of the site (<ref type="bibliog"
+                            target="#GRE2013"><bibl><author>Greene</author>
+                                <date when="2013">2013</date>, <biblScope type="pp"
+                                    >26-47</biblScope></bibl></ref>) shows traces of a 
+                        trivallate enclosure of which the burial ground is just the nucleus of a much more extensive 
+                        early Christian foundation. Seven ogham stones were originally found at this site, at least one of 
+                        which was broken up and re-used in the construction of a surrounding wall in the late 19th century (<ref type="bibliog"
+                            target="#MAC1945"><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >26</biblScope></bibl></ref>).
+                        One of the ogham stones, currently on display in the National Museum of Ireland, is a bilingual stone 
+                        (rare in Ireland) with both an ogham inscription and one in Latin (<ref target="search.php?ciic=19">CIIC. 19 Colbinstown I</ref>).
+                    </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>Fragment (rest missing, approx. 12 in total) of one of seven ogham stones, broken up and
+                        re-used in the construction of a wall around the site in the mid 1890s (<ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp">22,
+                                24-5</biblScope></bibl></ref>, <ref type="bibliog" target="#FIT1897"
+                                    ><bibl><author>Fitzgerald</author> 
+                                        <date when="1897">1897</date>, <biblScope type="pp">206-8</biblScope></bibl></ref>).  <rs type="material"/>
+                        <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height"/>
+                            <measure unit="metre" type="length" rend="width"/>
+                            <measure unit="metre" type="length" rend="depth"/></rs>
+                    </p>
+                </div>
+
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>up-top-down, based on Macalister's diagram of the paper-cast made by Sir S. Ferguson before the stone was broken up (below right). The fragment may correspond to <name type="author"
+                            >Macalister's</name> first of <q>three sketches of these fragments,
+                                drawn by <ref type="bibliog" target="#FIT1897"
+                                    ><bibl><author>Fitzgerald</author> 
+                                        (<date when="1897">1897</date>, <biblScope type="pp">206-8</biblScope></bibl>)</ref> in <date
+                                    when="1893">1893</date></q>: Q<hi rend="superscript">45</hi>ID [from
+                        <foreign xml:lang="ga">maQI D(dec-)</foreign>].</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/><name type="author">Macalister</name><ptr type="bibliog" target="#MAC1945"
+                    /> (from cast) <lb/>
+                    <persName><w lemma="MAQI-DECEDAS">
+                        MAQI-DDEC<supplied reason="lost">CEDA</supplied>
+                    </w></persName>
+                    <w type="formula" lemma="MAQI">MAQI</w>
+                    <persName><w lemma="MARIN">
+                        MARIN
+                    </w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>of <persName xml:lang="ga">Mac-Deichet</persName> son of <persName
+                            xml:lang="la">Marinus</persName></q></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                    <ab>
+                        <name type="author">Macalister</name><ptr type="bibliog" target="#MAC1945"
+                            />:<ref
+                            target="http://www.ucl.ac.uk/archaeology/cisp/database/picpage/colin_2_1.html"
+                            >http://www.ucl.ac.uk/archaeology/cisp/database/picpage/colin_2_1.html</ref>
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p><persName xml:lang="ga">MARIN</persName> – Latin name <persName
+                                xml:lang="la"><hi rend="italic">Marinus</hi></persName>
+                            <ref type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
+                                <date when="1991">1991</date>, <biblScope type="pp"
+                                >113</biblScope></bibl>)</ref>.</p></item>
+                    <item n="2"><p>The reason for duplication of the initial D of -DDECCEDA is unclear, as there is much variation in
+                            the spelling of this name <ref type="bibliog" target="#MCM1991">(McManus
+                                1991, 125-6)</ref>.
+                        cp. <ref
+                            target="search.php?ciic=66"
+                            >CIIC 66</ref>. <placeName type="sitename">Faunkill
+                                    and the Woods</placeName>, <name type="county"
+                                >Cork</name> (<foreign xml:lang="ga">MAQI-DECCEDDAS</foreign>),
+                        <ref
+                            target="search.php?ciic=159"
+                            >CIIC 159</ref>. <foreign xml:lang="ga"
+                                    >Ballintaggart</foreign>, <placeName type="county"
+                                >Kerry</placeName> (<foreign xml:lang="ga">MAQI-DECCeDA MAqi
+                                GLASICONAS</foreign>), <name type="stone">184. <placeName>Gortnagullenagh</placeName></name>, <placeName
+                                type="county">Kerry</placeName> (<foreign xml:lang="ga"
+                                    >MAQQI-DECEDDA MAQQI CATUVIR</foreign>), <ref
+                                        target="search.php?ciic=203"
+                                        >CIIC 203</ref>.
+                                    <placeName>Coolmagort</placeName>,
+                                <placeName type="county">Kerry</placeName> (<foreign xml:lang="ga"
+                                >MAQI-DECEDA MAq<gap reason="lost" extent="unknown/"
+                            /></foreign>).</p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Lying on the slope of the mound on its western side in the graveyard of <placeName type="sitename"
+                                >Killeen Cormac</placeName> in townland of <placeName
+                                type="townland">Colbinstown</placeName> and barony of <placeName
+                                type="barony">Narragh and Reban East</placeName>. The original
+                            location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044002-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-6.761020, 53.028337</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation"><orgName>National Museum of Ireland</orgName> (<idno>NMI Ref. 1929:1213</idno>), 
+                                <placeName>Dublin</placeName>. The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-360----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                                <geo>-6.254558,53.340408</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered by <roleName>Rev.</roleName>
+                    <persName><forename>J.</forename>
+                        <surname>Shearman</surname></persName> in <date when="1860"
+                            >1860</date> and reported to members of the Royal Irish Academy in 1865. A paper-cast of the stone, prior to its destruction by 1892, was made by
+                            <persName><forename>S.</forename>
+                        <surname>Ferguson</surname></persName>, from which the diagram in <name
+                        type="author">Macalister</name> is based.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BRA1874"><author><surname>Brash</surname>, R.R.</author> (<date
+                            when="1874">1874-1875</date>): <title level="a">'On the ogham-inscribed
+                                stones at Killeen Cormac'</title>, <title level="j"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">13</biblScope>, <biblScope type="pp">pp
+                            165-82</biblScope>.</bibl>
+                    <bibl xml:id="FIT1895"><author><surname>FitzGerald</surname>, W.</author> (<date
+                            when="1895">1895</date>): <title level="a">'Killeen Cormac inscribed
+                                stones (note')</title>, <title level="j"><hi rend="italic">JRSA</hi>I</title>
+                        <biblScope type="vol">25</biblScope>, <biblScope type="pp">pp
+                            380–2</biblScope>.</bibl>
+                    <bibl xml:id="FIT1897"><author><surname>Fitzgerald</surname>, W.</author>(<date
+                            when="1897">1897</date>): <title level="a">'On the lost Ogham "Deccedda"
+                            stone, once at Killeen Cormac, near Colbinstown, Co. Kildare
+                            [note]'</title>, <title level="j"><hi rend="italic">Journal of the Kildare Archaeological
+                            and Historical Society</hi></title>
+                        <biblScope type="vol">2(3)</biblScope>, <biblScope type="pp">pp
+                        206–8</biblScope>.</bibl>
+                    <bibl xml:id="GRE2013">
+                        <author>
+                            <surname>Greene</surname>
+                            <forename>S.</forename></author> (<date>2013</date>): <title level="a"
+                                xml:lang="en">'Killeen Cormac - the archaeology and history of a significant early Christian foundation'</title>, <title level="j"
+                                    xml:lang="en"><hi rend="italic">Journal of the Kildare Archaeological and Historical Society and Surrounding Districts</hi></title>
+                        <biblScope type="vol">20, Part 3</biblScope>, <biblScope type="pp">pp 26-47</biblScope>. </bibl> 
+                    <bibl xml:id="MAC1897"><author><surname>Macalister</surname>, R.A.S.</author>
+                        (<date when="1897">1897</date>): <title level="m"><hi rend="italic">Studies in Irish
+                            Epigraphy</hi></title>, 3 Vols., <pubPlace>London</pubPlace>. <biblScope
+                            type="vol">Part I</biblScope>, <biblScope type="chap">no.
+                        51</biblScope>, <biblScope type="pp">p 79</biblScope>.</bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>, R.A.S.</author>
+                        (<date when="1945">1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum
+                            insularum Celticarum</hi></title>, <biblScope type="pp">pp 22,
+                            24-5</biblScope>.</bibl>
+                    <bibl xml:id="MAC1929"><author><surname>Macalister</surname>, R.A.S.</author>
+                        and <author><surname>Praeger</surname>
+                            <forename>R. L.</forename></author> (<date when="1929">1929</date>):
+                            <title level="a">'Report on Excavation Recently Conducted in Killeen
+                                Cormac, Co. Kildare'</title>, <title level="j"><hi rend="italic">PRIA</hi></title>
+                        <biblScope type="vol">C 38</biblScope>, <biblScope type="pp">pp
+                            247-61</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 94, 109, 113, 125, 126</biblScope>.</bibl>
+                    <bibl xml:id="SHE1864"><author><surname>Shearman</surname>, J. F.</author>
+                        (<date when="1864">1864–1866</date>): <title level="a">'On some inscribed stones at Killeen Cormac, near Dunlavin'</title>, <title level="j"><hi rend="italic">Proceedings of the Royal Irish Academy (1836-1869</hi></title>
+                        <biblScope type="vol">9</biblScope>, <biblScope type="pp"
+                            >253-260</biblScope>.</bibl>
+                    <bibl xml:id="SHE1872"><author><surname>Shearman</surname>, J. F.</author>
+                            (<date when="1872">1872–1873</date>): <title level="a">'Loca
+                                Patriciana.—No I Killeen Cormac'</title>, <title level="j"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">12</biblScope>, <biblScope type="pp"
+                            >339-52</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"
+                            ><hi rend="italic">Monasticon Hibernicum database - Early Christian Ecclesiastical
+                                Settlement in Ireland 5th to 12th Centuries</hi></title>: <ref
+                                    target="http://monasticon.celt.dias.ie/showrecord.php?id=4129"
+                                    >monasticon.celt.dias.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

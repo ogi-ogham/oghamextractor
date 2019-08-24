@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 280. Drumlohan IX</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>3D laser scanned using Artec Eva scanner on 24/4/2013 and later processed using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>May 2013</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 280. <placeName type="findspot">Drumlohan </placeName>
+                    IX</name>, Co. <placeName type="county">Waterford</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033014-"
+                >WA024-033014-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Souterrain/Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Souterrain discovered on removing the outer bank at NW of an
+                        Early ecclesiastical site. Ten ogham stones were used in the
+                        construction of the rectangular chamber (<ref type="bibliog" target="#MOO1999"><bibl><author>Moore</author>
+                            <date when="1999">1999</date>, <biblScope type="pp">151, 172-3</biblScope></bibl></ref>) - five as lintels, 
+                        which are now removed and placed upright beside the souterrain, 
+                        and five as lining stones for the sides, which are still in position. 
+                    </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <q>The first lining-stone on the western side</q>. <rs
+                            type="material"/><q>A stump of slate</q>, <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.12</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.51</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.22</measure>m
+                                <lb/> (converted from <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp">275</biblScope></bibl></ref>).</rs>
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Ogham pocked on two edges (up-down): it is worn and broken and the top of the stone is lost</q> 
+                        -INION- <q>would just about fill the missing portion</q>. Three notches of the first possible I remain. 
+                     (<ref type="bibliog" target="#MAC1945"><bibl><author>Macalister
+                    </author> <date when="1945">1945</date>, <biblScope type="pp"
+                        >275-6</biblScope></bibl></ref>).
+                    </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>                                       
+                    <persName><w lemma="BROINIONAS?">BRO<supplied reason="lost">INION</supplied>AS</w></persName>  
+                    </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>'of Bróen?'                                  
+                    </ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list>
+                    <item n="1"><p>The name BROINIONAS is recorded in three other ogham inscriptions (<ref target="search.php?ciic=120">CIIC 120</ref> Monataggart, Co. Cork; <ref target="search.php?ciic=151">CIIC 151</ref> Ballinrannig, Co. Kerry and  
+                    <ref target="search.php?ciic=295">CIIC 295</ref> Knockboy, Co Waterford). However, the reading is only relatively certain in <ref target="search.php?ciic=151">CIIC 151</ref> 
+                        Ballinrannig, Co. Kerry, which has the expected ending -IONAS and in <ref target="search.php?ciic=120">CIIC 120</ref> 
+                        Monataggart, Co. Cork, which has BROINIENAS.</p></item>  </list> 
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Re-used as the first lining stone on the western side of the souterrain (<ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp">275</biblScope></bibl></ref>) in townland of Drumlohan and barony of <placeName
+                                type="barony">Decies without Drum</placeName>. (GPS coordinates
+                            <geo>-7.465370, 52.163318</geo>)
+                        </rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">Still within the souterrain on site at Drumlohan.
+                            The present location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033014-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered in <date when="1867">1867</date> and identified by William Williams of Dungarvan, but ogham inscriptions not fully read until souterrain was dismantled in 1936
+                    (<ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>
+                        <date when="1945">1945</date>, <biblScope type="pp">267</biblScope></bibl></ref>).</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="KIR1987">
+                        <author>
+                            <surname>Kirwan</surname>, <forename>E. M.</forename>
+                        </author> (<date>1987</date>): <title level="a">'Drumlohan: A survey of its antiquities'</title>, 
+                        <title level="j"><hi rend="italic">Decies</hi></title>
+                        <biblScope type="vol">35</biblScope>, <biblScope type="pp">pp 33-40</biblScope>. </bibl>
+                    <bibl xml:id="KIR1985">
+                        <author>
+                            <surname>Kirwan</surname>, <forename>E. M.</forename>
+                        </author> (<date>1985</date>): <title level="a">'The Ogham stones at Drumlohan,
+                            reconsidered'</title>, <title level="j"><hi rend="italic">Decies</hi></title>
+                        <biblScope type="vol">28</biblScope>, <biblScope type="pp">pp 6–12</biblScope>. </bibl>
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 267-70, 275-6</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp </biblScope>.</bibl>
+                    <bibl xml:id="MOO1999"><author><surname>Moore</surname>,
+                            <forename>M.</forename></author> (<date when="1999">1999</date>): <title
+                                level="m"><hi rend="italic">Archaeological Inventory of County <placeName type="county"
+                                >Waterford</placeName></hi></title>. <pubPlace>Dublin</pubPlace>,
+                            <biblScope type="pp">pp 151, 172-3</biblScope>.</bibl>
+                    <bibl xml:id="RHY1899"><author><surname>Rhys</surname>,
+                            <forename>J.</forename></author> (<date when="1899">1899</date>): <title
+                            level="a">'The Drumlohan ogams'</title>, <title level="j"
+                                ><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">29</biblScope>, <biblScope type="pp">pp
+                        390-403</biblScope>.</bibl>
+                    <bibl xml:id="WIL1868"><author><surname>Williams</surname>,  <forename>W.</forename></author> (<date when="1868">1868-9</date>):<title
+                        level="a">'On an ogham chamber at Drumloghan, in the County of Waterford'</title>,  <title level="j"
+                            ><hi rend="italic">JRSAI</hi></title> <biblScope type="vol">10</biblScope>,  <biblScope type="pp">35-9</biblScope></bibl>
+                    
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date when="1997"
+                            >1997</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. Ogam-Inschriften: Bilderverzeichnis (picture catalogue).</hi></title> (2nd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.uni-frankfurt.de/ogam/ogbildx.htm"
+                                >titus.uni-frankfurt.de/ogam/ogbildx.htm</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                                Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                                Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=3411"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

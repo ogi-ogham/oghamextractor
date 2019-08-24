@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 220. Derrynane</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                    <resp>3D laser scanned on 20/08/2015 using Artec Eva and processed using Geomagic software.</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US">
+                        <p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>Aug 2015</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 220. <placeName type="townland">Derrynane</placeName></name>, Co. <placeName type="county"
+                    >Kerry</placeName></head>
+            <ab>
+                <rs>National Monuments Service Record Number: <ref
+                    target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE106-114----"
+                    >KE106-114----</ref>
+                </rs>
+            </ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Unassociated</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>This stone lay partly buried on Derrynane strand [below tide-mark] prior to being erected in its present [nearby] position by the OPW in the 1940s (<ref
+                        target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE106-114----"
+                            >Extract from ASI database, 
+                            www.archaeology.ie</ref>). </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><q>Sandstone grit</q>, 
+                            <rs type="dimensions">
+                                <measure unit="metre" type="length" rend="height">2.11</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.51</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.30</measure>m
+                                <lb/> (Converted from <ref type="bibliog" target="#MAC1945"
+                                    ><bibl><author>Macalister</author>
+                                        <date when="1945">1945</date>, <biblScope type="pp"
+                                            >214</biblScope></bibl>)</ref></rs>. 
+                          </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Inscription <rs type="execution">pocked and rubbed</rs> on two angles (up sin.-down dex.). The writing is much worn... The LL might be S, 
+                        and it has been so read: it might even be V, as the first score is a little uncertain. 1I5 [5th score of first I] is gone with a spall, which has also destroyed 
+                        the middle of the following G1. There is an A-like notch upon G1 where it crosses the line, but this is merely a freak of fracture. The 
+                        following N is very faint, but traceable: the I which comes next is practically invisible, as is also the B-half of the M of MAQ. The A 
+                        of this word is gone, but the Q is perfectly clear: there is no room for a final I. The vowels have to be supplied in the following word 
+                        by the length of the interspaces as they are all worn away: of the consonants, the N is scarcely traceable, the H half of the R is visible, 
+                        but the B half can only just be seen. The C is quite clear. There is no evidence of a following vowel. The B-surface of the dexter angle has 
+                        been battered away, so that nothing of it is left but the H-half of the M (doubtless the initial of <hi rend="italic">mucoi</hi>), the distal tips of a Q and a C, 
+                        and perhaps one notch of the final vowel</q> 
+                        (<ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >214-5</biblScope></bibl></ref>). <ref type="bibliog"
+                                    target="#MCM1991"><bibl><author>McManus</author> (<date when="1991"
+                                        >1991</date>, <biblScope type="pp">171, note 16</biblScope></bibl>)</ref> raised doubts about the reading of Macalister and <ref type="bibliog" target="#OSU1996"
+                                    ><bibl><author>O'Sullivan</author> et al (<date when="1996"
+                                        >1996</date>, <biblScope>no. 913</biblScope></bibl></ref>) recorded that <q>only three scores of Macalister's double L are apparent, and the first I and G are poorly preserved. 
+                                            The following N and I are not visible, while only the Q in the following word is apparent. The I, N and E of the third word are not visible and only the terminals of the 
+                                            scores representing R survive. None of the inscription recorded by Macalister on the stone's dexter angle is now apparent</q>. On the 3d model the LL (or possibly S) is evident,  
+                        as are the remains of the IG. Only the Q survives of MAQ and it looks as if it has been re-cut. Regrding the father's name, only four scores towards the top of the stone can be identified with any 
+                        certainty, presumably the -C of Macalister's MINERC. Apart from the remains of a possible M at the top of the opposite angle, nothing else of Macalister's reading is identifiable.  </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>  
+                    <w lemma="ANM" type="formula">ANM</w>
+                    <persName><w lemma="LLATIGNI"><unclear reason="inconclusive">LL</unclear>AT<unclear reason="damage">IG</unclear><supplied reason="lost">NI</supplied></w></persName>
+                    <w lemma="MAQI" type="formula"><unclear reason="worn">M</unclear><supplied reason="lost">A</supplied>Q</w>
+                    <persName><w lemma="MINERC?"><supplied reason="lost">MINE</supplied><unclear reason="worn">R</unclear>C</w></persName>/    
+                    <w lemma="MUCOI" type="formula"><unclear reason="damage">M</unclear><supplied reason="lost">UCOI</supplied></w>
+                   <w><supplied reason="lost">Q</supplied><gap reason="lost"></gap><supplied reason="lost">C</supplied><supplied reason="lost">I?</supplied></w>
+             </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>
+                    
+                </ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>
+                         </p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">partly buried, below tide-mark, on <placeName
+                            type="townland">Derrynane</placeName> strand, in the barony of <placeName
+                                type="barony">Dunkerron South</placeName> (<ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >214</biblScope></bibl></ref>) (GPS coordinates
+                            <geo>-10.120766, 51.763611</geo>). </rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">Re-erected on the shore close-by in <placeName
+                            type="townland">Derrynane</placeName> Bay. 
+                            The present location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE106-113----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-10.121919, 51.764123</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>First noted by Macalister in 1939 (PRIA 45, 14).
+                    </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                        <forename>R.A.S.</forename></author> (<date when="1945"
+                            >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                                Celticarum</hi></title>, <biblScope type="pp">pp
+                                214-5</biblScope>.</bibl>
+                   
+                   <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                        <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 65, 107, 125</biblScope>.</bibl>
+                    <bibl xml:id="OSU1996"><author><surname>O'Sullivan</surname>,
+                        <forename>A.</forename></author> and
+                        <author><surname>Sheehan</surname>, <forename>J.</forename></author>
+                        (<date when="1996">1996</date>): <title level="m"><hi rend="italic">The Iveragh Peninsula:
+                            An Archaeological Survey of South Kerry</hi></title>.
+                        <pubPlace>Cork</pubPlace>, <biblScope type="pp">no. 913</biblScope>.</bibl>
+                                       
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date when="1997"
+                            >1997</date>): <title level="m" xml:lang="de"><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. Ogam-Inschriften: Bilderverzeichnis (picture catalogue).</hi></title> (2nd edition) 
+                            <orgName>University of Frankfurt</orgName>, online database: <ref
+                                target="http://titus.uni-frankfurt.de/ogam/ogbildx.htm"
+                                >titus.uni-frankfurt.de/ogam/ogbildx.htm</ref></bibl> 
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

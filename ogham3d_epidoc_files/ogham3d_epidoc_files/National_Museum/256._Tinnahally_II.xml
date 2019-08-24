@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 256. Tinnahally II</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+               
+                        <respStmt>
+                            <resp>scanned using Artec Eva on 12/5/2016 and processed using Geomagic software</resp>
+                            <name>Gary Devlin</name>
+                            <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>July 2016</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 256. <placeName type="findspot"
+                    >Tinnahally</placeName></name> II, Co. <placeName type="county">Kerry</placeName>. </head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105002-"
+                >KE057-105002-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Souterrain</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>Two stones [were] raised from the souterrain of a fort, the name of which is given as `Lisnareabh'</q> (<ref type="bibliog" target="#MAC1945"
+                        ><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >249</biblScope></bibl></ref>). There is a ringfort (KE057-006----) in the townland of Tinnahally 
+                        named 'Lisnareabagh' on the OS 6-inch map, which contains a souterrain (<ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-006001-"
+                            >KE057-006001-, ASI database: 
+                            www.archaeology.ie</ref>). Local information has confirmed that the ogham stones came from this fort known as 'Lisnareveagh'.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.78</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.43</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.56</measure>m
+                            (converted from <ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >251</biblScope></bibl></ref>).</rs>
+                    </p>
+                </div>
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up on one angle, continuing across the top of the stone. The inscription is generally clear in broad <rs type="execution">pocked</rs> scores. 
+                        <ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author> 
+                                (<date when="1945">1945</date>, <biblScope type="pp"
+                                    >251</biblScope></bibl></ref>) suggested that <q>his stone is a second-hand monument; the face opposite the inscription shows signs over its whole surface as of heavy 
+                        battering with some kind of maul, evidently to remove an earlier inscription which its angles had borne</q>.</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/>
+                    <w lemma="ANM" type="formula">A<unclear reason="damage">N</unclear>M</w>
+                    <persName><w lemma="TEGANN">TEGANN</w></persName>
+                    <w lemma="MAC" type="formula">MAC</w>
+                    <persName><w lemma="DEGLANN">DEGL/ANN</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>name/inscription of Tecán son of Déclán</q></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>The E in the first name is represented by the first supplementary character (or
+                        <hi rend="italic">forfid</hi>) with its <rs type="character">vocalic value</rs> /<hi rend="italic">e</hi>/, rather than its consonantal value
+                        /<hi rend="italic">k</hi>/ or /<hi rend="italic">x</hi>/, usually transliterated  <hi rend="italic">K</hi>.
+                        With this vocalic usage, <q>late linguistic features tend to be more
+                            frequent</q>. There is also <q>a correlation with this usage and that of
+                                the ANM formula, which is also symptomatic of late
+                                date</q> 
+                        (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date
+                            when="1991">1991</date>, <biblScope type="pp"
+                                >79</biblScope></bibl></ref>; <ref type="bibliog" target="#SWI1997"><bibl><author>Swift</author> <date
+                                    when="1997">1997</date>, <biblScope type="pp"
+                                        >83-90</biblScope></bibl></ref>)</p>
+                                            </item>
+                    <item n="2"><p><ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> (<date
+                        when="1991">1991</date>, <biblScope type="pp"
+                            >92-3, 96</biblScope></bibl></ref>) places this inscription late (possibly <origDate notBefore="0570" notAfter="0630">late sixth or early seventh century</origDate>) in the sequence of Oghams on the basis of ANM and the 
+                            fact that all endings are lost. </p></item>
+                    <item n="3"><p>Regarding the varying vowel lengths in <hi rend="italic">Tecán</hi> and <hi rend="italic">Déclán</hi>, <ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> (<date
+                        when="1991">1991</date>, <biblScope type="pp"
+                            >179, n. 38</biblScope></bibl></ref>) noted that <q>the E of the first name, which is known to be short, is written with the first 
+                        supplementary character, which usually denotes short /e/, whereas that of the second is written the traditional way</q>.</p></item></list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">in a souterrain of a ringfort in the townland of <placeName type="townland">Tinnahally</placeName> in the barony of <placeName
+                                            type="barony">Trughanacmy</placeName>. The original location of this stone may be
+                            accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105002-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. <lb/> Precise coordinates
+                            unknown. (GPS coordinates, approximate location only
+                            <geo>-9.749639, 52.126506</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation"><orgName>National Museum of Ireland</orgName> (<idno>NMI Ref. 1872:19</idno>), 
+                                <placeName>Dublin</placeName>. The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-401----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-6.254558,53.340408</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>Recording</head>
+                <p>Discovered in 1848 on lands in the occupation of a man called Foley, innkeeper of Killorglin, who showed them to Windele. 
+                    <ref type="bibliog"
+                    target="#MAC1945">(<bibl><author>Macalister</author>
+                        <date when="1945">1945</date>, <biblScope type="pp">
+                            249</biblScope></bibl>)</ref> cites an article by Brash in 1873 as the first publication of the stone.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BRA1873">
+                        <author>
+                            <surname>Brash</surname>
+                            <forename>R. R.</forename>
+                        </author> (<date>1873</date>):  <title level="a">'On two Ogham-inscribed stones from Tinnahally, Co. Kerry'</title>,
+                        <title level="j"><hi rend="italic"><hi rend="italic">PRIA</hi></hi></title>, Polite Literature and Antiquities Ser. 2, <biblScope type="vol">Vol. 1</biblScope> (1870-9), <biblScope type="pp">pp
+                            186-89</biblScope>.</bibl>
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 249, 251</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>,
+                                <forename>D.</forename></author> (<date when="1991">1991</date>):
+                        <title level="m"><hi rend="italic">A guide to Ogam</hi></title>. <title level="s">Maynooth
+                            Monographs</title>
+                        <biblScope type="vol">4</biblScope>, <biblScope type="pp">pp 65, 79-80, 89, 92-93, 96, 107, 179</biblScope>.</bibl>
+                   
+                    </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

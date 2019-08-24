@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 26. Donaghmore</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                                                <respStmt>
+                                                    <resp>Scanned using Artec Eva on 12/05/2016 and processed using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+                
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl> 
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8
+                in <date>August 2018</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 26. <placeName type="townland">Donaghmore</placeName> 
+                     </name>, Co. <placeName type="county">Kildare</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD006-005002-"
+                >KD006-005002-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>According to Gwynn and Hadcock (1970, 380), this is <hi rend="italic">Domnach Mor Maige Nuadat</hi> (the great church of Nuadat's plain (Maynooth), KD006-005001-) where St Erc, a disciple of the 6th century St Senan, was bishop, 
+                        and the 'Donagh' (<hi rend="italic">Domnach</hi>) element in the townland name does suggest a possible Patrician foundation. In open, gently undulating pasture immediately S of Carton Demesne, and separated from it by 
+                        the Royal Canal, a railway line and road. A very poorly preserved large, roughly circular, outer enclosure (est. diam. c. 130m) is defined by a low, earthen bank (Wth 5m; H 0.25m) NE-E-S, with 
+                        traces of an external fosse (Wth 7m; D 0.6m) between E and S. The enclosing elements stop at S where the site is approached and entered by an apparently contemporary, embanked roadway 
+                        (Wth 6-7m; traceable ext. L 52m N-S) defined on each side by an earthen bank (Wth 3.5m; H 0.4m) which widens (Wth 8.5m) just inside the outer enclosure and runs towards to a central area (int L 28m N-S) 
+                        occupied by a roughly oval-shaped graveyard (KD006-005004-) which is the original location of an ogham stone and which contains a medieval church (KD006-005002-), and which may overlie 
+                        the site of an original inner enclosure (est. diams c. 60m NW-SE; c. 45m NE-SW)</q>  
+                        (<ref
+                            target="http://webgis.archaeology.ie/historicenvironment/"
+                            >ASI database, 
+                            www.archaeology.ie</ref>). The graveyard is also known as Grangewilliam, taken from the name of the farm it is situated on (<ref type="bibliog" target="#FIT1903"
+                                ><bibl><author>FitzGerald</author>
+                                    <date when="1903">1903</date>, <biblScope type="pp"
+                                        >75</biblScope></bibl></ref>).
+                    </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><q>Limestone</q><rs type="dimensions"> (<ref type="bibliog" target="#FIT1902"
+                            ><bibl><author>FitzGerald</author>
+                                <date when="1902">1902</date>, <biblScope type="pp"
+                                    >268</biblScope></bibl></ref>),   
+                        <measure unit="metre" type="length" rend="height">0.76</measure>m x
+                        <measure unit="metre" type="length" rend="width">0.36</measure>m x
+                        <measure unit="metre" type="length" rend="depth">0.23</measure>m
+                        (converted from <ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >30</biblScope></bibl></ref>).</rs> 
+                    </p>
+                </div>
+
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up-up, <q><rs type="execution">scratched in fine lines</rs></q> 
+                        (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >30</biblScope></bibl></ref>) and quite worn and damaged in places. There is no sign of <ref type="bibliog" target="#MAC1945"
+                                        ><bibl><author>Macalister</author>'s
+                                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                                >31</biblScope></bibl></ref>) suggested KOI after the initial name. Although there is space at the top of the left-hand angle for a final -I (NETTAVROICCI), there is no trace of any notches.
+                        The kin group name here (MUCOI TRE...?) is very uncertain, mainly due to spalling on the B angle.</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/>
+                    <persName><w lemma="NETTAVROICC">NETTAV<unclear reason="damage">R</unclear>O<unclear reason="damage">I</unclear>CC</w></persName>/
+                    <w lemma="MAQI" type="formula">MAQ<unclear reason="damage">I</unclear></w>
+                    <w lemma="MUCOI" type="formula">M<unclear reason="damage">U</unclear>CCO<unclear reason="damage">I</unclear></w>
+                    <persName><w lemma="TRENALUGGO?">T<unclear reason="damage">R</unclear>E<supplied reason="lost">N</supplied>A<supplied reason="lost">LU</supplied><unclear reason="damage">GGO</unclear></w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>of Nad-Froích son of the descendant of Trianlug?</q></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                    <ab>
+                        <name type="author">Macalister</name><ptr type="bibliog" target="#MAC1945"
+                            />:<ref
+                            target="http://www.ucl.ac.uk/archaeology/cisp/database/picpage/colin_2_1.html"
+                            >http://www.ucl.ac.uk/archaeology/cisp/database/picpage/colin_2_1.html</ref>
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>NET(T)A 'champion' (later falling together with NIOT(T)A 'sister's son' when both became <foreign xml:lang="ga"><hi rend="italic">Nad</hi></foreign>-) is frequently found as an element 
+                        in personal/kin group names (eg. NETA-SEGAMONAS on <ref
+                            target="search.php?ciic=263"
+                            >CIIC 263</ref>. Ardmore I and <ref
+                                target="search.php?ciic=300"
+                                >CIIC 300</ref>. Island). The second element of the name -VRECC is probably OIr. <hi rend="italic">Fróech, fróech</hi> 'heather' (Cf. <ref
+                                        target="search.php?ciic=12"
+                                        >CIIC 12</ref>. Rathcroghan I). 
+                        The same name appears on CIIC 271. (NETA-VROQI) at Stradbally, Co. Waterford and on <ref
+                            target="search.php?ciic=202"
+                            >CIIC 202</ref>. (NIO?TTVRẸCC), Coolmagort, Co. Kerry and 
+                        <q>all may be variants of an expected *NETA(S)-VROIC(I)</q> <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author> <date when="1991"
+                                >1991</date>, <biblScope type="pp"
+                                    >110</biblScope></bibl>)</ref>. </p></item>
+                    <item n="2"><p>The kin group name is very uncertain but it does appear to start with TRE and the letters NALUGGO would fit with the available space and remains of scores (cf. NETTA-TTRENALUGOS in <ref
+                        target="search.php?ciic=120"
+                        >CIIC 120</ref> Monataggart III, Co. Cork) <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author> <date when="1991"
+                                >1991</date>, <biblScope type="pp"
+                                    >177, n.12</biblScope></bibl>)</ref>.</p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">'Lying under a bush, in front of Brain McBride's headstone (1754), in the north-eastern portion of the churchyard' of Donaghmore/Grangewilliam in townland of <placeName
+                                type="townland">Donaghmore</placeName> and barony of <placeName
+                                    type="barony">North Salt</placeName> (<ref type="bibliog" target="#FIT1905"
+                                        ><bibl><author>FitzGerald</author>
+                                            <date when="1905">1903-5</date>, <biblScope type="pp"
+                                                >155</biblScope></bibl></ref>). The original
+                            location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD006-005002-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-6.552921, 53.377091</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation"><orgName>National Museum of Ireland</orgName> (<idno>NMI Ref. 1931:291</idno>), 
+                                <placeName>Dublin</placeName>. The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-173----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                                <geo>-6.254558,53.340408</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered by Lord Walter FitzGerald in 1902, lying in the NE section of the graveyard. It had <q>formerly served as a head-stone to a grave owned by a family named O'Farrell</q> (<ref type="bibliog" target="#FIT1905"
+                    ><bibl><author>FitzGerald</author>
+                        <date when="1905">1903-5</date>, <biblScope type="pp"
+                            >155</biblScope></bibl></ref>).</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="FIT1902"><author><surname>FitzGerald</surname>, W.</author> (<date
+                            when="1902">1902</date>): <title level="a">'Discovery of an Ogham Stone near Maynooth, Co. Kildare'</title>, <title level="j"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">32</biblScope>, <biblScope type="pp">pp
+                            267-8</biblScope>.</bibl>
+                    <bibl xml:id="FIT1905"><author><surname>Fitzgerald</surname>, W.</author>(<date
+                        when="1905">1903-5</date>): <title level="a">'Notes on an Ogham-inscribed stone recently discovered in the Donaghmore Churchyard, near Maynooth, in the County Kildare, 
+                            with a reading of its inscription by Professor John Rhys'</title>, <title level="j"><hi rend="italic">Journal of the County Kildare Archaeological
+                            Society</hi></title>
+                        <biblScope type="vol">4</biblScope>, <biblScope type="pp">pp
+                        155-60</biblScope>.</bibl>
+                  
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>, R.A.S.</author>
+                        (<date when="1945">1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum
+                            insularum Celticarum</hi></title>, <biblScope type="pp">pp 30-1</biblScope>.</bibl>
+                   
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 66, 76, 109-10, 112, 121</biblScope>.</bibl>
+                    <bibl xml:id="RHY1903">
+                        <author>
+                            <surname>Rhys</surname>, <forename>J.</forename>
+                        </author> (<date>1903</date>): <title level="a">'Notes on the ogam-inscribed stones of Donaghmore, Co.
+                            Kildare, and Inisvickillane, Co. Kerry'</title>, <title level="j" type="main"> <hi rend="italic">JRSAI</hi></title>, <biblScope type="vol">Vol. 33</biblScope>,
+                        <biblScope type="pp">pp 75-79</biblScope>.
+                    </bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"
+                            ><hi rend="italic">Monasticon Hibernicum database - Early Christian Ecclesiastical
+                                Settlement in Ireland 5th to 12th Centuries</hi></title>: <ref
+                                    target="http://monasticon.celt.dias.ie/showrecord.php?id=3252"
+                                    >monasticon.celt.dias.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

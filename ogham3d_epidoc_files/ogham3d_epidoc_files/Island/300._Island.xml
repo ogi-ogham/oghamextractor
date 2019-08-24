@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 300. Island</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                                <respStmt>
+                    <resp>3D laser scanned 25/10/2012 using DP Faro terrestrial scanner and processed using Geomagic software. Also photographed for SfM.</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>November 2012</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 300. <placeName type="townland">Island</placeName></name>,
+                Co. <placeName type="county">Waterford</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                        target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA032-029002"
+                        >WA032-029002</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Possible Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Situated just below the summit of a gentle NE-facing slope, with sea cliffs c. 130m to the S. This is possibly an early ecclesiastical site (WA032-029001-). 
+                        The enclosure is a large, grass-covered circular area (diam. 85.5m E-W; 83.5m N-S) defined by an overgrown earthen field bank with internal 
+                        and external stone-facing (Wth c. 2-3m; H c. 1-2m). The entrance (Wth 2.1m) at W is possibly modern. There is an ogham stone lying just inside the perimeter close to the entrance
+                        with a small cross-inscribed stone (WA032-029004-) lying beside it (<ref
+                            target="http://webgis.archaeology.ie/historicenvironment/?SMRS=WA032-029001-"
+                            >ASI database, 
+                            www.archaeology.ie</ref>; see image below right). <ref type="bibliog" target="#BRA1879"><bibl><author>Brash</author> 
+                                (<date when="1879">1879</date>, <biblScope type="pp"
+                                    >253</biblScope></bibl>)</ref> and <ref type="bibliog" target="#WES1906"><bibl><author>Westropp</author> 
+                                        (<date when="1906">1906</date>, <biblScope type="pp"
+                                            >250</biblScope></bibl>)</ref> both mention a local tradition that there was a killeen (unbaptised children's burial ground) at the site.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/>Slate, in two fragments,<rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.42</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.49</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.15</measure>m
+                        </rs>
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Inscription on two angles and the top (up-top-down), and, except for some
+                            chipping, in good condition</q>
+                        <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                            >290</biblScope></bibl>)</ref>. As
+                        McManus indicates in his reading, there is space for an expected A between
+                        the two Ns of CUN[A]NETAS. Also, it makes more sense to read MM than G for
+                        the two strokes before UC[OI] <ref type="bibliog" target="#MCM1945"
+                                >(<bibl><author>McManus</author>
+                            <date when="1945">1991</date>
+                            <biblScope type="pp">7, 94</biblScope></bibl>)</ref>.</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <persName><w lemma="CUNANETAS">CUN<supplied reason="lost"
+                            >A</supplied>NETAS</w></persName>
+                    <w lemma="MAQI" type="formula">MAQ/I</w>
+                    <w lemma="MUCOI" type="formula">MMUC/<supplied reason="lost">OI</supplied></w>
+                    <persName><w lemma="NETA-SEGAMONAS">NETA-SEGAMONAS</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>
+                    <q>of Conda son of the descendant of Nad-Segamon</q>
+                </ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list>
+                    <item n="1"><p>This is one of the inscriptions listed by <ref type="bibliog"
+                        target="#MCM1991"><bibl><author>McManus</author> (<date when="1945"
+                            >1991</date>, <biblScope type="pp"
+                                >93-4</biblScope></bibl>)</ref> to be among the earliest in the
+                        corpus showing no trace of vowel affection. It may be dated to the first
+                        half, or the early second half, of the fifth century <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author>
+                                <date when="1991">1991</date>, <biblScope type="pp"
+                                    >97</biblScope></bibl>)</ref>.</p></item>
+                    <item n="2"><p> The personal name CUN[A]NETAS (OIr. <hi rend="italic">Conda</hi> for <hi rend="italic">Conne</hi>) contains
+                            the commonly occuring element CUNA- and may be translated 'champion of
+                            wolves' <ref type="bibliog" target="#MCM1945">(<bibl><author>McManus</author>
+                                <date when="1945">1991</date>, <biblScope type="pp">102,
+                                    106</biblScope></bibl>)</ref>.</p></item>
+
+                    <item n="3"><p>The kindred or sept name NETA-SEGAMONAS 
+                        consists of the element <hi rend="italic">Nad</hi>- 'sister's son, champion' and a personal
+                        name <persName><hi rend="italic">Segamon</hi></persName>
+                            <ref type="bibliog" target="#MCM1945">(<bibl><author>McManus</author>
+                                <date when="1945">1991</date>, <biblScope type="pp">109-10,
+                                    112</biblScope></bibl>)</ref>. One theory is that this may be the
+                        Gaulish name <persName><hi rend="italic">Segomo</hi></persName>
+                            <ref type="bibliog" target="#MCM1945">(<bibl><author>McManus</author>
+                                <date when="1945">1991</date>, <biblScope type="pp">179 n.
+                                    46</biblScope></bibl>)</ref>. It is noteworthy that a <hi rend="italic">Nia-Segamon</hi> is listed in the historical 
+                        sources as a prehistoric king of Cashel <ref type="bibliog" target="#BHR2014">(<bibl><author>Bhreathnach</author>
+                                <date when="2014">2014</date>, <biblScope type="pp">43-4</biblScope></bibl>)</ref>. The fact that MUCOI NETA-SEGAMONAS 
+                        '(of) the descendant of Nad/Nia-Segamon' is also found on an ogham stone at nearby
+                        Ardmore I (<ref target="search.php?ciic=263">CIIC. 263</ref>) and possibly also Knockboy (<ref target="search.php?ciic=292">CIIC. 292</ref>) may suggest that this was a dynasty which
+                        controlled the area of west Waterford in the 5th century.</p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Originally recorded by <ref type="bibliog" target="#BRA1879"><bibl><author>Brash</author> 
+                            (<date when="1879">1879</date>, <biblScope type="pp"
+                                >253-4</biblScope></bibl>)</ref> as 'lying in the middle of a field'
+                            (enclosure). It was later incorporated with the surrounding wall and
+                                'practically inaccessible'
+                            <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >290</biblScope></bibl>)</ref> in the townland of <placeName type="townland">(Old)
+                                Island</placeName> and barony of <placeName type="barony">Decies
+                                    without Drum</placeName>. (GPS coordinates <geo>-7.481665, 52.113809</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">Lying on the ground close to the edge of the field
+                            (enclosure) and near the modern entrance. The present location of this
+                            stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA032-029002"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>.</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>First published mention appears to be <ref type="bibliog" target="#BRA1879"><bibl><author>Brash</author> 
+                    (<date when="1879">1879</date>, <biblScope type="pp"
+                        >253-4</biblScope></bibl>)</ref>. According to <ref type="bibliog" target="#MAC1907"><bibl><author>Macalister</author> 
+                    (<date when="1907">1907</date>, <biblScope type="pp"
+                        >196</biblScope></bibl>)</ref>, a boy at the site told him that the stone once stood in the centre of the enclosure with the small cross-inscribed stone placed on top of it. Apart from sketches by <ref type="bibliog" target="#BRA1879"><bibl><author>Brash</author> 
+                            (<date when="1879">1879</date>, <biblScope type="pp"
+                                >PL. XXXV.</biblScope></bibl>)</ref> and <ref type="bibliog" target="#MAC1907"><bibl><author>Macalister</author> 
+                                    (<date when="1907">1907</date>, <biblScope type="pp"
+                                        >197</biblScope></bibl>)</ref>,
+                    no other representation or image of the stone appears to have been made. Attempts were made to record the stone in 3d in 2012 but due to wet weather and the awkward position of the stone the result was unsatisfactory. 
+                    The 3d model is nonetheless made available here as a record of the stone. The site was re-visited in 2017 but was too overgrown to locate the stone. </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BHR2014">
+                        <author>
+                    <surname>Bhreathnach</surname>
+                    <forename>E.</forename>
+                    </author> (<date>2014</date>): <title level="m"><hi rend="italic">Ireland in the Medieval World, 
+                    AD400-1000: Landscape, kingship and religion</hi></title>. <pubPlace>Dublin</pubPlace>. </bibl>
+                    <bibl xml:id="BRA1879"><author><surname>Brash</surname>, <forename>R.
+                                R.</forename></author> (<date when="1879">1879</date>): <title
+                                    level="m"><hi rend="italic">The Ogam Inscribed Monuments of the Gaedhil in the British
+                            Isles</hi></title>. <pubPlace>London</pubPlace>, <biblScope type="pp">pp 253-4 </biblScope>.</bibl>
+                     
+                    <bibl xml:id="MAC1907">
+                        <author>
+                            <surname>Macalister</surname>, <forename>R.A.S.</forename>
+                        </author> (<date>1907</date>): <hi rend="italic"><title level="m" type="main">Studies in Irish
+                            Epigraphy</title>. <title level="m" type="sub">A Collection of Revised
+                                Readings of the Ancient Inscriptions of Ireland, with Introduction and
+                                Notes</title></hi>. <biblScope type="part">Part III</biblScope>.
+                        <pubPlace>London</pubPlace>, <biblScope type="pp">pp 196-8 </biblScope>. </bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">p. 290</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 93-4, 102, 108, 109-10, 116</biblScope>.</bibl>
+                    <bibl xml:id="MOO1999"><author><surname>Moore</surname>,
+                            <forename>M.</forename></author> (<date when="1999">1999</date>): <title
+                                level="m"><hi rend="italic">Archaeological Inventory of County <placeName type="county"
+                                >Waterford</placeName></hi></title>. <pubPlace>Dublin</pubPlace>,
+                            <biblScope type="pp">pp 197</biblScope>.</bibl>
+                   <bibl xml:id="WES1906">
+                        <author>
+                            <surname>Westropp</surname>, <forename>T.J.</forename>
+                        </author> (<date>1906</date>): <title level="a" xml:lang="en">'Notes on certain promontory forts in the counties of Waterford and Wexford'</title>, <title level="j"
+                            xml:lang="la"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">36</biblScope>, <biblScope type="pp">pp
+                            239-58</biblScope>. </bibl>   
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project</hi>)</name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                                Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                                Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=4994"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

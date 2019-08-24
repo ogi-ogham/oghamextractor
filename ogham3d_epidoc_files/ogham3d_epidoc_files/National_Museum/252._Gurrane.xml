@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 252. Gurrane</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+               
+                <respStmt>
+                    <resp>3D laser scanned 23/2/2015 using Artec Eva scanner and later processed
+                        using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor><orgName>Dublin Institute for Advanced Studies</orgName></distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8
+                in <date>Feb 2015</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 252. <placeName type="findspot">Gurrane</placeName></name>, Co. <placeName type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE039-148----"
+                >KE039-148----</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ringfort/rath</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Despite conflicting reports regarding the find site and circumstances (see History of Recording below), investigations in 2006 
+                        established that this ogham stone was found in a rath (<ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE039-070----"
+                            >KE039-070----</ref>) in <placeName type="townland">Garraundarragh</placeName>  
+                        townland (SMR file). As there is no townland of the name 'Gurrane' in the area, it is possibly a corruption of Garraundarragh. <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>'s 
+                            (<date when="1945">1945</date>, <biblScope type="pp">
+                                246</biblScope></bibl>)</ref> claim that it was <q>found in a souterrain</q> is questionable as he only cites <ref type="bibliog" target="#LYN1894"><bibl><author>Lynch</author> 
+                                    (<date when="1894">1894</date>, <biblScope type="pp"> 
+                                        291</biblScope></bibl>)</ref> and <ref type="bibliog" target="#GRA1895"><bibl><author>Graves</author> 
+                                            (<date when="1895">1895</date>, <biblScope type="pp">
+                                                1</biblScope></bibl>)</ref>, who do not 
+                        mention a souterrain in their reports.</p> 
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p><q>An irregular stone, thickening upward in the manner of a clumsy club</q>, <rs
+                            type="material"/>
+                        <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.19</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.32</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.41</measure>m
+                            (converted from <ref type="bibliog" target="#MAC1945"
+                                        ><bibl><author>Macalister</author>
+                                    <date>1945</date>, <biblScope type="pp">
+                                246-7</biblScope></bibl>)</ref>.</rs>
+                    </p>
+                </div>
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>The inscription runs up one angle and turns at the top to the dexter side, running half 
+                        round the edge of an oblique plane surface on the summit of the stone; then resumes at the
+                        bottom angle adjacent to the first of the sinister side, and again runs up to the top</q> 
+                        <ref type="bibliog" target="#MAC1945"><bibl>(<author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp">
+                            247</biblScope></bibl>)</ref>. The O (2 notches) preceding the final R is unclear 
+                        and could well be an A (a single notch), as noted by Graves. There is also a single
+                    vowel notch occuring after the -R, which is difficult to interpret as a fracture occurs here 
+                    and extra vowel notches may have been lost. </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/>
+                    <persName><w lemma="DUMELI">DUMELI</w></persName>
+                    <w lemma="MAQI" type="formula">MAQI</w>
+                    <persName><w lemma="GLASICONAS">GLASICONAS</w></persName>
+                    <w lemma="NIOTTA" type="formula">NIOTTA</w>
+                    <persName><w lemma="COBRANORA?">COBRAN<unclear reason="worn">O</unclear>R<unclear reason="damage">A</unclear></w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>of Dumel? son of Glaisiuc nephew (sister's son) of C?</q></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-images">
+                    <head>3D Images</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                    <p></p>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>With DUMELI <q>we appear to have a masc. <hi rend="italic">o</hi>- or <hi rend="italic">yo</hi>-stem 
+                        corresponding to 351 <hi rend="bold">DALLVS DVMELVS</hi> (Welsh <hi rend="italic">Dyfel</hi>). The later genitive 
+                        <hi rend="italic">Duimle</hi> (Ó Riain, 1985, 150 = 707.747), however, points to either a <hi rend="italic">yo</hi>- 
+                        or a <hi rend="italic">(y)a</hi>-stem and the latter is suggested by <ref
+                            target="search.php?ciic=198"
+                            >198</ref> -DDUMILEAS [Coolmagort, Kerry], which seems 
+                        to contain the same element</q> <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author> 
+                                <date when="1991">1991</date>, <biblScope type="pp">180, n.50</biblScope></bibl>)</ref>.</p></item>
+                    <item n="2"><p>The persosnal name GLASICONAS is a compound of GLAS- 'light
+                        green, grey' and -CUNAS 'dog, hound, wolf' <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author>
+                                <date when="1991">1991</date>, <biblScope type="pp"> 102,
+                                105</biblScope></bibl>)</ref>. </p></item>
+                    <item n="3"><p><ref type="bibliog"
+                        target="#MCM1991"><bibl><author>McManus</author> 
+                            (<date when="1991">1991</date>, <biblScope type="pp">109-10</biblScope></bibl>)</ref> 
+                        gives a full discussion of the forms NIOT(T)A and NET(T)A 'nephew (sister's son), champion'. 
+                        He also states that in case of this stone <q>it has been suggested 
+                            (see <ref type="bibliog"
+                                target="#CHA1971"><bibl><author>Charles-Edwards</author> 
+                                    (<date when="1971">1971</date>, <biblScope type="pp">120</biblScope></bibl>)</ref> and <ref type="bibliog"
+                                        target="#OCA1986"><bibl><author>Ó Cathasaigh</author> 
+                                            (<date when="1986">1986</date>, <biblScope type="pp">144-145</biblScope></bibl>)</ref>) that the NIOTTA has the status of 
+                            a formula word and serves to indicate the kindred membership of <hi rend="italic">Dumel(i)as</hi> who, as son of a <hi rend="italic">cú glas</hi> 
+                            (witness the name GLASICONAS), an immigrant from outside Ireland, would have belonged to the kindred 
+                            of his mother's brother. The theory is an attractive one though the equation of GLASICONAS with 
+                            <hi rend="italic">cú glas</hi> is tentative and the construction is isolated</q>.</p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Probably found in a rath in the townland of <placeName
+                            type="townland">Garraundarragh</placeName>, barony of <placeName
+                                type="barony">Trughanacmy</placeName>. The probable find location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE039-148----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-9.569440, 52.212276</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="location">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="location">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation"><orgName>National Museum of Ireland</orgName>,
+                                <placeName type="county">Dublin</placeName>. The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-245----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                                <geo>-6.254558,53.340408</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>According to <ref type="bibliog" target="#LYN1894"><bibl><author>Lynch</author> 
+                    (<date when="1894">1894</date>, <biblScope type="pp"> 
+                        291</biblScope></bibl>)</ref> the stone was found in June 1893 by a Mr M’Quin of Gortatlea <q>on an outlying farm of his at Gurrane</q>. 
+                    There is no townland by the name of Gurrane in this area and the closest possible candidate is Garraundarragh which lies immediately 
+                    to the south of Gortatlea. <ref type="bibliog" target="#GRA1895"><bibl><author>Graves</author> 
+                        (<date when="1895">1895</date>, <biblScope type="pp">
+                            1</biblScope></bibl>)</ref> states that this stone was found in the <q>outer ring of a rath . . .  When found, it was 
+                    projecting inwards from the western side of the embankment. But there is every reason to suppose that it originally stood upright</q>. 
+                    <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                        (<date when="1945">1945</date>, <biblScope type="pp">
+                            246</biblScope></bibl>)</ref>, however, records that it was found in a souterrain in the townland of Gurrane but does not 
+                    cite a source for this. Subsequent investigations in 2006 established that it was found in the rath (KE039-070----) in Garraundarragh 
+                    townland (SMR file). Macalister noted that it had been moved to a garden at Gortalea near Tralee and subsequently transferred to the 
+                    National Museum of Ireland 
+                    (<ref
+                        target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE039-148----"
+                        >Summary from ASI database, 
+                        www.archaeology.ie</ref>). </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="CHA1971"><author><surname>Charles-Edwards</surname>,
+                        <forename>T.M.</forename></author> (<date when="1896">1971</date>):
+                        <title level="a">'Some Celtic kinship terms'</title>, <title
+                            level="j"><hi rend="italic">Bulletin of the Board of celtic Studies</hi></title>
+                        <biblScope type="vol">24</biblScope>, <biblScope type="pp"
+                            >105-22</biblScope>.</bibl>
+                    <bibl xml:id="GRA1895"><author><surname>Graves</surname>,
+                        <forename>C.</forename></author> (<date when="1895">1895</date>):
+                        <title level="a">'On an ogham inscription recently discovered near Gortatlea, County Kerry'</title>, <title
+                            level="j"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">25</biblScope>, <biblScope type="pp"
+                            >1-4</biblScope>.</bibl>
+                    <bibl xml:id="LYN1894"><author><surname>Lynch</surname> 
+                        <forename>P.J.</forename></author> (<date when="1894">1894</date>):
+                        <title level="a">'Discovery of an ogham-stone in County Kerry'</title>, <title
+                            level="j"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">24</biblScope>, <biblScope type="pp"
+                            >291-2</biblScope>.</bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 246-7</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>,
+                                <forename>D.</forename></author> (<date when="1991">1991</date>):
+                        <title level="m"><hi rend="italic">A guide to Ogam</hi></title>. <title level="s">Maynooth
+                            Monographs</title>
+                        <biblScope type="vol">4</biblScope>, <biblScope type="pp">pp 65, 102, 103, 105, 109-10</biblScope>.</bibl>
+                    <bibl xml:id="OCA1986"><author><surname>Ó Cathasaigh</surname>,
+                        <forename>T.</forename></author> (<date when="1896">1971</date>):
+                        <title level="a">'The sister's son in early Irish literature'</title>, <title
+                            level="j"><hi rend="italic">Peritia</hi></title>
+                        <biblScope type="vol">5</biblScope>, <biblScope type="pp"
+                            >128-60</biblScope>.</bibl>
+                   
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date when="1997"
+                            >1997</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. Ogam-Inschriften: Bilderverzeichnis (picture catalogue).</hi></title> (2nd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.uni-frankfurt.de/ogam/ogbildx.htm"
+                                >titus.uni-frankfurt.de/ogam/ogbildx.htm</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

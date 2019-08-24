@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 46. Houseland</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+               
+                        <respStmt>
+                            <resp>scanned using Artec Eva on 11/12/2014 and processed using Geomagic software</resp>
+                            <name>Rob Shaw</name>
+                            <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>July 2018</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 46. <placeName>Houseland</placeName>/<placeName type="findspot"
+                >Portersgate</placeName></name>, Co. <placeName type="county">Wexford</placeName>. 
+            </head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WX054-004----"
+                >WX054-004----</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>The early church (WX054-003002-) known as St. Brecaun’s church is situated at the edge of a low clay cliff (H c. 5m) on the E side of the low-lying and narrow part 
+                        of the Hook peninsula. The graveyard was regarded as eroded away long ago by the sea (Redmond 1898, 32-3), and archaeological excavation in 1987 found [fragments of human bone but] no burials anywhere. However, evidence of an enclosing ditch 
+                        feature is confirmed in a fosse (Wth c. 2m) partly excavated c. 12m WSW of the church (Breen 1988). This feature (Wth c. 3m; D c. 0.8m) can also be seen in the cliff-face c. 25m N of the church</q> (<ref
+                            target="http://webgis.archaeology.ie/historicenvironment/"
+                            >ASI database, 
+                            www.archaeology.ie</ref>).  </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><q>Reddish, sandstone pulvinar</q><rs type="dimensions"> (three framgments, incomplete)  
+                            <measure unit="metre" type="length" rend="height">1.18</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.30</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.20</measure>m
+                            (converted from <ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >50</biblScope></bibl></ref>).</rs> The break between the two larger fragments <q>must have been of long standing as the broken surfaces are weathered and waterworn</q> (<ref type="bibliog" target="#MAC1945"
+                                            ><bibl><author>Macalister</author>
+                                                <date when="1945">1945</date>, <biblScope type="pp"
+                                                    >50-1</biblScope></bibl></ref>).
+                    </p>
+                </div>
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>The inscription is <rs type="execution">cut</rs> in two lines on the rounded sides up-top-down. It is quite legible except the R, in which R5 is broken, and the following C, which is spalled away except the distal ends.
+                    Consideration of the space abailable makes it possible to restore the whole inscription (see below right)</q> 
+                        (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author> 
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >51</biblScope></bibl></ref>). The third fragment discovered in 1987 is too small to confirm Macalister's restoration but, with four identifiable scores and the remains of a probable fifth, it could be a Q of the suggested MAQQI. </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/>
+                    <persName><w lemma="SEDANI">SEDAN<supplied reason="lost">I</supplied></w></persName>
+                    <w lemma="MAQI" type="formula"><supplied reason="lost">MA</supplied><unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied></w>
+                    <persName><w lemma="CATTABBOTT"><supplied reason="lost">CAT</supplied><unclear reason="damage">T</unclear>ABBOTT</w></persName>
+                    <w lemma="AVI" type="formula">AVVI</w>
+                    <persName><w lemma="DERCMASOC">DE<unclear reason="damage">RC</unclear>MASOC</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>of Sétnae son of Cathub Uí Dercmossaig</q></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>This is one of the inscriptions listed by <ref type="bibliog"
+                        target="#MCM1991"><bibl><author>McManus</author> (<date when="1945"
+                            >1991</date>, <biblScope type="pp">96</biblScope></bibl>)</ref> in
+                        which syncope (dropping of internal vowels) begins to show
+                        itself (loss of vowel indicated by asterisk: DERC*MASOC). 
+                        Therefore, it may be dated to the 
+                        <origDate notBefore="0570" notAfter="0630">late sixth or early seventh century</origDate> 
+                        <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author> <date when="1945"
+                                >1991</date>, <biblScope type="pp">97</biblScope></bibl>)</ref>.</p>
+                                            </item>
+                    <item n="2"><p>Although this stone is from the Hook Peninsula in Co. Wexford, the kin group name of the person commemorated (AVVI DERCMASOC) is presumably of the Dublin based <hi rend="italic">Uí Dercmossaig</hi> sept <ref type="bibliog"
+                        target="#MCM1991">(<bibl><author>McManus</author> <date when="1945"
+                            >1991</date>, <biblScope type="pp">104, 111, 112</biblScope></bibl>)</ref>.  </p></item></list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">'beneath the clay cliff under the ruins of St. Bricane's Church' <ref type="bibliog"
+                            target="#GRA1854">(<bibl><author>Graves and Nevin</author>
+                                <date when="1854">1854</date>, <biblScope type="pp">
+                                    179</biblScope></bibl>)</ref>. <ref type="bibliog" target="#MAC1945"
+                                        ><bibl><author>Macalister</author> 
+                                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                                >50</biblScope></bibl></ref>) gave the townland as Houseland but the site is in fact in the townland of <placeName type="townland">Portersgate</placeName> in the barony of <placeName
+                                        type="barony">Shelburne</placeName>. The original location of this stone may be
+                            accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WX054-004----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. <lb/> Precise coordinates
+                            unknown. (GPS coordinates, approximate location only
+                            <geo>-6.889553, 52.151461</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation"><orgName>National Museum of Ireland</orgName> (<idno>NMI Ref. 1872:19</idno>), 
+                                <placeName>Dublin</placeName>. The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-274----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-6.254558,53.340408</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>Recording</head>
+                <p>The lower (and largest) fragment of the stone was discovered in 1845 by Mr Hugh Nevin of Waterford <q>in the course of some geological researches on the promontory of Hook</q>   
+                    <ref type="bibliog"
+                    target="#GRA1854">(<bibl><author>Graves and Nevin</author>
+                        <date when="1854">1854</date>, <biblScope type="pp">
+                            179</biblScope></bibl>)</ref>. The second fragment (most of the top) was discovered almost 100 years later <q>near the church</q> by Rev. Thos. Cloney, P.P., Templetown, Fethard (<ref type="bibliog" target="#MAC1930"
+                                ><bibl><author>Macalister</author> 
+                                    <date when="1930">1930</date>, <biblScope type="pp"
+                                        >54</biblScope></bibl></ref>). The third small fragment was recovered in the 1987 excavation (<ref type="bibliog" target="#BRE1988"
+                                                        ><bibl><author>Breen</author> 
+                                                            <date when="1988">1988</date>, <biblScope type="pp"
+                                                                >30-1</biblScope></bibl></ref>).</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BAR1896"><author><surname>Barry</surname>,
+                        <forename>E.</forename></author> (<date when="1896">1896</date>):
+                        <title level="a">'On ogham-stones seen in Kilkenny County'</title>, <title level="j"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">26</biblScope>, <biblScope type="pp">pp
+                            122-35</biblScope>.</bibl>
+                    <bibl xml:id="BRE1988">
+                        <author>
+                            <surname>Breen</surname>, <forename>T.C.</forename></author> (<date>1988</date>):  <title level="a">'“Brecaun church”, Portersgate'</title> in I. Bennett (ed.), <title level="m"><hi rend="italic">Excavations 1987: 
+                                summary accounts of archaeological excavations in Ireland</hi></title>. <biblScope type="place">Bray</biblScope>. <biblScope type="publisher">Wordwell</biblScope>.  <biblScope type="pp">pp 30-31</biblScope></bibl>
+                   <bibl xml:id="GRA1854"><author><surname>Graves</surname>,
+                        <forename>J.</forename> and <surname>Nevin</surname>, <forename>H.</forename></author> (<date when="1854"
+                            >1854</date>): <title level="a">'Proceedings, September'</title>, <title
+                                level="j"><hi rend="italic">JRSAI</hi></title>, <biblScope type="vol">3</biblScope>,
+                        <biblScope type="pp">179</biblScope>.</bibl>
+                   <bibl xml:id="MAC1930"><author><surname>Macalister</surname>,
+                        <forename>R.A.S.</forename></author> (<date when="1930"
+                            >1930</date>):  <title level="a">'The ogham inscription of Hook Point, Co. Wexford'</title>,
+                        <title level="j"><hi rend="italic"><hi rend="italic">JRSAI</hi></hi></title>, <biblScope type="vol">Vol. 60</biblScope>, <biblScope type="pp">pp
+                            52-5</biblScope>.</bibl>
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 50-1</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>,
+                                <forename>D.</forename></author> (<date when="1991">1991</date>):
+                        <title level="m"><hi rend="italic">A guide to Ogam</hi></title>. <title level="s">Maynooth
+                            Monographs</title>
+                        <biblScope type="vol">4</biblScope>, <biblScope type="pp">pp 87, 89, 96, 102, 103, 104, 108, 111, 112, 115, 118, 120, 178 n27</biblScope>.</bibl>
+                   
+                    </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date
+                            when="2001">2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. TITUS OGAMICA</hi>.</title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/frame</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"
+                            ><hi rend="italic">Monasticon Hibernicum database - Early Christian Ecclesiastical
+                                Settlement in Ireland 5th to 12th Centuries</hi></title>: <ref
+                                    target="http://monasticon.celt.dias.ie/showrecord.php?id=5041"
+                                    >monasticon.celt.dias.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

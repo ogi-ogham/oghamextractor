@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 170. Ballymorereagh</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D laser scanned using Artec Eva scanner on 21/6/2013 and later processed
+                        using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13 in <date>July 2013</date>
+                by <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 170. <placeName type="townland"
+                >Ballymorereagh</placeName></name> (<hi rend="italic">AN BAILE RIABHACH</hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-140008-"
+                >KE043-140008-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>The early ecclesiastical site of <hi rend ="italic"><placeName type="sitename">Teampall Mhancháin</placeName></hi> (<placeName type="sitename">Templemanaghan</placeName>), 
+                        also known as <hi rend ="italic"><placeName type="sitename">Teampall Geal</placeName></hi>, <q>has a commanding view across Dingle Harbour. 
+                        The remains consist of a dry-stone oratory (standing to a height of 2.75 m in places), the foundations 
+                        of some dry-stone huts, a souterrain (<hi rend="italic">Poll na Sagart</hi> 'the Priests' Hole'), a burial ground and the remains of a sub-circular enclosure. There 
+                        are several cross-inscribed boulders and small slabs standing in the burial ground and in front of the 
+                        oratory is a large ogham-inscribed pillar</q> (<ref
+                            type="bibliog" target="#OKA2001"><bibl><author>Okasha and Forsyth</author>
+                                <date when="2001">2001</date>, <biblScope type="pp"
+                                    >138</biblScope></bibl></ref>). The ogham stone is said to mark the grave of St Manachán (<ref
+                                        type="bibliog" target="#BEN1995"><bibl><author>Bennett and Uí Shíthigh</author>
+                                            <date when="1995">1995</date>, <biblScope type="pp"
+                                                >13</biblScope></bibl></ref>)</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.68</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.46</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.28</measure>m
+                            <lb/> (Converted from <ref type="bibliog" target="#MAC1945"
+                                        ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >163</biblScope></bibl></ref>).</rs>
+                    </p>
+                    <p><q>A <rs type="feature">cross</rs> with equal arms, expanding regularly, is cut on the face, on the 
+                        dexter side of the inscription, while another <rs type="feature">cross</rs>, with expanding terminals
+                        ... is cut on the surface of the opposite face... A grafitto is scratched in 
+                        a line parallel with the ogham in crudely made half-unicals. It reads FECT QUENILOC 
+                    followed by a word too defaced to read</q> (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >163-4</biblScope></bibl></ref>). Note that the 3d scan of this stone showed no trace of this grafitto. Here, as elsewhere, Macalister sees the crosses 
+                        on this stone as a later attempt at Christianisation but see <ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> 
+                            (<date when="1991">1991</date>, <biblScope type="pp"
+                                    >54-61</biblScope></bibl>)</ref> for a valid counter argument to this theory.
+                        
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up. <q>The top has been broken and battered away... So far as it goes the inscription 
+                        is perfectly clear, though some of the vowels are damaged</q> (<ref type="bibliog" target="#MAC1945"
+                                    ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >163</biblScope></bibl></ref>). This reading was confirmed on inspection of the 3d data. Regarding the C of MUC[OI], three of the four scores are visible on the 3d model. 
+                    </p>
+                    
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <persName><w lemma="QENILOCI">QEN<unclear reason="damage">I</unclear>LOCI</w></persName>
+                    <w lemma="MAQI" type="formula">MAQI</w>
+                    <persName><w lemma="MAQI-AINIA">MAQI-AINIA</w></persName>
+                    <w lemma="MUCOI?" type="formula">MU<unclear reason="damaged">C</unclear><supplied reason="lost">OI</supplied></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab><q>of Cellach son of Mac-Áine? descendant of?</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>QENN- (OI <hi rend="italic">cenn</hi> `head'): ... QENILOCI (<hi rend="italic">Cellach</hi>) <ref type="bibliog"
+                                target="#MCM1991"><bibl>(<author>McManus</author> 
+                                    <date when="1991">1991</date>, <biblScope type="pp"
+                                        >103</biblScope></bibl>)</ref>. 
+                       
+                    </p></item>
+                    <item n="2"><p>It is tempting to equate the name MAQI-AINIA with the goddess <hi rend="italic">Áine</hi> but, as 
+                        <ref type="bibliog"
+                            target="#MCM1991"><bibl><author>McManus</author> (<date when="1991"
+                                >1991</date>, <biblScope type="pp">109, 115, 179 n. 47</biblScope></bibl>)</ref> points out, <q>if so
+                                    AI must be an error for A as the first syllable does not contain the diphthong <hi rend="italic">ai</hi>
+                                </q> and palatalisation is not written in ogham.</p></item>
+                    <item n="2"><p>The retention of the -I in QENILOCI in combination with the loss of -S in MAQI-AINIA suggests dating this 
+                        inscription to the <origDate notBefore="0500" notAfter="0550">first half of the sixth century</origDate> <ref type="bibliog"
+                            target="#MCM1991"><bibl>(<author>McManus</author> 
+                                <date when="1991">1991</date>, <biblScope type="pp"
+                                    >95, 97</biblScope></bibl>)</ref>.</p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">the stone was found at <hi rend ="italic"><placeName type="sitename">Teampall Geal</placeName></hi> early ecclesiastical site in the townland of
+                                <placeName type="townland">Ballymorereagh</placeName> and barony of
+                            <placeName type="barony">Corkaguiney</placeName>. (GPS coordinates <geo>-10.331399, 52.154449</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">In front of the oratory at <hi rend ="italic">Teampall Geal</hi>, secured within a metal fence and standing on a platform of concrete <ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-140008-"
+                                >National Monuments Service Historic Environment viewer on
+                            www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p><ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author> 
+                            (<date when="1945">1945</date>, <biblScope type="pp"
+                            >163</biblScope></bibl>)</ref> cites Petrie (1845, 136) as the first recording of the stone.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 13</biblScope>. </bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                            >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey
+                                of the <placeName>Dingle Peninsula</placeName></hi></title>.
+                            <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">pp 268-70
+                            </biblScope>.</bibl>
+                    <bibl xml:id="MAC1937">
+                        <author>
+                            <surname>Macalister</surname>, <forename>R. A. S.</forename>
+                        </author> (<date>1937</date>): <title level="a">'The ogham inscriptions at Kilfountain and Ballymorereigh (St. Manchans) in the Dingle Peninsula'</title>, <title level="j"
+                            ><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">67</biblScope>, <biblScope type="pp">pp 221-8</biblScope>. </bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                        >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum
+                                insularum Celticarum</hi></title>, <biblScope type="pp">p. 163
+                        </biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                            when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to
+                                ogam</hi></title>. <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 95, 103, 109, 115, 118</biblScope>.</bibl>
+                    <bibl xml:id="OKA2001"><author><surname>Okasha</surname>, 
+                        <forename>E.</forename> </author> And <author>
+                            <surname>Forsyth</surname>, <forename>K.</forename>
+                        </author> (<date>2001</date>): <hi rend="italic"><title level="m" type="main">Early Christian
+                            Inscriptions of Munster</title>: <title level="m" type="sub">A Corpus of the Inscribed
+                                Stones</title></hi>, <biblScope type="pp">p. 138</biblScope>. </bibl>
+
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                       
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                    Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=5268"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                                           </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

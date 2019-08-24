@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rathkenny IV</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D laser scanned using Artec Eva scanner on 7/8/2014 and later processed
+                        using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13 in <date>August 2014</date>
+                by <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"> <placeName type="townland"
+                >Rathkenny</placeName></name> IV, Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS="
+                >KE021-087007-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Souterrain in large Ringfort/Rath</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q><placeName type="sitename">Lismore</placeName>/<hi rend="italic">Lios Mór</hi> (large ringfort [as opposed to nearby Lisbeg/<hi rend="italic">Lios beag</hi>, a small univallate ringfort]). 
+                        This multivallate rath is situated on rising land and has an extensive view of the surrounding countryside. 
+                        It consists of a circular area enclosed by three banks and fosses... In the SW sector of the interior are the remains of a souterrain. An opening 
+                        was made into one of the chambers in the late 1970s, so the drystone walling construction of the chambers and tunnels is quite visible. As one enters, one sees 
+                        an air vent, which leads through the earthen enclosing bank in the SW sector to its exterior side, thus providing fresh air to the chamber. A large ogham stone 
+                        [Rathkenny I] is visible overhead. The centre chamber has much infill in it due to the way it was opened. To the left on entering there is a small narrow passage 
+                        which leads to a chamber, sub-circular in plan and constructed in the beehive tradition. The lintel stone on the chamber side of the tunnel displayed ogham writing 
+                        [Rathkenny III], but sadly it was removed without permission. To the right on entering there is another small tunnel which leads to a beehive chamber. The lintel 
+                        stone on the tunnel side also displays ogham writing [Rathkenny II]. However, the chamber could not be investigated as it was too flooded to enter. It would appear 
+                        that a tunnel leading to a fourth chamber and possibly others has now collapsed, but it would seem to have run roughly NE towards the interior of the fort</q> 
+                        (<ref target="#TOA1995"><bibl><author>Toal</author>, <date when="1995">1995</date>, <biblScope type="pp"
+                            >774</biblScope></bibl></ref>). On visiting this site (with kind permission of the landowner) to carry out laser scanning in August 2014 a fourth ogham stone [Rathkenny IV] was 
+                        discovered used as a lintel on the chamber side of the tunnel to the right, which had been flooded on previous visits.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>Rathkenny IV acts as a lintel on the chamber side of the passage to right (N chamber) on entering the souterrain. 
+                        <rs type="material"/>
+                        <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">0.74</measure>m x
+                            <measure unit="metre" type="length" rend="width">0.22</measure>m x
+                            <measure unit="metre" type="length" rend="depth">0.13</measure>m.  
+                            <lb/> These are approximate dimensions taken from the 3d data. The full extent is unknown as the stone is embedded in the structure.
+                           </rs>
+                        
+                        </p>
+                   
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>What is visible of the inscription is <rs type="execution">picked</rs> in broad scores but there may be further letters which are inaccessible. All that can be made out
+                        is an S (or possibly a C) at one end of the stone (final -S or initial C-?), a possible vowel notch (A) and 3 or 4 possible faint scores representing V (/T) or S (/C). 
+                      </p>                             
+                               
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <w><gap reason="illegible"/> <unclear reason="faint">V</unclear>
+                        <unclear reason="inaccessible">A</unclear>
+                        S</w>                    
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p></p></item>
+                   
+                                   </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Found in the souterrain at Lismore/<hi rend="italic">Lios Mór</hi> in the townland of 
+                                <placeName type="townland">Rathkenny</placeName> and barony of
+                            <placeName type="barony">Clanmaurice</placeName>. (GPS coordinates
+                            <geo>-9.721501, 52.333343</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">In situ inside souterrain at Lismore. The location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087007-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>As far as I am aware this is the first published account of this ogham stone.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                   
+                    <bibl xml:id="MAC1949"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1949"
+                        >1949</date>): <title level="m"><hi rend="italic">Corpus inscriptionum
+                            insularum Celticarum</hi></title>, <biblScope type="vol">II</biblScope>, <biblScope type="pp">pp 196-7
+                            </biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                            when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to
+                                ogam</hi></title>. <title level="s">Maynooth Monographs</title>
+                            <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">p. 68</biblScope>.     </bibl>
+                    <bibl xml:id="TOA1995"><author><surname>Toal</surname>,
+                            <forename>C.</forename></author> (<date when="1995"
+                                >1995</date>): <title level="m"><hi rend="italic">North Kerry Archaeological Survey</hi></title>, 
+                        <pubPlace>Dingle</pubPlace>,<biblScope type="pp">no. 774
+                        </biblScope>. </bibl>
+                        <bibl xml:id="WHI2016">
+                            <author>
+                                <surname>White</surname>, <forename>N.</forename>
+                            </author> (<date>2016</date>): <title level="a">'Ogham stones from a souterrain in Rathkenny, Co. Kerry'</title>, <title level="j"><hi rend="italic">Celtica</hi></title>
+                            <biblScope type="vol">28</biblScope>, <biblScope type="pp">pp 208-16</biblScope>. </bibl>
+                                                                        
+
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                       <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                    Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                       
+                                           </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

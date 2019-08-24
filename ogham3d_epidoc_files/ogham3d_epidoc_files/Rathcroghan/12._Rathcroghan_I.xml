@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 12. Rathcroghan I</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D laser scanned using Artec Eva scanner on 30/7/2014 and later processed
+                        using Geomagic software</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13 in <date>June 2014</date>
+                by <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 12. <placeName type="sitename"
+                >Rathcroghan</placeName></name> I, Co. <placeName
+                    type="county">Roscommon</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057030-"
+                >RO022-057030-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Souterrain at ancient royal site</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>This area is the location of Cruachain, the ancient royal capital of the kingdom of Connacht. Within this complex of mounds, 
+                        barrows and enclosures lies an underground site ... the cave of Cruachain-'Ireland's entrance to Hell' [according to early literature, a door to the otherworld]. The cave, know as 
+                        <placeName type="sitename">Oweynagat</placeName>, 'the cave of the cats', is c.750m south-west of Rathcroghan Mound. Around 250m to the south-east is the enclosure 
+                        known as Relignaree (which does appear to be a burial enclosure), whose name marks an association with the burial-place 
+                    of the kings of Connacht.</q> 
+                        (<ref target="#CON2003"><bibl><author>Condit</author> and Moore, <date when="2003">2003</date></bibl></ref>). </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p><q>The cave of Crúachu, at Rathcroghan, is a natural rock-fissure, to which a drystone masonry porch in the style 
+                        of a souterrain has been added. Two of the lintel stones in this structure bear Ogham inscriptions</q> (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >16</biblScope></bibl></ref>). 
+                         Rathcroghan I is the lintel on the inner side of the present entrance to the souterrain and cave.
+                        <rs type="material"/>
+                        <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.23</measure>m x
+                            <measure unit="metre" type="length" rend="width">0.48</measure>m x
+                            <measure unit="metre" type="length" rend="depth">0.16</measure>m.  
+                            <lb/> These are minimum dimensions taken from the 3d data. The full extent is unknown as the stone is embedded in the structure.
+                            
+                        </rs>
+                    </p>
+                   
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>The visible inscription is on two angles, up/up. Regarding MEDVVI, <q>the D and the following V have been cut carelessly, so as to over-lap</q> (<ref type="bibliog" target="#MAC1945"
+                        ><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >16</biblScope></bibl></ref>). With regard to VRAICCI, the three scores of initial V are partially damaged and only 6 vowels can be identified after the R but there is space for another, 
+                        which would give an expected VROICCI. </p>                             
+                               
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab><lb rend="up/up"/>
+                    <persName><w lemma="VRAICCI">VR<unclear reason="damage">A</unclear>ICCI</w></persName>/
+                    <w lemma="MAQI" type="formula">MAQI</w>
+                    <persName><w lemma="MEDVVI">MEDVVI</w></persName>                    
+                   </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab><q>of Fróech, son of Medb</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>VRAICCI may be a case of confused diphthongs as VROICCI would be expected for OIr. <hi rend="italic">Fróech, fróech</hi> 'heather'
+                        (<ref type="bibliog" target="#MCM1991"
+                            ><bibl><author>McManus</author>
+                                <date when="1991">1991</date>, <biblScope type="pp">107, 121</biblScope></bibl></ref>).</p></item>
+                    
+                        <item n="2"><p> MEDVVI, OIr. <hi rend="italic">Medb</hi> masc. and fem. related to  <hi rend="italic">mid</hi> 'mead' (<ref type="bibliog" target="#MCM1991"
+                                        ><bibl><author>McManus</author>
+                                            <date when="1991">1991</date>, <biblScope type="pp">107, 122</biblScope></bibl></ref>). The fact that -I endings are in tact in both personal 
+                            names would suggest a <origDate notBefore="0400" notAfter="0500">pre 6th century</origDate> date.
+                        </p> </item>
+                        <item n="3"> <p> <ref type="bibliog" target="#MAC1945"
+                                                ><bibl><author>Macalister</author> 
+                                                    (<date when="1945">1945</date>, <biblScope type="pp"
+                                                        >16-7</biblScope></bibl></ref>) prefers not to speculate as to whether this inscription could refer to <hi rend="italic">Medb</hi>, 
+                        mythical Queen of Connacht but it is hardly conicidental that this name is found here. 
+                        <q>The name <hi rend="italic">Fróech/Fráech</hi> is also associated with Cruachain as the hero of the early tale <hi rend="italic">Táin Bó Fraích</hi>... Carnfree ('the cairn of Fraech'), 
+                        a burial cairn some 6km to the south of Rathcroghan, also preserves an association with Fraech.</q> (<ref target="#CON2003"><bibl><author>Condit</author> and Moore, 
+                            <date when="2003">2003</date></bibl></ref>)</p></item>
+                                   </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">First discovered at Oweynagat by Ferguson in 1864? in the townland of
+                                <placeName type="townland">Glenballythomas</placeName> and barony of
+                            <placeName type="barony">Castlereagh</placeName>. (GPS coordinates
+                            <geo>-8.310399, 53.797323</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">In situ inside entrance to Oweynagat cave. The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057030-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>As <ref target="http://titus.fkidg1.uni-frankfurt.de/database/ogam/ogquery.asp?ciic1=012">Gippert</ref> noted, 'the site was visited by Ferguson on the 30.9.1864 (PRIA 9, 1867, 161) who`observed' 
+                    (for the first time?) two `inscriptions in the Ogham character'.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="CON2003"><author><surname>Condit</surname>,
+                        <forename>T.</forename></author> and <author><surname>Moore</surname>,
+                            <forename>F.</forename></author> (<date when="2003"
+                                >2003</date>): <title level="m">'Oweynagat – 
+                                the Cave of Cruachain: an entrance to the Otherworld in County Roscommon'</title>, 
+                        <title level="s"><hi rend="italic">Archaeology Ireland</hi>, Heritage Guide</title> 
+                        <biblScope type="part">No. 22</biblScope>.</bibl>
+                    <bibl xml:id="FER1864">
+                        <author>
+                            <surname>Ferguson</surname>
+                            <forename>S.</forename>
+                        </author> (<date>1864</date>-6): <title level="a" xml:lang="en">'Account of ogham inscriptions 
+                            in the cave at Rathcroghan, Co. Roscommon'</title>, <title
+                                level="j"><hi rend="italic">Proceedings of the Royal Irish Academy</hi></title>
+                        <biblScope type="vol">9</biblScope>, <biblScope type="pp">pp 155-70</biblScope>.</bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                        >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum
+                                insularum Celticarum</hi></title>, <biblScope type="pp">pp 16-7
+                        </biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                            when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to
+                                ogam</hi></title>. <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 107, 121-2</biblScope>.</bibl>
+                    
+
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date when="2001"
+                            >2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer
+                                Text-und Sprachmateriale. TITUS OGAMICA.</hi></title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                    Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                       
+                                           </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

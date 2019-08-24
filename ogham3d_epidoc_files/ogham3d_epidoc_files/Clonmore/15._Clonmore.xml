@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 15. Clonmore</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>XML assistant</resp>
+                    <name>
+                        <persName>Michelle Doran</persName>
+                        <roleName>Intern 2011</roleName>
+                    </name>
+                </respStmt>
+                               <respStmt>
+                    <resp>3D laser scanned 14/5/2010 and processed using Rapidform software</resp>
+                    <name>Nora White and Thierry Daubos</name>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8
+                in <date>May 2011</date>
+                by
+                <name>
+                    <persName>Michelle Doran</persName>
+                    <roleName>Intern 2011</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="site">
+                        <catDesc>Site Type</catDesc>
+                        <category xml:id="description">
+                            <catDesc>Site</catDesc>
+                        </category>
+                        <category xml:id="monument">
+                            <catDesc>Monument</catDesc>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 15. <placeName type="sitename"
+                >Clonmore</placeName></name>, Co. <placeName type="county">Carlow</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                        target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CW009-028021-"
+                        >CW009-028021-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><placeName xml:lang="ga"><hi rend="italic">Cluain Mór Áeda</hi></placeName> is an early
+                        ecclesiastical site associated with St <name type="saint" xml:lang="ga"
+                            ><hi rend="italic">M'Áedóc</hi></name>. Remains include: graveyard, 2 large granite
+                        solid-wheeled crosses, 19 cross-inscribed stones, holy well and 2 bullaun
+                        stones <ref>(<bibl><author>Brindley</author> and <author>Kilfeather</author>
+                            <date when="1993">1993</date>, <biblScope xml:lang="pp"
+                            >54-5</biblScope></bibl>)</ref>. The ogham stone, located in the graveyard
+                        beside the grave of a certain <persName><forename>W.</forename>
+                            <surname>Murphy</surname></persName>, is not mentioned in the
+                        Archaeolgical Inventory of Co. <placeName type="county"
+                        >Carlow</placeName>.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <q><rs type="material">Probably of granite</rs></q>, <rs type="dimensions">
+                                (<measure unit="metre" type="length" rend="height">0.78</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.30</measure>m x
+                                <measure unit="metre" type="length" rend="depth"
+                            >0.22</measure>m).</rs>
+                        <ref type="bibliog" target="#MAR1991"><bibl><author>Harbison</author> (<date
+                                when="1991">1991</date>, <biblScope type="pp">185</biblScope></bibl>)</ref> 
+                        mentions <q>faint traces of a ringed cross in relief on the west face</q> 
+                        but not discernible on the stone or on the 3D model. Possibility of second Ogham stone,
+                        now lost, also noted by <ref type="bibliog" target="#HAR1991"
+                                ><bibl><author>Harbison</author> (<date>1991</date>, <biblScope type="pp"
+                                >185</biblScope></bibl>)</ref>. </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Faint traces of Ogham lettering on the SE angle ... much worn and clogged
+                            with lichen</q>. <q>[The first two strokes of] R are lost by the
+                            fracture, and the I is broken and hard to recognise</q>. <ref
+                            type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author> 
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                           >18</biblScope></bibl>)</ref>. With the naked eye alone it is difficult to be certain that any inscription survives today.
+                        On the 3D model it is possible to make out faint traces of ogham. The 3D data was analysed by Dr Thierry Daubos
+                        of the <hi rend="italic">Protecting the Inscribed Stones of Ireland</hi> project in Galway in an attempt to clarify the text 
+                        (<ref target="resources/sites/Clonmore/15._Clonmore_3Danalysis.pdf">3D Analysis</ref>). 
+                        Unfortunately, the scores and notches are too worn for any certainty except to confirm the presence of an ogham inscription. 
+                        Macalister's E is possible but the N may be an S and his final I looks more like a consonant, possibly C,
+                        with scores to the left of the stemline. Nevertheless, Macalister's reading is given below as certainty is no longer achievable and
+                        it is possible that the inscription was less worn when he read it.
+                    </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab><ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                        (<date when="1945">1945</date>, <biblScope type="pp">18</biblScope></bibl>)</ref>:   
+                     <lb/> <w><unclear>RENI</unclear></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ga">
+                <head>Translation</head>
+                <p/>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                    <p>by <persName><forename>Stephen</forename>
+                            <surname>McCullagh</surname></persName>: <lb/><placeName type="sitename"
+                            >Clonmore</placeName> gravyard, Early Christian remains at <placeName
+                            type="sitename">Clonmore</placeName>, Ogham stone.</p>
+                    <ab><ref target="http://titus.uni-frankfurt.de/ogam/html/015x001l.htm"
+                            >http://titus.uni-frankfurt.de/ogam/html/015x001l.htm</ref></ab>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                    <ab>
+                        <name type="author">Macalister</name><ptr type="bibliog" target="#MAC1945"
+                        />: <ref
+                            target="http://www.ucl.ac.uk/archaeology/cisp/database/picpage/clmor_1_1.html"
+                            >http://www.ucl.ac.uk/archaeology/cisp/database/picpage/clmor_1_1.html</ref>
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p><ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                                    (<date when="1945">1945</date>, <biblScope type="pp"
+                                    >18</biblScope></bibl>)</ref> suggests that his reading RENI may be the end of a name such as
+                               MAQI-TRENI (cf. <name type="stone"
+                                >86. <placeName>Ballyknock</placeName> V</name> and
+                            in <placeName>Wales</placeName>: <name type="stone">341. <placeName>Llywell</placeName></name> and <name
+                                type="stone">428. <placeName>Cillgerran</placeName></name>).</p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">In graveyard of early ecclesiastical site in townland of <placeName type="townland">Glebe</placeName> 
+                            and barony of <placeName type="barony">Rathvilly</placeName>
+                            <ref type="bibliog" target="#BRI1993">(<bibl><author>Brindley</author> and
+                                    <author>Kilfeather</author>
+                                <date when="1993">1993</date>, <biblScope type="pp"
+                                >54-5</biblScope></bibl>)</ref>. (GPS coordinates
+                                <geo>-6.570066,52.827385</geo>) </rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation">On site. The present location of this stone may be
+                            accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CW009-028021-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>.  </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>first noted in <date when="1940">1940</date> by
+                            <persName><forename>Eddie</forename>
+                        <forename>McDonald</forename></persName>
+                    <ref type="bibliog" target="#HAR1991">(<bibl><author>Harbison</author> 
+                         <date when="1991">1991</date>, <biblScope type="pp">185</biblScope></bibl>)</ref> 
+                    with possibility of second ogham stone now lost. Noted, sketched and read by
+                        <ref type="bibliog" target="MAC1945"><bibl><author>Macalister</author> (<date
+                            when="1945">1945</date>, <biblScope type="pp">18</biblScope></bibl>)</ref>.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                        >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">p. 18</biblScope>.</bibl>
+                    <bibl xml:id="BRI1993"><author><surname>Brindley</surname>,
+                                <forename>A.</forename></author> and
+                                <author><surname>Kilfeather</surname>,
+                            <forename>A.</forename></author> (<date when="1993">1993</date>): <title
+                                level="m"><hi rend="italic">Archaeological Inventory of County Carlow</hi></title>.
+                            <pubPlace>Dublin</pubPlace>. <biblScope type="pp">pp
+                        54-5</biblScope>.</bibl>
+                    <bibl xml:id="HARB1991"><author><surname>Harbison</surname>,
+                                <forename>P.</forename></author> (<date when="1991">1991</date>):
+                            <title level="a">'Early Christian antiquities at Clonmore, Co
+                                Carlow'</title>, <title level="j"><hi rend="italic">PRIA</hi></title>
+                        <biblScope type="part">C</biblScope>
+                        <biblScope type="vol">91</biblScope>, <biblScope type="pp">pp
+                            177–200</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date
+                            when="2001">2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. TITUS OGAMICA</hi>.</title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/frame</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early Christian
+                                Ecclesiastical Settlement in Ireland 5th to 12th Centuries</hi></title>:
+                                <ref target="http://monasticon.celt.dias.ie/showrecord.php?id=2775"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

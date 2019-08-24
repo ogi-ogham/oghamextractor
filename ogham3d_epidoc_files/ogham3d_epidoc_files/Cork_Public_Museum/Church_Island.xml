@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Church Island</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D laser scanned using Artec Eva scanner on 22/8/2014 and later processed
+                        using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13 in <date>Sept 2014</date>
+                by <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"> <placeName type="townland"
+                >Church Island</placeName></name> (<hi rend="italic">Oileán an Teampaill</hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE079-032004-"
+                >KE079-032004-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Early ecclesiastical site on a small island located at the N end of Valencia Harbour (<ref
+                        target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE079-032001-"
+                        >KE079-032001-</ref>). Before the site was excavated, 
+                        under the direction of M.J. O'Kelly in 1955-56, its only visible features were the oratory and cloghaun, 
+                        an ogham-inscribed cross-slab and traces of an enclosing wall. The excavations revealed a further series of structures and features 
+                        that demonstrated the occurrence of two phases of Early Medieval occupation on the island 
+                        (<ref target="#OSU1996"><bibl><author>O'Sullivan and Sheehan</author>, <date when="1996">1996</date>, <biblScope type="pp"
+                            >258, no. 927</biblScope></bibl></ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.49</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.36</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.10</measure>m
+                            <lb/> (<ref target="#OKE1959"><bibl><author>O'Kelly</author> <date when="1959">1957/9</date>, <biblScope type="pp"
+                                >77-81</biblScope></bibl></ref>).</rs>
+                    </p>
+                    <p>The ogham inscription <q>is accompanied by a beautifully formed Maltese type <rs type="feature">cross</rs> which it postdates, as is clear 
+                        from the fact that some of the scores overlie its head</q> (<ref type="bibliog" target="#MCM1991"
+                        ><bibl><author>McManus</author> 
+                            <date when="1991">1991</date>, <biblScope type="pp"></biblScope></bibl>69</ref>). <ref target="#OKE1959"><bibl><author>O'Kelly</author> (<date when="1959">1957/9</date>, <biblScope type="pp"
+                                >80</biblScope></bibl></ref>) suggests that the cross may have originally been painted 
+                        and is so accurately drawn that compasses must have been used.                        
+                    </p>
+                    <p><ref target="#OKE1959"><bibl><author>O'Kelly</author> (<date when="1959">1957/9</date>, <biblScope type="pp"
+                        >78-9</biblScope></bibl></ref>) also states that the northern end of the stone had been fractured through a <q>deliberate act</q> and that the stone was used, 
+                        probably while upright, for sharpening <q>some broad bladed implement</q>, and that this has caused damage to the stone. 
+                        These marks on the stone are similar to those found on the ogham stone at <ref target="search.php?ciic=206">CIIC 206. Kilcoolaght East I</ref>, Co. Kerry; <ref target="search.php?ciic=Ratass">Ratass</ref>, Co. Kerry 
+                        (described as being used as `a sharpening stone for knives and other blades'); <ref target="search.php?ciic=19">CIIC 19. Colbinstown I</ref>, Co. Kildare (described as 
+                        'a blade mark'); <ref target="search.php?ciic=57">CIIC 57. Greenhill I</ref>, 
+                        Co. Cork (described as '<rs type="feature">hone scores</rs>') and to another cut on <ref target="search.php?ciic=35">CIIC 35. Tullaherin</ref>, 
+                        which Macalister describes as 'an oblique mark of no importance' (see <ref type="bibliog"
+                            target="#NEW2009"><bibl><author>Newman</author>
+                                <date when="2009">2009</date>, <biblScope type="pp"
+                                    >433-4</biblScope></bibl></ref>).</p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up-top-down, <rs type="execution">pocked</rs>. <ref target="#OKE1959"><bibl><author>O'Kelly</author> (<date when="1959">1957/9</date>, <biblScope type="pp"
+                        >81</biblScope></bibl></ref>) notes that the <q>first words are certain in every detail, and though most of the scores of the final word are equally 
+                            legible, this word, nevertheless, presents a problem</q>. As <ref type="bibliog" target="#MCM1991"
+                                ><bibl><author>McManus</author> 
+                                    (<date when="1991">1991</date>, <biblScope type="pp"></biblScope></bibl>69</ref>) outlines, following the RI (on top of stone and down right hand corner) 
+                        the next two letters are VV but <ref target="#OKE1959"><bibl><author>O'Kelly</author> (<date when="1959">1957/9</date>, <biblScope type="pp"
+                                >81</biblScope></bibl></ref>) also notes a faint tentative score-like mark opposite the first score of the first V, which might indicate hesitation 
+                        regrading which side of the arris/stemline was to be carved (V/T). The second V is followed by two notches (O) then a lighly carved X with two further notches 
+                        (positioned unusually on the face beside the arris rather than on the arris) on top of the X, presumably by way of correction. The four notches in total are so spaced 
+                        that they could read E, which is one of the values of X. The last two letters are clearly SS.
+                    </p>
+                    
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab> Following <ref type="bibliog" target="#MCM1991"
+                    ><bibl><author>McManus</author> 
+                        (<date when="1991">1991</date>, <biblScope type="pp">69-70</biblScope></bibl>)</ref>:                   
+                    <persName><w lemma="BECCDINN">BECCDINN</w></persName>
+                    <w lemma="MAQI" type="formula">MACI</w>/
+                    <persName><w lemma="RITTAVVECCAS">R/<damage>I</damage><corr>TTECC</corr></w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>'Beccdinn mac Rethach/Ráthach'</ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>There is much confusion regarding the final personal name on this inscription (which appears to read RIVVESS, but see 
+                        <ref target="#OKE1959"><bibl><author>O'Kelly</author> (<date when="1959">1957/9</date>, <biblScope type="pp"
+                        >81</biblScope></bibl></ref>) for various other interpretations). The most convincing and simplest explanation, put forward by <ref type="bibliog" target="#MCM1991"
+                                        ><bibl><author>McManus</author> 
+                                    (<date when="1991">1991</date>, <biblScope type="pp">69-70</biblScope></bibl></ref>) is that the turn of the stone confused the lapidary so that he carved VVESS for TTECC. 
+                                    The faint score-like mark opposite the first score of the first V may reflect this hesitation. This would make RITTECC the name in the gen. that was actually intended, which could be 
+                                    taken as an Early Old Irish form of Primitive Irish *<hi rend="italic">Ritavicas</hi> 
+                        (cp. <ref target="search.php?ciic=211">CIIC 211</ref>. RITTAVVECC (Kilcoolaght East) and CIIC 250. RITTAVVECAS (Corkaboy) found in two neighbouring baronies). Furthermore, a later form of this name survives in the name of the Barony, Iveragh 
+                                    (<hi rend="italic">Íbh Ráthach</hi>), in which this stone was found. Similar confusion by the lapidary at the turn of the stone is to be found on the famous 
+                                    <ref target="search.php?ciic=145">Arraglen stone</ref>. 
+                                    Indecision may have also led to the ambiguity between the second V and the first S. As McManus suggests, he may have begun carving E, with two of the four notches, then 
+                                    changed his mind and decided to use X instead but, since X can have the <rs type="character">vocalic value</rs> E or consonantal value C, he reverted back to his original plan by placing two further notches on top of the 
+                                    X in an attempt to ensure that E would be read. 
+                    </p></item>
+                    <item n="2"><p>The initial name in this inscription is unattested elsewhere but the first element BECC could be <hi rend="italic">bécc</hi> 'cry' or <hi rend="italic">becc</hi> 'small'.
+                        There is no doubt that the form, like RITTECC (if this is the correct interpretation), is post syncope, suggesting a date in the 
+                        <origDate notBefore="0570" notAfter="0630">late sixth or early seventh century</origDate>. MACI, with an artifical -I reflecting <q>the tenacity 
+                            of the orthographical convention of writing final I in this formula word</q> would also suggest a late date (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date
+                                when="1991">1991</date>, <biblScope type="pp"
+                                    >70, 90, 96-7, 100</biblScope></bibl></ref>). </p></item>
+                                   </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">lying face-down covering human remains in the burial area to the south of the oratory on Church Island 
+                            (<ref type="bibliog" target="#MCM1991"
+                                ><bibl><author>McManus</author>
+                                    <date when="1991">1991</date>, <biblScope type="pp"></biblScope>69</bibl></ref>), in the townland of
+                                <placeName type="townland">Church Island</placeName> and barony of
+                            <placeName type="barony">Iveragh</placeName>. (GPS coordinates
+                            <geo>-10.283297, 51.937555</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">on display in <orgName>Cork Public Museum</orgName>.  The present location of
+                            this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO074-176----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>.(GPS coordinates
+                            <geo>-8.494544, 51.896371</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p> <ref target="#OKE1959"><bibl><author>O'Kelly</author> (<date when="1959">1957/9</date>, <biblScope type="pp"
+                    >57</biblScope></bibl></ref>) states that the stone was discovered in 1954 during a short visit to the island.
+                    </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="OKE1954">
+                        <author>
+                            <surname>O'Kelly</surname>, <forename>M.J.</forename>
+                        </author>, and <author>
+                            <surname>Kavanagh</surname>, <forename>S.</forename>
+                        </author> (<date>1954</date>): <title level="a">'An Ogam inscribed cross-slab
+                            from County Kerry'</title>, <title level="j"><hi rend="italic">Journal of the Cork Historical
+                                and Archaeological Society</hi></title>
+                        <biblScope type="vol">59</biblScope>, <biblScope type="pp">pp 101-110</biblScope>. </bibl>
+                    <bibl xml:id="OKE1959">
+                        <author>
+                            <surname>O'Kelly</surname>, <forename>M.J.</forename>
+                        </author> (<date>1957/9</date>): <title level="a">'Church Island near Valencia, Co. Kerry'</title>, <title level="j">
+                            <hi rend="italic">Proceedings of the Royal Irish Academy</hi></title>
+                        <biblScope type="vol">59C</biblScope>, <biblScope type="pp">pp 57-136</biblScope>. </bibl>
+                    <bibl xml:id="OSU1996">
+                        <author>
+                            <surname>O'Sullivan</surname>, <forename>A.</forename>
+                        </author> and <author>
+                            <surname>Sheehan</surname>, <forename>J.</forename>
+                        </author> (<date>1996</date>): <hi rend="italic"><title level="m" type="main">The Iveragh
+                            Peninsula</title>: <title level="m" type="sub">An Archaeological Survey of
+                                South Kerry</title></hi>. <pubPlace>Cork</pubPlace>. <biblScope type="pp">p. 258, no. 927</biblScope> </bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                            when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to
+                                ogam</hi></title>. <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 69-70, 100, 103, 104</biblScope>.</bibl>
+                   
+
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                    Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=2494"
+                                >monasticon.celt.dias.ie</ref></bibl>
+                                           </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

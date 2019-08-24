@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 203. Coolmagort</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                    <resp>3D laser scanned on 23/07/2015 using Artec Eva and processed using Geomagic software.</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US">
+                        <p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>July 2015</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 203. <placeName type="townland">Coolmagort</placeName></name> VII, Co. <placeName type="county"
+                    >Kerry</placeName></head>
+            <ab>
+                <rs>National Monuments Service Record Number: <ref
+                    target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078008-"
+                    >KE065-078008-</ref>
+                </rs>
+            </ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Souterrain</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>This souterrain (KE065-078----), marked ‘Cave’ on the OS maps, was discovered in 1838 by workmen building a field boundary across a slight rise in 
+                        Dunloe Castle demesne, a short distance W of the River Loe. A total of seven ogham stones were incorporated into its structure. Atkinson and Romilly
+                        Allen visited it individually several decades later, and recorded that the accessible section of its passage was c. 5.7m in overall length and 
+                        averaged l.3m in height (1866, 523-4; 1892, 166-70). Access was gained through an opening at S, where the passage was 7 feet (2.15m) wide. From 
+                        here it curved to NE, decreasing in width to 3 feet 3 inches (1m). The walls were of drystone construction and inclined slightly to reduce the 
+                        passage width at roof level. It was roofed by nine slabs, six of which bore ogham inscriptions. One of the larger ogham stones had cracked in 
+                        antiquity and was supported by a seventh, which stood upright in the souterrain passage. A number of bones and skulls, some of which were reputedly 
+                        human, were found in the souterrain. In 1940 the ogham stones were removed from the site by the OPW, and were erected close to a public roadway nearby. 
+                        The souterrain was subsequently filled back and no surface trace remains (<ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078----"
+                            >Extract from ASI database, 
+                            www.archaeology.ie</ref>). </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/>Grit  <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >193</biblScope></bibl>)</ref>, 
+                            <rs type="dimensions">
+                                <measure unit="metre" type="length" rend="height">0.86</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.29</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.10</measure>m
+                            <lb/> (<ref type="bibliog" target="#OSU1996"
+                                ><bibl><author>O'Sullivan</author> et al <date when="1996"
+                                    >1996</date>, <biblScope>no. 863 (6)</biblScope></bibl></ref>). </rs>
+                        <q>Used as a packing-stone above the main lintels, and formerly visible only through the gap between the fifth and sixth of these. 
+                            The top is broken off and the sinister edge is battered away</q> <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >197</biblScope></bibl>)</ref>.</p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    
+                    <p>Vertical, up. <q>The scores are <rs type="execution">chiselled</rs> with great neatness, in technique resembling those of Nos. <ref
+                        target="search.php?ciic=198"
+                        >II</ref> and <ref
+                            target="search.php?ciic=199"
+                            >III</ref> of the series,
+                        and almost certainly the work of the same artificer... ... The stone is broken after Q2</q> 
+                        <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >197</biblScope></bibl>)</ref>. </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <persName><w lemma="MAQI-DECEDAS">
+                        MAQI-DECEDA</w></persName>
+                    <w type="formula" lemma="MAQI">MA<unclear reason="damage">Q</unclear><supplied reason="lost" cert="high">I</supplied></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>
+                    <q>of Mac-Deichet son of ...</q>
+                </ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>There is much variation in the
+                        spelling of the name MAQI-DECEDA, which occurs quite frequently in ogham inscriptions 
+                        (<ref
+                                target="search.php?ciic=20"
+                                >CIIC 20</ref>. <placeName type="townland">Colbinstown</placeName> II, <name type="county"
+                                    >Kildare</name> (<foreign xml:lang="ga">MAQI-DDEC[CEDA] MAQI MARIN</foreign>),
+                            <ref
+                                target="search.php?ciic=159"
+                                >CIIC 159</ref>. <foreign xml:lang="ga"
+                                    >Ballintaggart</foreign>, <placeName type="county"
+                                        >Kerry</placeName> (<foreign xml:lang="ga">MAQI-DECCeDA MAqi
+                                            GLASICONAS</foreign>), CIIC 184. <placeName>Gortnagullenagh</placeName>, <placeName
+                                                type="county">Kerry</placeName> (<foreign xml:lang="ga"
+                                                    >MAQQI-DECEDDA MAQQI CATUVIR</foreign>), <ref
+                                                        target="search.php?ciic=66"
+                                                        >CIIC 66</ref>.
+                            <placeName type="townland">Faunkill and the Woods</placeName>,
+                            <placeName type="county">Cork</placeName> (<foreign xml:lang="ga"
+                                >MAQI-DECCEDDAS AVI TURANIAS</foreign>, the earliest with the final consonant still in tact). 
+                        This is the only example of the name that does not display doubling of consonants <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >198</biblScope></bibl>)</ref>. </p>
+                    </item>
+                    <item n="2"><p>Apocope (loss of final consonants or syllables) is evident here in MAQI-DECEDA (earlier -AS), cp. <ref
+                        target="search.php?ciic=66"
+                        >CIIC 66</ref>. Faunkill and the Woods,
+                        Cork: MAQI-DECCEDDAS). Consequently it may be approximately dated to the 
+                        <origDate notBefore="0500" notAfter="0550">first half of the sixth century</origDate> 
+                        <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author> <date when="1945"
+                                >1991</date>, <biblScope type="pp">97</biblScope></bibl>)</ref>.</p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">along with six other ogham stones in a souterrain known as 'the <placeName type="sitename">cave of Dunloe</placeName>'
+                                in the townland of <placeName
+                                type="townland">Coolmagort</placeName> and barony of <placeName
+                                    type="barony">Dunkerron North</placeName> (GPS coordinates
+                            <geo>-9.633466, 52.060741</geo>). </rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">In a small modern enclosure (together with <ref
+                            target="search.php?ciic=241"
+                            >CIIC 241</ref> Kilbonane) near the entrance to the Gap of Dunloe, close to where originally
+                            found. The present location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-041006-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-9.634923, 52.06042</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>discovered in 1838 by workmen building a field boundary. <ref
+                    target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                    >Gippert</ref>: The site was first visited by `Mr. Abell, of Cork' who `on that occasion took copies of such of the inscriptions as were then accessible'. 
+                    After that, it was inspected by J. Windele `and a party of antiquaries from Cork'; Brash saw the spot in the autumn of 1869. 
+                    </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BRA1879">
+                        <author>
+                            <surname>Brash</surname>
+                            <forename>R. R.</forename>
+                        </author> (<date>1879</date>): <title level="m" xml:lang="en"><hi rend="italic">The Ogam Inscribed
+                            Monuments of the Gaedhil in the British Isles</hi></title>,
+                        <biblScope type="pp">p. 234</biblScope>. </bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                        <forename>R.A.S.</forename></author> (<date when="1945"
+                            >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                                Celticarum</hi></title>, <biblScope type="pp">pp
+                                    191, 197-8</biblScope>.</bibl>
+                   <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                        <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 65</biblScope>.</bibl>
+                    <bibl xml:id="OSU1996"><author><surname>O'Sullivan</surname>,
+                        <forename>A.</forename></author> and
+                        <author><surname>Sheehan</surname>, <forename>J.</forename></author>
+                        (<date when="1996">1996</date>): <title level="m"><hi rend="italic">The Iveragh Peninsula:
+                            An Archaeological Survey of South Kerry</hi></title>.
+                        <pubPlace>Cork</pubPlace>, <biblScope type="pp">no. 863</biblScope>.</bibl>
+                    
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date
+                            when="2001">2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. TITUS OGAMICA</hi>.</title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/frame</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

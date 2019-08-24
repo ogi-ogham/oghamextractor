@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Coumlanders</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>3D laser scanned using Artec Eva scanner on 20/6/2013 and later processed using Geomagic software.</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>May 2016</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"><placeName type="findspot"
+                >Coumlanders</placeName></name> (<hi rend="italic">COM AN LÓNDRAIGH</hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-164----"
+                >KE042-164----</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Unknown</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>This ogham stone was discovered <q>embedded in the gable wall of an outhouse</q> (<ref type="bibliog"
+                        target="#MCM1991"><bibl><author>McManus</author> <date when="1991"
+                            >1991</date>, <biblScope type="pp"
+                                >72, no. viii</biblScope></bibl>)</ref> in this townland. The original site of the stone cannot be determined. 
+                        The only other known archaeological features in this small townland are a univallate enclosure containing a souterrain (<ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-023----"
+                            >KE054-023----</ref>) and a well (Tobernagan), marked on ordnance survey historic maps. The neighbouring townland (Aghacarrible/<hi rend="italic">Áth an Charbaill</hi>), 
+                        to the N and W, contains a ringfort/cashel known as 'Lissonenakilla/<hi rend="italic">Lios an Anacail</hi>' (<ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-019----"
+                            >KE054-019----</ref>) and a number of stone-lined graves (<ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-020----"
+                                >KE054-020----</ref> and <ref
+                                    target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-022----"
+                                    >KE054-022----</ref>), discovered to the NE of this site.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>The stone has been trimmed resulting in the loss of the end of the inscription <ref type="bibliog"
+                        target="#MCM1991">(<bibl><author>McManus</author> <date when="1991"
+                            >1991</date>, <biblScope type="pp"
+                                >72, no. viii</biblScope></bibl>)</ref>. 
+                        <rs type="material"/><rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.09</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.35</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.19</measure>m
+                            <lb/> (dimensions taken from 3d pdf).  </rs>
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>The inscription is clear and reads up-top. It presumably continued down the right-hand side but the stone has been broken at this side taking away the end of the father's name.
+                        After the V three notches remain, which could be a U or the remains of an E or I.
+                    </p>
+                                   </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>                    
+                    <persName><w lemma="RETAGIN">RETAGIN</w></persName>
+                    <w lemma="MAQI" type="formula">MAQI</w>
+                    <w>DOV<unclear reason="damage">U</unclear> <gap reason="lost" extent="unknown"></gap></w> 
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>of Rethgan son of Dub-?</ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>The first element of the personal name RETA- <q>is very likely a form of the divine name RITTA-, found in 250 RITTAVVECAS [Corkaboy], 
+                        211 RITTAVVECC [<ref target="search.php?ciic=211">Kilcoolaght East</ref>] and iv RITTECC [<ref target="search.php?ciic=Church_Island">Church Island</ref>]</q>. 
+                        The second element -GIN is found elsewhere in the forms -GENI, -GINI, -GEN and ?-GINN (cf. 259 IVAGENI Éogan), 
+                        but not in any other known ogham inscription in combination with a divine name. The name Rethgan does not appear to be attested later <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author> <date when="1991"
+                                >1991</date>, <biblScope type="pp"
+                                    >72</biblScope></bibl>)</ref>.</p>
+                    </item>                        
+                        <item n="2"><p>Vowel affection and apocope (loss of final consonants or syllables) are evident here in RETAGIN (earlier *RITAGENI). Consequently it may be approximately dated to the 
+                            <origDate notBefore="0500" notAfter="0550">first half of the sixth century</origDate> 
+                            <ref type="bibliog"
+                                target="#MCM1991">(<bibl><author>McManus</author> <date when="1945"
+                                    >1991</date>, <biblScope type="pp">97</biblScope></bibl>)</ref>.</p></item>
+                    <item n="3"><p>DOV[INIAS] would be a tempting restoration of the final word considering that all but one of the inscriptions containing the tribal name
+                        DOVINIAS ('of Duibne') have been found on the Dingle peninsula, barony
+                        of Corkaguiney (Corcu Duibne/Corca Dhuibhne), which got its name from that tribe or
+                        sept <ref type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
+                            <date when="1991">1991</date>, <biblScope type="pp"
+                                >111</biblScope></bibl>)</ref>. However, this interpretation would be improbable here following MAQI 
+                        ('son of') rather than the usual MUCOI ('descendant of').</p></item>
+                    </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Found in 1989 embedded in the gable wall of an outhouse in the townland of <placeName type="townland">Coumlanders</placeName>, barony of <placeName
+                            type="barony">Corkaguiney</placeName> <ref type="bibliog"
+                                target="#MCM1991">(<bibl><author>McManus</author> <date when="1991"
+                                    >1991</date>, <biblScope type="pp"
+                                        >72</biblScope></bibl>)</ref>. Precise coordinates unknown.</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">On display in Musáem Chorca Dhuibhne, Ballyferriter (<ref
+                            target="http://www.westkerrymuseum.com/"
+                            >www.westkerrymuseum.com</ref>). (GPS coordinates
+                            <geo>-10.405999, 52.166581</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p><ref type="bibliog"
+                    target="#MCM1991"><bibl><author>McManus</author> (<date when="1991"
+                        >1991</date>, <biblScope type="pp"
+                            >72</biblScope></bibl>)</ref> says that the stone <q>was discovered in 1989 embedded in the gable wall of an outhouse belonging to Mr. Eogan Ó Grifín of Com, near Annascaul</q>.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 6</biblScope>.</bibl>
+                   <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">p. 72</biblScope>.</bibl>                                       
+                   
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                       
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

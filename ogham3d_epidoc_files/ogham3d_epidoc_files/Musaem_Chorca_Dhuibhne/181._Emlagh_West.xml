@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 181. Emlagh West</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>3D laser scanned using Artec Eva scanner on 20/6/2013 and later processed using Geomagic software.</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>Nov 2015</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 181. <placeName type="findspot"
+                >Emlagh West</placeName></name> (<hi rend="italic">IMLEACH AN DAINGIN</hi>), Co. <placeName
+                    type="county">Kerry</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-167----"
+                >KE042-167----</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Souterrain in ringfort/rath</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>The ogham stone is reported to have <q>acted either as a lintel or as a jamb stone to a souterrain (KE053-016001-) in a destroyed rath (KE053-016----)</q> 
+                        <q>on the W side of the main Dingle to Lispole road, near the old Dingle railway station</q> (<ref type="bibliog"
+                            target="#CUP1986"><bibl><author>Cuppage</author>
+                                <date when="1986">1986</date>, <biblScope type="pp"
+                                    >223</biblScope></bibl></ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p><q>The lower part of a stone</q> (<ref type="bibliog" target="#MAC1945"
+                        ><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >174</biblScope></bibl></ref>). 
+                        <rs type="material"/><rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.08</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.36</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.24</measure>m
+                            <lb/> (<ref type="bibliog"
+                                target="#CUP1986"><bibl><author>Cuppage</author>
+                                    <date when="1986">1986</date>, <biblScope type="pp"
+                                        >223</biblScope></bibl></ref>).  </rs>
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>The inscription is <rs type="execution">pocked</rs>, and so far as it survives, is in good condition...
+                    The stone is broken after the Q; and the last score of this letter is chipped way, all but its dexter side </q> (<ref type="bibliog" target="#MAC1945"
+                        ><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >174</biblScope></bibl></ref>). 
+                       Macalister also suggested that the battered looking sinister edge of the inscribed face had once contained the formula word MUCOI, followed by the name of an 
+                       eponymous ancestor, which was deliberately destroyed. However, there is no evidense to support this theory.
+                    </p>
+                                   </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>                    
+                    <persName><w lemma="TALAGNI">TALAGNI</w></persName>
+                    <w lemma="MAQI" type="formula">MA<unclear reason="danage">Q</unclear><supplied reason="lost" cert="high">I</supplied></w>
+                    <gap reason="lost" extent="unknown"></gap>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>of Tálán son of ...</ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>This is one of the inscriptions listed by <ref type="bibliog"
+                        target="#MCM1991"><bibl><author>McManus</author> (<date when="1945"
+                            >1991</date>, <biblScope type="pp"
+                                >93-4</biblScope></bibl>)</ref> which appears to be among the earliest in the corpus showing no trace of vowel affection... or any of the developments postdating it. 
+                        It may be dated to the <origDate notBefore="0400" notAfter="0470">first half, or the early second half, of the fifth century</origDate> 
+                        (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author><date when="1991">1991</date>, <biblScope type="pp"
+                            >97</biblScope></bibl>)</ref>.</p>
+                    </item>
+                    <item n="2"><p><hi
+                        rend="italic">Tál</hi> 'adze' and diminutive suffix -<hi rend="italic">agni</hi> (>-<hi rend="italic">an(n)</hi>) (<ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> <date when="1991">1991</date>, <biblScope type="pp"
+                                >107</biblScope></bibl>)</ref>.                        
+                        </p></item>
+                    </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">found, according to Hitchcock's notes, in a souterrain on the townland (<placeName type="townland">Emlagh West</placeName> in the barony of <placeName
+                            type="barony">Corkaguiney</placeName>), acting as a jamb-stone for the entrance (<ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >174</biblScope></bibl></ref>). <ref
+                                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-016002-"
+                                            >National Monuments Service Historic Environment viewer on
+                                            www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-10.269093, 52.136316</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">On display in Musáem Chorca Dhuibhne, Ballyferriter (<ref
+                            target="http://www.westkerrymuseum.com/"
+                            >www.westkerrymuseum.com</ref>). (GPS coordinates
+                            <geo>-10.405999, 52.166581</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p><ref type="bibliog"
+                                    target="#CUP1986"><bibl><author>Cuppage</author> 
+                                        (<date when="1986">1986</date>, <biblScope type="pp"
+                                            >223</biblScope></bibl></ref>) says that the stone was first noted by in Windele in 1848, and that the stone <q>formerly acted either as a lintel or as a jamb stone to a souterrain in a destroyed rath</q>. 
+                    Before being moved to Musáem Chorca Dhuibhne, it stood in the same field in which it was found <q>against the W side of a N-S field wall ... on the W side of the main Dingle to Lispole road, near the old Dingle railway station</q>.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BEN1995">
+                        <author>
+                            <surname>Bennett</surname>
+                            <forename>I.</forename>
+                        </author> and <author>
+                            <surname>Uí Shíthigh</surname>
+                            <forename>B.</forename>
+                        </author> (<date>1995</date>): <title level="m" xml:lang="en"><hi rend="italic">Ogham Stones of
+                            the Dingle Peninsula</hi></title>. <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 6</biblScope>. </bibl>
+                    <bibl xml:id="CUP1986"><author><surname>Cuppage</surname>,
+                                <forename>J.</forename></author> et al (<date when="1986"
+                            >1986</date>): <title level="m"><hi rend="italic">Archaeological Survey of the
+                                <placeName>Dingle Peninsula</placeName></hi></title>.
+                            <pubPlace>Ballyferriter</pubPlace>, <biblScope type="pp">p. 223</biblScope>.</bibl>
+                   <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">p. 174</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 65, 94, 107</biblScope>.</bibl>                                       
+                   
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                       
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

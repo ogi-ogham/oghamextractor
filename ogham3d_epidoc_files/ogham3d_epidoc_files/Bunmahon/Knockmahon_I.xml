@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Knockmahon I</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>3D laser scanned using Artec Eva scanner on 25/4/2013 and later processed using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>May 2013</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"> <placeName type="findspot">Knockmahon</placeName> I</name>, 
+                Co. <placeName type="county">Waterford</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128001-"
+                >WA025-128001-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Promontory fort</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Small promontory fort with a single bank and ditch. <q>Continuing out from the headland and cut 
+                        off from it and from each other by narrow channels are two tiny grass-topped islands or stacks 
+                        marked as Gully's Island on the map. These probably formed part of the interior of the fort 
+                        but have been separated from it by the sea...The area within the bank is at present only 20m 
+                        long but if the two islands were once part of the interior it would have measured at least 90m</q> 
+                        (<ref type="bibliog" target="#MAN1989"><bibl><author>Manning</author>
+                            <date when="1989">1989</date>, <biblScope type="pp">7</biblScope></bibl></ref>).
+                    </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <q>It is pointed at both ends and roughly lozenge-shaped in section. 
+                            The inscription is only cut on the upper two thirds of the stone,
+                            the remainder presumably being below ground when the stone stood as a pillar</q>. 
+                        <q>A small portion of the top of the stone is missing, leaving the inscription incomplete</q>.<rs
+                            type="material"/><rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.20</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.30</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.24</measure>m
+                                <lb/> (<ref type="bibliog" target="#MAN1989"><bibl><author>Manning</author>
+                                <date when="1989">1989</date>, <biblScope type="pp">9</biblScope></bibl></ref>).</rs>
+                    </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up down.<q> The ogham strokes, where undamaged, are clearly <rs type="execution">cut</rs> into the stone. The first word is complete and reads SENAQ. 
+                        The second word begins with the letters MAC (or Q), after which the tip of the stone is missing. The first letter after 
+                        the missing portion appears to be a Q, though, as the first stroke is damaged, it might be a C. After this there is a partly 
+                        damaged section, 0.35m long, which appears to have had vowel strokes only, some of which are clear. The final two letters 
+                        are clearly NA. The inscription with gaps and uncertainties therefore reads: SENAQ MAC (or Q)......Q (or C) 2--3 vowels NA. 
+                        As the missing tip of the stone could not have accommodated much more than six to nine strokes the most likely reconstruction 
+                        of the inscription would be: SENAQ MAQ(I MU)C(OI E)NA (SENAQ descendant of ENA). As the last gap contains vowels only the 
+                        last word, no matter how reconstructed, would appear to be some form of the name Enna or Enda</q>.
+                     (<ref type="bibliog" target="#MAN1989"><bibl><author>Manning
+                    </author> <date when="1989">1989</date>, <biblScope type="pp"
+                        >9</biblScope></bibl></ref>). This reading was generally confirmed on inspection of the 3d data. There is damage to the last score in both Qs so that it 
+                        cannot be certain that they are not Cs. After the break only 4 scores are visible giving a C, which would be expected before the O if this is the remains 
+                        of MUCOI. Regarding the E of ENA, three of the four notches are visible on the 3d model. 
+                    </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>                                       
+                    <persName><w lemma="SENAQ">SENA<unclear reason="damaged">Q</unclear></w></persName>  
+                    <w type="formula" lemma="MAQI">MA<unclear reason="damaged">Q</unclear><unclear reason="damaged">I</unclear></w>/
+                    <w type="formula" lemma="MUCOI"><supplied reason="lost">MU</supplied><unclear reason="damaged">C</unclear>O<supplied reason="lost">I</supplied></w>
+                    <persName><w lemma="ENA"><unclear reason="damaged">E</unclear>NA</w></persName> 
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>
+                    <q>of Senach son of the descendant of Ena</q>
+                   
+                    </ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                                  
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">lying in the ditch of the promontory fort against the field fence on the east side (<ref type="bibliog" target="#MAN1989"><bibl><author>Manning</author>
+                            <date when="1989">1989</date>, <biblScope type="pp">7</biblScope></bibl></ref>) in townland of Knockmahon and barony of <placeName
+                                type="barony">Decies without Drum</placeName>. The find location of this stone
+                            may be accessed via the <ref target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-065001-">National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS:
+                            <geo>-7.354360, 52.137783</geo>)
+                        </rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">On display with Knockmahon II at <placeName type="townland">Bunmahon</placeName> Geopark, c.600m from Knockmahon promontory fort.
+                            The present location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128001-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-7.362347, 52.140285</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered during the planning of an outing of the Archaeological Society, University College Dublin in 1974
+                    (<ref type="bibliog" target="#MAN1989"><bibl><author>Manning</author>
+                        <date when="1989">1989</date>, <biblScope type="pp">7</biblScope></bibl></ref>).</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                                       <bibl xml:id="MOO1999"><author><surname>Moore</surname>,
+                            <forename>M.</forename></author> (<date when="1999">1999</date>): <title
+                                level="m"><hi rend="italic">Archaeological Inventory of County <placeName type="county"
+                                >Waterford</placeName></hi></title>. <pubPlace>Dublin</pubPlace>,
+                            <biblScope type="pp">p. 199 </biblScope>.</bibl>
+                    <bibl xml:id="MAN1989"><author><surname>Manning</surname>,
+                            <forename>C.</forename></author> (<date when="1989">1989</date>): <title
+                                level="a">'A Promontory Fort and Ogham Stone at Knockmahon, County Waterford'</title>, <title level="j"
+                                    ><hi rend="italic">Old Waterford Society, Decies</hi></title>
+                        <biblScope type="vol">30</biblScope>, <biblScope type="pp">pp
+                            7-11</biblScope>.</bibl>
+                    
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                       
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

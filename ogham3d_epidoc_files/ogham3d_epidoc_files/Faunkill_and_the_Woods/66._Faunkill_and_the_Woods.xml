@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 66. Faunkill and the Woods</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                                               <respStmt>
+                    <resp>3D laser scanned on 8/8/2013 using Faro terrestrial scanner and processed using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability><licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+<p>Copyright (c) 2013 by the School of Celtic Studies <ref>http://www.celt.dias.ie</ref></p>
+                <p>All reuse or distribution of this work must contain somewhere a reference to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                   <msIdentifier></msIdentifier>
+               </msDesc>
+                            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8
+                in <date>Aug 2013</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 66. <placeName type="townland">Faunkill and the Woods</placeName></name>, 
+                Co. <placeName type="county">Cork</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO102-013----"
+                >CO102-013----</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Standing stone</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>On rockcrop overlooking Ballycrovane Harbour to W</q> (<ref type="bibliog" target="#POW1992"
+                        ><bibl><author>Power</author>
+                            <date when="1992">1992</date>, <biblScope type="pp"
+                                >124</biblScope></bibl></ref>).
+                        Probably a prehistoric standing stone on which an ogham inscription was carved 
+                        (<ref type="bibliog" target="#MAC1945"
+                            ><bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >71</biblScope></bibl></ref>).
+                    </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p><rs type="material"/>
+                        <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">4.70</measure>m x
+                                <measure unit="metre" type="length" rend="width">1.02</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.32</measure>m (Note: Macalister converted has H 5.36m above ground). 
+                            Stone narrows towards the top and is now supported at the base with concrete. The Ogham inscription is on the NW angle 
+                            (<ref type="bibliog" target="#POW1992"
+                                ><bibl><author>Power</author>
+                                    <date when="1992">1992</date>, <biblScope type="pp"
+                                        >124</biblScope></bibl></ref>).</rs>
+                    </p>
+                    
+                </div>
+
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Inscribed on one angle, up. Towards the end of the last name (approximately 
+                        10 feet above the ground) some of the scores curve to the right away from the angle 
+                        as if the engraver was having difficulty reaching high enough to finish the inscription
+                        <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                            >71</biblScope></bibl>)</ref>. </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <lb/>
+                    <persName><w lemma="MAQI-DECEDAS">
+                        MAQI-DECCEDDAS</w></persName>
+                    <w type="formula" lemma="AVI">AVI</w>
+                    <persName><w lemma="TURANIAS">
+                        TURANIAS</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>of Mac-Deichet Uí Thorna</q></p>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                    <ab>
+                       
+                    </ab>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                    <ab>
+                        
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                   <item n="1"><p>There is much variation in the
+                        spelling of the name MAQI-DECCEDDAS but this is the only example surviving with the final consonant 
+                        in tact and may be dated to the <origDate notBefore="0400" notAfter="0470">first half, or the early second half, of the fifth century</origDate> <ref type="bibliog"
+                            target="#MCM1991"><bibl>(<author>McManus</author>
+                                <date when="1991">1991</date>, <biblScope type="pp">93,
+                                    97</biblScope></bibl>)</ref>.
+                       See also <ref
+                           target="search.php?ciic=20"
+                           >CIIC 20</ref>. <placeName type="townland">Colbinstown</placeName> II, <name type="county"
+                                >Kildare</name> (<foreign xml:lang="ga">MAQI-DDEC[CEDA] MAQI MARIN</foreign>),
+                       <ref
+                           target="search.php?ciic=159"
+                           >CIIC 159</ref>. <foreign xml:lang="ga"
+                            >Ballintaggart</foreign>, <placeName type="county"
+                                >Kerry</placeName> (<foreign xml:lang="ga">MAQI-DECCeDA MAqi
+                                    GLASICONAS</foreign>), CIIC 184. <placeName>Gortnagullenagh</placeName>, <placeName
+                                            type="county">Kerry</placeName> (<foreign xml:lang="ga"
+                                                >MAQQI-DECEDDA MAQQI CATUVIR</foreign>), <ref
+                                                    target="search.php?ciic=203"
+                                                    >CIIC 203</ref>.
+                                                    <placeName type="townland">Coolmagort</placeName>,
+                        <placeName type="county">Kerry</placeName> (<foreign xml:lang="ga"
+                            >MAQI-DECEDA MAq<gap reason="lost" extent="unknown/"
+                            /></foreign>).</p></item>
+                    <item n="2"><p>The tribal/sept name TURANIAS may refer to the <hi rend ="italic">Uí Thorna</hi> <q>who may originally have been 
+                        the leading group among the <hi rend ="italic">Cíarraige</hi>, [and who] occupied the territory between <hi rend ="italic">Slíab Lúachra</hi> and 
+                        the sea</q>, although this stone is in the barony of Bear in Co. Cork <ref type="bibliog"
+                            target="#MCM1991"><bibl>(<author>McManus</author>
+                                <date when="1991">1991</date>, <biblScope type="pp">112</biblScope></bibl>)</ref>. </p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">At present location in townland of <placeName type="townland">Faunkill and the Woods</placeName>, barony of <placeName
+                                type="barony">Bear</placeName>. (GPS coordinates
+                            <geo>-9.944582, 51.712874</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation">On find site at Faunkill and the Woods. The present location
+                            of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO102-013----"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>First published by <name type="author">Brash</name>
+                    <date when="1874">1874</date><ptr type="bibliog" target="#BRA1874"/>
+                    <ref target="#MAC1945">(<bibl><author>Macalister</author>
+                        <date>1945</date>, <biblScope type="pp">70</biblScope></bibl>)</ref>.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 70-2</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>,
+                                <forename>D.</forename></author> (<date when="1991">1991</date>):
+                        <title level="m"><hi rend="italic">A guide to Ogam</hi></title>.
+                        <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4</biblScope>, <biblScope type="pp">pp 87, 93, 108, 109, 111-2, 116, 126</biblScope>.</bibl>
+                    <bibl xml:id="POW1992">
+                        <author>
+                            <surname>Power</surname>, <forename>D.</forename>
+                        </author> et al (<date>1992</date>):  <hi rend="italic"><title level="m" type="main">Archaeological
+                            Inventory of County Cork</title>: <title level="m" type="sub">West
+                                Cork</title></hi>. <biblScope type="vol">Volume 1</biblScope>.
+                        <pubPlace>Dublin</pubPlace>, <biblScope type="pp">pp
+                            124</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date when="1997"
+                            >1997</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. Ogam-Inschriften: Bilderverzeichnis (picture catalogue).</hi></title> (2nd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.uni-frankfurt.de/ogam/ogbildx.htm"
+                                >titus.uni-frankfurt.de/ogam/ogbildx.htm</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>:<ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

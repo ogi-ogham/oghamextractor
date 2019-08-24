@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 209. Kilcoolaght East</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                    <resp>3D laser scanned on 20/08/2015 using Artec Eva and processed using Geomagic software.</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US">
+                        <p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>Aug 2015</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 209. <placeName type="townland">Kilcoolaght East</placeName></name> IV, Co. <placeName type="county"
+                    >Kerry</placeName></head>
+            <ab>
+                <rs>National Monuments Service Record Number: <ref
+                    target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003007-"
+                    >KE065-003007-</ref>
+                </rs>
+            </ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Burial ground</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>Kilcoolaght Burial Ground/<hi rend="italic"><placeName type="sitename">Cill Chuallachta</placeName></hi> 
+                        (KE065-003001-): This site is located N of Macgillycuddy's Reeks 
+                        on slightly elevated ground, a short distance W of the Finglas river. Described as a 'fort' and a 'burial ground' in 
+                        the OSNB (Killorglin, 38), it is depicted on the first edition of the OS map as a small circular enclosure. It was described 
+                        by Brash (<ref type="bibliog" target="#BRA1879"
+                            ><bibl><date when="1879"
+                                >1879</date>, <biblScope>228</biblScope></bibl></ref>) as 'slightly raised above the level of the field, and about fifteen feet in diameter; it had evidently been much 
+                        larger, but has been encroached on . . . [It] is an irregular circle without any fence, and stuck full of Dallans, from 
+                        12 in. to 4 ft. in height, several of which are inscribed’.
+                        Brash also recorded a tradition that a church (KE065-003003-) formerly stood on a rectangular area of untilled ground 
+                        ‘a few yards from the cilleen'. No trace of this church is now apparent</q> (<ref type="bibliog" target="#OSU1996"
+                            ><bibl><author>O'Sullivan</author> et al <date when="1996"
+                                >1996</date>, <biblScope>no. 950</biblScope></bibl></ref>).</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/>Sandstone, 
+                            <rs type="dimensions">
+                                <measure unit="metre" type="length" rend="height">0.74</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.24</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.18</measure>m
+                                <lb/>. </rs> <ref type="bibliog" target="#OSU1996"
+                                ><bibl><author>O'Sullivan</author> et al (<date when="1996"
+                                    >1996</date>, <biblScope>no. 950</biblScope></bibl></ref>) records that <q>a portion of the neatly scored inscription occurs beneath present ground level</q> 
+                        confirming that the stone was still standing at the time of the survey. <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                >203</biblScope></bibl>)</ref> recorded the height of the stone as 3 feet 6 inches (1.07m).  
+                        By the time it was recorded by <hi rend="italic">Fios Feasa</hi> (Multimedia CD ROM, 2002) the stone was broken and lying on the ground. On the opposite face to the inscription, this stone also displays
+                        V-sectioned grooves like <ref target="search.php?ciic=206">CIIC 206</ref>. These '<rs type="feature">hone scores</rs>' or long narrow cuts in the stone are not unlike those found on 
+                        the ogham stones at <ref target="search.php?ciic=Ratass">Ratass</ref>, Co. Kerry; <ref target="search.php?ciic=Church_Island">Church Island</ref>, Co. Kerry; <ref target="search.php?ciic=19">CIIC 19. 
+                            Colbinstown I</ref>, Co. Kildare; <ref target="search.php?ciic=57">CIIC 57. Greenhill I</ref>, Co. Cork and <ref target="search.php?ciic=35">CIIC 35. Tullaherin</ref>, Co. Kilkenny 
+                        (see <ref type="bibliog" target="#NEW2009"><bibl><author>Newman</author>
+                            <date when="2009">2009</date>, <biblScope type="pp"
+                                >433-4</biblScope></bibl></ref>).
+                        </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Inscription <rs type="execution">pocked</rs>, and in good condition as far as it goes, but both ends broken away.. The older books show an A preceding the double G, but I could not presuade myself of its existence. 
+                        The M has a slight S-like curve</q>. Although he also noted that there was enough room <q>after the double G for the three notches of a U</q>, <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                            (<date when="1945">1945</date>, <biblScope type="pp"
+                                >203-4</biblScope></bibl>)</ref> finally decided in favour of an O. 
+                           The final -LL in Macalister's transcription, along with the final vowel notch of the -I-, are now lost through a further break in the stone, 
+                        presumably when it was removed from it's upright position sometime between 1996 and 2002.
+                       </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <w><gap reason="lost" extent="unkonwn"></gap><supplied reason="lost">A</supplied>GGO</w>
+                    <w type="formula" lemma="MAQI">MAQI</w>
+                    <persName><w lemma="AGILL...">AG<unclear reason="damage">I</unclear><supplied reason="lost">LL</supplied><gap reason="lost" extent="unkonwn"></gap></w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>
+                    </ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+               
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">along with a number of other ogham stones and fragments in a small area of a field (recorded as a burial ground) in the townland of <placeName
+                                type="townland">Kilcoolaght East</placeName> and barony of <placeName
+                                    type="barony">Dunkerron North</placeName>. (GPS coordinates
+                            <geo>-9.745808, 52.073955</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">In a modern enclosure in a large field on private land. The present location of this stone may be accessed via the <ref
+                            target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003007-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>According to Brash (<ref type="bibliog" target="#BRA1879"
+                        ><bibl><date when="1879"
+                            >1879</date>, <biblScope>228</biblScope></bibl></ref>), the site was visited on several occasions by Windele and by Brash himself in 1869.
+                    </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BRA1879">
+                        <author>
+                            <surname>Brash</surname>
+                            <forename>R. R.</forename>
+                        </author> (<date>1879</date>): <title level="m" xml:lang="en"><hi rend="italic">The Ogam Inscribed
+                            Monuments of the Gaedhil in the British Isles</hi></title>,
+                        <biblScope type="pp">p. 230</biblScope>. </bibl>
+                    <bibl xml:id="OSU1996"><author><surname>O'Sullivan</surname>,
+                        <forename>A.</forename></author> and
+                        <author><surname>Sheehan</surname>, <forename>J.</forename></author>
+                        (<date when="1996">1996</date>): <title level="m"><hi rend="italic">The Iveragh Peninsula:
+                            An Archaeological Survey of South Kerry</hi></title>.
+                        <pubPlace>Cork</pubPlace>, <biblScope type="pp">no. 950</biblScope>.</bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                                    Celticarum</hi></title>, <biblScope type="pp">pp 203-4</biblScope>.</bibl>
+                    <bibl xml:id="NEW2009">
+                        <author>
+                            <surname>Newman</surname>, <forename>C.</forename>
+                        </author> (<date>2009</date>): <title level="a">'The Sword in the Stone: previously unrecognised archaeological 
+                            evidence of ceremonies of the later Iron Age and early medieval period'</title>, in <editor>
+                                <forename>G.</forename>
+                                <surname>Cooney</surname></editor> et al (eds.), <title level="m"><hi rend="italic">Relics of old decency: 
+                                    archaeological studies in later prehistory. Festschrift for Barry Raftery</hi></title>. <pubPlace>Dublin</pubPlace>, <biblScope
+                                        type="pp">pp 425-36</biblScope>. </bibl>
+                   
+
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date
+                            when="2001">2001</date>): <title><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. TITUS OGAMICA</hi>.</title> (3rd edition) 
+                            <orgName>University of Frankfurt</orgName>: <ref
+                                target="http://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm"
+                                >titus.fkidg1.uni-frankfurt.de/ogam/frame</ref></bibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=1392"
+                                >monasticon.celt.dias.ie</ref></bibl> 
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

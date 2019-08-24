@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 230. Cloghanecarhan</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                               <respStmt>
+                    <resp>3D laser scanned on 20/08/2015 using Artec Eva and processed using Geomagic software.</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US">
+                        <p>This work is licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>Aug 2015</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 230. <placeName type="townland">Cloghanecarhan</placeName></name>, Co. <placeName type="county"
+                    >Kerry</placeName></head>
+            <ab>
+                <rs>National Monuments Service Record Number: <ref
+                    target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE089-011001-"
+                    >KE089-011001-</ref>
+                </rs>
+            </ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Probable Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>Located on a gentle S facing slope at the foot of Foilclogh mountain, on the E bank of a small stream, this site [<ref
+                        target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE089-011----"
+                        >KE089-011----</ref>] provides broad views across boglands to Ballinskelligs Bay at S. 
+                        Known locally as 'Keeldarragh' (Lynch 1909, 164), it is approximately circular in plan and is enclosed by a bank which features an entrance at E and an arrangement of pillars at W. 
+                        This latter feature may represent a second entrance. Within the interior is a circular hut, three possible leachta and a cross-slab. An ogham stone is now located outside the E entrance, 
+                        and a souterrain was recently revealed immediately outside the enclosure at WNW</q> (<ref type="bibliog" target="#OSU1996"
+                            ><bibl><author>O'Sullivan</author> et al <date when="1996"
+                                >1996</date>, <biblScope>no. 936</biblScope></bibl></ref>). <ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author> 
+                                    (<date when="1945">1945</date>, <biblScope type="pp"
+                                        >224</biblScope></bibl>)</ref> recorded the site as a ringfort. Although <ref type="bibliog" target="#LYN1909"
+                                            ><bibl><author>Lynch</author> (<date when="1909"
+                                                >1909</date>, <biblScope>164</biblScope></bibl></ref>) described the site as a 'cashel', he believed it to have been <q>some kind of religious foundation</q>.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"/><q>Slate</q>, 
+                            <rs type="dimensions">
+                                <measure unit="metre" type="length" rend="height">2.08</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.38</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.18</measure>m
+                                <lb/> (converted from <ref type="bibliog" target="#MAC1945"
+                                    ><bibl><author>Macalister</author>
+                                        <date when="1945">1945</date>, <biblScope type="pp"
+                                            >224</biblScope></bibl>)</ref></rs>. 
+                          </p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Inscription in poor condition [up] and complicated by being a palimpsest </q> 
+                        (<ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >224</biblScope></bibl></ref>). Very little of Macalister's earlier inscription (D[...]A[.C.] AVI DALAGNI [MAQI C--) can be determined and so a transcription is not supplied below. 
+                        However, the scores and notches following the -NN of CARATTINN, can be made out from the 3d data and Macalister's earlier reading: BRIC (<ref type="bibliog" target="#MAC1902"><bibl><date when="1902">1902</date>, <biblScope type="pp"
+                                ></biblScope></bibl></ref>) looks more likely than his later alternative suggestion: MAQI C (<ref type="bibliog" target="#MAC1945"><bibl><date when="1945">1945</date>, <biblScope type="pp"
+                                        >224</biblScope></bibl></ref>).
+                        The X-<hi rend="italic">forfid</hi>, with <rs type="character">vocalic value</rs> representing 2E of EQQEGGNI, is very worn and therefore uncertain. 
+                        </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab> 
+                             
+                    <persName><w lemma="EQQEGGNI">EQQ<unclear reason="worn">E</unclear>GGN<unclear reason="worn">I</unclear></w></persName>
+                    <w lemma="MAQI" type="formula"><supplied reason="lost">MA</supplied><unclear reason="worn">Q</unclear><supplied reason="lost">I</supplied></w>
+                    <persName><w lemma="MAQI-CAIRATINI"><unclear reason="worn">MA</unclear>QI-CA<unclear reason="worn">R</unclear>ATT<unclear reason="worm">I</unclear>NN</w></persName>   
+                   </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab>
+                    <q>of Ec..án? son of Mac-Cáirthinn</q>
+                </ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p><ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                        (<date when="1945">1945</date>, <biblScope type="pp"
+                            >224</biblScope></bibl>)</ref> noted that <q>the last name [CARATTINN] is possibly that of the <hi rend="italic">eponymus</hi> of the townland</q>. <ref
+                                target="http://www.logainm.ie/en/22255?s=cloghanecarhan">Logainm.ie</ref> gives the Irish version of the townland name (Cloghanecarhan) as <hi rend="italic">Clochán Cárthainn</hi>. 
+                        The same name, in an earlier pre-apocope form (MAQI-CAIRATINI), appears on an ogham stone from Painestown, Co Meath (<ref
+                            target="search.php?ciic=40"
+                            >CIIC 40</ref>). MAQI- (gen. of
+                           MAQ(Q)AS), as a first element meaning
+                            '<gloss>devotee</gloss>' or the like, rather than
+                            '<gloss>son</gloss>' and <foreign xml:lang="ga"><hi rend="italic"
+                                >cáerthann</hi></foreign> 'rowan tree' as the second <ref type="bibliog"
+                                    target="#MCM1991">(<bibl><author>McManus</author>
+                                        <date when="1991">1991</date>, <biblScope type="pp"
+                                            >108-9</biblScope></bibl>).</ref>
+                         </p></item>
+                </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">originally stood at the E entrance of the site at <placeName
+                            type="townland">Cloghanecarhan</placeName>, in the barony of <placeName
+                                type="barony">Iveragh</placeName> (<ref type="bibliog" target="#OSU1996"
+                                    ><bibl><author>O'Sullivan</author> et al <date when="1996"
+                                        >1996</date>, <biblScope>no. 936</biblScope></bibl></ref>). (GPS coordinates
+                            <geo>-10.183738, 51.888405</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">Currently lies on two concrete mounts just outside the entrance at the E of the site. 
+                            The present location of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE089-011001-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p>Discovered and published by <ref type="bibliog" target="#LYN1909"
+                    ><bibl><author>Lynch</author> (<date when="1909"
+                        >1909</date>, <biblScope>pp 164-9</biblScope></bibl></ref>), including a photograph of the stone as it then stood.
+                    </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="LYN1909">
+                        <author>
+                            <surname>Lynch</surname>, <forename>P. J.</forename>
+                        </author> (<date>1909</date>): <title level="a">'Ogham stone in Cloghanecarhan, Co. Kerry'</title>, <title level="j"
+                            ><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">39</biblScope>, <biblScope type="pp">pp 164-9</biblScope>. </bibl>
+                    <bibl xml:id="MAC1902">
+                        <author>
+                            <surname>Macalister</surname>, <forename>R. A. S.</forename>
+                        </author> (<date>1902</date>): <hi rend="italic"><title level="m" type="main">Studies in Irish
+                            Epigraphy</title>. <title level="m" type="sub">A Collection of Revised
+                                Readings of the Ancient Inscriptions of Ireland, with Introduction and
+                                Notes</title></hi>. <biblScope type="part">Part II</biblScope>.
+                        <pubPlace>London</pubPlace>: <publisher>David Nutt</publisher>. </bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                        <forename>R.A.S.</forename></author> (<date when="1945"
+                            >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                                Celticarum</hi></title>, <biblScope type="pp">pp
+                                224</biblScope>.</bibl>
+                   
+                   <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                        <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 79, 109, 112, 121</biblScope>.</bibl>
+                    <bibl xml:id="OSU1996"><author><surname>O'Sullivan</surname>,
+                        <forename>A.</forename></author> and
+                        <author><surname>Sheehan</surname>, <forename>J.</forename></author>
+                        (<date when="1996">1996</date>): <title level="m"><hi rend="italic">The Iveragh Peninsula:
+                            An Archaeological Survey of South Kerry</hi></title>.
+                        <pubPlace>Cork</pubPlace>, <biblScope type="pp">no. 936</biblScope>.</bibl>
+                                       
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="author">Gippert, J.</name> (<date when="1997"
+                            >1997</date>): <title level="m" xml:lang="de"><hi rend="italic">Thesaurus Indogermanischer Text-und
+                                Sprachmateriale. Ogam-Inschriften: Bilderverzeichnis (picture catalogue).</hi></title> (2nd edition) 
+                            <orgName>University of Frankfurt</orgName>, online database: <ref
+                                target="http://titus.uni-frankfurt.de/ogam/ogbildx.htm"
+                                >titus.uni-frankfurt.de/ogam/ogbildx.htm</ref></bibl> 
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                            Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=2512"
+                                >monasticon.celt.dias.ie</ref></bibl> 
+                        
+                        
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scattery Island</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D laser scanned using Artec Eva scanner on 11/09/2014 and later processed
+                        using Artec Studio 9 and Geomagic Studio software</resp>
+                    <name>Rob Shaw</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"
+                            ><p>This work is licensed under the Creative Commons licence
+                            Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13 in <date>September 2014</date>
+                by <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name></p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Inscription</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"><placeName type="townland"
+                >Scattery Island</placeName></name>, Co. <placeName
+                    type="county">Clare</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CL067-024016-"
+                >CL067-024016-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>Scattery Island, at the mouth of the Shannon near Kilrush, has been an ecclesiastical centre since early times. A monastery was reputdely founded here by 
+                        St Senan in the sixth century, but suffered under the Vikings in the ninth and tenth centuries .. There are visible today the remains of the monastery, 
+                        including a round tower, of the cathedral and of three ruined medieval churches. One of these <hi rend="italic">Teampall Seanáin</hi>, or St Senan's church, stands on higher 
+                        ground to the north of the main group of buildings</q> (<ref type="bibliog" target="#OKA2001"><bibl><author>Okasha and Forsyth</author>
+                            <date when="2001">2001</date>, <biblScope type="pp"
+                                >112</biblScope></bibl></ref>). A structure/enclosure known as 'St Senan’s Bed' (CL067-024002-), where Senan is reputedly buried, is located beside this church.
+                        Also located here is a 9th or 10th-century cross slab (<ref target="resources/sites/Scattery_Island/Scattery_Cross_Slab.pdf">3D PDF</ref>) with two inscriptions 
+                        in half-uncial script reading: OROIT DO MOINACH ('A prayer for Moínach') and OROIT DO MOENACH AITE 
+                        MOGROIN ('A prayer for Móenach tutor of Mogrón'). The ogham stone, which was formerly here, is now on display inside the refurbished exhibition centre.
+                       </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p><rs type="material"/><q>Gritstone</q>
+                        <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">2.00</measure>m x
+                            <measure unit="metre" type="length" rend="width">0.60</measure>m x
+                            <measure unit="metre" type="length" rend="depth">0.14</measure>m 
+                            (<ref type="bibliog" target="#OKA2001"><bibl><author>Okasha and Forsyth</author>
+                                <date when="2001">2001</date>, <biblScope type="pp"
+                                    >112</biblScope></bibl></ref>)</rs>
+                    </p>
+                   
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>Faint traces of individual strokes are 
+                        discernible at various points but the best preserved section is towards the left end where the remains of five neatly parallel strokes of equal length, 
+                        6 cm long and 2 cm apart, are visible on the upper surface. These form an ogham letter N. Further to the left, following a gap, are the remains of four 
+                        similar strokes on the upper surface, an S or part of an N</q> (<ref type="bibliog" target="#OKA2001"><bibl><author>Okasha and Forsyth</author>
+                            <date when="2001">2001</date>, <biblScope type="pp"
+                                >112</biblScope></bibl></ref>).
+                      </p>                             
+                               
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <w><gap reason="lost"/>N<gap reason="lost"/><unclear reason="damage">S</unclear><gap reason="lost"/></w>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <ab></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p></p></item>
+                                   </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">set against the west wall of the enclosure, known as 'Senan's Bed', where it was used as the seat of a bench-like structure  
+                            in the townland of
+                                <placeName type="townland">Scattery Island</placeName> and barony of
+                            <placeName type="barony">Moyarta</placeName>. (GPS coordinates
+                            <geo>-9.517780, 52.615507</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last Recorded</head>
+                    <p>
+                        <rs type="lastLocation">The ogham stone is currently on display inside the refurbished exhibition centre on Scattery Island. <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CL067-024016-"
+                                >National Monuments Service Historic Environment viewer on
+                            www.archaeology.ie</ref>. (GPS coordinates
+                            <geo>-9.514446, 52.614625</geo>)</rs> 
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head>History of Recording</head>
+                <p><ref type="bibliog" target="#OKA2001"><bibl><author>Okasha and Forsyth</author> 
+                    (<date when="2001">2001</date>, <biblScope type="pp"
+                        >112</biblScope></bibl></ref>) state that this stone was first noted by <ref type="bibliog" target="#WES1897"><bibl><author>Westropp</author> 
+                            (<date when="1897">1897</date>, <biblScope type="pp"
+                                >285</biblScope></bibl></ref>) as having 'ogham-like' scores, 
+                    but that it was overlooked by Macalister and later scholars. </p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="OKA2001"><author><surname>Okasha</surname>, 
+                        <forename>E.</forename> </author> And <author>
+                            <surname>Forsyth</surname>, <forename>K.</forename>
+                        </author> (<date>2001</date>): <hi rend="italic"><title level="m" type="main">Early Christian
+                            Inscriptions of Munster</title>: <title level="m" type="sub">A Corpus of the Inscribed
+                            Stones</title></hi>, <biblScope type="pp">p. 156</biblScope>. </bibl> 
+                    <bibl xml:id="WES1897"><author><surname>Westropp</surname>,
+                        <forename>T.J.</forename> </author> (<date>1897</date>):<title level="a">'Descriptive sketch of places visited. Part 1. 
+                            Scattery Island and Canons' island, Co. Clare.'</title>, 
+                        <title level="j"><hi rend="italic">JRSIA</hi></title>, <biblScope type="vol">27</biblScope>, <biblScope type="pp">pp 273-90</biblScope>.</bibl>
+                     
+                </listBibl>
+                
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                       <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                    Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=3904"
+                                >monasticon.celt.dias.ie</ref></bibl> 
+                       
+                                           </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
