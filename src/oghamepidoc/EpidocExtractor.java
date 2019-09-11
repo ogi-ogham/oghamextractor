@@ -21,22 +21,58 @@ import org.xml.sax.ext.DefaultHandler2;
 
 public class EpidocExtractor extends DefaultHandler2 {
 
-	boolean geo=false,title=false;
+	boolean geo=false,title=false,foundmaqi=false,foundmucoi=false;
 	
 	GeometryFactory fac=new GeometryFactory();
 	
 	OghamObject result=new OghamObject();
 	
+	Tuple<String,String> curfatherson=new Tuple<String,String>(null,null);
+	
+	Tuple<String,String> partoftribe=new Tuple<String,String>(null,null);
+
+	private boolean persname;
+	
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
 		// TODO Auto-generated method stub
-		super.startElement(uri, localName, qName, attributes);
+		//super.startElement(uri, localName, qName, attributes);
 		switch(qName) {
 		case "geo": 
 			geo=true;
 			break;
 		case "title": 
 			title=true;
+			break;
+		case "persName": 
+			persname=true;
+			break;
+		case "w": 
+			if(persname) {
+				result.persons.add(attributes.getValue("lemma"));
+				if(this.curfatherson.getOne()!=null && this.curfatherson.getTwo()==null && foundmaqi) {
+					this.curfatherson.setTwo(attributes.getValue("lemma"));
+					this.result.sonOfSet.add(this.curfatherson);
+					this.curfatherson=new Tuple<String,String>(null,null);
+					foundmaqi=false;
+				}else if(attributes.getValue("lemma")!=null && this.partoftribe.getOne()!=null && this.partoftribe.getTwo()==null && foundmucoi){
+					this.partoftribe.setTwo(attributes.getValue("lemma"));
+					this.result.tribePartOfSet.add(this.partoftribe);
+					this.partoftribe=new Tuple<String,String>(null,null);
+					foundmucoi=false;
+				}else {					
+					this.curfatherson=new Tuple<>(attributes.getValue("lemma"),null);
+					this.partoftribe=new Tuple<>(attributes.getValue("lemma"),null);
+				}
+			}else {
+				if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("MAQI")) {
+					foundmaqi=true;
+					System.out.println("FOUND MAQI!!!!!!");
+				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("MUCOI")) {
+					System.out.println("FOUND MUCOI!!!!!!");
+					foundmucoi=true;
+				}
+			}
 			break;
 		}
 	}
@@ -56,11 +92,13 @@ public class EpidocExtractor extends DefaultHandler2 {
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException {
 		// TODO Auto-generated method stub
-		super.endElement(uri, localName, qName);
+		//super.endElement(uri, localName, qName);
 		switch(qName) {
 		case "geo": this.geo=false;
 			break;
 		case "title": this.title=false;
+			break;
+		case "persName": this.persname=false;
 			break;
 		}
 	}
