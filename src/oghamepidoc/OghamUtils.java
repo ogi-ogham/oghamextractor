@@ -3,12 +3,23 @@ package oghamepidoc;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class OghamUtils {
 
+	public static final Set<String> nomenclature = new TreeSet<String>() {{
+	    add("CUNA");
+	    add("ERC");
+	}};
+	
+	public static final Set<String> formular = new TreeSet<String>() {{
+	    add("MAQI");
+	}};
+	
 	public static final Map<String, String> oghammap = new HashMap<String, String>() {{
 	    put(" ", " ");  
 	    put("b",  "ᚁ");
