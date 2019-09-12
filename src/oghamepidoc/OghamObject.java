@@ -56,6 +56,8 @@ public class OghamObject {
 		OntClass wolf=model.createClass("https://www.wikidata.org/wiki/Q18498");
 		OntClass oghamletter=model.createClass("https://www.wikidata.org/wiki/Q41812345");
 		oghamletter.addLabel("Ogham Letter","en");
+        OntClass oghamword=model.createClass("https://www.wikidata.org/wiki/Q67384733");
+		oghamword.addLabel("Ogham Word","en");
 		OntClass nomenclature=model.createClass("https://www.wikidata.org/wiki/Q67382150");
 		nomenclature.addLabel("Nomenclature Word","en");
 		OntClass formular=model.createClass("https://www.wikidata.org/wiki/Q67381377");
