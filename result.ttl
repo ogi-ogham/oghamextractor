@@ -5,6 +5,8 @@
 
 <http://www.i3mainz.de/ogham#BRUSCCOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BRUSCCOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -17,6 +19,8 @@
 
 <http://www.i3mainz.de/ogham#LOBACCONA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LOBACCONA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -41,6 +45,8 @@
 
 <http://www.i3mainz.de/ogham#CUNAMAQQI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CUNAMAQQI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -72,6 +78,8 @@
 
 <http://www.i3mainz.de/ogham#QRITTI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#QRITTI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -81,6 +89,8 @@
 
 <http://www.i3mainz.de/ogham#SENAQ>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#SENAQ_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -103,6 +113,8 @@
 
 <http://www.i3mainz.de/ogham#QVECI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#QVECI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -143,6 +155,8 @@
 
 <http://www.i3mainz.de/ogham#GIRAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#GIRAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -159,6 +173,8 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-IARI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQQI-IARI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -193,6 +209,8 @@
 
 <http://www.i3mainz.de/ogham#TOICACI>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TOICACI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -212,6 +230,8 @@
 
 <http://www.i3mainz.de/ogham#LITENI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LITENI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -234,11 +254,20 @@
 <http://xmlns.com/foaf/0.1/Person>
       a       owl:Class .
 
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "E" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
+
 <http://www.i3mainz.de/ogham#MEDALO_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#CELI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "CELI" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -253,6 +282,8 @@
 
 <http://www.i3mainz.de/ogham#NE%5BT....%5DAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NE%5BT....%5DAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -278,6 +309,8 @@
 
 <http://www.i3mainz.de/ogham#MEDUSI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MEDUSI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -287,6 +320,8 @@
 
 <http://www.i3mainz.de/ogham#VLATIAMI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VLATIAMI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -301,6 +336,8 @@
 
 <http://www.i3mainz.de/ogham#AILITHIR>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#AILITHIR_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -310,6 +347,8 @@
 
 <http://www.i3mainz.de/ogham#RITTAVVECCAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#RITTAVVECCAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -326,6 +365,8 @@
 
 <http://www.i3mainz.de/ogham#VATTILLOGG>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VATTILLOGG_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -338,6 +379,8 @@
 
 <http://www.i3mainz.de/ogham#MARIN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MARIN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -350,6 +393,8 @@
 
 <http://www.i3mainz.de/ogham#ADDILONA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ADDILONA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -359,6 +404,8 @@
 
 <http://www.i3mainz.de/ogham#CALIACI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CALIACI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -368,6 +415,8 @@
 
 <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -391,6 +440,8 @@
 
 <http://www.i3mainz.de/ogham#QECCIAS%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#QECCIAS%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -423,6 +474,8 @@
 
 <http://www.i3mainz.de/ogham#TURANIAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TURANIAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -527,6 +580,8 @@
 
 <http://www.i3mainz.de/ogham#LABRID>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LABRID_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -555,6 +610,8 @@
 
 <http://www.i3mainz.de/ogham#VITALIN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VITALIN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -568,6 +625,8 @@
 
 <http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -580,6 +639,8 @@
 
 <http://www.i3mainz.de/ogham#NETA-SALAGIA%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NETA-SALAGIA%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -614,6 +675,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "MAQI" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -642,6 +705,8 @@
 
 <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -660,6 +725,8 @@
 
 <http://www.i3mainz.de/ogham#VURUDDRANN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VURUDDRANN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -681,6 +748,8 @@
 
 <http://www.i3mainz.de/ogham#COMMAGGAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#COMMAGGAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -718,6 +787,8 @@
 
 <http://www.i3mainz.de/ogham#ISAMMNN%3F>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ISAMMNN%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -729,6 +800,8 @@
 
 <http://www.i3mainz.de/ogham#KOI%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "KOI?" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -736,6 +809,8 @@
 
 <http://www.i3mainz.de/ogham#INISSIONAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#INISSIONAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -762,6 +837,8 @@
 
 <http://www.i3mainz.de/ogham#MUCO%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "MUCO?" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -774,6 +851,8 @@
 
 <http://www.i3mainz.de/ogham#OVANOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#OVANOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -786,6 +865,8 @@
 
 <http://www.i3mainz.de/ogham#MOCOI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "MOCOI" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -803,6 +884,8 @@
 
 <http://www.i3mainz.de/ogham#MARIANI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MARIANI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -812,6 +895,8 @@
 
 <http://www.i3mainz.de/ogham#VEDDONOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VEDDONOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -826,6 +911,8 @@
 
 <http://www.i3mainz.de/ogham#BROINIONAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BROINIONAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -840,6 +927,8 @@
 
 <http://www.i3mainz.de/ogham#BECCDINN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BECCDINN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -862,6 +951,8 @@
 
 <http://www.i3mainz.de/ogham#COBRANORA%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#COBRANORA%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -876,6 +967,8 @@
 
 <http://www.i3mainz.de/ogham#GOSSUCTTIAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#GOSSUCTTIAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -887,6 +980,13 @@
       a       <http://lemon-model.net/lemon#LexicalSense> ;
       <http://lemon-model.net/lemon#reference>
               <http://www.i3mainz.de/ogham#OLACON_person> .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "G" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_sense>
       a       <http://lemon-model.net/lemon#LexicalSense> ;
@@ -905,6 +1005,13 @@
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#CATTUVIR> .
 
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "L" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
+
 <https://www.wikidata.org/wiki/Property:P463>
       a       owl:ObjectProperty ;
       rdfs:label "member of"@en .
@@ -922,6 +1029,9 @@
       <http://lemon-model.net/lemon#reference>
               <http://www.i3mainz.de/ogham#OVANOS_person> .
 
+<http://lemon-model.net/lemon#Character>
+      a       owl:Class .
+
 <http://www.i3mainz.de/ogham#MAQI-AINIA_sense>
       a       <http://lemon-model.net/lemon#LexicalSense> ;
       <http://lemon-model.net/lemon#reference>
@@ -938,6 +1048,8 @@
 
 <http://www.i3mainz.de/ogham#CURCITTI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CURCITTI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -947,6 +1059,8 @@
 
 <http://www.i3mainz.de/ogham#GRAVICAS>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#GRAVICAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -999,6 +1113,8 @@
 
 <http://www.i3mainz.de/ogham#QENILOCI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#QENILOCI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1066,6 +1182,8 @@
 
 <http://www.i3mainz.de/ogham#DEGLANN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DEGLANN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1087,6 +1205,8 @@
 
 <http://www.i3mainz.de/ogham#LUBBIAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LUBBIAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1104,6 +1224,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-INI...>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-INI..._sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1118,6 +1240,8 @@
 
 <http://www.i3mainz.de/ogham#CORBBI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CORBBI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1144,6 +1268,8 @@
 
 <http://www.i3mainz.de/ogham#CORBI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CORBI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1153,6 +1279,8 @@
 
 <http://www.i3mainz.de/ogham#VOTI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VOTI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1162,6 +1290,8 @@
 
 <http://www.i3mainz.de/ogham#DOMANEQI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DOMANEQI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1171,6 +1301,8 @@
 
 <http://www.i3mainz.de/ogham#CUNACENA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CUNACENA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1231,6 +1363,8 @@
 
 <http://www.i3mainz.de/ogham#BATTIGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BATTIGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1248,6 +1382,8 @@
 
 <http://www.i3mainz.de/ogham#SEDANI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#SEDANI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1274,6 +1410,8 @@
 
 <http://www.i3mainz.de/ogham#CALUNOVICA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CALUNOVICA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1291,6 +1429,8 @@
 
 <http://www.i3mainz.de/ogham#CUNANETAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CUNANETAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1300,6 +1440,8 @@
 
 <http://www.i3mainz.de/ogham#VORTIGURN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VORTIGURN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1329,6 +1471,8 @@
 
 <http://www.i3mainz.de/ogham#VEDABAR>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VEDABAR_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1348,8 +1492,17 @@
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#VIRAGNI> , <http://www.i3mainz.de/ogham#CUNAGUSOS_person> , <http://www.i3mainz.de/ogham#VIRAGNI_person> , <http://www.i3mainz.de/ogham#CUNAGUSOS> .
 
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "V" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
+
 <http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1362,6 +1515,8 @@
 
 <http://www.i3mainz.de/ogham#MOINENA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MOINENA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1371,6 +1526,8 @@
 
 <http://www.i3mainz.de/ogham#NETTA-LAMINACCA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NETTA-LAMINACCA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1434,6 +1591,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-TTAL>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-TTAL_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1467,6 +1626,8 @@
 
 <http://www.i3mainz.de/ogham#SRUSA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#SRUSA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1491,6 +1652,13 @@
       a       <http://lemon-model.net/lemon#LexicalSense> ;
       <http://lemon-model.net/lemon#reference>
               <http://www.i3mainz.de/ogham#ENA_person> .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "C" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.i3mainz.de/ogham#JCHAS>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -1569,6 +1737,13 @@
       <http://lemon-model.net/lemon#reference>
               <http://www.i3mainz.de/ogham#MAQI-RITEAS_person> .
 
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "M" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
+
 <http://www.i3mainz.de/ogham#MEDUSI_sense>
       a       <http://lemon-model.net/lemon#LexicalSense> ;
       <http://lemon-model.net/lemon#reference>
@@ -1591,6 +1766,8 @@
 
 <http://www.i3mainz.de/ogham#MAILE-INBIR>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAILE-INBIR_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1629,6 +1806,8 @@
 
 <http://www.i3mainz.de/ogham#EQQEGGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#EQQEGGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1638,6 +1817,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-ESEA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-ESEA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1647,6 +1828,8 @@
 
 <http://www.i3mainz.de/ogham#SILLANN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#SILLANN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1666,6 +1849,8 @@
 
 <http://www.i3mainz.de/ogham#DENAVECA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DENAVECA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1675,6 +1860,8 @@
 
 <http://www.i3mainz.de/ogham#GLASICONAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#GLASICONAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1684,6 +1871,8 @@
 
 <http://www.i3mainz.de/ogham#DUCOVAROS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DUCOVAROS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1698,6 +1887,8 @@
 
 <http://www.i3mainz.de/ogham#AMMLLONGITT%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#AMMLLONGITT%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1724,6 +1915,8 @@
 
 <http://www.i3mainz.de/ogham#MONGEDIAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MONGEDIAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1738,6 +1931,8 @@
 
 <http://www.i3mainz.de/ogham#CATTINI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CATTINI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1750,6 +1945,8 @@
 
 <http://www.i3mainz.de/ogham#VINNAGITLET%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VINNAGITLET%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1759,6 +1956,8 @@
 
 <http://www.i3mainz.de/ogham#IAQINI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#IAQINI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1778,6 +1977,8 @@
 
 <http://www.i3mainz.de/ogham#BIR>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BIR_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1787,6 +1988,8 @@
 
 <http://www.i3mainz.de/ogham#TEGANN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TEGANN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1800,6 +2003,8 @@
 
 <http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1809,6 +2014,8 @@
 
 <http://www.i3mainz.de/ogham#SACATTINI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "SACATTINI" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -1842,6 +2049,13 @@
       a       <http://lemon-model.net/lemon#LexicalSense> ;
       <http://lemon-model.net/lemon#reference>
               <http://www.i3mainz.de/ogham#MAQI-CORABIR_person> .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "R" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI_sense>
       a       <http://lemon-model.net/lemon#LexicalSense> ;
@@ -1885,10 +2099,19 @@
 
 <http://www.i3mainz.de/ogham#AVI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "AVI" ;
       <http://lemon-model.net/lemon#writtenRep>
               "???" .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "U" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.i3mainz.de/ogham#DUNAIDONAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -1897,6 +2120,8 @@
 
 <http://www.i3mainz.de/ogham#NETTAVROICC>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NETTAVROICC_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1914,6 +2139,8 @@
 
 <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1937,6 +2164,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1951,6 +2180,8 @@
 
 <http://www.i3mainz.de/ogham#GALEOTOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#GALEOTOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1960,6 +2191,8 @@
 
 <http://www.i3mainz.de/ogham#CEDATTOQA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CEDATTOQA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -1992,6 +2225,8 @@
 
 <http://www.i3mainz.de/ogham#COIMAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#COIMAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2010,6 +2245,8 @@
 
 <http://www.i3mainz.de/ogham#LUGUQRIT>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LUGUQRIT_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2024,6 +2261,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-AINIA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-AINIA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2041,6 +2280,8 @@
 
 <http://www.i3mainz.de/ogham#DUGENNGI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DUGENNGI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2050,6 +2291,8 @@
 
 <http://www.i3mainz.de/ogham#DOVINIAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DOVINIAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2073,6 +2316,8 @@
 
 <http://www.i3mainz.de/ogham#CCICAMINI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CCICAMINI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2127,6 +2372,8 @@
 
 <http://www.i3mainz.de/ogham#CORBAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CORBAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2136,6 +2383,8 @@
 
 <http://www.i3mainz.de/ogham#BROCANN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BROCANN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2158,6 +2407,8 @@
 
 <http://www.i3mainz.de/ogham#MAILAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAILAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2167,6 +2418,8 @@
 
 <http://www.i3mainz.de/ogham#CUNALEGEA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CUNALEGEA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2181,6 +2434,8 @@
 
 <http://www.i3mainz.de/ogham#DOVVINIAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DOVVINIAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2195,6 +2450,8 @@
 
 <http://www.i3mainz.de/ogham#MOSAC>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "MOSAC" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -2212,6 +2469,8 @@
 
 <http://www.i3mainz.de/ogham#NETA-CARI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NETA-CARI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2229,6 +2488,8 @@
 
 <http://www.i3mainz.de/ogham#AGILL...>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#AGILL..._sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2238,6 +2499,8 @@
 
 <http://www.i3mainz.de/ogham#LUGADDON>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LUGADDON_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2253,6 +2516,8 @@
 
 <http://www.i3mainz.de/ogham#LUGA>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LUGA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2264,6 +2529,8 @@
 
 <http://www.i3mainz.de/ogham#INEQAGLAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#INEQAGLAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2301,6 +2568,8 @@
 
 <http://www.i3mainz.de/ogham#DOLIGENN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DOLIGENN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2320,6 +2589,8 @@
 
 <http://www.i3mainz.de/ogham#MUIBITI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MUIBITI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2352,6 +2623,8 @@
 
 <http://www.i3mainz.de/ogham#ATAR>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ATAR_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2365,6 +2638,13 @@
       a       <http://lemon-model.net/lemon#LexicalSense> ;
       <http://lemon-model.net/lemon#reference>
               <http://www.i3mainz.de/ogham#CORRBRI_person> .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "H" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.i3mainz.de/ogham#GLASICONAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
@@ -2431,6 +2711,8 @@
 
 <http://www.i3mainz.de/ogham#BROINIENAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BROINIENAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2440,6 +2722,8 @@
 
 <http://www.i3mainz.de/ogham#AKEVRITTI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#AKEVRITTI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2463,6 +2747,8 @@
 
 <http://www.i3mainz.de/ogham#GOSOCTEAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#GOSOCTEAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2472,6 +2758,8 @@
 
 <http://www.i3mainz.de/ogham#ALATTO>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ALATTO_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2481,6 +2769,8 @@
 
 <http://www.i3mainz.de/ogham#CUNOVATOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CUNOVATOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2495,6 +2785,8 @@
 
 <http://www.i3mainz.de/ogham#COMOGANN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#COMOGANN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2507,6 +2799,8 @@
 
 <http://www.i3mainz.de/ogham#CUNAGUSOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CUNAGUSOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2532,6 +2826,8 @@
 
 <http://www.i3mainz.de/ogham#CORRBRI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CORRBRI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2541,10 +2837,19 @@
 
 <http://www.i3mainz.de/ogham#MUCOI%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "MUCOI?" ;
       <http://lemon-model.net/lemon#writtenRep>
               "?????" .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "B" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.opengis.net/ont/geosparql#Feature>
       a       owl:Class ;
@@ -2572,6 +2877,8 @@
 
 <http://www.i3mainz.de/ogham#MANU>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MANU_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2581,6 +2888,8 @@
 
 <http://www.i3mainz.de/ogham#DALI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DALI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2620,6 +2929,8 @@
 
 <http://www.i3mainz.de/ogham#LAG%5B...>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LAG%5B..._sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2629,6 +2940,8 @@
 
 <http://www.i3mainz.de/ogham#RONANN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#RONANN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2658,6 +2971,8 @@
 
 <http://www.i3mainz.de/ogham#UDDAMI>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#UDDAMI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2674,6 +2989,8 @@
 
 <http://www.i3mainz.de/ogham#COROTANI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#COROTANI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2683,13 +3000,20 @@
 
 <http://www.i3mainz.de/ogham#KOI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "KOI" ;
       <http://lemon-model.net/lemon#writtenRep>
               "??" .
 
+<http://lemon-model.net/lemon#contains>
+      a       owl:ObjectProperty .
+
 <http://www.i3mainz.de/ogham#AMADU>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#AMADU_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2704,6 +3028,8 @@
 
 <http://www.i3mainz.de/ogham#GATI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#GATI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2719,6 +3045,8 @@
 
 <http://www.i3mainz.de/ogham#DUNAIDONAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DUNAIDONAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2747,6 +3075,8 @@
 
 <http://www.i3mainz.de/ogham#DIMAQA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DIMAQA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2771,6 +3101,8 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-ERCCIA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQQI-ERCCIA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2780,6 +3112,8 @@
 
 <http://www.i3mainz.de/ogham#GAMICUNAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#GAMICUNAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2808,6 +3142,8 @@
 
 <http://www.i3mainz.de/ogham#TUCACAC>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TUCACAC_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2822,6 +3158,8 @@
 
 <http://www.i3mainz.de/ogham#RAVASA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#RAVASA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2839,6 +3177,8 @@
 
 <http://www.i3mainz.de/ogham#ERACIAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ERACIAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2848,6 +3188,8 @@
 
 <http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2862,6 +3204,8 @@
 
 <http://www.i3mainz.de/ogham#BIVAIDONAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BIVAIDONAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2871,6 +3215,8 @@
 
 <http://www.i3mainz.de/ogham#VEDELMETO>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VEDELMETO_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2907,6 +3253,8 @@
 
 <http://www.i3mainz.de/ogham#ERC>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ERC_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2916,6 +3264,8 @@
 
 <http://www.i3mainz.de/ogham#...ERATI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#...ERATI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2945,6 +3295,8 @@
 
 <http://www.i3mainz.de/ogham#CIR>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CIR_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2954,6 +3306,8 @@
 
 <http://www.i3mainz.de/ogham#NETA-CAGI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NETA-CAGI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2967,6 +3321,8 @@
 
 <http://www.i3mainz.de/ogham#DILOGONN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "DILOGONN" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -2982,6 +3338,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-CORABIR>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-CORABIR_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3029,6 +3387,8 @@
 
 <http://www.i3mainz.de/ogham#VEQREQ>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VEQREQ_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3061,6 +3421,8 @@
 
 <http://www.i3mainz.de/ogham#NIOTTA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "NIOTTA" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -3068,6 +3430,8 @@
 
 <http://www.i3mainz.de/ogham#MAC>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "MAC" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -3080,6 +3444,8 @@
 
 <http://www.i3mainz.de/ogham#BROINIONAS%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BROINIONAS%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3102,6 +3468,8 @@
 
 <http://www.i3mainz.de/ogham#DEAGOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DEAGOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3130,6 +3498,8 @@
 
 <http://www.i3mainz.de/ogham#ERCAVICCAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ERCAVICCAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3139,6 +3509,8 @@
 
 <http://www.i3mainz.de/ogham#ULCCAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ULCCAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3151,6 +3523,8 @@
 
 <http://www.i3mainz.de/ogham#MUCOI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "MUCOI" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -3158,6 +3532,8 @@
 
 <http://www.i3mainz.de/ogham#SUVALLOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#SUVALLOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3172,6 +3548,8 @@
 
 <http://www.i3mainz.de/ogham#DERCMASOC>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DERCMASOC_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3186,6 +3564,8 @@
 
 <http://www.i3mainz.de/ogham#CORB>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CORB_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3195,6 +3575,8 @@
 
 <http://www.i3mainz.de/ogham#OLACON>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#OLACON_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3214,6 +3596,8 @@
 
 <http://www.i3mainz.de/ogham#TAN...>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TAN..._sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3221,8 +3605,17 @@
       <http://lemon-model.net/lemon#writtenRep>
               "???" .
 
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "D" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
+
 <http://www.i3mainz.de/ogham#TRENU>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TRENU_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3253,6 +3646,8 @@
 
 <http://www.i3mainz.de/ogham#MINERC%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MINERC%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3262,6 +3657,8 @@
 
 <http://www.i3mainz.de/ogham#CATTUBUTTAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CATTUBUTTAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3271,6 +3668,8 @@
 
 <http://www.i3mainz.de/ogham#DOVINIA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DOVINIA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3280,6 +3679,8 @@
 
 <http://www.i3mainz.de/ogham#VIRAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VIRAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3327,6 +3728,8 @@
 
 <http://www.i3mainz.de/ogham#NE%3FTTVRECC>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NE%3FTTVRECC_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3351,6 +3754,13 @@
 <http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "N" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
+
 <http://www.i3mainz.de/ogham#CEDATTOQA_sense>
       a       <http://lemon-model.net/lemon#LexicalSense> ;
       <http://lemon-model.net/lemon#reference>
@@ -3364,6 +3774,8 @@
 
 <http://www.i3mainz.de/ogham#LLATIGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LLATIGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3410,6 +3822,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-DUMILEAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-DUMILEAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3436,6 +3850,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-CAIRATINI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-CAIRATINI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3450,6 +3866,8 @@
 
 <http://www.i3mainz.de/ogham#COLLABOT>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#COLLABOT_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3500,6 +3918,8 @@
 
 <http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3525,6 +3945,8 @@
 
 <http://www.i3mainz.de/ogham#CATTUVIR>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CATTUVIR_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3548,6 +3970,8 @@
 
 <http://www.i3mainz.de/ogham#B%5BAID%5DAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3565,6 +3989,8 @@
 
 <http://www.i3mainz.de/ogham#MEDALO>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MEDALO_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3584,6 +4010,8 @@
 
 <http://www.i3mainz.de/ogham#RODDOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#RODDOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3598,6 +4026,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-ERCIAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3632,6 +4062,8 @@
 
 <http://www.i3mainz.de/ogham#IVACATTOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#IVACATTOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3649,6 +4081,8 @@
 
 <http://www.i3mainz.de/ogham#ANM>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "ANM" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -3656,6 +4090,8 @@
 
 <http://www.i3mainz.de/ogham#ENA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ENA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3665,6 +4101,8 @@
 
 <http://www.i3mainz.de/ogham#LUGUDECAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LUGUDECAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3679,6 +4117,8 @@
 
 <http://www.i3mainz.de/ogham#GLUNLEGGET>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#GLUNLEGGET_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3705,6 +4145,8 @@
 
 <http://www.i3mainz.de/ogham#BROENIONAS%3F>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BROENIONAS%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3716,6 +4158,8 @@
 
 <http://www.i3mainz.de/ogham#NETA-SEGAMONAS>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NETA-SEGAMONAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3746,6 +4190,8 @@
 
 <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3765,6 +4211,8 @@
 
 <http://www.i3mainz.de/ogham#BIRRAC>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BIRRAC_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3774,6 +4222,8 @@
 
 <http://www.i3mainz.de/ogham#NILI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NILI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3805,12 +4255,21 @@
 
 <http://www.i3mainz.de/ogham#VRAICCI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VRAICCI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
               "VRAICCI" ;
       <http://lemon-model.net/lemon#writtenRep>
               "???????" .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "O" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian%0A++++++++++++++++++++++++++++++++Ecclesiastical+Settlement+in+Ireland+5th+to+12th+Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -3821,6 +4280,8 @@
 
 <http://www.i3mainz.de/ogham#MAKINI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAKINI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3830,6 +4291,8 @@
 
 <http://www.i3mainz.de/ogham#MAQA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "MAQA" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -3837,6 +4300,8 @@
 
 <http://www.i3mainz.de/ogham#DALAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DALAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3865,6 +4330,13 @@
 <https://www.wikidata.org/wiki/Q18498>
       a       owl:Class ;
       rdfs:label "Wolf"@en .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "A" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.i3mainz.de/ogham#cal+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -3906,6 +4378,8 @@
 
 <http://www.i3mainz.de/ogham#COLMAN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#COLMAN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3915,6 +4389,8 @@
 
 <http://www.i3mainz.de/ogham#ROTTAIS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ROTTAIS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3924,6 +4400,8 @@
 
 <http://www.i3mainz.de/ogham#LLOTETI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#LLOTETI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3933,6 +4411,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-DECEDAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-DECEDAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3952,6 +4432,8 @@
 
 <http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3969,6 +4451,8 @@
 
 <http://www.i3mainz.de/ogham#TALAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TALAGNI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3978,6 +4462,8 @@
 
 <http://www.i3mainz.de/ogham#NOCATI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#NOCATI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3987,6 +4473,8 @@
 
 <http://www.i3mainz.de/ogham#DEGOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DEGOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4026,6 +4514,8 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4035,6 +4525,8 @@
 
 <http://www.i3mainz.de/ogham#MACORBO>
       a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q3538737> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MACORBO_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4043,6 +4535,13 @@
               "???????" ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#GATI_person> .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "T" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.i3mainz.de/ogham#OghamDictionary>
       a       <http://lemon-model.net/lemon#Lexicon> ;
@@ -4086,6 +4585,8 @@
 
 <http://www.i3mainz.de/ogham#BIGU>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#BIGU_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4112,6 +4613,8 @@
 
 <http://www.i3mainz.de/ogham#TRENALUGGO%3F>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#TRENALUGGO%3F_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4129,6 +4632,8 @@
 
 <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4138,6 +4643,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-RITEAS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-RITEAS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4147,6 +4654,8 @@
 
 <http://www.i3mainz.de/ogham#VORGOS>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VORGOS_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4162,6 +4671,8 @@
 
 <http://www.i3mainz.de/ogham#CATTABBOTT>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CATTABBOTT_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4188,6 +4699,8 @@
 
 <http://www.i3mainz.de/ogham#VORRTIGURN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#VORRTIGURN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4208,6 +4721,8 @@
 
 <http://www.i3mainz.de/ogham#C%5B....%5DSALAR>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#C%5B....%5DSALAR_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4222,6 +4737,13 @@
       a       <http://lemon-model.net/lemon#LexicalSense> ;
       <http://lemon-model.net/lemon#reference>
               <http://www.i3mainz.de/ogham#LOBACCONA_person> .
+
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "I" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
 
 <http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
@@ -4238,6 +4760,8 @@
 
 <http://www.i3mainz.de/ogham#DOVVINIA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DOVVINIA_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4245,8 +4769,17 @@
       <http://lemon-model.net/lemon#writtenRep>
               "????????" .
 
+<http://www.i3mainz.de/ogham#?_character>
+      a       <http://lemon-model.net/lemon#Character> ;
+      <http://lemon-model.net/lemon#transliteration>
+              "S" ;
+      <http://lemon-model.net/lemon#writtenRep>
+              "?" .
+
 <http://www.i3mainz.de/ogham#MACI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
               "MACI" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -4274,6 +4807,8 @@
 
 <http://www.i3mainz.de/ogham#RETAGIN>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#RETAGIN_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4295,6 +4830,8 @@
 
 <http://www.i3mainz.de/ogham#DUMELI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DUMELI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4309,6 +4846,8 @@
 
 <http://www.i3mainz.de/ogham#MEDVVI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MEDVVI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4318,6 +4857,8 @@
 
 <http://www.i3mainz.de/ogham#MAQI-RET%2FC...>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#MAQI-RET%2FC..._sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4332,6 +4873,8 @@
 
 <http://www.i3mainz.de/ogham#DOVETI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#DOVETI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4354,6 +4897,8 @@
 
 <http://www.i3mainz.de/ogham#CURCI>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#CURCI_sense> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4381,6 +4926,8 @@
 
 <http://www.i3mainz.de/ogham#ODR...REA>
       a       <http://lemon-model.net/lemon#Word> ;
+      <http://lemon-model.net/lemon#contains>
+              <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
               <http://www.i3mainz.de/ogham#ODR...REA_sense> ;
       <http://lemon-model.net/lemon#transliteration>

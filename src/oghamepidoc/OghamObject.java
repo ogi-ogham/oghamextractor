@@ -45,6 +45,7 @@ public class OghamObject {
 		System.out.println(title);
 		OntClass oghamobj=model.createClass(BASEURI+"OghamObject");
 		OntClass dictionary=model.createClass("http://lemon-model.net/lemon#Lexicon");
+		OntClass character=model.createClass("http://lemon-model.net/lemon#Character");
 		OntClass lexicalSense=model.createClass("http://lemon-model.net/lemon#LexicalSense");
 		OntClass word=model.createClass("http://lemon-model.net/lemon#Word");
 		OntClass person=model.createClass("http://xmlns.com/foaf/0.1/Person");
@@ -77,6 +78,7 @@ public class OghamObject {
 		inscriptionmentions.addLabel("relative","en");
 		ObjectProperty entry=model.createObjectProperty("http://lemon-model.net/lemon#entry");
 		ObjectProperty sense=model.createObjectProperty("http://lemon-model.net/lemon#sense");
+		ObjectProperty contains=model.createObjectProperty("http://lemon-model.net/lemon#contains");
 		ObjectProperty reference=model.createObjectProperty("http://lemon-model.net/lemon#reference");
 		ObjectProperty hasMember=model.createObjectProperty(BASEURI+"hasMember");
 		ObjectProperty follows=model.createObjectProperty(BASEURI+"follows");
@@ -91,6 +93,15 @@ public class OghamObject {
 		Individual oghamdict=dictionary.createIndividual(BASEURI+"OghamDictionary");
 		for(String woord:words) {
 			Individual wordd=word.createIndividual(BASEURI+URLEncoder.encode(woord));
+			for(int i=0;i<woord.length();i++) {
+				String curstr=woord.charAt(i)+"";
+				if(OghamUtils.oghammap.containsKey(curstr.toLowerCase())) {
+					Individual chara=character.createIndividual(BASEURI+OghamUtils.oghammap.get(curstr.toLowerCase())+"_character");
+					wordd.addProperty(contains, chara);
+					chara.addProperty(transliteration, curstr.toUpperCase());
+					chara.addProperty(script, OghamUtils.oghammap.get(curstr.toLowerCase()));
+				}
+			}
 			wordd.addProperty(transliteration, woord);
 			wordd.addProperty(script, OghamUtils.translitToUnicode(woord));
 			oghamdict.addProperty(entry, wordd);
