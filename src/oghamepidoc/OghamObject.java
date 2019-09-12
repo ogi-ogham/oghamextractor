@@ -55,6 +55,8 @@ public class OghamObject {
 		OntClass tribe=model.createClass("https://www.wikidata.org/wiki/Q3538737");
 		OntClass wolf=model.createClass("https://www.wikidata.org/wiki/Q18498");
 		wolf.addLabel("Wolf","en");
+        OntClass cow=model.createClass("https://www.wikidata.org/wiki/Q67382360");
+		cow.addLabel("Cow","en");
 		OntClass battle=model.createClass("https://www.wikidata.org/wiki/Q178561");
 		battle.addLabel("Battle","en");
 		OntClass godlugh=model.createClass("https://www.wikidata.org/wiki/Q215683");
@@ -115,6 +117,8 @@ public class OghamObject {
 				personsense.addProperty(nameRelatesTo, battle);
 			}else if(perss.contains("LUG")) {
 				personsense.addProperty(nameRelatesTo, godlugh);
+			} else if(perss.contains("ERC")) {
+				personsense.addProperty(nameRelatesTo, cow);
 			}
 			Individual lexsense=lexicalSense.createIndividual(BASEURI+URLEncoder.encode(perss)+"_sense");
 			persson.addProperty(sense, lexsense);
