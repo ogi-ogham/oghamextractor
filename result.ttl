@@ -5,6 +5,8 @@
 
 <http://www.i3mainz.de/ogham#BRUSCCOS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#CALIACI> .
 
@@ -12,7 +14,9 @@
       a       owl:ObjectProperty .
 
 <http://www.i3mainz.de/ogham#LOBACCONA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#follows>
       a       owl:ObjectProperty .
@@ -36,11 +40,15 @@
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#CORBI> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> .
 
 <http://www.i3mainz.de/ogham#QRITTI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <http://www.i3mainz.de/ogham#Maynooth+Monographs_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -49,55 +57,79 @@
 
 <http://www.i3mainz.de/ogham#SENAQ>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#ENA> .
 
 <http://www.i3mainz.de/ogham#BROINIENAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#AKEVRITTI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.opengis.net/ont/geosparql#hasGeometry>
       a       owl:ObjectProperty .
 
 <http://www.i3mainz.de/ogham#QVECI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" .
 
 <http://www.i3mainz.de/ogham#GOSOCTEAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#ALATTO>
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <http://www.i3mainz.de/ogham#follows>
-              <http://www.i3mainz.de/ogham#BATTIGNI> .
+              <http://www.i3mainz.de/ogham#BATTIGNI> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#nameRelatesTo>
       a       owl:ObjectProperty .
 
 <http://www.i3mainz.de/ogham#CUNOVATOS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#COMOGANN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#CUNAGUSOS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#VIRAGNI> .
 
 <http://www.i3mainz.de/ogham#GIRAGNI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#MAQQI-IARI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DOVINIAS> .
 
 <http://www.i3mainz.de/ogham#CORRBRI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#AMMLLONGITT%3F> .
 
@@ -115,18 +147,26 @@
               <http://www.i3mainz.de/ogham#RAVASA> .
 
 <http://www.i3mainz.de/ogham#MANU>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" .
 
 <http://www.i3mainz.de/ogham#TOICACI>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
-              <http://www.i3mainz.de/ogham#MAQI-TTAL> , <http://www.i3mainz.de/ogham#MAQI-RITEAS> .
+              <http://www.i3mainz.de/ogham#MAQI-TTAL> , <http://www.i3mainz.de/ogham#MAQI-RITEAS> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#DALI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" .
 
 <http://www.i3mainz.de/ogham#LITENI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://xmlns.com/foaf/0.1/Person>
       a       owl:Class .
@@ -138,18 +178,24 @@
 
 <http://www.i3mainz.de/ogham#RONANN>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#COMOGANN> .
 
 <http://www.i3mainz.de/ogham#LAG%5B...>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???" .
 
 <http://www.opengis.net/ont/geosparql#Geometry>
       a       owl:Class ;
       rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> .
 
 <http://www.i3mainz.de/ogham#NE%5BT....%5DAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Wicklow>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -163,7 +209,9 @@
 <http://www.i3mainz.de/ogham#UDDAMI>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
-              <http://www.i3mainz.de/ogham#NOCATI> .
+              <http://www.i3mainz.de/ogham#NOCATI> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#Corpus+inscriptionum+insularum%0A++++++++++++++++++++++++++++Celticarum_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -172,25 +220,37 @@
 
 <http://www.i3mainz.de/ogham#MEDUSI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#LUGA> .
 
 <http://www.i3mainz.de/ogham#COROTANI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#VLATIAMI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#AILITHIR>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#RITTAVVECCAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#VEDDONOS> .
 
 <http://www.i3mainz.de/ogham#AMADU>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <http://www.i3mainz.de/ogham#West%0A++++++++++++++++++++++++++++++++Cork>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -202,21 +262,31 @@
               <http://www.i3mainz.de/ogham#VIRAGNI> , <http://www.i3mainz.de/ogham#CUNAGUSOS> .
 
 <http://www.i3mainz.de/ogham#VATTILLOGG>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#MARIN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <http://www.i3mainz.de/ogham#GATI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#MACORBO> .
 
 <http://www.i3mainz.de/ogham#CALIACI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#ADDILONA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer+Text-und%0A++++++++++++++++++++++++++++++++Sprachmateriale.+Ogam-Inschriften%3A+Bilderverzeichnis+%28picture+catalogue%29.>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -228,15 +298,24 @@
               <http://www.i3mainz.de/ogham#COBRANORA%3F> , <http://www.i3mainz.de/ogham#VINNAGITLET%3F> , <http://www.i3mainz.de/ogham#QRITTI> , <http://www.i3mainz.de/ogham#DUMELI> , <http://www.i3mainz.de/ogham#VITALIN> , <http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI> , <http://www.i3mainz.de/ogham#COIMAGNI> , <http://www.i3mainz.de/ogham#TURANIAS> , <http://www.i3mainz.de/ogham#MAQI-ERCIAS> , <http://www.i3mainz.de/ogham#LUGUQRIT> , <http://www.i3mainz.de/ogham#DOVINIAS> , <http://www.i3mainz.de/ogham#LLATIGNI> , <http://www.i3mainz.de/ogham#MINERC%3F> , <http://www.i3mainz.de/ogham#CATTUBUTTAS> , <http://www.i3mainz.de/ogham#DOVINIA> , <http://www.i3mainz.de/ogham#GLASICONAS> , <http://www.i3mainz.de/ogham#MAQI-DECEDAS> , <http://www.i3mainz.de/ogham#MAQQI-ERCCIA> , <http://www.i3mainz.de/ogham#ERC> , <http://www.i3mainz.de/ogham#ULCCAGNI> , <http://www.i3mainz.de/ogham#GALEOTOS> .
 
 <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#DUNAIDONAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MARIANI> .
 
+<http://www.i3mainz.de/ogham#nameInOgham>
+      a       owl:DatatypeProperty .
+
 <http://www.i3mainz.de/ogham#QECCIAS%3F>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#BROENIONAS%3F> .
 
@@ -246,10 +325,14 @@
               "POINT (-8.369881 53.834383)" , "POINT (-8.310399 53.797323)" , "POINT (-9.254148 54.246617)" .
 
 <http://www.i3mainz.de/ogham#TURANIAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#DIMAQA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <http://www.i3mainz.de/ogham#nd+Sprachmateriale.+TITUS+OGAMICA.>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -265,33 +348,49 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-ERCCIA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DOVINIA> .
 
 <http://www.i3mainz.de/ogham#GAMICUNAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> .
 
 <http://www.i3mainz.de/ogham#TUCACAC>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#RAVASA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#LABRID>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#VITALIN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> .
 
 <http://www.i3mainz.de/ogham#ERACIAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DIMAQA> .
 
@@ -304,6 +403,8 @@
 
 <http://www.i3mainz.de/ogham#BIVAIDONAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#ATAR> .
 
@@ -312,10 +413,14 @@
       rdfs:label "image"@en .
 
 <http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#NETA-SALAGIA%3F>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????????" .
 
 <http://www.i3mainz.de/ogham#Celtica>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -328,16 +433,22 @@
 
 <http://www.i3mainz.de/ogham#VEDELMETO>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F> .
 
 <http://www.i3mainz.de/ogham#ERC>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MAQI-ERCIAS> .
 
 <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS> .
 
@@ -348,6 +459,8 @@
 
 <http://www.i3mainz.de/ogham#VURUDDRANN>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DOLIGENN> .
 
@@ -369,6 +482,8 @@
 
 <http://www.i3mainz.de/ogham#COMMAGGAGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????????" ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#ISAMMNN%3F> .
 
@@ -378,16 +493,22 @@
 
 <http://www.i3mainz.de/ogham#...ERATI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#NETA-SEGAMONAS> .
 
 <http://www.i3mainz.de/ogham#ISAMMNN%3F>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
-              <http://www.i3mainz.de/ogham#COMMAGGAGNI> .
+              <http://www.i3mainz.de/ogham#COMMAGGAGNI> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#INISSIONAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#.>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -399,10 +520,14 @@
               <http://www.i3mainz.de/ogham#BRUSCCOS> , <http://www.i3mainz.de/ogham#CALIACI> , <http://www.i3mainz.de/ogham#MAQI-DUMILEAS> , <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS> , <http://www.i3mainz.de/ogham#OLACON> , <http://www.i3mainz.de/ogham#QRITTI> , <http://www.i3mainz.de/ogham#NOCATI> , <http://www.i3mainz.de/ogham#GOSOCTEAS> , <http://www.i3mainz.de/ogham#TRENU> , <http://www.i3mainz.de/ogham#DEGOS> , <http://www.i3mainz.de/ogham#BIRRAC> , <http://www.i3mainz.de/ogham#MOINENA> , <http://www.i3mainz.de/ogham#GIRAGNI> , <http://www.i3mainz.de/ogham#MAKINI> , <http://www.i3mainz.de/ogham#NE%3FTTVRECC> , <http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29> , <http://www.i3mainz.de/ogham#TUCACAC> , <http://www.i3mainz.de/ogham#LUGADDON> , <http://www.i3mainz.de/ogham#TOICACI> , <http://www.i3mainz.de/ogham#MAQI-TTAL> , <http://www.i3mainz.de/ogham#IAQINI> , <http://www.i3mainz.de/ogham#COIMAGNI> , <http://www.i3mainz.de/ogham#CUNACENA> , <http://www.i3mainz.de/ogham#MAQI-RET%2FC...> , <http://www.i3mainz.de/ogham#UDDAMI> , <http://www.i3mainz.de/ogham#MAQI-DECEDAS> , <http://www.i3mainz.de/ogham#LUGUDECAS> , <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D> , <http://www.i3mainz.de/ogham#VORGOS> , <http://www.i3mainz.de/ogham#MAQI-RITEAS> .
 
 <http://www.i3mainz.de/ogham#CIR>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???" .
 
 <http://www.i3mainz.de/ogham#NETA-CAGI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <https://www.wikidata.org/wiki/Q215683>
       a       owl:Class ;
@@ -414,24 +539,36 @@
 <http://www.i3mainz.de/ogham#OVANOS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <http://www.i3mainz.de/ogham#descendantOf>
-              <http://www.i3mainz.de/ogham#IVACATTOS> .
+              <http://www.i3mainz.de/ogham#IVACATTOS> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#MAQI-CORABIR>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#TAN...> .
 
 <http://www.i3mainz.de/ogham#VEDDONOS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#MARIANI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#BROINIONAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#BECCDINN>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#RITTAVVECCAS> .
 
@@ -441,15 +578,21 @@
               "POINT (-8.369872 53.834331)" .
 
 <http://www.i3mainz.de/ogham#COBRANORA%3F>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#VEQREQ>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#GLUNLEGGET> .
 
 <http://www.i3mainz.de/ogham#GOSSUCTTIAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????????" .
 
 <http://www.i3mainz.de/ogham#Maynooth%0A++++++++++++++++++++++++++++Monographs_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -464,10 +607,14 @@
       a       owl:ObjectProperty .
 
 <http://www.i3mainz.de/ogham#BROINIONAS%3F>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#CURCITTI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#West%0A++++++++++++++++++++++++++++++++Cork_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -475,22 +622,30 @@
               "POINT (-6.254558 53.340408)" .
 
 <http://www.i3mainz.de/ogham#DEAGOS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#ERCAVICCAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#GRAVICAS>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#GRAVICAS> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DOVVINIAS> ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#GRAVICAS> .
 
 <http://www.i3mainz.de/ogham#ULCCAGNI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A+++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -503,44 +658,66 @@
 
 <http://www.i3mainz.de/ogham#SUVALLOS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DUCOVAROS> .
 
 <http://www.i3mainz.de/ogham#DERCMASOC>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#CORB>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" .
 
 <http://www.i3mainz.de/ogham#OLACON>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#QENILOCI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MAQI-AINIA> .
 
 <http://www.i3mainz.de/ogham#TAN...>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???" .
 
 <http://www.i3mainz.de/ogham#TRENU>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#QRITTI> .
 
 <http://www.i3mainz.de/ogham#MINERC%3F>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#CATTUBUTTAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q178561> .
 
 <http://www.i3mainz.de/ogham#VIRAGNI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#DOVINIA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#Mid+Cork>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -561,7 +738,9 @@
               <http://www.i3mainz.de/ogham#DERCMASOC> , <http://www.i3mainz.de/ogham#CATTABBOTT> , <http://www.i3mainz.de/ogham#NETA-CARI> , <http://www.i3mainz.de/ogham#MAQI-DECEDAS> , <http://www.i3mainz.de/ogham#NETTAVROICC> , <http://www.i3mainz.de/ogham#TRENALUGGO%3F> , <http://www.i3mainz.de/ogham#SEDANI> , <http://www.i3mainz.de/ogham#NETA-CAGI> , <http://www.i3mainz.de/ogham#MARIN> .
 
 <http://www.i3mainz.de/ogham#DEGLANN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer+Text-und%0A++++++++++++++++++++++++++++++++Sprachmateriale.+Ogam-Inschriften%3A+Bilderverzeichnis+%28picture+catalogue%29._geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -569,43 +748,61 @@
               "POINT (-6.254558 53.340408)" , "POINT (-9.725848 52.169079)" , "POINT (-10.121919 51.764123)" , "POINT (-10.473639 52.110137)" , "POINT (-10.306267 52.126711)" , "POINT (-9.944582 51.712874)" , "POINT (-8.606904 52.078037)" .
 
 <http://www.i3mainz.de/ogham#NE%3FTTVRECC>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <https://www.wikidata.org/wiki/Q178561>
       a       owl:Class ;
       rdfs:label "Battle"@en .
 
 <http://www.i3mainz.de/ogham#LUBBIAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#MAQI-INI...>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS> .
 
 <http://www.i3mainz.de/ogham#CORBBI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DOVVINIA> .
 
 <http://www.i3mainz.de/ogham#CORBI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#LABRID> .
 
 <http://www.i3mainz.de/ogham#VOTI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" .
 
 <http://www.i3mainz.de/ogham#DOMANEQI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#CUNACENA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> .
 
 <http://www.i3mainz.de/ogham#LLATIGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MINERC%3F> .
 
@@ -626,7 +823,9 @@
               <http://www.i3mainz.de/ogham#DOLIGENN> , <http://www.i3mainz.de/ogham#VURUDDRANN> .
 
 <http://www.i3mainz.de/ogham#BATTIGNI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -641,19 +840,27 @@
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#DERCMASOC> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#CATTABBOTT> .
 
 <http://www.i3mainz.de/ogham#CALUNOVICA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#LITENI> .
 
 <http://www.i3mainz.de/ogham#MAQI-DUMILEAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????????" .
 
 <http://www.i3mainz.de/ogham#CUNANETAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -662,13 +869,19 @@
 <http://www.i3mainz.de/ogham#MAQI-CAIRATINI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <http://www.i3mainz.de/ogham#descendantOf>
-              <http://www.i3mainz.de/ogham#INEQAGLAS> .
+              <http://www.i3mainz.de/ogham#INEQAGLAS> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????????" .
 
 <http://www.i3mainz.de/ogham#VORTIGURN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#COLLABOT>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#LOBACCONA> ;
       <https://www.wikidata.org/wiki/Property:P463>
@@ -684,13 +897,19 @@
               <http://www.i3mainz.de/ogham#SENAQ> , <http://www.i3mainz.de/ogham#ENA> , <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F> , <http://www.i3mainz.de/ogham#VEDELMETO> .
 
 <http://www.i3mainz.de/ogham#VEDABAR>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#MOINENA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#OLACON> .
 
@@ -705,6 +924,8 @@
 
 <http://www.i3mainz.de/ogham#NETTA-LAMINACCA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DOVINIAS> .
 
@@ -719,20 +940,28 @@
               "POINT (-6.53639 52.995927)" , "POINT (-6.613903 52.944176)" .
 
 <http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????????" .
 
 <http://www.i3mainz.de/ogham#CATTUVIR>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q178561> .
 
 <http://www.i3mainz.de/ogham#B%5BAID%5DAGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#ADDILONA> .
 
 <http://www.i3mainz.de/ogham#MAQI-TTAL>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#VORGOS> ;
       <https://www.wikidata.org/wiki/Property:P463>
@@ -741,13 +970,19 @@
 <http://www.i3mainz.de/ogham#MEDALO>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
-              <http://www.i3mainz.de/ogham#DENAVECA> .
+              <http://www.i3mainz.de/ogham#DENAVECA> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#SRUSA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <http://www.i3mainz.de/ogham#RODDOS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#+%28ed.+T.+Nyberg+et+al.%29_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -755,10 +990,14 @@
               "POINT (-6.254558 53.340408)" .
 
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#IVACATTOS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#JCHAS>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -779,10 +1018,14 @@
               <http://www.i3mainz.de/ogham#BATTIGNI> , <http://www.i3mainz.de/ogham#ALATTO> .
 
 <http://www.i3mainz.de/ogham#ENA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???" .
 
 <http://www.i3mainz.de/ogham#LUGUDECAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -791,7 +1034,9 @@
 <http://www.i3mainz.de/ogham#GLUNLEGGET>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
-              <http://www.i3mainz.de/ogham#VEQREQ> .
+              <http://www.i3mainz.de/ogham#VEQREQ> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#Mid+Cork_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -801,20 +1046,28 @@
 <http://www.i3mainz.de/ogham#BROENIONAS%3F>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
-              <http://www.i3mainz.de/ogham#QECCIAS%3F> .
+              <http://www.i3mainz.de/ogham#QECCIAS%3F> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#NETA-SEGAMONAS>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
-              <http://www.i3mainz.de/ogham#...ERATI> .
+              <http://www.i3mainz.de/ogham#...ERATI> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????????" .
 
 <http://www.i3mainz.de/ogham#MAILE-INBIR>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#BROCANN> .
 
 <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#Maynooth+Monographs>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -826,23 +1079,33 @@
               <http://www.i3mainz.de/ogham#LABRID> , <http://www.i3mainz.de/ogham#RETAGIN> , <http://www.i3mainz.de/ogham#TALAGNI> , <http://www.i3mainz.de/ogham#MAQI-CORABIR> , <http://www.i3mainz.de/ogham#RONANN> , <http://www.i3mainz.de/ogham#CURCI> , <http://www.i3mainz.de/ogham#CORBI> , <http://www.i3mainz.de/ogham#ERCAVICCAS> , <http://www.i3mainz.de/ogham#TAN...> , <http://www.i3mainz.de/ogham#NETA-SALAGIA%3F> , <http://www.i3mainz.de/ogham#COMOGANN> .
 
 <http://www.i3mainz.de/ogham#BIRRAC>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#NILI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" .
 
 <http://www.i3mainz.de/ogham#EQQEGGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MAQI-CAIRATINI> .
 
 <http://www.i3mainz.de/ogham#MAQI-ESEA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DOMANEQI> .
 
 <http://www.i3mainz.de/ogham#SILLANN>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#VATTILLOGG> .
 
@@ -853,22 +1116,32 @@
 
 <http://www.i3mainz.de/ogham#VRAICCI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MEDVVI> .
 
 <http://www.i3mainz.de/ogham#DENAVECA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#MEDALO> .
 
 <http://www.i3mainz.de/ogham#DUCOVAROS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#MAKINI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <http://www.i3mainz.de/ogham#GLASICONAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian%0A++++++++++++++++++++++++++++++++Ecclesiastical+Settlement+in+Ireland+5th+to+12th+Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -879,6 +1152,8 @@
 
 <http://www.i3mainz.de/ogham#DALAGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DALI> .
 
@@ -890,7 +1165,9 @@
               "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CW003-023----" .
 
 <http://www.i3mainz.de/ogham#AMMLLONGITT%3F>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????????" .
 
 <http://www.i3mainz.de/ogham#Die+Sprache+der+altirischen%0A++++++++++++++++++++++++++++Ogam-Inschriften_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -903,11 +1180,15 @@
 
 <http://www.i3mainz.de/ogham#MONGEDIAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MUIBITI> .
 
 <http://www.i3mainz.de/ogham#CATTINI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <https://www.wikidata.org/wiki/Q18498>
       a       owl:Class ;
@@ -919,10 +1200,14 @@
               "POINT (-9.745808 52.073955)" .
 
 <http://www.i3mainz.de/ogham#IAQINI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <http://www.i3mainz.de/ogham#VINNAGITLET%3F>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????????" .
 
 <http://www.i3mainz.de/ogham#Old+Waterford+Society%2C+Decies_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -931,6 +1216,8 @@
 
 <http://www.i3mainz.de/ogham#BIR>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#ROTTAIS> .
 
@@ -944,61 +1231,87 @@
               <http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F> .
 
 <http://www.i3mainz.de/ogham#TEGANN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <https://www.wikidata.org/wiki/Property:P22>
       a       owl:ObjectProperty ;
       rdfs:label "father"@en .
 
 <http://www.i3mainz.de/ogham#COLMAN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#ROTTAIS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#LLOTETI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <http://www.i3mainz.de/ogham#descendantOf>
-              <http://www.i3mainz.de/ogham#SRUSA> .
+              <http://www.i3mainz.de/ogham#SRUSA> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#MAQI-DECEDAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#TURANIAS> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#GLASICONAS> , <http://www.i3mainz.de/ogham#MARIN> .
 
 <http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#TALAGNI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#NETTAVROICC>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#TRENALUGGO%3F> .
 
 <http://www.i3mainz.de/ogham#NOCATI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MAQI-RET%2FC...> ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#UDDAMI> .
 
 <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#DEGOS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#TOICACI> .
 
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#nd+Sprachmateriale.+TITUS+OGAMICA._geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -1011,22 +1324,30 @@
               "POINT (-6.760951 53.028323)" , "POINT (-6.254558 53.340408)" .
 
 <http://www.i3mainz.de/ogham#GALEOTOS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#CEDATTOQA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#VEDELMETO> .
 
 <http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#BIRRAC> .
 
 <http://www.i3mainz.de/ogham#MACORBO>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
-              <http://www.i3mainz.de/ogham#GATI> .
+              <http://www.i3mainz.de/ogham#GATI> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -1037,14 +1358,20 @@
 
 <http://www.i3mainz.de/ogham#COIMAGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#VITALIN> .
 
 <http://www.i3mainz.de/ogham#MAQI-AINIA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#LUGUQRIT>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -1052,19 +1379,27 @@
 
 <http://www.i3mainz.de/ogham#BIGU>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#LAG%5B...> .
 
 <http://www.i3mainz.de/ogham#DUGENNGI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#RODDOS> .
 
 <http://www.i3mainz.de/ogham#DOVINIAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#CCICAMINI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#CATTINI> .
 
@@ -1078,11 +1413,15 @@
 
 <http://www.i3mainz.de/ogham#TRENALUGGO%3F>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> .
 
 <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -1090,25 +1429,35 @@
               "POINT (-6.760801 53.028514)" .
 
 <http://www.i3mainz.de/ogham#VORGOS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#MAQI-RITEAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MAQI-DUMILEAS> ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#TOICACI> .
 
 <http://www.i3mainz.de/ogham#CATTABBOTT>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#CORBAGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#COROTANI> .
 
 <http://www.i3mainz.de/ogham#BROCANN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer%0A++++++++++++++++++++++++++++++++Text-und+Sprachmateriale.+TITUS+OGAMICA.>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -1120,28 +1469,38 @@
               <http://www.i3mainz.de/ogham#VRAICCI> , <http://www.i3mainz.de/ogham#CORRBRI> , <http://www.i3mainz.de/ogham#AMMLLONGITT%3F> , <http://www.i3mainz.de/ogham#MEDVVI> , <http://www.i3mainz.de/ogham#CUNOVATOS> .
 
 <http://www.i3mainz.de/ogham#VORRTIGURN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????????" .
 
 <http://www.i3mainz.de/ogham#MAILAGNI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#CUNALEGEA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <http://www.i3mainz.de/ogham#follows>
               <http://www.i3mainz.de/ogham#QVECI> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#C%5B....%5DSALAR> .
 
 <http://www.i3mainz.de/ogham#C%5B....%5DSALAR>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#hasMember>
       a       owl:ObjectProperty .
 
 <http://www.i3mainz.de/ogham#DOVVINIAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????????" .
 
 <http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++++++Centuries_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -1149,7 +1508,9 @@
               "POINT (-7.881039 52.148923)" , "POINT (-6.254558 53.340408)" , "POINT (-7.46537 52.163318)" , "POINT (-7.684968 52.194711)" , "POINT (-7.129917 52.579293)" , "POINT (-7.064559 52.628962)" , "POINT (-7.847708 52.074382)" , "POINT (-10.243303 52.127798)" , "POINT (-7.847713 52.074413)" , "POINT (-7.684809 52.194724)" , "POINT (-7.685057 52.194773)" , "POINT (-7.481665 52.113809)" , "POINT (-7.684857 52.194802)" , "POINT (-7.725916 51.9488)" , "POINT (-7.130026 52.57928)" , "POINT (-7.685104 52.194752)" .
 
 <http://www.i3mainz.de/ogham#NETA-CARI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Carlow>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -1166,13 +1527,19 @@
               "POINT (-9.721501 52.333343)" .
 
 <http://www.i3mainz.de/ogham#DOVVINIA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#AGILL...>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <http://www.i3mainz.de/ogham#LUGADDON>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -1182,11 +1549,15 @@
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#MEDUSI> , <http://www.i3mainz.de/ogham#COLLABOT> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> .
 
 <http://www.i3mainz.de/ogham#RETAGIN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#East+and+South+%0A++++++++++++++++++++++++++++++++Cork_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -1194,7 +1565,9 @@
               "POINT (-6.254558 53.340408)" .
 
 <http://www.i3mainz.de/ogham#INEQAGLAS>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#+++++++++++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -1205,17 +1578,25 @@
 
 <http://www.i3mainz.de/ogham#DUMELI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#GLASICONAS> .
 
 <http://www.i3mainz.de/ogham#DOLIGENN>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????????" .
 
 <http://www.i3mainz.de/ogham#MUIBITI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#MEDVVI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#._geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -1223,10 +1604,14 @@
               "POINT (-6.254558 53.340408)" , "POINT (-9.634923 52.06042)" , "POINT (-10.407357 52.158683)" , "POINT (-10.216217 52.131625)" , "POINT (-8.606844 52.077595)" , "POINT (-10.306267 52.126711)" , "POINT (-7.293729 53.299464)" , "POINT (-6.613237 53.021622)" .
 
 <http://www.i3mainz.de/ogham#MAQI-RET%2FC...>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "???????" .
 
 <http://www.i3mainz.de/ogham#DOVETI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#CATTINI> .
 
@@ -1238,17 +1623,23 @@
 <http://www.i3mainz.de/ogham#ATAR>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
       <http://www.i3mainz.de/ogham#hasMember>
-              <http://www.i3mainz.de/ogham#BIVAIDONAS> .
+              <http://www.i3mainz.de/ogham#BIVAIDONAS> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "????" .
 
 <http://www.i3mainz.de/ogham#CURCI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "?????" .
 
 <https://www.wikidata.org/wiki/Property:P6568>
       a       owl:ObjectProperty ;
       rdfs:label "inscriptionmentions"@en , "relative"@en .
 
 <http://www.i3mainz.de/ogham#ODR...REA>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#nameInOgham>
+              "??????" .
 
 <http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++++++Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;

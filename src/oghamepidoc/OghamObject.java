@@ -71,6 +71,7 @@ public class OghamObject {
 		partofTribe.addLabel("member of","en");
 		DatatypeProperty image=model.createDatatypeProperty("https://www.wikidata.org/wiki/Property:P18");
 		image.addLabel("image","en");
+		DatatypeProperty oghamname=model.createDatatypeProperty(BASEURI+"nameInOgham");
 		for(String perss:persons) {
 			Individual persson=person.createIndividual(BASEURI+URLEncoder.encode(perss));
 			if(perss.contains("CUNA")) {
@@ -80,6 +81,7 @@ public class OghamObject {
 			}else if(perss.contains("LUG")) {
 				persson.addProperty(nameRelatesTo, godlugh);
 			}
+			persson.addProperty(oghamname, OghamUtils.translitToUnicode(perss));
 			curind.addProperty(inscriptionmentions, persson);
 		}
 		for(Tuple<String,String> sonof:sonOfSet) {
