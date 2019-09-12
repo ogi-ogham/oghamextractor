@@ -55,12 +55,22 @@ public class OghamObject {
 		OntClass tribe=model.createClass("https://www.wikidata.org/wiki/Q3538737");
 		OntClass wolf=model.createClass("https://www.wikidata.org/wiki/Q18498");
 		wolf.addLabel("Wolf","en");
-        OntClass cow=model.createClass("https://www.wikidata.org/wiki/Q67382360");
+        OntClass cuna=model.createClass("https://www.wikidata.org/wiki/Q67382235");
+		cuna.addLabel("CUNA","en");
+        OntClass cow=model.createClass("https://www.wikidata.org/wiki/Q830");
 		cow.addLabel("Cow","en");
+        OntClass heaven=model.createClass("https://www.wikidata.org/wiki/Q527");
+		heaven.addLabel("Heaven","en");
+        OntClass erc=model.createClass("https://www.wikidata.org/wiki/Q67382360");
+		erc.addLabel("ERC","en");
 		OntClass battle=model.createClass("https://www.wikidata.org/wiki/Q178561");
 		battle.addLabel("Battle","en");
+        OntClass cattu=model.createClass("https://www.wikidata.org/wiki/Q67383338");
+		cattu.addLabel("CATTU","en");
 		OntClass godlugh=model.createClass("https://www.wikidata.org/wiki/Q215683");
 		godlugh.addLabel("God Lugh","en");
+        OntClass lug=model.createClass("https://www.wikidata.org/wiki/Q67383482");
+		lug.addLabel("God Lugh","en");
 		tribe.addLabel("Tribe","en");
 		feature.addSuperClass(spatialobject);
 		oghamobj.addSuperClass(feature);
@@ -86,6 +96,7 @@ public class OghamObject {
 		ObjectProperty follows=model.createObjectProperty(BASEURI+"follows");
 		ObjectProperty descendantOf=model.createObjectProperty(BASEURI+"descendantOf");
 		ObjectProperty nameRelatesTo=model.createObjectProperty(BASEURI+"nameRelatesTo");
+        ObjectProperty definedInWikidata=model.createObjectProperty(BASEURI+"definedInWikidata");
 		ObjectProperty partofTribe=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P463");
 		partofTribe.addLabel("member of","en");
 		DatatypeProperty image=model.createDatatypeProperty("https://www.wikidata.org/wiki/Property:P18");
@@ -113,12 +124,17 @@ public class OghamObject {
 			Individual personsense=person.createIndividual(BASEURI+URLEncoder.encode(perss)+"_person");
 			if(perss.contains("CUNA")) {
 				personsense.addProperty(nameRelatesTo, wolf);
+                personsense.addProperty(definedInWikidata, cuna);
 			}else if(perss.contains("CATTU")) {
 				personsense.addProperty(nameRelatesTo, battle);
+                personsense.addProperty(definedInWikidata, cattu);
 			}else if(perss.contains("LUG")) {
 				personsense.addProperty(nameRelatesTo, godlugh);
+                personsense.addProperty(definedInWikidata, lug);
 			} else if(perss.contains("ERC")) {
-				personsense.addProperty(nameRelatesTo, cow);
+				personsense.addProperty(nameRelatesTo, heaven);
+                personsense.addProperty(nameRelatesTo, cow);
+                personsense.addProperty(definedInWikidata, erc);
 			}
 			Individual lexsense=lexicalSense.createIndividual(BASEURI+URLEncoder.encode(perss)+"_sense");
 			persson.addProperty(sense, lexsense);
