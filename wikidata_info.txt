@@ -6,8 +6,9 @@ general
 
 Ogham	https://www.wikidata.org/wiki/Q184661
 Ogham Letter	https://www.wikidata.org/wiki/Q41812345
-ogham formular word	https://www.wikidata.org/wiki/Q67381377
-ogham nomenclature word 	https://www.wikidata.org/wiki/Q67382150
+Ogham Word https://www.wikidata.org/wiki/Q67384733
+Ogham formular word	https://www.wikidata.org/wiki/Q67381377
+Ogham nomenclature word 	https://www.wikidata.org/wiki/Q67382150
 
 formular words
 --------------
