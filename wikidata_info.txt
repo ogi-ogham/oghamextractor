@@ -16,6 +16,8 @@ MAQI	https://www.wikidata.org/wiki/Q67381254
 nomenclature
 ------------
 CUNA	https://www.wikidata.org/wiki/Q67382235
+CATTU	https://www.wikidata.org/wiki/Q67383338
+LUG	https://www.wikidata.org/wiki/Q67383482
 ERC	https://www.wikidata.org/wiki/Q67382360
 
 Alphabet
