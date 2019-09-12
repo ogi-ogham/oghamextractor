@@ -45,6 +45,7 @@ public class OghamObject {
 		System.out.println(title);
 		OntClass oghamobj=model.createClass(BASEURI+"OghamObject");
 		OntClass dictionary=model.createClass("http://lemon-model.net/lemon#Lexicon");
+		OntClass lexicalSense=model.createClass("http://lemon-model.net/lemon#LexicalSense");
 		OntClass word=model.createClass("http://lemon-model.net/lemon#Word");
 		OntClass person=model.createClass("http://xmlns.com/foaf/0.1/Person");
 		OntClass geometry=model.createClass("http://www.opengis.net/ont/geosparql#Geometry");
@@ -75,6 +76,8 @@ public class OghamObject {
 		ObjectProperty relative=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P1038");
 		inscriptionmentions.addLabel("relative","en");
 		ObjectProperty entry=model.createObjectProperty("http://lemon-model.net/lemon#entry");
+		ObjectProperty sense=model.createObjectProperty("http://lemon-model.net/lemon#sense");
+		ObjectProperty reference=model.createObjectProperty("http://lemon-model.net/lemon#reference");
 		ObjectProperty hasMember=model.createObjectProperty(BASEURI+"hasMember");
 		ObjectProperty follows=model.createObjectProperty(BASEURI+"follows");
 		ObjectProperty descendantOf=model.createObjectProperty(BASEURI+"descendantOf");
@@ -93,25 +96,30 @@ public class OghamObject {
 			oghamdict.addProperty(entry, wordd);
 		}
 		for(String perss:persons) {
-			Individual persson=person.createIndividual(BASEURI+URLEncoder.encode(perss));
+			Individual persson=word.createIndividual(BASEURI+URLEncoder.encode(perss));
+			Individual personsense=person.createIndividual(BASEURI+URLEncoder.encode(perss)+"_person");
 			if(perss.contains("CUNA")) {
-				persson.addProperty(nameRelatesTo, wolf);
+				personsense.addProperty(nameRelatesTo, wolf);
 			}else if(perss.contains("CATTU")) {
-				persson.addProperty(nameRelatesTo, battle);
+				personsense.addProperty(nameRelatesTo, battle);
 			}else if(perss.contains("LUG")) {
-				persson.addProperty(nameRelatesTo, godlugh);
+				personsense.addProperty(nameRelatesTo, godlugh);
 			}
+			Individual lexsense=lexicalSense.createIndividual(BASEURI+URLEncoder.encode(perss)+"_sense");
+			persson.addProperty(sense, lexsense);
+
+			lexsense.addProperty(reference, personsense);
 			curind.addProperty(inscriptionmentions, persson);
 		}
 		for(Tuple<String,String> sonof:sonOfSet) {
-			Individual son=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getOne()));
-			Individual father=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getTwo()));
+			Individual son=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getOne())+"_person");
+			Individual father=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getTwo())+"_person");
 			son.addProperty(fatherrel, father);
 			curind.addProperty(inscriptionmentions, son);
 			curind.addProperty(inscriptionmentions, father);
 		}	
 		for(Tuple<String,String> partof:tribePartOfSet) {
-			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne()));
+			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne())+"_person");
 			Individual tribee=tribe.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo()));
 			pers.addProperty(partofTribe, tribee);
 			tribee.addProperty(hasMember, pers);
@@ -119,23 +127,23 @@ public class OghamObject {
 			curind.addProperty(inscriptionmentions, tribee);
 		}
 		for(Tuple<String,String> partof:nephewOfSet) {
-			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne()));
-			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo()));
+			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne())+"_person");
+			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo())+"_person");
 			pers.addProperty(relative, tribee);
 			tribee.addProperty(relative, pers);
 			curind.addProperty(inscriptionmentions, pers);
 			curind.addProperty(inscriptionmentions, tribee);
 		}
 		for(Tuple<String,String> partof:followerOfSet) {
-			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne()));
-			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo()));
+			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne())+"_person");
+			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo())+"_person");
 			pers.addProperty(follows, tribee);
 			curind.addProperty(inscriptionmentions, pers);
 			curind.addProperty(inscriptionmentions, tribee);
 		}
 		for(Tuple<String,String> partof:this.descendantOfSet) {
-			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne()));
-			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo()));
+			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne())+"_person");
+			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo())+"_person");
 			pers.addProperty(descendantOf, tribee);
 			curind.addProperty(inscriptionmentions, pers);
 			curind.addProperty(inscriptionmentions, tribee);
