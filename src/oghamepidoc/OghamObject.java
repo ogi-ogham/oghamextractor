@@ -45,6 +45,12 @@ public class OghamObject {
 		OntClass spatialobject=model.createClass("http://www.opengis.net/ont/geosparql#SpatialObject");
 		OntClass feature=model.createClass("http://www.opengis.net/ont/geosparql#Feature");
 		OntClass tribe=model.createClass("https://www.wikidata.org/wiki/Q3538737");
+		OntClass wolf=model.createClass("https://www.wikidata.org/wiki/Q18498");
+		wolf.addLabel("Wolf","en");
+		OntClass battle=model.createClass("https://www.wikidata.org/wiki/Q178561");
+		battle.addLabel("Battle","en");
+		OntClass godlugh=model.createClass("https://www.wikidata.org/wiki/Q215683");
+		godlugh.addLabel("God Lugh","en");
 		tribe.addLabel("Tribe","en");
 		feature.addSuperClass(spatialobject);
 		oghamobj.addSuperClass(feature);
@@ -60,10 +66,22 @@ public class OghamObject {
 		ObjectProperty hasMember=model.createObjectProperty(BASEURI+"hasMember");
 		ObjectProperty follows=model.createObjectProperty(BASEURI+"follows");
 		ObjectProperty descendantOf=model.createObjectProperty(BASEURI+"descendantOf");
+		ObjectProperty nameRelatesTo=model.createObjectProperty(BASEURI+"nameRelatesTo");
 		ObjectProperty partofTribe=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P463");
 		partofTribe.addLabel("member of","en");
 		DatatypeProperty image=model.createDatatypeProperty("https://www.wikidata.org/wiki/Property:P18");
 		image.addLabel("image","en");
+		for(String perss:persons) {
+			Individual persson=person.createIndividual(BASEURI+URLEncoder.encode(perss));
+			if(perss.contains("CUNA")) {
+				persson.addProperty(nameRelatesTo, wolf);
+			}else if(perss.contains("CATTU")) {
+				persson.addProperty(nameRelatesTo, battle);
+			}else if(perss.contains("LUG")) {
+				persson.addProperty(nameRelatesTo, godlugh);
+			}
+			curind.addProperty(inscriptionmentions, persson);
+		}
 		for(Tuple<String,String> sonof:sonOfSet) {
 			Individual son=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getOne()));
 			Individual father=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getTwo()));
