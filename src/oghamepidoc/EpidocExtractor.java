@@ -6,6 +6,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
@@ -36,6 +38,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 	Tuple<String,String> nephewof=new Tuple<String,String>(null,null);
 	
 	Tuple<String,String> descendantof=new Tuple<String,String>(null,null);
+	
 
 	private boolean persname,photographs=true,foundnephew,founddescendant,foundfollower;
 	
@@ -64,6 +67,8 @@ public class EpidocExtractor extends DefaultHandler2 {
 			persname=true;
 			break;
 		case "w": 
+			if(attributes.getValue("lemma")!=null)
+				result.words.add(attributes.getValue("lemma"));
 			if(persname) {
 				result.persons.add(attributes.getValue("lemma"));
 				if(this.curfatherson.getOne()!=null && this.curfatherson.getTwo()==null && foundmaqi) {

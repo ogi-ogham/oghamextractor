@@ -27,6 +27,8 @@ public class OghamObject {
 	
 	public Set<String> persons=new TreeSet<String>();
 	
+	public Set<String> words=new TreeSet<String>();
+	
 	public Set<Tuple<String,String>> sonOfSet=new TreeSet<Tuple<String,String>>();
 	
 	public Set<Tuple<String,String>> followerOfSet=new TreeSet<Tuple<String,String>>();
@@ -42,6 +44,8 @@ public class OghamObject {
 	public OntModel toRDF(OntModel model) {
 		System.out.println(title);
 		OntClass oghamobj=model.createClass(BASEURI+"OghamObject");
+		OntClass dictionary=model.createClass("http://lemon-model.net/lemon#Lexicon");
+		OntClass word=model.createClass("http://lemon-model.net/lemon#Word");
 		OntClass person=model.createClass("http://xmlns.com/foaf/0.1/Person");
 		OntClass geometry=model.createClass("http://www.opengis.net/ont/geosparql#Geometry");
 		OntClass spatialobject=model.createClass("http://www.opengis.net/ont/geosparql#SpatialObject");
@@ -70,6 +74,7 @@ public class OghamObject {
 		inscriptionmentions.addLabel("inscriptionmentions","en");
 		ObjectProperty relative=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P1038");
 		inscriptionmentions.addLabel("relative","en");
+		ObjectProperty entry=model.createObjectProperty("http://lemon-model.net/lemon#entry");
 		ObjectProperty hasMember=model.createObjectProperty(BASEURI+"hasMember");
 		ObjectProperty follows=model.createObjectProperty(BASEURI+"follows");
 		ObjectProperty descendantOf=model.createObjectProperty(BASEURI+"descendantOf");
@@ -78,7 +83,15 @@ public class OghamObject {
 		partofTribe.addLabel("member of","en");
 		DatatypeProperty image=model.createDatatypeProperty("https://www.wikidata.org/wiki/Property:P18");
 		image.addLabel("image","en");
-		DatatypeProperty oghamname=model.createDatatypeProperty(BASEURI+"nameInOgham");
+		DatatypeProperty transliteration=model.createDatatypeProperty("http://lemon-model.net/lemon#transliteration");
+		DatatypeProperty script=model.createDatatypeProperty("http://lemon-model.net/lemon#writtenRep");
+		Individual oghamdict=dictionary.createIndividual(BASEURI+"OghamDictionary");
+		for(String woord:words) {
+			Individual wordd=word.createIndividual(BASEURI+URLEncoder.encode(woord));
+			wordd.addProperty(transliteration, woord);
+			wordd.addProperty(script, OghamUtils.translitToUnicode(woord));
+			oghamdict.addProperty(entry, wordd);
+		}
 		for(String perss:persons) {
 			Individual persson=person.createIndividual(BASEURI+URLEncoder.encode(perss));
 			if(perss.contains("CUNA")) {
@@ -88,7 +101,6 @@ public class OghamObject {
 			}else if(perss.contains("LUG")) {
 				persson.addProperty(nameRelatesTo, godlugh);
 			}
-			persson.addProperty(oghamname, OghamUtils.translitToUnicode(perss));
 			curind.addProperty(inscriptionmentions, persson);
 		}
 		for(Tuple<String,String> sonof:sonOfSet) {
