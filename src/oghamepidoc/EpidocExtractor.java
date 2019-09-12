@@ -129,6 +129,9 @@ public class EpidocExtractor extends DefaultHandler2 {
 			result.location=fac.createPoint(coord);
 		}else if(title) {
 			result.title=characters;
+			if(result.title.contains(".")) {
+				result.oghamid=result.title.substring(0,result.title.indexOf('.'));
+			}
 		}
 	}	
 	

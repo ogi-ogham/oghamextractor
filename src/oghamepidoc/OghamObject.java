@@ -19,6 +19,8 @@ public class OghamObject {
 	
 	public String name="";
 	
+	public String oghamid="";
+	
 	public String title="";
 	
 	public String imagelink="";
@@ -55,7 +57,12 @@ public class OghamObject {
 		feature.addSuperClass(spatialobject);
 		oghamobj.addSuperClass(feature);
 		geometry.addSuperClass(spatialobject);
-		Individual curind=oghamobj.createIndividual(BASEURI+URLEncoder.encode(title));
+		Individual curind;
+		if(!this.oghamid.isEmpty()) {
+			curind=oghamobj.createIndividual(BASEURI+URLEncoder.encode(oghamid));
+		}else {
+			curind=oghamobj.createIndividual(BASEURI+URLEncoder.encode(title));
+		}
 		ObjectProperty hasgeom=model.createObjectProperty("http://www.opengis.net/ont/geosparql#hasGeometry");
 		ObjectProperty fatherrel=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P22");
 		fatherrel.setLabel("father", "en");
