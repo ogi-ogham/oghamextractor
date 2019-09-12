@@ -54,6 +54,12 @@ public class OghamObject {
 		OntClass feature=model.createClass("http://www.opengis.net/ont/geosparql#Feature");
 		OntClass tribe=model.createClass("https://www.wikidata.org/wiki/Q3538737");
 		OntClass wolf=model.createClass("https://www.wikidata.org/wiki/Q18498");
+		OntClass oghamletter=model.createClass("https://www.wikidata.org/wiki/Q41812345");
+		oghamletter.addLabel("Ogham Letter","en");
+		OntClass nomenclature=model.createClass("https://www.wikidata.org/wiki/Q67382150");
+		nomenclature.addLabel("Nomenclature Word","en");
+		OntClass formular=model.createClass("https://www.wikidata.org/wiki/Q67381377");
+		formular.addLabel("Formular Word","en");
 		wolf.addLabel("Wolf","en");
         OntClass cuna=model.createClass("https://www.wikidata.org/wiki/Q67382235");
 		cuna.addLabel("CUNA","en");
@@ -106,10 +112,17 @@ public class OghamObject {
 		Individual oghamdict=dictionary.createIndividual(BASEURI+"OghamDictionary");
 		for(String woord:words) {
 			Individual wordd=word.createIndividual(BASEURI+URLEncoder.encode(woord));
+			if(OghamUtils.nomenclature.contains(woord)) {
+				wordd.addRDFType(nomenclature);
+			}
+			if(OghamUtils.formular.contains(woord)) {
+				wordd.addRDFType(formular);
+			}
 			for(int i=0;i<woord.length();i++) {
 				String curstr=woord.charAt(i)+"";
 				if(OghamUtils.oghammap.containsKey(curstr.toLowerCase())) {
 					Individual chara=character.createIndividual(BASEURI+OghamUtils.oghammap.get(curstr.toLowerCase())+"_character");
+					chara.addRDFType(oghamletter);
 					wordd.addProperty(contains, chara);
 					chara.addProperty(transliteration, curstr.toUpperCase());
 					chara.addProperty(script, OghamUtils.oghammap.get(curstr.toLowerCase()));

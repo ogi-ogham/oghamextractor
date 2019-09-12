@@ -255,7 +255,7 @@
       a       owl:Class .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "E" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -674,7 +674,7 @@
               "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-053----" .
 
 <http://www.i3mainz.de/ogham#MAQI>
-      a       <http://lemon-model.net/lemon#Word> ;
+      a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q67381377> ;
       <http://lemon-model.net/lemon#contains>
               <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -763,6 +763,10 @@
 
 <http://www.i3mainz.de/ogham#NETA-CARI_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
+
+<https://www.wikidata.org/wiki/Q41812345>
+      a       owl:Class ;
+      rdfs:label "Ogham Letter"@en .
 
 <http://www.i3mainz.de/ogham#VITALIN_sense>
       a       <http://lemon-model.net/lemon#LexicalSense> ;
@@ -982,7 +986,7 @@
               <http://www.i3mainz.de/ogham#OLACON_person> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "G" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -1006,7 +1010,7 @@
               <http://www.i3mainz.de/ogham#CATTUVIR> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "L" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -1493,7 +1497,7 @@
               <http://www.i3mainz.de/ogham#VIRAGNI> , <http://www.i3mainz.de/ogham#CUNAGUSOS_person> , <http://www.i3mainz.de/ogham#VIRAGNI_person> , <http://www.i3mainz.de/ogham#CUNAGUSOS> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "V" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -1654,7 +1658,7 @@
               <http://www.i3mainz.de/ogham#ENA_person> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "C" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -1738,7 +1742,7 @@
               <http://www.i3mainz.de/ogham#MAQI-RITEAS_person> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "M" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -2051,7 +2055,7 @@
               <http://www.i3mainz.de/ogham#MAQI-CORABIR_person> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "R" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -2107,7 +2111,7 @@
               "???" .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "U" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -2359,6 +2363,10 @@
       a       <http://lemon-model.net/lemon#LexicalSense> ;
       <http://lemon-model.net/lemon#reference>
               <http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_person> .
+
+<https://www.wikidata.org/wiki/Q67381377>
+      a       owl:Class ;
+      rdfs:label "Formular Word"@en .
 
 <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -2640,7 +2648,7 @@
               <http://www.i3mainz.de/ogham#CORRBRI_person> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "H" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -2845,7 +2853,7 @@
               "?????" .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "B" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -3252,7 +3260,7 @@
               "POINT (-10.137728 52.13606)" , "POINT (-8.494544 51.896371)" , "POINT (-9.725848 52.169079)" , "POINT (-9.782728 52.328817)" , "POINT (-10.388106 52.178511)" , "POINT (-10.196619 52.126261)" , "POINT (-9.642423 52.275865)" , "POINT (-6.256657 53.343981)" , "POINT (-10.336582 52.184757)" , "POINT (-10.358471 52.143726)" , "POINT (-9.634923 52.06042)" , "POINT (-6.254558 53.340408)" , "POINT (-9.781661 52.328526)" , "POINT (-9.554356 52.076795)" , "POINT (-9.514446 52.614625)" , "POINT (-10.306267 52.126711)" , "POINT (-10.243303 52.127798)" , "POINT (-10.196581 52.126196)" , "POINT (-10.306496 52.157768)" , "POINT (-10.030458 52.181881)" , "POINT (-9.681883 52.267049)" , "POINT (-7.725908 51.948852)" , "POINT (-10.183738 51.888405)" , "POINT (-10.331399 52.154449)" , "POINT (-9.745808 52.073955)" .
 
 <http://www.i3mainz.de/ogham#ERC>
-      a       <http://lemon-model.net/lemon#Word> ;
+      a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q67382150> ;
       <http://lemon-model.net/lemon#contains>
               <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> , <http://www.i3mainz.de/ogham#?_character> ;
       <http://lemon-model.net/lemon#sense>
@@ -3606,7 +3614,7 @@
               "???" .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "D" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -3755,7 +3763,7 @@
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "N" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -3874,6 +3882,10 @@
               "COLLABOT" ;
       <http://lemon-model.net/lemon#writtenRep>
               "????????" .
+
+<https://www.wikidata.org/wiki/Q67382150>
+      a       owl:Class ;
+      rdfs:label "Nomenclature Word"@en .
 
 <http://www.i3mainz.de/ogham#AILITHIR_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
@@ -4265,7 +4277,7 @@
               "???????" .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "O" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -4332,7 +4344,7 @@
       rdfs:label "Wolf"@en .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "A" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -4537,7 +4549,7 @@
               <http://www.i3mainz.de/ogham#GATI_person> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "T" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -4739,7 +4751,7 @@
               <http://www.i3mainz.de/ogham#LOBACCONA_person> .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "I" ;
       <http://lemon-model.net/lemon#writtenRep>
@@ -4770,7 +4782,7 @@
               "????????" .
 
 <http://www.i3mainz.de/ogham#?_character>
-      a       <http://lemon-model.net/lemon#Character> ;
+      a       <https://www.wikidata.org/wiki/Q41812345> , <http://lemon-model.net/lemon#Character> ;
       <http://lemon-model.net/lemon#transliteration>
               "S" ;
       <http://lemon-model.net/lemon#writtenRep>
