@@ -52,8 +52,9 @@ public class OghamObject {
 		OntClass geometry=model.createClass("http://www.opengis.net/ont/geosparql#Geometry");
 		OntClass spatialobject=model.createClass("http://www.opengis.net/ont/geosparql#SpatialObject");
 		OntClass feature=model.createClass("http://www.opengis.net/ont/geosparql#Feature");
+        OntClass maqi=model.createClass("https://www.wikidata.org/wiki/Q67381254");
+		maqi.addLabel("MAQI","en");
 		OntClass tribe=model.createClass("https://www.wikidata.org/wiki/Q3538737");
-		OntClass wolf=model.createClass("https://www.wikidata.org/wiki/Q18498");
 		OntClass oghamletter=model.createClass("https://www.wikidata.org/wiki/Q41812345");
 		oghamletter.addLabel("Ogham Letter","en");
         OntClass oghamword=model.createClass("https://www.wikidata.org/wiki/Q67384733");
@@ -62,7 +63,8 @@ public class OghamObject {
 		nomenclature.addLabel("Nomenclature Word","en");
 		OntClass formular=model.createClass("https://www.wikidata.org/wiki/Q67381377");
 		formular.addLabel("Formular Word","en");
-		wolf.addLabel("Wolf","en");
+		OntClass wolf=model.createClass("https://www.wikidata.org/wiki/Q18498");
+        wolf.addLabel("Wolf","en");
         OntClass cuna=model.createClass("https://www.wikidata.org/wiki/Q67382235");
 		cuna.addLabel("CUNA","en");
         OntClass cow=model.createClass("https://www.wikidata.org/wiki/Q830");
