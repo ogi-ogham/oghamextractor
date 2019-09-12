@@ -1,0 +1,18 @@
+Wikidata Ogham
+==============
+
+general
+-------
+
+Ogham	https://www.wikidata.org/wiki/Q184661
+Ogham Letter	https://www.wikidata.org/wiki/Q41812345
+ogham formular word	https://www.wikidata.org/wiki/Q67381377
+
+formular words
+--------------
+MAQI	https://www.wikidata.org/wiki/Q67381254
+
+Alphabet
+--------
+
+Beith	https://www.wikidata.org/wiki/Q4881483
