@@ -31,7 +31,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 	
 	Tuple<String,String> partoftribe=new Tuple<String,String>(null,null);
 
-	private boolean persname;
+	private boolean persname,photographs=true;
 	
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
@@ -43,6 +43,16 @@ public class EpidocExtractor extends DefaultHandler2 {
 			break;
 		case "title": 
 			title=true;
+			break;
+		case "ref": 
+			if(photographs) {
+				result.imagelink=attributes.getValue("target");
+			}
+			break;
+		case "div": 
+			if(attributes.getValue("n")!=null && attributes.getValue("n").equals("photographs")) {
+				photographs=true;
+			}
 			break;
 		case "persName": 
 			persname=true;
@@ -97,6 +107,8 @@ public class EpidocExtractor extends DefaultHandler2 {
 		case "geo": this.geo=false;
 			break;
 		case "title": this.title=false;
+			break;
+		case "div": this.photographs=false;
 			break;
 		case "persName": this.persname=false;
 			break;

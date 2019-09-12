@@ -21,6 +21,8 @@ public class OghamObject {
 	
 	public String title="";
 	
+	public String imagelink="";
+	
 	public Set<String> persons=new TreeSet<String>();
 	
 	public Set<Tuple<String,String>> sonOfSet=new TreeSet<Tuple<String,String>>();
@@ -50,6 +52,8 @@ public class OghamObject {
 		ObjectProperty hasMember=model.createObjectProperty(BASEURI+"hasMember");
 		ObjectProperty partofTribe=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P463");
 		partofTribe.addLabel("member of","en");
+		DatatypeProperty image=model.createDatatypeProperty("https://www.wikidata.org/wiki/Property:P18");
+		image.addLabel("image","en");
 		for(Tuple<String,String> sonof:sonOfSet) {
 			Individual son=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getOne()));
 			Individual father=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getTwo()));
@@ -67,6 +71,7 @@ public class OghamObject {
 		DatatypeProperty asWKT=model.createDatatypeProperty("http://www.opengis.net/ont/geosparql#asWKT");
 		Individual geomind=geometry.createIndividual(BASEURI+URLEncoder.encode(title)+"_geom");
 		curind.addProperty(hasgeom, geomind);
+		curind.addProperty(image, imagelink);
 		geomind.addLiteral(asWKT, location.toText());
     	return model;
 	}
@@ -78,6 +83,7 @@ public class OghamObject {
     	JSONObject properties=new JSONObject();
     	properties.put("name", name);
     	properties.put("title", name);
+    	properties.put("image", imagelink);
     	JSONArray pers=new JSONArray();
     	for(String person:this.persons) {
     		pers.put(person);
