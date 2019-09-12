@@ -30,8 +30,14 @@ public class EpidocExtractor extends DefaultHandler2 {
 	Tuple<String,String> curfatherson=new Tuple<String,String>(null,null);
 	
 	Tuple<String,String> partoftribe=new Tuple<String,String>(null,null);
+	
+	Tuple<String,String> followerof=new Tuple<String,String>(null,null);
+	
+	Tuple<String,String> nephewof=new Tuple<String,String>(null,null);
+	
+	Tuple<String,String> descendantof=new Tuple<String,String>(null,null);
 
-	private boolean persname,photographs=true;
+	private boolean persname,photographs=true,foundnephew,founddescendant,foundfollower;
 	
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
@@ -70,9 +76,27 @@ public class EpidocExtractor extends DefaultHandler2 {
 					this.result.tribePartOfSet.add(this.partoftribe);
 					this.partoftribe=new Tuple<String,String>(null,null);
 					foundmucoi=false;
+				}else if(attributes.getValue("lemma")!=null && this.partoftribe.getOne()!=null && this.partoftribe.getTwo()==null && foundfollower){
+					this.followerof.setTwo(attributes.getValue("lemma"));
+					this.result.followerOfSet.add(this.followerof);
+					this.followerof=new Tuple<String,String>(null,null);
+					foundfollower=false;
+				}else if(attributes.getValue("lemma")!=null && this.partoftribe.getOne()!=null && this.partoftribe.getTwo()==null && foundnephew){
+					this.nephewof.setTwo(attributes.getValue("lemma"));
+					this.result.nephewOfSet.add(this.nephewof);
+					this.nephewof=new Tuple<String,String>(null,null);
+					foundnephew=false;
+				}else if(attributes.getValue("lemma")!=null && this.partoftribe.getOne()!=null && this.partoftribe.getTwo()==null && founddescendant){
+					this.descendantof.setTwo(attributes.getValue("lemma"));
+					this.result.descendantOfSet.add(this.descendantof);
+					this.descendantof=new Tuple<String,String>(null,null);
+					founddescendant=false;
 				}else {					
 					this.curfatherson=new Tuple<>(attributes.getValue("lemma"),null);
 					this.partoftribe=new Tuple<>(attributes.getValue("lemma"),null);
+					this.descendantof=new Tuple<>(attributes.getValue("lemma"),null);
+					this.nephewof=new Tuple<>(attributes.getValue("lemma"),null);
+					this.followerof=new Tuple<>(attributes.getValue("lemma"),null);
 				}
 			}else {
 				if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("MAQI")) {
@@ -81,6 +105,15 @@ public class EpidocExtractor extends DefaultHandler2 {
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("MUCOI")) {
 					System.out.println("FOUND MUCOI!!!!!!");
 					foundmucoi=true;
+				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("CELI")) {
+					System.out.println("FOUND CELI!!!!!!");
+					foundfollower=true;
+				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("NETTA")) {
+					System.out.println("FOUND NETTA!!!!!!");
+					foundnephew=true;
+				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("AVI")) {
+					System.out.println("FOUND AVI!!!!!!");
+					founddescendant=true;
 				}
 			}
 			break;

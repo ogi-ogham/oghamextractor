@@ -27,6 +27,12 @@ public class OghamObject {
 	
 	public Set<Tuple<String,String>> sonOfSet=new TreeSet<Tuple<String,String>>();
 	
+	public Set<Tuple<String,String>> followerOfSet=new TreeSet<Tuple<String,String>>();
+	
+	public Set<Tuple<String,String>> descendantOfSet=new TreeSet<Tuple<String,String>>();
+	
+	public Set<Tuple<String,String>> nephewOfSet=new TreeSet<Tuple<String,String>>();
+	
 	public Set<Tuple<String,String>> tribePartOfSet=new TreeSet<Tuple<String,String>>();
 	
 	public static final String BASEURI="http://www.i3mainz.de/ogham#";
@@ -49,7 +55,11 @@ public class OghamObject {
 		fatherrel.setLabel("father", "en");
 		ObjectProperty inscriptionmentions=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P6568");
 		inscriptionmentions.addLabel("inscriptionmentions","en");
+		ObjectProperty relative=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P1038");
+		inscriptionmentions.addLabel("relative","en");
 		ObjectProperty hasMember=model.createObjectProperty(BASEURI+"hasMember");
+		ObjectProperty follows=model.createObjectProperty(BASEURI+"follows");
+		ObjectProperty descendantOf=model.createObjectProperty(BASEURI+"descendantOf");
 		ObjectProperty partofTribe=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P463");
 		partofTribe.addLabel("member of","en");
 		DatatypeProperty image=model.createDatatypeProperty("https://www.wikidata.org/wiki/Property:P18");
@@ -66,6 +76,29 @@ public class OghamObject {
 			Individual tribee=tribe.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo()));
 			pers.addProperty(partofTribe, tribee);
 			tribee.addProperty(hasMember, pers);
+			curind.addProperty(inscriptionmentions, pers);
+			curind.addProperty(inscriptionmentions, tribee);
+		}
+		for(Tuple<String,String> partof:nephewOfSet) {
+			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne()));
+			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo()));
+			pers.addProperty(relative, tribee);
+			tribee.addProperty(relative, pers);
+			curind.addProperty(inscriptionmentions, pers);
+			curind.addProperty(inscriptionmentions, tribee);
+		}
+		for(Tuple<String,String> partof:followerOfSet) {
+			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne()));
+			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo()));
+			pers.addProperty(follows, tribee);
+			curind.addProperty(inscriptionmentions, pers);
+			curind.addProperty(inscriptionmentions, tribee);
+		}
+		for(Tuple<String,String> partof:this.descendantOfSet) {
+			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne()));
+			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo()));
+			pers.addProperty(descendantOf, tribee);
+			curind.addProperty(inscriptionmentions, pers);
 			curind.addProperty(inscriptionmentions, tribee);
 		}
 		DatatypeProperty asWKT=model.createDatatypeProperty("http://www.opengis.net/ont/geosparql#asWKT");

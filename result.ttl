@@ -8,8 +8,14 @@
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#CALIACI> .
 
+<https://www.wikidata.org/wiki/Property:P1038>
+      a       owl:ObjectProperty .
+
 <http://www.i3mainz.de/ogham#LOBACCONA>
       a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://www.i3mainz.de/ogham#follows>
+      a       owl:ObjectProperty .
 
 <http://www.i3mainz.de/ogham#+++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++++++Centuries_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -26,6 +32,11 @@
       <http://www.opengis.net/ont/geosparql#asWKT>
               "POINT (-6.720154 52.784779)" .
 
+<http://www.i3mainz.de/ogham#CUNAMAQQI>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#descendantOf>
+              <http://www.i3mainz.de/ogham#CORBI> .
+
 <http://www.i3mainz.de/ogham#QRITTI>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
@@ -41,6 +52,14 @@
 
 <http://www.opengis.net/ont/geosparql#hasGeometry>
       a       owl:ObjectProperty .
+
+<http://www.i3mainz.de/ogham#QVECI>
+      a       <http://xmlns.com/foaf/0.1/Person> .
+
+<http://www.i3mainz.de/ogham#ALATTO>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#follows>
+              <http://www.i3mainz.de/ogham#BATTIGNI> .
 
 <http://www.i3mainz.de/ogham#COMOGANN>
       a       <http://xmlns.com/foaf/0.1/Person> .
@@ -67,7 +86,9 @@
 <http://www.i3mainz.de/ogham#Ogham+in+3D>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#Ogham+in+3D_geom> .
+              <http://www.i3mainz.de/ogham#Ogham+in+3D_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO015-051004-" .
 
 <http://www.i3mainz.de/ogham#TOICACI>
       a       <http://xmlns.com/foaf/0.1/Person> , <https://www.wikidata.org/wiki/Q3538737> ;
@@ -103,7 +124,9 @@
 <http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Wicklow>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Wicklow_geom> .
+              <http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Wicklow_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI022-012----" , "http://www.megalithicmonumentsofireland.com/COUNTIES/WICKLOW/Boleycarrigeen_OghamStone.html" .
 
 <http://www.i3mainz.de/ogham#UDDAMI>
       a       <https://www.wikidata.org/wiki/Q3538737> ;
@@ -132,6 +155,8 @@
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#West%0A++++++++++++++++++++++++++++++++Cork_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO122-049004-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#VIRAGNI> , <http://www.i3mainz.de/ogham#CUNAGUSOS> .
 
@@ -156,8 +181,10 @@
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer+Text-und%0A++++++++++++++++++++++++++++++++Sprachmateriale.+Ogam-Inschriften%3A+Bilderverzeichnis+%28picture+catalogue%29._geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-105----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-393----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE052-059002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE106-114----" , "http://titus.uni-frankfurt.de/ogam/html/146x002l.htm" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045008-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE039-148----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045015-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-395----" , "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026001-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO102-013----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE000-002----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067006-" , "http://titus.uni-frankfurt.de/ogam/html/223x002l.htm" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO042-049001-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
-              <http://www.i3mainz.de/ogham#LLATIGNI> , <http://www.i3mainz.de/ogham#MINERC%3F> , <http://www.i3mainz.de/ogham#DOVINIA> , <http://www.i3mainz.de/ogham#GLASICONAS> , <http://www.i3mainz.de/ogham#QRITTI> , <http://www.i3mainz.de/ogham#DUMELI> , <http://www.i3mainz.de/ogham#VITALIN> , <http://www.i3mainz.de/ogham#MAQQI-ERCCIA> , <http://www.i3mainz.de/ogham#ERC> , <http://www.i3mainz.de/ogham#COIMAGNI> , <http://www.i3mainz.de/ogham#MAQI-ERCIAS> , <http://www.i3mainz.de/ogham#LUGUQRIT> .
+              <http://www.i3mainz.de/ogham#QRITTI> , <http://www.i3mainz.de/ogham#DUMELI> , <http://www.i3mainz.de/ogham#VITALIN> , <http://www.i3mainz.de/ogham#COIMAGNI> , <http://www.i3mainz.de/ogham#TURANIAS> , <http://www.i3mainz.de/ogham#MAQI-ERCIAS> , <http://www.i3mainz.de/ogham#LUGUQRIT> , <http://www.i3mainz.de/ogham#LLATIGNI> , <http://www.i3mainz.de/ogham#MINERC%3F> , <http://www.i3mainz.de/ogham#DOVINIA> , <http://www.i3mainz.de/ogham#GLASICONAS> , <http://www.i3mainz.de/ogham#MAQI-DECEDAS> , <http://www.i3mainz.de/ogham#MAQQI-ERCCIA> , <http://www.i3mainz.de/ogham#ERC> .
 
 <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS>
       a       <http://xmlns.com/foaf/0.1/Person> .
@@ -177,13 +204,18 @@
       <http://www.opengis.net/ont/geosparql#asWKT>
               "POINT (-8.369881 53.834383)" , "POINT (-8.310399 53.797323)" , "POINT (-9.254148 54.246617)" .
 
+<http://www.i3mainz.de/ogham#TURANIAS>
+      a       <http://xmlns.com/foaf/0.1/Person> .
+
 <http://www.i3mainz.de/ogham#DIMAQA>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#nd+Sprachmateriale.+TITUS+OGAMICA.>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#nd+Sprachmateriale.+TITUS+OGAMICA._geom> .
+              <http://www.i3mainz.de/ogham#nd+Sprachmateriale.+TITUS+OGAMICA._geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057084-" .
 
 <http://www.i3mainz.de/ogham#+++++++++++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -209,19 +241,27 @@
 <http://www.i3mainz.de/ogham#Corpus+inscriptionum+insularum%0A++++++++++++++++++++++++++++Celticarum>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#Corpus+inscriptionum+insularum%0A++++++++++++++++++++++++++++Celticarum_geom> .
+              <http://www.i3mainz.de/ogham#Corpus+inscriptionum+insularum%0A++++++++++++++++++++++++++++Celticarum_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-081002-" .
 
 <http://www.i3mainz.de/ogham#BIVAIDONAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <https://www.wikidata.org/wiki/Property:P463>
               <http://www.i3mainz.de/ogham#ATAR> .
 
+<https://www.wikidata.org/wiki/Property:P18>
+      a       owl:DatatypeProperty ;
+      rdfs:label "image"@en .
+
 <http://www.i3mainz.de/ogham#Celtica>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#Celtica_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087002-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
-              <http://www.i3mainz.de/ogham#ISAMMNN%3F> .
+              <http://www.i3mainz.de/ogham#ISAMMNN%3F> , <http://www.i3mainz.de/ogham#COMMAGGAGNI> .
 
 <http://www.i3mainz.de/ogham#VEDELMETO>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -251,12 +291,16 @@
 <http://www.i3mainz.de/ogham#JRSAI>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#JRSAI_geom> .
+              <http://www.i3mainz.de/ogham#JRSAI_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=MA053-003009-" .
 
 <http://www.i3mainz.de/ogham#Maynooth%0A++++++++++++++++++++++++++++Monographs>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#Maynooth%0A++++++++++++++++++++++++++++Monographs_geom> .
+              <http://www.i3mainz.de/ogham#Maynooth%0A++++++++++++++++++++++++++++Monographs_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033004-" .
 
 <http://www.i3mainz.de/ogham#COMMAGGAGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -281,11 +325,18 @@
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#._geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-248----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI027-079----" , "http://titus.uni-frankfurt.de/ogam/html/004x003l.htm" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107004-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-093003-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107003-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078008-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078003-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078001-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI021-004----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078007-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-040----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078006-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078004-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO122-049003-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-074----" , "http://titus.uni-frankfurt.de/ogam/html/071x001l.htm" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-009----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO042-049002-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
-              <http://www.i3mainz.de/ogham#BRUSCCOS> , <http://www.i3mainz.de/ogham#LUGADDON> , <http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29> , <http://www.i3mainz.de/ogham#TOICACI> , <http://www.i3mainz.de/ogham#MAQI-DUMILEAS> , <http://www.i3mainz.de/ogham#CALIACI> , <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS> , <http://www.i3mainz.de/ogham#MAQI-TTAL> , <http://www.i3mainz.de/ogham#OLACON> , <http://www.i3mainz.de/ogham#QRITTI> , <http://www.i3mainz.de/ogham#NOCATI> , <http://www.i3mainz.de/ogham#TRENU> , <http://www.i3mainz.de/ogham#DEGOS> , <http://www.i3mainz.de/ogham#MAQI-RET%2FC...> , <http://www.i3mainz.de/ogham#UDDAMI> , <http://www.i3mainz.de/ogham#BIRRAC> , <http://www.i3mainz.de/ogham#MOINENA> , <http://www.i3mainz.de/ogham#LUGUDECAS> , <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D> , <http://www.i3mainz.de/ogham#VORGOS> , <http://www.i3mainz.de/ogham#MAQI-RITEAS> .
+              <http://www.i3mainz.de/ogham#BRUSCCOS> , <http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29> , <http://www.i3mainz.de/ogham#LUGADDON> , <http://www.i3mainz.de/ogham#TOICACI> , <http://www.i3mainz.de/ogham#CALIACI> , <http://www.i3mainz.de/ogham#MAQI-DUMILEAS> , <http://www.i3mainz.de/ogham#MAQI-TTAL> , <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS> , <http://www.i3mainz.de/ogham#OLACON> , <http://www.i3mainz.de/ogham#QRITTI> , <http://www.i3mainz.de/ogham#NOCATI> , <http://www.i3mainz.de/ogham#TRENU> , <http://www.i3mainz.de/ogham#DEGOS> , <http://www.i3mainz.de/ogham#MAQI-RET%2FC...> , <http://www.i3mainz.de/ogham#UDDAMI> , <http://www.i3mainz.de/ogham#BIRRAC> , <http://www.i3mainz.de/ogham#MOINENA> , <http://www.i3mainz.de/ogham#LUGUDECAS> , <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D> , <http://www.i3mainz.de/ogham#VORGOS> , <http://www.i3mainz.de/ogham#MAQI-RITEAS> .
 
 <http://www.opengis.net/ont/geosparql#SpatialObject>
       a       owl:Class .
+
+<http://www.i3mainz.de/ogham#OVANOS>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#descendantOf>
+              <http://www.i3mainz.de/ogham#IVACATTOS> .
 
 <http://www.i3mainz.de/ogham#MAQI-CORABIR>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -322,6 +373,9 @@
       a       owl:ObjectProperty ;
       rdfs:label "member of"@en .
 
+<http://www.i3mainz.de/ogham#descendantOf>
+      a       owl:ObjectProperty .
+
 <http://www.i3mainz.de/ogham#West%0A++++++++++++++++++++++++++++++++Cork_geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
       <http://www.opengis.net/ont/geosparql#asWKT>
@@ -339,12 +393,19 @@
 <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A+++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A+++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom> .
+              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A+++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044007-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044001-" ;
+      <https://www.wikidata.org/wiki/Property:P6568>
+              <http://www.i3mainz.de/ogham#IVACATTOS> , <http://www.i3mainz.de/ogham#OVANOS> .
 
 <http://www.i3mainz.de/ogham#SUVALLOS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DUCOVAROS> .
+
+<http://www.i3mainz.de/ogham#DERCMASOC>
+      a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#OLACON>
       a       <http://xmlns.com/foaf/0.1/Person> .
@@ -375,6 +436,8 @@
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#Mid+Cork_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067003-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067004-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067007-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067008-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#MAQI-ESEA> , <http://www.i3mainz.de/ogham#CORBAGNI> , <http://www.i3mainz.de/ogham#COROTANI> , <http://www.i3mainz.de/ogham#DOMANEQI> .
 
@@ -382,8 +445,10 @@
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD006-005002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WX054-004----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI036-010----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044004-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044002-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
-              <http://www.i3mainz.de/ogham#CATTABBOTT> , <http://www.i3mainz.de/ogham#MAQI-DECEDAS> , <http://www.i3mainz.de/ogham#NETTAVROICC> , <http://www.i3mainz.de/ogham#TRENALUGGO%3F> , <http://www.i3mainz.de/ogham#SEDANI> , <http://www.i3mainz.de/ogham#MARIN> .
+              <http://www.i3mainz.de/ogham#DERCMASOC> , <http://www.i3mainz.de/ogham#CATTABBOTT> , <http://www.i3mainz.de/ogham#MAQI-DECEDAS> , <http://www.i3mainz.de/ogham#NETTAVROICC> , <http://www.i3mainz.de/ogham#TRENALUGGO%3F> , <http://www.i3mainz.de/ogham#SEDANI> , <http://www.i3mainz.de/ogham#MARIN> .
 
 <http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer+Text-und%0A++++++++++++++++++++++++++++++++Sprachmateriale.+Ogam-Inschriften%3A+Bilderverzeichnis+%28picture+catalogue%29._geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -416,24 +481,35 @@
 <http://www.i3mainz.de/ogham#cal+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#cal+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom> .
+              <http://www.i3mainz.de/ogham#cal+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003006-" .
 
 <http://www.i3mainz.de/ogham#Die+Sprache+der+altirischen%0A++++++++++++++++++++++++++++Ogam-Inschriften>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#Die+Sprache+der+altirischen%0A++++++++++++++++++++++++++++Ogam-Inschriften_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105001-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#DOLIGENN> , <http://www.i3mainz.de/ogham#VURUDDRANN> .
+
+<http://www.i3mainz.de/ogham#BATTIGNI>
+      a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++Centuries_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-141006-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE079-032004-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033011-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033012-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-016----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033010-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE029-157002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033013-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-078002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE061-006008-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033008-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033009-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033006-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-140008-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046018-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033007-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-144005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032004-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032003-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046030-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CL067-024016-" , "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026003-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE066-016005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057003-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057008-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057009-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003009-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003008-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003007-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-026001-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008007-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057010-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE089-011001-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057011-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
-              <http://www.i3mainz.de/ogham#SUVALLOS> , <http://www.i3mainz.de/ogham#ADDILONA> , <http://www.i3mainz.de/ogham#BROCANN> , <http://www.i3mainz.de/ogham#QENILOCI> , <http://www.i3mainz.de/ogham#MAILE-INBIR> , <http://www.i3mainz.de/ogham#MAQI-CAIRATINI> , <http://www.i3mainz.de/ogham#DOVVINIAS> , <http://www.i3mainz.de/ogham#EQQEGGNI> , <http://www.i3mainz.de/ogham#SILLANN> , <http://www.i3mainz.de/ogham#MAQQI-IARI> , <http://www.i3mainz.de/ogham#GLASICONAS> , <http://www.i3mainz.de/ogham#NETTA-LAMINACCA> , <http://www.i3mainz.de/ogham#VEDDONOS> , <http://www.i3mainz.de/ogham#DUCOVAROS> , <http://www.i3mainz.de/ogham#BECCDINN> , <http://www.i3mainz.de/ogham#CATTINI> , <http://www.i3mainz.de/ogham#CEDATTOQA> , <http://www.i3mainz.de/ogham#DOVVINIA> , <http://www.i3mainz.de/ogham#B%5BAID%5DAGNI> , <http://www.i3mainz.de/ogham#CORBBI> , <http://www.i3mainz.de/ogham#RODDOS> , <http://www.i3mainz.de/ogham#VEDELMETO> , <http://www.i3mainz.de/ogham#MAQI-AINIA> , <http://www.i3mainz.de/ogham#DUGENNGI> , <http://www.i3mainz.de/ogham#DOVINIAS> , <http://www.i3mainz.de/ogham#DOVETI> , <http://www.i3mainz.de/ogham#CCICAMINI> , <http://www.i3mainz.de/ogham#MAQI-DECEDAS> , <http://www.i3mainz.de/ogham#GRAVICAS> , <http://www.i3mainz.de/ogham#RITTAVVECCAS> , <http://www.i3mainz.de/ogham#VATTILLOGG> .
+              <http://www.i3mainz.de/ogham#SUVALLOS> , <http://www.i3mainz.de/ogham#ADDILONA> , <http://www.i3mainz.de/ogham#BROCANN> , <http://www.i3mainz.de/ogham#CUNAMAQQI> , <http://www.i3mainz.de/ogham#QENILOCI> , <http://www.i3mainz.de/ogham#MAQI-CAIRATINI> , <http://www.i3mainz.de/ogham#MAILE-INBIR> , <http://www.i3mainz.de/ogham#DOVVINIAS> , <http://www.i3mainz.de/ogham#EQQEGGNI> , <http://www.i3mainz.de/ogham#SILLANN> , <http://www.i3mainz.de/ogham#MAQQI-IARI> , <http://www.i3mainz.de/ogham#GLASICONAS> , <http://www.i3mainz.de/ogham#DUCOVAROS> , <http://www.i3mainz.de/ogham#NETTA-LAMINACCA> , <http://www.i3mainz.de/ogham#VEDDONOS> , <http://www.i3mainz.de/ogham#BECCDINN> , <http://www.i3mainz.de/ogham#CATTINI> , <http://www.i3mainz.de/ogham#DOVVINIA> , <http://www.i3mainz.de/ogham#CEDATTOQA> , <http://www.i3mainz.de/ogham#B%5BAID%5DAGNI> , <http://www.i3mainz.de/ogham#CORBBI> , <http://www.i3mainz.de/ogham#CORBI> , <http://www.i3mainz.de/ogham#SRUSA> , <http://www.i3mainz.de/ogham#RODDOS> , <http://www.i3mainz.de/ogham#MAQI-AINIA> , <http://www.i3mainz.de/ogham#VEDELMETO> , <http://www.i3mainz.de/ogham#DUGENNGI> , <http://www.i3mainz.de/ogham#DOVINIAS> , <http://www.i3mainz.de/ogham#DOVETI> , <http://www.i3mainz.de/ogham#LLOTETI> , <http://www.i3mainz.de/ogham#CCICAMINI> , <http://www.i3mainz.de/ogham#MAQI-DECEDAS> , <http://www.i3mainz.de/ogham#GRAVICAS> , <http://www.i3mainz.de/ogham#RITTAVVECCAS> , <http://www.i3mainz.de/ogham#VATTILLOGG> .
 
 <http://www.i3mainz.de/ogham#SEDANI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#descendantOf>
+              <http://www.i3mainz.de/ogham#DERCMASOC> ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#CATTABBOTT> .
 
@@ -451,7 +527,9 @@
               <http://www.i3mainz.de/ogham#NETA-SEGAMONAS> .
 
 <http://www.i3mainz.de/ogham#MAQI-CAIRATINI>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#descendantOf>
+              <http://www.i3mainz.de/ogham#INEQAGLAS> .
 
 <http://www.i3mainz.de/ogham#COLLABOT>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -464,6 +542,8 @@
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#Old+Waterford+Society%2C+Decies_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128001-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#ENA> , <http://www.i3mainz.de/ogham#SENAQ> , <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F> , <http://www.i3mainz.de/ogham#VEDELMETO> .
 
@@ -475,7 +555,11 @@
 <http://www.i3mainz.de/ogham#+%28ed.+T.+Nyberg+et+al.%29>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#+%28ed.+T.+Nyberg+et+al.%29_geom> .
+              <http://www.i3mainz.de/ogham#+%28ed.+T.+Nyberg+et+al.%29_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=ME026-009----" ;
+      <https://www.wikidata.org/wiki/Property:P6568>
+              <http://www.i3mainz.de/ogham#INEQAGLAS> , <http://www.i3mainz.de/ogham#MAQI-CAIRATINI> .
 
 <http://www.i3mainz.de/ogham#NETTA-LAMINACCA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -509,6 +593,9 @@
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#DENAVECA> .
 
+<http://www.i3mainz.de/ogham#SRUSA>
+      a       <http://xmlns.com/foaf/0.1/Person> .
+
 <http://www.i3mainz.de/ogham#RODDOS>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
@@ -520,17 +607,26 @@
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
+<http://www.i3mainz.de/ogham#IVACATTOS>
+      a       <http://xmlns.com/foaf/0.1/Person> .
+
 <http://www.i3mainz.de/ogham#JCHAS>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#JCHAS_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022002-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022004-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022003-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
-              <http://www.i3mainz.de/ogham#DALI> , <http://www.i3mainz.de/ogham#DALAGNI> , <http://www.i3mainz.de/ogham#GLUNLEGGET> .
+              <http://www.i3mainz.de/ogham#VEQREQ> , <http://www.i3mainz.de/ogham#DALI> , <http://www.i3mainz.de/ogham#DALAGNI> , <http://www.i3mainz.de/ogham#GLUNLEGGET> .
 
 <http://www.i3mainz.de/ogham#Kerry>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#Kerry_geom> .
+              <http://www.i3mainz.de/ogham#Kerry_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107----" ;
+      <https://www.wikidata.org/wiki/Property:P6568>
+              <http://www.i3mainz.de/ogham#BATTIGNI> , <http://www.i3mainz.de/ogham#ALATTO> .
 
 <http://www.i3mainz.de/ogham#ENA>
       a       <http://xmlns.com/foaf/0.1/Person> .
@@ -572,6 +668,8 @@
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#Maynooth+Monographs_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-166---" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=LH007-072006-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-165---" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-164----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-167----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE025-002001-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK031-058----" ;
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#LABRID> , <http://www.i3mainz.de/ogham#MAQI-CORABIR> , <http://www.i3mainz.de/ogham#RONANN> , <http://www.i3mainz.de/ogham#CORBI> , <http://www.i3mainz.de/ogham#TAN...> , <http://www.i3mainz.de/ogham#COMOGANN> .
 
@@ -617,7 +715,9 @@
 <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian%0A++++++++++++++++++++++++++++++++Ecclesiastical+Settlement+in+Ireland+5th+to+12th+Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian%0A++++++++++++++++++++++++++++++++Ecclesiastical+Settlement+in+Ireland+5th+to+12th+Centuries_geom> .
+              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian%0A++++++++++++++++++++++++++++++++Ecclesiastical+Settlement+in+Ireland+5th+to+12th+Centuries_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://titus.uni-frankfurt.de/ogam/html/015x001l.htm" .
 
 <http://www.i3mainz.de/ogham#DALAGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -627,7 +727,9 @@
 <http://www.i3mainz.de/ogham#+++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++++++Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#+++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++++++Centuries_geom> .
+              <http://www.i3mainz.de/ogham#+++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++++++Centuries_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CW003-023----" .
 
 <http://www.i3mainz.de/ogham#AMMLLONGITT%3F>
       a       <http://xmlns.com/foaf/0.1/Person> .
@@ -667,7 +769,9 @@
 <http://www.i3mainz.de/ogham#The+Iveragh+Peninsula%3A%0A++++++++++++++++++++++++++++An+Archaeological+Survey+of+South+Kerry>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#The+Iveragh+Peninsula%3A%0A++++++++++++++++++++++++++++An+Archaeological+Survey+of+South+Kerry_geom> .
+              <http://www.i3mainz.de/ogham#The+Iveragh+Peninsula%3A%0A++++++++++++++++++++++++++++An+Archaeological+Survey+of+South+Kerry_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-357----" .
 
 <https://www.wikidata.org/wiki/Property:P22>
       a       owl:ObjectProperty ;
@@ -676,8 +780,15 @@
 <http://www.i3mainz.de/ogham#ROTTAIS>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
+<http://www.i3mainz.de/ogham#LLOTETI>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#descendantOf>
+              <http://www.i3mainz.de/ogham#SRUSA> .
+
 <http://www.i3mainz.de/ogham#MAQI-DECEDAS>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#descendantOf>
+              <http://www.i3mainz.de/ogham#TURANIAS> ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#GLASICONAS> , <http://www.i3mainz.de/ogham#MARIN> .
 
@@ -729,7 +840,9 @@
 <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom> .
+              <http://www.i3mainz.de/ogham#Monasticon+Hibernicum+database+-+Early+Christian+Ecclesiastical%0A++++++++++++++++++++++++++++++++++++++++++++++++++++Settlement+in+Ireland+5th+to+12th+Centuries_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044005-" .
 
 <http://www.i3mainz.de/ogham#COIMAGNI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -803,11 +916,15 @@
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#Thesaurus+Indogermanischer%0A++++++++++++++++++++++++++++++++Text-und+Sprachmateriale.+TITUS+OGAMICA._geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "#MAC1914" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057030-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#VRAICCI> , <http://www.i3mainz.de/ogham#CORRBRI> , <http://www.i3mainz.de/ogham#AMMLLONGITT%3F> , <http://www.i3mainz.de/ogham#MEDVVI> .
 
 <http://www.i3mainz.de/ogham#CUNALEGEA>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#follows>
+              <http://www.i3mainz.de/ogham#QVECI> ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#C%5B....%5DSALAR> .
 
@@ -829,6 +946,8 @@
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#Archaeological+Inventory+of+County+Carlow_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://www.megalithomania.com/show/site/326" ;
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#DUNAIDONAS> , <http://www.i3mainz.de/ogham#MARIANI> .
 
@@ -855,10 +974,15 @@
       <http://www.opengis.net/ont/geosparql#asWKT>
               "POINT (-6.254558 53.340408)" .
 
+<http://www.i3mainz.de/ogham#INEQAGLAS>
+      a       <http://xmlns.com/foaf/0.1/Person> .
+
 <http://www.i3mainz.de/ogham#+++++++++++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#+++++++++++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom> .
+              <http://www.i3mainz.de/ogham#+++++++++++++Christian+Ecclesiastical+Settlement+in+Ireland+5th+to+12th%0A++++++++++++++++++++++++++++Centuries_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003010-" .
 
 <http://www.i3mainz.de/ogham#DUMELI>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -899,16 +1023,20 @@
 
 <https://www.wikidata.org/wiki/Property:P6568>
       a       owl:ObjectProperty ;
-      rdfs:label "inscriptionmentions"@en .
+      rdfs:label "inscriptionmentions"@en , "relative"@en .
 
 <http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++++++Centuries>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
               <http://www.i3mainz.de/ogham#%0A++++++++++++++++++++++++++++++++Centuries_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034008-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034007-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034009-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034006-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033009-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033008-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042010-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033007-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033006-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033012-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042003-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033011-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033010-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-060007-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-078----" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034014-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034015-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034010-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008006-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033005-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033015-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042006-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033014-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033013-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA032-029002" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062009-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062005-" ;
       <https://www.wikidata.org/wiki/Property:P6568>
-              <http://www.i3mainz.de/ogham#MACORBO> , <http://www.i3mainz.de/ogham#BROENIONAS%3F> , <http://www.i3mainz.de/ogham#LOBACCONA> , <http://www.i3mainz.de/ogham#CALUNOVICA> , <http://www.i3mainz.de/ogham#LUGA> , <http://www.i3mainz.de/ogham#MAQI-INI...> , <http://www.i3mainz.de/ogham#LITENI> , <http://www.i3mainz.de/ogham#CUNANETAS> , <http://www.i3mainz.de/ogham#MEDALO> , <http://www.i3mainz.de/ogham#LAG%5B...> , <http://www.i3mainz.de/ogham#NETA-SEGAMONAS> , <http://www.i3mainz.de/ogham#BIR> , <http://www.i3mainz.de/ogham#ERACIAS> , <http://www.i3mainz.de/ogham#COLLABOT> , <http://www.i3mainz.de/ogham#MUIBITI> , <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS> , <http://www.i3mainz.de/ogham#CUNALEGEA> , <http://www.i3mainz.de/ogham#BIGU> , <http://www.i3mainz.de/ogham#C%5B....%5DSALAR> , <http://www.i3mainz.de/ogham#ROTTAIS> , <http://www.i3mainz.de/ogham#DIMAQA> , <http://www.i3mainz.de/ogham#ATAR> , <http://www.i3mainz.de/ogham#LUGUDECAS> , <http://www.i3mainz.de/ogham#MONGEDIAS> .
+              <http://www.i3mainz.de/ogham#GATI> , <http://www.i3mainz.de/ogham#BROENIONAS%3F> , <http://www.i3mainz.de/ogham#...ERATI> , <http://www.i3mainz.de/ogham#CALUNOVICA> , <http://www.i3mainz.de/ogham#LOBACCONA> , <http://www.i3mainz.de/ogham#CUNANETAS> , <http://www.i3mainz.de/ogham#QECCIAS%3F> , <http://www.i3mainz.de/ogham#NETA-SEGAMONAS> , <http://www.i3mainz.de/ogham#COLLABOT> , <http://www.i3mainz.de/ogham#QVECI> , <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS> , <http://www.i3mainz.de/ogham#CUNALEGEA> , <http://www.i3mainz.de/ogham#C%5B....%5DSALAR> , <http://www.i3mainz.de/ogham#DIMAQA> , <http://www.i3mainz.de/ogham#DENAVECA> , <http://www.i3mainz.de/ogham#MONGEDIAS> , <http://www.i3mainz.de/ogham#MACORBO> , <http://www.i3mainz.de/ogham#LUGA> , <http://www.i3mainz.de/ogham#LITENI> , <http://www.i3mainz.de/ogham#MEDALO> , <http://www.i3mainz.de/ogham#MAQI-INI...> , <http://www.i3mainz.de/ogham#LAG%5B...> , <http://www.i3mainz.de/ogham#ERACIAS> , <http://www.i3mainz.de/ogham#BIR> , <http://www.i3mainz.de/ogham#BIVAIDONAS> , <http://www.i3mainz.de/ogham#MUIBITI> , <http://www.i3mainz.de/ogham#BIGU> , <http://www.i3mainz.de/ogham#ROTTAIS> , <http://www.i3mainz.de/ogham#MEDUSI> , <http://www.i3mainz.de/ogham#ATAR> , <http://www.i3mainz.de/ogham#LUGUDECAS> .
 
 <http://www.i3mainz.de/ogham#East+and+South+%0A++++++++++++++++++++++++++++++++Cork>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
       <http://www.opengis.net/ont/geosparql#hasGeometry>
-              <http://www.i3mainz.de/ogham#East+and+South+%0A++++++++++++++++++++++++++++++++Cork_geom> .
+              <http://www.i3mainz.de/ogham#East+and+South+%0A++++++++++++++++++++++++++++++++Cork_geom> ;
+      <https://www.wikidata.org/wiki/Property:P18>
+              "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-053----" .
