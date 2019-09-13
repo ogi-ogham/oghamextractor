@@ -13,8 +13,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032003-",
         "persons": ["MAQI-?OGGODIKA"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -30,8 +36,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032004-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": " (picture catalogue)",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -47,8 +59,14 @@
         "image": "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026001-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -64,8 +82,14 @@
         "image": "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026003-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -81,8 +105,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046018-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 136",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -98,8 +128,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046030-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -121,8 +157,14 @@
           "son": "LUGUDECAS",
           "father": "NETA-SEGAMONAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": true,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -138,8 +180,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008006-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -155,8 +203,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008007-",
         "persons": ["AMADU"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -178,8 +232,14 @@
           "son": "RONANN",
           "father": "COMOGANN"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 145",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -201,8 +261,17 @@
           "son": "GRAVICAS",
           "father": "DOVVINIAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": [{
+          "person": "GRAVICAS",
+          "tribe": "GRAVICAS"
+        }]
       }
     },
     {
@@ -218,8 +287,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057009-",
         "persons": ["BROINIONAS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -235,8 +310,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057010-",
         "persons": ["LUBBIAS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 152",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -258,8 +339,14 @@
           "son": "CCICAMINI",
           "father": "CATTINI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 153",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -282,8 +369,14 @@
           "son": "CORBBI",
           "father": "DOVVINIA"
         }],
+        "containsWolfName": true,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -299,8 +392,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033005-",
         "persons": ["AKEVRITTI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -322,8 +421,14 @@
           "son": "MAQQI-IARI",
           "father": "DOVINIAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -345,8 +450,14 @@
           "son": "DOVETI",
           "father": "CATTINI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -368,8 +479,14 @@
           "son": "SUVALLOS",
           "father": "DUCOVAROS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -391,8 +508,14 @@
           "son": "MAQI-DECEDAS",
           "father": "GLASICONAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -411,8 +534,14 @@
           "MAILAGNI"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -428,8 +557,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033011-",
         "persons": ["INISSIONAS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -448,8 +583,14 @@
           "CUNAMAQQI"
         ],
         "fatherson": [],
+        "containsWolfName": true,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -471,8 +612,14 @@
           "son": "NETTA-LAMINACCA",
           "father": "DOVINIAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -494,8 +641,14 @@
           "son": "CORBI",
           "father": "LABRID"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 38",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -517,8 +670,14 @@
           "son": "QENILOCI",
           "father": "MAQI-AINIA"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'The ogham inscriptions at Kilfountain and Ballymorereigh (St",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -540,8 +699,14 @@
           "son": "DUGENNGI",
           "father": "RODDOS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 171",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -563,8 +728,14 @@
           "son": "TOGITTACC[I]",
           "father": "SAG(A)RETTOS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -580,8 +751,14 @@
         "image": "http://www.megalithicmonumentsofireland.com/COUNTIES/WICKLOW/Boleycarrigeen_OghamStone.html",
         "persons": ["VOTI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 50",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -603,8 +780,14 @@
           "son": "CORRBRI",
           "father": "AMMLLONGITT?"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer\n                                Text-und Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -626,8 +809,14 @@
           "son": "SENAQ",
           "father": "ENA"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -649,8 +838,14 @@
           "son": "VEDELMETO",
           "father": "TOGITTACC[I]?"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -669,8 +864,14 @@
           "NETA-CARI"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 47",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -686,8 +887,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057010-",
         "persons": ["LUBBIAS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 152",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -709,8 +916,14 @@
           "son": "CCICAMINI",
           "father": "CATTINI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 153",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -732,8 +945,14 @@
           "son": "EQQEGGNI",
           "father": "MAQI-CAIRATINI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -749,8 +968,14 @@
         "image": "http://titus.uni-frankfurt.de/ogam/html/015x001l.htm",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -772,8 +997,14 @@
           "son": "MOINENA",
           "father": "OLACON"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -795,8 +1026,17 @@
           "son": "GRAVICAS",
           "father": "DOVVINIAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": [{
+          "person": "GRAVICAS",
+          "tribe": "GRAVICAS"
+        }]
       }
     },
     {
@@ -812,8 +1052,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057009-",
         "persons": ["BROINIONAS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -835,8 +1081,14 @@
           "son": "MAQQI-ERCCIA",
           "father": "DOVINIA"
         }],
+        "containsWolfName": false,
+        "containsCowName": true,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -855,8 +1107,14 @@
           "OVANOS"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Loca\n                                Patriciana",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -878,8 +1136,14 @@
           "son": "MAQI-DECEDAS",
           "father": "MARIN"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Loca\n                                Patriciana",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -895,8 +1159,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044004-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -912,8 +1182,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044005-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                                    Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -929,8 +1205,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044007-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                                   Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -952,8 +1234,14 @@
           "son": "DEGOS",
           "father": "TOICACI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -976,8 +1264,17 @@
           "son": "MAQI-RITEAS",
           "father": "MAQI-DUMILEAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": [{
+          "person": "TOICACI",
+          "tribe": "MAQI-RITEAS"
+        }]
       }
     },
     {
@@ -993,8 +1290,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078001-",
         "persons": ["CUNACENA"],
         "fatherson": [],
+        "containsWolfName": true,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1017,8 +1320,17 @@
           "son": "MAQI-TTAL",
           "father": "VORGOS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": [{
+          "person": "TOICACI",
+          "tribe": "MAQI-TTAL"
+        }]
       }
     },
     {
@@ -1034,8 +1346,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078006-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1051,8 +1369,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078007-",
         "persons": ["NE?TTVRECC"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1068,8 +1392,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078008-",
         "persons": ["MAQI-DECEDAS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1093,8 +1423,14 @@
           "son": "B[AID]AGNI",
           "father": "ADDILONA"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1116,8 +1452,14 @@
           "son": "BECCDINN",
           "father": "RITTAVVECCAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Church Island near Valencia, Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1140,8 +1482,14 @@
           "son": "ERC",
           "father": "MAQI-ERCIAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": true,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1163,8 +1511,14 @@
           "son": "LLATIGNI",
           "father": "MINERC?"
         }],
+        "containsWolfName": false,
+        "containsCowName": true,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1180,8 +1534,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI021-004----",
         "persons": ["IAQINI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1204,8 +1564,17 @@
           "son": "COLLABOT",
           "father": "LOBACCONA"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": true,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": [{
+          "person": "LUGA",
+          "tribe": "COLLABOT"
+        }]
       }
     },
     {
@@ -1224,8 +1593,17 @@
           "MEDUSI"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": true,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": [{
+          "person": "LUGA",
+          "tribe": "MEDUSI"
+        }]
       }
     },
     {
@@ -1241,8 +1619,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042010-",
         "persons": ["CATTUVIR"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": true,
+        "id": "'The excavation of Kiltera, Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1262,8 +1646,17 @@
           "MANU"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": [{
+          "person": "MACORBO",
+          "tribe": "GATI"
+        }]
       }
     },
     {
@@ -1285,8 +1678,14 @@
           "son": "CALUNOVICA",
           "father": "LITENI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 273",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1308,8 +1707,14 @@
           "son": "MAQI-INI...",
           "father": "[QE]TTEAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 274",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1332,8 +1737,14 @@
           "son": "CUNALEGEA",
           "father": "C[....]SALAR"
         }],
+        "containsWolfName": true,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 275",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1355,8 +1766,14 @@
           "son": "BIGU",
           "father": "LAG[..."
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 276",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1378,8 +1795,14 @@
           "son": "BIR",
           "father": "ROTTAIS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1395,8 +1818,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033012-",
         "persons": ["NE[T....]AS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1415,8 +1844,17 @@
           "MEDALO"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": [{
+          "person": "MEDALO",
+          "tribe": "DENAVECA"
+        }]
       }
     },
     {
@@ -1432,8 +1870,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033014-",
         "persons": ["BROINIONAS?"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1449,8 +1893,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033015-",
         "persons": ["DEAGOS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1466,8 +1916,14 @@
         "image": "#MAC1914",
         "persons": ["CUNOVATOS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer\n                                Text-und Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1483,8 +1939,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO015-051004-",
         "persons": ["RAVASA"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1506,8 +1968,14 @@
           "son": "BRUSCCOS",
           "father": "CALIACI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1526,8 +1994,14 @@
           "TURANIAS"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1549,8 +2023,14 @@
           "son": "ERACIAS",
           "father": "DIMAQA"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1572,8 +2052,14 @@
           "son": "TRENU",
           "father": "QRITTI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1589,8 +2075,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO042-049001-",
         "persons": ["CATTUBUTTAS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": true,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1612,8 +2104,14 @@
           "son": "CUNANETAS",
           "father": "NETA-SEGAMONAS"
         }],
+        "containsWolfName": true,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 300",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1632,8 +2130,14 @@
           "BATTIGNI"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1656,8 +2160,14 @@
           "son": "CEDATTOQA",
           "father": "VEDELMETO"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1673,8 +2183,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003005-",
         "persons": ["LUGUQRIT"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": true,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1690,8 +2206,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003006-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1707,8 +2229,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003007-",
         "persons": ["AGILL..."],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1724,8 +2252,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003009-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1747,8 +2281,14 @@
           "son": "RITTAVVECCAS",
           "father": "VEDDONOS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1764,8 +2304,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003009-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1781,8 +2327,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003010-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1798,8 +2350,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-144005-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 186",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1821,8 +2379,14 @@
           "son": "MAILE-INBIR",
           "father": "BROCANN"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1838,8 +2402,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053005-",
         "persons": ["MARIANI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1858,8 +2428,14 @@
           "SRUSA"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 189",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1875,8 +2451,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI022-012----",
         "persons": ["NILI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 51",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1895,8 +2477,17 @@
           "NETA-SEGAMONAS"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ancient ruined churches of Co",
+        "title": "",
+        "tribes": [{
+          "person": "NETA-SEGAMONAS",
+          "tribe": "...ERATI"
+        }]
       }
     },
     {
@@ -1912,8 +2503,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034007-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ancient ruined churches of Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1929,8 +2526,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034008-",
         "persons": ["CORB"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ancient ruined churches of Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1949,8 +2552,17 @@
           "QECCIAS?"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ancient ruined churches of Co",
+        "title": "",
+        "tribes": [{
+          "person": "BROENIONAS?",
+          "tribe": "QECCIAS?"
+        }]
       }
     },
     {
@@ -1966,8 +2578,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034010-",
         "persons": ["CIR"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ancient ruined churches of Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -1983,8 +2601,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034014-",
         "persons": ["VORTIGURN"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ancient ruined churches of Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2003,8 +2627,14 @@
           "VEDABAR"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ancient ruined churches of Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2026,8 +2656,14 @@
           "son": "MONGEDIAS",
           "father": "MUIBITI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ancient ruined churches of Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2050,8 +2686,14 @@
           "son": "MAQI-CORABIR",
           "father": "TAN..."
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2067,8 +2709,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033002-",
         "persons": ["GOSSUCTTIAS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 190",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2084,8 +2732,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033004-",
         "persons": ["GAMICUNAS"],
         "fatherson": [],
+        "containsWolfName": true,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 191",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2104,8 +2758,14 @@
           "COLMAN"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2121,8 +2781,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-081002-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 173",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2138,8 +2804,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-167----",
         "persons": ["TALAGNI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 181",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2155,8 +2827,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-165---",
         "persons": ["CURCI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 195",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2172,8 +2850,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-166---",
         "persons": ["ERCAVICCAS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": true,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 196",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2195,8 +2879,14 @@
           "son": "CORBAGNI",
           "father": "COROTANI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2212,8 +2902,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-164----",
         "persons": ["RETAGIN"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2229,8 +2925,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067006-",
         "persons": ["ULCCAGNI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2252,8 +2954,14 @@
           "son": "MAQI-ESEA",
           "father": "DOMANEQI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2269,8 +2977,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067008-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2289,8 +3003,17 @@
           "VEQREQ"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": [{
+          "person": "GLUNLEGGET",
+          "tribe": "VEQREQ"
+        }]
       }
     },
     {
@@ -2312,8 +3035,14 @@
           "son": "DALAGNI",
           "father": "DALI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2332,8 +3061,14 @@
           "NETTA-TTRENALUGOS"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": true,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2349,8 +3084,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032003-",
         "persons": ["MAQI-?OGGODIKA"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2372,8 +3113,14 @@
           "son": "LUGUQRIT",
           "father": "QRITTI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": true,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2395,8 +3142,14 @@
           "son": "COIMAGNI",
           "father": "VITALIN"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2412,8 +3165,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CW003-023----",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2432,8 +3191,14 @@
           "OVANOS"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Loca\n                                Patriciana",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2449,8 +3214,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-395----",
         "persons": ["QENILOC[A]GNI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2472,8 +3243,14 @@
           "son": "MAQI-DECEDAS",
           "father": "MARIN"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Loca\n                                Patriciana",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2489,8 +3266,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-357----",
         "persons": ["MAQI-ERCIAS?"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": true,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 205",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2509,8 +3292,14 @@
           "MAKINI"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2533,8 +3322,17 @@
           "son": "NOCATI",
           "father": "MAQI-RET/C..."
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": [{
+          "person": "UDDAMI",
+          "tribe": "NOCATI"
+        }]
       }
     },
     {
@@ -2550,8 +3348,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107004-",
         "persons": ["TUCACAC"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2567,8 +3371,14 @@
         "image": "http://titus.uni-frankfurt.de/ogam/html/223x002l.htm",
         "persons": ["VINNAGITLET?"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2591,8 +3401,14 @@
           "son": "DUMELI",
           "father": "GLASICONAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2608,8 +3424,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-393----",
         "persons": ["GALEOTOS"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2631,8 +3453,14 @@
           "son": "VURUDDRANN",
           "father": "DOLIGENN"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'On two Ogham-inscribed stones from Tinnahally, Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2651,8 +3479,14 @@
           "TEGANN"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'On two Ogham-inscribed stones from Tinnahally, Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2674,8 +3508,14 @@
           "son": "NETTAVROICC",
           "father": "TRENALUGGO?"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": true,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Notes on the ogam-inscribed stones of Donaghmore, Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2691,8 +3531,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008006-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2708,8 +3554,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042010-",
         "persons": ["CATTUVIR"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": true,
+        "id": "'The excavation of Kiltera, Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2728,8 +3580,17 @@
           "BIVAIDONAS"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": [{
+          "person": "ATAR",
+          "tribe": "BIVAIDONAS"
+        }]
       }
     },
     {
@@ -2751,8 +3612,14 @@
           "son": "LUGADDON",
           "father": "LUGUDECAS"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": true,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2771,8 +3638,14 @@
           "MAQI-CAIRATINI"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": " (ed",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2795,8 +3668,14 @@
           "son": "SEDANI",
           "father": "CATTABBOTT"
         }],
+        "containsWolfName": false,
+        "containsCowName": true,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2812,8 +3691,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI027-079----",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2829,8 +3714,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO122-049003-",
         "persons": ["GIRAGNI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2852,8 +3743,14 @@
           "son": "CUNAGUSOS",
           "father": "VIRAGNI"
         }],
+        "containsWolfName": true,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 70",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2869,8 +3766,14 @@
         "image": "http://titus.uni-frankfurt.de/ogam/html/071x001l.htm",
         "persons": ["COIMAGNI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2886,8 +3789,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-009----",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2903,8 +3812,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-053----",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ogham Inscription in Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2920,8 +3835,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067003-",
         "persons": ["VORRTIGURN"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2937,8 +3858,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067005-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2960,8 +3887,14 @@
           "son": "MAQQI-LASIRE(N)",
           "father": "BIRRAC"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2977,8 +3910,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=MA053-003009-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -2994,8 +3933,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045008-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3011,8 +3956,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045015-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3028,8 +3979,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE066-016005-",
         "persons": ["[B]RRUA/ENANN"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Notes on the antiquities in Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3051,8 +4008,14 @@
           "son": "SILLANN",
           "father": "VATTILLOGG"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3074,8 +4037,14 @@
           "son": "VRAICCI",
           "father": "MEDVVI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Thesaurus Indogermanischer\n                                Text-und Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3091,8 +4060,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057084-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "nd Sprachmateriale",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3114,8 +4089,14 @@
           "son": "DUNAIDONAS",
           "father": "MARIANI"
         }],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 16",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3134,8 +4115,17 @@
           "ISAMMNN?"
         ],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ogham stones from a souterrain in Rathkenny, Co",
+        "title": "",
+        "tribes": [{
+          "person": "ISAMMNN?",
+          "tribe": "COMMAGGAGNI"
+        }]
       }
     },
     {
@@ -3151,8 +4141,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087005-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ogham stones from a souterrain in Rathkenny, Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3168,8 +4164,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Ogham stones from a souterrain in Rathkenny, Co",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3185,8 +4187,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CL067-024016-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "'Descriptive sketch of places visited",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3202,8 +4210,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE061-006008-",
         "persons": ["VLATIAMI"],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "CIIC 185",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3219,8 +4233,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062005-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "Relics of old decency: \n                                    archaeological studies in later prehistory",
+        "title": "",
+        "tribes": []
       }
     },
     {
@@ -3236,8 +4256,14 @@
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062009-",
         "persons": [],
         "fatherson": [],
+        "containsWolfName": false,
+        "containsCowName": false,
+        "containsGodLughName": false,
         "name": "",
-        "title": ""
+        "containsBattleName": false,
+        "id": "",
+        "title": "",
+        "tribes": []
       }
     }
   ],

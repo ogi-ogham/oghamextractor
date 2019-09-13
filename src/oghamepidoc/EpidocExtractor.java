@@ -176,6 +176,9 @@ public class EpidocExtractor extends DefaultHandler2 {
 		BufferedWriter writer=new BufferedWriter(new FileWriter(new File("docs/data/oghamireland.js")));
 		writer.write("var oghamireland="+listresult.toString(2));
 		writer.close();
+		writer=new BufferedWriter(new FileWriter(new File("result.json")));
+		writer.write(listresult.toString(2));
+		writer.close();
 		model.write(new FileWriter("result.ttl"), "TTL") ;
 		System.out.println("Maqicount: "+globalmaqicount);
 	}

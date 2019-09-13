@@ -68,6 +68,8 @@
 
 <http://www.i3mainz.de/ogham#TRENALUGGO%3F_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> .
 
@@ -124,6 +126,8 @@
 
 <http://www.i3mainz.de/ogham#LUGA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> .
 
@@ -166,6 +170,8 @@
 
 <http://www.i3mainz.de/ogham#LUGUDECAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -198,6 +204,8 @@
 
 <http://www.i3mainz.de/ogham#GAMICUNAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382235> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> .
 
@@ -275,6 +283,8 @@
 
 <http://www.i3mainz.de/ogham#LUGADDON_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -358,6 +368,8 @@
 
 <http://www.i3mainz.de/ogham#CUNAGUSOS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382235> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -389,7 +401,11 @@
               "?????" .
 
 <http://www.i3mainz.de/ogham#DERCMASOC_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382360> ;
+      <http://www.i3mainz.de/ogham#nameRelatesTo>
+              <https://www.wikidata.org/wiki/Q830> , <https://www.wikidata.org/wiki/Q527> .
 
 <http://www.i3mainz.de/ogham#ADDILONA>
       a       <http://lemon-model.net/lemon#Word> ;
@@ -746,6 +762,10 @@
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#QRITTI_person> .
 
+<https://www.wikidata.org/wiki/Q67381254>
+      a       owl:Class ;
+      rdfs:label "MAQI"@en .
+
 <http://www.i3mainz.de/ogham#COMMAGGAGNI>
       a       <http://lemon-model.net/lemon#Word> ;
       <http://lemon-model.net/lemon#contains>
@@ -801,6 +821,10 @@
               "???????" ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#COMMAGGAGNI_person> .
+
+<https://www.wikidata.org/wiki/Q67382360>
+      a       owl:Class ;
+      rdfs:label "ERC"@en .
 
 <http://www.i3mainz.de/ogham#KOI%3F>
       a       <http://lemon-model.net/lemon#Word> ;
@@ -1253,6 +1277,10 @@
       <http://lemon-model.net/lemon#writtenRep>
               "??????" .
 
+<https://www.wikidata.org/wiki/Q830>
+      a       owl:Class ;
+      rdfs:label "Cow"@en .
+
 <http://www.i3mainz.de/ogham#LABRID_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
@@ -1400,6 +1428,10 @@
       <http://lemon-model.net/lemon#reference>
               <http://www.i3mainz.de/ogham#BIVAIDONAS_person> .
 
+<https://www.wikidata.org/wiki/Q527>
+      a       owl:Class ;
+      rdfs:label "Heaven"@en .
+
 <http://www.i3mainz.de/ogham#NOCATI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -1513,6 +1545,10 @@
               "MAQI-?OGGODIKA" ;
       <http://lemon-model.net/lemon#writtenRep>
               "??????????" .
+
+<https://www.wikidata.org/wiki/Q67384733>
+      a       owl:Class ;
+      rdfs:label "Ogham Word"@en .
 
 <http://lemon-model.net/lemon#transliteration>
       a       owl:DatatypeProperty .
@@ -1721,6 +1757,8 @@
 
 <http://www.i3mainz.de/ogham#CUNANETAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382235> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -1760,6 +1798,10 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-ERCCIA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382360> ;
+      <http://www.i3mainz.de/ogham#nameRelatesTo>
+              <https://www.wikidata.org/wiki/Q830> , <https://www.wikidata.org/wiki/Q527> ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#DOVINIA_person> .
 
@@ -1807,6 +1849,9 @@
               "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=LH007-072006-" , "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-164----" ;
       <https://www.wikidata.org/wiki/Property:P6568>
               <http://www.i3mainz.de/ogham#TAN..._person> , <http://www.i3mainz.de/ogham#RETAGIN> , <http://www.i3mainz.de/ogham#MAQI-CORABIR> , <http://www.i3mainz.de/ogham#TAN...> , <http://www.i3mainz.de/ogham#NETA-SALAGIA%3F> , <http://www.i3mainz.de/ogham#MAQI-CORABIR_person> .
+
+<http://www.i3mainz.de/ogham#definedInWikidata>
+      a       owl:ObjectProperty .
 
 <http://www.i3mainz.de/ogham#EQQEGGNI>
       a       <http://lemon-model.net/lemon#Word> ;
@@ -2046,6 +2091,10 @@
 
 <http://www.i3mainz.de/ogham#ERC_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382360> ;
+      <http://www.i3mainz.de/ogham#nameRelatesTo>
+              <https://www.wikidata.org/wiki/Q830> , <https://www.wikidata.org/wiki/Q527> ;
       <https://www.wikidata.org/wiki/Property:P22>
               <http://www.i3mainz.de/ogham#MAQI-ERCIAS_person> .
 
@@ -2176,6 +2225,10 @@
               "MAQI-ERCIAS?" ;
       <http://lemon-model.net/lemon#writtenRep>
               "?????????" .
+
+<https://www.wikidata.org/wiki/Q67382235>
+      a       owl:Class ;
+      rdfs:label "CUNA"@en .
 
 <http://www.i3mainz.de/ogham#nd+Sprachmateriale.+TITUS+OGAMICA._geom>
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
@@ -2315,6 +2368,8 @@
 
 <http://www.i3mainz.de/ogham#CUNACENA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382235> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q18498> .
 
@@ -2405,6 +2460,8 @@
 
 <http://www.i3mainz.de/ogham#LUGUQRIT_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> ;
       <https://www.wikidata.org/wiki/Property:P22>
@@ -2558,6 +2615,10 @@
       <https://www.wikidata.org/wiki/Property:P18>
               "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003010-" .
 
+<https://www.wikidata.org/wiki/Q67383338>
+      a       owl:Class ;
+      rdfs:label "CATTU"@en .
+
 <http://www.i3mainz.de/ogham#CURCI_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
@@ -2612,7 +2673,11 @@
               <http://www.i3mainz.de/ogham#LAG%5B..._person> .
 
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382360> ;
+      <http://www.i3mainz.de/ogham#nameRelatesTo>
+              <https://www.wikidata.org/wiki/Q830> , <https://www.wikidata.org/wiki/Q527> .
 
 <http://www.i3mainz.de/ogham#CATTINI_sense>
       a       <http://lemon-model.net/lemon#LexicalSense> ;
@@ -2675,7 +2740,11 @@
       a       owl:ObjectProperty .
 
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382360> ;
+      <http://www.i3mainz.de/ogham#nameRelatesTo>
+              <https://www.wikidata.org/wiki/Q830> , <https://www.wikidata.org/wiki/Q527> .
 
 <http://www.i3mainz.de/ogham#+%28picture+catalogue%29>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -2881,7 +2950,11 @@
               <http://www.i3mainz.de/ogham#NETA-CAGI_person> .
 
 <http://www.i3mainz.de/ogham#MINERC%3F_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382360> ;
+      <http://www.i3mainz.de/ogham#nameRelatesTo>
+              <https://www.wikidata.org/wiki/Q830> , <https://www.wikidata.org/wiki/Q527> .
 
 <http://www.i3mainz.de/ogham#MANU>
       a       <http://lemon-model.net/lemon#Word> ;
@@ -3234,6 +3307,8 @@
 
 <http://www.i3mainz.de/ogham#CATTUVIR_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67383338> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q178561> .
 
@@ -3798,6 +3873,8 @@
 
 <http://www.i3mainz.de/ogham#CATTUBUTTAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67383338> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q178561> .
 
@@ -3900,6 +3977,8 @@
 
 <http://www.i3mainz.de/ogham#CUNAMAQQI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382235> ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#CORBI_person> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -3924,6 +4003,10 @@
       a       <http://www.opengis.net/ont/geosparql#Geometry> ;
       <http://www.opengis.net/ont/geosparql#asWKT>
               "POINT (-6.570066 52.827385)" .
+
+<https://www.wikidata.org/wiki/Q67383482>
+      a       owl:Class ;
+      rdfs:label "God Lugh"@en .
 
 <http://lemon-model.net/lemon#entry>
       a       owl:ObjectProperty .
@@ -4152,6 +4235,8 @@
 
 <http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
               <https://www.wikidata.org/wiki/Q215683> .
 
@@ -4373,6 +4458,8 @@
 
 <http://www.i3mainz.de/ogham#CUNALEGEA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382235> ;
       <http://www.i3mainz.de/ogham#follows>
               <http://www.i3mainz.de/ogham#QVECI_person> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -4798,7 +4885,11 @@
               "????" .
 
 <http://www.i3mainz.de/ogham#ERCAVICCAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.i3mainz.de/ogham#definedInWikidata>
+              <https://www.wikidata.org/wiki/Q67382360> ;
+      <http://www.i3mainz.de/ogham#nameRelatesTo>
+              <https://www.wikidata.org/wiki/Q830> , <https://www.wikidata.org/wiki/Q527> .
 
 <http://www.i3mainz.de/ogham#COIMAGNI_sense>
       a       <http://lemon-model.net/lemon#LexicalSense> ;
