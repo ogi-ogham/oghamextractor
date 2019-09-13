@@ -60,6 +60,25 @@ function reloadLayer(){
 function addOfficialLayer(){
 
 	var officiallayer=L.geoJSON(oghamireland,{
+	filter: function(feature,layer){
+			 console.log($("input:radio[name='mode']:checked").val())
+	 if(feature.properties["containsWolfName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="wolf" || first)){
+			return true;
+	 }else if(feature.properties["containsBattleName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Battle" || first)){
+			return true;
+	 }else if(feature.properties["containsGodLughName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="godlugh" || first)){
+			return true;
+	 }else if(feature.properties["persons"].length==0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="NoPerson" || first)){
+			return true;
+	 }else if(feature.properties["fatherson"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="FatherSon" || first)){
+			return true;
+	 }else if(feature.properties["tribes"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Tribe" || first)){
+			return true;
+	 }
+	 if($("input:radio[name='mode']:checked").val()=="all" || first)
+		return true;
+	return false;
+	},
 onEachFeature: function (feature, layer) {
 	 var popup="Ogham Data<br/><ul>"
 	 for(prop in feature.properties){
