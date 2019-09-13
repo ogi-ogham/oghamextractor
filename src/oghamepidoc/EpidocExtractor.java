@@ -1,9 +1,13 @@
 package oghamepidoc;
 
 import java.io.BufferedWriter;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.nio.charset.StandardCharsets;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
@@ -177,7 +181,8 @@ public class EpidocExtractor extends DefaultHandler2 {
 			}
 		}
 		JSONObject listresult=OghamUtils.createGeoJSON(resultList);
-		BufferedWriter writer=new BufferedWriter(new FileWriter(new File("docs/data/oghamireland.js")));
+		BufferedWriter writer=new BufferedWriter
+			    (new OutputStreamWriter(new FileOutputStream("docs/data/oghamireland.js"), StandardCharsets.UTF_8));
 		writer.write("var oghamireland="+listresult.toString(2));
 		writer.close();
 		writer=new BufferedWriter(new FileWriter(new File("result.json")));

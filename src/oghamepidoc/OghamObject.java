@@ -238,7 +238,9 @@ public class OghamObject {
     	for(Tuple<String,String> person:this.sonOfSet) {
     		JSONObject fathersonrel=new JSONObject();
     		fathersonrel.put("father", person.getTwo());
+    		fathersonrel.put("fatherogham", OghamUtils.translitToUnicode(person.getTwo()));
     		fathersonrel.put("son", person.getOne());
+    		fathersonrel.put("sonogham", OghamUtils.translitToUnicode(person.getOne()));
     		fatherson.put(fathersonrel);
     	}
     	
@@ -247,7 +249,9 @@ public class OghamObject {
     	for(Tuple<String,String> person:this.tribePartOfSet) {
     		JSONObject triberel=new JSONObject();
     		triberel.put("person", person.getTwo());
+    		triberel.put("personogham", OghamUtils.translitToUnicode(person.getTwo()));
     		triberel.put("tribe", person.getOne());
+    		triberel.put("tribeogham", OghamUtils.translitToUnicode(person.getOne()));
     		tribes.put(triberel);
     	}	
     	properties.put("tribes", tribes);

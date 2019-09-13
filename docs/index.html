@@ -108,7 +108,7 @@ onEachFeature: function (feature, layer) {
 					}else if(prop=="tribes"){
 						popup+="<li><b>Tribes</b><ul>"
 						for(obj in feature.properties[prop]){
-							popup+="<li>"+feature.properties[prop][obj]["person"]+" is member of "+feature.properties[prop][obj]["tribe"]+"</li>"
+							popup+="<li>"+feature.properties[prop][obj]["person"]+" is member of tribe "+feature.properties[prop][obj]["tribe"]+"</li>"
 						}
 						popup+="</li></ul>"
 					}else{
