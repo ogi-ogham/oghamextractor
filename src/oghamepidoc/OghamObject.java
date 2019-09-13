@@ -210,8 +210,25 @@ public class OghamObject {
     	geojsonobj.put("type", "Feature");
     	JSONObject properties=new JSONObject();
     	properties.put("name", name);
+    	properties.put("id", oghamid);
     	properties.put("title", name);
     	properties.put("image", imagelink);
+    	boolean containsWolfName=false,containsBattleName=false,containsGodLughName=false,containsCowName=false;
+    	for(String perss:persons) {
+			if(perss.contains("CUNA")) {
+				containsWolfName=true;
+			}else if(perss.contains("CATTU")) {
+				containsBattleName=true;
+			}else if(perss.contains("LUG")) {
+				containsGodLughName=true;
+			} else if(perss.contains("ERC")) {
+				containsCowName=true;
+			}
+		}
+		properties.put("containsWolfName", containsWolfName);
+		properties.put("containsBattleName", containsBattleName);
+		properties.put("containsGodLughName", containsGodLughName);
+		properties.put("containsCowName", containsCowName);
     	JSONArray pers=new JSONArray();
     	for(String person:this.persons) {
     		pers.put(person);
@@ -224,7 +241,16 @@ public class OghamObject {
     		fathersonrel.put("son", person.getOne());
     		fatherson.put(fathersonrel);
     	}
+    	
     	properties.put("fatherson", fatherson);
+    	JSONArray tribes=new JSONArray();
+    	for(Tuple<String,String> person:this.tribePartOfSet) {
+    		JSONObject triberel=new JSONObject();
+    		triberel.put("person", person.getTwo());
+    		triberel.put("tribe", person.getOne());
+    		tribes.put(triberel);
+    	}	
+    	properties.put("tribes", tribes);
     	JSONObject geom=new JSONObject();
     	JSONArray coordinates=new JSONArray();
     	coordinates.put(location.getCoordinate().x);

@@ -25,6 +25,8 @@ public class EpidocExtractor extends DefaultHandler2 {
 
 	boolean geo=false,title=false,foundmaqi=false,foundmucoi=false;
 	
+	Integer maqicount=0;
+	
 	GeometryFactory fac=new GeometryFactory();
 	
 	OghamObject result=new OghamObject();
@@ -107,6 +109,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 				if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("MAQI")) {
 					foundmaqi=true;
 					System.out.println("FOUND MAQI!!!!!!");
+					maqicount++;
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("MUCOI")) {
 					System.out.println("FOUND MUCOI!!!!!!");
 					foundmucoi=true;
@@ -159,18 +162,21 @@ public class EpidocExtractor extends DefaultHandler2 {
 	public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException {
 		OntModel model=ModelFactory.createOntologyModel();
 		List<OghamObject> resultList=new LinkedList<OghamObject>();
+		Integer globalmaqicount=0;
 		for(File folder:new File("ogham3d_epidoc_files/ogham3d_epidoc_files/").listFiles()) {
 			for(File file:folder.listFiles()) {
 				EpidocExtractor extractor=new EpidocExtractor();
 				SAXParserFactory.newInstance().newSAXParser().parse(file, extractor);
 				resultList.add(extractor.result);
 				extractor.result.toRDF(model);
+				globalmaqicount+=extractor.maqicount;
 			}
 		}
 		JSONObject listresult=OghamUtils.createGeoJSON(resultList);
-		BufferedWriter writer=new BufferedWriter(new FileWriter(new File("result.json")));
-		writer.write(listresult.toString(2));
+		BufferedWriter writer=new BufferedWriter(new FileWriter(new File("docs/data/oghamireland.js")));
+		writer.write("var oghamireland="+listresult.toString(2));
 		writer.close();
 		model.write(new FileWriter("result.ttl"), "TTL") ;
+		System.out.println("Maqicount: "+globalmaqicount);
 	}
 }
