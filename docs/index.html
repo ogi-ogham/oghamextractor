@@ -99,7 +99,8 @@ onEachFeature: function (feature, layer) {
 		}
 	 }
 	 popup+="</ul>"
-	 if(feature.properties["containsWolfName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='r']:checked").val()=="wolf" || first)){
+	 console.log($("input:radio[name='mode']:checked").val())
+	 if(feature.properties["containsWolfName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="wolf" || first)){
 			 var greyIcon = new L.Icon({
                                         iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -109,7 +110,7 @@ onEachFeature: function (feature, layer) {
                                         shadowSize: [41, 41]
                                     });
 			layer.setIcon(greyIcon);
-	 }else if(feature.properties["containsBattleName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='r']:checked").val()=="battle" || first)){
+	 }else if(feature.properties["containsBattleName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Battle" || first)){
 					 var greyIcon = new L.Icon({
                                         iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -119,7 +120,7 @@ onEachFeature: function (feature, layer) {
                                         shadowSize: [41, 41]
                                     });
 			layer.setIcon(greyIcon);
-	 }else if(feature.properties["containsGodLughName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='r']:checked").val()=="godlugh" || first)){
+	 }else if(feature.properties["containsGodLughName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="godlugh" || first)){
 							 var greyIcon = new L.Icon({
                                         iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -129,7 +130,7 @@ onEachFeature: function (feature, layer) {
                                         shadowSize: [41, 41]
                                     });
 			layer.setIcon(greyIcon);
-	 }else if(feature.properties["persons"].length==0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='r']:checked").val()=="person" || first)){
+	 }else if(feature.properties["persons"].length==0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="NoPerson" || first)){
 							 var greyIcon = new L.Icon({
                                         iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -139,7 +140,7 @@ onEachFeature: function (feature, layer) {
                                         shadowSize: [41, 41]
                                     });
 			layer.setIcon(greyIcon);
-	 }else if(feature.properties["fatherson"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='r']:checked").val()=="fahterson" || first)){
+	 }else if(feature.properties["fatherson"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="FatherSon" || first)){
 							 var greyIcon = new L.Icon({
                                         iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -149,7 +150,7 @@ onEachFeature: function (feature, layer) {
                                         shadowSize: [41, 41]
                                     });
 			layer.setIcon(greyIcon);
-	 }else if(feature.properties["tribes"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='r']:checked").val()=="tribes" || first)){
+	 }else if(feature.properties["tribes"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Tribe" || first)){
 							 var greyIcon = new L.Icon({
                                         iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -225,9 +226,9 @@ loaded=true;
     <input type="radio" id="wolf" name="mode" value="wolf" onclick="reloadLayer()">
     <label for="wolf" style="background-color:gray">Wolf</label> 
     <input type="radio" id="godlugh" name="mode" value="godlugh" onclick="reloadLayer()">
-    <label for="godlugh" style="background-color:green">God Lugh</label>
-    <input type="radio" id="battle" name="mode" value="AmericanExpress" onclick="reloadLayer()">
-    <label for="battle" style="background-color:yellow">Battle</label> 
+    <label for="godlugh" style="background-color:yellow">God Lugh</label>
+    <input type="radio" id="battle" name="mode" value="Battle" onclick="reloadLayer()">
+    <label for="battle" style="background-color:green">Battle</label> 
 	<input type="radio" id="noperson" name="mode" value="NoPerson" onclick="reloadLayer()">
     <label for="noperson" style="background-color:red">No persons described</label> 
 	<input type="radio" id="fahterson" name="mode" value="FatherSon" onclick="reloadLayer()">
