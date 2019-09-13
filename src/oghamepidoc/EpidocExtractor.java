@@ -26,6 +26,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 	boolean geo=false,title=false,foundmaqi=false,foundmucoi=false;
 	
 	Integer maqicount=0;
+    Integer mucoicount=0;
 	
 	GeometryFactory fac=new GeometryFactory();
 	
@@ -113,6 +114,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("MUCOI")) {
 					System.out.println("FOUND MUCOI!!!!!!");
 					foundmucoi=true;
+                    mucoicount++;
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("CELI")) {
 					System.out.println("FOUND CELI!!!!!!");
 					foundfollower=true;
@@ -163,6 +165,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 		OntModel model=ModelFactory.createOntologyModel();
 		List<OghamObject> resultList=new LinkedList<OghamObject>();
 		Integer globalmaqicount=0;
+        Integer globalmucoicount=0;
 		for(File folder:new File("ogham3d_epidoc_files/ogham3d_epidoc_files/").listFiles()) {
 			for(File file:folder.listFiles()) {
 				EpidocExtractor extractor=new EpidocExtractor();
@@ -170,6 +173,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 				resultList.add(extractor.result);
 				extractor.result.toRDF(model);
 				globalmaqicount+=extractor.maqicount;
+                globalmucoicount+=extractor.mucoicount;
 			}
 		}
 		JSONObject listresult=OghamUtils.createGeoJSON(resultList);
@@ -181,5 +185,6 @@ public class EpidocExtractor extends DefaultHandler2 {
 		writer.close();
 		model.write(new FileWriter("result.ttl"), "TTL") ;
 		System.out.println("Maqicount: "+globalmaqicount);
+        System.out.println("Mucoicount: "+globalmucoicount);
 	}
 }
