@@ -75,17 +75,23 @@ onEachFeature: function (feature, layer) {
 					}
 	
 				}else if(prop=="persons"){
-						popup+="Persons<ul>"
+						popup+="<li><b>Persons</b><ul>"
 						for(obj in feature.properties[prop]){
 							popup+="<li>"+feature.properties[prop][obj]+"</li>"
 						}
-						popup+="</ul>"
+						popup+="</ul></li>"
 				}else if(prop=="fatherson"){
-						popup+="Father - Son<ul>"
+						popup+="<li><b>Father - Son</b><ul>"
 						for(obj in feature.properties[prop]){
 							popup+="<li>"+feature.properties[prop][obj]["son"]+" is son of "+feature.properties[prop][obj]["father"]+"</li>"
 						}
-						popup+="</ul>"
+						popup+="</ul></li>"
+					}else if(prop=="tribes"){
+						popup+="<li><b>Tribes</b><ul>"
+						for(obj in feature.properties[prop]){
+							popup+="<li>"+feature.properties[prop][obj]["person"]+" is member of "+feature.properties[prop][obj]["tribe"]+"</li>"
+						}
+						popup+="</li></ul>"
 					}else{
 								 	popup+="<li>"+prop+" - "+feature.properties[prop]+"</li>"
 				}
