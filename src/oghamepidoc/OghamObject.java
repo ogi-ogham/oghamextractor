@@ -224,6 +224,8 @@ public class OghamObject {
 			} else if(perss.contains("ERC")) {
 				containsCowName=true;
 			}
+            // DALAGNI one who is blind
+            // DERCMASOC one with an elegant eye
 		}
 		properties.put("containsWolfName", containsWolfName);
 		properties.put("containsBattleName", containsBattleName);
