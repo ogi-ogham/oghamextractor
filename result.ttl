@@ -273,7 +273,7 @@
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#CELI>
-      a       <http://lemon-model.net/lemon#Word> ;
+      a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q67381377> ;
       <http://lemon-model.net/lemon#contains>
               <http://www.i3mainz.de/ogham#ᚊ_character> , <http://www.i3mainz.de/ogham#ᚔ_character> , <http://www.i3mainz.de/ogham#ᚓ_character> , <http://www.i3mainz.de/ogham#ᚂ_character> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -763,7 +763,7 @@
               <http://www.i3mainz.de/ogham#QRITTI_person> .
 
 <https://www.wikidata.org/wiki/Q67381254>
-      a       owl:Class ;
+      a       <https://www.wikidata.org/wiki/Q67381377> ;
       rdfs:label "MAQI"@en .
 
 <http://www.i3mainz.de/ogham#COMMAGGAGNI>
@@ -823,7 +823,7 @@
               <http://www.i3mainz.de/ogham#COMMAGGAGNI_person> .
 
 <https://www.wikidata.org/wiki/Q67382360>
-      a       owl:Class ;
+      a       <https://www.wikidata.org/wiki/Q67382150> ;
       rdfs:label "ERC"@en .
 
 <http://www.i3mainz.de/ogham#KOI%3F>
@@ -2149,7 +2149,7 @@
               <http://www.i3mainz.de/ogham#DOLIGENN_person> .
 
 <http://www.i3mainz.de/ogham#AVI>
-      a       <http://lemon-model.net/lemon#Word> ;
+      a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q67381377> ;
       <http://lemon-model.net/lemon#contains>
               <http://www.i3mainz.de/ogham#ᚐ_character> , <http://www.i3mainz.de/ogham#ᚔ_character> , <http://www.i3mainz.de/ogham#ᚄ_character> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -2225,7 +2225,7 @@
               "ᚋᚐᚔᚓᚏᚊᚔᚐᚅ" .
 
 <https://www.wikidata.org/wiki/Q67382235>
-      a       owl:Class ;
+      a       <https://www.wikidata.org/wiki/Q67382150> ;
       rdfs:label "CUNA"@en .
 
 <http://www.i3mainz.de/ogham#GALEOTOS>
@@ -2609,7 +2609,7 @@
               "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003010-" .
 
 <https://www.wikidata.org/wiki/Q67383338>
-      a       owl:Class ;
+      a       <https://www.wikidata.org/wiki/Q67382150> ;
       rdfs:label "CATTU"@en .
 
 <http://www.i3mainz.de/ogham#CURCI_person>
@@ -3073,7 +3073,7 @@
               "ᚊᚑᚏᚑᚉᚐᚆᚔ" .
 
 <http://www.i3mainz.de/ogham#KOI>
-      a       <http://lemon-model.net/lemon#Word> ;
+      a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q67381377> ;
       <http://lemon-model.net/lemon#contains>
               <http://www.i3mainz.de/ogham#ᚔ_character> , <http://www.i3mainz.de/ogham#ᚑ_character> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3603,7 +3603,7 @@
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#MUCOI>
-      a       <http://lemon-model.net/lemon#Word> ;
+      a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q67381377> ;
       <http://lemon-model.net/lemon#contains>
               <http://www.i3mainz.de/ogham#ᚊ_character> , <http://www.i3mainz.de/ogham#ᚋ_character> , <http://www.i3mainz.de/ogham#ᚔ_character> , <http://www.i3mainz.de/ogham#ᚒ_character> , <http://www.i3mainz.de/ogham#ᚑ_character> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -3628,7 +3628,7 @@
               <http://www.i3mainz.de/ogham#CURCI_person> .
 
 <http://www.i3mainz.de/ogham#DERCMASOC>
-      a       <http://lemon-model.net/lemon#Word> ;
+      a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q67382150> ;
       <http://lemon-model.net/lemon#contains>
               <http://www.i3mainz.de/ogham#ᚊ_character> , <http://www.i3mainz.de/ogham#ᚐ_character> , <http://www.i3mainz.de/ogham#ᚋ_character> , <http://www.i3mainz.de/ogham#ᚏ_character> , <http://www.i3mainz.de/ogham#ᚑ_character> , <http://www.i3mainz.de/ogham#ᚓ_character> , <http://www.i3mainz.de/ogham#ᚈ_character> , <http://www.i3mainz.de/ogham#ᚅ_character> ;
       <http://lemon-model.net/lemon#sense>
@@ -4173,7 +4173,7 @@
               <http://www.i3mainz.de/ogham#DOVINIAS_person> .
 
 <http://www.i3mainz.de/ogham#ANM>
-      a       <http://lemon-model.net/lemon#Word> ;
+      a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q67381377> ;
       <http://lemon-model.net/lemon#contains>
               <http://www.i3mainz.de/ogham#ᚐ_character> , <http://www.i3mainz.de/ogham#ᚋ_character> , <http://www.i3mainz.de/ogham#ᚆ_character> ;
       <http://lemon-model.net/lemon#transliteration>
@@ -4401,7 +4401,7 @@
               "ᚋᚐᚐ" .
 
 <http://www.i3mainz.de/ogham#DALAGNI>
-      a       <http://lemon-model.net/lemon#Word> ;
+      a       <http://lemon-model.net/lemon#Word> , <https://www.wikidata.org/wiki/Q67382150> ;
       <http://lemon-model.net/lemon#contains>
               <http://www.i3mainz.de/ogham#ᚐ_character> , <http://www.i3mainz.de/ogham#ᚔ_character> , <http://www.i3mainz.de/ogham#ᚌ_character> , <http://www.i3mainz.de/ogham#ᚂ_character> , <http://www.i3mainz.de/ogham#ᚈ_character> , <http://www.i3mainz.de/ogham#ᚆ_character> ;
       <http://lemon-model.net/lemon#sense>
