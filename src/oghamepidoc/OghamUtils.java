@@ -12,21 +12,21 @@ import org.json.JSONObject;
 public class OghamUtils {
 
 	public static final Set<String> nomenclature = new TreeSet<String>() {{
-	    add("CUNA");
-	    add("ERC");
-	    add("CATTU");
-	    add("LUG");
-	    add("DALAGNI");
-	    add("DERCMASOC");
+	    add("CUNA"); //wolf/hound
+        add("CATTU"); //battle
+	    add("ERC"); //heaven/cow
+	    add("LUG"); //got lough
+	    add("DALAGNI"); //one who is blind
+	    add("DERCMASOC"); //one with an elegant eye
 	}};
 	
 	public static final Set<String> formular = new TreeSet<String>() {{
-	    add("MAQI");
-	    add("MUCOI");
-	    add("ANM");
-	    add("AVI");
-	    add("CELI");
-	    add("KOI");
+	    add("MAQI"); //son
+	    add("MUCOI"); //tribe/sept
+	    add("ANM"); //name
+	    add("AVI"); //descendant
+	    add("CELI"); //follower/devotee
+	    add("KOI"); //here is
 	}};
 	
 	public static final Map<String, String> oghammap = new HashMap<String, String>() {{
