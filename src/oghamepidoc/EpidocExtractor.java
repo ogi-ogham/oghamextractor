@@ -10,8 +10,6 @@ import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
@@ -27,7 +25,7 @@ import org.xml.sax.ext.DefaultHandler2;
 
 public class EpidocExtractor extends DefaultHandler2 {
 
-	boolean geo=false,title=false,foundmaqi=false,foundmucoi=false;
+	boolean geo=false,title=false,foundmaqi=false,foundmucoi=false,foundkoi=false,foundanm=false,founderc=false,foundblind=false,foundeye=false;
 	
 	Integer maqicount=0;
     Integer mucoicount=0;
@@ -74,8 +72,10 @@ public class EpidocExtractor extends DefaultHandler2 {
 			persname=true;
 			break;
 		case "w": 
-			if(attributes.getValue("lemma")!=null)
+			if(attributes.getValue("lemma")!=null) {
 				result.words.add(attributes.getValue("lemma"));
+				result.text+=attributes.getValue("lemma")+" ";
+			}
 			if(persname) {
 				result.persons.add(attributes.getValue("lemma"));
 				if(this.curfatherson.getOne()!=null && this.curfatherson.getTwo()==null && foundmaqi) {
@@ -128,6 +128,14 @@ public class EpidocExtractor extends DefaultHandler2 {
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("AVI")) {
 					System.out.println("FOUND AVI!!!!!!");
 					founddescendant=true;
+				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("KOI")) {
+					System.out.println("FOUND KOI!!!!!!");
+					foundkoi=true;
+					result.containskoi=true;
+				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("ANM")) {
+					System.out.println("FOUND ANM!!!!!!");
+					foundanm=true;
+					result.containsanm=true;
 				}
 			}
 			break;

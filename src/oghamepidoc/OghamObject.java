@@ -25,6 +25,8 @@ public class OghamObject {
 	
 	public String imagelink="";
 	
+	public String text="";
+	
 	public Set<String> persons=new TreeSet<String>();
 	
 	public Set<String> words=new TreeSet<String>();
@@ -38,6 +40,8 @@ public class OghamObject {
 	public Set<Tuple<String,String>> nephewOfSet=new TreeSet<Tuple<String,String>>();
 	
 	public Set<Tuple<String,String>> tribePartOfSet=new TreeSet<Tuple<String,String>>();
+	
+	Boolean containskoi=false,containsanm=false;
 	
 	public static final String BASEURI="http://www.i3mainz.de/ogham#";
 	
@@ -213,7 +217,9 @@ public class OghamObject {
     	properties.put("id", oghamid);
     	properties.put("title", name);
     	properties.put("image", imagelink);
-    	boolean containsWolfName=false,containsBattleName=false,containsGodLughName=false,containsCowName=false;
+    	properties.put("text",text);
+    	properties.put("textogham",OghamUtils.translitToUnicode(text));
+    	boolean containsWolfName=false,containsBattleName=false,containsGodLughName=false,containsCowName=false,containsBlind=false,containsEye=false;
     	for(String perss:persons) {
 			if(perss.contains("CUNA")) {
 				containsWolfName=true;
@@ -223,15 +229,21 @@ public class OghamObject {
 				containsGodLughName=true;
 			} else if(perss.contains("ERC")) {
 				containsCowName=true;
+			} else if(perss.contains("DALAGNI")) {
+				containsBlind=true;
+			} else if(perss.contains("DERMASOC")) {
+				containsEye=true;
 			}
-            // DALAGNI one who is blind
-            // DERCMASOC one with an elegant eye
 		}
 		properties.put("containsWolfName", containsWolfName);
 		properties.put("containsBattleName", containsBattleName);
 		properties.put("containsGodLughName", containsGodLughName);
 		properties.put("containsCowName", containsCowName);
-    	JSONArray pers=new JSONArray();
+		properties.put("containsBlind", containsBlind);
+		properties.put("containsEye", containsEye);
+		properties.put("containsHereIs", containskoi);
+		properties.put("containsName", containsanm);
+		JSONArray pers=new JSONArray();
     	for(String person:this.persons) {
     		JSONObject obj=new JSONObject();
     		obj.put("person", person);
