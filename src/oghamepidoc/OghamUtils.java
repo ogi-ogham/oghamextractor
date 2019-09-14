@@ -14,10 +14,19 @@ public class OghamUtils {
 	public static final Set<String> nomenclature = new TreeSet<String>() {{
 	    add("CUNA");
 	    add("ERC");
+	    add("CATTU");
+	    add("LUG");
+	    add("DALAGNI");
+	    add("DERCMASOC");
 	}};
 	
 	public static final Set<String> formular = new TreeSet<String>() {{
 	    add("MAQI");
+	    add("MUCOI");
+	    add("ANM");
+	    add("AVI");
+	    add("CELI");
+	    add("KOI");
 	}};
 	
 	public static final Map<String, String> oghammap = new HashMap<String, String>() {{
