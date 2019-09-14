@@ -15,6 +15,7 @@
       <script src="js/leaflet_easyprint.js"></script>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   
+<meta charset="UTF-8">
 <script>
 var prefixlist="@prefix owl: <http://www.w3.org/2002/07/owl#> .\n @prefix foaf: <http://xmlns.com/foaf/0.1/> .\n @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . @prefix xml: <http://www.w3.org/XML/1998/namespace> . \n @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . \n @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n"
 var overlayMaps=[]
@@ -36,7 +37,7 @@ var loaded=false;
 <script>
 var wikidataToOSMMap={}
 var osmToWikidataMap={}
-	var map = L.map('mapid',{fullscreenControl: true,fullscreenControlOptions: {position: 'topleft'}}).setView([53.3425,-6.265833], 6).locate({setView: true, maxZoom: 22});
+	var map = L.map('mapid',{fullscreenControl: true,fullscreenControlOptions: {position: 'topleft'}}).setView([53.3425,-6.265833], 6);
 	map.addControl( new L.Control.Search({
 		url: 'https://nominatim.openstreetmap.org/search?format=json&q={s}',
 		jsonpParam: 'json_callback',
@@ -78,13 +79,21 @@ function addOfficialLayer(){
 			return true;
 	 }else if(feature.properties["tribes"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Tribe" || first)){
 			return true;
+	 }else if(feature.properties["followers"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="follower" || first)){
+			return true;
+	 }else if(feature.properties["descendants"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="descendant" || first)){
+			return true;
 	 }
 	 if($("input:radio[name='mode']:checked").val()=="all" || first)
 		return true;
 	return false;
 	},
 onEachFeature: function (feature, layer) {
-	 var popup="Ogham Data<br/><ul>"
+	 var popup="Ogham Data "
+	 if(typeof feature.properties["id"] !== 'undefined'){
+        popup+="("+feature.properties["id"]+")"
+	 }
+	 popup+="<br/><ul>"
 	 for(prop in feature.properties){
 		if(!prop.startsWith("contains") && feature.properties[prop]!=""){
 				if(prop=="image"){
@@ -100,19 +109,31 @@ onEachFeature: function (feature, layer) {
 				}else if(prop=="persons"){
 						popup+="<li><b>Persons</b><ul>"
 						for(obj in feature.properties[prop]){
-							popup+="<li>"+feature.properties[prop][obj]+"</li>"
+							popup+="<li>"+feature.properties[prop][obj]["person"]+"("+feature.properties[prop][obj]["personogham"]+")</li>"
 						}
 						popup+="</ul></li>"
 				}else if(prop=="fatherson"){
 						popup+="<li><b>Father - Son</b><ul>"
 						for(obj in feature.properties[prop]){
-							popup+="<li>"+feature.properties[prop][obj]["son"]+" is son of "+feature.properties[prop][obj]["father"]+"</li>"
+							popup+="<li>"+feature.properties[prop][obj]["son"]+"("+feature.properties[prop][obj]["sonogham"]+") is son of <br/>"+feature.properties[prop][obj]["father"]+"("+feature.properties[prop][obj]["fatherogham"]+")</li>"
 						}
 						popup+="</ul></li>"
 					}else if(prop=="tribes"){
 						popup+="<li><b>Tribes</b><ul>"
 						for(obj in feature.properties[prop]){
-							popup+="<li>"+feature.properties[prop][obj]["person"]+" is member of tribe "+feature.properties[prop][obj]["tribe"]+"</li>"
+							popup+="<li>"+feature.properties[prop][obj]["person"]+"("+feature.properties[prop][obj]["personogham"]+") is member of tribe <br/>"+feature.properties[prop][obj]["tribe"]+"("+feature.properties[prop][obj]["tribeogham"]+")</li>"
+						}
+						popup+="</li></ul>"
+					}else if(prop=="followers"){
+						popup+="<li><b>Followers</b><ul>"
+						for(obj in feature.properties[prop]){
+							popup+="<li>"+feature.properties[prop][obj]["person"]+"("+feature.properties[prop][obj]["personogham"]+") follows <br/>"+feature.properties[prop][obj]["follower"]+"("+feature.properties[prop][obj]["followerogham"]+")</li>"
+						}
+						popup+="</li></ul>"
+					}else if(prop=="descendants"){
+						popup+="<li><b>Descendants</b><ul>"
+						for(obj in feature.properties[prop]){
+							popup+="<li>"+feature.properties[prop][obj]["person"]+"("+feature.properties[prop][obj]["personogham"]+") hasDescendant <br/>"+feature.properties[prop][obj]["descendant"]+"("+feature.properties[prop][obj]["descendantogham"]+")</li>"
 						}
 						popup+="</li></ul>"
 					}else{
@@ -183,9 +204,29 @@ onEachFeature: function (feature, layer) {
                                         shadowSize: [41, 41]
                                     });
 			layer.setIcon(greyIcon);
+	 }else if(feature.properties["descendants"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="descendant" || first)){
+							 var greyIcon = new L.Icon({
+                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                        iconSize: [25, 41],
+                                        iconAnchor: [12, 41],
+                                        popupAnchor: [1, -34],
+                                        shadowSize: [41, 41]
+                                    });
+			layer.setIcon(greyIcon);
+	 }else if(feature.properties["followers"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="follower" || first)){
+							 var greyIcon = new L.Icon({
+                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                        iconSize: [25, 41],
+                                        iconAnchor: [12, 41],
+                                        popupAnchor: [1, -34],
+                                        shadowSize: [41, 41]
+                                    });
+			layer.setIcon(greyIcon);
 	 }
 
-         layer.bindPopup(popup);
+         layer.bindPopup(popup,{maxWidth : 500});
      }}).addTo(map);
 	 		first=false;
 	overlayMaps.push(officiallayer);
@@ -258,6 +299,10 @@ loaded=true;
     <label for="fatherson" style="background-color:orange">FatherSon</label> 
 	<input type="radio" id="tribe" name="mode" value="Tribe" onclick="reloadLayer()">
     <label for="tribe" style="background-color:black;color:white">Tribe</label> 
-  </fieldset>
+	<input type="radio" id="descendant" name="mode" value="descendant" onclick="reloadLayer()">
+    <label for="descendant" style="background-color:violet;color:white">Descendant</label> 
+	<input type="radio" id="follower" name="mode" value="follower" onclick="reloadLayer()">
+    <label for="follower" style="background-color:violet;color:white">Follower</label> 
+    </fieldset>
 </body>
 </html>

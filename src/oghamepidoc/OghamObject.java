@@ -233,7 +233,10 @@ public class OghamObject {
 		properties.put("containsCowName", containsCowName);
     	JSONArray pers=new JSONArray();
     	for(String person:this.persons) {
-    		pers.put(person);
+    		JSONObject obj=new JSONObject();
+    		obj.put("person", person);
+    		obj.put("personogham", OghamUtils.translitToUnicode(person));
+    		pers.put(obj);
     	}
     	properties.put("persons", pers);
     	JSONArray fatherson=new JSONArray();
@@ -257,6 +260,26 @@ public class OghamObject {
     		tribes.put(triberel);
     	}	
     	properties.put("tribes", tribes);
+    	JSONArray descendants=new JSONArray();
+    	for(Tuple<String,String> person:this.descendantOfSet) {
+    		JSONObject triberel=new JSONObject();
+    		triberel.put("person", person.getTwo());
+    		triberel.put("personogham", OghamUtils.translitToUnicode(person.getTwo()));
+    		triberel.put("descendant", person.getOne());
+    		triberel.put("descendantogham", OghamUtils.translitToUnicode(person.getOne()));
+    		descendants.put(triberel);
+    	}	
+    	properties.put("descendants", descendants);
+    	JSONArray followers=new JSONArray();
+    	for(Tuple<String,String> person:this.followerOfSet) {
+    		JSONObject triberel=new JSONObject();
+    		triberel.put("person", person.getTwo());
+    		triberel.put("personogham", OghamUtils.translitToUnicode(person.getTwo()));
+    		triberel.put("follower", person.getOne());
+    		triberel.put("followerogham", OghamUtils.translitToUnicode(person.getOne()));
+    		followers.put(triberel);
+    	}	
+    	properties.put("followers", followers);
     	JSONObject geom=new JSONObject();
     	JSONArray coordinates=new JSONArray();
     	coordinates.put(location.getCoordinate().x);
