@@ -9,6 +9,7 @@ Ogham Letter	https://www.wikidata.org/wiki/Q41812345
 Ogham Word https://www.wikidata.org/wiki/Q67384733
 Ogham formular word	https://www.wikidata.org/wiki/Q67381377
 Ogham nomenclature word 	https://www.wikidata.org/wiki/Q67382150
+Ogham Stone https://www.wikidata.org/wiki/Q2016147
 
 formular words
 --------------
@@ -25,3 +26,8 @@ Alphabet
 --------
 
 Beith	https://www.wikidata.org/wiki/Q4881483
+
+Stones
+------
+
+CIIC 38	https://www.wikidata.org/wiki/Q67510124
