@@ -165,15 +165,13 @@ onEachFeature: function (feature, layer) {
                                     });
 			layer.setIcon(greyIcon);
 	 }else if(feature.properties["containsBattleName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Battle" || first)){
-					 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+					 var cattuIcon = new L.Icon({
+						iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CATTU-2x.png',
+						iconSize: [41, 41],
+						iconAnchor: [20, 41],
+						popupAnchor: [0, -41]
+					});
+			layer.setIcon(cattuIcon);
 	 }else if(feature.properties["containsCowName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Cow" || first)){
 					 var greyIcon = new L.Icon({
                                         iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
@@ -352,7 +350,7 @@ loaded=true;
     <input type="radio" id="godlugh" name="mode" value="godlugh" onclick="reloadLayer()">
     <label for="godlugh" style="background-color:yellow">God Lugh (LUG)</label>
     <input type="radio" id="battle" name="mode" value="Battle" onclick="reloadLayer()">
-    <label for="battle" style="background-color:green">Battle (CATTU)</label> 
+    <label for="battle" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CATTU.png" height="30">Battle (CATTU)</label> 
 	<input type="radio" id="cow" name="mode" value="Cow" onclick="reloadLayer()">
     <label for="cow" style="background-color:green">Heaven/Cow (ERC)</label> 
 	<input type="radio" id="DALAGNI" name="mode" value="DALAGNI" onclick="reloadLayer()">
