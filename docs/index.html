@@ -181,15 +181,13 @@ onEachFeature: function (feature, layer) {
                                     });
 			layer.setIcon(greyIcon);
 	 }else if(feature.properties["containsGodLughName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="godlugh" || first)){
-							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+							var lugIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/LUG-2x.png',
+	iconSize: [41, 41],
+	iconAnchor: [20, 41],
+	popupAnchor: [0, -41]
+});
+			layer.setIcon(lugIcon);
 	 }else if(feature.properties["persons"].length==0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="NoPerson" || first)){
 							 var greyIcon = new L.Icon({
                                         iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
@@ -344,7 +342,7 @@ loaded=true;
     <input type="radio" id="wolf" name="mode" value="wolf" onclick="reloadLayer()">
     <label for="wolf" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CUNA.png" height="30">Wolf/Hound (CUNA, ᚉᚒᚅᚐ)</label> 
     <input type="radio" id="godlugh" name="mode" value="godlugh" onclick="reloadLayer()">
-    <label for="godlugh" style="background-color:yellow">God Lugh (LUG)</label>
+    <label for="godlugh" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/LUG.png" height="30">God Lugh (LUG, ᚂᚒᚌ)</label>
     <input type="radio" id="battle" name="mode" value="Battle" onclick="reloadLayer()">
     <label for="battle" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CATTU.png" height="30">Battle (CATTU, ᚉᚐᚈᚈᚒ)</label> 
 	<input type="radio" id="cow" name="mode" value="Cow" onclick="reloadLayer()">
