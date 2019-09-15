@@ -231,7 +231,7 @@ public class OghamObject {
 				containsCowName=true;
 			} else if(perss.contains("DALAGNI")) {
 				containsBlind=true;
-			} else if(perss.contains("DERMASOC")) {
+			} else if(perss.contains("DERCMASOC")) {
 				containsEye=true;
 			}
 		}
