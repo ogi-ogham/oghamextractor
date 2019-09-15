@@ -211,15 +211,13 @@ onEachFeature: function (feature, layer) {
                                     });
 			layer.setIcon(greyIcon);
 	 }else if(feature.properties["tribes"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Tribe" || first)){
-							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+							 var mucoiIcon = new L.Icon({
+								iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/MUCOI-2x.png',
+								iconSize: [41, 41],
+								iconAnchor: [20, 41],
+								popupAnchor: [0, -41]
+							});
+			layer.setIcon(mucoiIcon);
 	 }else if(feature.properties["descendants"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="descendant" || first)){
 							 var greyIcon = new L.Icon({
                                         iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
@@ -360,7 +358,7 @@ loaded=true;
 	<input type="radio" id="fahterson" name="mode" value="FatherSon" onclick="reloadLayer()">
     <label for="fatherson" style="background-color:orange">Father/Son (MAQI)</label> 
 	<input type="radio" id="tribe" name="mode" value="Tribe" onclick="reloadLayer()">
-    <label for="tribe" style="background-color:black;color:white">Tribe (MUCOI)</label> 
+    <label for="tribe" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/MUCOI.png" height="30">&nbsp;Tribe (MUCOI, ᚋᚒᚉᚑᚔ)</label> 
 	<input type="radio" id="descendant" name="mode" value="descendant" onclick="reloadLayer()">
     <label for="descendant" style="background-color:violet;color:white">Descendant (AVI)</label> 
 	<input type="radio" id="follower" name="mode" value="follower" onclick="reloadLayer()">
