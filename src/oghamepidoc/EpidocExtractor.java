@@ -29,6 +29,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 	
 	Integer maqicount=0;
     Integer mucoicount=0;
+    Integer wordcounter=0;
 	
 	GeometryFactory fac=new GeometryFactory();
 	
@@ -186,6 +187,9 @@ public class EpidocExtractor extends DefaultHandler2 {
 				extractor.result.toRDF(model);
 				globalmaqicount+=extractor.maqicount;
                 globalmucoicount+=extractor.mucoicount;
+                if(extractor.wordcounter==1) {
+                	extractor.result.justoneword=true;
+                }
 			}
 		}
 		JSONObject listresult=OghamUtils.createGeoJSON(resultList);

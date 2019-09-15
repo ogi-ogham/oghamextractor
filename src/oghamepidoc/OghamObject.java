@@ -41,7 +41,7 @@ public class OghamObject {
 	
 	public Set<Tuple<String,String>> tribePartOfSet=new TreeSet<Tuple<String,String>>();
 	
-	Boolean containskoi=false,containsanm=false;
+	Boolean containskoi=false,containsanm=false,justoneword=false;
 	
 	public static final String BASEURI="http://www.i3mainz.de/ogham#";
 	
@@ -242,7 +242,7 @@ public class OghamObject {
 		properties.put("containsBlind", containsBlind);
 		properties.put("containsEye", containsEye);
 		properties.put("containsHereIs", containskoi);
-		properties.put("containsName", containsanm);
+		properties.put("containsName", containsanm || justoneword);
 		JSONArray pers=new JSONArray();
     	for(String person:this.persons) {
     		JSONObject obj=new JSONObject();
