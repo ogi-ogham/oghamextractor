@@ -77,6 +77,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 				result.words.add(attributes.getValue("lemma"));
 				result.text+=attributes.getValue("lemma")+" ";
 			}
+			wordcounter++;
 			if(persname) {
 				result.persons.add(attributes.getValue("lemma"));
 				if(this.curfatherson.getOne()!=null && this.curfatherson.getTwo()==null && foundmaqi) {
