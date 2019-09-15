@@ -30,7 +30,7 @@ var loaded=false;
 </head>
 <body>
 <h2 align="center">OGI Ogham Analyses</h2>
-<p><i><center>CC BY 4.0 Timo Homburg, Florian Thiery</center></i></p>
+<p><i><center>CC BY 4.0 Timo Homburg, Florian Thiery, data based on http://ogham.celt.dias.ie CC BY-NC-SA 3.0 Ireland, &copy;2013 by the School of Celtic Studies http://www.celt.dias.ie</center></i></p>
 
 <div id="mapid" style="height:75%;border:5px solid black;">
 
@@ -66,7 +66,7 @@ function addOfficialLayer(){
 
 	var officiallayer=L.geoJSON(oghamireland,{
 	filter: function(feature,layer){
-			 console.log($("input:radio[name='mode']:checked").val())
+			 //console.log($("input:radio[name='mode']:checked").val())
 	 if(feature.properties["containsWolfName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="wolf" || first)){
 			return true;
 	 }else if(feature.properties["containsBattleName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Battle" || first)){
@@ -153,50 +153,42 @@ onEachFeature: function (feature, layer) {
 		}
 	 }
 	 popup+="</ul>"
-	 console.log($("input:radio[name='mode']:checked").val())
+	 //console.log($("input:radio[name='mode']:checked").val())
 	 if(feature.properties["containsWolfName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="wolf" || first)){
-			 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+			 var cunaIcon = new L.Icon({
+				iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CUNA-2x.png',
+				iconSize: [41, 41],
+				iconAnchor: [20, 41],
+				popupAnchor: [0, -41]
+			});
+			layer.setIcon(cunaIcon);
 	 }else if(feature.properties["containsBattleName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Battle" || first)){
-					 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+					 var cattuIcon = new L.Icon({
+						iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CATTU-2x.png',
+						iconSize: [41, 41],
+						iconAnchor: [20, 41],
+						popupAnchor: [0, -41]
+					});
+			layer.setIcon(cattuIcon);
 	 }else if(feature.properties["containsCowName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Cow" || first)){
-					 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+					 var ercIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/ERC-2x.png',
+	iconSize: [41, 41],
+	iconAnchor: [20, 41],
+	popupAnchor: [0, -41]
+});
+			layer.setIcon(ercIcon);
 	 }else if(feature.properties["containsGodLughName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="godlugh" || first)){
-							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+							var lugIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/LUG-2x.png',
+	iconSize: [41, 41],
+	iconAnchor: [20, 41],
+	popupAnchor: [0, -41]
+});
+			layer.setIcon(lugIcon);
 	 }else if(feature.properties["persons"].length==0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="NoPerson" || first)){
 							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-red.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
                                         iconSize: [25, 41],
                                         iconAnchor: [12, 41],
@@ -206,7 +198,7 @@ onEachFeature: function (feature, layer) {
 			layer.setIcon(greyIcon);
 	 }else if(feature.properties["fatherson"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="FatherSon" || first)){
 							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
                                         iconSize: [25, 41],
                                         iconAnchor: [12, 41],
@@ -215,28 +207,26 @@ onEachFeature: function (feature, layer) {
                                     });
 			layer.setIcon(greyIcon);
 	 }else if(feature.properties["tribes"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Tribe" || first)){
-							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+							 var mucoiIcon = new L.Icon({
+								iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/MUCOI-2x.png',
+								iconSize: [41, 41],
+								iconAnchor: [20, 41],
+								popupAnchor: [0, -41]
+							});
+			layer.setIcon(mucoiIcon);
 	 }else if(feature.properties["descendants"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="descendant" || first)){
-							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+							 var greenIcon = new L.Icon({
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-green.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
                                         iconSize: [25, 41],
                                         iconAnchor: [12, 41],
                                         popupAnchor: [1, -34],
                                         shadowSize: [41, 41]
                                     });
-			layer.setIcon(greyIcon);
+			layer.setIcon(greenIcon);
 	 }else if(feature.properties["followers"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="follower" || first)){
 							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
                                         iconSize: [25, 41],
                                         iconAnchor: [12, 41],
@@ -245,28 +235,24 @@ onEachFeature: function (feature, layer) {
                                     });
 			layer.setIcon(greyIcon);
 	 }else if(feature.properties["containsBlind"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="DALAGNI" || first)){
-							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+							 var delagniIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/DALAGNI-2x.png',
+	iconSize: [41, 41],
+	iconAnchor: [20, 41],
+	popupAnchor: [0, -41]
+});
+			layer.setIcon(delagniIcon);
 	 }else if(feature.properties["containsEye"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="DERCMASOC" || first)){
-							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
-                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                        iconSize: [25, 41],
-                                        iconAnchor: [12, 41],
-                                        popupAnchor: [1, -34],
-                                        shadowSize: [41, 41]
-                                    });
-			layer.setIcon(greyIcon);
+							 var dercmasocIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/DERCMASOC-2x.png',
+	iconSize: [41, 41],
+	iconAnchor: [20, 41],
+	popupAnchor: [0, -41]
+});
+			layer.setIcon(dercmasocIcon);
 	 }else if(feature.properties["containsName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="ANM" || first)){
 							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-black.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
                                         iconSize: [25, 41],
                                         iconAnchor: [12, 41],
@@ -276,7 +262,7 @@ onEachFeature: function (feature, layer) {
 			layer.setIcon(greyIcon);
 	 }else if(feature.properties["containsHereIs"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="KOI" || first)){
 							 var greyIcon = new L.Icon({
-                                        iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
                                         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
                                         iconSize: [25, 41],
                                         iconAnchor: [12, 41],
@@ -348,31 +334,31 @@ loaded=true;
     <input type="radio" id="all" name="mode" value="all" onclick="reloadLayer()">
     <label for="all">All</label> 
     <input type="radio" id="wolf" name="mode" value="wolf" onclick="reloadLayer()">
-    <label for="wolf" style="background-color:gray">Wolf/Hound (CUNA)</label> 
+    <label for="wolf" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CUNA.png" height="30">Wolf/Hound (CUNA, ᚉᚒᚅᚐ)</label> 
     <input type="radio" id="godlugh" name="mode" value="godlugh" onclick="reloadLayer()">
-    <label for="godlugh" style="background-color:yellow">God Lugh (LUG)</label>
+    <label for="godlugh" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/LUG.png" height="30">God Lugh (LUG, ᚂᚒᚌ)</label>
     <input type="radio" id="battle" name="mode" value="Battle" onclick="reloadLayer()">
-    <label for="battle" style="background-color:green">Battle (CATTU)</label> 
+    <label for="battle" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CATTU.png" height="30">Battle (CATTU, ᚉᚐᚈᚈᚒ)</label> 
 	<input type="radio" id="cow" name="mode" value="Cow" onclick="reloadLayer()">
-    <label for="cow" style="background-color:green">Heaven/Cow (ERC)</label> 
+    <label for="cow" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/ERC.png" height="30">&nbsp;Heaven/Cow (ERC, ᚓᚏᚉ)</label> 
 	<input type="radio" id="DALAGNI" name="mode" value="DALAGNI" onclick="reloadLayer()">
-    <label for="DALAGNI" style="background-color:green">one who is blind (DALAGNI)</label> 
+    <label for="DALAGNI" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/DALAGNI.png" height="30">one who is blind (DALAGNI, ᚇᚐᚂᚐᚌᚅᚔ)</label> 
 	<input type="radio" id="DERCMASOC" name="mode" value="DERCMASOC" onclick="reloadLayer()">
-    <label for="DERCMASOC" style="background-color:green">one with an elegant eye (DERCMASOC)</label> 
+    <label for="DERCMASOC" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/DERCMASOC.png" height="30">one with an elegant eye (DERCMASOC, ᚇᚓᚏᚉᚋᚐᚄᚑᚉ)</label> 
 	<input type="radio" id="noperson" name="mode" value="NoPerson" onclick="reloadLayer()">
-    <label for="noperson" style="background-color:red">No persons described</label> 
+    <label for="noperson" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-red.png" height="30">&nbsp;No persons described</label> 
 	<input type="radio" id="fahterson" name="mode" value="FatherSon" onclick="reloadLayer()">
-    <label for="fatherson" style="background-color:orange">Father/Son (MAQI)</label> 
+    <label for="fatherson" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-orange.png" height="30">&nbsp;Father/Son (MAQI, ᚋᚐᚊᚔ)</label> 
 	<input type="radio" id="tribe" name="mode" value="Tribe" onclick="reloadLayer()">
-    <label for="tribe" style="background-color:black;color:white">Tribe (MUCOI)</label> 
+    <label for="tribe" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/MUCOI.png" height="30">&nbsp;Tribe (MUCOI, ᚋᚒᚉᚑᚔ)</label> 
 	<input type="radio" id="descendant" name="mode" value="descendant" onclick="reloadLayer()">
-    <label for="descendant" style="background-color:violet;color:white">Descendant (AVI)</label> 
+    <label for="descendant" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-green.png" height="30">&nbsp;Descendant (AVI, ᚐᚃᚔ)</label> 
 	<input type="radio" id="follower" name="mode" value="follower" onclick="reloadLayer()">
-    <label for="follower" style="background-color:violet;color:white">Follower (CELI)</label> 
+    <label for="follower" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-violet.png" height="30">&nbsp;Follower (CELI, ᚉᚓᚂᚔ)</label> 
 	<input type="radio" id="ANM" name="mode" value="ANM" onclick="reloadLayer()">
-    <label for="ANM" style="background-color:violet;color:white">name (ANM)</label> 
+    <label for="ANM" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-black.png" height="30">&nbsp;name (ANM, ᚐᚅᚋ)</label> 
 	<input type="radio" id="KOI" name="mode" value="KOI" onclick="reloadLayer()">
-    <label for="KOI" style="background-color:violet;color:white">here is (KOI)</label> 
+    <label for="KOI" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-grey.png" height="30">&nbsp;here is (KOI, ᚕᚑᚔ)</label> 
     </fieldset>
 </body>
 </html>
