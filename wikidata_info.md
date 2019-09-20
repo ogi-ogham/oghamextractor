@@ -77,10 +77,13 @@ SELECT * WHERE {
 | CIIC 154 | https://www.wikidata.org/wiki/Q68002826 |
 | CIIC 203 | https://www.wikidata.org/wiki/Q67978531 |
 
+> https://w.wiki/8f4
+
 ```
 SELECT * WHERE {
   ?item wdt:P31 wd:Q2016147.
   ?item wdt:P361 wd:Q67978809.
+  OPTIONAL { ?item wdt:P625 ?geo . }
   OPTIONAL {
     ?item rdfs:label ?label.
     FILTER(LANG(?label) = "en").
