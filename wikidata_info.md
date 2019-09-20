@@ -2,12 +2,14 @@
 
 ## general
 
-Ogham	https://www.wikidata.org/wiki/Q184661
-Ogham Letter	https://www.wikidata.org/wiki/Q41812345
-Ogham Word https://www.wikidata.org/wiki/Q67384733
-Ogham formular word	https://www.wikidata.org/wiki/Q67381377
-Ogham nomenclature word 	https://www.wikidata.org/wiki/Q67382150
-Ogham Stone https://www.wikidata.org/wiki/Q2016147
+| TERM | WIKIDATA |
+|------|----------|
+| Ogham | https://www.wikidata.org/wiki/Q184661 |
+| Ogham Letter | https://www.wikidata.org/wiki/Q41812345 |
+| Ogham Word | https://www.wikidata.org/wiki/Q67384733 |
+| Ogham formular word | https://www.wikidata.org/wiki/Q67381377 |
+| Ogham nomenclature word | https://www.wikidata.org/wiki/Q67382150 |
+| Ogham Stone  | https://www.wikidata.org/wiki/Q2016147 |
 
 ## formular words
 
@@ -30,16 +32,42 @@ SELECT * WHERE {
 }
 ```
 
-## nomenclature
+## nomenclature words
 
-CUNA	https://www.wikidata.org/wiki/Q67382235
-CATTU	https://www.wikidata.org/wiki/Q67383338
-LUG	https://www.wikidata.org/wiki/Q67383482
-ERC	https://www.wikidata.org/wiki/Q67382360
+| WORD | WIKIDATA |
+|------|----------|
+| CUNA | https://www.wikidata.org/wiki/Q67382235 |
+| CATTU | https://www.wikidata.org/wiki/Q67383338 |
+| LUG | https://www.wikidata.org/wiki/Q67383482 |
+| ERC | https://www.wikidata.org/wiki/Q67382360 |
+| DALAGNI | https://www.wikidata.org/wiki/Q68001812 |
+| DERCMASOC | https://www.wikidata.org/wiki/Q68001907 |
 
-## Alphabet
+```
+SELECT * WHERE {
+  ?item wdt:P31 wd:Q67382150.
+  OPTIONAL {
+    ?item rdfs:label ?label.
+    FILTER(LANG(?label) = "en").
+  }
+}
+```
 
-Beith	https://www.wikidata.org/wiki/Q4881483
+## alphabet / letters
+
+| WORD | WIKIDATA |
+|------|----------|
+| Beith | https://www.wikidata.org/wiki/Q4881483 |
+
+```
+SELECT * WHERE {
+  ?item wdt:P31 wd:Q41812345.
+  OPTIONAL {
+    ?item rdfs:label ?label.
+    FILTER(LANG(?label) = "en").
+  }
+} ORDER BY ?label
+```
 
 ## Stones
 
