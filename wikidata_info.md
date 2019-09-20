@@ -71,4 +71,18 @@ SELECT * WHERE {
 
 ## Stones
 
-CIIC 38	https://www.wikidata.org/wiki/Q67510124
+| Stone | WIKIDATA |
+|-------|----------|
+| CIIC 203 | https://www.wikidata.org/wiki/Q67978531|
+| CIIC 38 | https://www.wikidata.org/wiki/Q67510124 |
+
+```
+SELECT * WHERE {
+  ?item wdt:P31 wd:Q2016147.
+  ?item wdt:P361 wd:Q67978809.
+  OPTIONAL {
+    ?item rdfs:label ?label.
+    FILTER(LANG(?label) = "en").
+  }
+} ORDER BY ?label
+```
