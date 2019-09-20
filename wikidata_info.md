@@ -73,8 +73,9 @@ SELECT * WHERE {
 
 | Stone | WIKIDATA |
 |-------|----------|
-| CIIC 203 | https://www.wikidata.org/wiki/Q67978531|
 | CIIC 38 | https://www.wikidata.org/wiki/Q67510124 |
+| CIIC 154 | https://www.wikidata.org/wiki/Q68002826 |
+| CIIC 203 | https://www.wikidata.org/wiki/Q67978531 |
 
 ```
 SELECT * WHERE {
