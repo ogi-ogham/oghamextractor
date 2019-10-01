@@ -84,6 +84,7 @@ SELECT * WHERE {
 | CIIC 103 | 1 | https://www.wikidata.org/wiki/Q69377850 |
 | CIIC 115 | 2 | https://www.wikidata.org/wiki/Q69383434 |
 | CIIC 117 | 3 | https://www.wikidata.org/wiki/Q69385241 |
+| CIIC 81 | 4 | https://www.wikidata.org/wiki/Q69385424 |
 
 ### SPARQL queries
 
@@ -136,6 +137,7 @@ ORDER BY (?label)
 | Ballinrannig | https://www.wikidata.org/wiki/Q69379307 |
 | Coolmagort| https://www.wikidata.org/wiki/Q69379704 |
 | Knockshanawee | https://www.wikidata.org/wiki/Q69383268 |
+| Garranes | https://www.wikidata.org/wiki/Q69385525 |
 
 ## Collections
 
