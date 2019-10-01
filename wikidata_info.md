@@ -83,6 +83,7 @@ SELECT * WHERE {
 |-------|---------|----------|
 | CIIC 103 | 1 | https://www.wikidata.org/wiki/Q69377850 |
 | CIIC 115 | 2 | https://www.wikidata.org/wiki/Q69383434 |
+| CIIC 117 | 3 | https://www.wikidata.org/wiki/Q69385241 |
 
 ### SPARQL queries
 
