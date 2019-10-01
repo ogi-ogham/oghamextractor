@@ -69,7 +69,7 @@ SELECT * WHERE {
 } ORDER BY ?label
 ```
 
-## Stones
+## Stones in Ireland
 
 | Stone | WIKIDATA |
 |-------|----------|
@@ -85,6 +85,19 @@ SELECT * WHERE {
 | CIIC 115 | 2 | https://www.wikidata.org/wiki/Q69383434 |
 | CIIC 117 | 3 | https://www.wikidata.org/wiki/Q69385241 |
 | CIIC 81 | 4 | https://www.wikidata.org/wiki/Q69385424 |
+
+### Stones in Scotland
+
+| Stone | WIKIDATA |
+|-------|----------|
+| CIIC 506 | https://www.wikidata.org/wiki/Q69386261 |
+
+### Stones at the Isle of Man
+
+| Stone | WIKIDATA |
+|-------|----------|
+| CIIC 503 | https://www.wikidata.org/wiki/Q69388030 |
+| CIIC 504 | https://www.wikidata.org/wiki/Q69388229 |
 
 ### SPARQL queries
 
@@ -139,11 +152,19 @@ ORDER BY (?label)
 | Knockshanawee | https://www.wikidata.org/wiki/Q69383268 |
 | Garranes | https://www.wikidata.org/wiki/Q69385525 |
 
+## Addes other Places
+
+| Townland | WIKIDATA |
+|-------|----------|
+| Ballaqueeny | https://www.wikidata.org/wiki/Q69387717 |
+
 ## Collections
 
 | Collection | WIKIDATA |
 |-------|----------|
+| Ogham Stones w/o collection reference | https://www.wikidata.org/wiki/Q69387988 |
 | Stone Corridor University College Cork | https://www.wikidata.org/wiki/Q69379477 |
 | Ballinrannig Ogham Stones | https://www.wikidata.org/wiki/Q69379601 |
 | Coolmagort Ogham Stones | https://www.wikidata.org/wiki/Q69379810 |
 | Knockshanawee Ogham Stones | https://www.wikidata.org/wiki/Q69383371 |
+| Ballaqueeny Ogham Stones | https://www.wikidata.org/wiki/Q69387903 |
