@@ -164,6 +164,8 @@ ORDER BY (?label)
 | Knockshanawee | https://www.wikidata.org/wiki/Q69383268 |
 | Garranes | https://www.wikidata.org/wiki/Q69385525 |
 
+> townlands: https://www.townlands.ie/
+
 ## Addes other Places
 
 | Townland | WIKIDATA |
