@@ -99,6 +99,18 @@ SELECT * WHERE {
 | CIIC 503 | https://www.wikidata.org/wiki/Q69388030 |
 | CIIC 504 | https://www.wikidata.org/wiki/Q69388229 |
 
+### Stones in England
+
+| Stone | WIKIDATA |
+|-------|----------|
+| CIIC 489 | https://www.wikidata.org/wiki/Q69389090 |
+
+### Stones in Wales
+
+| Stone | WIKIDATA |
+|-------|----------|
+| CIIC 426 | https://www.wikidata.org/wiki/Q69389329 |
+
 ### SPARQL queries
 
 **all stones and collections**
