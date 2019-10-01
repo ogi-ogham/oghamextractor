@@ -84,19 +84,48 @@ SELECT * WHERE {
 | CIIC 103 | 1 | https://www.wikidata.org/wiki/Q69377850 |
 | CIIC 115 | 2 | https://www.wikidata.org/wiki/Q69383434 |
 
-> https://w.wiki/8f4
+### SPARQL queries
+
+**all stones and collections**
+
+> https://w.wiki/9B9
 
 ```
 SELECT * WHERE {
-  ?item wdt:P31 wd:Q2016147.
-  ?item wdt:P361 wd:Q67978809.
-  OPTIONAL { ?item wdt:P625 ?geo . }
+  ?item wdt:P31 wd:Q2016147;
+    wdt:P361 wd:Q67978809;
+    wdt:P195 ?collection.
+  OPTIONAL { ?item wdt:P625 ?geo. }
   OPTIONAL {
     ?item rdfs:label ?label.
-    FILTER(LANG(?label) = "en").
+    FILTER((LANG(?label)) = "en")
   }
-} ORDER BY ?label
+  OPTIONAL {
+    ?collection rdfs:label ?collectionLabel.
+    FILTER((LANG(?collectionLabel)) = "en")
+  }
+}
+ORDER BY (?label)
 ```
+
+**stones at UCC**
+
+> https://w.wiki/9B8
+
+```
+SELECT * WHERE {
+  ?item wdt:P31 wd:Q2016147;
+    wdt:P361 wd:Q67978809;
+    wdt:P195 wd:Q69379477.
+  OPTIONAL { ?item wdt:P625 ?geo. }
+  OPTIONAL {
+    ?item rdfs:label ?label.
+    FILTER((LANG(?label)) = "en")
+  }
+}
+ORDER BY (?label)
+```
+
 ## Added Townlands
 
 | Townland | WIKIDATA |
