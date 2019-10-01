@@ -82,6 +82,7 @@ SELECT * WHERE {
 | Stone | UCC No. | WIKIDATA |
 |-------|---------|----------|
 | CIIC 103 | 1 | https://www.wikidata.org/wiki/Q69377850 |
+| CIIC 115 | 2 | https://www.wikidata.org/wiki/Q69383434 |
 
 > https://w.wiki/8f4
 
@@ -104,6 +105,7 @@ SELECT * WHERE {
 | Ballyboodan | https://www.wikidata.org/wiki/Q69378747 |
 | Ballinrannig | https://www.wikidata.org/wiki/Q69379307 |
 | Coolmagort| https://www.wikidata.org/wiki/Q69379704 |
+| Knockshanawee | https://www.wikidata.org/wiki/Q69383268 |
 
 ## Collections
 
@@ -112,3 +114,4 @@ SELECT * WHERE {
 | Stone Corridor University College Cork | https://www.wikidata.org/wiki/Q69379477 |
 | Ballinrannig Ogham Stones | https://www.wikidata.org/wiki/Q69379601 |
 | Coolmagort Ogham Stones | https://www.wikidata.org/wiki/Q69379810 |
+| Knockshanawee Ogham Stones | https://www.wikidata.org/wiki/Q69383371 |
