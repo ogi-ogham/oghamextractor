@@ -182,3 +182,9 @@ ORDER BY (?label)
 | Coolmagort Ogham Stones | https://www.wikidata.org/wiki/Q69379810 |
 | Knockshanawee Ogham Stones | https://www.wikidata.org/wiki/Q69383371 |
 | Ballaqueeny Ogham Stones | https://www.wikidata.org/wiki/Q69387903 |
+
+## Added Books
+
+| Book | WIKIDATA |
+|-------|----------|
+| Macalister.Corpus Inscriptionum Insularum Celticarum Vol.1 | https://www.wikidata.org/wiki/Q70256237 |
