@@ -10,6 +10,7 @@ import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
@@ -45,6 +46,12 @@ public class EpidocExtractor extends DefaultHandler2 {
 	
 	Tuple<String,String> descendantof=new Tuple<String,String>(null,null);
 	
+	Map<String,Tuple<Word,Integer>> wordmap;
+	
+	public EpidocExtractor(Map<String,Tuple<Word,Integer>> wordmap) {
+		this.wordmap=wordmap;
+	}
+	
 
 	private boolean persname,photographs=true,foundnephew,founddescendant,foundfollower;
 	
@@ -76,7 +83,12 @@ public class EpidocExtractor extends DefaultHandler2 {
 			if(attributes.getValue("lemma")!=null) {
 				result.words.add(attributes.getValue("lemma"));
 				result.text+=attributes.getValue("lemma")+" ";
+				if(wordmap.keySet().contains(attributes.getValue("lemma").toLowerCase())) {
+					wordmap.get(attributes.getValue("lemma").toLowerCase()).setTwo(wordmap.get(attributes.getValue("lemma").toLowerCase()).getTwo()+1);
+				}
+				System.out.println(wordmap);
 			}
+
 			wordcounter++;
 			if(persname) {
 				result.persons.add(attributes.getValue("lemma"));
@@ -176,13 +188,14 @@ public class EpidocExtractor extends DefaultHandler2 {
 	}
 	
 	public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException {
+		Map<String,Tuple<Word,Integer>> wordmap=WordParser.csvToWordMap("words/words.csv");
 		OntModel model=ModelFactory.createOntologyModel();
 		List<OghamObject> resultList=new LinkedList<OghamObject>();
 		Integer globalmaqicount=0;
         Integer globalmucoicount=0;
 		for(File folder:new File("ogham3d_epidoc_files/ogham3d_epidoc_files/").listFiles()) {
 			for(File file:folder.listFiles()) {
-				EpidocExtractor extractor=new EpidocExtractor();
+				EpidocExtractor extractor=new EpidocExtractor(wordmap);
 				SAXParserFactory.newInstance().newSAXParser().parse(file, extractor);
 				resultList.add(extractor.result);
 				extractor.result.toRDF(model);
@@ -201,7 +214,9 @@ public class EpidocExtractor extends DefaultHandler2 {
 		writer=new BufferedWriter(new FileWriter(new File("result.json")));
 		writer.write(listresult.toString(2));
 		writer.close();
-		model.write(new FileWriter("result.ttl"), "TTL") ;
+		
+		model.write(new FileWriter("owl/epidocresult.ttl"), "TTL") ;
+		
 		System.out.println("Maqicount: "+globalmaqicount);
         System.out.println("Mucoicount: "+globalmucoicount);
 	}
