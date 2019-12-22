@@ -3,7 +3,7 @@ CUNA,Q67382235,Q67382150,"dog, hound","McManus 1991,§6.3",[CUNA|CUNO|CONU|CVNO|
 CATTU,Q67383338,Q67382150,"battle","McManus 1991,§6.3",[CATTU|CATU|CATA|CAT|CATTOS|CATOS|CCATTO|CATTO|CCATO|CATI],{subString}
 BARR,,Q67382150,"top, head, hear of the head","McManus 1991,§6.4",[BARR|BAR],{subString}
 DOV,,Q67382150,"black","McManus 1991,§6.4",[DOV],{subString}
-GLAS,,Q67382150,"light green","McManus 1991,§6.4",[GLAS],
+GLAS,,Q67382150,"light green","McManus 1991,§6.4",[GLAS],{subString}
 MAGL,,Q67382150,"prince","McManus 1991,§6.4",[MAGL|MAGLI],{subString}
 VIR,,Q67382150,"man","McManus 1991,§6.4",[VIR|VER],{subString}
 LUG,Q67383482,Q67382150,god,"McManus 1991,§6.5",[LUG],{subString}
