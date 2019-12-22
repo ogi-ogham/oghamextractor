@@ -21,7 +21,7 @@ KOI,Q68000462,Q67381377,"here","McManus 1991,§6.27",[KOI],
 MAQI,Q67381254,Q67381377,"son","McManus 1991,§6.27",[MAQI|MAQQI|MAQ|MAC|MACI|MACCI|MACV],[Person] MAQI [Person]
 MEMOR,,Q67381377,"memorial, tombstone","McManus 1991,§6.27",[MEMOR],
 MUCOI,Q67999759,Q67381377,"túath, tribe","McManus 1991,§6.27",[MUCOI|MOCU|MACCU|MOCOI|MOCO],
-NIOTA,,Q67381377,"nephew, sister`s son","McManus 1991,§6.27",[NIOTA|NETTA|NETA],{subString}
+NIOTA,,Q67381377,"nephew, sister`s son","McManus 1991,§6.27",[NIOTA|NETTA|NETA],
 DOVALESCI,,Q79401991,"(he who is) black and sliggish","McManus 1991,§6.10",[DOVALESCI],{string}
 GATTEGLAN,,Q79401991,"(he who is) wise and pure","McManus 1991,§6.10",[GATTEGLAN],{string}
 DERCMASOC,Q68001907,Q79401991,"(he who has) an elegant /filthy eye","McManus 1991,§6.10",[DERCMASOC],{string}
