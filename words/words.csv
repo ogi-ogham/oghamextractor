@@ -1,26 +1,26 @@
 word,wikidata,type,translation,ref,variants,context
-CUNA,Q67382235,Q67382150,"dog, hound","McManus 1991,§6.3",[CUNA|CUNO|CONU|CVNO|CUNAS|CONAS|CONA|CON|CVNI],
-CATTU,Q67383338,Q67382150,"battle","McManus 1991,§6.3",[CATTU|CATU|CATA|CAT|CATTOS|CATOS|CCATTO|CATTO|CCATO|CATI],
-BARR,,Q67382150,"top, head, hear of the head","McManus 1991,§6.4",[BARR|BAR],
-DOV,,Q67382150,"black","McManus 1991,§6.4",[DOV],
+CUNA,Q67382235,Q67382150,"dog, hound","McManus 1991,§6.3",[CUNA|CUNO|CONU|CVNO|CUNAS|CONAS|CONA|CON|CVNI],{subString}
+CATTU,Q67383338,Q67382150,"battle","McManus 1991,§6.3",[CATTU|CATU|CATA|CAT|CATTOS|CATOS|CCATTO|CATTO|CCATO|CATI],{subString}
+BARR,,Q67382150,"top, head, hear of the head","McManus 1991,§6.4",[BARR|BAR],{subString}
+DOV,,Q67382150,"black","McManus 1991,§6.4",[DOV],{subString}
 GLAS,,Q67382150,"light green","McManus 1991,§6.4",[GLAS],
-MAGL,,Q67382150,"prince","McManus 1991,§6.4",[MAGL|MAGLI],
-VIR,,Q67382150,"man","McManus 1991,§6.4",[VIR|VER],
-LUG,Q67383482,Q67382150,god,"McManus 1991,§6.5",[LUG],
-ERC,Q67382360,Q67382150,"god","McManus 1991,§6.5",[ERC|ERCA],
-RITTA,,Q67382150,"god","McManus 1991,§6.5",[RITTA|RETA|RITTE],
-BRAN,,Q67382150,"raven","McManus 1991,§6.6",[BRAN],
-QENN,,Q67382150,"head","McManus 1991,§6.6",[QENN|QVEN|QEN|QENI],
-IVA,,Q67382150,"tree, yew tree","McManus 1991,§6.6",[IVA|IVO],
-TREN,,Q67382150,"strong","McManus 1991,§6.6",[TREN|TTREN],
-ANM,Q68000035,Q67381377,"name","McManus 1991,§6.27",[ANM],{subString}
-AVI,Q68000199,Q67381377,"grandson, descendant","McManus 1991,§6.27",[AVI],{subString}
-CELI,Q68000377,Q67381377,"companions, client, fellow","McManus 1991,§6.27",[CELI],{subString}
-INIGENA,,Q67381377,"daughter","McManus 1991,§6.27",[INIGENA|INGENVI],{subString}
-KOI,Q68000462,Q67381377,"here","McManus 1991,§6.27",[KOI],{subString}
-MAQI,Q67381254,Q67381377,"son","McManus 1991,§6.27",[MAQI|MAQQI|MAQ|MAC|MACI|MACCI|MACV],{subString}
-MEMOR,,Q67381377,"memorial, tombstone","McManus 1991,§6.27",[MEMOR],{subString}
-MUCOI,Q67999759,Q67381377,"túath, tribe","McManus 1991,§6.27",[MUCOI|MOCU|MACCU|MOCOI|MOCO],{subString}
+MAGL,,Q67382150,"prince","McManus 1991,§6.4",[MAGL|MAGLI],{subString}
+VIR,,Q67382150,"man","McManus 1991,§6.4",[VIR|VER],{subString}
+LUG,Q67383482,Q67382150,god,"McManus 1991,§6.5",[LUG],{subString}
+ERC,Q67382360,Q67382150,"god","McManus 1991,§6.5",[ERC|ERCA],{subString}
+RITTA,,Q67382150,"god","McManus 1991,§6.5",[RITTA|RETA|RITTE],{subString}
+BRAN,,Q67382150,"raven","McManus 1991,§6.6",[BRAN],{subString}
+QENN,,Q67382150,"head","McManus 1991,§6.6",[QENN|QVEN|QEN|QENI],{subString}
+IVA,,Q67382150,"tree, yew tree","McManus 1991,§6.6",[IVA|IVO],{subString}
+TREN,,Q67382150,"strong","McManus 1991,§6.6",[TREN|TTREN],{subString}
+ANM,Q68000035,Q67381377,"name","McManus 1991,§6.27",[ANM],
+AVI,Q68000199,Q67381377,"grandson, descendant","McManus 1991,§6.27",[AVI],
+CELI,Q68000377,Q67381377,"companions, client, fellow","McManus 1991,§6.27",[CELI],
+INIGENA,,Q67381377,"daughter","McManus 1991,§6.27",[INIGENA|INGENVI],
+KOI,Q68000462,Q67381377,"here","McManus 1991,§6.27",[KOI],
+MAQI,Q67381254,Q67381377,"son","McManus 1991,§6.27",[MAQI|MAQQI|MAQ|MAC|MACI|MACCI|MACV],[Person] MAQI [Person]
+MEMOR,,Q67381377,"memorial, tombstone","McManus 1991,§6.27",[MEMOR],
+MUCOI,Q67999759,Q67381377,"túath, tribe","McManus 1991,§6.27",[MUCOI|MOCU|MACCU|MOCOI|MOCO],
 NIOTA,,Q67381377,"nephew, sister`s son","McManus 1991,§6.27",[NIOTA|NETTA|NETA],{subString}
 DOVALESCI,,Q79401991,"(he who is) black and sliggish","McManus 1991,§6.10",[DOVALESCI],{string}
 GATTEGLAN,,Q79401991,"(he who is) wise and pure","McManus 1991,§6.10",[GATTEGLAN],{string}
