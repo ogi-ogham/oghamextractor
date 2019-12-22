@@ -13,14 +13,13 @@ BRAN,,Q67382150,"raven","McManus 1991,§6.6",[BRAN]
 QENN,,Q67382150,"head","McManus 1991,§6.6",[QENN|QVEN|QEN|QENI]
 IVA,,Q67382150,"tree, yew tree","McManus 1991,§6.6",[IVA|IVO]
 TREN,,Q67382150,"strong","McManus 1991,§6.6",[TREN|TTREN]
-ANM,Q68000035,Q67381377,"name","McManus 1991,§6.27",[ANM]
-AVI,Q68000199,Q67381377,"grandson, descendant","McManus 1991,§6.27",[AVI]
-CELI,Q68000377,Q67381377,"companions, clinet, fellow","McManus 1991,§6.27",[CELI]
+ANM,Q68000035,Q67381377,"name",Copyright (c) 2018 Copyright Holder All Rights Reserved.nions, clinet, fellow","McManus 1991,§6.27",[CELI]
 INIGENA,,Q67381377,"daughter","McManus 1991,§6.27",[INIGENA|INGENVI]
 KOI,Q68000462,Q67381377,"here","McManus 1991,§6.27",[KOI]
 MAQI,Q67381254,Q67381377,"son","McManus 1991,§6.27",[MAQI|MAQQI|MAQ|MAC|MACI|MACCI|MACV]
 MEMOR,,Q67381377,"memorial, tombstone","McManus 1991,§6.27",[MEMOR]
 MUCOI,Q67999759,Q67381377,"túath, tribe","McManus 1991,§6.27",[MUCOI|MOCU|MACCU|MOCOI|MOCO]
 NIOTA,,Q67381377,"nephew, sister's son","McManus 1991,§6.27",[NIOTA|NETTA|NETA]
-DALAGNI,Q68001812,,,,
-DERCMASOC,Q68001907,,,,
+DERCMASOC,Q68001907,Q79401991,"(he who has) an elegant /filthy eye","McManus 1991,§6.10",[DERCMASOC]
+GATTEGLAN,,Q79401991,"wise + pure","McManus 1991,§6.8",[GATTEGLAN]
+DALAGNI,Q68001812,Q79401991,,,
