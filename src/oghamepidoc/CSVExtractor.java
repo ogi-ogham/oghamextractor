@@ -11,6 +11,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
@@ -24,9 +25,8 @@ import com.opencsv.CSVReaderBuilder;
 
 public class CSVExtractor {
 
-	public static OntModel csvToTTL(String fileName,Integer[] idcoll,String classs,String namespace) throws FileNotFoundException, IOException {
+	public static OntModel csvToTTL(String fileName,Integer[] idcoll,String classs,String namespace,Map<String, Tuple<Word, Integer>> words,OntModel model) throws FileNotFoundException, IOException {
 		List<Integer> idcol=Arrays.asList(idcoll);
-		OntModel model=ModelFactory.createOntologyModel();
 		FileReader fileReader = new FileReader(new File(fileName));
 		CSVParserBuilder csvParserBuilder = new CSVParserBuilder();
 	    CSVParser parser = csvParserBuilder.withSeparator('|').build();
@@ -84,10 +84,20 @@ public class CSVExtractor {
 		    			ind.addProperty(model.createObjectProperty(namespace+"hasSite"), model.createClass(namespace+"Site").createIndividual(namespace+lineContent[35].substring(0,lineContent[35].indexOf('/'))));
 		    	}*/
 	            for (String e : lineContent) {
+	            	
+	            	if(cols.get(i).equalsIgnoreCase("EXPANSION")) {
+	            		for(String word:words.keySet()) {
+	            			if(e.contains(word)) {
+	            				OntClass clss=model.createClass(words.get(word).getOne().wikidataClass);
+	            				ind.addProperty(model.createObjectProperty(namespace+"contains"), clss.createIndividual(words.get(word).getOne().wikidataIndividual));
+	            			}
+	            		}	
+	            	}
 	                if(!idcol.contains(i) && !e.equals("NULL") && !e.isEmpty()) {
 	                	ind.addProperty(model.createDatatypeProperty(namespace+cols.get(i).replace(" ","_")), e);
 	                }
 	                i++;
+	                
 	            }
 	    	}
 	    }
@@ -96,21 +106,23 @@ public class CSVExtractor {
 	
 	
 	public static void main(String[] args) throws FileNotFoundException, IOException {
+		Map<String, Tuple<Word, Integer>> words=WordParser.csvToWordMap("words/words.csv");
 		String filename="site";
-		OntModel res=csvToTTL("data/"+filename+".csv",new Integer[]{0},"Site","http://ogham.link/cisp/");
-		res.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
+		OntModel model=ModelFactory.createOntologyModel();
+		csvToTTL("data/"+filename+".csv",new Integer[]{0},"Site","http://ogham.link/cisp/",words,model);
+		//res.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
 		filename="stone";
-		res=csvToTTL("data/"+filename+".csv",new Integer[]{35},"Stone","http://ogham.link/cisp/");
-		res.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
+		csvToTTL("data/"+filename+".csv",new Integer[]{35},"Stone","http://ogham.link/cisp/",words,model);
+		//res.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
 		filename="inscrip";
-		res=csvToTTL("data/"+filename+".csv",new Integer[]{0,1,2},"Inscription","http://ogham.link/cisp/");
-		res.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
+		csvToTTL("data/"+filename+".csv",new Integer[]{0,1,2},"Inscription","http://ogham.link/cisp/",words,model);
+		//res.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
 		filename="reading";
-		res=csvToTTL("data/"+filename+".csv",new Integer[]{0,1,2,3},"Reading","http://ogham.link/cisp/");
-		res.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
+		csvToTTL("data/"+filename+".csv",new Integer[]{0,1,2,3},"Reading","http://ogham.link/cisp/",words,model);
+		//res.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
 		filename="translat";
-		res=csvToTTL("data/"+filename+".csv",new Integer[]{0,1,2,3,4},"Translation","http://ogham.link/cisp/");
-		res.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
+		csvToTTL("data/"+filename+".csv",new Integer[]{0,1,2,3,4},"Translation","http://ogham.link/cisp/",words,model);
+		model.write(new FileWriter(new File("res/"+filename+".ttl")), "TTL") ;
 	}
 	
 }
