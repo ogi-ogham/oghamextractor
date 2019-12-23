@@ -1,23 +1,23 @@
 word,wikidata,type,translation,ref,variants
-MAQI,Q67381254,Q67381377,,,
-MUCOI,Q67999759,Q67381377,,,
-ANM,Q68000035,Q67381377,,,
-AVI,Q68000199,Q67381377,,,
-CELI,Q68000377,Q67381377,,,
-KOI,Q68000462,Q67381377,,,
-DALAGNI,Q68001812,Q67382150,,,
-DERCMASOC,Q68001907,Q67382150,,,
-CUNA,Q67382235,Q67382150,"dog, hound","McManus 1991,§6.3",[CUNA|CUNO|CONU|CVNO|CUNAS|CONAS|CONA|CON|CVNI]
-CATTU,Q67383338,Q67382150,"battle","McManus 1991,§6.3",[CATTU|CATU|CATA|CAT|CATTOS|CATOS|CCATTO|CATTO|CCATO|CATI]
-BARR,,Q67382150,"top, head, hear of the head","McManus 1991,§6.4",[BARR|BAR]
-DOV,,Q67382150,"black","McManus 1991,§6.4",[DOV]
-GLAS,,Q67382150,"light green","McManus 1991,§6.4",[GLAS]
-MAGL,,Q67382150,"prince","McManus 1991,§6.4",[MAGL|MAGLI]
-VIR,,Q67382150,"man","McManus 1991,§6.4",[VIR|VER]
-LUG,Q67383482,Q67382150,god,"McManus 1991,§6.5",[LUG]
-ERC,Q67382360,Q67382150,"god","McManus 1991,§6.5",[ERC|ERCA]
-RITTA,,Q67382150,"god","McManus 1991,§6.5",[RITTA|RETA|RITTE]
-BRAN,,Q67382150,"raven","McManus 1991,§6.6",[BRAN]
-QENN,,Q67382150,"head","McManus 1991,§6.6",[QENN|QVEN|QEN|QENI]
-IVA,,Q67382150,"tree, yew tree","McManus 1991,§6.6",[IVA|IVO]
-TREN,,Q67382150,"strong","McManus 1991,§6.6",[TREN|TTREN]
+MAQI,http://www.wikidata.org/entity/Q67381254,http://www.wikidata.org/entity/Q67381377,,,
+MUCOI,http://www.wikidata.org/entity/Q67999759,http://www.wikidata.org/entity/Q67381377,,,
+ANM,http://www.wikidata.org/entity/Q68000035,http://www.wikidata.org/entity/Q67381377,,,
+AVI,http://www.wikidata.org/entity/Q68000199,http://www.wikidata.org/entity/Q67381377,,,
+CELI,http://www.wikidata.org/entity/Q68000377,http://www.wikidata.org/entity/Q67381377,,,
+KOI,http://www.wikidata.org/entity/Q68000462,http://www.wikidata.org/entity/Q67381377,,,
+DALAGNI,http://www.wikidata.org/entity/Q68001812,http://www.wikidata.org/entity/Q67382150,,,
+DERCMASOC,http://www.wikidata.org/entity/Q68001907,http://www.wikidata.org/entity/Q67382150,,,
+CUNA,http://www.wikidata.org/entity/Q67382235,http://www.wikidata.org/entity/Q67382150,"dog, hound","McManus 1991,§6.3",[CUNA|CUNO|CONU|CVNO|CUNAS|CONAS|CONA|CON|CVNI]
+CATTU,http://www.wikidata.org/entity/Q67383338,http://www.wikidata.org/entity/Q67382150,"battle","McManus 1991,§6.3",[CATTU|CATU|CATA|CAT|CATTOS|CATOS|CCATTO|CATTO|CCATO|CATI]
+BARR,,http://www.wikidata.org/entity/Q67382150,"top, head, hear of the head","McManus 1991,§6.4",[BARR|BAR]
+DOV,,http://www.wikidata.org/entity/Q67382150,"black","McManus 1991,§6.4",[DOV]
+GLAS,,http://www.wikidata.org/entity/Q67382150,"light green","McManus 1991,§6.4",[GLAS]
+MAGL,,http://www.wikidata.org/entity/Q67382150,"prince","McManus 1991,§6.4",[MAGL|MAGLI]
+VIR,,http://www.wikidata.org/entity/Q67382150,"man","McManus 1991,§6.4",[VIR|VER]
+LUG,http://www.wikidata.org/entity/Q67383482,http://www.wikidata.org/entity/Q67382150,god,"McManus 1991,§6.5",[LUG]
+ERC,http://www.wikidata.org/entity/Q67382360,http://www.wikidata.org/entity/Q67382150,"god","McManus 1991,§6.5",[ERC|ERCA]
+RITTA,,http://www.wikidata.org/entity/Q67382150,"god","McManus 1991,§6.5",[RITTA|RETA|RITTE]
+BRAN,,http://www.wikidata.org/entity/Q67382150,"raven","McManus 1991,§6.6",[BRAN]
+QENN,,http://www.wikidata.org/entity/Q67382150,"head","McManus 1991,§6.6",[QENN|QVEN|QEN|QENI]
+IVA,,http://www.wikidata.org/entity/Q67382150,"tree, yew tree","McManus 1991,§6.6",[IVA|IVO]
+TREN,,http://www.wikidata.org/entity/Q67382150,"strong","McManus 1991,§6.6",[TREN|TTREN]
