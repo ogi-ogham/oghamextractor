@@ -1,23 +1,105 @@
-word,wikidata,type,translation,ref,variants
-MAQI,http://www.wikidata.org/entity/Q67381254,http://www.wikidata.org/entity/Q67381377,,,
-MUCOI,http://www.wikidata.org/entity/Q67999759,http://www.wikidata.org/entity/Q67381377,,,
-ANM,http://www.wikidata.org/entity/Q68000035,http://www.wikidata.org/entity/Q67381377,,,
-AVI,http://www.wikidata.org/entity/Q68000199,http://www.wikidata.org/entity/Q67381377,,,
-CELI,http://www.wikidata.org/entity/Q68000377,http://www.wikidata.org/entity/Q67381377,,,
-KOI,http://www.wikidata.org/entity/Q68000462,http://www.wikidata.org/entity/Q67381377,,,
-DALAGNI,http://www.wikidata.org/entity/Q68001812,http://www.wikidata.org/entity/Q67382150,,,
-DERCMASOC,http://www.wikidata.org/entity/Q68001907,http://www.wikidata.org/entity/Q67382150,,,
-CUNA,http://www.wikidata.org/entity/Q67382235,http://www.wikidata.org/entity/Q67382150,"dog, hound","McManus 1991,§6.3",[CUNA|CUNO|CONU|CVNO|CUNAS|CONAS|CONA|CON|CVNI]
-CATTU,http://www.wikidata.org/entity/Q67383338,http://www.wikidata.org/entity/Q67382150,"battle","McManus 1991,§6.3",[CATTU|CATU|CATA|CAT|CATTOS|CATOS|CCATTO|CATTO|CCATO|CATI]
-BARR,,http://www.wikidata.org/entity/Q67382150,"top, head, hear of the head","McManus 1991,§6.4",[BARR|BAR]
-DOV,,http://www.wikidata.org/entity/Q67382150,"black","McManus 1991,§6.4",[DOV]
-GLAS,,http://www.wikidata.org/entity/Q67382150,"light green","McManus 1991,§6.4",[GLAS]
-MAGL,,http://www.wikidata.org/entity/Q67382150,"prince","McManus 1991,§6.4",[MAGL|MAGLI]
-VIR,,http://www.wikidata.org/entity/Q67382150,"man","McManus 1991,§6.4",[VIR|VER]
-LUG,http://www.wikidata.org/entity/Q67383482,http://www.wikidata.org/entity/Q67382150,god,"McManus 1991,§6.5",[LUG]
-ERC,http://www.wikidata.org/entity/Q67382360,http://www.wikidata.org/entity/Q67382150,"god","McManus 1991,§6.5",[ERC|ERCA]
-RITTA,,http://www.wikidata.org/entity/Q67382150,"god","McManus 1991,§6.5",[RITTA|RETA|RITTE]
-BRAN,,http://www.wikidata.org/entity/Q67382150,"raven","McManus 1991,§6.6",[BRAN]
-QENN,,http://www.wikidata.org/entity/Q67382150,"head","McManus 1991,§6.6",[QENN|QVEN|QEN|QENI]
-IVA,,http://www.wikidata.org/entity/Q67382150,"tree, yew tree","McManus 1991,§6.6",[IVA|IVO]
-TREN,,http://www.wikidata.org/entity/Q67382150,"strong","McManus 1991,§6.6",[TREN|TTREN]
+word,wikidata,type,translation,ref,variants,context
+CUNA,http://www.wikidata.org/entity/Q67382235,http://www.wikidata.org/entity/Q67382150,"dog, hound","McManus 1991,§6.3",[CUNA|CUNO|CONU|CVNO|CUNAS|CONAS|CONA|CON|CVNI],{subString}
+CATTU,http://www.wikidata.org/entity/Q67383338,http://www.wikidata.org/entity/Q67382150,"battle","McManus 1991,§6.3",[CATTU|CATU|CATA|CAT|CATTOS|CATOS|CCATTO|CATTO|CCATO|CATI],{subString}
+BARR,,http://www.wikidata.org/entity/Q67382150,"top, head, hear of the head","McManus 1991,§6.4",[BARR|BAR],{subString}
+DOV,,http://www.wikidata.org/entity/Q67382150,"black","McManus 1991,§6.4",[DOV],{subString}
+GLAS,,http://www.wikidata.org/entity/Q67382150,"light green","McManus 1991,§6.4",[GLAS],{subString}
+MAGL,,http://www.wikidata.org/entity/Q67382150,"prince","McManus 1991,§6.4",[MAGL|MAGLI],{subString}
+VIR,,http://www.wikidata.org/entity/Q67382150,"man","McManus 1991,§6.4",[VIR|VER],{subString}
+LUG,http://www.wikidata.org/entity/Q67383482,http://www.wikidata.org/entity/Q67382150,god,"McManus 1991,§6.5",[LUG],{subString}
+ERC,http://www.wikidata.org/entity/Q67382360,http://www.wikidata.org/entity/Q67382150,"god","McManus 1991,§6.5",[ERC|ERCA],{subString}
+RITTA,,http://www.wikidata.org/entity/Q67382150,"god","McManus 1991,§6.5",[RITTA|RETA|RITTE],{subString}
+BRAN,,http://www.wikidata.org/entity/Q67382150,"raven","McManus 1991,§6.6",[BRAN],{subString}
+QENN,,http://www.wikidata.org/entity/Q67382150,"head","McManus 1991,§6.6",[QENN|QVEN|QEN|QENI],{subString}
+IVA,,http://www.wikidata.org/entity/Q67382150,"tree, yew tree","McManus 1991,§6.6",[IVA|IVO],{subString}
+TREN,,http://www.wikidata.org/entity/Q67382150,"strong","McManus 1991,§6.6",[TREN|TTREN],{subString}
+ANM,http://www.wikidata.org/entity/Q68000035,http://www.wikidata.org/entity/Q67381377,"name","McManus 1991,§6.27",[ANM],
+AVI,http://www.wikidata.org/entity/Q68000199,http://www.wikidata.org/entity/Q67381377,"grandson, descendant","McManus 1991,§6.27",[AVI],
+CELI,http://www.wikidata.org/entity/Q68000377,http://www.wikidata.org/entity/Q67381377,"companions, client, fellow","McManus 1991,§6.27",[CELI],
+INIGENA,,http://www.wikidata.org/entity/Q67381377,"daughter","McManus 1991,§6.27",[INIGENA|INGENVI],
+KOI,http://www.wikidata.org/entity/Q68000462,http://www.wikidata.org/entity/Q67381377,"here","McManus 1991,§6.27",[KOI],
+MAQI,http://www.wikidata.org/entity/Q67381254,http://www.wikidata.org/entity/Q67381377,"son","McManus 1991,§6.27",[MAQI|MAQQI|MAQ|MAC|MACI|MACCI|MACV],[Person] MAQI [Person]
+MEMOR,,http://www.wikidata.org/entity/Q67381377,"memorial, tombstone","McManus 1991,§6.27",[MEMOR],
+MUCOI,http://www.wikidata.org/entity/Q67999759,http://www.wikidata.org/entity/Q67381377,"túath, tribe","McManus 1991,§6.27",[MUCOI|MOCU|MACCU|MOCOI|MOCO],
+NIOTA,,http://www.wikidata.org/entity/Q67381377,"nephew, sister`s son","McManus 1991,§6.27",[NIOTA|NETTA|NETA],
+DOVALESCI,,http://www.wikidata.org/entity/Q79401991,"(he who is) black and sliggish","McManus 1991,§6.10",[DOVALESCI],{string}
+GATTEGLAN,,http://www.wikidata.org/entity/Q79401991,"(he who is) wise and pure","McManus 1991,§6.10",[GATTEGLAN],{string}
+DERCMASOC,http://www.wikidata.org/entity/Q68001907,http://www.wikidata.org/entity/Q79401991,"(he who has) an elegant /filthy eye","McManus 1991,§6.10",[DERCMASOC],{string}
+CUNAMAGLI,,http://www.wikidata.org/entity/Q79401991,"prince of wolves","McManus 1991,§6.10",[CUNAMAGLI],{string}
+CUNANETAS,,http://www.wikidata.org/entity/Q79401991,"champion of the wolves","McManus 1991,§6.10",[CUNANETAS|CUNNETAS],{string}
+CATABAR,,http://www.wikidata.org/entity/Q79401991,"head (`chief`) of battle","McManus 1991,§6.10",[CATABAR],{string}
+CATTUVVIRR,,http://www.wikidata.org/entity/Q79401991,"man of battle","McManus 1991,§6.10",[CATTUVVIRR],{string}
+CVNORIX,,http://www.wikidata.org/entity/Q79401991,"king of wolves","McManus 1991,§6.10",[CVNORIX],{string}
+CUNAGUSSOS,,http://www.wikidata.org/entity/Q79401991,"(he who has) the strengh of a wolf","McManus 1991,§6.10",[CUNAGUSSOS],{string}
+VERGOSO,,http://www.wikidata.org/entity/Q79401991,"(he who has) the strengh of a man","McManus 1991,§6.10",[VERGOSO],{string}
+VENDVBARI,,http://www.wikidata.org/entity/Q79401991,"(he who has) a fair head of hear","McManus 1991,§6.10",[VENDVBARI],{string}
+INEQAGLAS,,http://www.wikidata.org/entity/Q79401991,"having a grey face","McManus 1991,§6.10",[INEQAGLAS],{string}
+BARRIVENDI,,http://www.wikidata.org/entity/Q79401991,"(he who has) a  a fair head of hear","McManus 1991,§6.10",[BARRIVENDI],{string}
+ACTO,,http://www.wikidata.org/entity/Q79401991,"drives","McManus 1991,§6.11",[ACTO],{string}
+ALATTOS,,http://www.wikidata.org/entity/Q79401991,"wild","McManus 1991,§6.11",[ALATTOS|ALATTO],{string}
+BAIT,,http://www.wikidata.org/entity/Q79401991,"foolish","McManus 1991,§6.11",[BAIT],{string}
+BARI,,http://www.wikidata.org/entity/Q79401991,"top, head","McManus 1991,§6.11",[BARI],{string}
+BIR,,http://www.wikidata.org/entity/Q79401991,"short heared","McManus 1991,§6.11",[BIR],{string}
+BROCI,,http://www.wikidata.org/entity/Q79401991,"badger","McManus 1991,§6.11",[BROCI|BROCC],{string}
+BRUSCCOS,,http://www.wikidata.org/entity/Q79401991,"thunder","McManus 1991,§6.11",[BRUSCCOS|BRUSCO],{string}
+CARI,,http://www.wikidata.org/entity/Q79401991,"loves","McManus 1991,§6.11",[CARI],{string}
+CORBBI,,http://www.wikidata.org/entity/Q79401991,"defiles","McManus 1991,§6.11",[CORBBI],{string}
+CORRE,,http://www.wikidata.org/entity/Q79401991,"heron","McManus 1991,§6.11",[CORRE],{string}
+CURCI,,http://www.wikidata.org/entity/Q79401991,"heart or reddens, burns","McManus 1991,§6.11",[CURCI],{string}
+DALI,,http://www.wikidata.org/entity/Q79401991,"blind","McManus 1991,§6.11",[DALI|DALA],{string}
+DEGOS,,http://www.wikidata.org/entity/Q79401991,"flame,blaze","McManus 1991,§6.11",[DEGOS|DEGO],{string}
+DOMMO,,http://www.wikidata.org/entity/Q79401991,"Domma","McManus 1991,§6.11",[DOMMO],{string}
+DRUGNO,,http://www.wikidata.org/entity/Q79401991,"dróna","McManus 1991,§6.11",[DRUGNO|DROGNO],{string}
+ERC,,http://www.wikidata.org/entity/Q79401991,"heaven,cow","McManus 1991,§6.11",[ERC],{string}
+IARNI,,http://www.wikidata.org/entity/Q79401991,"iron","McManus 1991,§6.11",[IARNI],{string}
+MEDVVI,,http://www.wikidata.org/entity/Q79401991,"mead","McManus 1991,§6.11",[MEDVVI],{string}
+RODDOS,,http://www.wikidata.org/entity/Q79401991,"red,Ríata","McManus 1991,§6.11",[RODDOS|REDDOS],{string}
+TRENU,,http://www.wikidata.org/entity/Q79401991,"strong/Trian","McManus 1991,§6.11",[TRENU],{string}
+TIGIRIN,,http://www.wikidata.org/entity/Q79401991,"lord","McManus 1991,§6.11",[TIGIRIN],{string}
+VORGOS,,http://www.wikidata.org/entity/Q79401991,"Forgo","McManus 1991,§6.11",[VORGOS],{string}
+VRAICCI,,http://www.wikidata.org/entity/Q79401991,"heather","McManus 1991,§6.11",[VRAICCI],{string}
+BAIDAGNI,,http://www.wikidata.org/entity/Q79401991,"Báetán","McManus 1991,§6.12",[BAIDAGNI],{string}
+BARANAN,,http://www.wikidata.org/entity/Q79401991,"raven","McManus 1991,§6.12",[BARANAN],{string}
+BROCAGNI,,http://www.wikidata.org/entity/Q79401991,"badger","McManus 1991,§6.12",[BROCAGNI|BROCANN|BROCAGNI],{string}
+CERANI,,http://www.wikidata.org/entity/Q79401991,"dark","McManus 1991,§6.12",[CERANI|CERAN],{string}
+COIMAGNI,,http://www.wikidata.org/entity/Q79401991,"dear,precious","McManus 1991,§6.12",[COIMAGNI],{string}
+COLOMAGNI,,http://www.wikidata.org/entity/Q79401991,"dove","McManus 1991,§6.12",[COLOMAGNI],{string}
+COMMAGGAGNI,,http://www.wikidata.org/entity/Q79401991,"leads","McManus 1991,§6.12",[COMMAGGAGNI|COMMOGAN],{string}
+CONANN,,http://www.wikidata.org/entity/Q79401991,"hound,wolf","McManus 1991,§6.12",[CONANN],{string}
+CORBAGNI,,http://www.wikidata.org/entity/Q79401991,"defiles","McManus 1991,§6.12",[CORBAGNI],{string}
+COVAGNI,,http://www.wikidata.org/entity/Q79401991,"brown","McManus 1991,§6.12",[COVAGNI|CRONAN|CRONN],{string}
+CVRCAGNI,,http://www.wikidata.org/entity/Q79401991,"heart/burns","McManus 1991,§6.12",[CVRCAGNI],{string}
+DALAGNI,http://www.wikidata.org/entity/Q68001812,http://www.wikidata.org/entity/Q79401991,"blind","McManus 1991,§6.12",[DAIMAGNI|DALAGNI],{string}
+DOVAGNI,,http://www.wikidata.org/entity/Q79401991,"black","McManus 1991,§6.12",[DOVAGNI|DOBAGNI],{string}
+GIRAGNI,,http://www.wikidata.org/entity/Q79401991,"short (-haired)","McManus 1991,§6.12",[GIRAGNI],{string}
+GLANNANI,,http://www.wikidata.org/entity/Q79401991,"pure","McManus 1991,§6.12",[GLANNANI],{string}
+LAIDANN,,http://www.wikidata.org/entity/Q79401991,"poem","McManus 1991,§6.12",[LAIDANN|LADDIGNI],{string}
+MODDAGNI,,http://www.wikidata.org/entity/Q79401991,"noble","McManus 1991,§6.12",[MODDAGNI|MODDAGN],{string}
+RONANN,,http://www.wikidata.org/entity/Q79401991,"seal","McManus 1991,§6.12",[RONANN|RONNN],{string}
+ULCAGNI,,http://www.wikidata.org/entity/Q79401991,"evil","McManus 1991,§6.12",[ULCAGNI|VLCAGNI],{string}
+VIRAGNI,,http://www.wikidata.org/entity/Q79401991,"man/true","McManus 1991,§6.12",[VIRAGNI],{string}
+BATTIGNI,,http://www.wikidata.org/entity/Q79401991,"foolish","McManus 1991,§6.12",[BATTIGNI],{string}
+QASIGNI,,http://www.wikidata.org/entity/Q79401991,"curly","McManus 1991,§6.12",[QASIGNI|QASIGN],{string}
+VENDOGNI,,http://www.wikidata.org/entity/Q79401991,"fair","McManus 1991,§6.12",[VENDOGNI],{string}
+CASONI,,http://www.wikidata.org/entity/Q79401991,"curly","McManus 1991,§6.12",[CASONI],{string}
+CRONUN,,http://www.wikidata.org/entity/Q79401991,"brown","McManus 1991,§6.12",[CRONUN],{string}
+GOSOCTAS,,http://www.wikidata.org/entity/Q79401991,"danger","McManus 1991,§6.13",[GOSOCTAS],{string}
+BRANOGENI,,http://www.wikidata.org/entity/Q79401991,"raven + he who is born of or son","McManus 1991,§6.9",[BRANOGENI],{string}
+CUNAGUSSOS,,http://www.wikidata.org/entity/Q79401991,"hound, wolf + vigour","McManus 1991,§6.9",[CUNAGUSSOS],{string}
+CATTUVVIRR,,http://www.wikidata.org/entity/Q79401991,"battle + man","McManus 1991,§6.9",[CATTUVVIRR],{string}
+DOMNGEN,,http://www.wikidata.org/entity/Q79401991,"world + son","McManus 1991,§6.9",[DOMNGEN],{string}
+GAMICUNAS,,http://www.wikidata.org/entity/Q79401991,"winter + wolf","McManus 1991,§6.9",[GAMICUNAS],{string}
+IVACATTOS,,http://www.wikidata.org/entity/Q79401991,"yew + battle","McManus 1991,§6.9",[IVACATTOS],{string}
+IVAGENI,,http://www.wikidata.org/entity/Q79401991,"yew + son","McManus 1991,§6.9",[IVAGENI],{string}
+MEDDO,,http://www.wikidata.org/entity/Q79401991,"mead + son","McManus 1991,§6.9",[MEDDO|UGENI],{string}
+VERGOSO,,http://www.wikidata.org/entity/Q79401991,"man + vigour","McManus 1991,§6.9",[VERGOSO],{string}
+BODIBEVE,,http://www.wikidata.org/entity/Q79401991,"victory + living,alive","McManus 1991,§6.9",[BODIBEVE|BODDIB],{string}
+BRANADDOV,,http://www.wikidata.org/entity/Q79401991,"raven + black","McManus 1991,§6.9",[BRANADDOV],{string}
+VENDUBARI,,http://www.wikidata.org/entity/Q79401991,"top, head, hear of the head + fair","McManus 1991,§6.9",[VENDUBARI],{string}
+BIVAIDONAS,,http://www.wikidata.org/entity/Q79401991,"alive + fire","McManus 1991,§6.9",[BIVAIDONAS],{string}
+DOVAIDONA,,http://www.wikidata.org/entity/Q79401991,"black + fire","McManus 1991,§6.9",[DOVAIDONA],{string}
+GLASICONAS,,http://www.wikidata.org/entity/Q79401991,"grey + wolf","McManus 1991,§6.9",[GLASICONAS],{string}
+TRENACCATLO,,http://www.wikidata.org/entity/Q79401991,"strong + battle","McManus 1991,§6.9",[TRENACCATLO|TRENACATVS],{string}
+VANDUBARI,,http://www.wikidata.org/entity/Q79401991,"fair + head","McManus 1991,§6.9",[VANDUBARI],{string}
+DOVALESCI,,http://www.wikidata.org/entity/Q79401991,"black + sluggish","McManus 1991,§6.9",[DOVALESCI],{string}
+AMMECATI,,http://www.wikidata.org/entity/Q79401991,"arround + battle","McManus 1991,§6.9",[AMMECATI|AMBICATOS|BICATOS],{string}
