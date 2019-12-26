@@ -16,12 +16,12 @@ TREN,,http://www.wikidata.org/entity/Q67382150,"strong","McManus 1991,§6.6",[TR
 ANM,http://www.wikidata.org/entity/Q68000035,http://www.wikidata.org/entity/Q67381377,"name","McManus 1991,§6.27",[ANM],"{{ANM [P]},{ANM [P] MAQI [P]}}"
 AVI,http://www.wikidata.org/entity/Q68000199,http://www.wikidata.org/entity/Q67381377,"grandson, descendant","McManus 1991,§6.27",[AVI],"{{AVI [P]},{[P] AVI [P]},{[P] MAQI [P] AVI [P]}}"
 CELI,http://www.wikidata.org/entity/Q68000377,http://www.wikidata.org/entity/Q67381377,"companions, client, fellow","McManus 1991,§6.27",[CELI],"{{CELI [P]},{[P] CELI [P]}}"
-INIGENA,,http://www.wikidata.org/entity/Q67381377,"daughter","McManus 1991,§6.27",[INIGENA|INGENVI],
+INIGENA,,http://www.wikidata.org/entity/Q67381377,"daughter","McManus 1991,§6.27",[INIGENA|INGENVI],"{{INIGENA [P]}}"
 KOI,http://www.wikidata.org/entity/Q68000462,http://www.wikidata.org/entity/Q67381377,"here","McManus 1991,§6.27",[KOI],"{{[P] KOI MAQI MUCOI [P]},{KOI [P]}}"
 MAQI,http://www.wikidata.org/entity/Q67381254,http://www.wikidata.org/entity/Q67381377,"son","McManus 1991,§6.27",[MAQI|MAQQI|MAQ|MAC|MACI|MACCI|MACV],"{{[P] MAQI [P]},{[P] MAQI MUCOI [P]},{[P] MAQI [P] MUCOI [P]},{[P] KOI MAQI MUCOI [P]},{[P] MAQI [P] MAQI MUCOI [P]},{ANM [P] MAQI [P]},{[P] MAQI [P] AVI [P]}}"
 MEMOR,,http://www.wikidata.org/entity/Q67381377,"memorial, tombstone","McManus 1991,§6.27",[MEMOR],
 MUCOI,http://www.wikidata.org/entity/Q67999759,http://www.wikidata.org/entity/Q67381377,"túath, tribe","McManus 1991,§6.27",[MUCOI|MOCU|MACCU|MOCOI|MOCO], "{{MUCOI [P]},{[P] MAQI MUCOI [P]},{[P] MAQI [P] MUCOI [P]},{[P] KOI MAQI MUCOI [P]},{[P] MUCOI [P]},{[P] MAQI [P] MAQI MUCOI [P]}}"
-NIOTA,,http://www.wikidata.org/entity/Q67381377,"nephew, sister`s son","McManus 1991,§6.27",[NIOTA|NETTA|NETA],
+NIOTA,,http://www.wikidata.org/entity/Q67381377,"nephew, sister`s son","McManus 1991,§6.27",[NIOTA|NETTA|NETA],"{{NIOTA [P]}}"
 DOVALESCI,,http://www.wikidata.org/entity/Q79401991,"(he who is) black and sliggish","McManus 1991,§6.10",[DOVALESCI],{string}
 GATTEGLAN,,http://www.wikidata.org/entity/Q79401991,"(he who is) wise and pure","McManus 1991,§6.10",[GATTEGLAN],{string}
 DERCMASOC,http://www.wikidata.org/entity/Q68001907,http://www.wikidata.org/entity/Q79401991,"(he who has) an elegant /filthy eye","McManus 1991,§6.10",[DERCMASOC],{string}
