@@ -1,0 +1,42 @@
+MON_FORM|GEN_FORM|MED_FORM|DETAIL_FOR
+arcar|architectural element|arch|arch
+arcbs|architectural element|building stone|building stone
+arcli|architectural element|lintel|lintel
+arcot|architectural element|other|other
+arcpa|architectural element|panel|panel
+block|block|block|block
+colum|column|column|column
+eccal|ecclesiastical furniture|altar|altar
+eccfn|ecclesiastical furniture|font|font
+eccot|ecclesiastical furniture|other|other
+fcbas|free-standing cross|cross-base|cross-base
+fccA1a|free-standing cross|complete|Cramp sh. A, head 1a
+fccB6e2|free-standing cross|complete|Cramp sh. B, head 6e, r2
+fccB8e5|free standing cross|complete|Cramp sh. B, head 8e, r5
+fch1a|free-standing cross|cross-head|Cramp head 1a
+fcsA|free-standing cross|cross-shaft|Cramp shaft A
+fcsB|free-standing cross|cross-shaft|Cramp shaft B
+fragy|fragment|fragment|fragment
+fscuc|free-standing cross|otherwise unclassified|otherwise unclassified
+inc|incomplete|incomplete|incomplete
+ind|indeterminate|indeterminate|indeterminate
+n/a|not applicable|not applicable|not applicable
+nboul|natural|boulder|boulder
+ncave|natural|cave|cave
+nrock|natural|rock outcrop|rock outcrop
+pillc|pillar|slab|cross-marked
+pillp|pillar|slab|plain
+pilsc|pillar|stone|cross-marked
+pilsp|pillar|stone|plain
+recmo|recumbent monument|recumbent monument|recumbent monument
+rpmeg|re-used|prehistoric|megalith
+rpout|re-used|prehistoric|carved rock outcrop
+rralt|re-used|Roman|altar
+rrarc|re-used|Roman|architectural fragment
+rrmil|re-used|Roman|milestone
+rroth|re-used|Roman|other
+sarco|sarcophagus|sarcophagus|sarcophagus
+slbbd|worked slab|body-slab|body-slab
+slbcr|worked slab|cross-slab|cross-slab
+slbns|worked slab|name-slab|name-slab
+slbot|worked-slab|other|other
