@@ -8,6 +8,6 @@ authors:
     given-names: Timo
     orcid: https://orcid.org/0000-0002-9499-5840
 title: "oghamextractor"
-version: 0.1
-doi: TBD
+version: 1.0
+doi: 10.5281/zenodo.3969514
 date-released: 2020-08-01
