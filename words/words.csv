@@ -26,7 +26,7 @@ DOVALESCI,,http://www.wikidata.org/entity/Q79401991,"(he who is) black and sligg
 GATTEGLAN,,http://www.wikidata.org/entity/Q79401991,"(he who is) wise and pure","McManus 1991,§6.10",[GATTEGLAN],{string}
 DERCMASOC,http://www.wikidata.org/entity/Q68001907,http://www.wikidata.org/entity/Q79401991,"(he who has) an elegant /filthy eye","McManus 1991,§6.10",[DERCMASOC],{string}
 CUNAMAGLI,,http://www.wikidata.org/entity/Q79401991,"prince of wolves","McManus 1991,§6.10",[CUNAMAGLI],{string}
-CUNANETAS,,http://www.wikidata.org/entity/Q79401991,"champion of the wolves","McManus 1991,§6.10",[CUNANETAS|CUNNETAS],{string}
+CUNANETAS,https://www.wikidata.org/wiki/Q101349712,http://www.wikidata.org/entity/Q79401991,"champion of the wolves","McManus 1991,§6.10",[CUNANETAS|CUNNETAS],{string}
 CATABAR,,http://www.wikidata.org/entity/Q79401991,"head (`chief`) of battle","McManus 1991,§6.10",[CATABAR],{string}
 CATTUVVIRR,,http://www.wikidata.org/entity/Q79401991,"man of battle","McManus 1991,§6.10",[CATTUVVIRR],{string}
 CVNORIX,,http://www.wikidata.org/entity/Q79401991,"king of wolves","McManus 1991,§6.10",[CVNORIX],{string}
