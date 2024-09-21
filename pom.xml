@@ -44,7 +44,12 @@
     <artifactId>jena-core</artifactId>
     <version>3.12.0</version>
 </dependency>
-  
+    <dependency>
+      <groupId>com.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>5.9</version>
+      <type>jar</type>
+    </dependency>
   </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
