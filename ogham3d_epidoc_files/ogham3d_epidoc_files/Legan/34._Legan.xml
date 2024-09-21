@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 34. Legan</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName></orgName>
+                </editor>
+                               <respStmt>
+                                   <resp>3D recorded using photogrammetry on 29/06/2020 and processed using Agisoft Metashape software.</resp>
+                    <name>Gary Dempsey</name>
+                    <orgName>Digital Heritage Age</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is
+                            licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inscription originally published in <bibl>
+                        <title level="m" xml:lang="la">Corpus Inscriptionum Insularum
+                            Celticarum</title>
+                        <author>R.A.S. Macalister</author> (<date>1945</date>) </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>June 2020</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Edition</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 34. <placeName type="townland">Legan</placeName></name>,
+                Co. <placeName type="county">Kilkenny</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref
+                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-026002-"
+                >KK028-026002-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Castle</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>Formerly a corner-stone (?) [quoin] in a now ruined structure called Legan Castle: at present (1942) prostrate at its door, 
+                        and liable to injury through the heaping of farm appliances upon it from time to time</q> <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                        <date when="1945">1945</date>, <biblScope type="pp"
+                            >38</biblScope></bibl></ref>; <ref type="bibliog" target="#BAR1896"><bibl><author>Barry</author>
+                                <date when="1896">1896</date>, <biblScope type="pp"
+                                    >126-7</biblScope></bibl>)</ref>. Legan Castle Farmhouse is now a guesthouse at which the castle ruins, including the re-erected ogham stone, are preserved.
+                        The townland name (<hi rend="italic">An Liagán</hi>) contains the element <hi rend="italic">lia</hi> (also: <hi rend="italic">liag</hi>) 'stone, pillar-stone',
+                    which perhaps refers to this moument.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material">'Grit'</rs>, <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">2.03</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.51</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.42</measure>m
+                            (Converted from <ref type="bibliog" target="#MAC1945"
+                                        ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >38</biblScope></bibl>)</ref></rs>. A plain <rs type="feature">cross</rs> is pocked on the inscribed face of the stone.</p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>Up-top-down. <q>Inscription <rs type="execution">pocked</rs> and much worn... The vowels are all faint, and some of them are flaked away... including the final I, 
+                        after which the whole sinister angle is chipped. There is no trace of any writing after the letters specified, and I do not think there ever was any. 
+                        2C is very difficult to trace: the N scores are oblique, but they certainly do not form part of an R</q> 
+                        <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                >38-9</biblScope></bibl>)</ref>.</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab><ref type="bibliog" target="#BAR1896"><bibl><author>Barry</author> 
+                    (<date when="1896">1896</date>, <biblScope type="pp"
+                        >126</biblScope></bibl>)</ref>:  
+                    <persName><w lemma="LOBBI">LOBB<supplied reason="lost">I</supplied></w></persName>
+                    <w type="formula" lemma="KOI">KOI</w>
+                    <w type="formula" lemma="MAQQI">MAQQI</w>
+                    <w type="formula" lemma="MUCOI">MUC/C<unclear reason="worn">OI</unclear></w>
+                    <persName><w><unclear reason="damage">I</unclear>R/<unclear reason="damage">EI</unclear></w></persName>
+                </ab>
+                <ab><ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                    (<date when="1945">1945</date>, <biblScope type="pp"
+                        >38-9</biblScope></bibl></ref>):  
+                    <persName><w lemma="LOBBI">LOBB<supplied reason="lost">I</supplied></w></persName>
+                    <w type="formula" lemma="KOI">K<supplied reason="lost">OI</supplied></w>
+                    <w type="formula" lemma="MAQQI">MAQQI</w>
+                    <w type="formula" lemma="MUCOI">MUC<unclear reason="worn">/COI</unclear></w>
+                    <persName><w lemma="RINI">R/<supplied reason="lost">I</supplied>N<supplied reason="lost">I</supplied></w></persName>
+                </ab>
+                <ab><ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> 
+                    (<date when="1991">1991</date>, <biblScope type="pp"
+                        >67</biblScope></bibl>)</ref>:
+                    <persName><w lemma="...LL..."><gap reason="lost"></gap>LL<gap reason="lost"></gap></w></persName>
+                    <w type="formula" lemma="MAQQI">MAQQ<supplied reason="lost">I</supplied></w>
+                    <w type="formula" lemma="MUCOI"><unclear reason="worn">m</unclear><supplied reason="lost">U</supplied>C/<supplied reason="lost">COI</supplied></w>
+                    <gap reason="lost"></gap>                   
+                    </ab>
+            </div>
+            <div type="translation" xml:lang="ga">
+                <head>Translation</head>
+                    <ab><q>(of Lob here) son of the descendant of (Renn?)</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                    <list>
+                        <item n="1"><p>If Barry's and Macalister's reading is correct with LOBBI, this may be an example of the element 
+                            LOBA- found in other ogham inscriptions, for example, LOBACCONA in <ref target="search.php?ciic=266">CIIC 266</ref> from
+                            Dromore, Co. Waterford. This element may be related to OIr. <hi rend="italic">Lobur/Lobor</hi> 'weak' (<ref 
+                                target="http://edil.qub.ac.uk/30409">dil.ie/30409</ref>). Although much less certain, if the ancestor name Macalister read as RINI is correct,
+                            it may be equated with the word <hi rend="italic">renn</hi> 'swift, fast' (<ref target="http://edil.qub.ac.uk/35118">dil.ie/35118</ref>)
+                            <ref type="bibliog"
+                                target="#ZIE1994">(<bibl><author>Ziegler</author> 
+                                    <date when="1994">1994</date>, <biblScope type="pp"
+                                        >111, 88</biblScope></bibl>)</ref>.           
+                            </p></item>
+                    </list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Re-used as building material in a now ruined structure called Legan Castle in the townland of <placeName type="townland">Legan</placeName> and barony
+                            of <placeName
+                                type="barony">Gowran</placeName>. (Private land. Approx. GPS coordinates
+                            <geo>-7.162888, 52.534804</geo>)</rs>.
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site.</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation">Set upright in the courtyard beside the entrance arch at Legan Castle. The present location
+                            of this stone may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-026002--"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. </rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head> History of Recording</head>
+                <p><q>recognised, 1891 Moore, J.</q> 
+                    <ref type="bibliog" target="#MAC1945">(<bibl><author>Macalister</author>
+                            <date when="1945">1945</date>, <biblScope type="pp"
+                                >38</biblScope></bibl>)</ref>. According to <ref type="bibliog" target="#BAR1896"><bibl><author>Barry</author> 
+                                    (<date when="1896">1896</date>, <biblScope type="pp"
+                                        >126</biblScope></bibl>)</ref>, the ogham stone <q>projected in relief from a wall at Legan Castle, 
+                                        until the fall of that wall a few years ago</q>. Some time after 1945 it was set in concrete at the front of the remains of the 
+                    castle. It was recorded in 3d (in collaboration with <ref
+                        target="https://www.digitalheritageage.com/"
+                        >Digital Heritage Age</ref>) in June 2020 as an action of the County Kilkenny Heritage Plan Programme, funded by the Heritage Office of Kilkenny County Council and the Heritage Council.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BAR1896"><author><surname>Barry</surname>,
+                        <forename>E.</forename></author> (<date when="1896">1896</date>):
+                        <title level="a">'On ogham-stones seen in Kilkenny County'</title>, <title level="j"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">26</biblScope>, <biblScope type="pp">pp
+                            122-35</biblScope>. Retrieved June 18, 2020, from <ref
+                                target="http://www.jstor.org/stable/25508303">www.jstor.org</ref>.</bibl>
+                    <bibl xml:id="MAC1945"><author><surname>Macalister</surname>,
+                                <forename>R.A.S.</forename></author> (<date when="1945"
+                                    >1945</date>): <title level="m"><hi rend="italic">Corpus inscriptionum insularum
+                            Celticarum</hi></title>, <biblScope type="pp">pp 38-9</biblScope>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 54, 67</biblScope>.</bibl>
+                    <bibl xml:id="ZIE1994">
+                        <author>
+                            <surname>Ziegler</surname>, <forename>S.</forename>
+                        </author> (<date>1994</date>): <title level="m"><hi rend="italic">Die Sprache der altirischen
+                            Ogam-Inschriften</hi></title>. <pubPlace>Gottingen</pubPlace>:
+                        <publisher>Vandenhoeck and Ruprecht</publisher>, <biblScope type="pp">pp 88, 111</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">McCarthy, John K.</name><name type="thesis"><hi rend="italic">Castles in Space: An Exploration of the Space In and Around the 
+                            Tower Houses of South-East Kilkenny</hi></name> (Appendix B37-8): <ref
+                            target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                            >https://www.academia.edu/30476356/Castles_in_Space_An_Exploration_of_the_Space_In_and_Around_the_Tower_Houses_of_South-East_Kilkenny</ref></bibl>
+                       
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

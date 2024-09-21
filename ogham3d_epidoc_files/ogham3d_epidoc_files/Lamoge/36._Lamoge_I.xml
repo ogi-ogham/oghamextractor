@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CIIC 36. Lamoge I</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName></orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D recorded using photogrammetry on 22/07/2020 and processed using Agisoft Metashape software.</resp>
+                    <name>Gary Dempsey</name>
+                    <orgName>Digital Heritage Age</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is
+                            licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>July 2020</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Edition</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone">CIIC 36. <placeName type="townland">Lamoge</placeName> I</name>,
+                Co. <placeName type="county">Kilkenny</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK034-013003-">KK034-013003-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Lamoge graveyard (<ref
+                        target="http://webgis.archaeology.ie/historicenvironment/?SMRS=KK034-013002-"
+                        >KK034-013002-</ref>) is surrounded by a high, square-shaped enclosing wall with a wrought iron gate. Inside are four mature yew trees and headstones 
+                        mainly dating from the 1700s as well as smaller unmarked headstones and two ogham stones lying horizontally in the middle of the graveyard. 
+                        The square enclosure is indicated on the 25" ordnance survey map (1890s-c.1915) 
+                        and labelled 'church (site of)'. The earlier 6" map (1838-42) shows no such enclosure and is labelled 'church (in ruins), Grave Yd.', suggesting that 
+                        the enclosing wall was constructed in the latter half of the 1800s, perhaps re-using stone from the ruined church. There is the site of a holy well 
+                        to the north of the graveyard which also destroyed in the 19th century. This may have been an early ecclesiastical site and is possibly associated 
+                        with St. Brigit (<ref
+                            target="http://monasticon.celt.dias.ie/showrecord.php?id=4329"
+                            >monasticon.celt.dias.ie</ref>)                       
+                         </p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        One of two ogham stones at this site. <rs type="material"></rs><q>Greenish sandstone</q> <rs type="dimensions">  <ref type="bibliog" target="#BAR1896">(<bibl><author>Barry</author> 
+                            <date when="1896">1896</date>, <biblScope type="pp"
+                                >122</biblScope></bibl>)</ref>. 
+                            <measure unit="metre" type="length" rend="height">1.37</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.66</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.30</measure>m  
+                            (Converted from <ref type="bibliog" target="#MAC1945"
+                                ><bibl><author>Macalister</author>
+                                    <date when="1945">1945</date>, <biblScope type="pp"
+                                        >40</biblScope></bibl>)</ref></rs>. The top of the stone is damaged resulting in the loss of a presumed formula word such as MAQI or MUCOI.</p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>The inscription reads up-top-down starting at the bottom left hand angle of the exposed face. 
+                        <q>The letters are <rs type="execution">punched and rubbed</rs> except the initial SE, which is <rs type="execution">chiselled</rs> 
+                        </q> <ref type="bibliog" target="#MAC1945"
+                            >(<bibl><author>Macalister</author>
+                                <date when="1945">1945</date>, <biblScope type="pp"
+                                    >41</biblScope></bibl>)</ref>. 
+                        <ref type="bibliog" target="#MCM1991"><bibl><author>McManus</author> 
+                            (<date when="1991">1991</date>, <biblScope type="pp">68</biblScope></bibl>)</ref> classifies this as a <q>restored inscription</q>, 
+                        and consequently untrustworthy, but perhaps he is referring to Lamoge II (<ref
+                            target="search.php?ciic=37"
+                            >CIIC 37</ref>) which does appear to have been erased and re-cut but possibly by the original carver or soon afterwards.</p>
+                   
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <persName><w lemma="SEVERRIT">SEVERRI<unclear reason="obscured">T</unclear></w></persName>/<gap reason="lost"></gap>
+                    <w type="formula" lemma="MAQI"><supplied reason="lost">MAQI</supplied></w>/
+                    <persName><w lemma="ROTTAIS"><supplied reason="lost">RO</supplied><unclear reason="obscured">TT</unclear>AIS</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ga">
+                <head>Translation</head>
+                <ab><q>of Severus(?) son of [Roth(a)]</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list>
+                    <item n="1"><p>The name of the person commemorated, SEVERRIT[..., may be related to the Latin name <hi rend="italic">Severus</hi>, meaning 'strict, stern' <ref type="bibliog"
+                        target="#ZIE1994">(<bibl><author>Ziegler</author> 
+                            <date when="1994">1994</date>, <biblScope type="pp"
+                                >232, 91</biblScope></bibl>)</ref>. Damage to the top of the stone makes the final letter(s) of this name unclear. We would also expect a formula word to follow, 
+                        most commonly MAQI 'son of'.</p></item>
+                    <item n="2"><p>On the second angle, only the end of the father's/ancestor's name survives: TTAIS. <ref type="bibliog" target="#MAC1945"><bibl><author>Macalister</author> 
+                        (<date when="1945">1945</date>, <biblScope type="pp"
+                            >277</biblScope></bibl>)</ref>, noting the similarity with the final name in <ref
+                                target="search.php?ciic=227"
+                                >CIIC 227</ref>. Drumlohan VI: BIR MAQI MUCOI ROTTAIS, suggested the same name here. 
+                        The -AIS/-AI genitive ending, of which there are a dozen or so examples, seems to belong to i̯o-stem or perhaps i-stem nouns, but we still do not have a fully satisfying 
+                        explanation <ref type="bibliog"
+                            target="#ZIE1994">(<bibl><author>Ziegler</author> 
+                                <date when="1994">1994</date>, <biblScope type="pp"
+                                    >55-58</biblScope></bibl>)</ref>.</p>
+                    </item></list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Discovered serving as a modern headstone in the graveyard in the townland of <placeName type="townland">Lamoge</placeName> and the barony
+                            of <placeName
+                                type="barony">Kells</placeName>. The find location of this stone
+                            may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK034-013003-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (Private land. Approximate GPS coordinates
+                            <geo>-7.365943, 52.446598</geo>)</rs>.
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location possibly original site</rs>.
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation">On site in the position in which it was discovered, although no longer upright.</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head> History of Recording</head>
+                <p>According to <ref type="bibliog" target="#MAC1945"
+                    ><bibl><author>Macalister</author> 
+                        (<date when="1945">1945</date>, <biblScope type="pp"
+                            >40</biblScope></bibl>)</ref> first mentioned in 1891 by Shelley. <ref
+                    type="bibliog" target="#BAR1896"><bibl><author>Barry</author> 
+                        (<date when="1896">1896</date>, <biblScope type="pp">122</biblScope></bibl>)</ref> notes that he first heard of these ogham stones from 
+                    Rev. Denis Murphy in 1891 and then again in 1892 from Mr. John Cummins. Barry visited the site and saw the stones in 1892 and again in 1893, 
+                    when photographs were taken of both ogham stones standing upright. This stone was discovered shortly after the first, which was lying close by.
+                    Both stones were recorded in 3d (in collaboration with <ref
+                        target="https://www.digitalheritageage.com/"
+                        >Digital Heritage Age</ref>) in June 2020 as an action 
+                    of the County Kilkenny Heritage Plan Programme, funded by the Heritage Office of Kilkenny County Council and the Heritage Council.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="BAR1896"><author><surname>Barry</surname>,
+                        <forename>E.</forename></author> (<date when="1896">1896</date>):
+                        <title level="a">'On ogham-stones seen in Kilkenny County'</title>, <title level="j"><hi rend="italic">JRSAI</hi></title>
+                        <biblScope type="vol">26</biblScope>, <biblScope type="pp">pp
+                            122-35</biblScope>. Retrieved June 18, 2020, from <ref
+                                target="http://www.jstor.org/stable/25508303">www.jstor.org</ref>.</bibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">p. 68.</biblScope>.</bibl>
+                    <bibl xml:id="ZIE1994">
+                        <author>
+                            <surname>Ziegler</surname>, <forename>S.</forename>
+                        </author> (<date>1994</date>): <title level="m"><hi rend="italic">Die Sprache der altirischen
+                            Ogam-Inschriften</hi></title>. <pubPlace>Gottingen</pubPlace>:
+                        <publisher>Vandenhoeck and Ruprecht</publisher>, <biblScope type="pp">pp 55-58, 91, 228, 232</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhráin, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                            Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                            Centuries</hi></title>: <ref
+                                target="http://monasticon.celt.dias.ie/showrecord.php?id=4329"
+                                >monasticon.celt.dias.ie</ref></bibl>           
+                       
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

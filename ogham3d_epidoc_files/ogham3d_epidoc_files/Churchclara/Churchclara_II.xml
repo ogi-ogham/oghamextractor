@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Churchclara II</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                </editor>
+                   <respStmt>
+                        <resp>3D recorded using photogrammetry on 03/01/2017 and processed using Agisoft Photoscan software.</resp>
+                        <name>Nora White</name>
+                        <orgName></orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is
+                            licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>July 2020</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Edition</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"> <placeName type="townland">Churchclara</placeName> II</name>,
+                Co. <placeName type="county">Kilkenny</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-017010-">KK020-017010-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p><q>Clara is clearly a pre-Norman foundation as indicated by the antae (projecting side walls) on the chancel. 
+                        There is a holy well nearby and two bullaun stones are associated with the site. According to Carrigan 
+                        the church was dedicated to a St Colmán whose feast day was 16 October. The Martyrology of Oengus (written around AD 800) 
+                        records a St Colmán of <hi rend="italic">Cell Ruaid</hi> (Kilroot, Co Antrim) on that date. A list of homonymous saints in the Book of Leinster 
+                        and other manuscripts has reference to a Colmán Cláraig, but has no other information about him. This is most likely 
+                        to be the Clara in question, the only place of the name with a definite pre-Norman chirch and the only civil parish 
+                        of the name in the country. In addition its former importance is indicated by the fact that it gave its name to one 
+                        of the deaneries of the medieval diocese. The <hi rend="italic">Ségéne</hi> of <hi rend="italic">Clárach</hi>, whose death is recorded in 749 is likely to have been 
+                        connected with this church</q> <ref type="bibliog" target="#MAN1997">(<bibl><author>Manning and Moore</author> 
+                            <date when="1997">1997</date>, <biblScope type="pp"
+                                >370-371</biblScope></bibl>)</ref> .</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material">Red sandstone</rs>, <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.14</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.24</measure>m
+                                <measure unit="metre" type="length" rend="depth"></measure> 
+                        </rs>. The stone is located <q>just above present ground level in the external face of the north wall of the nave, 
+                            immediately east of the north doorway... it lies horizontally</q> 
+                        <ref type="bibliog" target="#MAN1997">(<bibl><author>Manning and Moore</author> 
+                            <date when="1997">1997</date>, <biblScope type="pp"
+                                >371</biblScope></bibl>)</ref>.</p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p>The inscription is <q><rs type="execution">pocked</rs></q> on one visible angle of the stone.  
+                       <q>The exposed face of the stone has been partly dressed by the medieval builders and this has damaged some of the ogham letters, 
+                            especially some of the vowel notches. Two pairs of long diagonal strokes (both G) stand out best on the face, but some other consonant strokes 
+                            running the other way can be detected in the masonry joint on the upper face of the stone. The inscription appears to begin after a blank 33 cm 
+                            at the west (or right hand end) with a G, followed by a damaged section which could have held 5, or more likely, 4 vowel strokes (E?), than an L 
+                            followed by a damaged vowel stroke (A), then G and N followed by 5 or 6 damaged vowel strokes. Finally, there is a V and 2 vowel strokes running 
+                            up to the broken corner ... with the remainder of the inscription on an edge of the stone hidden by the wall</q> <ref type="bibliog" target="#MAN1997">(<bibl><author>Manning and Moore</author> 
+                                <date when="1997">1997</date>, <biblScope type="pp"
+                                    >371</biblScope></bibl>)</ref>.</p>                   
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head> 
+                <ab><lb rend="R-L upper angle" n="1"/>
+                    <persName><w lemma="GELAGNI">G<supplied reason="lost">E</supplied>L<unclear reason="damage"
+                        >A</unclear>GN<supplied reason="lost">I</supplied></w></persName>
+                    <w type="formula" lemma="AVI"><supplied reason="lost" cert="high">A</supplied>V<supplied reason="lost" cert="high">I</supplied></w>
+                    <gap reason="lost"></gap>    
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ga">
+                <head>Translation</head>
+                <ab><q>of Gelán grandson of..?</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list>
+                    <item n="1"><p>As <ref type="bibliog" target="#MAN1997"><bibl><author>Manning and Moore</author>  
+                        (<date when="1997">1997</date>, <biblScope type="pp"
+                            >372</biblScope></bibl>)</ref> suggest regarding GELAGNI, <q>if a long é was intended (Gellagni) would be cognate with 
+                                Old Irish <hi rend="italic">Gíallán</hi>, related to <hi rend="italic">gíall</hi> `a hostage'. 
+                                If a short e was intended (Gelagni), it would be congante with Old Irish *<hi rend="italic">Gelán</hi>, related to <hi rend="italic">gel</hi> 'bright'</q>.
+                        The former is actually attested as a personal name in the Félire Óengusso (<ref target="http://www.dil.ie/25799">eDIL s.v. gíallán</ref>).</p>                   
+                    </item></list>
+
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Built into the external face of the north wall of the nave, immediately east of the north doorway of the ruined church 
+                            <ref type="bibliog" target="#MAN1997">(<bibl><author>Manning and Moore</author> 
+                                <date when="1997">1997</date>, <biblScope type="pp"
+                                    >371</biblScope></bibl>)</ref> in the townland of Churchclara and barony
+                            of Gowran. The location
+                            of this stone may be accessed via the <ref target="http://webgis.archaeology.ie/
+                                HistoricEnvironment/?SMRS=KK020-017010-">National Monuments Service Historic Environment viewer on www.archaeology.ie</ref>.   
+                            (Publicly accessible. GPS coordinates
+                            <geo>-7.146098, 52.655485</geo>)</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Unknown</rs>
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation">On site in the position in which it was discovered.</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head> History of Recording</head>
+                <p>Discovered by Con Manning in the late 1970s 
+                    <ref type="bibliog" target="#MAN1997">(<bibl><author>Manning and Moore</author> 
+                        <date when="1997">1997</date>, <biblScope type="pp"
+                            >371</biblScope></bibl>)</ref>. In 2017 both stones were recorded in 3d using photogrammetry and in June 2020 digitised here as an action 
+                    of the County Kilkenny Heritage Plan Programme, funded by the Heritage Office of Kilkenny County Council and the Heritage Council.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="MAN1997">
+                        <author>
+                            <surname>Manning</surname>, <forename>C.</forename>
+                        </author> and <author>
+                            <surname>Moore</surname>
+                            <forename>F.</forename>
+                        </author> (<date>1997</date>): <title level="a">'A second ogham stone at
+                            Clara'</title>, <title level="j"><hi rend="italic">Peritia</hi></title>
+                        <biblScope type="vol">11</biblScope>, <biblScope type="pp">pp 370-372</biblScope>. </bibl>
+                   
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        <bibl><name type="author">MacShamhr&#x00e1;in, A.</name>: <title type="database"><hi rend="italic">Monasticon Hibernicum database - Early
+                                Christian Ecclesiastical Settlement in Ireland 5th to 12th
+                                Centuries</hi></title>: <ref
+                                    target="http://monasticon.celt.dias.ie/showrecord.php?id=2501"
+                                >monasticon.celt.dias.ie</ref></bibl>                       
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8.13/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cloghabrody</title>
+                <editor>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                    <orgName></orgName>
+                </editor>
+                <respStmt>
+                    <resp>3D recorded using photogrammetry on 29/06/2020 and processed using Agisoft Metashape software.</resp>
+                    <name>Gary Dempsey</name>
+                    <orgName>Digital Heritage Age</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Dublin Institute for Advanced Studies</distributor>
+                <pubPlace>Dublin</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US"><p>This work is
+                            licensed under the Creative Commons licence Attribution-NonCommercial-ShareAlike 3.0 Ireland</p>
+                        <p>Copyright (c) 2013 by the School of Celtic Studies
+                                <ref>http://www.celt.dias.ie</ref></p>
+                        <p>All reuse or distribution of this work must contain somewhere a reference
+                            to <ref>http://ogham.celt.dias.ie/</ref></p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.13
+                in <date>June 2020</date>
+                by
+                <name>
+                    <persName>Nora White</persName>
+                    <roleName>Principal Investigator</roleName>
+                </name>
+            </p>
+            <projectDesc>
+                <p>
+                    <title>Ogham in 3D</title> The ultimate aim of the Ogham in 3D project is to
+                    digitise and record in 3d as many as possible of the approximately four hundred surviving Ogham stones and to make
+                    these 3D models freely available on the <orgName>Dublin Institute for Advanced
+                        Studies</orgName> website as part of a multi-disciplinary archive of Ogham
+                    stones. </p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy xml:id="divs">
+                    <category xml:id="description">
+                        <catDesc>Description</catDesc>
+                        <category xml:id="monument">
+                            <catDesc>Description of Monument</catDesc>
+                            <category xml:id="site">
+                                <catDesc>Description Site Type</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="text">
+                            <catDesc>Description of the Text</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="edition">
+                        <catDesc>Edition</catDesc>
+                    </category>
+                    <category xml:id="translation">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="figure">
+                        <catDesc>Images</catDesc>
+                        <category xml:id="three-dimensional-images">
+                            <catDesc>3D Images</catDesc>
+                        </category>
+                        <category xml:id="photographs">
+                            <catDesc>Photographs</catDesc>
+                        </category>
+                        <category xml:id="drawings">
+                            <catDesc>Drawings</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="Commentary">
+                        <catDesc>Commentary</catDesc>
+                    </category>
+                    <category xml:id="History">
+                        <catDesc>History of the Monument</catDesc>
+                        <category xml:id="locations">
+                            <catDesc>Locations</catDesc>
+                            <category xml:id="found">
+                                <catDesc>Found</catDesc>
+                            </category>
+                            <category xml:id="origLocation">
+                                <catDesc>Original Location</catDesc>
+                            </category>
+                            <category xml:id="lastLocation">
+                                <catDesc>Last Recorded Location</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="record">
+                            <catDesc>History of Recording</catDesc>
+                        </category>
+                    </category>
+                    <category xml:id="bibliography">
+                        <catDesc>Bibliography</catDesc>
+                        <category xml:id="websites">
+                            <catDesc>Websites and Online Databases</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ga">Irish</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head><name type="stone"><placeName type="townland">Cloghabrody</placeName></name>,
+                Co. <placeName type="county">Kilkenny</placeName></head>
+            <ab><rs>National Monuments Service Record Number: <ref target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-062011-">KK028-062011-</ref>
+                </rs></ab>
+            <div type="description" n="site type">
+                <head>Site Type</head>
+                <p>Possible Ecclesiastical</p>
+            </div>
+            <div type="description">
+                <head>Description</head>
+                <div type="description" n="site">
+                    <head>Site</head>
+                    <p>Sometimes referred to as the 'Thomastown' stone, but discovered in the townland of Cloghabrody north of Thomastown <q>in a field called the ‘monk's field’ 
+                        on the W bank of a stream, a tributary of the River Nore, that separates the townlands of Cloghabrody 
+                        and Columbkille [as well as the parishes of Thomastown and Columbkille]. The church (<ref
+                            target="http://webgis.archaeology.ie/historicenvironment/?SMRS=KK028-043001-"
+                            >KK028-043001-</ref>) and holy well (KK028-043003-) of Columbkille are 
+                        on the E side of the stream and it may be that there is a connection between this church site and the ogham stone (pers. comm. Fionnbarr Moore)</q> (<ref
+                            target="http://webgis.archaeology.ie/historicenvironment/?SMRS=KK028-062011-"
+                            >ASI database, 
+                            www.archaeology.ie</ref>). The townland name (<hi rend="italic">Cloch an Bhródaigh</hi>) contains the element <hi rend="italic">cloch</hi> 'stone',
+                        which perhaps refers to this monument.</p>
+                </div>
+                <div type="description" n="monument">
+                    <head>Monument</head>
+                    <p>
+                        <rs type="material"></rs> <rs type="dimensions">
+                            <measure unit="metre" type="length" rend="height">1.46</measure>m x
+                                <measure unit="metre" type="length" rend="width">0.31</measure>m x
+                                <measure unit="metre" type="length" rend="depth">0.20</measure>m 
+                            (<ref type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
+                                    <date when="1991">1991</date>, <biblScope type="pp">73</biblScope></bibl>)</ref></rs>.</p>
+                </div>
+                <div type="description" n="text">
+                    <head>Text</head>
+                    <p><q>The scores are very deeply <rs type="execution">cut</rs> and the inscription is in extremely good condition. 
+                        It reads up the left-hand arris across the top and down the right in boustrophedon fashion and continues [upwards] on the 
+                        left-hand side rear arris</q> (<ref type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
+                            <date when="1991">1991</date>, <biblScope type="pp">73</biblScope></bibl>)</ref>. The vowels are more like scores than notches and 
+                        almost as long as the consonant scores, particularly the U of MUCOI at the top of the first angle on the left.</p>
+                   
+                </div>
+            </div>
+            <div type="edition" xml:lang="ga">
+                <head xml:lang="en">Transliteration</head>
+                <ab>
+                    <persName><w lemma="VEDELMETO">VEDDELLEMETTO</w></persName>
+                    <w type="formula" lemma="MUCOI">MU/CI</w>/
+                    <persName><w lemma="LOGIDEAS">LOGIDDEAS</w></persName>/
+                    <w type="formula" lemma="AVI">AVVI</w>
+                    <persName><w lemma="MUNICONA">MUNICCONA</w></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="ga">
+                <head>Translation</head>
+                <ab><q>of Fedelmid/Feidlimid descendant of Loígde grandson of Muinchú</q></ab>
+            </div>
+            <div type="figure">
+                <head>Images</head>
+                <div type="figure" n="three-dimensional-model">
+                    <head>3D model</head>
+                </div>
+                <div type="figure" n="photographs">
+                    <head>Photographs</head>
+                </div>
+                <div type="figure" n="drawings">
+                    <head>Drawings</head>
+                </div>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list>
+                    <item n="1"><p>Regarding the first name, compare <ref target="search.php?ciic=Knockmahon_II">Knockmahon II</ref>, Co. Waterford: VEDILIMETO MAQI TOQITAQ
+                        and <ref target="search.php?ciic=206">CIIC 206. Kilcoolaght I</ref>, Co. Kerry: [C]EDATTOQ[A] MAQI TELEDMEV... (read: VEDELMET[TO]).
+                        <q>The name of the commemorand is undoubtedly an early form of Fedelmid/Feidlimid, an i-stem derivative of the female name 
+                            Fedelm (Latinised and Anglicised Fidelma). The third E of VEDDELLEMETTO, therefore, may be erroneous (as Fedelm, Fedelmid cannot come from *Vedelm-, 
+                            which would have given *Feidelm, with lenited m) [unless] we may have to do here with a svarabhakti vowel</q> (<ref type="bibliog"
+                                target="#MCM1991"><bibl><author>McManus</author> <date when="1991"
+                                    >1991</date>, <biblScope type="pp">75, n 6. 28</biblScope></bibl></ref>).</p></item>
+                    <item><p>MUCI is presumably an error for MUCOI rather than MAQI/MACI and <q>the O of LOGIDDEAS might be taken as a variant of the dipthong OI and the equation 
+                        with the <hi rend="italic">Corcu Loígde</hi> would suggest itself</q> <ref
+                            type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
+                                <date when="1991">1991</date>, <biblScope type="pp">73-4</biblScope></bibl>)</ref>.
+                        The sept name AVVI MUNICONNA (<hi rend="italic">*Ui Muinchon</hi>?) does not appear to be attested elsewhere.  <ref
+                            type="bibliog" target="#MCM1991"><bibl><author>McManus</author> 
+                                (<date when="1991">1991</date>, <biblScope type="pp">75</biblScope></bibl>)</ref> suggests that <q>one might consider the possibility that the N 
+                                    is an error for R (cp. <hi rend="italic">Muirchú</hi>)</q>.                              
+                    </p></item></list>
+            </div>
+            <div type="history" n="locations">
+                <head>Locations</head>
+                <div type="history" n="locations">
+                    <head>Found</head>
+                    <p>
+                        <rs type="found">Discovered in a field called the ‘monk's field’ on the west bank of a stream
+                            that separates the townlands of <placeName type="townland">Cloghabrody</placeName> and <placeName type="townland">Columbkille</placeName> 
+                            (as well as the parishes of Thomastown and Columbkille) in the barony
+                            of <placeName
+                                type="barony">Gowran</placeName>. The find location of this stone
+                            may be accessed via the <ref
+                                target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-062011-"
+                                >National Monuments Service Historic Environment viewer on
+                                www.archaeology.ie</ref>. (Approximate GPS coordinates
+                            <geo>-7.128603, 52.531772</geo>)</rs>.
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Original</head>
+                    <p>
+                        <rs type="origLocation">Find location probably original site</rs>.
+                    </p>
+                </div>
+                <div type="history" n="locations">
+                    <head>Last recorded</head>
+                    <p>
+                        <rs type="lastLocation">On display in the Prior's Room at Jerpoint Abbey. The present location
+                            of this stone may be accessed via the <ref target="http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-101----">National 
+                                Monuments Service Historic Environment viewer on www.archaeology.ie</ref>. (Publicly accessible. GPS coordinates
+                            <geo>-7.157583, 52.510880</geo>)</rs>
+                    </p>
+                </div>
+            </div>
+            <div type="history" n="record">
+                <head> History of Recording</head>
+                <p><q>Discovered by G. Doyle in 1969 by the bank of a small tributary to the river Nore (no further information is 
+                    supplied regarding the site of discovery) and has since been erected against an arch at the entrance to the now largely demolished 
+                    chancel of Thomastown Church, Co. Kilkenny</q> <ref
+                    type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
+                        <date when="1991">1991</date>, <biblScope type="pp">73</biblScope></bibl>)</ref>. In 2014 the stone was moved to its current location 
+                    at Jerpoint Abbey where it was recorded in 3d (in collaboration with <ref
+                        target="https://www.digitalheritageage.com/"
+                        >Digital Heritage Age</ref>) in 2020 as an action of the County Kilkenny Heritage Plan Programme. 
+                    It was funded by the Heritage Office of Kilkenny County Council and the Heritage Council.</p>
+            </div>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <bibl xml:id="MCM1991"><author><surname>McManus</surname>, D.</author> (<date
+                        when="1991">1991</date>): <title level="m"><hi rend="italic">A guide to ogam</hi></title>.
+                            <title level="s">Maynooth Monographs</title>
+                        <biblScope type="vol">4,</biblScope>
+                        <biblScope type="pp">pp 73-5, 95, 102, 108, 111, 115, 118, 121.</biblScope>.</bibl>
+                    <bibl xml:id="PIL1972"><author><surname>Pilsworth</surname>,
+                        <forename>W.J.</forename></author> 
+                            (<date when="1972"
+                                >1972</date>): <title level="m"><hi rend="italic">History of Thomastown and district</hi></title>. 
+                        <publisher>Kilkenny Archaeological Society</publisher>, <biblScope type="pp">p. 70</biblScope>.</bibl>
+                    <bibl xml:id="ZIE1994">
+                        <author>
+                            <surname>Ziegler</surname>, <forename>S.</forename>
+                        </author> (<date>1994</date>): <title level="m"><hi rend="italic">Die Sprache der altirischen
+                            Ogam-Inschriften</hi></title>. <pubPlace>Gottingen</pubPlace>:
+                        <publisher>Vandenhoeck and Ruprecht</publisher>, <biblScope type="pp">pp 242-3</biblScope>.</bibl>
+                </listBibl>
+                <div type="bibliography" n="websites">
+                    <head>Websites and Online Databases</head>
+                    <listBibl>
+                        <bibl><name type="project"><hi rend="italic">CISP (Celtic Inscribed Stones
+                                Project)</hi></name>: <ref
+                                target="http://www.ucl.ac.uk/archaeology/cisp/database/"
+                                >www.ucl.ac.uk/archaeology/cisp/database/</ref></bibl>
+                        
+                       
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
