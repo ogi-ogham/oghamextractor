@@ -1,8 +1,10 @@
 package oghamepidoc;
 
+import com.opencsv.exceptions.CsvValidationException;
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -187,7 +189,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 		}
 	}
 	
-	public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException {
+	public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException, FileNotFoundException, CsvValidationException {
 		Map<String,Tuple<Word,Integer>> wordmap=WordParser.csvToWordMap("words/words.csv");
 		OntModel model=ModelFactory.createOntologyModel();
 		List<OghamObject> resultList=new LinkedList<OghamObject>();

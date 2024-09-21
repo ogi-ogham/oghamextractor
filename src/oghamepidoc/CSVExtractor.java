@@ -22,10 +22,11 @@ import com.opencsv.CSVParser;
 import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
+import com.opencsv.exceptions.CsvValidationException;
 
 public class CSVExtractor {
 
-	public static OntModel csvToTTL(String fileName,Integer[] idcoll,String classs,String namespace,Map<String, Tuple<Word, Integer>> words,OntModel model) throws FileNotFoundException, IOException {
+	public static OntModel csvToTTL(String fileName,Integer[] idcoll,String classs,String namespace,Map<String, Tuple<Word, Integer>> words,OntModel model) throws FileNotFoundException, IOException, CsvValidationException {
 		List<Integer> idcol=Arrays.asList(idcoll);
 		FileReader fileReader = new FileReader(new File(fileName));
 		CSVParserBuilder csvParserBuilder = new CSVParserBuilder();
@@ -105,7 +106,7 @@ public class CSVExtractor {
 	}
 	
 	
-	public static void main(String[] args) throws FileNotFoundException, IOException {
+	public static void main(String[] args) throws FileNotFoundException, IOException, CsvValidationException {
 		Map<String, Tuple<Word, Integer>> words=WordParser.csvToWordMap("words/words.csv");
 		String filename="site";
 		OntModel model=ModelFactory.createOntologyModel();

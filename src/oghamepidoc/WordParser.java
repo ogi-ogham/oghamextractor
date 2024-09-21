@@ -12,6 +12,7 @@ import com.opencsv.CSVParser;
 import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
+import com.opencsv.exceptions.CsvValidationException;
 
 public class WordParser {
 	
@@ -20,7 +21,7 @@ public class WordParser {
 	
 	
 	
-	public static Map<String,Tuple<Word,Integer>> csvToWordMap(String fileName) throws FileNotFoundException, IOException {
+	public static Map<String,Tuple<Word,Integer>> csvToWordMap(String fileName) throws FileNotFoundException, IOException, CsvValidationException {
 		FileReader fileReader = new FileReader(new File(fileName));
 		CSVParserBuilder csvParserBuilder = new CSVParserBuilder();
 	    CSVParser parser = csvParserBuilder.withSeparator(',').build();
