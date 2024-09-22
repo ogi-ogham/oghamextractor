@@ -49,7 +49,7 @@ public class OghamObject {
 		System.out.println(title);
 		OntClass oghamobj=model.createClass(BASEURI+"OghamObject");
 		oghamobj.addLabel("Ogham Object","en");
-		OntClass dictionary=model.createClass("http://www.w3.org/ns/lemon/lime#");
+		OntClass dictionary=model.createClass("http://www.w3.org/ns/lemon/lime#Lexicon");
 		dictionary.addLabel("Lexicon","en");
 		OntClass character=model.createClass("http://www.w3.org/ns/lemon/ontolex#Character");
 		character.addLabel("Character","en");
@@ -118,7 +118,7 @@ public class OghamObject {
 		inscriptionmentions.addLabel("inscription mentions","en");
 		ObjectProperty relative=model.createObjectProperty("http://www.wikidata.org/prop/direct/P1038");
 		relative.addLabel("relative","en");
-		ObjectProperty entry=model.createObjectProperty("http://www.w3.org/ns/lemon/ontolex#entry");
+		ObjectProperty entry=model.createObjectProperty("http://www.w3.org/ns/lemon/lime#entry");
 		entry.addLabel("entry","en");
 		ObjectProperty sense=model.createObjectProperty("http://www.w3.org/ns/lemon/ontolex#sense");
 		sense.addLabel("sense","en");
