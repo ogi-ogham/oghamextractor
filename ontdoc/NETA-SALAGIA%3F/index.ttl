@@ -1,9 +1,12 @@
 @prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#NETA-SALAGIA%3F> a ns1:Word,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Person: NETA-SALAGIA?"@en,
+        "Word: NETA-SALAGIA? (ᚆᚓᚉᚐᚅᚐᚂᚐᚌᚔᚐ)"@en ;
     ns1:contains <http://www.i3mainz.de/ogham#ᚂ_character>,
         <http://www.i3mainz.de/ogham#ᚅ_character>,
         <http://www.i3mainz.de/ogham#ᚆ_character>,

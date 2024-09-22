@@ -1,9 +1,11 @@
 @prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#GOSOCTEAS_sense> a ns1:LexicalSense,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "GOSOCTEAS Sense"@en ;
     ns1:reference <http://www.i3mainz.de/ogham#GOSOCTEAS_person> ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
 

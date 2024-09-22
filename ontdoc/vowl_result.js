@@ -158,9 +158,7 @@ var vowlresult={
    "iri": "http://xmlns.com/foaf/0.1/Person",
    "baseIRI": "http://xmlns.com/foaf/0.1",
    "instances": 0,
-   "label": {
-    "IRI-based": "Person"
-   },
+   "label": "Character",
    "annotations": {},
    "subClasses": [],
    "superClasses": []
@@ -170,9 +168,7 @@ var vowlresult={
    "iri": "http://lemon-model.net/lemon#Character",
    "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
-   "label": {
-    "IRI-based": "Character"
-   },
+   "label": "Word",
    "annotations": {},
    "subClasses": [],
    "superClasses": []
@@ -182,9 +178,7 @@ var vowlresult={
    "iri": "http://lemon-model.net/lemon#Word",
    "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
-   "label": {
-    "IRI-based": "Word"
-   },
+   "label": "Lexical Sense",
    "annotations": {},
    "subClasses": [],
    "superClasses": []
@@ -194,9 +188,7 @@ var vowlresult={
    "iri": "http://lemon-model.net/lemon#LexicalSense",
    "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
-   "label": {
-    "IRI-based": "LexicalSense"
-   },
+   "label": "Point",
    "annotations": {},
    "subClasses": [],
    "superClasses": [
@@ -218,9 +210,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q41812345",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": {
-    "IRI-based": "Q41812345"
-   },
+   "label": "Feature",
    "annotations": {},
    "subClasses": [
     "1016"
@@ -234,9 +224,7 @@ var vowlresult={
    "iri": "http://www.opengis.net/ont/geosparql#Feature",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
-   "label": {
-    "IRI-based": "Feature"
-   },
+   "label": "Geometry",
    "annotations": {},
    "subClasses": [
     "1011"
@@ -250,9 +238,7 @@ var vowlresult={
    "iri": "http://www.opengis.net/ont/geosparql#Geometry",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
-   "label": {
-    "IRI-based": "Geometry"
-   },
+   "label": "Spatial Object",
    "annotations": {},
    "subClasses": [
     "1013",
@@ -265,9 +251,7 @@ var vowlresult={
    "iri": "http://www.opengis.net/ont/geosparql#SpatialObject",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
-   "label": {
-    "IRI-based": "SpatialObject"
-   },
+   "label": "Ogham Object",
    "annotations": {},
    "subClasses": [],
    "superClasses": [
@@ -379,9 +363,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q67383482",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": {
-    "IRI-based": "Q67383482"
-   },
+   "label": "Lexicon",
    "annotations": {},
    "subClasses": [],
    "superClasses": []
@@ -391,9 +373,7 @@ var vowlresult={
    "iri": "http://lemon-model.net/lemon#Lexicon",
    "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
-   "label": {
-    "IRI-based": "Lexicon"
-   },
+   "label": "Person",
    "annotations": {},
    "subClasses": [],
    "superClasses": []
@@ -4657,9 +4637,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOICACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TOICACI"
-   },
+   "label": "Person: LITENI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -4704,9 +4682,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LITENI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LITENI"
-   },
+   "label": "Person: VLATIAMI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -4751,9 +4727,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VLATIAMI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VLATIAMI"
-   },
+   "label": "Person: VATTILLOGG",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -4798,9 +4772,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VATTILLOGG",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VATTILLOGG"
-   },
+   "label": "Word: QECCIAS? (\u1693\u168a\u168a\u1694\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -4845,9 +4817,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QECCIAS%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QECCIAS%3F"
-   },
+   "label": "Word: LABRID (\u1682\u1690\u1681\u168f\u1694\u1688)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -4892,9 +4862,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LABRID",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LABRID"
-   },
+   "label": "Person: VITALIN",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -4953,9 +4921,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI"
-   },
+   "label": "Word: BR... (\u1681\u168f)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5000,9 +4966,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BR...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BR..."
-   },
+   "label": "Word: TOGITTACC[I] (\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5047,9 +5011,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TOGITTACC%5BI%5D"
-   },
+   "label": "Person: COMMAGGAGNI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5108,9 +5070,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ISAMMNN%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ISAMMNN%3F"
-   },
+   "label": "Word: KOI? (\u1691\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5147,9 +5107,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#KOI%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "KOI%3F"
-   },
+   "label": "Word: INISSIONAS (\u1694\u1686\u1694\u1685\u1685\u1694\u1691\u1686\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5194,9 +5152,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#INISSIONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "INISSIONAS"
-   },
+   "label": "Person: DROGNO",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5241,9 +5197,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DROGNO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DROGNO"
-   },
+   "label": "Word: MOCOI (\u168b\u1691\u168a\u1691\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5280,9 +5234,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MOCOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MOCOI"
-   },
+   "label": "Person: MARIANI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5327,9 +5279,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MARIANI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MARIANI"
-   },
+   "label": "Word: VEDDONOS (\u1684\u1693\u1688\u1688\u1691\u1686\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5374,9 +5324,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDDONOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEDDONOS"
-   },
+   "label": "Person: BROINIONAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5421,9 +5369,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROINIONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROINIONAS"
-   },
+   "label": "Word: BECCDINN (\u1681\u1693\u168a\u168a\u1688\u1694\u1686\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5468,9 +5414,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BECCDINN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BECCDINN"
-   },
+   "label": "Person: COBRANORA?",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5515,9 +5459,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COBRANORA%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COBRANORA%3F"
-   },
+   "label": "Person: GOSSUCTTIAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5576,9 +5518,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GRAVICAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GRAVICAS"
-   },
+   "label": "Person: ...LL...",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5623,9 +5563,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#...LL...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "...LL..."
-   },
+   "label": "Word: DEGLANN (\u1688\u1693\u168c\u1682\u1690\u1686\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5670,9 +5608,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEGLANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DEGLANN"
-   },
+   "label": "Word: CORBBI (\u168a\u1691\u168f\u1681\u1681\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5717,9 +5653,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBBI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORBBI"
-   },
+   "label": "Word: CUNACENA (\u168a\u1692\u1686\u1690\u168a\u1693\u1686\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5764,9 +5698,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNACENA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNACENA"
-   },
+   "label": "Word: BATTIGNI (\u1681\u1690\u1689\u1689\u1694\u168c\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5811,9 +5743,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BATTIGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BATTIGNI"
-   },
+   "label": "Person: SEDANI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5858,9 +5788,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SEDANI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SEDANI"
-   },
+   "label": "Person: VEDABAR",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5905,9 +5833,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDABAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEDABAR"
-   },
+   "label": "Person: MOINENA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5952,9 +5878,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MOINENA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MOINENA"
-   },
+   "label": "Word: NETTA-LAMINACCA (\u1686\u1693\u1689\u1689\u1690\u1682\u1690\u168b\u1694\u1686\u1690\u168a\u168a\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -5999,9 +5923,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETTA-LAMINACCA"
-   },
+   "label": "Word: MAQI-TTAL (\u168b\u1690\u1694\u1689\u1689\u1690\u1682)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6060,9 +5982,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COSCIS%2FN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COSCIS%2FN"
-   },
+   "label": "Person: MAILE-INBIR",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6107,9 +6027,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAILE-INBIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAILE-INBIR"
-   },
+   "label": "Person: EQQEGGNI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6154,9 +6072,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#EQQEGGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "EQQEGGNI"
-   },
+   "label": "Person: SILLANN",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6201,9 +6117,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SILLANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SILLANN"
-   },
+   "label": "Person: DENAVECA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6248,9 +6162,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DENAVECA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DENAVECA"
-   },
+   "label": "Word: DUCOVAROS (\u1688\u1692\u168a\u1691\u1684\u1690\u168f\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6295,9 +6207,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUCOVAROS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUCOVAROS"
-   },
+   "label": "Person: CATTINI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6342,9 +6252,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTINI"
-   },
+   "label": "Word: VINNAGITLET? (\u1684\u1694\u1686\u1686\u1690\u168c\u1694\u1689\u1682\u1693\u1689)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6389,9 +6297,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VINNAGITLET%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VINNAGITLET%3F"
-   },
+   "label": "Person: IAQINI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6436,9 +6342,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#IAQINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "IAQINI"
-   },
+   "label": "Person: BIR",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6483,9 +6387,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIR"
-   },
+   "label": "Word: B[AI]D[A]N[I] (\u1681\u1690\u1694\u1688\u1690\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6530,9 +6432,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "B%5BAI%5DD%5BA%5DN%5BI%5D"
-   },
+   "label": "Person: MAQI-ERCIAS?",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6577,9 +6477,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-ERCIAS%3F"
-   },
+   "label": "Word: GALEOTOS (\u168c\u1690\u1682\u1693\u1691\u1689\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6624,9 +6522,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GALEOTOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GALEOTOS"
-   },
+   "label": "Word: COIMAGNI (\u168a\u1691\u1694\u168b\u1690\u168c\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6671,9 +6567,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COIMAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COIMAGNI"
-   },
+   "label": "Person: LUGUQRIT",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6718,9 +6612,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGUQRIT",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGUQRIT"
-   },
+   "label": "Word: DUGENNGI (\u1688\u1692\u168c\u1693\u1686\u1686\u168c\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6765,9 +6657,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUGENNGI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUGENNGI"
-   },
+   "label": "Word: CCICAMINI (\u168a\u168a\u1694\u168a\u1690\u168b\u1694\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6812,9 +6702,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CCICAMINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CCICAMINI"
-   },
+   "label": "Person: MAILAGNI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6859,9 +6747,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAILAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAILAGNI"
-   },
+   "label": "Person: CUNALEGEA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6906,9 +6792,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNALEGEA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNALEGEA"
-   },
+   "label": "Word: MOSAC (\u168b\u1691\u1685\u1690\u168a)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -6959,9 +6843,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGA"
-   },
+   "label": "Person: INEQAGLAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7006,9 +6888,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#INEQAGLAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "INEQAGLAS"
-   },
+   "label": "Person: TASEGAGNI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7053,9 +6933,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TASEGAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TASEGAGNI"
-   },
+   "label": "Word: DOLIGENN (\u1688\u1691\u1682\u1694\u168c\u1693\u1686\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7100,9 +6978,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOLIGENN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOLIGENN"
-   },
+   "label": "Person: MUIBITI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7161,9 +7037,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ATAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ATAR"
-   },
+   "label": "Word: BROINIENAS (\u1681\u168f\u1691\u1694\u1686\u1694\u1693\u1686\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7208,9 +7082,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROINIENAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROINIENAS"
-   },
+   "label": "Word: ALATTO (\u1690\u1682\u1690\u1689\u1689\u1691)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7255,9 +7127,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ALATTO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ALATTO"
-   },
+   "label": "Person: SEVERRIT",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7302,9 +7172,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SEVERRIT",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SEVERRIT"
-   },
+   "label": "Word: COMOGANN (\u168a\u1691\u168b\u1691\u168c\u1690\u1686\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7349,9 +7217,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COMOGANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COMOGANN"
-   },
+   "label": "Word: MUCOI? (\u168b\u1692\u168a\u1691\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7388,9 +7254,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUCOI%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MUCOI%3F"
-   },
+   "label": "Word: MANU (\u168b\u1690\u1686\u1692)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7435,15 +7299,13 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MANU",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MANU"
-   },
+   "label": "Word: DALI (\u1688\u1690\u1682\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
       "identifier": "http://lemon-model.net/lemon#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1688_character",
+      "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
@@ -7482,9 +7344,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DALI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DALI"
-   },
+   "label": "Person: LAG[...",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7543,9 +7403,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#UDDAMI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "UDDAMI"
-   },
+   "label": "Person: COROTANI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7604,9 +7462,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#KOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "KOI"
-   },
+   "label": "Person: AMADU",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7651,9 +7507,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMADU",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AMADU"
-   },
+   "label": "Word: GATI (\u168c\u1690\u1689\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7698,9 +7552,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GATI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GATI"
-   },
+   "label": "Word: DUNAIDONAS (\u1688\u1692\u1686\u1690\u1694\u1688\u1691\u1686\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7745,9 +7597,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUNAIDONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUNAIDONAS"
-   },
+   "label": "Person: MAQQI-ERCCIA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7792,9 +7642,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQQI-ERCCIA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQQI-ERCCIA"
-   },
+   "label": "Person: GAMICUNAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7839,9 +7687,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GAMICUNAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GAMICUNAS"
-   },
+   "label": "Word: TUCACAC (\u1689\u1692\u168a\u1690\u168a\u1690\u168a)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7886,9 +7732,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TUCACAC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TUCACAC"
-   },
+   "label": "Person: RAVASA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7933,9 +7777,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RAVASA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RAVASA"
-   },
+   "label": "Person: ERACIAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -7980,9 +7822,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERACIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ERACIAS"
-   },
+   "label": "Person: BIVAIDONAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8027,9 +7867,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIVAIDONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIVAIDONAS"
-   },
+   "label": "Word: TULOTANAGIA (\u1689\u1692\u1682\u1691\u1689\u1690\u1686\u1690\u168c\u1694\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8102,9 +7940,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ERC"
-   },
+   "label": "Person: CIR",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8149,9 +7985,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIR"
-   },
+   "label": "Word: MINERC? (\u168b\u1694\u1686\u1693\u168f\u168a)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8196,9 +8030,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MINERC%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MINERC%3F"
-   },
+   "label": "Person: CATTUBUTTAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8243,9 +8075,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTUBUTTAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTUBUTTAS"
-   },
+   "label": "Person: DOVINIA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8290,9 +8120,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVINIA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVINIA"
-   },
+   "label": "Person: NE?TTVRECC",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8337,9 +8165,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NE%3FTTVRECC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NE%3FTTVRECC"
-   },
+   "label": "Word: LLATIGNI (\u1682\u1682\u1690\u1689\u1694\u168c\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8384,9 +8210,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LLATIGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LLATIGNI"
-   },
+   "label": "Word: MAQI-DUMILEAS (\u168b\u1690\u1694\u1688\u1692\u168b\u1694\u1682\u1693\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8431,9 +8255,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-DUMILEAS"
-   },
+   "label": "Word: MAQI-CAIRATINI (\u168b\u1690\u1694\u168a\u1690\u1694\u168f\u1690\u1689\u1694\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8478,9 +8300,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-CAIRATINI"
-   },
+   "label": "Word: MAQQI (\u168b\u1690\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8517,9 +8337,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQQI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQQI"
-   },
+   "label": "Word: VIRR[ACC]ANNI? (\u1684\u1694\u168f\u168f\u1690\u168a\u168a\u1690\u1686\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8578,9 +8396,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDALO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MEDALO"
-   },
+   "label": "Person: RODDOS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8625,9 +8441,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RODDOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RODDOS"
-   },
+   "label": "Person: MAQI-ERCIAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8672,9 +8486,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ERCIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-ERCIAS"
-   },
+   "label": "Person: IVACATTOS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8733,9 +8545,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ANM",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ANM"
-   },
+   "label": "Person: ENA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8794,9 +8604,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GLUNLEGGET",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GLUNLEGGET"
-   },
+   "label": "Word: GELAGNI (\u168c\u1693\u1682\u1690\u168c\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8841,9 +8649,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GELAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GELAGNI"
-   },
+   "label": "Word: BIRRAC (\u1681\u1694\u168f\u168f\u1690\u168a)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8888,9 +8694,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIRRAC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIRRAC"
-   },
+   "label": "Word: ALATTOS (\u1690\u1682\u1690\u1689\u1689\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8935,9 +8739,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ALATTOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ALATTOS"
-   },
+   "label": "Word: NILI (\u1686\u1694\u1682\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -8982,9 +8784,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NILI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NILI"
-   },
+   "label": "Word: VRAICCI (\u1684\u168f\u1690\u1694\u168a\u168a\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9029,9 +8829,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VRAICCI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VRAICCI"
-   },
+   "label": "Word: MAQA (\u168b\u1690\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9082,9 +8880,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DALAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DALAGNI"
-   },
+   "label": "Word: DEGOS (\u1688\u1693\u168c\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9129,9 +8925,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEGOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DEGOS"
-   },
+   "label": "Word: [B]RRUA/ENANN (\u1681\u168f\u168f\u1692\u1690\u1693\u1686\u1690\u1686\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9176,9 +8970,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "%5BB%5DRRUA%2FENANN"
-   },
+   "label": "Word: VORGOS (\u1684\u1691\u168f\u168c\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9223,9 +9015,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORGOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VORGOS"
-   },
+   "label": "Word: C[....]SALAR (\u168a\u1685\u1690\u1682\u1690\u168f)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9270,9 +9060,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "C%5B....%5DSALAR"
-   },
+   "label": "Word: DOVVINIA (\u1688\u1691\u1684\u1684\u1694\u1686\u1694\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9317,9 +9105,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVVINIA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVVINIA"
-   },
+   "label": "Person: DUMELI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9364,9 +9150,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUMELI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUMELI"
-   },
+   "label": "Word: MEDVVI (\u168b\u1693\u1688\u1684\u1684\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9411,15 +9195,13 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDVVI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MEDVVI"
-   },
+   "label": "Word: CURCI (\u168a\u1692\u168f\u168a\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
       "identifier": "http://lemon-model.net/lemon#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1692_character",
+      "value": "http://www.i3mainz.de/ogham#\u168f_character",
       "type": "iri"
      }
     ],
@@ -9458,9 +9240,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CURCI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CURCI"
-   },
+   "label": "Person: ODR...REA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9505,9 +9285,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ODR...REA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ODR...REA"
-   },
+   "label": "Word: BRUSCCOS (\u1681\u168f\u1692\u1685\u168a\u168a\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9552,9 +9330,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BRUSCCOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BRUSCCOS"
-   },
+   "label": "Word: CUNAMAQQI (\u168a\u1692\u1686\u1690\u168b\u1690\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9599,9 +9375,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNAMAQQI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNAMAQQI"
-   },
+   "label": "Word: QRITTI (\u168f\u1694\u1689\u1689\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9646,9 +9420,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QRITTI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QRITTI"
-   },
+   "label": "Word: SENAQ (\u1685\u1693\u1686\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9693,9 +9465,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SENAQ",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SENAQ"
-   },
+   "label": "Person: QVECI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9740,9 +9510,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QVECI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QVECI"
-   },
+   "label": "Person: GIRAGNI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9787,9 +9555,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GIRAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GIRAGNI"
-   },
+   "label": "Word: MAQQI-IARI (\u168b\u1690\u1694\u1694\u1690\u168f\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9848,9 +9614,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CELI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CELI"
-   },
+   "label": "Person: NE[T....]AS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9895,9 +9659,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NE%5BT....%5DAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NE%5BT....%5DAS"
-   },
+   "label": "Person: MEDUSI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9942,9 +9704,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDUSI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MEDUSI"
-   },
+   "label": "Person: AILITHIR",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -9989,9 +9749,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AILITHIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AILITHIR"
-   },
+   "label": "Person: RITTAVVECCAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10036,9 +9794,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RITTAVVECCAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RITTAVVECCAS"
-   },
+   "label": "Person: MARIN",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10083,9 +9839,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MARIN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MARIN"
-   },
+   "label": "Person: ADDILONA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10130,9 +9884,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ADDILONA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ADDILONA"
-   },
+   "label": "Word: CALIACI (\u168a\u1690\u1682\u1694\u1690\u168a\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10177,9 +9929,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CALIACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CALIACI"
-   },
+   "label": "Person: SAG(A)RETTOS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10224,9 +9974,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SAG%28A%29RETTOS"
-   },
+   "label": "Word: TURANIAS (\u1689\u1692\u168f\u1690\u1686\u1694\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10271,9 +10019,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TURANIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TURANIAS"
-   },
+   "label": "Word: QENILOC[A]GNI (\u1693\u1686\u1694\u1682\u1691\u168a\u1690\u168c\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10318,9 +10064,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QENILOC%5BA%5DGNI"
-   },
+   "label": "Person: NETA-SALAGIA?",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10365,9 +10109,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-SALAGIA%3F"
-   },
+   "label": "Word: VURUDDRANN (\u1684\u1692\u168f\u1692\u1688\u1688\u168f\u1690\u1686\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10412,9 +10154,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VURUDDRANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VURUDDRANN"
-   },
+   "label": "Word: MUCO? (\u168b\u1692\u168a\u1691)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10451,15 +10191,13 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUCO%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MUCO%3F"
-   },
+   "label": "Word: OVANOS (\u1691\u1684\u1690\u1686\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
       "identifier": "http://lemon-model.net/lemon#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1684_character",
+      "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
@@ -10498,9 +10236,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OVANOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "OVANOS"
-   },
+   "label": "Word: DOVATUCI (\u1688\u1691\u1684\u1690\u1689\u1692\u168a\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10545,9 +10281,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVATUCI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVATUCI"
-   },
+   "label": "Person: CURCITTI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10592,9 +10326,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CURCITTI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CURCITTI"
-   },
+   "label": "Person: QENILOCI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10639,9 +10371,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QENILOCI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QENILOCI"
-   },
+   "label": "Person: LUBBIAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10686,9 +10416,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUBBIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUBBIAS"
-   },
+   "label": "Word: MAQI-INI... (\u168b\u1690\u1694\u1694\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10733,9 +10461,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-INI...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-INI..."
-   },
+   "label": "Word: CORBI (\u168a\u1691\u168f\u1681\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10780,9 +10506,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORBI"
-   },
+   "label": "Person: VOTI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10827,9 +10551,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VOTI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VOTI"
-   },
+   "label": "Person: DOMANEQI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10874,9 +10596,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOMANEQI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOMANEQI"
-   },
+   "label": "Word: MACORBO? (\u168b\u1690\u168a\u1691\u168f\u1681\u1691)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10921,9 +10641,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACORBO%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MACORBO%3F"
-   },
+   "label": "Word: CALUNOVICA (\u168a\u1690\u1682\u1692\u1686\u1691\u1684\u1694\u168a\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -10968,9 +10686,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CALUNOVICA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CALUNOVICA"
-   },
+   "label": "Person: CUNANETAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11015,9 +10731,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNANETAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNANETAS"
-   },
+   "label": "Word: VORTIGURN (\u1684\u1691\u168f\u1689\u1694\u168c\u1692\u168f\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11062,9 +10776,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORTIGURN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VORTIGURN"
-   },
+   "label": "Person: MAQI-?OGGODIKA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11109,9 +10821,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-%3FOGGODIKA"
-   },
+   "label": "Word: SRUSA (\u1685\u168f\u1692\u1685\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11156,9 +10866,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SRUSA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SRUSA"
-   },
+   "label": "Word: MAQI-ESEA (\u168b\u1690\u1694\u1693\u1685\u1693\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11203,9 +10911,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ESEA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-ESEA"
-   },
+   "label": "Word: GLASICONAS (\u168c\u1682\u1690\u1685\u1694\u168a\u1691\u1686\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11250,9 +10956,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GLASICONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GLASICONAS"
-   },
+   "label": "Word: AMMLLONGITT? (\u1690\u168b\u168b\u1682\u1682\u1691\u1686\u168c\u1694\u1689\u1689)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11297,9 +11001,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AMMLLONGITT%3F"
-   },
+   "label": "Word: MONGEDIAS (\u168b\u1691\u1686\u168c\u1693\u1688\u1694\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11344,9 +11046,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MONGEDIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MONGEDIAS"
-   },
+   "label": "Word: MAQI-CUNALIG... (\u168b\u1690\u1694\u168a\u1692\u1686\u1690\u1682\u1694\u168c)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11391,9 +11091,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-CUNALIG...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-CUNALIG..."
-   },
+   "label": "Person: TEGANN",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11438,9 +11136,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TEGANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TEGANN"
-   },
+   "label": "Word: SACATTINI (\u1685\u1690\u168a\u1690\u1689\u1689\u1694\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11491,9 +11187,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AVI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AVI"
-   },
+   "label": "Person: NETTAVROICC",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11538,9 +11232,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTAVROICC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETTAVROICC"
-   },
+   "label": "Word: [QE]TTEAS (\u1693\u1689\u1689\u1693\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11585,9 +11277,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#%5BQE%5DTTEAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "%5BQE%5DTTEAS"
-   },
+   "label": "Person: LOBBI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11632,9 +11322,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LOBBI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LOBBI"
-   },
+   "label": "Word: CEDATTOQA (\u168a\u1693\u1688\u1690\u1689\u1689\u1691\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11679,9 +11367,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CEDATTOQA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CEDATTOQA"
-   },
+   "label": "Word: MAQI-AINIA (\u168b\u1690\u1694\u1690\u1694\u1686\u1694\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11726,9 +11412,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-AINIA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-AINIA"
-   },
+   "label": "Person: DOVINIAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11773,9 +11457,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVINIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVINIAS"
-   },
+   "label": "Person: CORBAGNI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11820,9 +11502,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORBAGNI"
-   },
+   "label": "Word: BROCANN (\u1681\u168f\u1691\u168a\u1690\u1686\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11867,9 +11547,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROCANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROCANN"
-   },
+   "label": "Word: COILLI (\u168a\u1691\u1694\u1682\u1682\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11914,9 +11592,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COILLI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COILLI"
-   },
+   "label": "Person: DOVVINIAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -11961,9 +11637,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVVINIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVVINIAS"
-   },
+   "label": "Person: NETA-CARI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12008,9 +11682,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-CARI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-CARI"
-   },
+   "label": "Word: AGILL... (\u1690\u168c\u1694\u1682\u1682)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12055,9 +11727,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AGILL...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AGILL..."
-   },
+   "label": "Person: LUGADDON",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12116,9 +11786,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RINI"
-   },
+   "label": "Person: AKEVRITTI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12163,9 +11831,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AKEVRITTI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AKEVRITTI"
-   },
+   "label": "Word: GOSOCTEAS (\u168c\u1691\u1685\u1691\u168a\u1689\u1693\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12210,9 +11876,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GOSOCTEAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GOSOCTEAS"
-   },
+   "label": "Word: CUNOVATOS (\u168a\u1692\u1686\u1691\u1684\u1690\u1689\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12257,9 +11921,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNOVATOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNOVATOS"
-   },
+   "label": "Person: CUNAGUSOS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12304,9 +11966,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNAGUSOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNAGUSOS"
-   },
+   "label": "Word: CORRBRI (\u168a\u1691\u168f\u168f\u1681\u168f\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12351,9 +12011,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORRBRI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORRBRI"
-   },
+   "label": "Word: MUNICONA (\u168b\u1692\u1686\u1694\u168a\u1691\u1686\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12398,9 +12056,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUNICONA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MUNICONA"
-   },
+   "label": "Person: RONANN",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12445,9 +12101,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RONANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RONANN"
-   },
+   "label": "Word: DIMAQA (\u1688\u1694\u168b\u1690\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12492,9 +12146,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DIMAQA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DIMAQA"
-   },
+   "label": "Word: NETTA-TTRENALUGOS (\u1686\u1693\u1689\u1689\u1690\u1689\u1689\u168f\u1693\u1686\u1690\u1682\u1692\u168c\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12539,9 +12191,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETTA-TTRENALUGOS"
-   },
+   "label": "Person: VEDELMETO",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12586,9 +12236,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDELMETO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEDELMETO"
-   },
+   "label": "Person: ...ERATI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12633,9 +12281,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#...ERATI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "...ERATI"
-   },
+   "label": "Person: NETA-CAGI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12680,9 +12326,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-CAGI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-CAGI"
-   },
+   "label": "Word: DILOGONN (\u1688\u1694\u1682\u1691\u168c\u1691\u1686\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12719,9 +12363,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DILOGONN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DILOGONN"
-   },
+   "label": "Word: MAQI-CORABIR (\u168b\u1690\u1694\u168a\u1691\u168f\u1690\u1681\u1694\u168f)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12766,9 +12408,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-CORABIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-CORABIR"
-   },
+   "label": "Word: VEQREQ (\u1684\u1693\u168f\u1693)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12813,9 +12453,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEQREQ",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEQREQ"
-   },
+   "label": "Word: NIOTTA (\u1686\u1694\u1691\u1689\u1689\u1690)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12852,9 +12490,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NIOTTA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NIOTTA"
-   },
+   "label": "Word: MAC (\u168b\u1690\u168a)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12891,9 +12527,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAC"
-   },
+   "label": "Word: BROINIONAS? (\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12938,9 +12572,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROINIONAS%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROINIONAS%3F"
-   },
+   "label": "Word: DEAGOS (\u1688\u1693\u1690\u168c\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -12985,9 +12617,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEAGOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DEAGOS"
-   },
+   "label": "Person: ERCAVICCAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13032,9 +12662,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERCAVICCAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ERCAVICCAS"
-   },
+   "label": "Word: ULCCAGNI (\u1692\u1682\u168a\u168a\u1690\u168c\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13093,9 +12721,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUCOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MUCOI"
-   },
+   "label": "Word: SUVALLOS (\u1685\u1692\u1684\u1690\u1682\u1682\u1691\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13154,9 +12780,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DERCMASOC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DERCMASOC"
-   },
+   "label": "Person: CORB",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13201,9 +12825,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORB",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORB"
-   },
+   "label": "Word: OLACON (\u1691\u1682\u1690\u168a\u1691\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13248,9 +12870,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OLACON",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "OLACON"
-   },
+   "label": "Person: TAN...",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13295,9 +12915,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TAN...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TAN..."
-   },
+   "label": "Word: TRENU (\u1689\u168f\u1693\u1686\u1692)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13342,9 +12960,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TRENU",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TRENU"
-   },
+   "label": "Word: VIRAGNI (\u1684\u1694\u168f\u1690\u168c\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13389,9 +13005,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VIRAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VIRAGNI"
-   },
+   "label": "Word: COLLABOT (\u168a\u1691\u1682\u1682\u1690\u1681\u1691\u1689)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13436,9 +13050,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COLLABOT",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COLLABOT"
-   },
+   "label": "Word: CATTUVIR (\u168a\u1690\u1689\u1689\u1692\u1684\u1694\u168f)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13483,9 +13095,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTUVIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTUVIR"
-   },
+   "label": "Word: B[AID]AGNI (\u1681\u1690\u1694\u1688\u1690\u168c\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13530,9 +13140,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "B%5BAID%5DAGNI"
-   },
+   "label": "Word: LUGUDECAS (\u1682\u1692\u168c\u1692\u1688\u1693\u168a\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13605,9 +13213,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-SEGAMONAS"
-   },
+   "label": "Person: TOGITTACC[I]?",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13652,9 +13258,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TOGITTACC%5BI%5D%3F"
-   },
+   "label": "Person: MAKINI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13699,9 +13303,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAKINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAKINI"
-   },
+   "label": "Word: COLMAN (\u168a\u1691\u1682\u168b\u1690\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13746,9 +13348,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COLMAN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COLMAN"
-   },
+   "label": "Word: ROTTAIS (\u168f\u1691\u1689\u1689\u1690\u1694\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13793,9 +13393,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ROTTAIS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ROTTAIS"
-   },
+   "label": "Word: LLOTETI (\u1682\u1682\u1691\u1689\u1693\u1689\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13840,9 +13438,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LLOTETI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LLOTETI"
-   },
+   "label": "Word: MAQI-DECEDAS (\u168b\u1690\u1694\u1688\u1693\u168a\u1693\u1688\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13887,9 +13483,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-DECEDAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-DECEDAS"
-   },
+   "label": "Word: NAG[U]N[I] (\u1686\u1690\u168c\u1692\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13934,9 +13528,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NAG%5BU%5DN%5BI%5D"
-   },
+   "label": "Word: TALAGNI (\u1689\u1690\u1682\u1690\u168c\u1686\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -13981,9 +13573,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TALAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TALAGNI"
-   },
+   "label": "Person: NOCATI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14028,9 +13618,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NOCATI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NOCATI"
-   },
+   "label": "Person: MAQQI-LASIRE(N)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14089,9 +13677,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACORBO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MACORBO"
-   },
+   "label": "Person: BIGU",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14136,9 +13722,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIGU",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIGU"
-   },
+   "label": "Person: TRENALUGGO?",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14183,9 +13767,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TRENALUGGO%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TRENALUGGO%3F"
-   },
+   "label": "Person: MAQI-RITEAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14230,9 +13812,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-RITEAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-RITEAS"
-   },
+   "label": "Person: CATTABBOTT",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14277,9 +13857,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTABBOTT",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTABBOTT"
-   },
+   "label": "Word: VORRTIGURN (\u1684\u1691\u168f\u168f\u1689\u1694\u168c\u1692\u168f\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14324,9 +13902,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORRTIGURN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VORRTIGURN"
-   },
+   "label": "Word: MACI (\u168b\u1690\u168a\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14363,9 +13939,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MACI"
-   },
+   "label": "Word: RETAGIN (\u168f\u1693\u1689\u1690\u168c\u1694\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14410,9 +13984,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RETAGIN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RETAGIN"
-   },
+   "label": "Person: MAQI-RET/C...",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14457,9 +14029,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-RET%2FC...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-RET%2FC..."
-   },
+   "label": "Person: DOVETI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -14504,9 +14074,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVETI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVETI"
-   },
+   "label": "CIIC 285. Kilbeg Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14527,9 +14095,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+285.+Kilbeg_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+285.+Kilbeg_geom"
-   },
+   "label": "CIIC 215. Whitefield I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14550,9 +14116,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+215.+Whitefield+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+215.+Whitefield+I_geom"
-   },
+   "label": "CIIC 273. Drumlohan II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14573,9 +14137,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+273.+Drumlohan+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+273.+Drumlohan+II_geom"
-   },
+   "label": "CIIC 207. Kilcoolaght East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14596,9 +14158,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+207.+Kilcoolaght+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+207.+Kilcoolaght+East_geom"
-   },
+   "label": "CIIC 40. Painestown Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14619,9 +14179,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+40.+Painestown_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+40.+Painestown_geom"
-   },
+   "label": "CIIC 294. Knockboy III Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14642,9 +14200,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+294.+Knockboy+III_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+294.+Knockboy+III_geom"
-   },
+   "label": "CIIC 51. Knickeen Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14665,9 +14221,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+51.+Knickeen_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+51.+Knickeen_geom"
-   },
+   "label": "CIIC 186. Kilfountain Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14688,9 +14242,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+186.+Kilfountain_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+186.+Kilfountain_geom"
-   },
+   "label": "CIIC 66. Faunkill and the Woods Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14711,9 +14263,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+66.+Faunkill+and+the+Woods_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+66.+Faunkill+and+the+Woods_geom"
-   },
+   "label": "Kilgrovan VII Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14734,9 +14284,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Kilgrovan+VII_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Kilgrovan+VII_geom"
-   },
+   "label": "CIIC 220. Derrynane Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14757,9 +14305,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+220.+Derrynane_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+220.+Derrynane_geom"
-   },
+   "label": "CIIC 145. Arraglen Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14780,9 +14326,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+145.+Arraglen_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+145.+Arraglen_geom"
-   },
+   "label": "CIIC 292. Knockboy I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14803,9 +14347,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+292.+Knockboy+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+292.+Knockboy+I_geom"
-   },
+   "label": "CIIC 185. Inishvickillane Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14826,9 +14368,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+185.+Inishvickillane_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+185.+Inishvickillane_geom"
-   },
+   "label": "CIIC 217. Whitefield III Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14849,9 +14389,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+217.+Whitefield+III_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+217.+Whitefield+III_geom"
-   },
+   "label": "CIIC 200. Coolmagort Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14872,9 +14410,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+200.+Coolmagort_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+200.+Coolmagort_geom"
-   },
+   "label": "CIIC 98. Ballyhank II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14895,9 +14431,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+98.+Ballyhank+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+98.+Ballyhank+II_geom"
-   },
+   "label": "CIIC 97. Ballyhank I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14918,9 +14452,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+97.+Ballyhank+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+97.+Ballyhank+I_geom"
-   },
+   "label": "CIIC 136. Ardfert I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14941,9 +14473,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+136.+Ardfert+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+136.+Ardfert+I_geom"
-   },
+   "label": "CIIC 208. Kilcoolaght East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14964,9 +14494,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+208.+Kilcoolaght+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+208.+Kilcoolaght+East_geom"
-   },
+   "label": "CIIC 267. Dromore II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -14987,9 +14515,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+267.+Dromore+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+267.+Dromore+II_geom"
-   },
+   "label": "CIIC 297. Knockboy VI Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15010,9 +14536,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+297.+Knockboy+VI_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+297.+Knockboy+VI_geom"
-   },
+   "label": "CIIC 35. Tullaherin I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15033,9 +14557,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+35.+Tullaherin+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+35.+Tullaherin+I_geom"
-   },
+   "label": "CIIC 58. Greenhill II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15056,9 +14578,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+58.+Greenhill+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+58.+Greenhill+II_geom"
-   },
+   "label": "CIIC 190. Lugnagappul Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15079,9 +14599,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+190.+Lugnagappul_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+190.+Lugnagappul_geom"
-   },
+   "label": "CIIC 253. Kilorglin Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15102,9 +14620,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+253.+Kilorglin_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+253.+Kilorglin_geom"
-   },
+   "label": "CIIC 151. Ballinrannig IV Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15125,9 +14641,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+151.+Ballinrannig+IV_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+151.+Ballinrannig+IV_geom"
-   },
+   "label": "CIIC 192. Martramane Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15148,9 +14662,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+192.+Martramane_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+192.+Martramane_geom"
-   },
+   "label": "CIIC 298. Knockboy VII Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15171,9 +14683,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+298.+Knockboy+VII_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+298.+Knockboy+VII_geom"
-   },
+   "label": "CIIC 154. Ballinrannig VII Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15194,9 +14704,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+154.+Ballinrannig+VII_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+154.+Ballinrannig+VII_geom"
-   },
+   "label": "CIIC 120. Monataggart III Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15217,9 +14725,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+120.+Monataggart+III_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+120.+Monataggart+III_geom"
-   },
+   "label": "CIIC 280. Drumlohan IX Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15240,9 +14746,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+280.+Drumlohan+IX_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+280.+Drumlohan+IX_geom"
-   },
+   "label": "Keel West Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15263,9 +14767,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Keel+West_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Keel+West_geom"
-   },
+   "label": "CIIC 11. Drummin I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15286,9 +14788,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+11.+Drummin+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+11.+Drummin+I_geom"
-   },
+   "label": "CIIC 171. Ballynahunt Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15309,9 +14809,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+171.+Ballynahunt_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+171.+Ballynahunt_geom"
-   },
+   "label": "CIIC 57. Greenhill I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15332,9 +14830,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+57.+Greenhill+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+57.+Greenhill+I_geom"
-   },
+   "label": "CIIC 278. Drumlohan VII Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15355,9 +14851,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+278.+Drumlohan+VII_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+278.+Drumlohan+VII_geom"
-   },
+   "label": "CIIC 152. Ballinrannig V Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15378,9 +14872,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+152.+Ballinrannig+V_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+152.+Ballinrannig+V_geom"
-   },
+   "label": "CIIC 216. Whitefield II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15401,9 +14893,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+216.+Whitefield+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+216.+Whitefield+II_geom"
-   },
+   "label": "CIIC 12. Rathcroghan I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15424,9 +14914,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+12.+Rathcroghan+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+12.+Rathcroghan+I_geom"
-   },
+   "label": "CIIC 175. Burnham West Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15447,9 +14935,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+175.+Burnham+West_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+175.+Burnham+West_geom"
-   },
+   "label": "Ratass Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15470,9 +14956,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Ratass_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Ratass_geom"
-   },
+   "label": "CIIC 163. Ballintaggart Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15493,9 +14977,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+163.+Ballintaggart_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+163.+Ballintaggart_geom"
-   },
+   "label": "CIIC 69. Ahalisky I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15516,9 +14998,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+69.+Ahalisky+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+69.+Ahalisky+I_geom"
-   },
+   "label": "CIIC 146. Ballineanig Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15539,9 +15019,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+146.+Ballineanig_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+146.+Ballineanig_geom"
-   },
+   "label": "CIIC 4. Kilmannin Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15562,9 +15040,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+4.+Kilmannin_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+4.+Kilmannin_geom"
-   },
+   "label": "CIIC 156. Ballintaggart Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15585,9 +15061,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+156.+Ballintaggart_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+156.+Ballintaggart_geom"
-   },
+   "label": "CIIC 13. Rathcroghan II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15608,9 +15082,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+13.+Rathcroghan+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+13.+Rathcroghan+II_geom"
-   },
+   "label": "CIIC 170. Ballymorereagh Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15631,9 +15103,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+170.+Ballymorereagh_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+170.+Ballymorereagh_geom"
-   },
+   "label": "CIIC 166. Ballinvoher Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15654,9 +15124,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+166.+Ballinvoher_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+166.+Ballinvoher_geom"
-   },
+   "label": "CIIC 100. Ballyhank IV Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15677,9 +15145,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+100.+Ballyhank+IV_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+100.+Ballyhank+IV_geom"
-   },
+   "label": "CIIC 246b. Ardcanaght Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15700,9 +15166,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+246b.+Ardcanaght_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+246b.+Ardcanaght_geom"
-   },
+   "label": "CIIC 252. Gurrane Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15723,9 +15187,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+252.+Gurrane_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+252.+Gurrane_geom"
-   },
+   "label": "Churchclara II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15746,9 +15208,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Churchclara+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Churchclara+II_geom"
-   },
+   "label": "CIIC 10. Breastagh Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15769,9 +15229,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+10.+Breastagh_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+10.+Breastagh_geom"
-   },
+   "label": "CIIC 102. Ballyhank VI Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15792,9 +15250,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+102.+Ballyhank+VI_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+102.+Ballyhank+VI_geom"
-   },
+   "label": "CIIC 187. Kilmalkedar Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15815,9 +15271,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+187.+Kilmalkedar_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+187.+Kilmalkedar_geom"
-   },
+   "label": "CIIC 46. Houseland Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15838,9 +15292,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+46.+Houseland_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+46.+Houseland_geom"
-   },
+   "label": "CIIC 25. Colbinstown Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15861,9 +15313,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+25.+Colbinstown_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+25.+Colbinstown_geom"
-   },
+   "label": "CIIC 173. Brackloon Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15884,9 +15334,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+173.+Brackloon_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+173.+Brackloon_geom"
-   },
+   "label": "CIIC 16. Rathglass Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15907,9 +15355,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+16.+Rathglass_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+16.+Rathglass_geom"
-   },
+   "label": "CIIC 1083. Rathkenny I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15930,9 +15376,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+1083.+Rathkenny+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+1083.+Rathkenny+I_geom"
-   },
+   "label": "CIIC 155. Ballintaggart Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15953,9 +15397,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+155.+Ballintaggart_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+155.+Ballintaggart_geom"
-   },
+   "label": "CIIC 299. Knockboy VIII Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15976,9 +15418,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+299.+Knockboy+VIII_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+299.+Knockboy+VIII_geom"
-   },
+   "label": "CIIC 22. Colbinstown IV Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -15999,9 +15439,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+22.+Colbinstown+IV_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+22.+Colbinstown+IV_geom"
-   },
+   "label": "CIIC 242. Parkavonear Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16022,9 +15460,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+242.+Parkavonear_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+242.+Parkavonear_geom"
-   },
+   "label": "CIIC 205. Derrygariff Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16045,9 +15481,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+205.+Derrygariff_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+205.+Derrygariff_geom"
-   },
+   "label": "CIIC 162. Ballintaggart Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16068,9 +15502,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+162.+Ballintaggart_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+162.+Ballintaggart_geom"
-   },
+   "label": "CIIC 199. Coolmagort Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16091,9 +15523,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+199.+Coolmagort_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+199.+Coolmagort_geom"
-   },
+   "label": "CIIC 161. Ballintaggart Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16114,9 +15544,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+161.+Ballintaggart_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+161.+Ballintaggart_geom"
-   },
+   "label": "CIIC 198. Coolmagort Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16137,9 +15565,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+198.+Coolmagort_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+198.+Coolmagort_geom"
-   },
+   "label": "CIIC 276. Drumlohan V Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16160,9 +15586,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+276.+Drumlohan+V_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+276.+Drumlohan+V_geom"
-   },
+   "label": "CIIC 197. Coolmagort Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16183,9 +15607,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+197.+Coolmagort_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+197.+Coolmagort_geom"
-   },
+   "label": "CIIC 147. Ballineesteenigh Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16206,9 +15628,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+147.+Ballineesteenigh_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+147.+Ballineesteenigh_geom"
-   },
+   "label": "Knockmahon I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16229,9 +15649,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Knockmahon+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Knockmahon+I_geom"
-   },
+   "label": "CIIC 268. Dromore III Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16252,9 +15670,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+268.+Dromore+III_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+268.+Dromore+III_geom"
-   },
+   "label": "Bunkilla Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16275,9 +15691,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Bunkilla_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Bunkilla_geom"
-   },
+   "label": "CIIC 32. Gowran Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16298,9 +15712,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+32.+Gowran_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+32.+Gowran_geom"
-   },
+   "label": "CIIC 202. Coolmagort Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16321,9 +15733,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+202.+Coolmagort_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+202.+Coolmagort_geom"
-   },
+   "label": "CIIC 191. Lugnagappul Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16344,9 +15754,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+191.+Lugnagappul_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+191.+Lugnagappul_geom"
-   },
+   "label": "CIIC 201. Coolmagort Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16367,9 +15775,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+201.+Coolmagort_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+201.+Coolmagort_geom"
-   },
+   "label": "CIIC 70. Ahalisky II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16390,9 +15796,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+70.+Ahalisky+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+70.+Ahalisky+II_geom"
-   },
+   "label": "CIIC 241. Kilbonane Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16413,9 +15817,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+241.+Kilbonane_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+241.+Kilbonane_geom"
-   },
+   "label": "CIIC 37. Lamoge II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16436,9 +15838,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+37.+Lamoge+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+37.+Lamoge+II_geom"
-   },
+   "label": "CIIC 48. Donard Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16459,9 +15859,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+48.+Donard_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+48.+Donard_geom"
-   },
+   "label": "CIIC 209. Kilcoolaght East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16482,9 +15880,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+209.+Kilcoolaght+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+209.+Kilcoolaght+East_geom"
-   },
+   "label": "Knockmahon II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16505,9 +15901,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Knockmahon+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Knockmahon+II_geom"
-   },
+   "label": "CIIC 1084. Rathkenny II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16528,9 +15922,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+1084.+Rathkenny+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+1084.+Rathkenny+II_geom"
-   },
+   "label": "CIIC 293. Knockboy II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16551,9 +15943,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+293.+Knockboy+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+293.+Knockboy+II_geom"
-   },
+   "label": "CIIC 295. Knockboy IV Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16574,9 +15964,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+295.+Knockboy+IV_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+295.+Knockboy+IV_geom"
-   },
+   "label": "CIIC 79. Rathcanning I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16597,9 +15985,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+79.+Rathcanning+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+79.+Rathcanning+I_geom"
-   },
+   "label": "CIIC 193. Maumanorig Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16620,9 +16006,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+193.+Maumanorig_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+193.+Maumanorig_geom"
-   },
+   "label": "CIIC 211. Kilcoolaght East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16643,9 +16027,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+211.+Kilcoolaght+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+211.+Kilcoolaght+East_geom"
-   },
+   "label": "CIIC 71. Ahalisky III Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16666,9 +16048,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+71.+Ahalisky+III_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+71.+Ahalisky+III_geom"
-   },
+   "label": "CIIC 180. Emlagh East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16689,9 +16069,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+180.+Emlagh+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+180.+Emlagh+East_geom"
-   },
+   "label": "CIIC 178. Coumeenole Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16712,9 +16090,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+178.+Coumeenole_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+178.+Coumeenole_geom"
-   },
+   "label": "Ballybarrack Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16735,9 +16111,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Ballybarrack_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Ballybarrack_geom"
-   },
+   "label": "CIIC 36. Lamoge I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16758,9 +16132,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+36.+Lamoge+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+36.+Lamoge+I_geom"
-   },
+   "label": "CIIC 172. Ballywiheen Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16781,9 +16153,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+172.+Ballywiheen_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+172.+Ballywiheen_geom"
-   },
+   "label": "CIIC 203. Coolmagort Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16804,9 +16174,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+203.+Coolmagort_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+203.+Coolmagort_geom"
-   },
+   "label": "Scattery Island Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16827,9 +16195,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Scattery+Island_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Scattery+Island_geom"
-   },
+   "label": "CIIC 47. Castletimon Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16850,9 +16216,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+47.+Castletimon_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+47.+Castletimon_geom"
-   },
+   "label": "CIIC 264. Ardmore Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16873,9 +16237,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+264.+Ardmore_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+264.+Ardmore_geom"
-   },
+   "label": "CIIC 31. Fiddaun Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16896,9 +16258,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+31.+Fiddaun_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+31.+Fiddaun_geom"
-   },
+   "label": "CIIC 26. Donaghmore Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16919,9 +16279,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+26.+Donaghmore_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+26.+Donaghmore_geom"
-   },
+   "label": "Drummin II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16942,9 +16300,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Drummin+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Drummin+II_geom"
-   },
+   "label": "CIIC 160. Ballintaggart Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16965,9 +16321,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+160.+Ballintaggart_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+160.+Ballintaggart_geom"
-   },
+   "label": "CIIC 153. Ballinrannig VI Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -16988,9 +16342,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+153.+Ballinrannig+VI_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+153.+Ballinrannig+VI_geom"
-   },
+   "label": "CIIC 296. Knockboy V Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17011,9 +16363,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+296.+Knockboy+V_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+296.+Knockboy+V_geom"
-   },
+   "label": "CIIC 181. Emlagh West Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17034,9 +16384,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+181.+Emlagh+West_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+181.+Emlagh+West_geom"
-   },
+   "label": "CIIC 141. Aglish Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17057,9 +16405,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+141.+Aglish_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+141.+Aglish_geom"
-   },
+   "label": "CIIC 218. Whitefield IV Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17080,9 +16426,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+218.+Whitefield+IV_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+218.+Whitefield+IV_geom"
-   },
+   "label": "CIIC 188. Kinard East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17103,9 +16447,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+188.+Kinard+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+188.+Kinard+East_geom"
-   },
+   "label": "CIIC 159. Ballintaggart Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17126,9 +16468,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+159.+Ballintaggart_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+159.+Ballintaggart_geom"
-   },
+   "label": "CIIC 34. Legan Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17149,9 +16489,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+34.+Legan_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+34.+Legan_geom"
-   },
+   "label": "CIIC 142. Aglish Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17172,9 +16510,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+142.+Aglish_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+142.+Aglish_geom"
-   },
+   "label": "CIIC 272. Drumlohan I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17195,9 +16531,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+272.+Drumlohan+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+272.+Drumlohan+I_geom"
-   },
+   "label": "CIIC 274. Drumlohan III Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17218,9 +16552,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+274.+Drumlohan+III_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+274.+Drumlohan+III_geom"
-   },
+   "label": "Shankill Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17241,9 +16573,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Shankill_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Shankill_geom"
-   },
+   "label": "CIIC 118. Monataggart I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17264,9 +16594,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+118.+Monataggart+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+118.+Monataggart+I_geom"
-   },
+   "label": "CIIC 17. Tuckamine Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17287,9 +16615,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+17.+Tuckamine_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+17.+Tuckamine_geom"
-   },
+   "label": "CIIC 263. Ardmore I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17310,9 +16636,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+263.+Ardmore+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+263.+Ardmore+I_geom"
-   },
+   "label": "CIIC 101. Ballyhank V Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17333,9 +16657,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+101.+Ballyhank+V_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+101.+Ballyhank+V_geom"
-   },
+   "label": "CIIC 210. Kilcoolaght East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17356,9 +16678,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+210.+Kilcoolaght+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+210.+Kilcoolaght+East_geom"
-   },
+   "label": "CIIC 266. Dromore I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17379,9 +16699,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+266.+Dromore+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+266.+Dromore+I_geom"
-   },
+   "label": "CIIC 20. Colbinstown II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17402,9 +16720,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+20.+Colbinstown+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+20.+Colbinstown+II_geom"
-   },
+   "label": "CIIC 150. Ballinrannig III Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17425,9 +16741,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+150.+Ballinrannig+III_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+150.+Ballinrannig+III_geom"
-   },
+   "label": "CIIC 246a. Ardcanaght Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17448,9 +16762,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+246a.+Ardcanaght_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+246a.+Ardcanaght_geom"
-   },
+   "label": "CIIC 99. Ballyhank III Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17471,9 +16783,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+99.+Ballyhank+III_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+99.+Ballyhank+III_geom"
-   },
+   "label": "CIIC 189. Kinard East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17494,9 +16804,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+189.+Kinard+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+189.+Kinard+East_geom"
-   },
+   "label": "CIIC 213. Kilcoolaght East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17517,9 +16825,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+213.+Kilcoolaght+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+213.+Kilcoolaght+East_geom"
-   },
+   "label": "CIIC 23. Colbinstown V Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17540,9 +16846,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+23.+Colbinstown+V_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+23.+Colbinstown+V_geom"
-   },
+   "label": "CIIC 255. Tinnahally I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17563,9 +16867,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+255.+Tinnahally+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+255.+Tinnahally+I_geom"
-   },
+   "label": "CIIC 28. Churchclara I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17586,9 +16888,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+28.+Churchclara+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+28.+Churchclara+I_geom"
-   },
+   "label": "CIIC 256. Tinnahally II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17609,9 +16909,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+256.+Tinnahally+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+256.+Tinnahally+II_geom"
-   },
+   "label": "Coumlanders Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17632,9 +16930,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Coumlanders_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Coumlanders_geom"
-   },
+   "label": "CIIC 196. Rathmalode Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17655,9 +16951,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+196.+Rathmalode_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+196.+Rathmalode_geom"
-   },
+   "label": "Ardfert II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17678,9 +16972,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Ardfert+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Ardfert+II_geom"
-   },
+   "label": "Rathkenny IV Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17701,9 +16993,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Rathkenny+IV_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Rathkenny+IV_geom"
-   },
+   "label": "CIIC 157. Ballintaggart Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17724,9 +17014,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+157.+Ballintaggart_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+157.+Ballintaggart_geom"
-   },
+   "label": "CIIC 119. Monataggart II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17747,9 +17035,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+119.+Monataggart+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+119.+Monataggart+II_geom"
-   },
+   "label": "CIIC 230. Cloghanecarhan Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17770,9 +17056,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+230.+Cloghanecarhan_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+230.+Cloghanecarhan_geom"
-   },
+   "label": "CIIC 223. Parknasilla Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17793,9 +17077,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+223.+Parknasilla_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+223.+Parknasilla_geom"
-   },
+   "label": "CIIC 281. Drumlohan X Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17816,9 +17098,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+281.+Drumlohan+X_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+281.+Drumlohan+X_geom"
-   },
+   "label": "CIIC 212. Kilcoolaght East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17839,9 +17119,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+212.+Kilcoolaght+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+212.+Kilcoolaght+East_geom"
-   },
+   "label": "CIIC 5. Rusheens West Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17862,9 +17140,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+5.+Rusheens+West_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+5.+Rusheens+West_geom"
-   },
+   "label": "CIIC 279. Drumlohan VIII Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17885,9 +17161,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+279.+Drumlohan+VIII_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+279.+Drumlohan+VIII_geom"
-   },
+   "label": "Church Island Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17908,9 +17182,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Church+Island_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Church+Island_geom"
-   },
+   "label": "CIIC 300. Island Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17931,9 +17203,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+300.+Island_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+300.+Island_geom"
-   },
+   "label": "CIIC 195. Rathmalode Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17954,9 +17224,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+195.+Rathmalode_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+195.+Rathmalode_geom"
-   },
+   "label": "CIIC 49. Baltinglass Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -17977,9 +17245,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+49.+Baltinglass_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+49.+Baltinglass_geom"
-   },
+   "label": "CIIC 206. Kilcoolaght East Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18000,9 +17266,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+206.+Kilcoolaght+East_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+206.+Kilcoolaght+East_geom"
-   },
+   "label": "CIIC 277. Drumlohan VI Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18023,9 +17287,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+277.+Drumlohan+VI_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+277.+Drumlohan+VI_geom"
-   },
+   "label": "CIIC 265. Ardmore III Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18046,9 +17308,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+265.+Ardmore+III_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+265.+Ardmore+III_geom"
-   },
+   "label": "CIIC 275. Drumlohan IV Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18069,9 +17329,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+275.+Drumlohan+IV_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+275.+Drumlohan+IV_geom"
-   },
+   "label": "CIIC 15. Clonmore Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18092,9 +17350,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+15.+Clonmore_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+15.+Clonmore_geom"
-   },
+   "label": "CIIC 158. Ballintaggart Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18115,9 +17371,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+158.+Ballintaggart_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+158.+Ballintaggart_geom"
-   },
+   "label": "CIIC 50. Boleycarrigeen Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18138,9 +17392,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+50.+Boleycarrigeen_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+50.+Boleycarrigeen_geom"
-   },
+   "label": "CIIC 80. Rathcanning II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18161,9 +17413,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+80.+Rathcanning+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+80.+Rathcanning+II_geom"
-   },
+   "label": "Cloghabrody Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18184,9 +17434,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Cloghabrody_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Cloghabrody_geom"
-   },
+   "label": "Tullaherin II Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18207,9 +17455,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Tullaherin+II_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Tullaherin+II_geom"
-   },
+   "label": "Kilgrovan VI Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18230,9 +17476,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#Kilgrovan+VI_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "Kilgrovan+VI_geom"
-   },
+   "label": "CIIC 19. Colbinstown I Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -18253,9 +17497,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+19.+Colbinstown+I_geom",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+19.+Colbinstown+I_geom"
-   },
+   "label": "CIIC 38. Ballyboodan Geometry",
    "annotations": {
     "http://www.opengis.net/ont/geosparql#asWKT": [
      {
@@ -22367,9 +21609,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COMOGANN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COMOGANN_person"
-   },
+   "label": "AMADU Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22390,9 +21630,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMADU_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AMADU_sense"
-   },
+   "label": "CATTABBOTT Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22413,9 +21651,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTABBOTT_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTABBOTT_sense"
-   },
+   "label": "VORRTIGURN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22436,9 +21672,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORRTIGURN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VORRTIGURN_sense"
-   },
+   "label": "QRITTI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22459,9 +21693,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QRITTI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QRITTI_sense"
-   },
+   "label": "NOCATI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22482,9 +21714,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NOCATI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NOCATI_sense"
-   },
+   "label": "SILLANN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22505,9 +21735,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SILLANN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SILLANN_sense"
-   },
+   "label": "MEDVVI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22528,9 +21756,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDVVI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MEDVVI_sense"
-   },
+   "label": "CORBI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22551,9 +21777,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORBI_sense"
-   },
+   "label": "NETA-CARI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22574,9 +21798,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-CARI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-CARI_sense"
-   },
+   "label": "TRENU Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22597,9 +21819,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TRENU_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TRENU_sense"
-   },
+   "label": "LUGA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22620,9 +21840,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGA_sense"
-   },
+   "label": "DOVVINIA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22643,9 +21861,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVVINIA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVVINIA_sense"
-   },
+   "label": "VEDELMETO Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22666,9 +21882,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDELMETO_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEDELMETO_sense"
-   },
+   "label": "DUCOVAROS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22689,9 +21903,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUCOVAROS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUCOVAROS_sense"
-   },
+   "label": "DERCMASOC Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22712,9 +21924,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DERCMASOC_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DERCMASOC_sense"
-   },
+   "label": "MAQI-?OGGODIKA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22735,9 +21945,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-%3FOGGODIKA_sense"
-   },
+   "label": "MUNICONA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22758,9 +21966,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUNICONA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MUNICONA_sense"
-   },
+   "label": "CATTUBUTTAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22781,9 +21987,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTUBUTTAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTUBUTTAS_sense"
-   },
+   "label": "EQQEGGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22804,9 +22008,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#EQQEGGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "EQQEGGNI_sense"
-   },
+   "label": "OLACON Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22827,9 +22029,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OLACON_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "OLACON_sense"
-   },
+   "label": "TOGITTACC[I] Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22850,9 +22050,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TOGITTACC%5BI%5D_sense"
-   },
+   "label": "OVANOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22873,9 +22071,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OVANOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "OVANOS_sense"
-   },
+   "label": "MAQI-AINIA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22896,9 +22092,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-AINIA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-AINIA_sense"
-   },
+   "label": "ULCCAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22919,9 +22113,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ULCCAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ULCCAGNI_sense"
-   },
+   "label": "TEGANN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22942,9 +22134,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TEGANN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TEGANN_sense"
-   },
+   "label": "DUNAIDONAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22965,9 +22155,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUNAIDONAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUNAIDONAS_sense"
-   },
+   "label": "NETA-SALAGIA? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -22988,9 +22176,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-SALAGIA%3F_sense"
-   },
+   "label": "MAQQI-ERCCIA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23011,9 +22197,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQQI-ERCCIA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQQI-ERCCIA_sense"
-   },
+   "label": "BROCANN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23034,9 +22218,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROCANN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROCANN_sense"
-   },
+   "label": "GRAVICAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23057,9 +22239,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GRAVICAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GRAVICAS_sense"
-   },
+   "label": "BR... Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23080,9 +22260,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BR..._sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BR..._sense"
-   },
+   "label": "DEGLANN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23103,9 +22281,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEGLANN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DEGLANN_sense"
-   },
+   "label": "SUVALLOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23126,9 +22302,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SUVALLOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SUVALLOS_sense"
-   },
+   "label": "BROINIENAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23149,9 +22323,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROINIENAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROINIENAS_sense"
-   },
+   "label": "VORTIGURN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23172,9 +22344,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORTIGURN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VORTIGURN_sense"
-   },
+   "label": "VOTI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23195,9 +22365,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VOTI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VOTI_sense"
-   },
+   "label": "BECCDINN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23218,9 +22386,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BECCDINN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BECCDINN_sense"
-   },
+   "label": "ATAR Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23241,9 +22407,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ATAR_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ATAR_sense"
-   },
+   "label": "BRUSCCOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23264,9 +22428,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BRUSCCOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BRUSCCOS_sense"
-   },
+   "label": "AILITHIR Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23287,9 +22449,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AILITHIR_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AILITHIR_sense"
-   },
+   "label": "NETTA-LAMINACCA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23310,9 +22470,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETTA-LAMINACCA_sense"
-   },
+   "label": "NILI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23333,9 +22491,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NILI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NILI_sense"
-   },
+   "label": "MAQQI-IARI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23356,9 +22512,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQQI-IARI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQQI-IARI_sense"
-   },
+   "label": "MAQI-CORABIR Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23379,9 +22533,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-CORABIR_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-CORABIR_sense"
-   },
+   "label": "QENILOC[A]GNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23402,9 +22554,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QENILOC%5BA%5DGNI_sense"
-   },
+   "label": "GIRAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23425,9 +22575,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GIRAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GIRAGNI_sense"
-   },
+   "label": "TURANIAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23448,9 +22596,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TURANIAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TURANIAS_sense"
-   },
+   "label": "MOINENA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23471,9 +22617,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MOINENA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MOINENA_sense"
-   },
+   "label": "CATTUVIR Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23494,9 +22638,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTUVIR_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTUVIR_sense"
-   },
+   "label": "DOMANEQI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23517,9 +22659,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOMANEQI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOMANEQI_sense"
-   },
+   "label": "GALEOTOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23540,9 +22680,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GALEOTOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GALEOTOS_sense"
-   },
+   "label": "SAG(A)RETTOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23563,9 +22701,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SAG%28A%29RETTOS_sense"
-   },
+   "label": "CORRBRI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23586,9 +22722,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORRBRI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORRBRI_sense"
-   },
+   "label": "BIRRAC Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23609,9 +22743,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIRRAC_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIRRAC_sense"
-   },
+   "label": "DOVVINIAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23632,9 +22764,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVVINIAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVVINIAS_sense"
-   },
+   "label": "ODR...REA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23655,9 +22785,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ODR...REA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ODR...REA_sense"
-   },
+   "label": "NETA-CAGI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23678,9 +22806,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-CAGI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-CAGI_sense"
-   },
+   "label": "LUGADDON Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23701,9 +22827,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGADDON_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGADDON_sense"
-   },
+   "label": "SENAQ Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23724,9 +22848,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SENAQ_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SENAQ_sense"
-   },
+   "label": "DROGNO Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23747,9 +22869,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DROGNO_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DROGNO_sense"
-   },
+   "label": "AGILL... Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23770,9 +22890,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AGILL..._sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AGILL..._sense"
-   },
+   "label": "MACORBO Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23793,9 +22911,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACORBO_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MACORBO_sense"
-   },
+   "label": "MAQI-CUNALIG... Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23816,9 +22932,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-CUNALIG..._sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-CUNALIG..._sense"
-   },
+   "label": "TASEGAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23839,9 +22953,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TASEGAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TASEGAGNI_sense"
-   },
+   "label": "C[....]SALAR Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23862,9 +22974,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "C%5B....%5DSALAR_sense"
-   },
+   "label": "TULOTANAGIA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23885,9 +22995,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TULOTANAGIA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TULOTANAGIA_sense"
-   },
+   "label": "GELAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23908,9 +23016,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GELAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GELAGNI_sense"
-   },
+   "label": "VRAICCI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23931,9 +23037,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VRAICCI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VRAICCI_sense"
-   },
+   "label": "DUMELI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23954,9 +23058,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUMELI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUMELI_sense"
-   },
+   "label": "CURCI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -23977,9 +23079,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CURCI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CURCI_sense"
-   },
+   "label": "GAMICUNAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24000,9 +23100,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GAMICUNAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GAMICUNAS_sense"
-   },
+   "label": "CALUNOVICA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24023,9 +23121,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CALUNOVICA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CALUNOVICA_sense"
-   },
+   "label": "RONANN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24046,9 +23142,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RONANN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RONANN_sense"
-   },
+   "label": "CORB Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24069,9 +23163,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORB_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORB_sense"
-   },
+   "label": "MEDALO Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24092,9 +23184,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDALO_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MEDALO_sense"
-   },
+   "label": "COSCIS/N Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24115,9 +23205,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COSCIS%2FN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COSCIS%2FN_sense"
-   },
+   "label": "VINNAGITLET? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24138,9 +23226,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VINNAGITLET%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VINNAGITLET%3F_sense"
-   },
+   "label": "RITTAVVECCAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24161,9 +23247,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RITTAVVECCAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RITTAVVECCAS_sense"
-   },
+   "label": "VORGOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24184,9 +23268,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORGOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VORGOS_sense"
-   },
+   "label": "...ERATI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24207,9 +23289,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#...ERATI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "...ERATI_sense"
-   },
+   "label": "AMMLLONGITT? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24230,9 +23310,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AMMLLONGITT%3F_sense"
-   },
+   "label": "DEAGOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24253,9 +23331,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEAGOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DEAGOS_sense"
-   },
+   "label": "GOSSUCTTIAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24276,9 +23352,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GOSSUCTTIAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GOSSUCTTIAS_sense"
-   },
+   "label": "MAILAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24299,9 +23373,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAILAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAILAGNI_sense"
-   },
+   "label": "IAQINI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24322,9 +23394,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#IAQINI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "IAQINI_sense"
-   },
+   "label": "GLUNLEGGET Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24345,9 +23415,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GLUNLEGGET_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GLUNLEGGET_sense"
-   },
+   "label": "DALAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24368,9 +23436,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DALAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DALAGNI_sense"
-   },
+   "label": "IVACATTOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24391,9 +23457,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#IVACATTOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "IVACATTOS_sense"
-   },
+   "label": "DOVINIAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24414,9 +23478,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVINIAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVINIAS_sense"
-   },
+   "label": "BIGU Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24437,9 +23499,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIGU_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIGU_sense"
-   },
+   "label": "MACORBO? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24460,9 +23520,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACORBO%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MACORBO%3F_sense"
-   },
+   "label": "RODDOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24483,9 +23541,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RODDOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RODDOS_sense"
-   },
+   "label": "TRENALUGGO? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24506,9 +23562,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TRENALUGGO%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TRENALUGGO%3F_sense"
-   },
+   "label": "DIMAQA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24529,9 +23583,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DIMAQA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DIMAQA_sense"
-   },
+   "label": "TALAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24552,9 +23604,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TALAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TALAGNI_sense"
-   },
+   "label": "ISAMMNN? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24575,9 +23625,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ISAMMNN%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ISAMMNN%3F_sense"
-   },
+   "label": "INEQAGLAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24598,9 +23646,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#INEQAGLAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "INEQAGLAS_sense"
-   },
+   "label": "SRUSA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24621,9 +23667,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SRUSA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SRUSA_sense"
-   },
+   "label": "MAILE-INBIR Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24644,9 +23688,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAILE-INBIR_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAILE-INBIR_sense"
-   },
+   "label": "NETTA-TTRENALUGOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24667,9 +23709,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETTA-TTRENALUGOS_sense"
-   },
+   "label": "NAG[U]N[I] Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24690,9 +23730,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NAG%5BU%5DN%5BI%5D_sense"
-   },
+   "label": "ROTTAIS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24713,9 +23751,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ROTTAIS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ROTTAIS_sense"
-   },
+   "label": "[B]RRUA/ENANN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24736,9 +23772,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "%5BB%5DRRUA%2FENANN_sense"
-   },
+   "label": "ALATTO Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24759,9 +23793,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ALATTO_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ALATTO_sense"
-   },
+   "label": "VEDABAR Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24782,9 +23814,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDABAR_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEDABAR_sense"
-   },
+   "label": "LITENI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24805,9 +23835,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LITENI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LITENI_sense"
-   },
+   "label": "LOBACCONA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24828,9 +23856,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LOBACCONA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LOBACCONA_sense"
-   },
+   "label": "AKEVRITTI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24851,9 +23877,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AKEVRITTI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AKEVRITTI_sense"
-   },
+   "label": "VIRR[ACC]ANNI? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24874,9 +23898,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VIRR%5BACC%5DANNI%3F_sense"
-   },
+   "label": "GLASICONAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24897,9 +23919,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GLASICONAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GLASICONAS_sense"
-   },
+   "label": "BROINIONAS? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24920,9 +23940,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROINIONAS%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROINIONAS%3F_sense"
-   },
+   "label": "NE[T....]AS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24943,9 +23961,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NE%5BT....%5DAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NE%5BT....%5DAS_sense"
-   },
+   "label": "MANU Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24966,9 +23982,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MANU_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MANU_sense"
-   },
+   "label": "ERACIAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -24989,9 +24003,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERACIAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ERACIAS_sense"
-   },
+   "label": "QECCIAS? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25012,9 +24024,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QECCIAS%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QECCIAS%3F_sense"
-   },
+   "label": "ALATTOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25035,9 +24045,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ALATTOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ALATTOS_sense"
-   },
+   "label": "COLMAN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25058,9 +24066,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COLMAN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COLMAN_sense"
-   },
+   "label": "ADDILONA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25081,9 +24087,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ADDILONA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ADDILONA_sense"
-   },
+   "label": "COMOGANN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25104,9 +24108,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COMOGANN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COMOGANN_sense"
-   },
+   "label": "MUIBITI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25127,9 +24129,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUIBITI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MUIBITI_sense"
-   },
+   "label": "CORBBI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25150,9 +24150,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBBI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORBBI_sense"
-   },
+   "label": "LAG[... Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25173,9 +24171,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LAG%5B..._sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LAG%5B..._sense"
-   },
+   "label": "RETAGIN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25196,9 +24192,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RETAGIN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RETAGIN_sense"
-   },
+   "label": "VATTILLOGG Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25219,9 +24213,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VATTILLOGG_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VATTILLOGG_sense"
-   },
+   "label": "TOGITTACC[I]? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25242,9 +24234,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TOGITTACC%5BI%5D%3F_sense"
-   },
+   "label": "RINI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25265,9 +24255,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RINI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RINI_sense"
-   },
+   "label": "VITALIN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25288,9 +24276,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VITALIN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VITALIN_sense"
-   },
+   "label": "MAQI-DUMILEAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25311,9 +24297,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-DUMILEAS_sense"
-   },
+   "label": "NE?TTVRECC Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25334,9 +24318,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NE%3FTTVRECC_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NE%3FTTVRECC_sense"
-   },
+   "label": "MAQI-DECEDAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25357,9 +24339,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-DECEDAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-DECEDAS_sense"
-   },
+   "label": "DENAVECA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25380,9 +24360,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DENAVECA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DENAVECA_sense"
-   },
+   "label": "UDDAMI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25403,9 +24381,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#UDDAMI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "UDDAMI_sense"
-   },
+   "label": "QVECI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25426,9 +24402,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QVECI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QVECI_sense"
-   },
+   "label": "LLOTETI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25449,9 +24423,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LLOTETI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LLOTETI_sense"
-   },
+   "label": "QENILOCI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25472,9 +24444,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QENILOCI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QENILOCI_sense"
-   },
+   "label": "ERCAVICCAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25495,9 +24465,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERCAVICCAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ERCAVICCAS_sense"
-   },
+   "label": "SEDANI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25518,9 +24486,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SEDANI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SEDANI_sense"
-   },
+   "label": "LUGUDECAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25541,9 +24507,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGUDECAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGUDECAS_sense"
-   },
+   "label": "BIVAIDONAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25564,9 +24528,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIVAIDONAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIVAIDONAS_sense"
-   },
+   "label": "LLATIGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25587,9 +24549,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LLATIGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LLATIGNI_sense"
-   },
+   "label": "BATTIGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25610,9 +24570,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BATTIGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BATTIGNI_sense"
-   },
+   "label": "LUGUQRIT Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25633,9 +24591,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGUQRIT_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGUQRIT_sense"
-   },
+   "label": "DOVETI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25656,9 +24612,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVETI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVETI_sense"
-   },
+   "label": "DOVINIA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25679,9 +24633,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVINIA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVINIA_sense"
-   },
+   "label": "NETA-SEGAMONAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25702,9 +24654,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-SEGAMONAS_sense"
-   },
+   "label": "TUCACAC Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25725,9 +24675,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TUCACAC_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TUCACAC_sense"
-   },
+   "label": "ENA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25748,9 +24696,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ENA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ENA_sense"
-   },
+   "label": "MAQI-TTAL Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25771,9 +24717,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-TTAL_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-TTAL_sense"
-   },
+   "label": "COBRANORA? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25794,9 +24738,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COBRANORA%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COBRANORA%3F_sense"
-   },
+   "label": "MAQI-RITEAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25817,9 +24759,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-RITEAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-RITEAS_sense"
-   },
+   "label": "MEDUSI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25840,9 +24780,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDUSI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MEDUSI_sense"
-   },
+   "label": "CUNAMAQQI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25863,9 +24801,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNAMAQQI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNAMAQQI_sense"
-   },
+   "label": "CUNOVATOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25886,9 +24822,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNOVATOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNOVATOS_sense"
-   },
+   "label": "MAQI-CAIRATINI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25909,9 +24843,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-CAIRATINI_sense"
-   },
+   "label": "CORBAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25932,9 +24864,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORBAGNI_sense"
-   },
+   "label": "COLLABOT Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25955,9 +24885,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COLLABOT_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COLLABOT_sense"
-   },
+   "label": "MAQI-RET/C... Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -25978,9 +24906,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-RET%2FC..._sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-RET%2FC..._sense"
-   },
+   "label": "CURCITTI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26001,9 +24927,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CURCITTI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CURCITTI_sense"
-   },
+   "label": "TOICACI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26024,9 +24948,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOICACI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TOICACI_sense"
-   },
+   "label": "BROINIONAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26047,9 +24969,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROINIONAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROINIONAS_sense"
-   },
+   "label": "VEQREQ Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26070,9 +24990,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEQREQ_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEQREQ_sense"
-   },
+   "label": "DOLIGENN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26093,9 +25011,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOLIGENN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOLIGENN_sense"
-   },
+   "label": "RAVASA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26116,9 +25032,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RAVASA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RAVASA_sense"
-   },
+   "label": "CCICAMINI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26139,9 +25053,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CCICAMINI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CCICAMINI_sense"
-   },
+   "label": "[QE]TTEAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26162,9 +25074,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "%5BQE%5DTTEAS_sense"
-   },
+   "label": "B[AID]AGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26185,9 +25095,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "B%5BAID%5DAGNI_sense"
-   },
+   "label": "VIRAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26208,9 +25116,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VIRAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VIRAGNI_sense"
-   },
+   "label": "CALIACI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26231,9 +25137,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CALIACI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CALIACI_sense"
-   },
+   "label": "CATTINI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26254,9 +25158,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTINI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTINI_sense"
-   },
+   "label": "...LL... Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26277,9 +25179,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#...LL..._sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "...LL..._sense"
-   },
+   "label": "B[AI]D[A]N[I] Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26300,9 +25200,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "B%5BAI%5DD%5BA%5DN%5BI%5D_sense"
-   },
+   "label": "LABRID Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26323,9 +25221,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LABRID_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LABRID_sense"
-   },
+   "label": "CUNALEGEA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26346,9 +25242,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNALEGEA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNALEGEA_sense"
-   },
+   "label": "ERC Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26369,9 +25263,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERC_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ERC_sense"
-   },
+   "label": "DALI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26392,9 +25284,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DALI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DALI_sense"
-   },
+   "label": "CUNACENA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26415,9 +25305,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNACENA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNACENA_sense"
-   },
+   "label": "LUBBIAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26438,9 +25326,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUBBIAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUBBIAS_sense"
-   },
+   "label": "INISSIONAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26461,9 +25347,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#INISSIONAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "INISSIONAS_sense"
-   },
+   "label": "COMMAGGAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26484,9 +25368,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COMMAGGAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COMMAGGAGNI_sense"
-   },
+   "label": "MAQI-ERCIAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26507,9 +25389,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ERCIAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-ERCIAS_sense"
-   },
+   "label": "MAKINI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26530,9 +25410,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAKINI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAKINI_sense"
-   },
+   "label": "MAQQI-LASIRE(N) Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26553,9 +25431,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQQI-LASIRE%28N%29_sense"
-   },
+   "label": "MAQI-ESEA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26576,9 +25452,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ESEA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-ESEA_sense"
-   },
+   "label": "DOVATUCI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26599,9 +25473,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVATUCI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVATUCI_sense"
-   },
+   "label": "BROENIONAS? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26622,9 +25494,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROENIONAS%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROENIONAS%3F_sense"
-   },
+   "label": "GOSOCTEAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26645,9 +25515,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GOSOCTEAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GOSOCTEAS_sense"
-   },
+   "label": "TAN... Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26668,9 +25536,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TAN..._sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TAN..._sense"
-   },
+   "label": "BIR Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26691,9 +25557,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIR_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIR_sense"
-   },
+   "label": "LOBBI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26714,9 +25578,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LOBBI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LOBBI_sense"
-   },
+   "label": "CIR Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26737,9 +25599,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIR_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIR_sense"
-   },
+   "label": "VURUDDRANN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26760,9 +25620,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VURUDDRANN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VURUDDRANN_sense"
-   },
+   "label": "SEVERRIT Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26783,9 +25641,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SEVERRIT_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SEVERRIT_sense"
-   },
+   "label": "DUGENNGI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26806,9 +25662,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUGENNGI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUGENNGI_sense"
-   },
+   "label": "MINERC? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26829,9 +25683,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MINERC%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MINERC%3F_sense"
-   },
+   "label": "MAQI-INI... Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26852,9 +25704,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-INI..._sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-INI..._sense"
-   },
+   "label": "CEDATTOQA Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26875,9 +25725,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CEDATTOQA_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CEDATTOQA_sense"
-   },
+   "label": "COROTANI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26898,9 +25746,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COROTANI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COROTANI_sense"
-   },
+   "label": "CUNANETAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26921,9 +25767,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNANETAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNANETAS_sense"
-   },
+   "label": "MAQI-ERCIAS? Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26944,9 +25788,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-ERCIAS%3F_sense"
-   },
+   "label": "VEDDONOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26967,9 +25809,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDDONOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEDDONOS_sense"
-   },
+   "label": "MARIANI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -26990,9 +25830,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MARIANI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MARIANI_sense"
-   },
+   "label": "DEGOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27013,9 +25851,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEGOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DEGOS_sense"
-   },
+   "label": "NETTAVROICC Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27036,9 +25872,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTAVROICC_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETTAVROICC_sense"
-   },
+   "label": "COILLI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27059,9 +25893,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COILLI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COILLI_sense"
-   },
+   "label": "LOGIDEAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27082,9 +25914,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LOGIDEAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LOGIDEAS_sense"
-   },
+   "label": "MONGEDIAS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27105,9 +25935,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MONGEDIAS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MONGEDIAS_sense"
-   },
+   "label": "VLATIAMI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27128,9 +25956,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VLATIAMI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VLATIAMI_sense"
-   },
+   "label": "GATI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27151,9 +25977,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GATI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GATI_sense"
-   },
+   "label": "MARIN Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27174,9 +25998,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MARIN_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MARIN_sense"
-   },
+   "label": "COIMAGNI Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27197,9 +26019,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COIMAGNI_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COIMAGNI_sense"
-   },
+   "label": "CUNAGUSOS Sense",
    "annotations": {
     "http://lemon-model.net/lemon#reference": [
      {
@@ -27220,9 +26040,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNAGUSOS_sense",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNAGUSOS_sense"
-   },
+   "label": "has Geometry",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27234,9 +26052,7 @@ var vowlresult={
    "iri": "http://www.opengis.net/ont/geosparql#hasGeometry",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
-   "label": {
-    "IRI-based": "hasGeometry"
-   },
+   "label": "sense",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27248,9 +26064,7 @@ var vowlresult={
    "iri": "http://lemon-model.net/lemon#sense",
    "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
-   "label": {
-    "IRI-based": "sense"
-   },
+   "label": "follows",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27262,9 +26076,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#follows",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "follows"
-   },
+   "label": "entry",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27276,9 +26088,7 @@ var vowlresult={
    "iri": "http://lemon-model.net/lemon#entry",
    "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
-   "label": {
-    "IRI-based": "entry"
-   },
+   "label": "has member",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27290,9 +26100,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#hasMember",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "hasMember"
-   },
+   "label": "name relates to",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27304,7 +26112,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#nameRelatesTo",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "relative",
+   "label": "inscription mentions",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27316,9 +26124,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/prop/direct/P6568",
    "baseIRI": "http://www.wikidata.org/prop/direct",
    "instances": 0,
-   "label": {
-    "IRI-based": "P6568"
-   },
+   "label": "descendant of",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27330,9 +26136,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#descendantOf",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "descendantOf"
-   },
+   "label": "reference",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27344,9 +26148,7 @@ var vowlresult={
    "iri": "http://lemon-model.net/lemon#reference",
    "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
-   "label": {
-    "IRI-based": "reference"
-   },
+   "label": "defined in Wikidata",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27370,9 +26172,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/prop/direct/P22",
    "baseIRI": "http://www.wikidata.org/prop/direct",
    "instances": 0,
-   "label": {
-    "IRI-based": "P22"
-   },
+   "label": "contains",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27384,9 +26184,7 @@ var vowlresult={
    "iri": "http://lemon-model.net/lemon#contains",
    "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
-   "label": {
-    "IRI-based": "contains"
-   },
+   "label": "relative",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -27398,7 +26196,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/prop/direct/P1038",
    "baseIRI": "http://www.wikidata.org/prop/direct",
    "instances": 0,
-   "label": "member of",
+   "label": "part of tribe",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -33542,9 +32340,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+157",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIIC+157"
-   },
+   "label": "Person: TOICACI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -33597,9 +32393,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOICACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TOICACI"
-   },
+   "label": "Word: ISAMMNN? (\u1694\u1685\u1690\u168b\u168b\u1686\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -33652,9 +32446,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ISAMMNN%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ISAMMNN%3F"
-   },
+   "label": "Word: GRAVICAS (\u168c\u168f\u1690\u1684\u1694\u168a\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -33707,9 +32499,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GRAVICAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GRAVICAS"
-   },
+   "label": "Word: COSCIS/N (\u168a\u1691\u1685\u168a\u1694\u1685\u1686)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -33762,9 +32552,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COSCIS%2FN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COSCIS%2FN"
-   },
+   "label": "Person: LUGA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -33817,9 +32605,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGA"
-   },
+   "label": "Person: ATAR",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -33872,9 +32658,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ATAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ATAR"
-   },
+   "label": "Person: UDDAMI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -33927,9 +32711,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#UDDAMI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "UDDAMI"
-   },
+   "label": "Word: LOGIDEAS (\u1682\u1691\u168c\u1694\u1688\u1693\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -33982,9 +32764,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LOGIDEAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LOGIDEAS"
-   },
+   "label": "Person: MEDALO",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -34037,9 +32817,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDALO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MEDALO"
-   },
+   "label": "Person: GLUNLEGGET",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -34092,9 +32870,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GLUNLEGGET",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GLUNLEGGET"
-   },
+   "label": "Person: RINI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -34147,9 +32923,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RINI"
-   },
+   "label": "Word: BROENIONAS? (\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -34202,9 +32976,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROENIONAS%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROENIONAS%3F"
-   },
+   "label": "Person: NETA-SEGAMONAS",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -34257,9 +33029,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-SEGAMONAS"
-   },
+   "label": "Person: MACORBO",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -34550,9 +33320,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1694_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1694_character"
-   },
+   "label": "Character: \u1693",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34581,9 +33349,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1693_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1693_character"
-   },
+   "label": "Character: \u168c",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34612,9 +33378,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u168c_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u168c_character"
-   },
+   "label": "Character: \u1682",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34643,9 +33407,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1682_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1682_character"
-   },
+   "label": "Character: \u168f",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34674,9 +33436,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u168f_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u168f_character"
-   },
+   "label": "Character: \u1688",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34705,9 +33465,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1688_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1688_character"
-   },
+   "label": "Character: \u1690",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34736,9 +33494,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1690_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1690_character"
-   },
+   "label": "Character: \u1685",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34767,9 +33523,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1685_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1685_character"
-   },
+   "label": "Character: \u1684",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34798,9 +33552,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1684_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1684_character"
-   },
+   "label": "Character: \u168a",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34829,9 +33581,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u168a_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u168a_character"
-   },
+   "label": "Character: \u168b",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34860,9 +33610,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u168b_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u168b_character"
-   },
+   "label": "Character: \u1692",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34891,9 +33639,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1692_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1692_character"
-   },
+   "label": "Character: \u1687",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34922,9 +33668,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1687_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1687_character"
-   },
+   "label": "Character: \u1681",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34953,9 +33697,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1681_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1681_character"
-   },
+   "label": "Character: \u1686",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -34984,9 +33726,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1686_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1686_character"
-   },
+   "label": "Character: \u1691",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -35015,9 +33755,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1691_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1691_character"
-   },
+   "label": "Character: \u1689",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -35046,9 +33784,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1689_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1689_character"
-   },
+   "label": "Character: \u1694",
    "annotations": {
     "http://lemon-model.net/lemon#transliteration": [
      {
@@ -35077,9 +33813,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#\u1694_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "\u1694_character"
-   },
+   "label": "Word: MAQI (\u168b\u1690\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -35128,9 +33862,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q67381254",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": {
-    "IRI-based": "Q67381254"
-   },
+   "label": "Word: KOI (\u1691\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -35167,9 +33899,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#KOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "KOI"
-   },
+   "label": "Word: ANM (\u1690\u1686\u168b)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -35206,9 +33936,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ANM",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ANM"
-   },
+   "label": "Word: CELI (\u168a\u1693\u1682\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -35245,9 +33973,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CELI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CELI"
-   },
+   "label": "Word: AVI (\u1690\u1684\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -35284,9 +34010,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AVI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AVI"
-   },
+   "label": "Word: MUCOI (\u168b\u1692\u168a\u1691\u1694)",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -35323,9 +34047,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUCOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MUCOI"
-   },
+   "label": "transliteration",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -35363,9 +34085,7 @@ var vowlresult={
    "iri": "http://www.opengis.net/ont/geosparql#asWKT",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
-   "label": {
-    "IRI-based": "asWKT"
-   },
+   "label": "written representation",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -35389,9 +34109,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q67382235",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": {
-    "IRI-based": "Q67382235"
-   },
+   "label": "Person: ERC",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -35448,9 +34166,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q67382360",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": {
-    "IRI-based": "Q67382360"
-   },
+   "label": "Person: DALAGNI",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -35507,9 +34223,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q67383338",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": {
-    "IRI-based": "Q67383338"
-   },
+   "label": "Person: DERCMASOC",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {
@@ -35554,9 +34268,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DERCMASOC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DERCMASOC"
-   },
+   "label": "Ogham Dictionary",
    "annotations": {
     "http://lemon-model.net/lemon#entry": [
      {
@@ -35577,9 +34289,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OghamDictionary",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "OghamDictionary"
-   },
+   "label": "Person: LOBACCONA",
    "annotations": {
     "http://lemon-model.net/lemon#contains": [
      {

@@ -1,11 +1,14 @@
 @prefix ns1: <http://lemon-model.net/lemon#> .
 @prefix ns2: <http://www.i3mainz.de/ogham#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 ns2:GLUNLEGGET a ns1:Word,
         <http://www.w3.org/ns/ldp#Resource>,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Person: GLUNLEGGET"@en,
+        "Word: GLUNLEGGET (ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ)"@en ;
     ns1:contains ns2:ᚂ_character,
         ns2:ᚆ_character,
         ns2:ᚉ_character,

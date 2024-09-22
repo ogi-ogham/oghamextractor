@@ -1,9 +1,12 @@
 @prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#DROGNO> a ns1:Word,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Person: DROGNO"@en,
+        "Word: DROGNO (ᚈᚏᚑᚌᚆᚑ)"@en ;
     ns1:contains <http://www.i3mainz.de/ogham#ᚆ_character>,
         <http://www.i3mainz.de/ogham#ᚈ_character>,
         <http://www.i3mainz.de/ogham#ᚌ_character>,

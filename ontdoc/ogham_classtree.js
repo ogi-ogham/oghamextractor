@@ -46,1603 +46,1603 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LOBACCONA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LOBACCONA (LOBACCONA)",
+        "text": "Person: LOBACCONA (LOBACCONA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOICACI_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TOICACI (TOICACI)",
+        "text": "Person: TOICACI (TOICACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LITENI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LITENI (LITENI)",
+        "text": "Person: LITENI (LITENI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VLATIAMI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VLATIAMI (VLATIAMI)",
+        "text": "Person: VLATIAMI (VLATIAMI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VATTILLOGG",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VATTILLOGG (VATTILLOGG)",
+        "text": "Person: VATTILLOGG (VATTILLOGG)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QECCIAS%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "QECCIAS%3F (QECCIAS%3F)",
+        "text": "Word: QECCIAS? (\u1693\u168a\u168a\u1694\u1690\u1685) (QECCIAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LABRID",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LABRID (LABRID)",
+        "text": "Word: LABRID (\u1682\u1690\u1681\u168f\u1694\u1688) (LABRID)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VITALIN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VITALIN (VITALIN)",
+        "text": "Person: VITALIN (VITALIN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI (MAQI)",
+        "text": "Word: MAQI (\u168b\u1690\u1694) (MAQI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BR...",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BR... (BR...)",
+        "text": "Word: BR... (\u1681\u168f) (BR...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TOGITTACC%5BI%5D (TOGITTACC%5BI%5D)",
+        "text": "Word: TOGITTACC[I] (\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694) (TOGITTACC%5BI%5D)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COMMAGGAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "COMMAGGAGNI (COMMAGGAGNI)",
+        "text": "Person: COMMAGGAGNI (COMMAGGAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ISAMMNN%3F_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ISAMMNN%3F (ISAMMNN%3F)",
+        "text": "Word: ISAMMNN? (\u1694\u1685\u1690\u168b\u168b\u1686\u1686) (ISAMMNN%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#KOI%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "KOI%3F (KOI%3F)",
+        "text": "Word: KOI? (\u1691\u1694) (KOI%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#INISSIONAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "INISSIONAS (INISSIONAS)",
+        "text": "Word: INISSIONAS (\u1694\u1686\u1694\u1685\u1685\u1694\u1691\u1686\u1690\u1685) (INISSIONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DROGNO",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DROGNO (DROGNO)",
+        "text": "Person: DROGNO (DROGNO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MOCOI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MOCOI (MOCOI)",
+        "text": "Word: MOCOI (\u168b\u1691\u168a\u1691\u1694) (MOCOI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MARIANI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MARIANI (MARIANI)",
+        "text": "Person: MARIANI (MARIANI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDDONOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VEDDONOS (VEDDONOS)",
+        "text": "Word: VEDDONOS (\u1684\u1693\u1688\u1688\u1691\u1686\u1691\u1685) (VEDDONOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIONAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BROINIONAS (BROINIONAS)",
+        "text": "Person: BROINIONAS (BROINIONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BECCDINN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BECCDINN (BECCDINN)",
+        "text": "Word: BECCDINN (\u1681\u1693\u168a\u168a\u1688\u1694\u1686\u1686) (BECCDINN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COBRANORA%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "COBRANORA%3F (COBRANORA%3F)",
+        "text": "Person: COBRANORA? (COBRANORA%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GOSSUCTTIAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GOSSUCTTIAS (GOSSUCTTIAS)",
+        "text": "Person: GOSSUCTTIAS (GOSSUCTTIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GRAVICAS_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GRAVICAS (GRAVICAS)",
+        "text": "Word: GRAVICAS (\u168c\u168f\u1690\u1684\u1694\u168a\u1690\u1685) (GRAVICAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#...LL...",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "...LL... (...LL...)",
+        "text": "Person: ...LL... (...LL...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEGLANN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DEGLANN (DEGLANN)",
+        "text": "Word: DEGLANN (\u1688\u1693\u168c\u1682\u1690\u1686\u1686) (DEGLANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBBI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CORBBI (CORBBI)",
+        "text": "Word: CORBBI (\u168a\u1691\u168f\u1681\u1681\u1694) (CORBBI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNACENA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CUNACENA (CUNACENA)",
+        "text": "Word: CUNACENA (\u168a\u1692\u1686\u1690\u168a\u1693\u1686\u1690) (CUNACENA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BATTIGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BATTIGNI (BATTIGNI)",
+        "text": "Word: BATTIGNI (\u1681\u1690\u1689\u1689\u1694\u168c\u1686\u1694) (BATTIGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SEDANI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "SEDANI (SEDANI)",
+        "text": "Person: SEDANI (SEDANI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDABAR",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VEDABAR (VEDABAR)",
+        "text": "Person: VEDABAR (VEDABAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MOINENA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MOINENA (MOINENA)",
+        "text": "Person: MOINENA (MOINENA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NETTA-LAMINACCA (NETTA-LAMINACCA)",
+        "text": "Word: NETTA-LAMINACCA (\u1686\u1693\u1689\u1689\u1690\u1682\u1690\u168b\u1694\u1686\u1690\u168a\u168a\u1690) (NETTA-LAMINACCA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-TTAL",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-TTAL (MAQI-TTAL)",
+        "text": "Word: MAQI-TTAL (\u168b\u1690\u1694\u1689\u1689\u1690\u1682) (MAQI-TTAL)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COSCIS%2FN_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "COSCIS%2FN (COSCIS%2FN)",
+        "text": "Word: COSCIS/N (\u168a\u1691\u1685\u168a\u1694\u1685\u1686) (COSCIS%2FN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAILE-INBIR",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAILE-INBIR (MAILE-INBIR)",
+        "text": "Person: MAILE-INBIR (MAILE-INBIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#EQQEGGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "EQQEGGNI (EQQEGGNI)",
+        "text": "Person: EQQEGGNI (EQQEGGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SILLANN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "SILLANN (SILLANN)",
+        "text": "Person: SILLANN (SILLANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DENAVECA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DENAVECA (DENAVECA)",
+        "text": "Person: DENAVECA (DENAVECA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUCOVAROS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DUCOVAROS (DUCOVAROS)",
+        "text": "Word: DUCOVAROS (\u1688\u1692\u168a\u1691\u1684\u1690\u168f\u1691\u1685) (DUCOVAROS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTINI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CATTINI (CATTINI)",
+        "text": "Person: CATTINI (CATTINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VINNAGITLET%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VINNAGITLET%3F (VINNAGITLET%3F)",
+        "text": "Word: VINNAGITLET? (\u1684\u1694\u1686\u1686\u1690\u168c\u1694\u1689\u1682\u1693\u1689) (VINNAGITLET%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#IAQINI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "IAQINI (IAQINI)",
+        "text": "Person: IAQINI (IAQINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIR",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BIR (BIR)",
+        "text": "Person: BIR (BIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "B%5BAI%5DD%5BA%5DN%5BI%5D (B%5BAI%5DD%5BA%5DN%5BI%5D)",
+        "text": "Word: B[AI]D[A]N[I] (\u1681\u1690\u1694\u1688\u1690\u1686\u1694) (B%5BAI%5DD%5BA%5DN%5BI%5D)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-ERCIAS%3F (MAQI-ERCIAS%3F)",
+        "text": "Person: MAQI-ERCIAS? (MAQI-ERCIAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GALEOTOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GALEOTOS (GALEOTOS)",
+        "text": "Word: GALEOTOS (\u168c\u1690\u1682\u1693\u1691\u1689\u1691\u1685) (GALEOTOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COIMAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "COIMAGNI (COIMAGNI)",
+        "text": "Word: COIMAGNI (\u168a\u1691\u1694\u168b\u1690\u168c\u1686\u1694) (COIMAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGUQRIT",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LUGUQRIT (LUGUQRIT)",
+        "text": "Person: LUGUQRIT (LUGUQRIT)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUGENNGI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DUGENNGI (DUGENNGI)",
+        "text": "Word: DUGENNGI (\u1688\u1692\u168c\u1693\u1686\u1686\u168c\u1694) (DUGENNGI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CCICAMINI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CCICAMINI (CCICAMINI)",
+        "text": "Word: CCICAMINI (\u168a\u168a\u1694\u168a\u1690\u168b\u1694\u1686\u1694) (CCICAMINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAILAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAILAGNI (MAILAGNI)",
+        "text": "Person: MAILAGNI (MAILAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNALEGEA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CUNALEGEA (CUNALEGEA)",
+        "text": "Person: CUNALEGEA (CUNALEGEA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MOSAC",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MOSAC (MOSAC)",
+        "text": "Word: MOSAC (\u168b\u1691\u1685\u1690\u168a) (MOSAC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGA_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LUGA (LUGA)",
+        "text": "Person: LUGA (LUGA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#INEQAGLAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "INEQAGLAS (INEQAGLAS)",
+        "text": "Person: INEQAGLAS (INEQAGLAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TASEGAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TASEGAGNI (TASEGAGNI)",
+        "text": "Person: TASEGAGNI (TASEGAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOLIGENN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DOLIGENN (DOLIGENN)",
+        "text": "Word: DOLIGENN (\u1688\u1691\u1682\u1694\u168c\u1693\u1686\u1686) (DOLIGENN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUIBITI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MUIBITI (MUIBITI)",
+        "text": "Person: MUIBITI (MUIBITI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ATAR_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ATAR (ATAR)",
+        "text": "Person: ATAR (ATAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIENAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BROINIENAS (BROINIENAS)",
+        "text": "Word: BROINIENAS (\u1681\u168f\u1691\u1694\u1686\u1694\u1693\u1686\u1690\u1685) (BROINIENAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTO",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ALATTO (ALATTO)",
+        "text": "Word: ALATTO (\u1690\u1682\u1690\u1689\u1689\u1691) (ALATTO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SEVERRIT",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "SEVERRIT (SEVERRIT)",
+        "text": "Person: SEVERRIT (SEVERRIT)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COMOGANN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "COMOGANN (COMOGANN)",
+        "text": "Word: COMOGANN (\u168a\u1691\u168b\u1691\u168c\u1690\u1686\u1686) (COMOGANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUCOI%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MUCOI%3F (MUCOI%3F)",
+        "text": "Word: MUCOI? (\u168b\u1692\u168a\u1691\u1694) (MUCOI%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MANU",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MANU (MANU)",
+        "text": "Word: MANU (\u168b\u1690\u1686\u1692) (MANU)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DALI (DALI)",
+        "text": "Word: DALI (\u1688\u1690\u1682\u1694) (DALI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LAG%5B...",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LAG%5B... (LAG%5B...)",
+        "text": "Person: LAG[... (LAG%5B...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#UDDAMI_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "UDDAMI (UDDAMI)",
+        "text": "Person: UDDAMI (UDDAMI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COROTANI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "COROTANI (COROTANI)",
+        "text": "Person: COROTANI (COROTANI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#KOI_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "KOI (KOI)",
+        "text": "Word: KOI (\u1691\u1694) (KOI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AMADU",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "AMADU (AMADU)",
+        "text": "Person: AMADU (AMADU)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GATI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GATI (GATI)",
+        "text": "Word: GATI (\u168c\u1690\u1689\u1694) (GATI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUNAIDONAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DUNAIDONAS (DUNAIDONAS)",
+        "text": "Word: DUNAIDONAS (\u1688\u1692\u1686\u1690\u1694\u1688\u1691\u1686\u1690\u1685) (DUNAIDONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-ERCCIA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQQI-ERCCIA (MAQQI-ERCCIA)",
+        "text": "Person: MAQQI-ERCCIA (MAQQI-ERCCIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GAMICUNAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GAMICUNAS (GAMICUNAS)",
+        "text": "Person: GAMICUNAS (GAMICUNAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TUCACAC",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TUCACAC (TUCACAC)",
+        "text": "Word: TUCACAC (\u1689\u1692\u168a\u1690\u168a\u1690\u168a) (TUCACAC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RAVASA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "RAVASA (RAVASA)",
+        "text": "Person: RAVASA (RAVASA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERACIAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ERACIAS (ERACIAS)",
+        "text": "Person: ERACIAS (ERACIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIVAIDONAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BIVAIDONAS (BIVAIDONAS)",
+        "text": "Person: BIVAIDONAS (BIVAIDONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TULOTANAGIA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TULOTANAGIA (TULOTANAGIA)",
+        "text": "Word: TULOTANAGIA (\u1689\u1692\u1682\u1691\u1689\u1690\u1686\u1690\u168c\u1694\u1690) (TULOTANAGIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOGIDEAS_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LOGIDEAS (LOGIDEAS)",
+        "text": "Word: LOGIDEAS (\u1682\u1691\u168c\u1694\u1688\u1693\u1690\u1685) (LOGIDEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERC_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ERC (ERC)",
+        "text": "Person: ERC (ERC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIR",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CIR (CIR)",
+        "text": "Person: CIR (CIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MINERC%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MINERC%3F (MINERC%3F)",
+        "text": "Word: MINERC? (\u168b\u1694\u1686\u1693\u168f\u168a) (MINERC%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTUBUTTAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CATTUBUTTAS (CATTUBUTTAS)",
+        "text": "Person: CATTUBUTTAS (CATTUBUTTAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVINIA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DOVINIA (DOVINIA)",
+        "text": "Person: DOVINIA (DOVINIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NE%3FTTVRECC",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NE%3FTTVRECC (NE%3FTTVRECC)",
+        "text": "Person: NE?TTVRECC (NE%3FTTVRECC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLATIGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LLATIGNI (LLATIGNI)",
+        "text": "Word: LLATIGNI (\u1682\u1682\u1690\u1689\u1694\u168c\u1686\u1694) (LLATIGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-DUMILEAS (MAQI-DUMILEAS)",
+        "text": "Word: MAQI-DUMILEAS (\u168b\u1690\u1694\u1688\u1692\u168b\u1694\u1682\u1693\u1690\u1685) (MAQI-DUMILEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-CAIRATINI (MAQI-CAIRATINI)",
+        "text": "Word: MAQI-CAIRATINI (\u168b\u1690\u1694\u168a\u1690\u1694\u168f\u1690\u1689\u1694\u1686\u1694) (MAQI-CAIRATINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQQI (MAQQI)",
+        "text": "Word: MAQQI (\u168b\u1690\u1694) (MAQQI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VIRR%5BACC%5DANNI%3F (VIRR%5BACC%5DANNI%3F)",
+        "text": "Word: VIRR[ACC]ANNI? (\u1684\u1694\u168f\u168f\u1690\u168a\u168a\u1690\u1686\u1686\u1694) (VIRR%5BACC%5DANNI%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDALO_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MEDALO (MEDALO)",
+        "text": "Person: MEDALO (MEDALO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RODDOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "RODDOS (RODDOS)",
+        "text": "Person: RODDOS (RODDOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ERCIAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-ERCIAS (MAQI-ERCIAS)",
+        "text": "Person: MAQI-ERCIAS (MAQI-ERCIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#IVACATTOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "IVACATTOS (IVACATTOS)",
+        "text": "Person: IVACATTOS (IVACATTOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ANM_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ANM (ANM)",
+        "text": "Word: ANM (\u1690\u1686\u168b) (ANM)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ENA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ENA (ENA)",
+        "text": "Person: ENA (ENA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLUNLEGGET_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GLUNLEGGET (GLUNLEGGET)",
+        "text": "Person: GLUNLEGGET (GLUNLEGGET)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GELAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GELAGNI (GELAGNI)",
+        "text": "Word: GELAGNI (\u168c\u1693\u1682\u1690\u168c\u1686\u1694) (GELAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIRRAC",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BIRRAC (BIRRAC)",
+        "text": "Word: BIRRAC (\u1681\u1694\u168f\u168f\u1690\u168a) (BIRRAC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ALATTOS (ALATTOS)",
+        "text": "Word: ALATTOS (\u1690\u1682\u1690\u1689\u1689\u1691\u1685) (ALATTOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NILI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NILI (NILI)",
+        "text": "Word: NILI (\u1686\u1694\u1682\u1694) (NILI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VRAICCI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VRAICCI (VRAICCI)",
+        "text": "Word: VRAICCI (\u1684\u168f\u1690\u1694\u168a\u168a\u1694) (VRAICCI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQA (MAQA)",
+        "text": "Word: MAQA (\u168b\u1690\u1690) (MAQA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALAGNI_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DALAGNI (DALAGNI)",
+        "text": "Person: DALAGNI (DALAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEGOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DEGOS (DEGOS)",
+        "text": "Word: DEGOS (\u1688\u1693\u168c\u1691\u1685) (DEGOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "%5BB%5DRRUA%2FENANN (%5BB%5DRRUA%2FENANN)",
+        "text": "Word: [B]RRUA/ENANN (\u1681\u168f\u168f\u1692\u1690\u1693\u1686\u1690\u1686\u1686) (%5BB%5DRRUA%2FENANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORGOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VORGOS (VORGOS)",
+        "text": "Word: VORGOS (\u1684\u1691\u168f\u168c\u1691\u1685) (VORGOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "C%5B....%5DSALAR (C%5B....%5DSALAR)",
+        "text": "Word: C[....]SALAR (\u168a\u1685\u1690\u1682\u1690\u168f) (C%5B....%5DSALAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVVINIA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DOVVINIA (DOVVINIA)",
+        "text": "Word: DOVVINIA (\u1688\u1691\u1684\u1684\u1694\u1686\u1694\u1690) (DOVVINIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUMELI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DUMELI (DUMELI)",
+        "text": "Person: DUMELI (DUMELI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDVVI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MEDVVI (MEDVVI)",
+        "text": "Word: MEDVVI (\u168b\u1693\u1688\u1684\u1684\u1694) (MEDVVI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CURCI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CURCI (CURCI)",
+        "text": "Word: CURCI (\u168a\u1692\u168f\u168a\u1694) (CURCI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ODR...REA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ODR...REA (ODR...REA)",
+        "text": "Person: ODR...REA (ODR...REA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BRUSCCOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BRUSCCOS (BRUSCCOS)",
+        "text": "Word: BRUSCCOS (\u1681\u168f\u1692\u1685\u168a\u168a\u1691\u1685) (BRUSCCOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAMAQQI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CUNAMAQQI (CUNAMAQQI)",
+        "text": "Word: CUNAMAQQI (\u168a\u1692\u1686\u1690\u168b\u1690\u1694) (CUNAMAQQI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QRITTI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "QRITTI (QRITTI)",
+        "text": "Word: QRITTI (\u168f\u1694\u1689\u1689\u1694) (QRITTI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SENAQ",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "SENAQ (SENAQ)",
+        "text": "Word: SENAQ (\u1685\u1693\u1686\u1690) (SENAQ)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QVECI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "QVECI (QVECI)",
+        "text": "Person: QVECI (QVECI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GIRAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GIRAGNI (GIRAGNI)",
+        "text": "Person: GIRAGNI (GIRAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-IARI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQQI-IARI (MAQQI-IARI)",
+        "text": "Word: MAQQI-IARI (\u168b\u1690\u1694\u1694\u1690\u168f\u1694) (MAQQI-IARI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CELI_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CELI (CELI)",
+        "text": "Word: CELI (\u168a\u1693\u1682\u1694) (CELI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NE%5BT....%5DAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NE%5BT....%5DAS (NE%5BT....%5DAS)",
+        "text": "Person: NE[T....]AS (NE%5BT....%5DAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDUSI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MEDUSI (MEDUSI)",
+        "text": "Person: MEDUSI (MEDUSI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AILITHIR",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "AILITHIR (AILITHIR)",
+        "text": "Person: AILITHIR (AILITHIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RITTAVVECCAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "RITTAVVECCAS (RITTAVVECCAS)",
+        "text": "Person: RITTAVVECCAS (RITTAVVECCAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MARIN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MARIN (MARIN)",
+        "text": "Person: MARIN (MARIN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ADDILONA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ADDILONA (ADDILONA)",
+        "text": "Person: ADDILONA (ADDILONA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CALIACI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CALIACI (CALIACI)",
+        "text": "Word: CALIACI (\u168a\u1690\u1682\u1694\u1690\u168a\u1694) (CALIACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "SAG%28A%29RETTOS (SAG%28A%29RETTOS)",
+        "text": "Person: SAG(A)RETTOS (SAG%28A%29RETTOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TURANIAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TURANIAS (TURANIAS)",
+        "text": "Word: TURANIAS (\u1689\u1692\u168f\u1690\u1686\u1694\u1690\u1685) (TURANIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "QENILOC%5BA%5DGNI (QENILOC%5BA%5DGNI)",
+        "text": "Word: QENILOC[A]GNI (\u1693\u1686\u1694\u1682\u1691\u168a\u1690\u168c\u1686\u1694) (QENILOC%5BA%5DGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NETA-SALAGIA%3F (NETA-SALAGIA%3F)",
+        "text": "Person: NETA-SALAGIA? (NETA-SALAGIA%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VURUDDRANN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VURUDDRANN (VURUDDRANN)",
+        "text": "Word: VURUDDRANN (\u1684\u1692\u168f\u1692\u1688\u1688\u168f\u1690\u1686\u1686) (VURUDDRANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUCO%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MUCO%3F (MUCO%3F)",
+        "text": "Word: MUCO? (\u168b\u1692\u168a\u1691) (MUCO%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OVANOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "OVANOS (OVANOS)",
+        "text": "Word: OVANOS (\u1691\u1684\u1690\u1686\u1691\u1685) (OVANOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVATUCI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DOVATUCI (DOVATUCI)",
+        "text": "Word: DOVATUCI (\u1688\u1691\u1684\u1690\u1689\u1692\u168a\u1694) (DOVATUCI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CURCITTI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CURCITTI (CURCITTI)",
+        "text": "Person: CURCITTI (CURCITTI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QENILOCI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "QENILOCI (QENILOCI)",
+        "text": "Person: QENILOCI (QENILOCI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUBBIAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LUBBIAS (LUBBIAS)",
+        "text": "Person: LUBBIAS (LUBBIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-INI...",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-INI... (MAQI-INI...)",
+        "text": "Word: MAQI-INI... (\u168b\u1690\u1694\u1694\u1686\u1694) (MAQI-INI...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CORBI (CORBI)",
+        "text": "Word: CORBI (\u168a\u1691\u168f\u1681\u1694) (CORBI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VOTI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VOTI (VOTI)",
+        "text": "Person: VOTI (VOTI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOMANEQI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DOMANEQI (DOMANEQI)",
+        "text": "Person: DOMANEQI (DOMANEQI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MACORBO%3F (MACORBO%3F)",
+        "text": "Word: MACORBO? (\u168b\u1690\u168a\u1691\u168f\u1681\u1691) (MACORBO%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CALUNOVICA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CALUNOVICA (CALUNOVICA)",
+        "text": "Word: CALUNOVICA (\u168a\u1690\u1682\u1692\u1686\u1691\u1684\u1694\u168a\u1690) (CALUNOVICA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNANETAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CUNANETAS (CUNANETAS)",
+        "text": "Person: CUNANETAS (CUNANETAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORTIGURN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VORTIGURN (VORTIGURN)",
+        "text": "Word: VORTIGURN (\u1684\u1691\u168f\u1689\u1694\u168c\u1692\u168f\u1686) (VORTIGURN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-%3FOGGODIKA (MAQI-%3FOGGODIKA)",
+        "text": "Person: MAQI-?OGGODIKA (MAQI-%3FOGGODIKA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SRUSA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "SRUSA (SRUSA)",
+        "text": "Word: SRUSA (\u1685\u168f\u1692\u1685\u1690) (SRUSA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ESEA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-ESEA (MAQI-ESEA)",
+        "text": "Word: MAQI-ESEA (\u168b\u1690\u1694\u1693\u1685\u1693\u1690) (MAQI-ESEA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLASICONAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GLASICONAS (GLASICONAS)",
+        "text": "Word: GLASICONAS (\u168c\u1682\u1690\u1685\u1694\u168a\u1691\u1686\u1690\u1685) (GLASICONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "AMMLLONGITT%3F (AMMLLONGITT%3F)",
+        "text": "Word: AMMLLONGITT? (\u1690\u168b\u168b\u1682\u1682\u1691\u1686\u168c\u1694\u1689\u1689) (AMMLLONGITT%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MONGEDIAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MONGEDIAS (MONGEDIAS)",
+        "text": "Word: MONGEDIAS (\u168b\u1691\u1686\u168c\u1693\u1688\u1694\u1690\u1685) (MONGEDIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CUNALIG...",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-CUNALIG... (MAQI-CUNALIG...)",
+        "text": "Word: MAQI-CUNALIG... (\u168b\u1690\u1694\u168a\u1692\u1686\u1690\u1682\u1694\u168c) (MAQI-CUNALIG...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TEGANN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TEGANN (TEGANN)",
+        "text": "Person: TEGANN (TEGANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SACATTINI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "SACATTINI (SACATTINI)",
+        "text": "Word: SACATTINI (\u1685\u1690\u168a\u1690\u1689\u1689\u1694\u1686\u1694) (SACATTINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AVI_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "AVI (AVI)",
+        "text": "Word: AVI (\u1690\u1684\u1694) (AVI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTAVROICC",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NETTAVROICC (NETTAVROICC)",
+        "text": "Person: NETTAVROICC (NETTAVROICC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#%5BQE%5DTTEAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "%5BQE%5DTTEAS (%5BQE%5DTTEAS)",
+        "text": "Word: [QE]TTEAS (\u1693\u1689\u1689\u1693\u1690\u1685) (%5BQE%5DTTEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOBBI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LOBBI (LOBBI)",
+        "text": "Person: LOBBI (LOBBI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CEDATTOQA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CEDATTOQA (CEDATTOQA)",
+        "text": "Word: CEDATTOQA (\u168a\u1693\u1688\u1690\u1689\u1689\u1691\u1690) (CEDATTOQA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-AINIA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-AINIA (MAQI-AINIA)",
+        "text": "Word: MAQI-AINIA (\u168b\u1690\u1694\u1690\u1694\u1686\u1694\u1690) (MAQI-AINIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVINIAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DOVINIAS (DOVINIAS)",
+        "text": "Person: DOVINIAS (DOVINIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CORBAGNI (CORBAGNI)",
+        "text": "Person: CORBAGNI (CORBAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROCANN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BROCANN (BROCANN)",
+        "text": "Word: BROCANN (\u1681\u168f\u1691\u168a\u1690\u1686\u1686) (BROCANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COILLI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "COILLI (COILLI)",
+        "text": "Word: COILLI (\u168a\u1691\u1694\u1682\u1682\u1694) (COILLI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVVINIAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DOVVINIAS (DOVVINIAS)",
+        "text": "Person: DOVVINIAS (DOVVINIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-CARI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NETA-CARI (NETA-CARI)",
+        "text": "Person: NETA-CARI (NETA-CARI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AGILL...",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "AGILL... (AGILL...)",
+        "text": "Word: AGILL... (\u1690\u168c\u1694\u1682\u1682) (AGILL...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGADDON",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LUGADDON (LUGADDON)",
+        "text": "Person: LUGADDON (LUGADDON)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RINI_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "RINI (RINI)",
+        "text": "Person: RINI (RINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AKEVRITTI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "AKEVRITTI (AKEVRITTI)",
+        "text": "Person: AKEVRITTI (AKEVRITTI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GOSOCTEAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "GOSOCTEAS (GOSOCTEAS)",
+        "text": "Word: GOSOCTEAS (\u168c\u1691\u1685\u1691\u168a\u1689\u1693\u1690\u1685) (GOSOCTEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNOVATOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CUNOVATOS (CUNOVATOS)",
+        "text": "Word: CUNOVATOS (\u168a\u1692\u1686\u1691\u1684\u1690\u1689\u1691\u1685) (CUNOVATOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAGUSOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CUNAGUSOS (CUNAGUSOS)",
+        "text": "Person: CUNAGUSOS (CUNAGUSOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORRBRI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CORRBRI (CORRBRI)",
+        "text": "Word: CORRBRI (\u168a\u1691\u168f\u168f\u1681\u168f\u1694) (CORRBRI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUNICONA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MUNICONA (MUNICONA)",
+        "text": "Word: MUNICONA (\u168b\u1692\u1686\u1694\u168a\u1691\u1686\u1690) (MUNICONA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RONANN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "RONANN (RONANN)",
+        "text": "Person: RONANN (RONANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DIMAQA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DIMAQA (DIMAQA)",
+        "text": "Word: DIMAQA (\u1688\u1694\u168b\u1690\u1690) (DIMAQA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NETTA-TTRENALUGOS (NETTA-TTRENALUGOS)",
+        "text": "Word: NETTA-TTRENALUGOS (\u1686\u1693\u1689\u1689\u1690\u1689\u1689\u168f\u1693\u1686\u1690\u1682\u1692\u168c\u1691\u1685) (NETTA-TTRENALUGOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDELMETO",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VEDELMETO (VEDELMETO)",
+        "text": "Person: VEDELMETO (VEDELMETO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#...ERATI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "...ERATI (...ERATI)",
+        "text": "Person: ...ERATI (...ERATI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-CAGI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NETA-CAGI (NETA-CAGI)",
+        "text": "Person: NETA-CAGI (NETA-CAGI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DILOGONN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DILOGONN (DILOGONN)",
+        "text": "Word: DILOGONN (\u1688\u1694\u1682\u1691\u168c\u1691\u1686\u1686) (DILOGONN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CORABIR",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-CORABIR (MAQI-CORABIR)",
+        "text": "Word: MAQI-CORABIR (\u168b\u1690\u1694\u168a\u1691\u168f\u1690\u1681\u1694\u168f) (MAQI-CORABIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEQREQ",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VEQREQ (VEQREQ)",
+        "text": "Word: VEQREQ (\u1684\u1693\u168f\u1693) (VEQREQ)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NIOTTA",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NIOTTA (NIOTTA)",
+        "text": "Word: NIOTTA (\u1686\u1694\u1691\u1689\u1689\u1690) (NIOTTA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAC",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAC (MAC)",
+        "text": "Word: MAC (\u168b\u1690\u168a) (MAC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIONAS%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BROINIONAS%3F (BROINIONAS%3F)",
+        "text": "Word: BROINIONAS? (\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685) (BROINIONAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEAGOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DEAGOS (DEAGOS)",
+        "text": "Word: DEAGOS (\u1688\u1693\u1690\u168c\u1691\u1685) (DEAGOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERCAVICCAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ERCAVICCAS (ERCAVICCAS)",
+        "text": "Person: ERCAVICCAS (ERCAVICCAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ULCCAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ULCCAGNI (ULCCAGNI)",
+        "text": "Word: ULCCAGNI (\u1692\u1682\u168a\u168a\u1690\u168c\u1686\u1694) (ULCCAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUCOI_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MUCOI (MUCOI)",
+        "text": "Word: MUCOI (\u168b\u1692\u168a\u1691\u1694) (MUCOI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SUVALLOS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "SUVALLOS (SUVALLOS)",
+        "text": "Word: SUVALLOS (\u1685\u1692\u1684\u1690\u1682\u1682\u1691\u1685) (SUVALLOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DERCMASOC_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DERCMASOC (DERCMASOC)",
+        "text": "Person: DERCMASOC (DERCMASOC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORB",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CORB (CORB)",
+        "text": "Person: CORB (CORB)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OLACON",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "OLACON (OLACON)",
+        "text": "Word: OLACON (\u1691\u1682\u1690\u168a\u1691\u1686) (OLACON)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TAN...",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TAN... (TAN...)",
+        "text": "Person: TAN... (TAN...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TRENU",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TRENU (TRENU)",
+        "text": "Word: TRENU (\u1689\u168f\u1693\u1686\u1692) (TRENU)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VIRAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VIRAGNI (VIRAGNI)",
+        "text": "Word: VIRAGNI (\u1684\u1694\u168f\u1690\u168c\u1686\u1694) (VIRAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COLLABOT",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "COLLABOT (COLLABOT)",
+        "text": "Word: COLLABOT (\u168a\u1691\u1682\u1682\u1690\u1681\u1691\u1689) (COLLABOT)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTUVIR",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CATTUVIR (CATTUVIR)",
+        "text": "Word: CATTUVIR (\u168a\u1690\u1689\u1689\u1692\u1684\u1694\u168f) (CATTUVIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "B%5BAID%5DAGNI (B%5BAID%5DAGNI)",
+        "text": "Word: B[AID]AGNI (\u1681\u1690\u1694\u1688\u1690\u168c\u1686\u1694) (B%5BAID%5DAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGUDECAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LUGUDECAS (LUGUDECAS)",
+        "text": "Word: LUGUDECAS (\u1682\u1692\u168c\u1692\u1688\u1693\u168a\u1690\u1685) (LUGUDECAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROENIONAS%3F_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BROENIONAS%3F (BROENIONAS%3F)",
+        "text": "Word: BROENIONAS? (\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685) (BROENIONAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NETA-SEGAMONAS (NETA-SEGAMONAS)",
+        "text": "Person: NETA-SEGAMONAS (NETA-SEGAMONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TOGITTACC%5BI%5D%3F (TOGITTACC%5BI%5D%3F)",
+        "text": "Person: TOGITTACC[I]? (TOGITTACC%5BI%5D%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAKINI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAKINI (MAKINI)",
+        "text": "Person: MAKINI (MAKINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COLMAN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "COLMAN (COLMAN)",
+        "text": "Word: COLMAN (\u168a\u1691\u1682\u168b\u1690\u1686) (COLMAN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ROTTAIS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "ROTTAIS (ROTTAIS)",
+        "text": "Word: ROTTAIS (\u168f\u1691\u1689\u1689\u1690\u1694\u1685) (ROTTAIS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLOTETI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "LLOTETI (LLOTETI)",
+        "text": "Word: LLOTETI (\u1682\u1682\u1691\u1689\u1693\u1689\u1694) (LLOTETI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-DECEDAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-DECEDAS (MAQI-DECEDAS)",
+        "text": "Word: MAQI-DECEDAS (\u168b\u1690\u1694\u1688\u1693\u168a\u1693\u1688\u1690\u1685) (MAQI-DECEDAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NAG%5BU%5DN%5BI%5D (NAG%5BU%5DN%5BI%5D)",
+        "text": "Word: NAG[U]N[I] (\u1686\u1690\u168c\u1692\u1686\u1694) (NAG%5BU%5DN%5BI%5D)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TALAGNI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TALAGNI (TALAGNI)",
+        "text": "Word: TALAGNI (\u1689\u1690\u1682\u1690\u168c\u1686\u1694) (TALAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NOCATI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "NOCATI (NOCATI)",
+        "text": "Person: NOCATI (NOCATI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQQI-LASIRE%28N%29 (MAQQI-LASIRE%28N%29)",
+        "text": "Person: MAQQI-LASIRE(N) (MAQQI-LASIRE%28N%29)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO_suniv0_",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MACORBO (MACORBO)",
+        "text": "Person: MACORBO (MACORBO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIGU",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "BIGU (BIGU)",
+        "text": "Person: BIGU (BIGU)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TRENALUGGO%3F",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "TRENALUGGO%3F (TRENALUGGO%3F)",
+        "text": "Person: TRENALUGGO? (TRENALUGGO%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-RITEAS",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-RITEAS (MAQI-RITEAS)",
+        "text": "Person: MAQI-RITEAS (MAQI-RITEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTABBOTT",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "CATTABBOTT (CATTABBOTT)",
+        "text": "Person: CATTABBOTT (CATTABBOTT)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORRTIGURN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "VORRTIGURN (VORRTIGURN)",
+        "text": "Word: VORRTIGURN (\u1684\u1691\u168f\u168f\u1689\u1694\u168c\u1692\u168f\u1686) (VORRTIGURN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MACI (MACI)",
+        "text": "Word: MACI (\u168b\u1690\u168a\u1694) (MACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RETAGIN",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "RETAGIN (RETAGIN)",
+        "text": "Word: RETAGIN (\u168f\u1693\u1689\u1690\u168c\u1694\u1686) (RETAGIN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-RET%2FC...",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "MAQI-RET%2FC... (MAQI-RET%2FC...)",
+        "text": "Person: MAQI-RET/C... (MAQI-RET%2FC...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVETI",
         "parent": "http://lemon-model.net/lemon#Word",
         "type": "instance",
-        "text": "DOVETI (DOVETI)",
+        "text": "Person: DOVETI (DOVETI)",
         "data": {}
       },
       {
@@ -1653,9 +1653,9 @@ var tree={
         "data": {
           "to": {
             "http://lemon-model.net/lemon#contains": {
-              "instancecount": 4,
-              "http://lemon-model.net/lemon#Character": 5,
-              "http://www.wikidata.org/entity/Q41812345": 5
+              "instancecount": 6,
+              "http://lemon-model.net/lemon#Character": 7,
+              "http://www.wikidata.org/entity/Q41812345": 7
             },
             "http://lemon-model.net/lemon#sense": {
               "instancecount": 0,
@@ -1675,6 +1675,9 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
             }
           },
           "from": {
@@ -1692,1154 +1695,1154 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 7
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+285.+Kilbeg_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+285.+Kilbeg_geom (CIIC+285.+Kilbeg_geom)",
+        "text": "CIIC 285. Kilbeg Geometry (CIIC+285.+Kilbeg_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+215.+Whitefield+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+215.+Whitefield+I_geom (CIIC+215.+Whitefield+I_geom)",
+        "text": "CIIC 215. Whitefield I Geometry (CIIC+215.+Whitefield+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+273.+Drumlohan+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+273.+Drumlohan+II_geom (CIIC+273.+Drumlohan+II_geom)",
+        "text": "CIIC 273. Drumlohan II Geometry (CIIC+273.+Drumlohan+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+207.+Kilcoolaght+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+207.+Kilcoolaght+East_geom (CIIC+207.+Kilcoolaght+East_geom)",
+        "text": "CIIC 207. Kilcoolaght East Geometry (CIIC+207.+Kilcoolaght+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+40.+Painestown_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+40.+Painestown_geom (CIIC+40.+Painestown_geom)",
+        "text": "CIIC 40. Painestown Geometry (CIIC+40.+Painestown_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+294.+Knockboy+III_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+294.+Knockboy+III_geom (CIIC+294.+Knockboy+III_geom)",
+        "text": "CIIC 294. Knockboy III Geometry (CIIC+294.+Knockboy+III_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+51.+Knickeen_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+51.+Knickeen_geom (CIIC+51.+Knickeen_geom)",
+        "text": "CIIC 51. Knickeen Geometry (CIIC+51.+Knickeen_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+186.+Kilfountain_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+186.+Kilfountain_geom (CIIC+186.+Kilfountain_geom)",
+        "text": "CIIC 186. Kilfountain Geometry (CIIC+186.+Kilfountain_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+66.+Faunkill+and+the+Woods_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+66.+Faunkill+and+the+Woods_geom (CIIC+66.+Faunkill+and+the+Woods_geom)",
+        "text": "CIIC 66. Faunkill and the Woods Geometry (CIIC+66.+Faunkill+and+the+Woods_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Kilgrovan+VII_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Kilgrovan+VII_geom (Kilgrovan+VII_geom)",
+        "text": "Kilgrovan VII Geometry (Kilgrovan+VII_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+220.+Derrynane_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+220.+Derrynane_geom (CIIC+220.+Derrynane_geom)",
+        "text": "CIIC 220. Derrynane Geometry (CIIC+220.+Derrynane_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+145.+Arraglen_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+145.+Arraglen_geom (CIIC+145.+Arraglen_geom)",
+        "text": "CIIC 145. Arraglen Geometry (CIIC+145.+Arraglen_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+292.+Knockboy+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+292.+Knockboy+I_geom (CIIC+292.+Knockboy+I_geom)",
+        "text": "CIIC 292. Knockboy I Geometry (CIIC+292.+Knockboy+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+185.+Inishvickillane_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+185.+Inishvickillane_geom (CIIC+185.+Inishvickillane_geom)",
+        "text": "CIIC 185. Inishvickillane Geometry (CIIC+185.+Inishvickillane_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+217.+Whitefield+III_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+217.+Whitefield+III_geom (CIIC+217.+Whitefield+III_geom)",
+        "text": "CIIC 217. Whitefield III Geometry (CIIC+217.+Whitefield+III_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+200.+Coolmagort_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+200.+Coolmagort_geom (CIIC+200.+Coolmagort_geom)",
+        "text": "CIIC 200. Coolmagort Geometry (CIIC+200.+Coolmagort_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+98.+Ballyhank+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+98.+Ballyhank+II_geom (CIIC+98.+Ballyhank+II_geom)",
+        "text": "CIIC 98. Ballyhank II Geometry (CIIC+98.+Ballyhank+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+97.+Ballyhank+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+97.+Ballyhank+I_geom (CIIC+97.+Ballyhank+I_geom)",
+        "text": "CIIC 97. Ballyhank I Geometry (CIIC+97.+Ballyhank+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+136.+Ardfert+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+136.+Ardfert+I_geom (CIIC+136.+Ardfert+I_geom)",
+        "text": "CIIC 136. Ardfert I Geometry (CIIC+136.+Ardfert+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+208.+Kilcoolaght+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+208.+Kilcoolaght+East_geom (CIIC+208.+Kilcoolaght+East_geom)",
+        "text": "CIIC 208. Kilcoolaght East Geometry (CIIC+208.+Kilcoolaght+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+267.+Dromore+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+267.+Dromore+II_geom (CIIC+267.+Dromore+II_geom)",
+        "text": "CIIC 267. Dromore II Geometry (CIIC+267.+Dromore+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+297.+Knockboy+VI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+297.+Knockboy+VI_geom (CIIC+297.+Knockboy+VI_geom)",
+        "text": "CIIC 297. Knockboy VI Geometry (CIIC+297.+Knockboy+VI_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+35.+Tullaherin+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+35.+Tullaherin+I_geom (CIIC+35.+Tullaherin+I_geom)",
+        "text": "CIIC 35. Tullaherin I Geometry (CIIC+35.+Tullaherin+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+58.+Greenhill+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+58.+Greenhill+II_geom (CIIC+58.+Greenhill+II_geom)",
+        "text": "CIIC 58. Greenhill II Geometry (CIIC+58.+Greenhill+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+190.+Lugnagappul_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+190.+Lugnagappul_geom (CIIC+190.+Lugnagappul_geom)",
+        "text": "CIIC 190. Lugnagappul Geometry (CIIC+190.+Lugnagappul_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+253.+Kilorglin_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+253.+Kilorglin_geom (CIIC+253.+Kilorglin_geom)",
+        "text": "CIIC 253. Kilorglin Geometry (CIIC+253.+Kilorglin_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+151.+Ballinrannig+IV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+151.+Ballinrannig+IV_geom (CIIC+151.+Ballinrannig+IV_geom)",
+        "text": "CIIC 151. Ballinrannig IV Geometry (CIIC+151.+Ballinrannig+IV_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+192.+Martramane_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+192.+Martramane_geom (CIIC+192.+Martramane_geom)",
+        "text": "CIIC 192. Martramane Geometry (CIIC+192.+Martramane_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+298.+Knockboy+VII_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+298.+Knockboy+VII_geom (CIIC+298.+Knockboy+VII_geom)",
+        "text": "CIIC 298. Knockboy VII Geometry (CIIC+298.+Knockboy+VII_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+154.+Ballinrannig+VII_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+154.+Ballinrannig+VII_geom (CIIC+154.+Ballinrannig+VII_geom)",
+        "text": "CIIC 154. Ballinrannig VII Geometry (CIIC+154.+Ballinrannig+VII_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+120.+Monataggart+III_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+120.+Monataggart+III_geom (CIIC+120.+Monataggart+III_geom)",
+        "text": "CIIC 120. Monataggart III Geometry (CIIC+120.+Monataggart+III_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+280.+Drumlohan+IX_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+280.+Drumlohan+IX_geom (CIIC+280.+Drumlohan+IX_geom)",
+        "text": "CIIC 280. Drumlohan IX Geometry (CIIC+280.+Drumlohan+IX_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Keel+West_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Keel+West_geom (Keel+West_geom)",
+        "text": "Keel West Geometry (Keel+West_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+11.+Drummin+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+11.+Drummin+I_geom (CIIC+11.+Drummin+I_geom)",
+        "text": "CIIC 11. Drummin I Geometry (CIIC+11.+Drummin+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+171.+Ballynahunt_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+171.+Ballynahunt_geom (CIIC+171.+Ballynahunt_geom)",
+        "text": "CIIC 171. Ballynahunt Geometry (CIIC+171.+Ballynahunt_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+57.+Greenhill+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+57.+Greenhill+I_geom (CIIC+57.+Greenhill+I_geom)",
+        "text": "CIIC 57. Greenhill I Geometry (CIIC+57.+Greenhill+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+278.+Drumlohan+VII_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+278.+Drumlohan+VII_geom (CIIC+278.+Drumlohan+VII_geom)",
+        "text": "CIIC 278. Drumlohan VII Geometry (CIIC+278.+Drumlohan+VII_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+152.+Ballinrannig+V_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+152.+Ballinrannig+V_geom (CIIC+152.+Ballinrannig+V_geom)",
+        "text": "CIIC 152. Ballinrannig V Geometry (CIIC+152.+Ballinrannig+V_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+216.+Whitefield+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+216.+Whitefield+II_geom (CIIC+216.+Whitefield+II_geom)",
+        "text": "CIIC 216. Whitefield II Geometry (CIIC+216.+Whitefield+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+12.+Rathcroghan+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+12.+Rathcroghan+I_geom (CIIC+12.+Rathcroghan+I_geom)",
+        "text": "CIIC 12. Rathcroghan I Geometry (CIIC+12.+Rathcroghan+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+175.+Burnham+West_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+175.+Burnham+West_geom (CIIC+175.+Burnham+West_geom)",
+        "text": "CIIC 175. Burnham West Geometry (CIIC+175.+Burnham+West_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Ratass_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Ratass_geom (Ratass_geom)",
+        "text": "Ratass Geometry (Ratass_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+163.+Ballintaggart_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+163.+Ballintaggart_geom (CIIC+163.+Ballintaggart_geom)",
+        "text": "CIIC 163. Ballintaggart Geometry (CIIC+163.+Ballintaggart_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+69.+Ahalisky+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+69.+Ahalisky+I_geom (CIIC+69.+Ahalisky+I_geom)",
+        "text": "CIIC 69. Ahalisky I Geometry (CIIC+69.+Ahalisky+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+146.+Ballineanig_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+146.+Ballineanig_geom (CIIC+146.+Ballineanig_geom)",
+        "text": "CIIC 146. Ballineanig Geometry (CIIC+146.+Ballineanig_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+4.+Kilmannin_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+4.+Kilmannin_geom (CIIC+4.+Kilmannin_geom)",
+        "text": "CIIC 4. Kilmannin Geometry (CIIC+4.+Kilmannin_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+156.+Ballintaggart_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+156.+Ballintaggart_geom (CIIC+156.+Ballintaggart_geom)",
+        "text": "CIIC 156. Ballintaggart Geometry (CIIC+156.+Ballintaggart_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+13.+Rathcroghan+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+13.+Rathcroghan+II_geom (CIIC+13.+Rathcroghan+II_geom)",
+        "text": "CIIC 13. Rathcroghan II Geometry (CIIC+13.+Rathcroghan+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+170.+Ballymorereagh_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+170.+Ballymorereagh_geom (CIIC+170.+Ballymorereagh_geom)",
+        "text": "CIIC 170. Ballymorereagh Geometry (CIIC+170.+Ballymorereagh_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+166.+Ballinvoher_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+166.+Ballinvoher_geom (CIIC+166.+Ballinvoher_geom)",
+        "text": "CIIC 166. Ballinvoher Geometry (CIIC+166.+Ballinvoher_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+100.+Ballyhank+IV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+100.+Ballyhank+IV_geom (CIIC+100.+Ballyhank+IV_geom)",
+        "text": "CIIC 100. Ballyhank IV Geometry (CIIC+100.+Ballyhank+IV_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+246b.+Ardcanaght_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+246b.+Ardcanaght_geom (CIIC+246b.+Ardcanaght_geom)",
+        "text": "CIIC 246b. Ardcanaght Geometry (CIIC+246b.+Ardcanaght_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+252.+Gurrane_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+252.+Gurrane_geom (CIIC+252.+Gurrane_geom)",
+        "text": "CIIC 252. Gurrane Geometry (CIIC+252.+Gurrane_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Churchclara+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Churchclara+II_geom (Churchclara+II_geom)",
+        "text": "Churchclara II Geometry (Churchclara+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+10.+Breastagh_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+10.+Breastagh_geom (CIIC+10.+Breastagh_geom)",
+        "text": "CIIC 10. Breastagh Geometry (CIIC+10.+Breastagh_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+102.+Ballyhank+VI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+102.+Ballyhank+VI_geom (CIIC+102.+Ballyhank+VI_geom)",
+        "text": "CIIC 102. Ballyhank VI Geometry (CIIC+102.+Ballyhank+VI_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+187.+Kilmalkedar_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+187.+Kilmalkedar_geom (CIIC+187.+Kilmalkedar_geom)",
+        "text": "CIIC 187. Kilmalkedar Geometry (CIIC+187.+Kilmalkedar_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+46.+Houseland_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+46.+Houseland_geom (CIIC+46.+Houseland_geom)",
+        "text": "CIIC 46. Houseland Geometry (CIIC+46.+Houseland_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+25.+Colbinstown_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+25.+Colbinstown_geom (CIIC+25.+Colbinstown_geom)",
+        "text": "CIIC 25. Colbinstown Geometry (CIIC+25.+Colbinstown_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+173.+Brackloon_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+173.+Brackloon_geom (CIIC+173.+Brackloon_geom)",
+        "text": "CIIC 173. Brackloon Geometry (CIIC+173.+Brackloon_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+16.+Rathglass_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+16.+Rathglass_geom (CIIC+16.+Rathglass_geom)",
+        "text": "CIIC 16. Rathglass Geometry (CIIC+16.+Rathglass_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+1083.+Rathkenny+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+1083.+Rathkenny+I_geom (CIIC+1083.+Rathkenny+I_geom)",
+        "text": "CIIC 1083. Rathkenny I Geometry (CIIC+1083.+Rathkenny+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+155.+Ballintaggart_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+155.+Ballintaggart_geom (CIIC+155.+Ballintaggart_geom)",
+        "text": "CIIC 155. Ballintaggart Geometry (CIIC+155.+Ballintaggart_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+299.+Knockboy+VIII_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+299.+Knockboy+VIII_geom (CIIC+299.+Knockboy+VIII_geom)",
+        "text": "CIIC 299. Knockboy VIII Geometry (CIIC+299.+Knockboy+VIII_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+22.+Colbinstown+IV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+22.+Colbinstown+IV_geom (CIIC+22.+Colbinstown+IV_geom)",
+        "text": "CIIC 22. Colbinstown IV Geometry (CIIC+22.+Colbinstown+IV_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+242.+Parkavonear_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+242.+Parkavonear_geom (CIIC+242.+Parkavonear_geom)",
+        "text": "CIIC 242. Parkavonear Geometry (CIIC+242.+Parkavonear_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+205.+Derrygariff_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+205.+Derrygariff_geom (CIIC+205.+Derrygariff_geom)",
+        "text": "CIIC 205. Derrygariff Geometry (CIIC+205.+Derrygariff_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+162.+Ballintaggart_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+162.+Ballintaggart_geom (CIIC+162.+Ballintaggart_geom)",
+        "text": "CIIC 162. Ballintaggart Geometry (CIIC+162.+Ballintaggart_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+199.+Coolmagort_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+199.+Coolmagort_geom (CIIC+199.+Coolmagort_geom)",
+        "text": "CIIC 199. Coolmagort Geometry (CIIC+199.+Coolmagort_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+161.+Ballintaggart_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+161.+Ballintaggart_geom (CIIC+161.+Ballintaggart_geom)",
+        "text": "CIIC 161. Ballintaggart Geometry (CIIC+161.+Ballintaggart_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+198.+Coolmagort_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+198.+Coolmagort_geom (CIIC+198.+Coolmagort_geom)",
+        "text": "CIIC 198. Coolmagort Geometry (CIIC+198.+Coolmagort_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+276.+Drumlohan+V_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+276.+Drumlohan+V_geom (CIIC+276.+Drumlohan+V_geom)",
+        "text": "CIIC 276. Drumlohan V Geometry (CIIC+276.+Drumlohan+V_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+197.+Coolmagort_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+197.+Coolmagort_geom (CIIC+197.+Coolmagort_geom)",
+        "text": "CIIC 197. Coolmagort Geometry (CIIC+197.+Coolmagort_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+147.+Ballineesteenigh_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+147.+Ballineesteenigh_geom (CIIC+147.+Ballineesteenigh_geom)",
+        "text": "CIIC 147. Ballineesteenigh Geometry (CIIC+147.+Ballineesteenigh_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Knockmahon+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Knockmahon+I_geom (Knockmahon+I_geom)",
+        "text": "Knockmahon I Geometry (Knockmahon+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+268.+Dromore+III_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+268.+Dromore+III_geom (CIIC+268.+Dromore+III_geom)",
+        "text": "CIIC 268. Dromore III Geometry (CIIC+268.+Dromore+III_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Bunkilla_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Bunkilla_geom (Bunkilla_geom)",
+        "text": "Bunkilla Geometry (Bunkilla_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+32.+Gowran_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+32.+Gowran_geom (CIIC+32.+Gowran_geom)",
+        "text": "CIIC 32. Gowran Geometry (CIIC+32.+Gowran_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+202.+Coolmagort_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+202.+Coolmagort_geom (CIIC+202.+Coolmagort_geom)",
+        "text": "CIIC 202. Coolmagort Geometry (CIIC+202.+Coolmagort_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+191.+Lugnagappul_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+191.+Lugnagappul_geom (CIIC+191.+Lugnagappul_geom)",
+        "text": "CIIC 191. Lugnagappul Geometry (CIIC+191.+Lugnagappul_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+201.+Coolmagort_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+201.+Coolmagort_geom (CIIC+201.+Coolmagort_geom)",
+        "text": "CIIC 201. Coolmagort Geometry (CIIC+201.+Coolmagort_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+70.+Ahalisky+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+70.+Ahalisky+II_geom (CIIC+70.+Ahalisky+II_geom)",
+        "text": "CIIC 70. Ahalisky II Geometry (CIIC+70.+Ahalisky+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+241.+Kilbonane_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+241.+Kilbonane_geom (CIIC+241.+Kilbonane_geom)",
+        "text": "CIIC 241. Kilbonane Geometry (CIIC+241.+Kilbonane_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+37.+Lamoge+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+37.+Lamoge+II_geom (CIIC+37.+Lamoge+II_geom)",
+        "text": "CIIC 37. Lamoge II Geometry (CIIC+37.+Lamoge+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+48.+Donard_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+48.+Donard_geom (CIIC+48.+Donard_geom)",
+        "text": "CIIC 48. Donard Geometry (CIIC+48.+Donard_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+209.+Kilcoolaght+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+209.+Kilcoolaght+East_geom (CIIC+209.+Kilcoolaght+East_geom)",
+        "text": "CIIC 209. Kilcoolaght East Geometry (CIIC+209.+Kilcoolaght+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Knockmahon+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Knockmahon+II_geom (Knockmahon+II_geom)",
+        "text": "Knockmahon II Geometry (Knockmahon+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+1084.+Rathkenny+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+1084.+Rathkenny+II_geom (CIIC+1084.+Rathkenny+II_geom)",
+        "text": "CIIC 1084. Rathkenny II Geometry (CIIC+1084.+Rathkenny+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+293.+Knockboy+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+293.+Knockboy+II_geom (CIIC+293.+Knockboy+II_geom)",
+        "text": "CIIC 293. Knockboy II Geometry (CIIC+293.+Knockboy+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+295.+Knockboy+IV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+295.+Knockboy+IV_geom (CIIC+295.+Knockboy+IV_geom)",
+        "text": "CIIC 295. Knockboy IV Geometry (CIIC+295.+Knockboy+IV_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+79.+Rathcanning+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+79.+Rathcanning+I_geom (CIIC+79.+Rathcanning+I_geom)",
+        "text": "CIIC 79. Rathcanning I Geometry (CIIC+79.+Rathcanning+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+193.+Maumanorig_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+193.+Maumanorig_geom (CIIC+193.+Maumanorig_geom)",
+        "text": "CIIC 193. Maumanorig Geometry (CIIC+193.+Maumanorig_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+211.+Kilcoolaght+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+211.+Kilcoolaght+East_geom (CIIC+211.+Kilcoolaght+East_geom)",
+        "text": "CIIC 211. Kilcoolaght East Geometry (CIIC+211.+Kilcoolaght+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+71.+Ahalisky+III_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+71.+Ahalisky+III_geom (CIIC+71.+Ahalisky+III_geom)",
+        "text": "CIIC 71. Ahalisky III Geometry (CIIC+71.+Ahalisky+III_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+180.+Emlagh+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+180.+Emlagh+East_geom (CIIC+180.+Emlagh+East_geom)",
+        "text": "CIIC 180. Emlagh East Geometry (CIIC+180.+Emlagh+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+178.+Coumeenole_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+178.+Coumeenole_geom (CIIC+178.+Coumeenole_geom)",
+        "text": "CIIC 178. Coumeenole Geometry (CIIC+178.+Coumeenole_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Ballybarrack_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Ballybarrack_geom (Ballybarrack_geom)",
+        "text": "Ballybarrack Geometry (Ballybarrack_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+36.+Lamoge+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+36.+Lamoge+I_geom (CIIC+36.+Lamoge+I_geom)",
+        "text": "CIIC 36. Lamoge I Geometry (CIIC+36.+Lamoge+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+172.+Ballywiheen_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+172.+Ballywiheen_geom (CIIC+172.+Ballywiheen_geom)",
+        "text": "CIIC 172. Ballywiheen Geometry (CIIC+172.+Ballywiheen_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+203.+Coolmagort_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+203.+Coolmagort_geom (CIIC+203.+Coolmagort_geom)",
+        "text": "CIIC 203. Coolmagort Geometry (CIIC+203.+Coolmagort_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Scattery+Island_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Scattery+Island_geom (Scattery+Island_geom)",
+        "text": "Scattery Island Geometry (Scattery+Island_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+47.+Castletimon_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+47.+Castletimon_geom (CIIC+47.+Castletimon_geom)",
+        "text": "CIIC 47. Castletimon Geometry (CIIC+47.+Castletimon_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+264.+Ardmore_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+264.+Ardmore_geom (CIIC+264.+Ardmore_geom)",
+        "text": "CIIC 264. Ardmore Geometry (CIIC+264.+Ardmore_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+31.+Fiddaun_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+31.+Fiddaun_geom (CIIC+31.+Fiddaun_geom)",
+        "text": "CIIC 31. Fiddaun Geometry (CIIC+31.+Fiddaun_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+26.+Donaghmore_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+26.+Donaghmore_geom (CIIC+26.+Donaghmore_geom)",
+        "text": "CIIC 26. Donaghmore Geometry (CIIC+26.+Donaghmore_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Drummin+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Drummin+II_geom (Drummin+II_geom)",
+        "text": "Drummin II Geometry (Drummin+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+160.+Ballintaggart_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+160.+Ballintaggart_geom (CIIC+160.+Ballintaggart_geom)",
+        "text": "CIIC 160. Ballintaggart Geometry (CIIC+160.+Ballintaggart_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+153.+Ballinrannig+VI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+153.+Ballinrannig+VI_geom (CIIC+153.+Ballinrannig+VI_geom)",
+        "text": "CIIC 153. Ballinrannig VI Geometry (CIIC+153.+Ballinrannig+VI_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+296.+Knockboy+V_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+296.+Knockboy+V_geom (CIIC+296.+Knockboy+V_geom)",
+        "text": "CIIC 296. Knockboy V Geometry (CIIC+296.+Knockboy+V_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+181.+Emlagh+West_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+181.+Emlagh+West_geom (CIIC+181.+Emlagh+West_geom)",
+        "text": "CIIC 181. Emlagh West Geometry (CIIC+181.+Emlagh+West_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+141.+Aglish_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+141.+Aglish_geom (CIIC+141.+Aglish_geom)",
+        "text": "CIIC 141. Aglish Geometry (CIIC+141.+Aglish_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+218.+Whitefield+IV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+218.+Whitefield+IV_geom (CIIC+218.+Whitefield+IV_geom)",
+        "text": "CIIC 218. Whitefield IV Geometry (CIIC+218.+Whitefield+IV_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+188.+Kinard+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+188.+Kinard+East_geom (CIIC+188.+Kinard+East_geom)",
+        "text": "CIIC 188. Kinard East Geometry (CIIC+188.+Kinard+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+159.+Ballintaggart_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+159.+Ballintaggart_geom (CIIC+159.+Ballintaggart_geom)",
+        "text": "CIIC 159. Ballintaggart Geometry (CIIC+159.+Ballintaggart_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+34.+Legan_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+34.+Legan_geom (CIIC+34.+Legan_geom)",
+        "text": "CIIC 34. Legan Geometry (CIIC+34.+Legan_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+142.+Aglish_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+142.+Aglish_geom (CIIC+142.+Aglish_geom)",
+        "text": "CIIC 142. Aglish Geometry (CIIC+142.+Aglish_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+272.+Drumlohan+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+272.+Drumlohan+I_geom (CIIC+272.+Drumlohan+I_geom)",
+        "text": "CIIC 272. Drumlohan I Geometry (CIIC+272.+Drumlohan+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+274.+Drumlohan+III_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+274.+Drumlohan+III_geom (CIIC+274.+Drumlohan+III_geom)",
+        "text": "CIIC 274. Drumlohan III Geometry (CIIC+274.+Drumlohan+III_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Shankill_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Shankill_geom (Shankill_geom)",
+        "text": "Shankill Geometry (Shankill_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+118.+Monataggart+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+118.+Monataggart+I_geom (CIIC+118.+Monataggart+I_geom)",
+        "text": "CIIC 118. Monataggart I Geometry (CIIC+118.+Monataggart+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+17.+Tuckamine_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+17.+Tuckamine_geom (CIIC+17.+Tuckamine_geom)",
+        "text": "CIIC 17. Tuckamine Geometry (CIIC+17.+Tuckamine_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+263.+Ardmore+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+263.+Ardmore+I_geom (CIIC+263.+Ardmore+I_geom)",
+        "text": "CIIC 263. Ardmore I Geometry (CIIC+263.+Ardmore+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+101.+Ballyhank+V_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+101.+Ballyhank+V_geom (CIIC+101.+Ballyhank+V_geom)",
+        "text": "CIIC 101. Ballyhank V Geometry (CIIC+101.+Ballyhank+V_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+210.+Kilcoolaght+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+210.+Kilcoolaght+East_geom (CIIC+210.+Kilcoolaght+East_geom)",
+        "text": "CIIC 210. Kilcoolaght East Geometry (CIIC+210.+Kilcoolaght+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+266.+Dromore+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+266.+Dromore+I_geom (CIIC+266.+Dromore+I_geom)",
+        "text": "CIIC 266. Dromore I Geometry (CIIC+266.+Dromore+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+20.+Colbinstown+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+20.+Colbinstown+II_geom (CIIC+20.+Colbinstown+II_geom)",
+        "text": "CIIC 20. Colbinstown II Geometry (CIIC+20.+Colbinstown+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+150.+Ballinrannig+III_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+150.+Ballinrannig+III_geom (CIIC+150.+Ballinrannig+III_geom)",
+        "text": "CIIC 150. Ballinrannig III Geometry (CIIC+150.+Ballinrannig+III_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+246a.+Ardcanaght_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+246a.+Ardcanaght_geom (CIIC+246a.+Ardcanaght_geom)",
+        "text": "CIIC 246a. Ardcanaght Geometry (CIIC+246a.+Ardcanaght_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+99.+Ballyhank+III_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+99.+Ballyhank+III_geom (CIIC+99.+Ballyhank+III_geom)",
+        "text": "CIIC 99. Ballyhank III Geometry (CIIC+99.+Ballyhank+III_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+189.+Kinard+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+189.+Kinard+East_geom (CIIC+189.+Kinard+East_geom)",
+        "text": "CIIC 189. Kinard East Geometry (CIIC+189.+Kinard+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+213.+Kilcoolaght+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+213.+Kilcoolaght+East_geom (CIIC+213.+Kilcoolaght+East_geom)",
+        "text": "CIIC 213. Kilcoolaght East Geometry (CIIC+213.+Kilcoolaght+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+23.+Colbinstown+V_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+23.+Colbinstown+V_geom (CIIC+23.+Colbinstown+V_geom)",
+        "text": "CIIC 23. Colbinstown V Geometry (CIIC+23.+Colbinstown+V_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+255.+Tinnahally+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+255.+Tinnahally+I_geom (CIIC+255.+Tinnahally+I_geom)",
+        "text": "CIIC 255. Tinnahally I Geometry (CIIC+255.+Tinnahally+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+28.+Churchclara+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+28.+Churchclara+I_geom (CIIC+28.+Churchclara+I_geom)",
+        "text": "CIIC 28. Churchclara I Geometry (CIIC+28.+Churchclara+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+256.+Tinnahally+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+256.+Tinnahally+II_geom (CIIC+256.+Tinnahally+II_geom)",
+        "text": "CIIC 256. Tinnahally II Geometry (CIIC+256.+Tinnahally+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Coumlanders_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Coumlanders_geom (Coumlanders_geom)",
+        "text": "Coumlanders Geometry (Coumlanders_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+196.+Rathmalode_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+196.+Rathmalode_geom (CIIC+196.+Rathmalode_geom)",
+        "text": "CIIC 196. Rathmalode Geometry (CIIC+196.+Rathmalode_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Ardfert+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Ardfert+II_geom (Ardfert+II_geom)",
+        "text": "Ardfert II Geometry (Ardfert+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Rathkenny+IV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Rathkenny+IV_geom (Rathkenny+IV_geom)",
+        "text": "Rathkenny IV Geometry (Rathkenny+IV_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+157.+Ballintaggart_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+157.+Ballintaggart_geom (CIIC+157.+Ballintaggart_geom)",
+        "text": "CIIC 157. Ballintaggart Geometry (CIIC+157.+Ballintaggart_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+119.+Monataggart+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+119.+Monataggart+II_geom (CIIC+119.+Monataggart+II_geom)",
+        "text": "CIIC 119. Monataggart II Geometry (CIIC+119.+Monataggart+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+230.+Cloghanecarhan_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+230.+Cloghanecarhan_geom (CIIC+230.+Cloghanecarhan_geom)",
+        "text": "CIIC 230. Cloghanecarhan Geometry (CIIC+230.+Cloghanecarhan_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+223.+Parknasilla_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+223.+Parknasilla_geom (CIIC+223.+Parknasilla_geom)",
+        "text": "CIIC 223. Parknasilla Geometry (CIIC+223.+Parknasilla_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+281.+Drumlohan+X_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+281.+Drumlohan+X_geom (CIIC+281.+Drumlohan+X_geom)",
+        "text": "CIIC 281. Drumlohan X Geometry (CIIC+281.+Drumlohan+X_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+212.+Kilcoolaght+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+212.+Kilcoolaght+East_geom (CIIC+212.+Kilcoolaght+East_geom)",
+        "text": "CIIC 212. Kilcoolaght East Geometry (CIIC+212.+Kilcoolaght+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+5.+Rusheens+West_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+5.+Rusheens+West_geom (CIIC+5.+Rusheens+West_geom)",
+        "text": "CIIC 5. Rusheens West Geometry (CIIC+5.+Rusheens+West_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+279.+Drumlohan+VIII_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+279.+Drumlohan+VIII_geom (CIIC+279.+Drumlohan+VIII_geom)",
+        "text": "CIIC 279. Drumlohan VIII Geometry (CIIC+279.+Drumlohan+VIII_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Church+Island_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Church+Island_geom (Church+Island_geom)",
+        "text": "Church Island Geometry (Church+Island_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+300.+Island_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+300.+Island_geom (CIIC+300.+Island_geom)",
+        "text": "CIIC 300. Island Geometry (CIIC+300.+Island_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+195.+Rathmalode_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+195.+Rathmalode_geom (CIIC+195.+Rathmalode_geom)",
+        "text": "CIIC 195. Rathmalode Geometry (CIIC+195.+Rathmalode_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+49.+Baltinglass_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+49.+Baltinglass_geom (CIIC+49.+Baltinglass_geom)",
+        "text": "CIIC 49. Baltinglass Geometry (CIIC+49.+Baltinglass_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+206.+Kilcoolaght+East_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+206.+Kilcoolaght+East_geom (CIIC+206.+Kilcoolaght+East_geom)",
+        "text": "CIIC 206. Kilcoolaght East Geometry (CIIC+206.+Kilcoolaght+East_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+277.+Drumlohan+VI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+277.+Drumlohan+VI_geom (CIIC+277.+Drumlohan+VI_geom)",
+        "text": "CIIC 277. Drumlohan VI Geometry (CIIC+277.+Drumlohan+VI_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+265.+Ardmore+III_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+265.+Ardmore+III_geom (CIIC+265.+Ardmore+III_geom)",
+        "text": "CIIC 265. Ardmore III Geometry (CIIC+265.+Ardmore+III_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+275.+Drumlohan+IV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+275.+Drumlohan+IV_geom (CIIC+275.+Drumlohan+IV_geom)",
+        "text": "CIIC 275. Drumlohan IV Geometry (CIIC+275.+Drumlohan+IV_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+15.+Clonmore_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+15.+Clonmore_geom (CIIC+15.+Clonmore_geom)",
+        "text": "CIIC 15. Clonmore Geometry (CIIC+15.+Clonmore_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+158.+Ballintaggart_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+158.+Ballintaggart_geom (CIIC+158.+Ballintaggart_geom)",
+        "text": "CIIC 158. Ballintaggart Geometry (CIIC+158.+Ballintaggart_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+50.+Boleycarrigeen_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+50.+Boleycarrigeen_geom (CIIC+50.+Boleycarrigeen_geom)",
+        "text": "CIIC 50. Boleycarrigeen Geometry (CIIC+50.+Boleycarrigeen_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+80.+Rathcanning+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+80.+Rathcanning+II_geom (CIIC+80.+Rathcanning+II_geom)",
+        "text": "CIIC 80. Rathcanning II Geometry (CIIC+80.+Rathcanning+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Cloghabrody_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Cloghabrody_geom (Cloghabrody_geom)",
+        "text": "Cloghabrody Geometry (Cloghabrody_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Tullaherin+II_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Tullaherin+II_geom (Tullaherin+II_geom)",
+        "text": "Tullaherin II Geometry (Tullaherin+II_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#Kilgrovan+VI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "Kilgrovan+VI_geom (Kilgrovan+VI_geom)",
+        "text": "Kilgrovan VI Geometry (Kilgrovan+VI_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+19.+Colbinstown+I_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+19.+Colbinstown+I_geom (CIIC+19.+Colbinstown+I_geom)",
+        "text": "CIIC 19. Colbinstown I Geometry (CIIC+19.+Colbinstown+I_geom)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+38.+Ballyboodan_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
-        "text": "CIIC+38.+Ballyboodan_geom (CIIC+38.+Ballyboodan_geom)",
+        "text": "CIIC 38. Ballyboodan Geometry (CIIC+38.+Ballyboodan_geom)",
         "data": {}
       },
       {
@@ -2860,6 +2863,9 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 0
             }
           },
           "from": {
@@ -4374,6 +4380,10 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.wikidata.org/prop/direct/P22": {
+              "instancecount": 0,
+              "http://xmlns.com/foaf/0.1/Person": 1
             }
           },
           "from": {
@@ -4384,6 +4394,10 @@ var tree={
             "http://www.w3.org/2006/vcard/ns#hasMember": {
               "instancecount": 0,
               "http://www.w3.org/2006/vcard/ns#Group": 1
+            },
+            "http://www.wikidata.org/prop/direct/P6568": {
+              "instancecount": 0,
+              "http://www.i3mainz.de/ogham#OghamObject": 1
             }
           }
         },
@@ -4393,1477 +4407,1477 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#AMADU_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "AMADU_sense (AMADU_sense)",
+        "text": "AMADU Sense (AMADU_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTABBOTT_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CATTABBOTT_sense (CATTABBOTT_sense)",
+        "text": "CATTABBOTT Sense (CATTABBOTT_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORRTIGURN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VORRTIGURN_sense (VORRTIGURN_sense)",
+        "text": "VORRTIGURN Sense (VORRTIGURN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QRITTI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "QRITTI_sense (QRITTI_sense)",
+        "text": "QRITTI Sense (QRITTI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NOCATI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NOCATI_sense (NOCATI_sense)",
+        "text": "NOCATI Sense (NOCATI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SILLANN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "SILLANN_sense (SILLANN_sense)",
+        "text": "SILLANN Sense (SILLANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDVVI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MEDVVI_sense (MEDVVI_sense)",
+        "text": "MEDVVI Sense (MEDVVI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CORBI_sense (CORBI_sense)",
+        "text": "CORBI Sense (CORBI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-CARI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NETA-CARI_sense (NETA-CARI_sense)",
+        "text": "NETA-CARI Sense (NETA-CARI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TRENU_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TRENU_sense (TRENU_sense)",
+        "text": "TRENU Sense (TRENU_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LUGA_sense (LUGA_sense)",
+        "text": "LUGA Sense (LUGA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVVINIA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DOVVINIA_sense (DOVVINIA_sense)",
+        "text": "DOVVINIA Sense (DOVVINIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDELMETO_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VEDELMETO_sense (VEDELMETO_sense)",
+        "text": "VEDELMETO Sense (VEDELMETO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUCOVAROS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DUCOVAROS_sense (DUCOVAROS_sense)",
+        "text": "DUCOVAROS Sense (DUCOVAROS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DERCMASOC_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DERCMASOC_sense (DERCMASOC_sense)",
+        "text": "DERCMASOC Sense (DERCMASOC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-%3FOGGODIKA_sense (MAQI-%3FOGGODIKA_sense)",
+        "text": "MAQI-?OGGODIKA Sense (MAQI-%3FOGGODIKA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUNICONA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MUNICONA_sense (MUNICONA_sense)",
+        "text": "MUNICONA Sense (MUNICONA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTUBUTTAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CATTUBUTTAS_sense (CATTUBUTTAS_sense)",
+        "text": "CATTUBUTTAS Sense (CATTUBUTTAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#EQQEGGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "EQQEGGNI_sense (EQQEGGNI_sense)",
+        "text": "EQQEGGNI Sense (EQQEGGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OLACON_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "OLACON_sense (OLACON_sense)",
+        "text": "OLACON Sense (OLACON_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TOGITTACC%5BI%5D_sense (TOGITTACC%5BI%5D_sense)",
+        "text": "TOGITTACC[I] Sense (TOGITTACC%5BI%5D_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OVANOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "OVANOS_sense (OVANOS_sense)",
+        "text": "OVANOS Sense (OVANOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-AINIA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-AINIA_sense (MAQI-AINIA_sense)",
+        "text": "MAQI-AINIA Sense (MAQI-AINIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ULCCAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ULCCAGNI_sense (ULCCAGNI_sense)",
+        "text": "ULCCAGNI Sense (ULCCAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TEGANN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TEGANN_sense (TEGANN_sense)",
+        "text": "TEGANN Sense (TEGANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUNAIDONAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DUNAIDONAS_sense (DUNAIDONAS_sense)",
+        "text": "DUNAIDONAS Sense (DUNAIDONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NETA-SALAGIA%3F_sense (NETA-SALAGIA%3F_sense)",
+        "text": "NETA-SALAGIA? Sense (NETA-SALAGIA%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-ERCCIA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQQI-ERCCIA_sense (MAQQI-ERCCIA_sense)",
+        "text": "MAQQI-ERCCIA Sense (MAQQI-ERCCIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROCANN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BROCANN_sense (BROCANN_sense)",
+        "text": "BROCANN Sense (BROCANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GRAVICAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GRAVICAS_sense (GRAVICAS_sense)",
+        "text": "GRAVICAS Sense (GRAVICAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BR..._sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BR..._sense (BR..._sense)",
+        "text": "BR... Sense (BR..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEGLANN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DEGLANN_sense (DEGLANN_sense)",
+        "text": "DEGLANN Sense (DEGLANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SUVALLOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "SUVALLOS_sense (SUVALLOS_sense)",
+        "text": "SUVALLOS Sense (SUVALLOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIENAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BROINIENAS_sense (BROINIENAS_sense)",
+        "text": "BROINIENAS Sense (BROINIENAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORTIGURN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VORTIGURN_sense (VORTIGURN_sense)",
+        "text": "VORTIGURN Sense (VORTIGURN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VOTI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VOTI_sense (VOTI_sense)",
+        "text": "VOTI Sense (VOTI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BECCDINN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BECCDINN_sense (BECCDINN_sense)",
+        "text": "BECCDINN Sense (BECCDINN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ATAR_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ATAR_sense (ATAR_sense)",
+        "text": "ATAR Sense (ATAR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BRUSCCOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BRUSCCOS_sense (BRUSCCOS_sense)",
+        "text": "BRUSCCOS Sense (BRUSCCOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AILITHIR_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "AILITHIR_sense (AILITHIR_sense)",
+        "text": "AILITHIR Sense (AILITHIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NETTA-LAMINACCA_sense (NETTA-LAMINACCA_sense)",
+        "text": "NETTA-LAMINACCA Sense (NETTA-LAMINACCA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NILI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NILI_sense (NILI_sense)",
+        "text": "NILI Sense (NILI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-IARI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQQI-IARI_sense (MAQQI-IARI_sense)",
+        "text": "MAQQI-IARI Sense (MAQQI-IARI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CORABIR_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-CORABIR_sense (MAQI-CORABIR_sense)",
+        "text": "MAQI-CORABIR Sense (MAQI-CORABIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "QENILOC%5BA%5DGNI_sense (QENILOC%5BA%5DGNI_sense)",
+        "text": "QENILOC[A]GNI Sense (QENILOC%5BA%5DGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GIRAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GIRAGNI_sense (GIRAGNI_sense)",
+        "text": "GIRAGNI Sense (GIRAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TURANIAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TURANIAS_sense (TURANIAS_sense)",
+        "text": "TURANIAS Sense (TURANIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MOINENA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MOINENA_sense (MOINENA_sense)",
+        "text": "MOINENA Sense (MOINENA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTUVIR_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CATTUVIR_sense (CATTUVIR_sense)",
+        "text": "CATTUVIR Sense (CATTUVIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOMANEQI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DOMANEQI_sense (DOMANEQI_sense)",
+        "text": "DOMANEQI Sense (DOMANEQI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GALEOTOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GALEOTOS_sense (GALEOTOS_sense)",
+        "text": "GALEOTOS Sense (GALEOTOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "SAG%28A%29RETTOS_sense (SAG%28A%29RETTOS_sense)",
+        "text": "SAG(A)RETTOS Sense (SAG%28A%29RETTOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORRBRI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CORRBRI_sense (CORRBRI_sense)",
+        "text": "CORRBRI Sense (CORRBRI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIRRAC_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BIRRAC_sense (BIRRAC_sense)",
+        "text": "BIRRAC Sense (BIRRAC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVVINIAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DOVVINIAS_sense (DOVVINIAS_sense)",
+        "text": "DOVVINIAS Sense (DOVVINIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ODR...REA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ODR...REA_sense (ODR...REA_sense)",
+        "text": "ODR...REA Sense (ODR...REA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-CAGI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NETA-CAGI_sense (NETA-CAGI_sense)",
+        "text": "NETA-CAGI Sense (NETA-CAGI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGADDON_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LUGADDON_sense (LUGADDON_sense)",
+        "text": "LUGADDON Sense (LUGADDON_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SENAQ_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "SENAQ_sense (SENAQ_sense)",
+        "text": "SENAQ Sense (SENAQ_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DROGNO_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DROGNO_sense (DROGNO_sense)",
+        "text": "DROGNO Sense (DROGNO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AGILL..._sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "AGILL..._sense (AGILL..._sense)",
+        "text": "AGILL... Sense (AGILL..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MACORBO_sense (MACORBO_sense)",
+        "text": "MACORBO Sense (MACORBO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CUNALIG..._sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-CUNALIG..._sense (MAQI-CUNALIG..._sense)",
+        "text": "MAQI-CUNALIG... Sense (MAQI-CUNALIG..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TASEGAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TASEGAGNI_sense (TASEGAGNI_sense)",
+        "text": "TASEGAGNI Sense (TASEGAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "C%5B....%5DSALAR_sense (C%5B....%5DSALAR_sense)",
+        "text": "C[....]SALAR Sense (C%5B....%5DSALAR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TULOTANAGIA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TULOTANAGIA_sense (TULOTANAGIA_sense)",
+        "text": "TULOTANAGIA Sense (TULOTANAGIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GELAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GELAGNI_sense (GELAGNI_sense)",
+        "text": "GELAGNI Sense (GELAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VRAICCI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VRAICCI_sense (VRAICCI_sense)",
+        "text": "VRAICCI Sense (VRAICCI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUMELI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DUMELI_sense (DUMELI_sense)",
+        "text": "DUMELI Sense (DUMELI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CURCI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CURCI_sense (CURCI_sense)",
+        "text": "CURCI Sense (CURCI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GAMICUNAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GAMICUNAS_sense (GAMICUNAS_sense)",
+        "text": "GAMICUNAS Sense (GAMICUNAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CALUNOVICA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CALUNOVICA_sense (CALUNOVICA_sense)",
+        "text": "CALUNOVICA Sense (CALUNOVICA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RONANN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "RONANN_sense (RONANN_sense)",
+        "text": "RONANN Sense (RONANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORB_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CORB_sense (CORB_sense)",
+        "text": "CORB Sense (CORB_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDALO_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MEDALO_sense (MEDALO_sense)",
+        "text": "MEDALO Sense (MEDALO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COSCIS%2FN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "COSCIS%2FN_sense (COSCIS%2FN_sense)",
+        "text": "COSCIS/N Sense (COSCIS%2FN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VINNAGITLET%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VINNAGITLET%3F_sense (VINNAGITLET%3F_sense)",
+        "text": "VINNAGITLET? Sense (VINNAGITLET%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RITTAVVECCAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "RITTAVVECCAS_sense (RITTAVVECCAS_sense)",
+        "text": "RITTAVVECCAS Sense (RITTAVVECCAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORGOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VORGOS_sense (VORGOS_sense)",
+        "text": "VORGOS Sense (VORGOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#...ERATI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "...ERATI_sense (...ERATI_sense)",
+        "text": "...ERATI Sense (...ERATI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "AMMLLONGITT%3F_sense (AMMLLONGITT%3F_sense)",
+        "text": "AMMLLONGITT? Sense (AMMLLONGITT%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEAGOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DEAGOS_sense (DEAGOS_sense)",
+        "text": "DEAGOS Sense (DEAGOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GOSSUCTTIAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GOSSUCTTIAS_sense (GOSSUCTTIAS_sense)",
+        "text": "GOSSUCTTIAS Sense (GOSSUCTTIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAILAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAILAGNI_sense (MAILAGNI_sense)",
+        "text": "MAILAGNI Sense (MAILAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#IAQINI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "IAQINI_sense (IAQINI_sense)",
+        "text": "IAQINI Sense (IAQINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLUNLEGGET_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GLUNLEGGET_sense (GLUNLEGGET_sense)",
+        "text": "GLUNLEGGET Sense (GLUNLEGGET_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DALAGNI_sense (DALAGNI_sense)",
+        "text": "DALAGNI Sense (DALAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#IVACATTOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "IVACATTOS_sense (IVACATTOS_sense)",
+        "text": "IVACATTOS Sense (IVACATTOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVINIAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DOVINIAS_sense (DOVINIAS_sense)",
+        "text": "DOVINIAS Sense (DOVINIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIGU_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BIGU_sense (BIGU_sense)",
+        "text": "BIGU Sense (BIGU_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MACORBO%3F_sense (MACORBO%3F_sense)",
+        "text": "MACORBO? Sense (MACORBO%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RODDOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "RODDOS_sense (RODDOS_sense)",
+        "text": "RODDOS Sense (RODDOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TRENALUGGO%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TRENALUGGO%3F_sense (TRENALUGGO%3F_sense)",
+        "text": "TRENALUGGO? Sense (TRENALUGGO%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DIMAQA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DIMAQA_sense (DIMAQA_sense)",
+        "text": "DIMAQA Sense (DIMAQA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TALAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TALAGNI_sense (TALAGNI_sense)",
+        "text": "TALAGNI Sense (TALAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ISAMMNN%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ISAMMNN%3F_sense (ISAMMNN%3F_sense)",
+        "text": "ISAMMNN? Sense (ISAMMNN%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#INEQAGLAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "INEQAGLAS_sense (INEQAGLAS_sense)",
+        "text": "INEQAGLAS Sense (INEQAGLAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SRUSA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "SRUSA_sense (SRUSA_sense)",
+        "text": "SRUSA Sense (SRUSA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAILE-INBIR_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAILE-INBIR_sense (MAILE-INBIR_sense)",
+        "text": "MAILE-INBIR Sense (MAILE-INBIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NETTA-TTRENALUGOS_sense (NETTA-TTRENALUGOS_sense)",
+        "text": "NETTA-TTRENALUGOS Sense (NETTA-TTRENALUGOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NAG%5BU%5DN%5BI%5D_sense (NAG%5BU%5DN%5BI%5D_sense)",
+        "text": "NAG[U]N[I] Sense (NAG%5BU%5DN%5BI%5D_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ROTTAIS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ROTTAIS_sense (ROTTAIS_sense)",
+        "text": "ROTTAIS Sense (ROTTAIS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "%5BB%5DRRUA%2FENANN_sense (%5BB%5DRRUA%2FENANN_sense)",
+        "text": "[B]RRUA/ENANN Sense (%5BB%5DRRUA%2FENANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTO_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ALATTO_sense (ALATTO_sense)",
+        "text": "ALATTO Sense (ALATTO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDABAR_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VEDABAR_sense (VEDABAR_sense)",
+        "text": "VEDABAR Sense (VEDABAR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LITENI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LITENI_sense (LITENI_sense)",
+        "text": "LITENI Sense (LITENI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOBACCONA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LOBACCONA_sense (LOBACCONA_sense)",
+        "text": "LOBACCONA Sense (LOBACCONA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AKEVRITTI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "AKEVRITTI_sense (AKEVRITTI_sense)",
+        "text": "AKEVRITTI Sense (AKEVRITTI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VIRR%5BACC%5DANNI%3F_sense (VIRR%5BACC%5DANNI%3F_sense)",
+        "text": "VIRR[ACC]ANNI? Sense (VIRR%5BACC%5DANNI%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLASICONAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GLASICONAS_sense (GLASICONAS_sense)",
+        "text": "GLASICONAS Sense (GLASICONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIONAS%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BROINIONAS%3F_sense (BROINIONAS%3F_sense)",
+        "text": "BROINIONAS? Sense (BROINIONAS%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NE%5BT....%5DAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NE%5BT....%5DAS_sense (NE%5BT....%5DAS_sense)",
+        "text": "NE[T....]AS Sense (NE%5BT....%5DAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MANU_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MANU_sense (MANU_sense)",
+        "text": "MANU Sense (MANU_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERACIAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ERACIAS_sense (ERACIAS_sense)",
+        "text": "ERACIAS Sense (ERACIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QECCIAS%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "QECCIAS%3F_sense (QECCIAS%3F_sense)",
+        "text": "QECCIAS? Sense (QECCIAS%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ALATTOS_sense (ALATTOS_sense)",
+        "text": "ALATTOS Sense (ALATTOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COLMAN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "COLMAN_sense (COLMAN_sense)",
+        "text": "COLMAN Sense (COLMAN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ADDILONA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ADDILONA_sense (ADDILONA_sense)",
+        "text": "ADDILONA Sense (ADDILONA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COMOGANN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "COMOGANN_sense (COMOGANN_sense)",
+        "text": "COMOGANN Sense (COMOGANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUIBITI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MUIBITI_sense (MUIBITI_sense)",
+        "text": "MUIBITI Sense (MUIBITI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBBI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CORBBI_sense (CORBBI_sense)",
+        "text": "CORBBI Sense (CORBBI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LAG%5B..._sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LAG%5B..._sense (LAG%5B..._sense)",
+        "text": "LAG[... Sense (LAG%5B..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RETAGIN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "RETAGIN_sense (RETAGIN_sense)",
+        "text": "RETAGIN Sense (RETAGIN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VATTILLOGG_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VATTILLOGG_sense (VATTILLOGG_sense)",
+        "text": "VATTILLOGG Sense (VATTILLOGG_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TOGITTACC%5BI%5D%3F_sense (TOGITTACC%5BI%5D%3F_sense)",
+        "text": "TOGITTACC[I]? Sense (TOGITTACC%5BI%5D%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RINI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "RINI_sense (RINI_sense)",
+        "text": "RINI Sense (RINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VITALIN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VITALIN_sense (VITALIN_sense)",
+        "text": "VITALIN Sense (VITALIN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-DUMILEAS_sense (MAQI-DUMILEAS_sense)",
+        "text": "MAQI-DUMILEAS Sense (MAQI-DUMILEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NE%3FTTVRECC_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NE%3FTTVRECC_sense (NE%3FTTVRECC_sense)",
+        "text": "NE?TTVRECC Sense (NE%3FTTVRECC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-DECEDAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-DECEDAS_sense (MAQI-DECEDAS_sense)",
+        "text": "MAQI-DECEDAS Sense (MAQI-DECEDAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DENAVECA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DENAVECA_sense (DENAVECA_sense)",
+        "text": "DENAVECA Sense (DENAVECA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#UDDAMI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "UDDAMI_sense (UDDAMI_sense)",
+        "text": "UDDAMI Sense (UDDAMI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QVECI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "QVECI_sense (QVECI_sense)",
+        "text": "QVECI Sense (QVECI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLOTETI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LLOTETI_sense (LLOTETI_sense)",
+        "text": "LLOTETI Sense (LLOTETI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QENILOCI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "QENILOCI_sense (QENILOCI_sense)",
+        "text": "QENILOCI Sense (QENILOCI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERCAVICCAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ERCAVICCAS_sense (ERCAVICCAS_sense)",
+        "text": "ERCAVICCAS Sense (ERCAVICCAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SEDANI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "SEDANI_sense (SEDANI_sense)",
+        "text": "SEDANI Sense (SEDANI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGUDECAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LUGUDECAS_sense (LUGUDECAS_sense)",
+        "text": "LUGUDECAS Sense (LUGUDECAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIVAIDONAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BIVAIDONAS_sense (BIVAIDONAS_sense)",
+        "text": "BIVAIDONAS Sense (BIVAIDONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLATIGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LLATIGNI_sense (LLATIGNI_sense)",
+        "text": "LLATIGNI Sense (LLATIGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BATTIGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BATTIGNI_sense (BATTIGNI_sense)",
+        "text": "BATTIGNI Sense (BATTIGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGUQRIT_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LUGUQRIT_sense (LUGUQRIT_sense)",
+        "text": "LUGUQRIT Sense (LUGUQRIT_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVETI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DOVETI_sense (DOVETI_sense)",
+        "text": "DOVETI Sense (DOVETI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVINIA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DOVINIA_sense (DOVINIA_sense)",
+        "text": "DOVINIA Sense (DOVINIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NETA-SEGAMONAS_sense (NETA-SEGAMONAS_sense)",
+        "text": "NETA-SEGAMONAS Sense (NETA-SEGAMONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TUCACAC_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TUCACAC_sense (TUCACAC_sense)",
+        "text": "TUCACAC Sense (TUCACAC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ENA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ENA_sense (ENA_sense)",
+        "text": "ENA Sense (ENA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-TTAL_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-TTAL_sense (MAQI-TTAL_sense)",
+        "text": "MAQI-TTAL Sense (MAQI-TTAL_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COBRANORA%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "COBRANORA%3F_sense (COBRANORA%3F_sense)",
+        "text": "COBRANORA? Sense (COBRANORA%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-RITEAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-RITEAS_sense (MAQI-RITEAS_sense)",
+        "text": "MAQI-RITEAS Sense (MAQI-RITEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDUSI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MEDUSI_sense (MEDUSI_sense)",
+        "text": "MEDUSI Sense (MEDUSI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAMAQQI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CUNAMAQQI_sense (CUNAMAQQI_sense)",
+        "text": "CUNAMAQQI Sense (CUNAMAQQI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNOVATOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CUNOVATOS_sense (CUNOVATOS_sense)",
+        "text": "CUNOVATOS Sense (CUNOVATOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-CAIRATINI_sense (MAQI-CAIRATINI_sense)",
+        "text": "MAQI-CAIRATINI Sense (MAQI-CAIRATINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CORBAGNI_sense (CORBAGNI_sense)",
+        "text": "CORBAGNI Sense (CORBAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COLLABOT_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "COLLABOT_sense (COLLABOT_sense)",
+        "text": "COLLABOT Sense (COLLABOT_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-RET%2FC..._sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-RET%2FC..._sense (MAQI-RET%2FC..._sense)",
+        "text": "MAQI-RET/C... Sense (MAQI-RET%2FC..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CURCITTI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CURCITTI_sense (CURCITTI_sense)",
+        "text": "CURCITTI Sense (CURCITTI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOICACI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TOICACI_sense (TOICACI_sense)",
+        "text": "TOICACI Sense (TOICACI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIONAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BROINIONAS_sense (BROINIONAS_sense)",
+        "text": "BROINIONAS Sense (BROINIONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEQREQ_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VEQREQ_sense (VEQREQ_sense)",
+        "text": "VEQREQ Sense (VEQREQ_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOLIGENN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DOLIGENN_sense (DOLIGENN_sense)",
+        "text": "DOLIGENN Sense (DOLIGENN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RAVASA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "RAVASA_sense (RAVASA_sense)",
+        "text": "RAVASA Sense (RAVASA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CCICAMINI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CCICAMINI_sense (CCICAMINI_sense)",
+        "text": "CCICAMINI Sense (CCICAMINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "%5BQE%5DTTEAS_sense (%5BQE%5DTTEAS_sense)",
+        "text": "[QE]TTEAS Sense (%5BQE%5DTTEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "B%5BAID%5DAGNI_sense (B%5BAID%5DAGNI_sense)",
+        "text": "B[AID]AGNI Sense (B%5BAID%5DAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VIRAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VIRAGNI_sense (VIRAGNI_sense)",
+        "text": "VIRAGNI Sense (VIRAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CALIACI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CALIACI_sense (CALIACI_sense)",
+        "text": "CALIACI Sense (CALIACI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTINI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CATTINI_sense (CATTINI_sense)",
+        "text": "CATTINI Sense (CATTINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#...LL..._sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "...LL..._sense (...LL..._sense)",
+        "text": "...LL... Sense (...LL..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "B%5BAI%5DD%5BA%5DN%5BI%5D_sense (B%5BAI%5DD%5BA%5DN%5BI%5D_sense)",
+        "text": "B[AI]D[A]N[I] Sense (B%5BAI%5DD%5BA%5DN%5BI%5D_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LABRID_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LABRID_sense (LABRID_sense)",
+        "text": "LABRID Sense (LABRID_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNALEGEA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CUNALEGEA_sense (CUNALEGEA_sense)",
+        "text": "CUNALEGEA Sense (CUNALEGEA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERC_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "ERC_sense (ERC_sense)",
+        "text": "ERC Sense (ERC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DALI_sense (DALI_sense)",
+        "text": "DALI Sense (DALI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNACENA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CUNACENA_sense (CUNACENA_sense)",
+        "text": "CUNACENA Sense (CUNACENA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUBBIAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LUBBIAS_sense (LUBBIAS_sense)",
+        "text": "LUBBIAS Sense (LUBBIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#INISSIONAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "INISSIONAS_sense (INISSIONAS_sense)",
+        "text": "INISSIONAS Sense (INISSIONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COMMAGGAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "COMMAGGAGNI_sense (COMMAGGAGNI_sense)",
+        "text": "COMMAGGAGNI Sense (COMMAGGAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ERCIAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-ERCIAS_sense (MAQI-ERCIAS_sense)",
+        "text": "MAQI-ERCIAS Sense (MAQI-ERCIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAKINI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAKINI_sense (MAKINI_sense)",
+        "text": "MAKINI Sense (MAKINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQQI-LASIRE%28N%29_sense (MAQQI-LASIRE%28N%29_sense)",
+        "text": "MAQQI-LASIRE(N) Sense (MAQQI-LASIRE%28N%29_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ESEA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-ESEA_sense (MAQI-ESEA_sense)",
+        "text": "MAQI-ESEA Sense (MAQI-ESEA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVATUCI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DOVATUCI_sense (DOVATUCI_sense)",
+        "text": "DOVATUCI Sense (DOVATUCI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROENIONAS%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BROENIONAS%3F_sense (BROENIONAS%3F_sense)",
+        "text": "BROENIONAS? Sense (BROENIONAS%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GOSOCTEAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GOSOCTEAS_sense (GOSOCTEAS_sense)",
+        "text": "GOSOCTEAS Sense (GOSOCTEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TAN..._sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "TAN..._sense (TAN..._sense)",
+        "text": "TAN... Sense (TAN..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIR_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "BIR_sense (BIR_sense)",
+        "text": "BIR Sense (BIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOBBI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LOBBI_sense (LOBBI_sense)",
+        "text": "LOBBI Sense (LOBBI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIR_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CIR_sense (CIR_sense)",
+        "text": "CIR Sense (CIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VURUDDRANN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VURUDDRANN_sense (VURUDDRANN_sense)",
+        "text": "VURUDDRANN Sense (VURUDDRANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SEVERRIT_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "SEVERRIT_sense (SEVERRIT_sense)",
+        "text": "SEVERRIT Sense (SEVERRIT_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUGENNGI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DUGENNGI_sense (DUGENNGI_sense)",
+        "text": "DUGENNGI Sense (DUGENNGI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MINERC%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MINERC%3F_sense (MINERC%3F_sense)",
+        "text": "MINERC? Sense (MINERC%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-INI..._sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-INI..._sense (MAQI-INI..._sense)",
+        "text": "MAQI-INI... Sense (MAQI-INI..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CEDATTOQA_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CEDATTOQA_sense (CEDATTOQA_sense)",
+        "text": "CEDATTOQA Sense (CEDATTOQA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COROTANI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "COROTANI_sense (COROTANI_sense)",
+        "text": "COROTANI Sense (COROTANI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNANETAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CUNANETAS_sense (CUNANETAS_sense)",
+        "text": "CUNANETAS Sense (CUNANETAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MAQI-ERCIAS%3F_sense (MAQI-ERCIAS%3F_sense)",
+        "text": "MAQI-ERCIAS? Sense (MAQI-ERCIAS%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDDONOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VEDDONOS_sense (VEDDONOS_sense)",
+        "text": "VEDDONOS Sense (VEDDONOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MARIANI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MARIANI_sense (MARIANI_sense)",
+        "text": "MARIANI Sense (MARIANI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEGOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "DEGOS_sense (DEGOS_sense)",
+        "text": "DEGOS Sense (DEGOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTAVROICC_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "NETTAVROICC_sense (NETTAVROICC_sense)",
+        "text": "NETTAVROICC Sense (NETTAVROICC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COILLI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "COILLI_sense (COILLI_sense)",
+        "text": "COILLI Sense (COILLI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOGIDEAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "LOGIDEAS_sense (LOGIDEAS_sense)",
+        "text": "LOGIDEAS Sense (LOGIDEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MONGEDIAS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MONGEDIAS_sense (MONGEDIAS_sense)",
+        "text": "MONGEDIAS Sense (MONGEDIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VLATIAMI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "VLATIAMI_sense (VLATIAMI_sense)",
+        "text": "VLATIAMI Sense (VLATIAMI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GATI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "GATI_sense (GATI_sense)",
+        "text": "GATI Sense (GATI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MARIN_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "MARIN_sense (MARIN_sense)",
+        "text": "MARIN Sense (MARIN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COIMAGNI_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "COIMAGNI_sense (COIMAGNI_sense)",
+        "text": "COIMAGNI Sense (COIMAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAGUSOS_sense",
         "parent": "http://lemon-model.net/lemon#LexicalSense",
         "type": "instance",
-        "text": "CUNAGUSOS_sense (CUNAGUSOS_sense)",
+        "text": "CUNAGUSOS Sense (CUNAGUSOS_sense)",
         "data": {}
       },
       {
@@ -5885,12 +5899,16 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 0
             }
           },
           "from": {
             "http://lemon-model.net/lemon#sense": {
               "instancecount": 0,
-              "http://lemon-model.net/lemon#Word": 1
+              "http://lemon-model.net/lemon#Word": 1,
+              "http://www.wikidata.org/entity/Q3538737": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -7073,8 +7091,9 @@ var tree={
             },
             "http://www.wikidata.org/prop/direct/P6568": {
               "instancecount": 3,
-              "http://lemon-model.net/lemon#Word": 2,
-              "http://xmlns.com/foaf/0.1/Person": 2
+              "http://lemon-model.net/lemon#Word": 3,
+              "http://www.wikidata.org/entity/Q3538737": 1,
+              "http://xmlns.com/foaf/0.1/Person": 1
             }
           },
           "from": {
@@ -7099,6 +7118,9 @@ var tree={
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 0
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
@@ -7127,98 +7149,98 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TOICACI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "TOICACI (TOICACI)",
+        "text": "Person: TOICACI (TOICACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ISAMMNN%3F_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "ISAMMNN%3F (ISAMMNN%3F)",
+        "text": "Word: ISAMMNN? (\u1694\u1685\u1690\u168b\u168b\u1686\u1686) (ISAMMNN%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GRAVICAS_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "GRAVICAS (GRAVICAS)",
+        "text": "Word: GRAVICAS (\u168c\u168f\u1690\u1684\u1694\u168a\u1690\u1685) (GRAVICAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COSCIS%2FN_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "COSCIS%2FN (COSCIS%2FN)",
+        "text": "Word: COSCIS/N (\u168a\u1691\u1685\u168a\u1694\u1685\u1686) (COSCIS%2FN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGA_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "LUGA (LUGA)",
+        "text": "Person: LUGA (LUGA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ATAR_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "ATAR (ATAR)",
+        "text": "Person: ATAR (ATAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#UDDAMI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "UDDAMI (UDDAMI)",
+        "text": "Person: UDDAMI (UDDAMI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOGIDEAS_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "LOGIDEAS (LOGIDEAS)",
+        "text": "Word: LOGIDEAS (\u1682\u1691\u168c\u1694\u1688\u1693\u1690\u1685) (LOGIDEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDALO_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "MEDALO (MEDALO)",
+        "text": "Person: MEDALO (MEDALO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLUNLEGGET_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "GLUNLEGGET (GLUNLEGGET)",
+        "text": "Person: GLUNLEGGET (GLUNLEGGET)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RINI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "RINI (RINI)",
+        "text": "Person: RINI (RINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROENIONAS%3F_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "BROENIONAS%3F (BROENIONAS%3F)",
+        "text": "Word: BROENIONAS? (\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685) (BROENIONAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "NETA-SEGAMONAS (NETA-SEGAMONAS)",
+        "text": "Person: NETA-SEGAMONAS (NETA-SEGAMONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "MACORBO (MACORBO)",
+        "text": "Person: MACORBO (MACORBO)",
         "data": {}
       },
       {
@@ -7255,6 +7277,9 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
               "http://www.w3.org/2002/07/owl#Class": 2
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
             }
           },
           "from": {
@@ -7272,129 +7297,129 @@ var tree={
             },
             "http://www.wikidata.org/prop/direct/P6568": {
               "instancecount": 0,
-              "http://www.i3mainz.de/ogham#OghamObject": 3
+              "http://www.i3mainz.de/ogham#OghamObject": 1
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 9
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1693_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1693_character (\u1693_character)",
+        "text": "Character: \u1693 (\u1693_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168c_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u168c_character (\u168c_character)",
+        "text": "Character: \u168c (\u168c_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1682_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1682_character (\u1682_character)",
+        "text": "Character: \u1682 (\u1682_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168f_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u168f_character (\u168f_character)",
+        "text": "Character: \u168f (\u168f_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1688_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1688_character (\u1688_character)",
+        "text": "Character: \u1688 (\u1688_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1690_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1690_character (\u1690_character)",
+        "text": "Character: \u1690 (\u1690_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1685_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1685_character (\u1685_character)",
+        "text": "Character: \u1685 (\u1685_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1684_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1684_character (\u1684_character)",
+        "text": "Character: \u1684 (\u1684_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168a_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u168a_character (\u168a_character)",
+        "text": "Character: \u168a (\u168a_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168b_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u168b_character (\u168b_character)",
+        "text": "Character: \u168b (\u168b_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1692_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1692_character (\u1692_character)",
+        "text": "Character: \u1692 (\u1692_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1687_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1687_character (\u1687_character)",
+        "text": "Character: \u1687 (\u1687_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1681_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1681_character (\u1681_character)",
+        "text": "Character: \u1681 (\u1681_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1686_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1686_character (\u1686_character)",
+        "text": "Character: \u1686 (\u1686_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1691_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1691_character (\u1691_character)",
+        "text": "Character: \u1691 (\u1691_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1689_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1689_character (\u1689_character)",
+        "text": "Character: \u1689 (\u1689_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1694_character_suniv0_",
         "parent": "http://lemon-model.net/lemon#Character",
         "type": "instance",
-        "text": "\u1694_character (\u1694_character)",
+        "text": "Character: \u1694 (\u1694_character)",
         "data": {}
       },
       {
@@ -7408,119 +7433,119 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#\u1693_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1693_character (\u1693_character)",
+        "text": "Character: \u1693 (\u1693_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168c_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u168c_character (\u168c_character)",
+        "text": "Character: \u168c (\u168c_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1682_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1682_character (\u1682_character)",
+        "text": "Character: \u1682 (\u1682_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168f_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u168f_character (\u168f_character)",
+        "text": "Character: \u168f (\u168f_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1688_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1688_character (\u1688_character)",
+        "text": "Character: \u1688 (\u1688_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1690_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1690_character (\u1690_character)",
+        "text": "Character: \u1690 (\u1690_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1685_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1685_character (\u1685_character)",
+        "text": "Character: \u1685 (\u1685_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1684_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1684_character (\u1684_character)",
+        "text": "Character: \u1684 (\u1684_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168a_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u168a_character (\u168a_character)",
+        "text": "Character: \u168a (\u168a_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168b_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u168b_character (\u168b_character)",
+        "text": "Character: \u168b (\u168b_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1692_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1692_character (\u1692_character)",
+        "text": "Character: \u1692 (\u1692_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1687_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1687_character (\u1687_character)",
+        "text": "Character: \u1687 (\u1687_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1681_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1681_character (\u1681_character)",
+        "text": "Character: \u1681 (\u1681_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1686_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1686_character (\u1686_character)",
+        "text": "Character: \u1686 (\u1686_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1691_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1691_character (\u1691_character)",
+        "text": "Character: \u1691 (\u1691_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1689_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1689_character (\u1689_character)",
+        "text": "Character: \u1689 (\u1689_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1694_character_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
-        "text": "\u1694_character (\u1694_character)",
+        "text": "Character: \u1694 (\u1694_character)",
         "data": {}
       },
       {
@@ -7544,14 +7569,16 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
               "http://www.w3.org/2002/07/owl#Class": 2
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 0
             }
           },
           "from": {
             "http://lemon-model.net/lemon#contains": {
               "instancecount": 0,
-              "http://lemon-model.net/lemon#Word": 64,
-              "http://www.wikidata.org/entity/Q3538737": 4,
-              "http://www.wikidata.org/entity/Q67382150": 1,
+              "http://lemon-model.net/lemon#Word": 51,
+              "http://www.wikidata.org/entity/Q3538737": 3,
               "http://www.wikidata.org/entity/Q67381377": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
@@ -7566,7 +7593,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67381377",
         "type": "instance",
-        "text": "MAQI (MAQI)",
+        "text": "Word: MAQI (\u168b\u1690\u1694) (MAQI)",
         "data": {}
       },
       {
@@ -7580,35 +7607,35 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#KOI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67381377",
         "type": "instance",
-        "text": "KOI (KOI)",
+        "text": "Word: KOI (\u1691\u1694) (KOI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ANM_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67381377",
         "type": "instance",
-        "text": "ANM (ANM)",
+        "text": "Word: ANM (\u1690\u1686\u168b) (ANM)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CELI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67381377",
         "type": "instance",
-        "text": "CELI (CELI)",
+        "text": "Word: CELI (\u168a\u1693\u1682\u1694) (CELI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AVI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67381377",
         "type": "instance",
-        "text": "AVI (AVI)",
+        "text": "Word: AVI (\u1690\u1684\u1694) (AVI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUCOI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67381377",
         "type": "instance",
-        "text": "MUCOI (MUCOI)",
+        "text": "Word: MUCOI (\u168b\u1692\u168a\u1691\u1694) (MUCOI)",
         "data": {}
       },
       {
@@ -7619,9 +7646,9 @@ var tree={
         "data": {
           "to": {
             "http://lemon-model.net/lemon#contains": {
-              "instancecount": 2,
-              "http://lemon-model.net/lemon#Character": 3,
-              "http://www.wikidata.org/entity/Q41812345": 3
+              "instancecount": 4,
+              "http://lemon-model.net/lemon#Character": 5,
+              "http://www.wikidata.org/entity/Q41812345": 5
             },
             "http://lemon-model.net/lemon#transliteration": {
               "instancecount": 0
@@ -7637,6 +7664,9 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
               "http://www.w3.org/2002/07/owl#Class": 2
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 0
             }
           },
           "from": {
@@ -7650,7 +7680,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 5
       },
       {
         "id": "http://www.wikidata.org/entity/Q67382235",
@@ -7663,7 +7693,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#ERC_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67382150",
         "type": "instance",
-        "text": "ERC (ERC)",
+        "text": "Person: ERC (ERC)",
         "data": {}
       },
       {
@@ -7677,7 +7707,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DALAGNI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67382150",
         "type": "instance",
-        "text": "DALAGNI (DALAGNI)",
+        "text": "Person: DALAGNI (DALAGNI)",
         "data": {}
       },
       {
@@ -7691,7 +7721,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DERCMASOC_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67382150",
         "type": "instance",
-        "text": "DERCMASOC (DERCMASOC)",
+        "text": "Person: DERCMASOC (DERCMASOC)",
         "data": {}
       },
       {
@@ -7702,9 +7732,9 @@ var tree={
         "data": {
           "to": {
             "http://lemon-model.net/lemon#contains": {
-              "instancecount": 5,
-              "http://lemon-model.net/lemon#Character": 6,
-              "http://www.wikidata.org/entity/Q41812345": 6
+              "instancecount": 2,
+              "http://lemon-model.net/lemon#Character": 3,
+              "http://www.wikidata.org/entity/Q41812345": 3
             },
             "http://lemon-model.net/lemon#sense": {
               "instancecount": 0,
@@ -7724,6 +7754,9 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
               "http://www.w3.org/2002/07/owl#Class": 2
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
             }
           },
           "from": {
@@ -7741,13 +7774,13 @@ var tree={
             }
           }
         },
-        "instancecount": 6
+        "instancecount": 4
       },
       {
         "id": "http://www.i3mainz.de/ogham#OghamDictionary",
         "parent": "http://lemon-model.net/lemon#Lexicon",
         "type": "instance",
-        "text": "OghamDictionary (OghamDictionary)",
+        "text": "Ogham Dictionary (OghamDictionary)",
         "data": {}
       },
       {
@@ -7772,6 +7805,9 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 0
             }
           },
           "from": {
@@ -7872,13 +7908,13 @@ var tree={
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 4,
-              "http://www.w3.org/2002/07/owl#ObjectProperty": 5
+              "instancecount": 0,
+              "http://www.w3.org/2002/07/owl#Class": 1
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 1
       },
       {
         "id": "http://www.i3mainz.de/ogham#Point_collection",

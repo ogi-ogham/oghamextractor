@@ -6,6 +6,7 @@
 <http://www.i3mainz.de/ogham#OghamObject> a owl:Class,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Ogham Object"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
     rdfs:subClassOf geo:Feature .
 
