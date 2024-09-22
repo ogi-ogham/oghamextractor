@@ -11,5 +11,5 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget skos: ;
     void:subjectsTarget <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
-    void:triples 10 .
+    void:triples 9 .
 

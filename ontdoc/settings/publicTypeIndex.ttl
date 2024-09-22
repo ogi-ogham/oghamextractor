@@ -517,7 +517,6 @@ owl:ObjectProperty a owl:Class .
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#CURCI_person>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#CURCI_sense>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Character>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Character_collection>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Church+Island>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Church+Island_geom>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Churchclara+II>,
@@ -1080,40 +1079,23 @@ owl:ObjectProperty a owl:Class .
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#VURUDDRANN_sense>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Word>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Word_collection>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚁ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚁ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚂ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚂ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚄ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚄ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚅ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚅ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚆ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚆ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚇ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚇ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚈ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚈ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚉ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚉ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚊ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚊ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚋ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚋ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚌ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚌ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚏ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚏ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚐ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚐ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚑ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚑ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚒ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚒ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚓ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚓ_character_suniv1_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚔ_character_suniv0_>,
-        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚔ_character_suniv1_> .
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚁ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚂ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚄ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚅ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚆ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚇ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚈ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚉ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚊ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚋ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚌ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚏ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚐ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚑ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚒ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚓ_character>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚔ_character> .
 
 geo:FeatureCollection a owl:Class ;
     rdfs:subClassOf geo:SpatialObjectCollection .
@@ -2594,9 +2576,6 @@ geo:GeometryCollection a owl:Class ;
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Character> ns1:forClass <#> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Character_collection> ns1:forClass skos:Collection ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Character_collection> .
-
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Church+Island> ns1:forClass <http://www.i3mainz.de/ogham#OghamObject> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Church+Island> .
 
@@ -3743,7 +3722,7 @@ geo:GeometryCollection a owl:Class ;
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q3538737_collection> ns1:forClass skos:Collection ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q3538737_collection> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q41812345> ns1:forClass <#> ;
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q41812345> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q41812345> .
 
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q41812345_collection> ns1:forClass skos:Collection ;
@@ -4283,113 +4262,64 @@ geo:GeometryCollection a owl:Class ;
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Word_collection> ns1:forClass skos:Collection ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Word_collection> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚁ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚁ_character_suniv0_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚁ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚁ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚁ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚁ_character_suniv1_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚂ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚂ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚂ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚂ_character_suniv0_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚄ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚄ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚂ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚂ_character_suniv1_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚅ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚅ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚄ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚄ_character_suniv0_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚆ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚆ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚄ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚄ_character_suniv1_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚇ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚇ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚅ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚅ_character_suniv0_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚈ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚈ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚅ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚅ_character_suniv1_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚉ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚉ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚆ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚆ_character_suniv0_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚊ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚊ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚆ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚆ_character_suniv1_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚋ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚋ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚇ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚇ_character_suniv0_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚌ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚌ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚇ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚇ_character_suniv1_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚏ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚏ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚈ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚈ_character_suniv0_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚐ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚐ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚈ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚈ_character_suniv1_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚑ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚑ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚉ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚉ_character_suniv0_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚒ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚒ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚉ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚉ_character_suniv1_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚓ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚓ_character> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚊ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚊ_character_suniv0_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚊ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚊ_character_suniv1_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚋ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚋ_character_suniv0_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚋ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚋ_character_suniv1_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚌ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚌ_character_suniv0_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚌ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚌ_character_suniv1_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚏ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚏ_character_suniv0_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚏ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚏ_character_suniv1_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚐ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚐ_character_suniv0_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚐ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚐ_character_suniv1_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚑ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚑ_character_suniv0_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚑ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚑ_character_suniv1_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚒ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚒ_character_suniv0_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚒ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚒ_character_suniv1_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚓ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚓ_character_suniv0_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚓ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚓ_character_suniv1_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚔ_character_suniv0_> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Character> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚔ_character_suniv0_> .
-
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚔ_character_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
-    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚔ_character_suniv1_> .
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#ᚔ_character> ns1:forClass <http://www.wikidata.org/entity/Q41812345> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//ᚔ_character> .
 
 geo:Feature a owl:Class ;
     rdfs:subClassOf geo:SpatialObject .
 
 geo:Geometry a owl:Class ;
     rdfs:subClassOf geo:SpatialObject .
+
+<http://www.w3.org/ns/lemon/ontolex#Character> a owl:Class .
 
 geo:SpatialObject a owl:Class .
 
@@ -4409,9 +4339,8 @@ skos:Collection a owl:Class .
 
 <http://www.wikidata.org/entity/Q3538737> a owl:Class .
 
-<http://www.w3.org/ns/lemon/ontolex#Character> a owl:Class .
-
-<http://www.wikidata.org/entity/Q41812345> a owl:Class .
+<http://www.wikidata.org/entity/Q41812345> a owl:Class ;
+    rdfs:subClassOf <http://www.w3.org/ns/lemon/ontolex#Character> .
 
 owl:Class a owl:Class .
 

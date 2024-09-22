@@ -3,7 +3,6 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#ᚔ_character> a <http://www.w3.org/ns/ldp#Resource>,
-        ns1:Character,
         <http://www.wikidata.org/entity/Q41812345>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Character: ᚔ"@en ;

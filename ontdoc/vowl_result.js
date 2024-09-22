@@ -185,7 +185,9 @@ var vowlresult={
    "label": "Ogham Letter",
    "annotations": {},
    "subClasses": [],
-   "superClasses": []
+   "superClasses": [
+    "1021"
+   ]
   },
   {
    "id": 1016,
@@ -245,7 +247,9 @@ var vowlresult={
    "instances": 0,
    "label": "Character",
    "annotations": {},
-   "subClasses": [],
+   "subClasses": [
+    "1016"
+   ],
    "superClasses": []
   },
   {
@@ -4491,202 +4495,134 @@ var vowlresult={
   },
   {
    "id": 1038,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1039,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1040,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1041,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1042,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1043,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1044,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1045,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1046,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1047,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1048,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1049,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1050,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1051,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1052,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1053,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1054,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.wikidata.org/entity/Q41812345"
   },
   {
    "id": 1055,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1056,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1057,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1058,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1059,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1060,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1061,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1062,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1063,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1064,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1065,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1066,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1067,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1068,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1069,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1070,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1071,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
-  },
-  {
-   "id": 1072,
-   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
-  },
-  {
-   "id": 1073,
    "type": "http://www.wikidata.org/entity/Q67381377"
   },
   {
-   "id": 1074,
+   "id": 1057,
    "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
-   "id": 1075,
+   "id": 1058,
    "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
-   "id": 1076,
+   "id": 1059,
    "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
-   "id": 1077,
+   "id": 1060,
    "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
-   "id": 1078,
+   "id": 1061,
    "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
-   "id": 1079,
+   "id": 1062,
    "type": "http://www.wikidata.org/entity/Q8192"
   },
   {
-   "id": 1080,
+   "id": 1063,
    "type": "http://www.wikidata.org/entity/Q34770"
   },
   {
-   "id": 1081,
+   "id": 1064,
    "type": "http://www.wikidata.org/entity/Q67382150"
   },
   {
-   "id": 1082,
+   "id": 1065,
    "type": "http://www.wikidata.org/entity/Q67382150"
   },
   {
-   "id": 1083,
+   "id": 1066,
    "type": "http://www.wikidata.org/entity/Q67382150"
   },
   {
-   "id": 1084,
+   "id": 1067,
    "type": "http://www.wikidata.org/entity/Q67382150"
   },
   {
-   "id": 1085,
+   "id": 1068,
    "type": "http://www.wikidata.org/entity/Q67382150"
   },
   {
-   "id": 1086,
+   "id": 1069,
    "type": "http://www.wikidata.org/entity/Q67382150"
   },
   {
-   "id": 1087,
+   "id": 1070,
    "type": "http://www.w3.org/ns/lemon/lime#Lexicon"
   }
  ],
@@ -36471,244 +36407,6 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACORBO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MACORBO"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1038,
-   "iri": "http://www.i3mainz.de/ogham#\u1693_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1693_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1039,
-   "iri": "http://www.i3mainz.de/ogham#\u168c_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u168c_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1040,
-   "iri": "http://www.i3mainz.de/ogham#\u1682_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1682_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1041,
-   "iri": "http://www.i3mainz.de/ogham#\u168f_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u168f_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1042,
-   "iri": "http://www.i3mainz.de/ogham#\u1688_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1688_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1043,
-   "iri": "http://www.i3mainz.de/ogham#\u1690_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1690_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1044,
-   "iri": "http://www.i3mainz.de/ogham#\u1685_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1685_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1045,
-   "iri": "http://www.i3mainz.de/ogham#\u1684_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1684_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1046,
-   "iri": "http://www.i3mainz.de/ogham#\u168a_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u168a_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1047,
-   "iri": "http://www.i3mainz.de/ogham#\u168b_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u168b_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1048,
-   "iri": "http://www.i3mainz.de/ogham#\u1692_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1692_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1049,
-   "iri": "http://www.i3mainz.de/ogham#\u1687_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1687_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1050,
-   "iri": "http://www.i3mainz.de/ogham#\u1681_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1681_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1051,
-   "iri": "http://www.i3mainz.de/ogham#\u1686_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1686_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1052,
-   "iri": "http://www.i3mainz.de/ogham#\u1691_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1691_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1053,
-   "iri": "http://www.i3mainz.de/ogham#\u1689_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": {
-    "IRI-based": "\u1689_character"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1054,
-   "iri": "http://www.i3mainz.de/ogham#\u1694_character",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
    "label": "Character: \u1693",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#transliteration": [
@@ -36734,7 +36432,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1055,
+   "id": 1038,
    "iri": "http://www.i3mainz.de/ogham#\u1693_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -36763,7 +36461,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1056,
+   "id": 1039,
    "iri": "http://www.i3mainz.de/ogham#\u168c_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -36792,7 +36490,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1057,
+   "id": 1040,
    "iri": "http://www.i3mainz.de/ogham#\u1682_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -36821,7 +36519,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1058,
+   "id": 1041,
    "iri": "http://www.i3mainz.de/ogham#\u168f_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -36850,7 +36548,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1059,
+   "id": 1042,
    "iri": "http://www.i3mainz.de/ogham#\u1688_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -36879,7 +36577,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1060,
+   "id": 1043,
    "iri": "http://www.i3mainz.de/ogham#\u1690_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -36908,7 +36606,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1061,
+   "id": 1044,
    "iri": "http://www.i3mainz.de/ogham#\u1685_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -36937,7 +36635,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1062,
+   "id": 1045,
    "iri": "http://www.i3mainz.de/ogham#\u1684_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -36966,7 +36664,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1063,
+   "id": 1046,
    "iri": "http://www.i3mainz.de/ogham#\u168a_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -36995,7 +36693,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1064,
+   "id": 1047,
    "iri": "http://www.i3mainz.de/ogham#\u168b_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37024,7 +36722,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1065,
+   "id": 1048,
    "iri": "http://www.i3mainz.de/ogham#\u1692_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37053,7 +36751,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1066,
+   "id": 1049,
    "iri": "http://www.i3mainz.de/ogham#\u1687_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37082,7 +36780,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1067,
+   "id": 1050,
    "iri": "http://www.i3mainz.de/ogham#\u1681_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37111,7 +36809,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1068,
+   "id": 1051,
    "iri": "http://www.i3mainz.de/ogham#\u1686_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37140,7 +36838,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1069,
+   "id": 1052,
    "iri": "http://www.i3mainz.de/ogham#\u1691_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37169,7 +36867,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1070,
+   "id": 1053,
    "iri": "http://www.i3mainz.de/ogham#\u1689_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37198,7 +36896,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1071,
+   "id": 1054,
    "iri": "http://www.i3mainz.de/ogham#\u1694_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37251,7 +36949,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1072,
+   "id": 1055,
    "iri": "http://www.i3mainz.de/ogham#MAQI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37263,7 +36961,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1073,
+   "id": 1056,
    "iri": "http://www.wikidata.org/entity/Q67381254",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -37316,7 +37014,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1074,
+   "id": 1057,
    "iri": "http://www.i3mainz.de/ogham#KOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37369,7 +37067,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1075,
+   "id": 1058,
    "iri": "http://www.i3mainz.de/ogham#ANM",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37422,7 +37120,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1076,
+   "id": 1059,
    "iri": "http://www.i3mainz.de/ogham#CELI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37475,7 +37173,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1077,
+   "id": 1060,
    "iri": "http://www.i3mainz.de/ogham#AVI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37528,7 +37226,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1078,
+   "id": 1061,
    "iri": "http://www.i3mainz.de/ogham#MUCOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37540,7 +37238,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1079,
+   "id": 1062,
    "iri": "http://www.wikidata.org/entity/Q184661",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -37552,7 +37250,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1080,
+   "id": 1063,
    "iri": "http://www.wikidata.org/entity/Q3320030",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -37564,7 +37262,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1081,
+   "id": 1064,
    "iri": "http://www.wikidata.org/entity/Q67382235",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -37625,7 +37323,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1082,
+   "id": 1065,
    "iri": "http://www.i3mainz.de/ogham#ERC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37637,7 +37335,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1083,
+   "id": 1066,
    "iri": "http://www.wikidata.org/entity/Q67382360",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -37698,7 +37396,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1084,
+   "id": 1067,
    "iri": "http://www.i3mainz.de/ogham#DALAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37710,7 +37408,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1085,
+   "id": 1068,
    "iri": "http://www.wikidata.org/entity/Q67383338",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -37771,7 +37469,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1086,
+   "id": 1069,
    "iri": "http://www.i3mainz.de/ogham#DERCMASOC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -37792,7 +37490,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1087,
+   "id": 1070,
    "iri": "http://www.i3mainz.de/ogham#OghamDictionary",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,

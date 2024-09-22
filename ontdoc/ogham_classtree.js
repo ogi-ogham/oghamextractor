@@ -1654,8 +1654,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
@@ -1669,9 +1669,8 @@ var tree={
               "http://www.wikidata.org/entity/Q34770": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 5,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 6,
-              "http://www.wikidata.org/entity/Q41812345": 6
+              "instancecount": 4,
+              "http://www.wikidata.org/entity/Q41812345": 5
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
               "instancecount": 0,
@@ -1703,7 +1702,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 6
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+285.+Kilbeg_geom",
@@ -2862,8 +2861,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 0
@@ -4382,20 +4381,19 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
-            },
-            "http://www.i3mainz.de/ogham#definedInWikidata": {
-              "instancecount": 0,
-              "http://www.wikidata.org/entity/Q67382150": 1
-            },
-            "http://www.i3mainz.de/ogham#nameRelatesTo": {
-              "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#Class": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 0
+            },
+            "http://www.wikidata.org/prop/direct/P22": {
+              "instancecount": 0,
+              "http://xmlns.com/foaf/0.1/Person": 1
             }
           },
           "from": {
@@ -4406,6 +4404,10 @@ var tree={
             "http://www.w3.org/ns/lemon/ontolex#reference": {
               "instancecount": 0,
               "http://www.w3.org/ns/lemon/ontolex#LexicalSense": 1
+            },
+            "http://www.wikidata.org/prop/direct/P6568": {
+              "instancecount": 0,
+              "http://www.i3mainz.de/ogham#OghamObject": 1
             }
           }
         },
@@ -5897,8 +5899,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
@@ -7082,8 +7084,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
@@ -7120,8 +7122,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -7258,8 +7260,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.i3mainz.de/ogham#hasMember": {
               "instancecount": 0,
@@ -7278,7 +7280,6 @@ var tree={
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
               "instancecount": 5,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 6,
               "http://www.wikidata.org/entity/Q41812345": 6
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
@@ -7318,245 +7319,119 @@ var tree={
         "instancecount": 9
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1693_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1693 (\u1693_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u168c_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u168c (\u168c_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1682_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1682 (\u1682_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u168f_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u168f (\u168f_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1688_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1688 (\u1688_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1690_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1690 (\u1690_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1685_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1685 (\u1685_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1684_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1684 (\u1684_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u168a_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u168a (\u168a_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u168b_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u168b (\u168b_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1692_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1692 (\u1692_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1687_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1687 (\u1687_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1681_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1681 (\u1681_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1686_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1686 (\u1686_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1691_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1691 (\u1691_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1689_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1689 (\u1689_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1694_character_suniv0_",
-        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "type": "instance",
-        "text": "Character: \u1694 (\u1694_character)",
-        "data": {}
-      },
-      {
-        "id": "http://www.w3.org/ns/lemon/ontolex#Character",
-        "parent": "#",
-        "type": "class",
-        "text": "Character (ontolex:Character) [17]",
-        "data": {}
-      },
-      {
-        "id": "http://www.i3mainz.de/ogham#\u1693_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1693_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1693 (\u1693_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u168c_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u168c_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u168c (\u168c_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1682_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1682_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1682 (\u1682_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u168f_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u168f_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u168f (\u168f_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1688_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1688_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1688 (\u1688_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1690_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1690_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1690 (\u1690_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1685_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1685_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1685 (\u1685_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1684_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1684_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1684 (\u1684_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u168a_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u168a_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u168a (\u168a_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u168b_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u168b_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u168b (\u168b_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1692_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1692_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1692 (\u1692_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1687_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1687_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1687 (\u1687_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1681_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1681_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1681 (\u1681_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1686_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1686_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1686 (\u1686_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1691_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1691_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1691 (\u1691_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1689_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1689_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1689 (\u1689_character)",
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#\u1694_character_suniv1_",
+        "id": "http://www.i3mainz.de/ogham#\u1694_character",
         "parent": "http://www.wikidata.org/entity/Q41812345",
         "type": "instance",
         "text": "Character: \u1694 (\u1694_character)",
@@ -7564,19 +7439,19 @@ var tree={
       },
       {
         "id": "http://www.wikidata.org/entity/Q41812345",
-        "parent": "#",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "class",
         "text": "Q41812345 (wde:Q41812345) [17]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 2
+              "instancecount": 0,
+              "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 0
@@ -7592,17 +7467,25 @@ var tree={
           "from": {
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 2
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
               "instancecount": 0,
-              "http://www.w3.org/ns/lemon/ontolex#Word": 64,
-              "http://www.wikidata.org/entity/Q3538737": 5,
-              "http://www.wikidata.org/entity/Q67382150": 1
+              "http://www.w3.org/ns/lemon/ontolex#Word": 173,
+              "http://www.wikidata.org/entity/Q3538737": 11,
+              "http://www.wikidata.org/entity/Q67381377": 3,
+              "http://www.wikidata.org/entity/Q67382150": 2
             }
           }
         },
-        "instancecount": 2
+        "instancecount": 1
+      },
+      {
+        "id": "http://www.w3.org/ns/lemon/ontolex#Character",
+        "parent": "#",
+        "type": "class",
+        "text": "Character (ontolex:Character)",
+        "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI_suniv1_",
@@ -7662,8 +7545,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -7678,7 +7561,6 @@ var tree={
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
               "instancecount": 2,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 3,
               "http://www.wikidata.org/entity/Q41812345": 3
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
@@ -7791,8 +7673,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -7807,7 +7689,6 @@ var tree={
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
               "instancecount": 7,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 8,
               "http://www.wikidata.org/entity/Q41812345": 8
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
@@ -7858,8 +7739,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
@@ -7921,13 +7802,6 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.i3mainz.de/ogham#Character_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Character Instances Collection (Character_collection)",
-        "data": {}
-      },
-      {
         "id": "http://www.i3mainz.de/ogham#Q41812345_collection",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "instance",
@@ -7959,13 +7833,13 @@ var tree={
         "id": "http://www.w3.org/2004/02/skos/core#Collection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "Collection (skos:Collection) [10]",
+        "text": "Collection (skos:Collection) [9]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -7974,14 +7848,13 @@ var tree={
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 2,
-              "http://www.wikidata.org/entity/Q67382150": 3,
-              "http://www.w3.org/ns/lemon/ontolex#Word": 3
+              "instancecount": 16,
+              "http://www.wikidata.org/entity/Q41812345": 17
             }
           },
           "from": {}
         },
-        "instancecount": 3
+        "instancecount": 17
       },
       {
         "id": "http://www.i3mainz.de/ogham#Point_collection",
@@ -7999,8 +7872,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -8040,8 +7913,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -8074,8 +7947,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0

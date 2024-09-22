@@ -10,5 +10,5 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.w3.org/ns/lemon/ontolex#> ;
     void:subjectsTarget <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
-    void:triples 457 .
+    void:triples 440 .
 

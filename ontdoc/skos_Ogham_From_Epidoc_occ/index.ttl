@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in Ogham_From_Epidoc" ;
     ns1:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
-    ns1:occurrences 20 .
+    ns1:occurrences 18 .
 
