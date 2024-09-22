@@ -5573,7 +5573,8 @@
 
 <http://www.wikidata.org/entity/Q67384733>
       a       owl:Class ;
-      rdfs:label "Ogham Word"@en .
+      rdfs:label "Ogham Word"@en ;
+      rdfs:subClassOf <http://www.w3.org/ns/lemon/ontolex#Word> .
 
 <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -6152,7 +6153,8 @@
 
 <http://www.wikidata.org/entity/Q67381377>
       a       owl:Class ;
-      rdfs:label "Formular Word"@en .
+      rdfs:label "Formular Word"@en ;
+      rdfs:subClassOf <http://www.wikidata.org/entity/Q67384733> .
 
 <http://www.i3mainz.de/ogham#DOVATUCI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -7180,7 +7182,8 @@
 
 <http://www.wikidata.org/entity/Q67382150>
       a       owl:Class ;
-      rdfs:label "Nomenclature Word"@en .
+      rdfs:label "Nomenclature Word"@en ;
+      rdfs:subClassOf <http://www.wikidata.org/entity/Q67384733> .
 
 <http://www.i3mainz.de/ogham#LOGIDEAS_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;

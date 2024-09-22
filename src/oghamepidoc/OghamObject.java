@@ -101,6 +101,9 @@ public class OghamObject {
 		oghamobj.addSuperClass(feature);
 		geometry.addSuperClass(spatialobject);
 		point.addSuperClass(geometry);
+		nomenclature.addSuperClass(oghamword);
+		formular.addSuperClass(oghamword);
+		oghamword.addSuperClass(word);
 		Individual curind;
 		if(!this.oghamid.isEmpty()) {
 			curind=oghamobj.createIndividual(BASEURI+URLEncoder.encode(oghamid));
