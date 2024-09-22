@@ -1,0 +1,35 @@
+name: Java CI
+
+on: [push]
+
+jobs:
+    
+  ontdocI:
+    uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+    name: Ontdoc I      
+    with: 
+          version: v017
+          rdffilepath: result.ttl
+          docpath: docs/
+          prefixns: http://www.i3mainz.de/ogham#
+          prefixnsshort: ogham
+          indexpages: true
+          metadatatable: false
+          createcollections: true
+          createVOWL: true
+          preferredlang: en
+          ghpages: true
+          datasettitle: Ogham From Epidoc
+          ghpagesfolder: ontdoc/
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+             BRANCH: gh-pages
+             FOLDER: docs/
+             clean: false
