@@ -97,6 +97,15 @@ public class OghamObject {
 		godlugh.addLabel("God Lugh","en");
         OntClass lug=model.createClass("http://www.wikidata.org/entity/Q67383482");
 		lug.addLabel("God Lugh","en");
+		OntClass language=model.createClass("http://www.wikidata.org/entity/Q34770");
+		Individual primitiveirish=language.createIndividual("http://www.wikidata.org/entity/Q3320030");
+		primitiveirish.addLabel("Primitive irish","en");
+		OntClass propernoun=model.createClass("http://www.wikidata.org/entity/Q147276");
+		propernoun.addLabel("Proper Noun","en");
+		OntClass writingSystem=model.createClass("http://www.wikidata.org/entity/Q8192");
+		writingSystem.addLabel("Writing System","en");
+		Individual oghamscript=writingSystem.createIndividual("http://www.wikidata.org/entity/Q184661");
+		oghamscript.addLabel("Ogham Script","en");
 		feature.addSuperClass(spatialobject);
 		oghamobj.addSuperClass(feature);
 		geometry.addSuperClass(spatialobject);
@@ -120,6 +129,10 @@ public class OghamObject {
 		relative.addLabel("relative","en");
 		ObjectProperty entry=model.createObjectProperty("http://www.w3.org/ns/lemon/lime#entry");
 		entry.addLabel("entry","en");
+		ObjectProperty proplanguage=model.createObjectProperty("http://www.w3.org/ns/lemon/lime#language");
+		language.addLabel("language","en");
+		ObjectProperty propscript=model.createObjectProperty(BASEURI+"script");
+		propscript.addLabel("script","en");
 		ObjectProperty sense=model.createObjectProperty("http://www.w3.org/ns/lemon/ontolex#sense");
 		sense.addLabel("sense","en");
 		ObjectProperty contains=model.createObjectProperty("http://www.w3.org/ns/lemon/ontolex#contains");
@@ -130,6 +143,8 @@ public class OghamObject {
 		hasMember.addLabel("has member","en");
 		ObjectProperty follows=model.createObjectProperty(BASEURI+"follows");
 		follows.addLabel("follows","en");
+		ObjectProperty lexicalCategory=model.createObjectProperty("http://www.w3.org/ns/lemon/ontolex#lexicalCategory");
+		lexicalCategory.addLabel("lexical category","en");
 		ObjectProperty descendantOf=model.createObjectProperty(BASEURI+"descendantOf");
 		descendantOf.addLabel("descendant of","en");
 		ObjectProperty nameRelatesTo=model.createObjectProperty(BASEURI+"nameRelatesTo");
@@ -149,6 +164,8 @@ public class OghamObject {
 		for(String woord:words) {
 			Individual wordd=word.createIndividual(BASEURI+URLEncoder.encode(woord));
 			wordd.addLabel("Word: "+woord+" ("+OghamUtils.translitToUnicode(woord)+")","en");
+			wordd.addProperty(proplanguage,primitiveirish);
+			wordd.addProperty(lexicalCategory,propernoun);
 			if(OghamUtils.nomenclature.contains(woord)) {
 				wordd.addRDFType(nomenclature);
 			}
@@ -161,6 +178,7 @@ public class OghamObject {
 					Individual chara=character.createIndividual(BASEURI+OghamUtils.oghammap.get(curstr.toLowerCase())+"_character");
 					chara.addLabel("Character: "+OghamUtils.oghammap.get(curstr.toLowerCase()),"en");
 					chara.addRDFType(oghamletter);
+					chara.addProperty(script,oghamscript);
 					wordd.addProperty(contains, chara);
 					chara.addProperty(transliteration, curstr.toUpperCase());
 					chara.addProperty(script, OghamUtils.oghammap.get(curstr.toLowerCase()));
@@ -192,7 +210,6 @@ public class OghamObject {
 			Individual lexsense=lexicalSense.createIndividual(BASEURI+URLEncoder.encode(perss)+"_sense");
 			lexsense.addLabel(perss+" Sense","en");
 			persson.addProperty(sense, lexsense);
-
 			lexsense.addProperty(reference, personsense);
 			curind.addProperty(inscriptionmentions, persson);
 		}
