@@ -54,41 +54,43 @@ public class OghamObject {
 		OntClass word=model.createClass("http://lemon-model.net/lemon#Word");
 		OntClass person=model.createClass("http://xmlns.com/foaf/0.1/Person");
 		OntClass geometry=model.createClass("http://www.opengis.net/ont/geosparql#Geometry");
+		OntClass point=model.createClass("http://www.opengis.net/ont/sf#Point");
 		OntClass spatialobject=model.createClass("http://www.opengis.net/ont/geosparql#SpatialObject");
 		OntClass feature=model.createClass("http://www.opengis.net/ont/geosparql#Feature");
-		OntClass tribe=model.createClass("https://www.wikidata.org/wiki/Q3538737");
-		OntClass oghamletter=model.createClass("https://www.wikidata.org/wiki/Q41812345");
+		OntClass tribe=model.createClass("http://www.wikidata.org/entity/Q3538737");
+		OntClass oghamletter=model.createClass("http://www.wikidata.org/entity/Q41812345");
 		oghamletter.addLabel("Ogham Letter","en");
-        OntClass oghamword=model.createClass("https://www.wikidata.org/wiki/Q67384733");
+        OntClass oghamword=model.createClass("http://www.wikidata.org/entity/Q67384733");
 		oghamword.addLabel("Ogham Word","en");
-		OntClass nomenclature=model.createClass("https://www.wikidata.org/wiki/Q67382150");
+		OntClass nomenclature=model.createClass("http://www.wikidata.org/entity/Q67382150");
 		nomenclature.addLabel("Nomenclature Word","en");
-		OntClass formular=model.createClass("https://www.wikidata.org/wiki/Q67381377");
+		OntClass formular=model.createClass("http://www.wikidata.org/entity/Q67381377");
 		formular.addLabel("Formular Word","en");
-        Individual maqi=formular.createIndividual("https://www.wikidata.org/wiki/Q67381254");
+        Individual maqi=formular.createIndividual("http://www.wikidata.org/entity/Q67381254");
 		maqi.addLabel("MAQI","en");
-		OntClass wolf=model.createClass("https://www.wikidata.org/wiki/Q18498");
+		OntClass wolf=model.createClass("http://www.wikidata.org/entity/Q18498");
         wolf.addLabel("Wolf","en");
-        Individual cuna=nomenclature.createIndividual("https://www.wikidata.org/wiki/Q67382235");
+        Individual cuna=nomenclature.createIndividual("http://www.wikidata.org/entity/Q67382235");
 		cuna.addLabel("CUNA","en");
-        OntClass cow=model.createClass("https://www.wikidata.org/wiki/Q830");
+        OntClass cow=model.createClass("http://www.wikidata.org/entity/Q830");
 		cow.addLabel("Cow","en");
-        OntClass heaven=model.createClass("https://www.wikidata.org/wiki/Q527");
+        OntClass heaven=model.createClass("http://www.wikidata.org/entity/Q527");
 		heaven.addLabel("Heaven","en");
-        Individual erc=nomenclature.createIndividual("https://www.wikidata.org/wiki/Q67382360");
+        Individual erc=nomenclature.createIndividual("http://www.wikidata.org/entity/Q67382360");
 		erc.addLabel("ERC","en");
-		OntClass battle=model.createClass("https://www.wikidata.org/wiki/Q178561");
+		OntClass battle=model.createClass("http://www.wikidata.org/entity/Q178561");
 		battle.addLabel("Battle","en");
-        Individual cattu=nomenclature.createIndividual("https://www.wikidata.org/wiki/Q67383338");
+        Individual cattu=nomenclature.createIndividual("http://www.wikidata.org/entity/Q67383338");
 		cattu.addLabel("CATTU","en");
-		OntClass godlugh=model.createClass("https://www.wikidata.org/wiki/Q215683");
+		OntClass godlugh=model.createClass("http://www.wikidata.org/entity/Q215683");
 		godlugh.addLabel("God Lugh","en");
-        OntClass lug=model.createClass("https://www.wikidata.org/wiki/Q67383482");
+        OntClass lug=model.createClass("http://www.wikidata.org/entity/Q67383482");
 		lug.addLabel("God Lugh","en");
 		tribe.addLabel("Tribe","en");
 		feature.addSuperClass(spatialobject);
 		oghamobj.addSuperClass(feature);
 		geometry.addSuperClass(spatialobject);
+		point.addSuperClass(geometry);
 		Individual curind;
 		if(!this.oghamid.isEmpty()) {
 			curind=oghamobj.createIndividual(BASEURI+URLEncoder.encode(oghamid));
@@ -96,11 +98,11 @@ public class OghamObject {
 			curind=oghamobj.createIndividual(BASEURI+URLEncoder.encode(title));
 		}
 		ObjectProperty hasgeom=model.createObjectProperty("http://www.opengis.net/ont/geosparql#hasGeometry");
-		ObjectProperty fatherrel=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P22");
+		ObjectProperty fatherrel=model.createObjectProperty("http://www.wikidata.org/prop/direct/P22");
 		fatherrel.setLabel("father", "en");
-		ObjectProperty inscriptionmentions=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P6568");
+		ObjectProperty inscriptionmentions=model.createObjectProperty("http://www.wikidata.org/prop/direct/P6568");
 		inscriptionmentions.addLabel("inscriptionmentions","en");
-		ObjectProperty relative=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P1038");
+		ObjectProperty relative=model.createObjectProperty("http://www.wikidata.org/prop/direct/P1038");
 		inscriptionmentions.addLabel("relative","en");
 		ObjectProperty entry=model.createObjectProperty("http://lemon-model.net/lemon#entry");
 		ObjectProperty sense=model.createObjectProperty("http://lemon-model.net/lemon#sense");
@@ -111,9 +113,9 @@ public class OghamObject {
 		ObjectProperty descendantOf=model.createObjectProperty(BASEURI+"descendantOf");
 		ObjectProperty nameRelatesTo=model.createObjectProperty(BASEURI+"nameRelatesTo");
         ObjectProperty definedInWikidata=model.createObjectProperty(BASEURI+"definedInWikidata");
-		ObjectProperty partofTribe=model.createObjectProperty("https://www.wikidata.org/wiki/Property:P463");
+		ObjectProperty partofTribe=model.createObjectProperty("http://www.wikidata.org/prop/direct/P463");
 		partofTribe.addLabel("member of","en");
-		DatatypeProperty image=model.createDatatypeProperty("https://www.wikidata.org/wiki/Property:P18");
+		DatatypeProperty image=model.createDatatypeProperty("http://www.wikidata.org/prop/direct/P18");
 		image.addLabel("image","en");
 		DatatypeProperty transliteration=model.createDatatypeProperty("http://lemon-model.net/lemon#transliteration");
 		DatatypeProperty script=model.createDatatypeProperty("http://lemon-model.net/lemon#writtenRep");
@@ -201,10 +203,10 @@ public class OghamObject {
 			curind.addProperty(inscriptionmentions, tribee);
 		}
 		DatatypeProperty asWKT=model.createDatatypeProperty("http://www.opengis.net/ont/geosparql#asWKT");
-		Individual geomind=geometry.createIndividual(BASEURI+URLEncoder.encode(title)+"_geom");
+		Individual geomind=point.createIndividual(BASEURI+URLEncoder.encode(title)+"_geom");
 		curind.addProperty(hasgeom, geomind);
 		curind.addProperty(image, imagelink);
-		geomind.addLiteral(asWKT, location.toText());
+		geomind.addLiteral(asWKT, model.createTypedLiteral(location.toText(),"http://www.opengis.net/ont/geosparql#wktLiteral"));
     	return model;
 	}
 	
