@@ -48,16 +48,27 @@ public class OghamObject {
 	public OntModel toRDF(OntModel model) {
 		System.out.println(title);
 		OntClass oghamobj=model.createClass(BASEURI+"OghamObject");
+		oghamobj.addLabel("Ogham Object","en");
 		OntClass dictionary=model.createClass("http://lemon-model.net/lemon#Lexicon");
+		dictionary.addLabel("Lexicon","en");
 		OntClass character=model.createClass("http://lemon-model.net/lemon#Character");
+		character.addLabel("Character","en");
 		OntClass lexicalSense=model.createClass("http://lemon-model.net/lemon#LexicalSense");
+		lexicalSense.addLabel("Lexical Sense","en");
 		OntClass word=model.createClass("http://lemon-model.net/lemon#Word");
+		word.addLabel("Word","en");
 		OntClass person=model.createClass("http://xmlns.com/foaf/0.1/Person");
+		person.addLabel("Person","en");
 		OntClass geometry=model.createClass("http://www.opengis.net/ont/geosparql#Geometry");
+		geometry.addLabel("Geometry","en");
 		OntClass point=model.createClass("http://www.opengis.net/ont/sf#Point");
+		point.addLabel("Point","en");
 		OntClass spatialobject=model.createClass("http://www.opengis.net/ont/geosparql#SpatialObject");
+		spatialobject.addLabel("Spatial Object","en");
 		OntClass feature=model.createClass("http://www.opengis.net/ont/geosparql#Feature");
+		feature.addLabel("Feature","en");
 		OntClass tribe=model.createClass("http://www.wikidata.org/entity/Q3538737");
+		tribe.addLabel("Tribe","en");
 		OntClass oghamletter=model.createClass("http://www.wikidata.org/entity/Q41812345");
 		oghamletter.addLabel("Ogham Letter","en");
         OntClass oghamword=model.createClass("http://www.wikidata.org/entity/Q67384733");
@@ -98,6 +109,7 @@ public class OghamObject {
 			curind=oghamobj.createIndividual(BASEURI+URLEncoder.encode(title));
 		}
 		ObjectProperty hasgeom=model.createObjectProperty("http://www.opengis.net/ont/geosparql#hasGeometry");
+		hasgeom.addLabel("has Geometry","en");
 		ObjectProperty fatherrel=model.createObjectProperty("http://www.wikidata.org/prop/direct/P22");
 		fatherrel.setLabel("father", "en");
 		ObjectProperty inscriptionmentions=model.createObjectProperty("http://www.wikidata.org/prop/direct/P6568");
@@ -109,10 +121,15 @@ public class OghamObject {
 		ObjectProperty contains=model.createObjectProperty("http://lemon-model.net/lemon#contains");
 		ObjectProperty reference=model.createObjectProperty("http://lemon-model.net/lemon#reference");
 		ObjectProperty hasMember=model.createObjectProperty(BASEURI+"hasMember");
+		hasMember.addLabel("has member","en");
 		ObjectProperty follows=model.createObjectProperty(BASEURI+"follows");
+		follows.addLabel("follows","en");
 		ObjectProperty descendantOf=model.createObjectProperty(BASEURI+"descendantOf");
+		descendantOf.addLabel("descendant of","en");
 		ObjectProperty nameRelatesTo=model.createObjectProperty(BASEURI+"nameRelatesTo");
+		nameRelatesTo.addLabel("name relates to","en");
         ObjectProperty definedInWikidata=model.createObjectProperty(BASEURI+"definedInWikidata");
+		definedInWikidata.addLabel("defined in Wikidata","en");
 		ObjectProperty partofTribe=model.createObjectProperty("http://www.wikidata.org/prop/direct/P463");
 		partofTribe.addLabel("member of","en");
 		DatatypeProperty image=model.createDatatypeProperty("http://www.wikidata.org/prop/direct/P18");
@@ -120,8 +137,10 @@ public class OghamObject {
 		DatatypeProperty transliteration=model.createDatatypeProperty("http://lemon-model.net/lemon#transliteration");
 		DatatypeProperty script=model.createDatatypeProperty("http://lemon-model.net/lemon#writtenRep");
 		Individual oghamdict=dictionary.createIndividual(BASEURI+"OghamDictionary");
+		oghamdict.addLabel("Ogham Dictionary","en");
 		for(String woord:words) {
 			Individual wordd=word.createIndividual(BASEURI+URLEncoder.encode(woord));
+			wordd.addLabel("Word: "+woord,"en");
 			if(OghamUtils.nomenclature.contains(woord)) {
 				wordd.addRDFType(nomenclature);
 			}
@@ -144,6 +163,7 @@ public class OghamObject {
 		}
 		for(String perss:persons) {
 			Individual persson=word.createIndividual(BASEURI+URLEncoder.encode(perss));
+			persson.addLabel("Person: "+perss,"en");
 			Individual personsense=person.createIndividual(BASEURI+URLEncoder.encode(perss)+"_person");
 			if(perss.contains("CUNA")) {
 				personsense.addProperty(nameRelatesTo, wolf);
@@ -160,6 +180,7 @@ public class OghamObject {
                 personsense.addProperty(definedInWikidata, erc);
 			}
 			Individual lexsense=lexicalSense.createIndividual(BASEURI+URLEncoder.encode(perss)+"_sense");
+			lexsense.addLabel(perss+" Sense","en");
 			persson.addProperty(sense, lexsense);
 
 			lexsense.addProperty(reference, personsense);
@@ -206,6 +227,7 @@ public class OghamObject {
 		Individual geomind=point.createIndividual(BASEURI+URLEncoder.encode(title)+"_geom");
 		curind.addProperty(hasgeom, geomind);
 		curind.addProperty(image, imagelink);
+		geomind.addLabel(title+" Geometry","en");
 		geomind.addLiteral(asWKT, model.createTypedLiteral(location.toText(),"http://www.opengis.net/ont/geosparql#wktLiteral"));
     	return model;
 	}
