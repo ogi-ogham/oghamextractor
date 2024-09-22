@@ -169,8 +169,9 @@ public class OghamObject {
 		}
 		for(String perss:persons) {
 			Individual persson=word.createIndividual(BASEURI+URLEncoder.encode(perss));
-			persson.addLabel("Person: "+perss,"en");
+			persson.addLabel("Person Word: "+perss,"en");
 			Individual personsense=person.createIndividual(BASEURI+URLEncoder.encode(perss)+"_person");
+			persson.addLabel("Person: "+perss,"en");
 			if(perss.contains("CUNA")) {
 				personsense.addProperty(nameRelatesTo, wolf);
                 personsense.addProperty(definedInWikidata, cuna);
