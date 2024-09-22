@@ -1,0 +1,365 @@
+<html>
+<head><title>Ogham Mapview</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+<script src="https://unpkg.com/osmtogeojson@2.2.12/osmtogeojson.js"></script>
+  <script src="js/leaflet.polylinedecorator.js"></script>
+  <script src="js/wicket.js" type="text/javascript"></script>
+  <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+     <script src="js/leaflet.fullscreen.js"></script>
+	 <script src="js/leaflet-search.js"></script>
+	 <script src="data/oghamireland.js"></script>
+   <script src="js/leaflet_legend.js"></script>
+      <script src="js/leaflet_easyprint.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  
+<meta charset="UTF-8">
+<script>
+var prefixlist="@prefix owl: <http://www.w3.org/2002/07/owl#> .\n @prefix foaf: <http://xmlns.com/foaf/0.1/> .\n @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . @prefix xml: <http://www.w3.org/XML/1998/namespace> . \n @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . \n @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . \n"
+var overlayMaps=[]
+var ttlExport="";
+var minMapZoom=2;
+var first=true;
+var resultLayerCollection=[]
+var loaded=false;
+
+</script>
+
+</head>
+<body>
+<h2 align="center">OGI Ogham Analyses</h2>
+<p><i><center>CC BY 4.0 Timo Homburg, Florian Thiery, data based on http://ogham.celt.dias.ie CC BY-NC-SA 3.0 Ireland, &copy;2013 by the School of Celtic Studies http://www.celt.dias.ie</center></i></p>
+
+<div id="mapid" style="height:75%;border:5px solid black;">
+
+<script>
+var wikidataToOSMMap={}
+var osmToWikidataMap={}
+	var map = L.map('mapid',{fullscreenControl: true,fullscreenControlOptions: {position: 'topleft'}}).setView([53.3425,-6.265833], 6);
+	map.addControl( new L.Control.Search({
+		url: 'https://nominatim.openstreetmap.org/search?format=json&q={s}',
+		jsonpParam: 'json_callback',
+		propertyName: 'display_name',
+		propertyLoc: ['lat','lon'],
+		marker: L.circleMarker([0,0],{radius:30}),
+		autoCollapse: true,
+		autoType: false,
+		minLength: 2
+	}));
+       
+		
+	let layer=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+	//var layer=L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.png', {
+    //attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a //href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	//var layer=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    //attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});
+
+function reloadLayer(){
+	console.log("reloadLayer");
+	clearMap();
+	addOfficialLayer();
+}
+
+function addOfficialLayer(){
+
+	var officiallayer=L.geoJSON(oghamireland,{
+	filter: function(feature,layer){
+			 //console.log($("input:radio[name='mode']:checked").val())
+	 if(feature.properties["containsWolfName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="wolf" || first)){
+			return true;
+	 }else if(feature.properties["containsBattleName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Battle" || first)){
+			return true;
+	 }else if(feature.properties["containsGodLughName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="godlugh" || first)){
+			return true;
+	 }else if(feature.properties["containsCowName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Cow" || first)){
+			return true;
+	 }else if(feature.properties["persons"].length==0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="NoPerson" || first)){
+			return true;
+	 }else if(feature.properties["fatherson"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="FatherSon" || first)){
+			return true;
+	 }else if(feature.properties["tribes"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Tribe" || first)){
+			return true;
+	 }else if(feature.properties["followers"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="follower" || first)){
+			return true;
+	 }else if(feature.properties["descendants"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="descendant" || first)){
+			return true;
+	 }else if(feature.properties["containsBlind"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="DALAGNI" || first)){
+			return true;
+	 }else if(feature.properties["containsEye"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="DERCMASOC" || first)){
+			return true;
+	 }else if(feature.properties["containsName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="ANM" || first)){
+			return true;
+	 }else if(feature.properties["containsHereIs"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="KOI" || first)){
+			return true;
+	 }
+	 if($("input:radio[name='mode']:checked").val()=="all" || first)
+		return true;
+	return false;
+	},
+onEachFeature: function (feature, layer) {
+	 var popup="Ogham Data "
+	 if(typeof feature.properties["id"] !== 'undefined'){
+        popup+="("+feature.properties["id"]+")"
+	 }
+	 popup+="<br/><ul>"
+	 for(prop in feature.properties){
+		if(!prop.startsWith("contains") && feature.properties[prop]!=""){
+				if(prop=="image"){
+					if(feature.properties[prop].includes("titus")){
+						var link=feature.properties[prop].replace(".html",".jpg").replace(".htm",".jpg").replace("html","l")
+						var substr=link.substring(link.lastIndexOf('/')+1,link.indexOf('x'))
+						link=link.substring(0,link.lastIndexOf('/')+1)+substr+"/"+link.substring(link.lastIndexOf('/')+1)
+										popup+="<li>"+prop+" - <a href=\""+link+"\" target=\"_blank\"><img src=\""+link+"\" width=\"30\" height=\"30\" /></a></li>"
+					}else{
+										popup+="<li>"+prop+" - <a href=\""+feature.properties[prop]+"\" target=\"_blank\">"+feature.properties[prop]+"</a></li>"
+					}
+	
+				}else if(prop=="persons"){
+						popup+="<li><b>Persons</b><ul>"
+						for(obj in feature.properties[prop]){
+							popup+="<li>"+feature.properties[prop][obj]["person"]+"("+feature.properties[prop][obj]["personogham"]+")</li>"
+						}
+						popup+="</ul></li>"
+				}else if(prop=="fatherson"){
+						popup+="<li><b>Father - Son</b><ul>"
+						for(obj in feature.properties[prop]){
+							popup+="<li>"+feature.properties[prop][obj]["son"]+"("+feature.properties[prop][obj]["sonogham"]+") is son of <br/>"+feature.properties[prop][obj]["father"]+"("+feature.properties[prop][obj]["fatherogham"]+")</li>"
+						}
+						popup+="</ul></li>"
+					}else if(prop=="tribes"){
+						popup+="<li><b>Tribes</b><ul>"
+						for(obj in feature.properties[prop]){
+							popup+="<li>"+feature.properties[prop][obj]["person"]+"("+feature.properties[prop][obj]["personogham"]+") is member of tribe <br/>"+feature.properties[prop][obj]["tribe"]+"("+feature.properties[prop][obj]["tribeogham"]+")</li>"
+						}
+						popup+="</li></ul>"
+					}else if(prop=="followers"){
+						popup+="<li><b>Followers</b><ul>"
+						for(obj in feature.properties[prop]){
+							popup+="<li>"+feature.properties[prop][obj]["person"]+"("+feature.properties[prop][obj]["personogham"]+") follows <br/>"+feature.properties[prop][obj]["follower"]+"("+feature.properties[prop][obj]["followerogham"]+")</li>"
+						}
+						popup+="</li></ul>"
+					}else if(prop=="descendants"){
+						popup+="<li><b>Descendants</b><ul>"
+						for(obj in feature.properties[prop]){
+							popup+="<li>"+feature.properties[prop][obj]["person"]+"("+feature.properties[prop][obj]["personogham"]+") hasDescendant <br/>"+feature.properties[prop][obj]["descendant"]+"("+feature.properties[prop][obj]["descendantogham"]+")</li>"
+						}
+						popup+="</li></ul>"
+					}else{
+								 	popup+="<li>"+prop+" - "+feature.properties[prop]+"</li>"
+				}
+
+		}
+	 }
+	 popup+="</ul>"
+	 //console.log($("input:radio[name='mode']:checked").val())
+	 if(feature.properties["containsWolfName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="wolf" || first)){
+			 var cunaIcon = new L.Icon({
+				iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CUNA-2x.png',
+				iconSize: [41, 41],
+				iconAnchor: [20, 41],
+				popupAnchor: [0, -41]
+			});
+			layer.setIcon(cunaIcon);
+	 }else if(feature.properties["containsBattleName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Battle" || first)){
+					 var cattuIcon = new L.Icon({
+						iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CATTU-2x.png',
+						iconSize: [41, 41],
+						iconAnchor: [20, 41],
+						popupAnchor: [0, -41]
+					});
+			layer.setIcon(cattuIcon);
+	 }else if(feature.properties["containsCowName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Cow" || first)){
+					 var ercIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/ERC-2x.png',
+	iconSize: [41, 41],
+	iconAnchor: [20, 41],
+	popupAnchor: [0, -41]
+});
+			layer.setIcon(ercIcon);
+	 }else if(feature.properties["containsGodLughName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="godlugh" || first)){
+							var lugIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/LUG-2x.png',
+	iconSize: [41, 41],
+	iconAnchor: [20, 41],
+	popupAnchor: [0, -41]
+});
+			layer.setIcon(lugIcon);
+	 }else if(feature.properties["persons"].length==0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="NoPerson" || first)){
+							 var greyIcon = new L.Icon({
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                        iconSize: [25, 41],
+                                        iconAnchor: [12, 41],
+                                        popupAnchor: [1, -34],
+                                        shadowSize: [41, 41]
+                                    });
+			layer.setIcon(greyIcon);
+	 }else if(feature.properties["fatherson"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="FatherSon" || first)){
+							 var greyIcon = new L.Icon({
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
+                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                        iconSize: [25, 41],
+                                        iconAnchor: [12, 41],
+                                        popupAnchor: [1, -34],
+                                        shadowSize: [41, 41]
+                                    });
+			layer.setIcon(greyIcon);
+	 }else if(feature.properties["tribes"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="Tribe" || first)){
+							 var mucoiIcon = new L.Icon({
+								iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/MUCOI-2x.png',
+								iconSize: [41, 41],
+								iconAnchor: [20, 41],
+								popupAnchor: [0, -41]
+							});
+			layer.setIcon(mucoiIcon);
+	 }else if(feature.properties["descendants"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="descendant" || first)){
+							 var greenIcon = new L.Icon({
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                        iconSize: [25, 41],
+                                        iconAnchor: [12, 41],
+                                        popupAnchor: [1, -34],
+                                        shadowSize: [41, 41]
+                                    });
+			layer.setIcon(greenIcon);
+	 }else if(feature.properties["followers"].length>0 && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="follower" || first)){
+							 var greyIcon = new L.Icon({
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                        iconSize: [25, 41],
+                                        iconAnchor: [12, 41],
+                                        popupAnchor: [1, -34],
+                                        shadowSize: [41, 41]
+                                    });
+			layer.setIcon(greyIcon);
+	 }else if(feature.properties["containsBlind"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="DALAGNI" || first)){
+							 var delagniIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/DALAGNI-2x.png',
+	iconSize: [41, 41],
+	iconAnchor: [20, 41],
+	popupAnchor: [0, -41]
+});
+			layer.setIcon(delagniIcon);
+	 }else if(feature.properties["containsEye"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="DERCMASOC" || first)){
+							 var dercmasocIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/DERCMASOC-2x.png',
+	iconSize: [41, 41],
+	iconAnchor: [20, 41],
+	popupAnchor: [0, -41]
+});
+			layer.setIcon(dercmasocIcon);
+	 }else if(feature.properties["containsName"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="ANM" || first)){
+							 var greyIcon = new L.Icon({
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-black.png',
+                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                        iconSize: [25, 41],
+                                        iconAnchor: [12, 41],
+                                        popupAnchor: [1, -34],
+                                        shadowSize: [41, 41]
+                                    });
+			layer.setIcon(greyIcon);
+	 }else if(feature.properties["containsHereIs"] && ($("input:radio[name='mode']:checked").val()=="all" || $("input:radio[name='mode']:checked").val()=="KOI" || first)){
+							 var greyIcon = new L.Icon({
+                                        iconUrl: 'https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
+                                        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                        iconSize: [25, 41],
+                                        iconAnchor: [12, 41],
+                                        popupAnchor: [1, -34],
+                                        shadowSize: [41, 41]
+                                    });
+			layer.setIcon(greyIcon);
+	 }
+
+         layer.bindPopup(popup,{maxWidth : 500});
+     }}).addTo(map);
+	 		first=false;
+	overlayMaps.push(officiallayer);
+	resultLayerCollection.push(officiallayer);
+}
+
+function clearMap() {
+	for(i in resultLayerCollection){
+		//if(resultLayerCollection[i]._path != undefined) {
+            try {
+                map.removeLayer(resultLayerCollection[i]);
+            }
+            catch(e) {
+                console.log("problem with " + e + map._layers[i]);
+            }
+        //}
+	}
+    for(i in map._layers) {
+        if(map._layers[i]._path != undefined) {
+            try {
+                map.removeLayer(map._layers[i]);
+            }
+            catch(e) {
+                console.log("problem with " + e + map._layers[i]);
+            }
+        }
+    }
+	/*for(marker in markercollection){
+		map.removeLayer(markercollection[marker])
+	}
+	markercollection=[]
+        for(decorator in decorators){
+		map.removeLayer(decorators[decorator])
+	}
+	decorators=[]*/
+}
+
+addOfficialLayer();
+		var wmsLayer = L.tileLayer.wms('https://sgx.geodatenzentrum.de/wms_topplus_web_open', {
+layers: 'web',
+format: 'image/png',
+ transparent: true,
+attribution: '&copy; Bundesamt f&uuml;r Kartographie und Geod&auml;sie 2017, <a href="http://sg.geodatenzentrum.de/web_public/Datenquellen_TopPlus_Open.pdf">Datenquellen</a>'
+});
+	var baseMaps = {
+		"BKG": wmsLayer,
+        "OSM": layer
+	};
+	baseMaps["OSM"].addTo(map);
+	L.control.scale({
+	position: 'bottomright',
+	imperial: false
+}).addTo(map);
+var layercontrol=L.control.layers(baseMaps,overlayMaps).addTo(map);
+loaded=true;
+</script>
+</div>
+<fieldset>
+    <input type="radio" id="all" name="mode" value="all" onclick="reloadLayer()">
+    <label for="all">All</label> 
+    <input type="radio" id="wolf" name="mode" value="wolf" onclick="reloadLayer()">
+    <label for="wolf" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CUNA.png" height="30">Wolf/Hound (CUNA, ᚉᚒᚅᚐ)</label> 
+    <input type="radio" id="godlugh" name="mode" value="godlugh" onclick="reloadLayer()">
+    <label for="godlugh" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/LUG.png" height="30">God Lugh (LUG, ᚂᚒᚌ)</label>
+    <input type="radio" id="battle" name="mode" value="Battle" onclick="reloadLayer()">
+    <label for="battle" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/CATTU.png" height="30">Battle (CATTU, ᚉᚐᚈᚈᚒ)</label> 
+	<input type="radio" id="cow" name="mode" value="Cow" onclick="reloadLayer()">
+    <label for="cow" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/ERC.png" height="30">&nbsp;Heaven/Cow (ERC, ᚓᚏᚉ)</label> 
+	<input type="radio" id="DALAGNI" name="mode" value="DALAGNI" onclick="reloadLayer()">
+    <label for="DALAGNI" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/DALAGNI.png" height="30">one who is blind (DALAGNI, ᚇᚐᚂᚐᚌᚅᚔ)</label> 
+	<input type="radio" id="DERCMASOC" name="mode" value="DERCMASOC" onclick="reloadLayer()">
+    <label for="DERCMASOC" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/DERCMASOC.png" height="30">one with an elegant eye (DERCMASOC, ᚇᚓᚏᚉᚋᚐᚄᚑᚉ)</label> 
+	<input type="radio" id="noperson" name="mode" value="NoPerson" onclick="reloadLayer()">
+    <label for="noperson" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-red.png" height="30">&nbsp;No persons described</label> 
+	<input type="radio" id="fahterson" name="mode" value="FatherSon" onclick="reloadLayer()">
+    <label for="fatherson" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-orange.png" height="30">&nbsp;Father/Son (MAQI, ᚋᚐᚊᚔ)</label> 
+	<input type="radio" id="tribe" name="mode" value="Tribe" onclick="reloadLayer()">
+    <label for="tribe" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/MUCOI.png" height="30">&nbsp;Tribe (MUCOI, ᚋᚒᚉᚑᚔ)</label> 
+	<input type="radio" id="descendant" name="mode" value="descendant" onclick="reloadLayer()">
+    <label for="descendant" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-green.png" height="30">&nbsp;Descendant (AVI, ᚐᚃᚔ)</label> 
+	<input type="radio" id="follower" name="mode" value="follower" onclick="reloadLayer()">
+    <label for="follower" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-violet.png" height="30">&nbsp;Follower (CELI, ᚉᚓᚂᚔ)</label> 
+	<input type="radio" id="ANM" name="mode" value="ANM" onclick="reloadLayer()">
+    <label for="ANM" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-black.png" height="30">&nbsp;name (ANM, ᚐᚅᚋ)</label> 
+	<input type="radio" id="KOI" name="mode" value="KOI" onclick="reloadLayer()">
+    <label for="KOI" style=""><img src="https://raw.githubusercontent.com/ogi-ogham/leaflet-color-markers/master/img/marker-icon-grey.png" height="30">&nbsp;here is (KOI, ᚕᚑᚔ)</label> 
+    </fieldset>
+<p><a href="ontdoc/" target="_blank">Ontology Documentation</a></p>
+</body>
+</html>
