@@ -4682,7 +4682,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LITENI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: VLATIAMI",
+   "label": "Person Word: VLATIAMI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -4817,7 +4817,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QECCIAS%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: LABRID (\u1682\u1690\u1681\u168f\u1694\u1688)",
+   "label": "Person Word: LABRID",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -4862,7 +4862,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LABRID",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: VITALIN",
+   "label": "Person Word: VITALIN",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -5107,7 +5107,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#KOI%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: INISSIONAS (\u1694\u1686\u1694\u1685\u1685\u1694\u1691\u1686\u1690\u1685)",
+   "label": "Person Word: INISSIONAS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -5279,7 +5279,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MARIANI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: VEDDONOS (\u1684\u1693\u1688\u1688\u1691\u1686\u1691\u1685)",
+   "label": "Person Word: VEDDONOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -5653,7 +5653,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBBI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: CUNACENA (\u168a\u1692\u1686\u1690\u168a\u1693\u1686\u1690)",
+   "label": "Person Word: CUNACENA",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -5878,7 +5878,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MOINENA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: NETTA-LAMINACCA (\u1686\u1693\u1689\u1689\u1690\u1682\u1690\u168b\u1694\u1686\u1690\u168a\u168a\u1690)",
+   "label": "Person Word: NETTA-LAMINACCA",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -5923,7 +5923,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MAQI-TTAL (\u168b\u1690\u1694\u1689\u1689\u1690\u1682)",
+   "label": "Person Word: MAQI-TTAL",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -6027,7 +6027,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAILE-INBIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: EQQEGGNI",
+   "label": "Person Word: EQQEGGNI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -6252,7 +6252,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: VINNAGITLET? (\u1684\u1694\u1686\u1686\u1690\u168c\u1694\u1689\u1682\u1693\u1689)",
+   "label": "Person Word: VINNAGITLET?",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -6297,7 +6297,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VINNAGITLET%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: IAQINI",
+   "label": "Person Word: IAQINI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -6387,7 +6387,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: B[AI]D[A]N[I] (\u1681\u1690\u1694\u1688\u1690\u1686\u1694)",
+   "label": "Person Word: B[AI]D[A]N[I]",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -6567,7 +6567,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COIMAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: LUGUQRIT",
+   "label": "Person Word: LUGUQRIT",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -6612,7 +6612,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGUQRIT",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: DUGENNGI (\u1688\u1692\u168c\u1693\u1686\u1686\u168c\u1694)",
+   "label": "Person Word: DUGENNGI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -7037,7 +7037,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ATAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: BROINIENAS (\u1681\u168f\u1691\u1694\u1686\u1694\u1693\u1686\u1690\u1685)",
+   "label": "Person Word: BROINIENAS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -7127,7 +7127,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ALATTO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: SEVERRIT",
+   "label": "Person Word: SEVERRIT",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -7507,7 +7507,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMADU",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: GATI (\u168c\u1690\u1689\u1694)",
+   "label": "Person Word: GATI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -7552,7 +7552,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GATI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: DUNAIDONAS (\u1688\u1692\u1686\u1690\u1694\u1688\u1691\u1686\u1690\u1685)",
+   "label": "Person Word: DUNAIDONAS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -7732,7 +7732,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TUCACAC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: RAVASA",
+   "label": "Person Word: RAVASA",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -7940,7 +7940,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: CIR",
+   "label": "Person Word: CIR",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8075,7 +8075,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTUBUTTAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: DOVINIA",
+   "label": "Person Word: DOVINIA",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8120,7 +8120,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVINIA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: NE?TTVRECC",
+   "label": "Person Word: NE?TTVRECC",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8165,7 +8165,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NE%3FTTVRECC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: LLATIGNI (\u1682\u1682\u1690\u1689\u1694\u168c\u1686\u1694)",
+   "label": "Person Word: LLATIGNI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8255,7 +8255,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MAQI-CAIRATINI (\u168b\u1690\u1694\u168a\u1690\u1694\u168f\u1690\u1689\u1694\u1686\u1694)",
+   "label": "Person Word: MAQI-CAIRATINI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8396,7 +8396,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDALO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: RODDOS",
+   "label": "Person Word: RODDOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8486,7 +8486,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ERCIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: IVACATTOS",
+   "label": "Person Word: IVACATTOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8649,7 +8649,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GELAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: BIRRAC (\u1681\u1694\u168f\u168f\u1690\u168a)",
+   "label": "Person Word: BIRRAC",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8694,7 +8694,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIRRAC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: ALATTOS (\u1690\u1682\u1690\u1689\u1689\u1691\u1685)",
+   "label": "Person Word: ALATTOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8784,7 +8784,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NILI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: VRAICCI (\u1684\u168f\u1690\u1694\u168a\u168a\u1694)",
+   "label": "Person Word: VRAICCI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8925,7 +8925,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEGOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: [B]RRUA/ENANN (\u1681\u168f\u168f\u1692\u1690\u1693\u1686\u1690\u1686\u1686)",
+   "label": "Person Word: [B]RRUA/ENANN",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -8970,7 +8970,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: VORGOS (\u1684\u1691\u168f\u168c\u1691\u1685)",
+   "label": "Person Word: VORGOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -9150,7 +9150,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUMELI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MEDVVI (\u168b\u1693\u1688\u1684\u1684\u1694)",
+   "label": "Person Word: MEDVVI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -9929,7 +9929,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CALIACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: SAG(A)RETTOS",
+   "label": "Person Word: SAG(A)RETTOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -9974,7 +9974,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: TURANIAS (\u1689\u1692\u168f\u1690\u1686\u1694\u1690\u1685)",
+   "label": "Person Word: TURANIAS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -10109,7 +10109,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: VURUDDRANN (\u1684\u1692\u168f\u1692\u1688\u1688\u168f\u1690\u1686\u1686)",
+   "label": "Person Word: VURUDDRANN",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -10191,7 +10191,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUCO%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: OVANOS (\u1691\u1684\u1690\u1686\u1691\u1685)",
+   "label": "Person Word: OVANOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -10236,7 +10236,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OVANOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: DOVATUCI (\u1688\u1691\u1684\u1690\u1689\u1692\u168a\u1694)",
+   "label": "Person Word: DOVATUCI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -10281,7 +10281,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVATUCI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: CURCITTI",
+   "label": "Person Word: CURCITTI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -10461,7 +10461,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-INI...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: CORBI (\u168a\u1691\u168f\u1681\u1694)",
+   "label": "Person Word: CORBI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -10776,7 +10776,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORTIGURN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MAQI-?OGGODIKA",
+   "label": "Person Word: MAQI-?OGGODIKA",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -10821,7 +10821,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: SRUSA (\u1685\u168f\u1692\u1685\u1690)",
+   "label": "Person Word: SRUSA",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -11001,7 +11001,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MONGEDIAS (\u168b\u1691\u1686\u168c\u1693\u1688\u1694\u1690\u1685)",
+   "label": "Person Word: MONGEDIAS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -11046,7 +11046,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MONGEDIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MAQI-CUNALIG... (\u168b\u1690\u1694\u168a\u1692\u1686\u1690\u1682\u1694\u168c)",
+   "label": "Person Word: MAQI-CUNALIG...",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -11322,7 +11322,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LOBBI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: CEDATTOQA (\u168a\u1693\u1688\u1690\u1689\u1689\u1691\u1690)",
+   "label": "Person Word: CEDATTOQA",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -11412,7 +11412,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-AINIA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: DOVINIAS",
+   "label": "Person Word: DOVINIAS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -11547,7 +11547,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROCANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: COILLI (\u168a\u1691\u1694\u1682\u1682\u1694)",
+   "label": "Person Word: COILLI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -11727,7 +11727,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AGILL...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: LUGADDON",
+   "label": "Person Word: LUGADDON",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -11921,7 +11921,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNOVATOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: CUNAGUSOS",
+   "label": "Person Word: CUNAGUSOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -11966,7 +11966,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNAGUSOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: CORRBRI (\u168a\u1691\u168f\u168f\u1681\u168f\u1694)",
+   "label": "Person Word: CORRBRI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -12101,7 +12101,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RONANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: DIMAQA (\u1688\u1694\u168b\u1690\u1690)",
+   "label": "Person Word: DIMAQA",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -12236,7 +12236,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDELMETO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: ...ERATI",
+   "label": "Person Word: ...ERATI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -12281,7 +12281,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#...ERATI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: NETA-CAGI",
+   "label": "Person Word: NETA-CAGI",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -12363,7 +12363,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DILOGONN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MAQI-CORABIR (\u168b\u1690\u1694\u168a\u1691\u168f\u1690\u1681\u1694\u168f)",
+   "label": "Person Word: MAQI-CORABIR",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -12617,7 +12617,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEAGOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: ERCAVICCAS",
+   "label": "Person Word: ERCAVICCAS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -12721,7 +12721,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUCOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: SUVALLOS (\u1685\u1692\u1684\u1690\u1682\u1682\u1691\u1685)",
+   "label": "Person Word: SUVALLOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -12780,7 +12780,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DERCMASOC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: CORB",
+   "label": "Person Word: CORB",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -12870,7 +12870,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OLACON",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: TAN...",
+   "label": "Person Word: TAN...",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -13303,7 +13303,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAKINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: COLMAN (\u168a\u1691\u1682\u168b\u1690\u1686)",
+   "label": "Person Word: COLMAN",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -13677,7 +13677,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACORBO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: BIGU",
+   "label": "Person Word: BIGU",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -13984,7 +13984,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RETAGIN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MAQI-RET/C...",
+   "label": "Person Word: MAQI-RET/C...",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -32390,7 +32390,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+157",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: TOICACI",
+   "label": "Person Word: TOICACI",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -32443,7 +32443,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOICACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: ISAMMNN? (\u1694\u1685\u1690\u168b\u168b\u1686\u1686)",
+   "label": "Person Word: ISAMMNN?",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -32602,7 +32602,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COSCIS%2FN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: LUGA",
+   "label": "Person Word: LUGA",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -32655,7 +32655,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: ATAR",
+   "label": "Person Word: ATAR",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -32708,7 +32708,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ATAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: UDDAMI",
+   "label": "Person Word: UDDAMI",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -32867,7 +32867,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDALO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: GLUNLEGGET",
+   "label": "Person Word: GLUNLEGGET",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -32973,7 +32973,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: BROENIONAS? (\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685)",
+   "label": "Person Word: BROENIONAS?",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -33026,7 +33026,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROENIONAS%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: NETA-SEGAMONAS",
+   "label": "Person Word: NETA-SEGAMONAS",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -33079,7 +33079,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MACORBO",
+   "label": "Person Word: MACORBO",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -34223,7 +34223,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q67383338",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": "Person: DERCMASOC",
+   "label": "Person Word: DERCMASOC",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
@@ -34289,7 +34289,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OghamDictionary",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: LOBACCONA",
+   "label": "Person Word: LOBACCONA",
    "annotations": {
     "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
