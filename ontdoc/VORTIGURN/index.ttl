@@ -1,17 +1,17 @@
-@prefix ns1: <http://www.w3.org/ns/lemon/lime#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#VORTIGURN> a <http://www.w3.org/ns/ldp#Resource>,
-        ns2:Word,
+        ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Word: VORTIGURN (ᚄᚑᚏᚉᚔᚌᚒᚏᚆ)"@en,
         "Person: VORTIGURN"@en,
         "Word: VORTIGURN (ᚄᚑᚏᚉᚔᚌᚒᚏᚆ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
-    ns1:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns2:contains <http://www.i3mainz.de/ogham#ᚄ_character>,
+    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns1:contains <http://www.i3mainz.de/ogham#ᚄ_character>,
         <http://www.i3mainz.de/ogham#ᚆ_character>,
         <http://www.i3mainz.de/ogham#ᚉ_character>,
         <http://www.i3mainz.de/ogham#ᚌ_character>,
@@ -19,8 +19,8 @@
         <http://www.i3mainz.de/ogham#ᚑ_character>,
         <http://www.i3mainz.de/ogham#ᚒ_character>,
         <http://www.i3mainz.de/ogham#ᚔ_character> ;
-    ns2:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns2:sense <http://www.i3mainz.de/ogham#VORTIGURN_sense> ;
-    ns2:transliteration "VORTIGURN" ;
-    ns2:writtenRep "ᚄᚑᚏᚉᚔᚌᚒᚏᚆ" .
+    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns1:sense <http://www.i3mainz.de/ogham#VORTIGURN_sense> ;
+    ns1:transliteration "VORTIGURN" ;
+    ns1:writtenRep "ᚄᚑᚏᚉᚔᚌᚒᚏᚆ" .
 

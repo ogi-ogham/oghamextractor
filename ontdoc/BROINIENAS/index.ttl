@@ -1,17 +1,17 @@
-@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#BROINIENAS> a <http://www.w3.org/ns/ldp#Resource>,
-        ns1:Word,
+        ns2:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Word: BROINIENAS (ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ)"@en,
         "Person: BROINIENAS"@en,
         "Word: BROINIENAS (ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
-    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns1:contains <http://www.i3mainz.de/ogham#ᚁ_character>,
+    ns1:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns2:contains <http://www.i3mainz.de/ogham#ᚁ_character>,
         <http://www.i3mainz.de/ogham#ᚅ_character>,
         <http://www.i3mainz.de/ogham#ᚆ_character>,
         <http://www.i3mainz.de/ogham#ᚏ_character>,
@@ -19,8 +19,8 @@
         <http://www.i3mainz.de/ogham#ᚑ_character>,
         <http://www.i3mainz.de/ogham#ᚓ_character>,
         <http://www.i3mainz.de/ogham#ᚔ_character> ;
-    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns1:sense <http://www.i3mainz.de/ogham#BROINIENAS_sense> ;
-    ns1:transliteration "BROINIENAS" ;
-    ns1:writtenRep "ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ" .
+    ns2:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns2:sense <http://www.i3mainz.de/ogham#BROINIENAS_sense> ;
+    ns2:transliteration "BROINIENAS" ;
+    ns2:writtenRep "ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ" .
 

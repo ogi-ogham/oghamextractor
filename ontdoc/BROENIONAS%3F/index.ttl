@@ -1,11 +1,11 @@
-@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix ns3: <http://www.i3mainz.de/ogham#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 ns3:BROENIONAS%3F a <http://www.w3.org/ns/ldp#Resource>,
-        ns1:Word,
+        ns2:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Word: BROENIONAS? (ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ)"@en,
@@ -14,8 +14,8 @@ ns3:BROENIONAS%3F a <http://www.w3.org/ns/ldp#Resource>,
         "Word: BROENIONAS? (ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ)"@en ;
     void:inDataset ns3:Ogham_From_Epidoc ;
     ns3:hasMember ns3:QECCIAS%3F_person ;
-    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns1:contains ns3:ᚁ_character,
+    ns1:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns2:contains ns3:ᚁ_character,
         ns3:ᚅ_character,
         ns3:ᚆ_character,
         ns3:ᚏ_character,
@@ -23,8 +23,8 @@ ns3:BROENIONAS%3F a <http://www.w3.org/ns/ldp#Resource>,
         ns3:ᚑ_character,
         ns3:ᚓ_character,
         ns3:ᚔ_character ;
-    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns1:sense ns3:BROENIONAS%3F_sense ;
-    ns1:transliteration "BROENIONAS?" ;
-    ns1:writtenRep "ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ" .
+    ns2:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns2:sense ns3:BROENIONAS%3F_sense ;
+    ns2:transliteration "BROENIONAS?" ;
+    ns2:writtenRep "ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ" .
 

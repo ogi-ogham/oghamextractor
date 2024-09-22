@@ -1,18 +1,18 @@
-@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#MAC> a <http://www.w3.org/ns/ldp#Resource>,
-        ns1:Word,
+        ns2:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Word: MAC (ᚋᚐᚊ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
-    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns1:contains <http://www.i3mainz.de/ogham#ᚊ_character>,
+    ns1:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns2:contains <http://www.i3mainz.de/ogham#ᚊ_character>,
         <http://www.i3mainz.de/ogham#ᚋ_character>,
         <http://www.i3mainz.de/ogham#ᚐ_character> ;
-    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns1:transliteration "MAC" ;
-    ns1:writtenRep "ᚋᚐᚊ" .
+    ns2:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns2:transliteration "MAC" ;
+    ns2:writtenRep "ᚋᚐᚊ" .
 
