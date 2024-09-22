@@ -8,7 +8,7 @@ jobs:
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     name: Ontdoc I      
     with: 
-          version: v017
+          version: v018
           rdffilepath: result.ttl
           docpath: docs/
           prefixns: http://www.i3mainz.de/ogham#
