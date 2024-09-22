@@ -285,8 +285,13 @@ var vowlresult={
    "instances": 0,
    "label": "Ogham Word",
    "annotations": {},
-   "subClasses": [],
-   "superClasses": []
+   "subClasses": [
+    "1026",
+    "1030"
+   ],
+   "superClasses": [
+    "1029"
+   ]
   },
   {
    "id": 1023,
@@ -316,7 +321,9 @@ var vowlresult={
    "label": "Formular Word",
    "annotations": {},
    "subClasses": [],
-   "superClasses": []
+   "superClasses": [
+    "1023"
+   ]
   },
   {
    "id": 1026,
@@ -345,7 +352,9 @@ var vowlresult={
    "instances": 0,
    "label": "Word",
    "annotations": {},
-   "subClasses": [],
+   "subClasses": [
+    "1023"
+   ],
    "superClasses": []
   },
   {
@@ -356,7 +365,9 @@ var vowlresult={
    "label": "Nomenclature Word",
    "annotations": {},
    "subClasses": [],
-   "superClasses": []
+   "superClasses": [
+    "1023"
+   ]
   },
   {
    "id": 1030,

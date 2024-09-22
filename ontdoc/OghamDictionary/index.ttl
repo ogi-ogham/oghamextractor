@@ -1,11 +1,12 @@
-@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<http://www.i3mainz.de/ogham#OghamDictionary> a ns1:Lexicon,
-        <http://www.w3.org/ns/ldp#Resource>,
+<http://www.i3mainz.de/ogham#OghamDictionary> a <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.w3.org/ns/lemon/lime#>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Ogham Dictionary"@en ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
     ns1:entry <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN>,
         <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS>,
         <http://www.i3mainz.de/ogham#...ERATI>,
@@ -234,6 +235,5 @@
         <http://www.i3mainz.de/ogham#VORTIGURN>,
         <http://www.i3mainz.de/ogham#VOTI>,
         <http://www.i3mainz.de/ogham#VRAICCI>,
-        <http://www.i3mainz.de/ogham#VURUDDRANN> ;
-    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+        <http://www.i3mainz.de/ogham#VURUDDRANN> .
 
