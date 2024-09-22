@@ -215,7 +215,7 @@ public class OghamObject {
     	JSONObject properties=new JSONObject();
     	properties.put("name", name);
     	properties.put("id", oghamid);
-    	properties.put("title", name);
+    	properties.put("title", title);
     	properties.put("image", imagelink);
     	properties.put("text",text);
     	properties.put("textogham",OghamUtils.translitToUnicode(text));

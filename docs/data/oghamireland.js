@@ -12,7 +12,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 141. Aglish",
         "textogham": "ᚋᚐᚔ ᚋᚐᚔᚑᚌᚌᚑᚈᚔᚐ ",
         "tribes": [],
         "descendants": [],
@@ -30,7 +30,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 141",
         "text": "MAQI MAQI-?OGGODIKA "
       }
     },
@@ -46,7 +46,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032004-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 142. Aglish",
         "textogham": "ᚊᚓᚂᚔ ᚐᚄᚔ ",
         "tribes": [],
         "descendants": [],
@@ -61,7 +61,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 142",
         "text": "CELI AVI "
       }
     },
@@ -77,7 +77,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 246a. Ardcanaght",
         "textogham": "ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -92,7 +92,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 246a",
         "text": "MAQI "
       }
     },
@@ -108,7 +108,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 246b. Ardcanaght",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -123,7 +123,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 246b",
         "text": ""
       }
     },
@@ -139,7 +139,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046018-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 136. Ardfert I",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -170,7 +170,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046030-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Ardfert II",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -201,7 +201,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 263. Ardmore I",
         "textogham": "ᚂᚒᚌᚒᚈᚓᚊᚐᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚆᚓᚉᚐᚅᚓᚌᚐᚋᚑᚆᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -230,7 +230,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 263",
         "text": "LUGUDECAS MAQI MUCOI NETA-SEGAMONAS "
       }
     },
@@ -246,7 +246,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 264. Ardmore",
         "textogham": "ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -261,7 +261,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 264",
         "text": "MAQI "
       }
     },
@@ -277,7 +277,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008007-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 265. Ardmore III",
         "textogham": "ᚐᚋᚐᚈᚒ ",
         "tribes": [],
         "descendants": [],
@@ -295,7 +295,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 265",
         "text": "AMADU "
       }
     },
@@ -311,7 +311,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE025-002001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 145. Arraglen",
         "textogham": "ᚏᚑᚆᚐᚆᚆ ᚋᚐᚔ ᚊᚑᚋᚑᚌᚐᚆᚆ ",
         "tribes": [],
         "descendants": [],
@@ -356,7 +356,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 150. Ballinrannig III",
         "textogham": "ᚌᚏᚐᚄᚔᚊᚐᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚈᚑᚄᚄᚔᚆᚔᚐᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚌᚏᚐᚄᚔᚊᚐᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [{
           "person": "GRAVICAS",
@@ -390,7 +390,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 150",
         "text": "GRAVICAS MAQI MUCOI DOVVINIAS MAQI MUCOI GRAVICAS MAQI MUCOI "
       }
     },
@@ -406,7 +406,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057009-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 151. Ballinrannig IV",
         "textogham": "ᚁᚏᚑᚔᚆᚔᚑᚆᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -424,7 +424,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 151",
         "text": "BROINIONAS "
       }
     },
@@ -440,7 +440,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057010-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 152. Ballinrannig V",
         "textogham": "ᚂᚒᚁᚁᚔᚐᚅ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -474,7 +474,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057011-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 153. Ballinrannig VI",
         "textogham": "ᚊᚊᚔᚊᚐᚋᚔᚆᚔ ᚋᚐᚔ ᚊᚐᚉᚉᚔᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -519,7 +519,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 154. Ballinrannig VII",
         "textogham": "ᚊᚒᚆᚐᚋᚐᚔ ᚊᚑᚏᚁᚁᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚈᚑᚄᚄᚔᚆᚔᚐ ",
         "tribes": [],
         "descendants": [],
@@ -552,7 +552,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 154",
         "text": "CUNAMAQQI CORBBI MAQI MUCOI DOVVINIA "
       }
     },
@@ -568,7 +568,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 155. Ballintaggart",
         "textogham": "ᚐᚓᚄᚏᚔᚉᚉᚔ ",
         "tribes": [],
         "descendants": [],
@@ -586,7 +586,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 155",
         "text": "AKEVRITTI "
       }
     },
@@ -602,7 +602,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033006-",
         "containsHereIs": true,
-        "title": "",
+        "title": "CIIC 156. Ballintaggart",
         "textogham": "ᚋᚐᚔᚔᚐᚏᚔ ᚑᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚈᚑᚄᚔᚆᚔᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -631,7 +631,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 156",
         "text": "MAQQI-IARI KOI MAQI MUCOI DOVINIAS "
       }
     },
@@ -647,7 +647,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033007-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 157. Ballintaggart",
         "textogham": "ᚈᚑᚄᚓᚉᚔ ᚋᚐᚔ ᚊᚐᚉᚉᚔᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -676,7 +676,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 157",
         "text": "DOVETI MAQI CATTINI "
       }
     },
@@ -692,7 +692,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 158. Ballintaggart",
         "textogham": "ᚅᚒᚄᚐᚂᚂᚑᚅ ᚋᚐᚔ ᚈᚒᚊᚑᚄᚐᚏᚑᚅ ",
         "tribes": [],
         "descendants": [],
@@ -721,7 +721,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 158",
         "text": "SUVALLOS MAQI DUCOVAROS "
       }
     },
@@ -737,7 +737,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033009-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 159. Ballintaggart",
         "textogham": "ᚋᚐᚔᚈᚓᚊᚓᚈᚐᚅ ᚋᚐᚔ ᚌᚂᚐᚅᚔᚊᚑᚆᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -766,7 +766,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 159",
         "text": "MAQI-DECEDAS MAQI GLASICONAS "
       }
     },
@@ -782,7 +782,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033010-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 160. Ballintaggart",
         "textogham": "ᚋᚐᚐ ᚋᚐᚔᚂᚐᚌᚆᚔ ᚊᚒᚏᚊᚔᚉᚉᚔ ",
         "tribes": [],
         "descendants": [],
@@ -806,7 +806,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 160",
         "text": "MAQA MAILAGNI CURCITTI "
       }
     },
@@ -822,7 +822,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033011-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 161. Ballintaggart",
         "textogham": "ᚔᚆᚔᚅᚅᚔᚑᚆᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -840,7 +840,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 161",
         "text": "INISSIONAS "
       }
     },
@@ -856,7 +856,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033012-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 162. Ballintaggart",
         "textogham": "ᚊᚒᚆᚐᚋᚐᚔ ᚐᚄᚔ ᚊᚑᚏᚁᚔ ",
         "tribes": [],
         "descendants": [{
@@ -885,7 +885,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 162",
         "text": "CUNAMAQQI AVI CORBI "
       }
     },
@@ -901,7 +901,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033013-",
         "containsHereIs": true,
-        "title": "",
+        "title": "CIIC 163. Ballintaggart",
         "textogham": "ᚆᚓᚉᚉᚐᚂᚐᚋᚔᚆᚐᚊᚊᚐ ᚑᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚈᚑᚄᚔᚆᚔᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -930,7 +930,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 163",
         "text": "NETTA-LAMINACCA KOI MAQI MUCOI DOVINIAS "
       }
     },
@@ -946,7 +946,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK031-058----",
         "containsHereIs": true,
-        "title": "",
+        "title": "CIIC 38. Ballyboodan",
         "textogham": "ᚊᚑᚏᚁᚔ ᚑᚔ ᚋᚐᚔ ᚂᚐᚁᚏᚔᚈ ",
         "tribes": [],
         "descendants": [],
@@ -991,7 +991,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-140008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 170. Ballymorereagh",
         "textogham": "ᚓᚆᚔᚂᚑᚊᚔ ᚋᚐᚔ ᚋᚐᚔᚐᚔᚆᚔᚐ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1020,7 +1020,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'The ogham inscriptions at Kilfountain and Ballymorereigh (St",
+        "id": "CIIC 170",
         "text": "QENILOCI MAQI MAQI-AINIA MUCOI? "
       }
     },
@@ -1036,7 +1036,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-016----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 171. Ballynahunt",
         "textogham": "ᚈᚒᚌᚓᚆᚆᚌᚔ ᚋᚐᚔ ᚏᚑᚈᚈᚑᚅ ",
         "tribes": [],
         "descendants": [],
@@ -1081,7 +1081,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-093003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 172. Ballywiheen",
         "textogham": "ᚉᚑᚌᚔᚉᚉᚐᚊᚊᚔ ᚋᚐᚔ ᚅᚐᚌᚐᚏᚓᚉᚉᚑᚅ ",
         "tribes": [],
         "descendants": [],
@@ -1110,7 +1110,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 172",
         "text": "TOGITTACC[I] MAQI SAG(A)RETTOS "
       }
     },
@@ -1126,7 +1126,7 @@ var oghamireland={
       "properties": {
         "image": "http://www.megalithicmonumentsofireland.com/COUNTIES/WICKLOW/Boleycarrigeen_OghamStone.html",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 50. Boleycarrigeen",
         "textogham": "ᚄᚑᚉᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1160,7 +1160,7 @@ var oghamireland={
       "properties": {
         "image": "#MAC1914",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 10. Breastagh",
         "textogham": "ᚋᚐᚔ ᚊᚑᚏᚏᚁᚏᚔ ᚋᚐᚔ ᚐᚋᚋᚂᚂᚑᚆᚌᚔᚉᚉ ",
         "tribes": [],
         "descendants": [],
@@ -1189,7 +1189,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer\n                                Text-und Sprachmateriale",
+        "id": "CIIC 10",
         "text": "MAQI CORRBRI MAQI AMMLLONGITT? "
       }
     },
@@ -1205,7 +1205,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Knockmahon I",
         "textogham": "ᚅᚓᚆᚐ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚓᚆᚐ ",
         "tribes": [],
         "descendants": [],
@@ -1250,7 +1250,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Knockmahon II",
         "textogham": "ᚄᚓᚈᚓᚂᚋᚓᚉᚑ ᚋᚐᚔ ᚉᚑᚌᚔᚉᚉᚐᚊᚊᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1295,7 +1295,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI036-010----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 47. Castletimon",
         "textogham": "ᚆᚓᚉᚐᚊᚐᚏᚔ ᚆᚓᚉᚐᚊᚐᚌᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1335,7 +1335,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-017003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 28. Churchclara I",
         "textogham": "ᚉᚐᚅᚓᚌᚐᚌᚆᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚋᚐᚊᚑᚏᚁᚑ ",
         "tribes": [],
         "descendants": [],
@@ -1380,7 +1380,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-017010-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Churchclara II",
         "textogham": "ᚌᚓᚂᚐᚌᚆᚔ ᚐᚄᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1414,7 +1414,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057010-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 152. Ballinrannig V",
         "textogham": "ᚂᚒᚁᚁᚔᚐᚅ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1448,7 +1448,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057011-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 153. Ballinrannig VI",
         "textogham": "ᚊᚊᚔᚊᚐᚋᚔᚆᚔ ᚋᚐᚔ ᚊᚐᚉᚉᚔᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1493,7 +1493,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE089-011001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 230. Cloghanecarhan",
         "textogham": "ᚓᚓᚌᚌᚆᚔ ᚋᚐᚔ ᚋᚐᚔᚊᚐᚔᚏᚐᚉᚔᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1522,7 +1522,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 230",
         "text": "EQQEGGNI MAQI MAQI-CAIRATINI "
       }
     },
@@ -1538,7 +1538,7 @@ var oghamireland={
       "properties": {
         "image": "http://titus.uni-frankfurt.de/ogam/html/015x001l.htm",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 15. Clonmore",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -1553,7 +1553,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 15",
         "text": ""
       }
     },
@@ -1569,7 +1569,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-248----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 147. Ballineesteenigh",
         "textogham": "ᚋᚑᚔᚆᚓᚆᚐ ᚋᚐᚔ ᚑᚂᚐᚊᚑᚆ ",
         "tribes": [],
         "descendants": [],
@@ -1598,7 +1598,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 147",
         "text": "MOINENA MAQI OLACON "
       }
     },
@@ -1614,7 +1614,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 150. Ballinrannig III",
         "textogham": "ᚌᚏᚐᚄᚔᚊᚐᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚈᚑᚄᚄᚔᚆᚔᚐᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚌᚏᚐᚄᚔᚊᚐᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [{
           "person": "GRAVICAS",
@@ -1648,7 +1648,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 150",
         "text": "GRAVICAS MAQI MUCOI DOVVINIAS MAQI MUCOI GRAVICAS MAQI MUCOI "
       }
     },
@@ -1664,7 +1664,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057009-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 151. Ballinrannig IV",
         "textogham": "ᚁᚏᚑᚔᚆᚔᚑᚆᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -1682,7 +1682,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 151",
         "text": "BROINIONAS "
       }
     },
@@ -1698,7 +1698,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE000-002----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 175. Burnham West",
         "textogham": "ᚋᚐᚔᚓᚏᚊᚊᚔᚐ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚈᚑᚄᚔᚆᚔᚐ ",
         "tribes": [],
         "descendants": [],
@@ -1727,7 +1727,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 175",
         "text": "MAQQI-ERCCIA MAQI MUCOI DOVINIA "
       }
     },
@@ -1743,7 +1743,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 19. Colbinstown I",
         "textogham": "ᚑᚄᚐᚆᚑᚅ ᚐᚄᚔ ᚔᚄᚐᚊᚐᚉᚉᚑᚅ ",
         "tribes": [],
         "descendants": [{
@@ -1772,7 +1772,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Loca\n                                Patriciana",
+        "id": "CIIC 19",
         "text": "OVANOS AVI IVACATTOS "
       }
     },
@@ -1788,7 +1788,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 20. Colbinstown II",
         "textogham": "ᚋᚐᚔᚈᚓᚊᚓᚈᚐᚅ ᚋᚐᚔ ᚋᚐᚏᚔᚆ ",
         "tribes": [],
         "descendants": [],
@@ -1817,7 +1817,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Loca\n                                Patriciana",
+        "id": "CIIC 20",
         "text": "MAQI-DECEDAS MAQI MARIN "
       }
     },
@@ -1833,7 +1833,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044004-",
         "containsHereIs": true,
-        "title": "",
+        "title": "CIIC 22. Colbinstown IV",
         "textogham": "ᚑᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1848,7 +1848,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 22",
         "text": "KOI MAQI MUCOI "
       }
     },
@@ -1864,7 +1864,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 23. Colbinstown V",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -1879,7 +1879,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                                    Sprachmateriale",
+        "id": "CIIC 23",
         "text": ""
       }
     },
@@ -1895,7 +1895,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044007-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 25. Colbinstown",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -1910,7 +1910,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                                   Sprachmateriale",
+        "id": "CIIC 25",
         "text": ""
       }
     },
@@ -1926,7 +1926,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 197. Coolmagort",
         "textogham": "ᚈᚓᚌᚑᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚉᚑᚔᚊᚐᚊᚔ ",
         "tribes": [],
         "descendants": [],
@@ -1955,7 +1955,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 197",
         "text": "DEGOS MAQI MUCOI TOICACI "
       }
     },
@@ -1971,7 +1971,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078004-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 198. Coolmagort",
         "textogham": "ᚋᚐᚔᚏᚔᚉᚓᚐᚅ ᚋᚐᚔ ᚋᚐᚔᚈᚒᚋᚔᚂᚓᚐᚅ ᚋᚒᚊᚑᚔ ᚉᚑᚔᚊᚐᚊᚔ ",
         "tribes": [{
           "person": "TOICACI",
@@ -2009,7 +2009,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 198",
         "text": "MAQI-RITEAS MAQI MAQI-DUMILEAS MUCOI TOICACI "
       }
     },
@@ -2025,7 +2025,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 199. Coolmagort",
         "textogham": "ᚊᚒᚆᚐᚊᚓᚆᚐ ",
         "tribes": [],
         "descendants": [],
@@ -2043,7 +2043,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 199",
         "text": "CUNACENA "
       }
     },
@@ -2059,7 +2059,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 200. Coolmagort",
         "textogham": "ᚋᚐᚔᚉᚉᚐᚂ ᚋᚐᚔ ᚄᚑᚏᚌᚑᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚉᚑᚔᚊᚐᚊᚔ ",
         "tribes": [{
           "person": "TOICACI",
@@ -2097,7 +2097,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 200",
         "text": "MAQI-TTAL MAQI VORGOS MAQI MUCOI TOICACI "
       }
     },
@@ -2113,7 +2113,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 201. Coolmagort",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -2128,7 +2128,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 201",
         "text": ""
       }
     },
@@ -2144,7 +2144,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078007-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 202. Coolmagort",
         "textogham": "ᚆᚓᚉᚉᚄᚏᚓᚊᚊ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -2162,7 +2162,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 202",
         "text": "NE?TTVRECC MAQI "
       }
     },
@@ -2178,7 +2178,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 203. Coolmagort",
         "textogham": "ᚋᚐᚔᚈᚓᚊᚓᚈᚐᚅ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -2196,7 +2196,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 203",
         "text": "MAQI-DECEDAS MAQI "
       }
     },
@@ -2212,7 +2212,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-078002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 241. Kilbonane",
         "textogham": "ᚁᚐᚔᚈᚐᚌᚆᚔ ᚋᚐᚔ ᚐᚈᚈᚔᚂᚑᚆᚐ ᚆᚐᚌᚒᚆᚔ ᚋᚒᚊᚑ ᚁᚐᚔᚈᚐᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -2249,7 +2249,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 241",
         "text": "B[AID]AGNI MAQI ADDILONA NAG[U]N[I] MUCO? B[AI]D[A]N[I] "
       }
     },
@@ -2265,7 +2265,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE079-032004-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Church Island",
         "textogham": "ᚁᚓᚊᚊᚈᚔᚆᚆ ᚋᚐᚔ ᚏᚔᚉᚉᚐᚄᚄᚓᚊᚊᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -2294,7 +2294,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Church Island near Valencia, Co",
+        "id": "",
         "text": "BECCDINN MAQI RITTAVVECCAS "
       }
     },
@@ -2310,7 +2310,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE052-059002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 178. Coumeenole",
         "textogham": "ᚓᚏᚊ ᚋᚐᚔ ᚋᚐᚔᚓᚏᚊᚔᚐᚅ ᚋᚒᚊᚑᚔ ᚈᚑᚄᚔᚆᚔᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -2343,7 +2343,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 178",
         "text": "ERC MAQI MAQI-ERCIAS MUCOI? DOVINIAS "
       }
     },
@@ -2359,7 +2359,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE106-114----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 220. Derrynane",
         "textogham": "ᚐᚆᚋ ᚂᚂᚐᚉᚔᚌᚆᚔ ᚋᚐᚔ ᚋᚔᚆᚓᚏᚊ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -2388,7 +2388,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 220",
         "text": "ANM LLATIGNI MAQI MINERC? MUCOI "
       }
     },
@@ -2404,7 +2404,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI021-004----",
         "containsHereIs": true,
-        "title": "",
+        "title": "CIIC 48. Donard",
         "textogham": "ᚔᚐᚔᚆᚔ ᚑᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -2422,7 +2422,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 48",
         "text": "IAQINI KOI MAQI MUCOI "
       }
     },
@@ -2438,7 +2438,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 266. Dromore I",
         "textogham": "ᚊᚑᚂᚂᚐᚁᚑᚉ ᚋᚒᚊᚑᚔ ᚂᚒᚌᚐ ᚋᚐᚔ ᚂᚑᚁᚐᚊᚊᚑᚆᚐ ",
         "tribes": [{
           "person": "LUGA",
@@ -2476,7 +2476,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 266",
         "text": "COLLABOT MUCOI LUGA MAQI LOBACCONA "
       }
     },
@@ -2492,7 +2492,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 267. Dromore II",
         "textogham": "ᚋᚓᚈᚒᚅᚔ ᚋᚐᚊᚔ ᚋᚒᚊᚑᚔ ᚂᚒᚌᚐ ",
         "tribes": [{
           "person": "LUGA",
@@ -2521,7 +2521,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 267",
         "text": "MEDUSI MACI MUCOI LUGA "
       }
     },
@@ -2537,7 +2537,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042010-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 268. Dromore III",
         "textogham": "ᚊᚐᚉᚉᚒᚄᚔᚏ ",
         "tribes": [],
         "descendants": [],
@@ -2555,7 +2555,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": true,
-        "id": "'The excavation of Kiltera, Co",
+        "id": "CIIC 268",
         "text": "CATTUVIR "
       }
     },
@@ -2571,7 +2571,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 272. Drumlohan I",
         "textogham": "ᚋᚐᚆᚒ ᚌᚐᚉᚔ ᚋᚒᚊᚑᚔ ᚋᚐᚊᚑᚏᚁᚑ ",
         "tribes": [{
           "person": "MACORBO",
@@ -2604,7 +2604,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 272",
         "text": "MANU GATI MUCOI MACORBO "
       }
     },
@@ -2620,7 +2620,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033007-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 273. Drumlohan II",
         "textogham": "ᚊᚐᚂᚒᚆᚑᚄᚔᚊᚐ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚂᚔᚉᚓᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -2665,7 +2665,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 274. Drumlohan III",
         "textogham": "ᚋᚐᚔᚔᚆᚔ ᚋᚐᚔ ᚓᚉᚉᚓᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -2710,7 +2710,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033009-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 275. Drumlohan IV",
         "textogham": "ᚊᚒᚆᚐᚂᚓᚌᚓᚐ ᚋᚐᚔ ᚊᚅᚐᚂᚐᚏ ᚊᚓᚂᚔ ᚐᚄᚔ ᚄᚓᚊᚔ ",
         "tribes": [],
         "descendants": [],
@@ -2764,7 +2764,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033010-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 276. Drumlohan V",
         "textogham": "ᚁᚔᚌᚒ ᚋᚐᚔ ᚂᚐᚌ ",
         "tribes": [],
         "descendants": [],
@@ -2809,7 +2809,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033011-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 277. Drumlohan VI",
         "textogham": "ᚁᚔᚏ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚏᚑᚉᚉᚐᚔᚅ ",
         "tribes": [],
         "descendants": [],
@@ -2838,7 +2838,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 277",
         "text": "BIR MAQI MUCOI ROTTAIS "
       }
     },
@@ -2854,7 +2854,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033012-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 278. Drumlohan VII",
         "textogham": "ᚋᚐᚔ ᚆᚓᚉᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -2872,7 +2872,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 278",
         "text": "MAQI NE[T....]AS "
       }
     },
@@ -2888,7 +2888,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033013-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 279. Drumlohan VIII",
         "textogham": "ᚈᚓᚆᚐᚄᚓᚊᚐ ᚋᚒᚊᚑᚔ ᚋᚓᚈᚐᚂᚑ ",
         "tribes": [{
           "person": "MEDALO",
@@ -2917,7 +2917,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 279",
         "text": "DENAVECA MUCOI MEDALO "
       }
     },
@@ -2933,7 +2933,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033014-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 280. Drumlohan IX",
         "textogham": "ᚁᚏᚑᚔᚆᚔᚑᚆᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -2951,7 +2951,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 280",
         "text": "BROINIONAS? "
       }
     },
@@ -2967,7 +2967,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033015-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 281. Drumlohan X",
         "textogham": "ᚈᚓᚐᚌᚑᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -2985,7 +2985,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 281",
         "text": "DEAGOS MAQI MUCOI "
       }
     },
@@ -3001,7 +3001,7 @@ var oghamireland={
       "properties": {
         "image": "#MAC1914",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 11. Drummin I",
         "textogham": "ᚊᚒᚆᚑᚄᚐᚉᚑᚅ ",
         "tribes": [],
         "descendants": [],
@@ -3019,7 +3019,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer\n                                Text-und Sprachmateriale",
+        "id": "CIIC 11",
         "text": "CUNOVATOS "
       }
     },
@@ -3035,7 +3035,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO015-051004-",
         "containsHereIs": true,
-        "title": "",
+        "title": "Drummin II",
         "textogham": "ᚏᚐᚄᚐᚅᚐ ᚑᚔ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -3069,7 +3069,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-040----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 180. Emlagh East",
         "textogham": "ᚁᚏᚒᚅᚊᚊᚑᚅ ᚋᚐᚔ ᚊᚐᚂᚔᚐᚊᚔ ",
         "tribes": [],
         "descendants": [],
@@ -3098,7 +3098,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 180",
         "text": "BRUSCCOS MAQI CALIACI "
       }
     },
@@ -3114,7 +3114,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO102-013----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 66. Faunkill and the Woods",
         "textogham": "ᚋᚐᚔᚈᚓᚊᚓᚈᚐᚅ ᚐᚄᚔ ᚉᚒᚏᚐᚆᚔᚐᚅ ",
         "tribes": [],
         "descendants": [{
@@ -3143,7 +3143,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 66",
         "text": "MAQI-DECEDAS AVI TURANIAS "
       }
     },
@@ -3159,7 +3159,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK029-020----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 31. Fiddaun",
         "textogham": "ᚈᚏᚑᚌᚆᚑ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -3177,7 +3177,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 31",
         "text": "DROGNO MAQI MUCOI "
       }
     },
@@ -3193,7 +3193,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-060007-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 32. Gowran",
         "textogham": "ᚋᚐᚔ ᚓᚏᚐᚊᚔᚐᚅ ᚋᚐᚔ ᚈᚔᚋᚐᚐ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -3222,7 +3222,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 32",
         "text": "MAQI ERACIAS MAQI DIMAQA MUCOI "
       }
     },
@@ -3238,7 +3238,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO042-049002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 57. Greenhill I",
         "textogham": "ᚉᚏᚓᚆᚒ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚏᚔᚉᚉᚔ ",
         "tribes": [],
         "descendants": [],
@@ -3267,7 +3267,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 57",
         "text": "TRENU MAQI MUCOI QRITTI "
       }
     },
@@ -3283,7 +3283,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO042-049001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 58. Greenhill II",
         "textogham": "ᚊᚐᚉᚉᚒᚁᚒᚉᚉᚐᚅ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -3301,7 +3301,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": true,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 58",
         "text": "CATTUBUTTAS MAQI "
       }
     },
@@ -3317,7 +3317,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA032-029002",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 300. Island",
         "textogham": "ᚊᚒᚆᚐᚆᚓᚉᚐᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚆᚓᚉᚐᚅᚓᚌᚐᚋᚑᚆᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -3362,7 +3362,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-062011-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Cloghabrody",
         "textogham": "ᚄᚓᚈᚓᚂᚋᚓᚉᚑ ᚋᚒᚊᚑᚔ ᚂᚑᚌᚔᚈᚓᚐᚅ ᚐᚄᚔ ᚋᚒᚆᚔᚊᚑᚆᚐ ",
         "tribes": [{
           "person": "LOGIDEAS",
@@ -3411,7 +3411,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 215. Whitefield I",
         "textogham": "ᚐᚂᚐᚉᚉᚑ ᚊᚓᚂᚔ ᚁᚐᚉᚉᚔᚌᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -3440,7 +3440,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 215",
         "text": "ALATTO CELI BATTIGNI "
       }
     },
@@ -3456,7 +3456,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 206. Kilcoolaght East",
         "textogham": "ᚐᚆᚋ ᚄᚔᚏᚏᚐᚊᚊᚐᚆᚆᚔ ᚊᚓᚈᚐᚉᚉᚑᚐ ᚋᚐᚔ ᚄᚓᚈᚓᚂᚋᚓᚉᚑ ",
         "tribes": [],
         "descendants": [],
@@ -3489,7 +3489,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 206",
         "text": "ANM VIRR[ACC]ANNI? CEDATTOQA MAQI VEDELMETO "
       }
     },
@@ -3505,7 +3505,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 207. Kilcoolaght East",
         "textogham": "ᚋᚐᚔ ᚂᚒᚌᚒᚏᚔᚉ ",
         "tribes": [],
         "descendants": [],
@@ -3523,7 +3523,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 207",
         "text": "MAQI LUGUQRIT "
       }
     },
@@ -3539,7 +3539,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 208. Kilcoolaght East",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -3554,7 +3554,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 208",
         "text": ""
       }
     },
@@ -3570,7 +3570,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003007-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 209. Kilcoolaght East",
         "textogham": "ᚋᚐᚔ ᚐᚌᚔᚂᚂ ",
         "tribes": [],
         "descendants": [],
@@ -3588,7 +3588,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 209",
         "text": "MAQI AGILL... "
       }
     },
@@ -3604,7 +3604,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003009-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 210. Kilcoolaght East",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -3619,7 +3619,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 210",
         "text": ""
       }
     },
@@ -3635,7 +3635,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 211. Kilcoolaght East",
         "textogham": "ᚏᚔᚉᚉᚐᚄᚄᚓᚊᚊᚐᚅ ᚋᚐᚔ ᚄᚓᚈᚈᚑᚆᚑᚅ ",
         "tribes": [],
         "descendants": [],
@@ -3664,7 +3664,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 211",
         "text": "RITTAVVECCAS MAQI VEDDONOS "
       }
     },
@@ -3680,7 +3680,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003009-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 212. Kilcoolaght East",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -3695,7 +3695,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 212",
         "text": ""
       }
     },
@@ -3711,7 +3711,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003010-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 213. Kilcoolaght East",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -3726,7 +3726,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 213",
         "text": ""
       }
     },
@@ -3742,7 +3742,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-144005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 186. Kilfountain",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -3773,7 +3773,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-026001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 187. Kilmalkedar",
         "textogham": "ᚐᚆᚋ ᚐᚆᚋ ᚋᚐᚔᚂᚓᚔᚆᚁᚔᚏ ᚋᚐᚔ ᚁᚏᚑᚊᚐᚆᚆ ",
         "tribes": [],
         "descendants": [],
@@ -3802,7 +3802,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 187",
         "text": "ANM ANM MAILE-INBIR MAQI BROCANN "
       }
     },
@@ -3818,7 +3818,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 188. Kinard East",
         "textogham": "ᚋᚐᚏᚔᚐᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -3836,7 +3836,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 188",
         "text": "MARIANI "
       }
     },
@@ -3852,7 +3852,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 189. Kinard East",
         "textogham": "ᚂᚂᚑᚉᚓᚉᚔ ᚐᚄᚔ ᚅᚏᚒᚅᚐ ",
         "tribes": [],
         "descendants": [{
@@ -3897,7 +3897,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI022-012----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 51. Knickeen",
         "textogham": "ᚋᚐᚔ ᚆᚔᚂᚔ ",
         "tribes": [],
         "descendants": [],
@@ -3931,7 +3931,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 292. Knockboy I",
         "textogham": "ᚓᚏᚐᚉᚔ ᚋᚒᚊᚑᚔ ᚆᚓᚉᚐᚅᚓᚌᚐᚋᚑᚆᚐᚅ ",
         "tribes": [{
           "person": "NETA-SEGAMONAS",
@@ -3960,7 +3960,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ancient ruined churches of Co",
+        "id": "CIIC 292",
         "text": "...ERATI MUCOI NETA-SEGAMONAS "
       }
     },
@@ -3976,7 +3976,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034007-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 293. Knockboy II",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -3991,7 +3991,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ancient ruined churches of Co",
+        "id": "CIIC 293",
         "text": ""
       }
     },
@@ -4007,7 +4007,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 294. Knockboy III",
         "textogham": "ᚊᚑᚏᚁ ",
         "tribes": [],
         "descendants": [],
@@ -4025,7 +4025,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ancient ruined churches of Co",
+        "id": "CIIC 294",
         "text": "CORB "
       }
     },
@@ -4041,7 +4041,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034009-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 295. Knockboy IV",
         "textogham": "ᚓᚊᚊᚔᚐᚅ ᚋᚒᚊᚑᚔ ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ ",
         "tribes": [{
           "person": "BROENIONAS?",
@@ -4070,7 +4070,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ancient ruined churches of Co",
+        "id": "CIIC 295",
         "text": "QECCIAS? MUCOI BROENIONAS? "
       }
     },
@@ -4086,7 +4086,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034010-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 296. Knockboy V",
         "textogham": "ᚊᚔᚏ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4104,7 +4104,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ancient ruined churches of Co",
+        "id": "CIIC 296",
         "text": "CIR MAQI "
       }
     },
@@ -4120,7 +4120,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034014-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 297. Knockboy VI",
         "textogham": "ᚄᚑᚏᚉᚔᚌᚒᚏᚆ ",
         "tribes": [],
         "descendants": [],
@@ -4138,7 +4138,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ancient ruined churches of Co",
+        "id": "CIIC 297",
         "text": "VORTIGURN "
       }
     },
@@ -4154,7 +4154,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 298. Knockboy VII",
         "textogham": "ᚄᚓᚈᚐᚁᚐᚏ ᚋᚑᚊᚑᚔ ᚑᚈᚏᚏᚓᚐ ",
         "tribes": [],
         "descendants": [],
@@ -4178,7 +4178,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ancient ruined churches of Co",
+        "id": "CIIC 298",
         "text": "VEDABAR MOCOI ODR...REA "
       }
     },
@@ -4194,7 +4194,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034015-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 299. Knockboy VIII",
         "textogham": "ᚋᚑᚆᚌᚓᚈᚔᚐᚅ ᚋᚐᚔ ᚋᚒᚔᚁᚔᚉᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4223,7 +4223,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ancient ruined churches of Co",
+        "id": "CIIC 299",
         "text": "MONGEDIAS MAQI MUIBITI "
       }
     },
@@ -4239,7 +4239,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK034-013003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 36. Lamoge I",
         "textogham": "ᚅᚓᚄᚓᚏᚏᚔᚉ ᚋᚐᚔ ᚏᚑᚉᚉᚐᚔᚅ ",
         "tribes": [],
         "descendants": [],
@@ -4284,7 +4284,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK034-013004-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 37. Lamoge II",
         "textogham": "ᚈᚑᚄᚐᚉᚒᚊᚔ ᚐᚄᚔ ᚉᚒᚂᚑᚉᚐᚆᚐᚌᚔᚐ ",
         "tribes": [],
         "descendants": [{
@@ -4329,7 +4329,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-026002-",
         "containsHereIs": true,
-        "title": "",
+        "title": "CIIC 34. Legan",
         "textogham": "ᚂᚑᚁᚁᚔ ᚑᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚂᚑᚁᚁᚔ ᚑᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚏᚔᚆᚔ ᚂᚂ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [{
           "person": "RINI",
@@ -4378,7 +4378,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=LH007-072006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Ballybarrack",
         "textogham": "ᚋᚐᚔᚊᚑᚏᚐᚁᚔᚏ ᚋᚐᚔ ᚉᚐᚆ ᚆᚓᚉᚐᚅᚐᚂᚐᚌᚔᚐ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4427,7 +4427,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 190. Lugnagappul",
         "textogham": "ᚌᚑᚅᚅᚒᚊᚉᚉᚔᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -4461,7 +4461,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033004-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 191. Lugnagappul",
         "textogham": "ᚌᚐᚋᚔᚊᚒᚆᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -4495,7 +4495,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-141006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 193. Maumanorig",
         "textogham": "ᚐᚆᚋ ᚊᚑᚂᚋᚐᚆ ᚐᚔᚂᚔᚉᚇᚔᚏ ",
         "tribes": [],
         "descendants": [],
@@ -4519,7 +4519,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 193",
         "text": "ANM COLMAN AILITHIR "
       }
     },
@@ -4535,7 +4535,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-081002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 173. Brackloon",
         "textogham": "ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4566,7 +4566,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-167----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 181. Emlagh West",
         "textogham": "ᚉᚐᚂᚐᚌᚆᚔ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4600,7 +4600,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-165---",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 195. Rathmalode",
         "textogham": "ᚊᚒᚏᚊᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4634,7 +4634,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-166---",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 196. Rathmalode",
         "textogham": "ᚓᚏᚊᚐᚄᚔᚊᚊᚐᚅ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4668,7 +4668,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067004-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 98. Ballyhank II",
         "textogham": "ᚊᚑᚏᚁᚐᚌᚆᚔ ᚑᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚊᚑᚏᚑᚉᚐᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4697,7 +4697,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 98",
         "text": "CORBAGNI KOI? MAQI MUCOI COROTANI "
       }
     },
@@ -4713,7 +4713,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-164----",
         "containsHereIs": false,
-        "title": "",
+        "title": "Coumlanders",
         "textogham": "ᚏᚓᚉᚐᚌᚔᚆ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4747,7 +4747,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 100. Ballyhank IV",
         "textogham": "ᚒᚂᚊᚊᚐᚌᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4765,7 +4765,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 100",
         "text": "ULCCAGNI "
       }
     },
@@ -4781,7 +4781,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067007-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 101. Ballyhank V",
         "textogham": "ᚋᚐᚔᚓᚅᚓᚐ ᚋᚐᚔ ᚈᚑᚋᚐᚆᚓᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4810,7 +4810,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 101",
         "text": "MAQI-ESEA MAQI DOMANEQI "
       }
     },
@@ -4826,7 +4826,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 102. Ballyhank VI",
         "textogham": "ᚈᚔᚂᚑᚌᚑᚆᚆ ",
         "tribes": [],
         "descendants": [],
@@ -4841,7 +4841,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 102",
         "text": "DILOGONN "
       }
     },
@@ -4857,7 +4857,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 118. Monataggart I",
         "textogham": "ᚄᚓᚏᚓ ᚋᚒᚊᚑᚔ ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ ",
         "tribes": [{
           "person": "GLUNLEGGET",
@@ -4886,7 +4886,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 118",
         "text": "VEQREQ MUCOI GLUNLEGGET "
       }
     },
@@ -4902,7 +4902,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 119. Monataggart II",
         "textogham": "ᚈᚐᚂᚐᚌᚆᚔ ᚋᚐᚔ ᚈᚐᚂᚔ ",
         "tribes": [],
         "descendants": [],
@@ -4931,7 +4931,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 119",
         "text": "DALAGNI MAQI DALI "
       }
     },
@@ -4947,7 +4947,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022004-",
         "containsHereIs": true,
-        "title": "",
+        "title": "CIIC 120. Monataggart III",
         "textogham": "ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ ᚑᚔ ᚆᚓᚉᚉᚐᚉᚉᚏᚓᚆᚐᚂᚒᚌᚑᚅ ",
         "tribes": [],
         "descendants": [],
@@ -4971,7 +4971,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 120",
         "text": "BROINIENAS KOI NETTA-TTRENALUGOS "
       }
     },
@@ -4987,7 +4987,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 141. Aglish",
         "textogham": "ᚋᚐᚔ ᚋᚐᚔᚑᚌᚌᚑᚈᚔᚐ ",
         "tribes": [],
         "descendants": [],
@@ -5005,7 +5005,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 141",
         "text": "MAQI MAQI-?OGGODIKA "
       }
     },
@@ -5021,7 +5021,7 @@ var oghamireland={
       "properties": {
         "image": "http://titus.uni-frankfurt.de/ogam/html/146x002l.htm",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 146. Ballineanig",
         "textogham": "ᚂᚒᚌᚒᚏᚔᚉ ᚋᚐᚔ ᚏᚔᚉᚉᚔ ",
         "tribes": [],
         "descendants": [],
@@ -5050,7 +5050,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 146",
         "text": "LUGUQRIT MAQI QRITTI "
       }
     },
@@ -5066,7 +5066,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-105----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 166. Ballinvoher",
         "textogham": "ᚊᚑᚔᚋᚐᚌᚆᚔ ᚋᚐᚔ ᚄᚔᚉᚐᚂᚔᚆ ",
         "tribes": [],
         "descendants": [],
@@ -5095,7 +5095,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 166",
         "text": "COIMAGNI MAQI VITALIN "
       }
     },
@@ -5111,7 +5111,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CW003-023----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 17. Tuckamine",
         "textogham": "ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -5126,7 +5126,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 17",
         "text": "MUCOI "
       }
     },
@@ -5142,7 +5142,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 19. Colbinstown I",
         "textogham": "ᚑᚄᚐᚆᚑᚅ ᚐᚄᚔ ᚔᚄᚐᚊᚐᚉᚉᚑᚅ ",
         "tribes": [],
         "descendants": [{
@@ -5171,7 +5171,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Loca\n                                Patriciana",
+        "id": "CIIC 19",
         "text": "OVANOS AVI IVACATTOS "
       }
     },
@@ -5187,7 +5187,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-395----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 192. Martramane",
         "textogham": "ᚓᚆᚔᚂᚑᚊᚐᚌᚆᚔ ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -5205,7 +5205,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 192",
         "text": "QENILOC[A]GNI MAQI "
       }
     },
@@ -5221,7 +5221,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 20. Colbinstown II",
         "textogham": "ᚋᚐᚔᚈᚓᚊᚓᚈᚐᚅ ᚋᚐᚔ ᚋᚐᚏᚔᚆ ",
         "tribes": [],
         "descendants": [],
@@ -5250,7 +5250,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Loca\n                                Patriciana",
+        "id": "CIIC 20",
         "text": "MAQI-DECEDAS MAQI MARIN "
       }
     },
@@ -5266,7 +5266,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-357----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 205. Derrygariff",
         "textogham": "ᚋᚐᚔᚓᚏᚊᚔᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -5300,7 +5300,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 216. Whitefield II",
         "textogham": "ᚌᚑᚅᚑᚊᚉᚓᚐᚅ ᚋᚑᚅᚐᚊ ᚋᚐᚔᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -5324,7 +5324,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 216",
         "text": "GOSOCTEAS MOSAC MAKINI "
       }
     },
@@ -5340,7 +5340,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 217. Whitefield III",
         "textogham": "ᚆᚑᚊᚐᚉᚔ ᚋᚐᚔ ᚋᚐᚔᚏᚓᚉᚊ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚒᚈᚈᚐᚋᚔ ",
         "tribes": [{
           "person": "UDDAMI",
@@ -5378,7 +5378,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 217",
         "text": "NOCATI MAQI MAQI-RET/C... MAQI MUCOI UDDAMI "
       }
     },
@@ -5394,7 +5394,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107004-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 218. Whitefield IV",
         "textogham": "ᚋᚒᚊᚑ ᚉᚒᚊᚐᚊᚐᚊ ",
         "tribes": [],
         "descendants": [],
@@ -5412,7 +5412,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 218",
         "text": "MUCO? TUCACAC "
       }
     },
@@ -5428,7 +5428,7 @@ var oghamireland={
       "properties": {
         "image": "http://titus.uni-frankfurt.de/ogam/html/223x002l.htm",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 223. Parknasilla",
         "textogham": "ᚐᚆᚋ ᚄᚔᚆᚆᚐᚌᚔᚉᚂᚓᚉ ",
         "tribes": [],
         "descendants": [],
@@ -5446,7 +5446,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 223",
         "text": "ANM VINNAGITLET? "
       }
     },
@@ -5462,7 +5462,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE039-148----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 252. Gurrane",
         "textogham": "ᚈᚒᚋᚓᚂᚔ ᚋᚐᚔ ᚌᚂᚐᚅᚔᚊᚑᚆᚐᚅ ᚆᚔᚑᚉᚉᚐ ᚊᚑᚁᚏᚐᚆᚑᚏᚐ ",
         "tribes": [],
         "descendants": [],
@@ -5495,7 +5495,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 252",
         "text": "DUMELI MAQI GLASICONAS NIOTTA COBRANORA? "
       }
     },
@@ -5511,7 +5511,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-393----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 253. Kilorglin",
         "textogham": "ᚌᚐᚂᚓᚑᚉᚑᚅ ",
         "tribes": [],
         "descendants": [],
@@ -5529,7 +5529,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 253",
         "text": "GALEOTOS "
       }
     },
@@ -5545,7 +5545,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105001-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 255. Tinnahally I",
         "textogham": "ᚋᚐᚔ ᚐᚆᚋ ᚄᚒᚏᚒᚈᚈᚏᚐᚆᚆ ᚋᚐᚔ ᚈᚑᚂᚔᚌᚓᚆᚆ ",
         "tribes": [],
         "descendants": [],
@@ -5574,7 +5574,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'On two Ogham-inscribed stones from Tinnahally, Co",
+        "id": "CIIC 255",
         "text": "MAQI ANM VURUDDRANN MAQI DOLIGENN "
       }
     },
@@ -5590,7 +5590,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 256. Tinnahally II",
         "textogham": "ᚐᚆᚋ ᚉᚓᚌᚐᚆᚆ ᚋᚐᚊ ᚈᚓᚌᚂᚐᚆᚆ ",
         "tribes": [],
         "descendants": [],
@@ -5614,7 +5614,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'On two Ogham-inscribed stones from Tinnahally, Co",
+        "id": "CIIC 256",
         "text": "ANM TEGANN MAC DEGLANN "
       }
     },
@@ -5630,7 +5630,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD006-005002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 26. Donaghmore",
         "textogham": "ᚆᚓᚉᚉᚐᚄᚏᚑᚔᚊᚊ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚉᚏᚓᚆᚐᚂᚒᚌᚌᚑ ",
         "tribes": [],
         "descendants": [],
@@ -5659,7 +5659,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Notes on the ogam-inscribed stones of Donaghmore, Co",
+        "id": "CIIC 26",
         "text": "NETTAVROICC MAQI MUCOI TRENALUGGO? "
       }
     },
@@ -5675,7 +5675,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008006-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 264. Ardmore",
         "textogham": "ᚋᚐᚔ ",
         "tribes": [],
         "descendants": [],
@@ -5690,7 +5690,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 264",
         "text": "MAQI "
       }
     },
@@ -5706,7 +5706,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042010-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 268. Dromore III",
         "textogham": "ᚊᚐᚉᚉᚒᚄᚔᚏ ",
         "tribes": [],
         "descendants": [],
@@ -5724,7 +5724,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": true,
-        "id": "'The excavation of Kiltera, Co",
+        "id": "CIIC 268",
         "text": "CATTUVIR "
       }
     },
@@ -5740,7 +5740,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-078----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 285. Kilbeg",
         "textogham": "ᚁᚔᚄᚐᚔᚈᚑᚆᚐᚅ ᚋᚒᚊᚑᚔ ᚐᚉᚐᚏ ",
         "tribes": [{
           "person": "ATAR",
@@ -5769,7 +5769,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 285",
         "text": "BIVAIDONAS MUCOI ATAR "
       }
     },
@@ -5785,7 +5785,7 @@ var oghamireland={
       "properties": {
         "image": "http://titus.uni-frankfurt.de/ogam/html/004x003l.htm",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 4. Kilmannin",
         "textogham": "ᚂᚒᚌᚐᚈᚈᚑᚆ ᚋᚐᚔ ᚂᚒᚌᚒᚈᚓᚊᚐᚅ ",
         "tribes": [],
         "descendants": [],
@@ -5814,7 +5814,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 4",
         "text": "LUGADDON MAQI LUGUDECAS "
       }
     },
@@ -5830,7 +5830,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=ME026-009----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 40. Painestown",
         "textogham": "ᚋᚐᚔᚊᚐᚔᚏᚐᚉᚔᚆᚔ ᚐᚄᚔ ᚔᚆᚓᚐᚌᚂᚐᚅ ",
         "tribes": [],
         "descendants": [{
@@ -5859,7 +5859,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": " (ed",
+        "id": "CIIC 40",
         "text": "MAQI-CAIRATINI AVI INEQAGLAS "
       }
     },
@@ -5875,7 +5875,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WX054-004----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 46. Houseland",
         "textogham": "ᚅᚓᚈᚐᚆᚔ ᚋᚐᚔ ᚊᚐᚉᚉᚐᚁᚁᚑᚉᚉ ᚐᚄᚔ ᚈᚓᚏᚊᚋᚐᚅᚑᚊ ",
         "tribes": [],
         "descendants": [{
@@ -5913,7 +5913,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 46",
         "text": "SEDANI MAQI CATTABBOTT AVI DERCMASOC "
       }
     },
@@ -5929,7 +5929,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI027-079----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 49. Baltinglass",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -5944,7 +5944,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 49",
         "text": ""
       }
     },
@@ -5960,7 +5960,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO122-049003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 69. Ahalisky I",
         "textogham": "ᚌᚔᚏᚐᚌᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -5978,7 +5978,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 69",
         "text": "GIRAGNI "
       }
     },
@@ -5994,7 +5994,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO122-049004-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 70. Ahalisky II",
         "textogham": "ᚊᚒᚆᚐᚌᚒᚅᚑᚅ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ᚄᚔᚏᚐᚌᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -6039,7 +6039,7 @@ var oghamireland={
       "properties": {
         "image": "http://titus.uni-frankfurt.de/ogam/html/071x001l.htm",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 71. Ahalisky III",
         "textogham": "ᚊᚑᚔᚋᚐᚌᚆᚔ ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -6057,7 +6057,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 71",
         "text": "COIMAGNI MAQI MUCOI "
       }
     },
@@ -6073,7 +6073,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-009----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 79. Rathcanning I",
         "textogham": "ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -6088,7 +6088,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 79",
         "text": "MUCOI? "
       }
     },
@@ -6104,7 +6104,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-053----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 80. Rathcanning II",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -6119,7 +6119,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ogham Inscription in Co",
+        "id": "CIIC 80",
         "text": ""
       }
     },
@@ -6135,7 +6135,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067003-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 97. Ballyhank I",
         "textogham": "ᚋᚐᚔ ᚄᚑᚏᚏᚉᚔᚌᚒᚏᚆ ",
         "tribes": [],
         "descendants": [],
@@ -6153,7 +6153,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "",
+        "id": "CIIC 97",
         "text": "MAQI VORRTIGURN "
       }
     },
@@ -6169,7 +6169,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 99. Ballyhank III",
         "textogham": "ᚅᚐᚊᚐᚉᚉᚔᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -6184,7 +6184,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "CIIC 99",
         "text": "SACATTINI "
       }
     },
@@ -6200,7 +6200,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-074----",
         "containsHereIs": false,
-        "title": "",
+        "title": "Bunkilla",
         "textogham": "ᚐᚆᚋ ᚋᚐᚔᚂᚐᚅᚔᚏᚓᚆ ᚋᚐᚔ ᚁᚔᚏᚏᚐᚊ ",
         "tribes": [],
         "descendants": [],
@@ -6245,7 +6245,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=MA053-003009-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Keel West",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -6276,7 +6276,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Kilgrovan VI",
         "textogham": "ᚋᚐᚔ ᚋᚒᚊᚑᚔ ",
         "tribes": [],
         "descendants": [],
@@ -6291,7 +6291,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "",
         "text": "MAQI MUCOI "
       }
     },
@@ -6307,7 +6307,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045015-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Kilgrovan VII",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -6322,7 +6322,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer Text-und\n                                Sprachmateriale",
+        "id": "",
         "text": ""
       }
     },
@@ -6338,7 +6338,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE066-016005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 242. Parkavonear",
         "textogham": "ᚁᚏᚏᚒᚐᚓᚆᚐᚆᚆ ",
         "tribes": [],
         "descendants": [],
@@ -6356,7 +6356,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Notes on the antiquities in Co",
+        "id": "CIIC 242",
         "text": "[B]RRUA/ENANN "
       }
     },
@@ -6372,7 +6372,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE029-157002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Ratass",
         "textogham": "ᚐᚆᚋ ᚅᚔᚂᚂᚐᚆᚆ ᚋᚐᚔ ᚄᚐᚉᚉᚔᚂᚂᚑᚌᚌ ",
         "tribes": [],
         "descendants": [],
@@ -6417,7 +6417,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057030-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 12. Rathcroghan I",
         "textogham": "ᚄᚏᚐᚔᚊᚊᚔ ᚋᚐᚔ ᚋᚓᚈᚄᚄᚔ ",
         "tribes": [],
         "descendants": [],
@@ -6446,7 +6446,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Thesaurus Indogermanischer\n                                Text-und Sprachmateriale",
+        "id": "CIIC 12",
         "text": "VRAICCI MAQI MEDVVI "
       }
     },
@@ -6462,7 +6462,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057084-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 13. Rathcroghan II",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -6477,7 +6477,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "nd Sprachmateriale",
+        "id": "CIIC 13",
         "text": ""
       }
     },
@@ -6493,7 +6493,7 @@ var oghamireland={
       "properties": {
         "image": "http://www.megalithomania.com/show/site/326",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 16. Rathglass",
         "textogham": "ᚈᚒᚆᚐᚔᚈᚑᚆᚐᚅ ᚋᚐᚔ ᚋᚐᚏᚔᚐᚆᚔ ",
         "tribes": [],
         "descendants": [],
@@ -6538,7 +6538,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087002-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 1083. Rathkenny I",
         "textogham": "ᚊᚑᚋᚋᚐᚌᚌᚐᚌᚆᚔ ᚋᚒᚊᚑᚔ ᚔᚅᚐᚋᚋᚆᚆ ",
         "tribes": [{
           "person": "ISAMMNN?",
@@ -6567,7 +6567,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ogham stones from a souterrain in Rathkenny, Co",
+        "id": "CIIC 1083",
         "text": "COMMAGGAGNI MUCOI ISAMMNN? "
       }
     },
@@ -6583,7 +6583,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 1084. Rathkenny II",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -6598,7 +6598,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ogham stones from a souterrain in Rathkenny, Co",
+        "id": "CIIC 1084",
         "text": ""
       }
     },
@@ -6614,7 +6614,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=",
         "containsHereIs": false,
-        "title": "",
+        "title": "Rathkenny IV",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -6629,7 +6629,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Ogham stones from a souterrain in Rathkenny, Co",
+        "id": "",
         "text": ""
       }
     },
@@ -6645,7 +6645,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK016-013----",
         "containsHereIs": false,
-        "title": "",
+        "title": "Shankill",
         "textogham": "ᚋᚐᚔᚊᚒᚆᚐᚂᚔᚌ ᚋᚐᚔ ᚊᚑᚔᚂᚂᚔ ᚋᚒᚊᚑᚔ ᚊᚑᚅᚊᚔᚅᚆ ",
         "tribes": [{
           "person": "COSCIS/N",
@@ -6699,7 +6699,7 @@ var oghamireland={
       "properties": {
         "image": "https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA073-012----",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 5. Rusheens West",
         "textogham": "ᚐᚂᚐᚉᚉᚑᚅ ᚋᚐᚔ ᚁᚏ ",
         "tribes": [],
         "descendants": [],
@@ -6744,7 +6744,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CL067-024016-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Scattery Island",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -6759,7 +6759,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "'Descriptive sketch of places visited",
+        "id": "",
         "text": ""
       }
     },
@@ -6775,7 +6775,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE061-006008-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 185. Inishvickillane",
         "textogham": "ᚐᚄᚔ ᚄᚂᚐᚉᚔᚐᚋᚔ ",
         "tribes": [],
         "descendants": [],
@@ -6809,7 +6809,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062005-",
         "containsHereIs": false,
-        "title": "",
+        "title": "CIIC 35. Tullaherin I",
         "textogham": "",
         "tribes": [],
         "descendants": [],
@@ -6824,7 +6824,7 @@ var oghamireland={
         "containsEye": false,
         "name": "",
         "containsBattleName": false,
-        "id": "Relics of old decency: \n                                    archaeological studies in later prehistory",
+        "id": "CIIC 35",
         "text": ""
       }
     },
@@ -6840,7 +6840,7 @@ var oghamireland={
       "properties": {
         "image": "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062009-",
         "containsHereIs": false,
-        "title": "",
+        "title": "Tullaherin II",
         "textogham": "",
         "tribes": [],
         "descendants": [],

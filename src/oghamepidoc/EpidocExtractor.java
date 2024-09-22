@@ -28,7 +28,7 @@ import org.xml.sax.ext.DefaultHandler2;
 
 public class EpidocExtractor extends DefaultHandler2 {
 
-	boolean geo=Boolean.FALSE,title=Boolean.FALSE,foundmaqi=Boolean.FALSE,foundmucoi=Boolean.FALSE,foundkoi=Boolean.FALSE,foundanm=Boolean.FALSE,founderc=Boolean.FALSE,foundblind=Boolean.FALSE,foundeye=Boolean.FALSE;
+	boolean geo=Boolean.FALSE,title=Boolean.FALSE,titlest=Boolean.FALSE,foundmaqi=Boolean.FALSE,foundmucoi=Boolean.FALSE,foundkoi=Boolean.FALSE,foundanm=Boolean.FALSE,founderc=Boolean.FALSE,foundblind=Boolean.FALSE,foundeye=Boolean.FALSE;
 	
 	Integer maqicount= (Integer) 0;
     Integer mucoicount= (Integer) 0;
@@ -65,8 +65,14 @@ public class EpidocExtractor extends DefaultHandler2 {
 		case "geo": 
 			geo=Boolean.TRUE;
 			break;
+		case "titleStmt":
+			titlest=Boolean.TRUE;
+			break;
 		case "title": 
 			title=Boolean.TRUE;
+			if(titlest)
+				result.title="";
+			System.out.println("IN TITLE");
 			break;
 		case "ref": 
 			if(photographs) {
@@ -88,7 +94,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 				if(wordmap.keySet().contains(attributes.getValue("lemma").toLowerCase())) {
 					wordmap.get(attributes.getValue("lemma").toLowerCase()).setTwo(Integer.valueOf(wordmap.get(attributes.getValue("lemma").toLowerCase()).getTwo()+1));
 				}
-				System.out.println(wordmap);
+				//System.out.println(wordmap);
 			}
 
 			wordcounter++;
@@ -166,8 +172,9 @@ public class EpidocExtractor extends DefaultHandler2 {
 			String[] geospl=characters.split(",");
 			Coordinate coord=new Coordinate(Double.valueOf(geospl[0].trim()), Double.valueOf(geospl[1].trim()));
 			result.location=fac.createPoint(coord);
-		}else if(title) {
-			result.title=characters;
+		}else if(title && titlest) {
+			System.out.println("TITLE: "+characters);
+			result.title+=characters;
 			if(result.title.contains(".")) {
 				result.oghamid=result.title.substring(0,result.title.indexOf('.'));
 			}
@@ -181,7 +188,12 @@ public class EpidocExtractor extends DefaultHandler2 {
 		switch(qName) {
 		case "geo": this.geo=Boolean.FALSE;
 			break;
+		case "titleStmt":
+			this.titlest=Boolean.FALSE;
+			break;
 		case "title": this.title=Boolean.FALSE;
+			result.title=result.title.trim();
+			System.out.println("FINAL TITLE: "+ result.title);
 			break;
 		case "div": this.photographs=Boolean.FALSE;
 			break;
