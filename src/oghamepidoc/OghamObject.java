@@ -190,7 +190,7 @@ public class OghamObject {
 		}
 		for(String perss:persons) {
 			Individual persson=word.createIndividual(BASEURI+URLEncoder.encode(perss));
-			persson.addLabel("Person Word: "+perss,"en");
+			persson.addLabel("Person Word: "+perss+" ("+OghamUtils.translitToUnicode(perss)+")","en");
 			Individual personsense=person.createIndividual(BASEURI+URLEncoder.encode(perss)+"_person");
 			persson.addLabel("Person: "+perss,"en");
 			if(perss.contains("CUNA")) {
@@ -217,6 +217,8 @@ public class OghamObject {
 			Individual son=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getOne())+"_person");
 			Individual father=person.createIndividual(BASEURI+URLEncoder.encode(sonof.getTwo())+"_person");
 			son.addProperty(fatherrel, father);
+			son.setLabel("Person: "+sonof.getOne(),"en");
+			father.addLabel("Person: "+sonof.getTwo(),"en");
 			curind.addProperty(inscriptionmentions, son);
 			curind.addProperty(inscriptionmentions, father);
 		}	
@@ -225,6 +227,8 @@ public class OghamObject {
 			Individual tribee=tribe.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo()));
 			pers.addProperty(partofTribe, tribee);
 			tribee.addProperty(hasMember, pers);
+			pers.setLabel("Person: "+partof.getOne(),"en");
+			tribee.addLabel("Tribe: "+partof.getTwo(),"en");
 			curind.addProperty(inscriptionmentions, pers);
 			curind.addProperty(inscriptionmentions, tribee);
 		}
@@ -233,6 +237,8 @@ public class OghamObject {
 			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo())+"_person");
 			pers.addProperty(relative, tribee);
 			tribee.addProperty(relative, pers);
+			pers.setLabel("Person: "+partof.getOne(),"en");
+			tribee.addLabel("Tribe: "+partof.getTwo(),"en");
 			curind.addProperty(inscriptionmentions, pers);
 			curind.addProperty(inscriptionmentions, tribee);
 		}
@@ -240,6 +246,8 @@ public class OghamObject {
 			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne())+"_person");
 			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo())+"_person");
 			pers.addProperty(follows, tribee);
+			pers.setLabel("Person: "+partof.getOne(),"en");
+			tribee.addLabel("Tribe: "+partof.getTwo(),"en");
 			curind.addProperty(inscriptionmentions, pers);
 			curind.addProperty(inscriptionmentions, tribee);
 		}
@@ -247,6 +255,8 @@ public class OghamObject {
 			Individual pers=person.createIndividual(BASEURI+URLEncoder.encode(partof.getOne())+"_person");
 			Individual tribee=person.createIndividual(BASEURI+URLEncoder.encode(partof.getTwo())+"_person");
 			pers.addProperty(descendantOf, tribee);
+			pers.setLabel("Person: "+partof.getOne(),"en");
+			tribee.addLabel("Tribe: "+partof.getTwo(),"en");
 			curind.addProperty(inscriptionmentions, pers);
 			curind.addProperty(inscriptionmentions, tribee);
 		}

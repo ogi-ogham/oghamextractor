@@ -5,7 +5,7 @@
 
 <http://www.i3mainz.de/ogham#LOBACCONA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: LOBACCONA (ᚂᚑᚁᚐᚊᚊᚑᚆᚐ)"@en , "Person: LOBACCONA"@en , "Person Word: LOBACCONA"@en ;
+      rdfs:label "Person Word: LOBACCONA (ᚂᚑᚁᚐᚊᚊᚑᚆᚐ)"@en , "Word: LOBACCONA (ᚂᚑᚁᚐᚊᚊᚑᚆᚐ)"@en , "Person: LOBACCONA"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -36,6 +36,7 @@
 
 <http://www.i3mainz.de/ogham#TRENALUGGO%3F_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: TRENALUGGO?"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -90,7 +91,8 @@
               <http://www.i3mainz.de/ogham#VORRTIGURN_person> .
 
 <http://www.i3mainz.de/ogham#MARIANI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MARIANI"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+207.+Kilcoolaght+East_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -103,7 +105,7 @@
 
 <http://www.i3mainz.de/ogham#TOICACI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Word: TOICACI (ᚉᚑᚔᚊᚐᚊᚔ)"@en , "Person: TOICACI"@en , "Person Word: TOICACI"@en ;
+      rdfs:label "Word: TOICACI (ᚉᚑᚔᚊᚐᚊᚔ)"@en , "Person: TOICACI"@en , "Person Word: TOICACI (ᚉᚑᚔᚊᚐᚊᚔ)"@en , "Tribe: TOICACI"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#MAQI-RITEAS_person> , <http://www.i3mainz.de/ogham#MAQI-TTAL_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -121,7 +123,7 @@
 
 <http://www.i3mainz.de/ogham#LITENI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: LITENI"@en , "Word: LITENI (ᚂᚔᚉᚓᚆᚔ)"@en , "Person: LITENI"@en ;
+      rdfs:label "Person Word: LITENI (ᚂᚔᚉᚓᚆᚔ)"@en , "Word: LITENI (ᚂᚔᚉᚓᚆᚔ)"@en , "Person: LITENI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -136,7 +138,8 @@
               "ᚂᚔᚉᚓᚆᚔ" .
 
 <http://www.i3mainz.de/ogham#ROTTAIS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: ROTTAIS"@en .
 
 <http://xmlns.com/foaf/0.1/Person>
       a       owl:Class ;
@@ -160,10 +163,12 @@
               <http://www.wikidata.org/entity/Q184661> , "ᚓ" .
 
 <http://www.i3mainz.de/ogham#LITENI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LITENI"@en .
 
 <http://www.i3mainz.de/ogham#DENAVECA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DENAVECA"@en ;
       <http://www.wikidata.org/prop/direct/P463>
               <http://www.i3mainz.de/ogham#MEDALO> .
 
@@ -194,7 +199,7 @@
 
 <http://www.i3mainz.de/ogham#VLATIAMI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: VLATIAMI (ᚄᚂᚐᚉᚔᚐᚋᚔ)"@en , "Person: VLATIAMI"@en , "Person Word: VLATIAMI"@en ;
+      rdfs:label "Word: VLATIAMI (ᚄᚂᚐᚉᚔᚐᚋᚔ)"@en , "Person: VLATIAMI"@en , "Person Word: VLATIAMI (ᚄᚂᚐᚉᚔᚐᚋᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -225,6 +230,7 @@
 
 <http://www.i3mainz.de/ogham#CUNAGUSOS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CUNAGUSOS"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382235> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -240,7 +246,7 @@
 
 <http://www.i3mainz.de/ogham#VATTILLOGG>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: VATTILLOGG"@en , "Word: VATTILLOGG (ᚄᚐᚉᚉᚔᚂᚂᚑᚌᚌ)"@en , "Person: VATTILLOGG"@en ;
+      rdfs:label "Word: VATTILLOGG (ᚄᚐᚉᚉᚔᚂᚂᚑᚌᚌ)"@en , "Person Word: VATTILLOGG (ᚄᚐᚉᚉᚔᚂᚂᚑᚌᚌ)"@en , "Person: VATTILLOGG"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -283,7 +289,7 @@
 
 <http://www.i3mainz.de/ogham#QECCIAS%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: QECCIAS?"@en , "Person Word: QECCIAS?"@en , "Word: QECCIAS? (ᚓᚊᚊᚔᚐᚅ)"@en ;
+      rdfs:label "Person: QECCIAS?"@en , "Person Word: QECCIAS? (ᚓᚊᚊᚔᚐᚅ)"@en , "Word: QECCIAS? (ᚓᚊᚊᚔᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -305,6 +311,7 @@
 
 <http://www.i3mainz.de/ogham#LLOTETI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LLOTETI"@en ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#SRUSA_person> .
 
@@ -333,7 +340,8 @@
               <http://www.i3mainz.de/ogham#SILLANN_person> .
 
 <http://www.i3mainz.de/ogham#VEDDONOS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: VEDDONOS"@en .
 
 <http://www.i3mainz.de/ogham#MEDVVI_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -397,12 +405,13 @@
 
 <http://www.i3mainz.de/ogham#CCICAMINI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CCICAMINI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#CATTINI_person> .
 
 <http://www.i3mainz.de/ogham#LABRID>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: LABRID"@en , "Word: LABRID (ᚂᚐᚁᚏᚔᚈ)"@en , "Person Word: LABRID"@en ;
+      rdfs:label "Person Word: LABRID (ᚂᚐᚁᚏᚔᚈ)"@en , "Person: LABRID"@en , "Word: LABRID (ᚂᚐᚁᚏᚔᚈ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -433,7 +442,7 @@
 
 <http://www.i3mainz.de/ogham#VITALIN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: VITALIN (ᚄᚔᚉᚐᚂᚔᚆ)"@en , "Person: VITALIN"@en , "Person Word: VITALIN"@en ;
+      rdfs:label "Person Word: VITALIN (ᚄᚔᚉᚐᚂᚔᚆ)"@en , "Word: VITALIN (ᚄᚔᚉᚐᚂᚔᚆ)"@en , "Person: VITALIN"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -449,6 +458,7 @@
 
 <http://www.i3mainz.de/ogham#OVANOS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: OVANOS"@en ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#IVACATTOS_person> .
 
@@ -474,7 +484,7 @@
 
 <http://www.i3mainz.de/ogham#BR...>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: BR..."@en , "Person Word: BR..."@en , "Word: BR... (ᚁᚏ)"@en ;
+      rdfs:label "Person Word: BR... (ᚁᚏ)"@en , "Person: BR..."@en , "Word: BR... (ᚁᚏ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -489,7 +499,8 @@
               "ᚁᚏ" .
 
 <http://www.i3mainz.de/ogham#DOLIGENN_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DOLIGENN"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+153>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -502,7 +513,7 @@
 
 <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: TOGITTACC[I]"@en , "Person Word: TOGITTACC[I]"@en , "Word: TOGITTACC[I] (ᚉᚑᚌᚔᚉᚉᚐᚊᚊᚔ)"@en ;
+      rdfs:label "Person: TOGITTACC[I]"@en , "Word: TOGITTACC[I] (ᚉᚑᚌᚔᚉᚉᚐᚊᚊᚔ)"@en , "Person Word: TOGITTACC[I] (ᚉᚑᚌᚔᚉᚉᚐᚊᚊᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -518,12 +529,13 @@
 
 <http://www.i3mainz.de/ogham#TRENU_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: TRENU"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#QRITTI_person> .
 
 <http://www.i3mainz.de/ogham#COMMAGGAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: COMMAGGAGNI (ᚊᚑᚋᚋᚐᚌᚌᚐᚌᚆᚔ)"@en , "Person Word: COMMAGGAGNI"@en , "Person: COMMAGGAGNI"@en ;
+      rdfs:label "Person Word: COMMAGGAGNI (ᚊᚑᚋᚋᚐᚌᚌᚐᚌᚆᚔ)"@en , "Word: COMMAGGAGNI (ᚊᚑᚋᚋᚐᚌᚌᚐᚌᚆᚔ)"@en , "Person: COMMAGGAGNI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -570,7 +582,7 @@
 
 <http://www.i3mainz.de/ogham#ISAMMNN%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Person: ISAMMNN?"@en , "Word: ISAMMNN? (ᚔᚅᚐᚋᚋᚆᚆ)"@en , "Person Word: ISAMMNN?"@en ;
+      rdfs:label "Person: ISAMMNN?"@en , "Person Word: ISAMMNN? (ᚔᚅᚐᚋᚋᚆᚆ)"@en , "Word: ISAMMNN? (ᚔᚅᚐᚋᚋᚆᚆ)"@en , "Tribe: ISAMMNN?"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#COMMAGGAGNI_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -602,7 +614,7 @@
 
 <http://www.i3mainz.de/ogham#INISSIONAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: INISSIONAS"@en , "Word: INISSIONAS (ᚔᚆᚔᚅᚅᚔᚑᚆᚐᚅ)"@en , "Person Word: INISSIONAS"@en ;
+      rdfs:label "Person: INISSIONAS"@en , "Word: INISSIONAS (ᚔᚆᚔᚅᚅᚔᚑᚆᚐᚅ)"@en , "Person Word: INISSIONAS (ᚔᚆᚔᚅᚅᚔᚑᚆᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -617,11 +629,12 @@
               "ᚔᚆᚔᚅᚅᚔᚑᚆᚐᚅ" .
 
 <http://www.i3mainz.de/ogham#MAQI-DUMILEAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-DUMILEAS"@en .
 
 <http://www.i3mainz.de/ogham#DROGNO>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DROGNO"@en , "Word: DROGNO (ᚈᚏᚑᚌᚆᚑ)"@en , "Person: DROGNO"@en ;
+      rdfs:label "Person Word: DROGNO (ᚈᚏᚑᚌᚆᚑ)"@en , "Word: DROGNO (ᚈᚏᚑᚌᚆᚑ)"@en , "Person: DROGNO"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -637,6 +650,7 @@
 
 <http://www.i3mainz.de/ogham#COIMAGNI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: COIMAGNI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#VITALIN_person> .
 
@@ -659,7 +673,8 @@
               "POINT (-6.254558 53.340408)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#DOMANEQI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DOMANEQI"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+172>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -692,7 +707,7 @@
 
 <http://www.i3mainz.de/ogham#MARIANI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: MARIANI (ᚋᚐᚏᚔᚐᚆᚔ)"@en , "Person Word: MARIANI"@en , "Person: MARIANI"@en ;
+      rdfs:label "Word: MARIANI (ᚋᚐᚏᚔᚐᚆᚔ)"@en , "Person: MARIANI"@en , "Person Word: MARIANI (ᚋᚐᚏᚔᚐᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -714,7 +729,7 @@
 
 <http://www.i3mainz.de/ogham#VEDDONOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: VEDDONOS"@en , "Word: VEDDONOS (ᚄᚓᚈᚈᚑᚆᚑᚅ)"@en , "Person Word: VEDDONOS"@en ;
+      rdfs:label "Person: VEDDONOS"@en , "Word: VEDDONOS (ᚄᚓᚈᚈᚑᚆᚑᚅ)"@en , "Person Word: VEDDONOS (ᚄᚓᚈᚈᚑᚆᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -730,7 +745,7 @@
 
 <http://www.i3mainz.de/ogham#BROINIONAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: BROINIONAS"@en , "Word: BROINIONAS (ᚁᚏᚑᚔᚆᚔᚑᚆᚐᚅ)"@en , "Person: BROINIONAS"@en ;
+      rdfs:label "Person Word: BROINIONAS (ᚁᚏᚑᚔᚆᚔᚑᚆᚐᚅ)"@en , "Word: BROINIONAS (ᚁᚏᚑᚔᚆᚔᚑᚆᚐᚅ)"@en , "Person: BROINIONAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -762,7 +777,7 @@
 
 <http://www.i3mainz.de/ogham#BECCDINN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: BECCDINN"@en , "Person: BECCDINN"@en , "Word: BECCDINN (ᚁᚓᚊᚊᚈᚔᚆᚆ)"@en ;
+      rdfs:label "Person: BECCDINN"@en , "Word: BECCDINN (ᚁᚓᚊᚊᚈᚔᚆᚆ)"@en , "Person Word: BECCDINN (ᚁᚓᚊᚊᚈᚔᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -778,7 +793,7 @@
 
 <http://www.i3mainz.de/ogham#COBRANORA%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: COBRANORA? (ᚊᚑᚁᚏᚐᚆᚑᚏᚐ)"@en , "Person Word: COBRANORA?"@en , "Person: COBRANORA?"@en ;
+      rdfs:label "Word: COBRANORA? (ᚊᚑᚁᚏᚐᚆᚑᚏᚐ)"@en , "Person Word: COBRANORA? (ᚊᚑᚁᚏᚐᚆᚑᚏᚐ)"@en , "Person: COBRANORA?"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -800,7 +815,7 @@
 
 <http://www.i3mainz.de/ogham#GOSSUCTTIAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: GOSSUCTTIAS (ᚌᚑᚅᚅᚒᚊᚉᚉᚔᚐᚅ)"@en , "Person Word: GOSSUCTTIAS"@en , "Person: GOSSUCTTIAS"@en ;
+      rdfs:label "Word: GOSSUCTTIAS (ᚌᚑᚅᚅᚒᚊᚉᚉᚔᚐᚅ)"@en , "Person: GOSSUCTTIAS"@en , "Person Word: GOSSUCTTIAS (ᚌᚑᚅᚅᚒᚊᚉᚉᚔᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -880,7 +895,7 @@
 
 <http://www.i3mainz.de/ogham#GRAVICAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Person: GRAVICAS"@en , "Person Word: GRAVICAS"@en , "Word: GRAVICAS (ᚌᚏᚐᚄᚔᚊᚐᚅ)"@en ;
+      rdfs:label "Person Word: GRAVICAS (ᚌᚏᚐᚄᚔᚊᚐᚅ)"@en , "Person: GRAVICAS"@en , "Tribe: GRAVICAS"@en , "Word: GRAVICAS (ᚌᚏᚐᚄᚔᚊᚐᚅ)"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#GRAVICAS_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -965,7 +980,7 @@
 
 <http://www.i3mainz.de/ogham#...LL...>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: ...LL..."@en , "Word: ...LL... (ᚂᚂ)"@en , "Person: ...LL..."@en ;
+      rdfs:label "Word: ...LL... (ᚂᚂ)"@en , "Person: ...LL..."@en , "Person Word: ...LL... (ᚂᚂ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1014,7 +1029,7 @@
 
 <http://www.i3mainz.de/ogham#DEGLANN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DEGLANN"@en , "Person: DEGLANN"@en , "Word: DEGLANN (ᚈᚓᚌᚂᚐᚆᚆ)"@en ;
+      rdfs:label "Person: DEGLANN"@en , "Person Word: DEGLANN (ᚈᚓᚌᚂᚐᚆᚆ)"@en , "Word: DEGLANN (ᚈᚓᚌᚂᚐᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1030,6 +1045,7 @@
 
 <http://www.i3mainz.de/ogham#GRAVICAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: GRAVICAS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#DOVVINIAS_person> ;
       <http://www.wikidata.org/prop/direct/P463>
@@ -1049,7 +1065,7 @@
 
 <http://www.i3mainz.de/ogham#CORBBI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CORBBI"@en , "Person: CORBBI"@en , "Word: CORBBI (ᚊᚑᚏᚁᚁᚔ)"@en ;
+      rdfs:label "Person Word: CORBBI (ᚊᚑᚏᚁᚁᚔ)"@en , "Person: CORBBI"@en , "Word: CORBBI (ᚊᚑᚏᚁᚁᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1064,7 +1080,8 @@
               "ᚊᚑᚏᚁᚁᚔ" .
 
 <http://www.i3mainz.de/ogham#LABRID_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LABRID"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+196>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -1095,7 +1112,7 @@
 
 <http://www.i3mainz.de/ogham#CUNACENA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: CUNACENA"@en , "Word: CUNACENA (ᚊᚒᚆᚐᚊᚓᚆᚐ)"@en , "Person Word: CUNACENA"@en ;
+      rdfs:label "Person: CUNACENA"@en , "Word: CUNACENA (ᚊᚒᚆᚐᚊᚓᚆᚐ)"@en , "Person Word: CUNACENA (ᚊᚒᚆᚐᚊᚓᚆᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1136,17 +1153,19 @@
 
 <http://www.i3mainz.de/ogham#MAILE-INBIR_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAILE-INBIR"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#BROCANN_person> .
 
 <http://www.i3mainz.de/ogham#QENILOCI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: QENILOCI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#MAQI-AINIA_person> .
 
 <http://www.i3mainz.de/ogham#BATTIGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: BATTIGNI"@en , "Person: BATTIGNI"@en , "Word: BATTIGNI (ᚁᚐᚉᚉᚔᚌᚆᚔ)"@en ;
+      rdfs:label "Person Word: BATTIGNI (ᚁᚐᚉᚉᚔᚌᚆᚔ)"@en , "Person: BATTIGNI"@en , "Word: BATTIGNI (ᚁᚐᚉᚉᚔᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1171,7 +1190,7 @@
 
 <http://www.i3mainz.de/ogham#SEDANI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: SEDANI (ᚅᚓᚈᚐᚆᚔ)"@en , "Person Word: SEDANI"@en , "Person: SEDANI"@en ;
+      rdfs:label "Word: SEDANI (ᚅᚓᚈᚐᚆᚔ)"@en , "Person Word: SEDANI (ᚅᚓᚈᚐᚆᚔ)"@en , "Person: SEDANI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1186,7 +1205,8 @@
               "ᚅᚓᚈᚐᚆᚔ" .
 
 <http://www.i3mainz.de/ogham#QVECI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Tribe: QVECI"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+190.+Lugnagappul_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -1198,7 +1218,8 @@
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#DOVINIA_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DOVINIA"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+193>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -1211,7 +1232,7 @@
 
 <http://www.i3mainz.de/ogham#VEDABAR>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: VEDABAR (ᚄᚓᚈᚐᚁᚐᚏ)"@en , "Person Word: VEDABAR"@en , "Person: VEDABAR"@en ;
+      rdfs:label "Person Word: VEDABAR (ᚄᚓᚈᚐᚁᚐᚏ)"@en , "Word: VEDABAR (ᚄᚓᚈᚐᚁᚐᚏ)"@en , "Person: VEDABAR"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1230,7 +1251,7 @@
 
 <http://www.i3mainz.de/ogham#MOINENA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: MOINENA (ᚋᚑᚔᚆᚓᚆᚐ)"@en , "Person Word: MOINENA"@en , "Person: MOINENA"@en ;
+      rdfs:label "Word: MOINENA (ᚋᚑᚔᚆᚓᚆᚐ)"@en , "Person: MOINENA"@en , "Person Word: MOINENA (ᚋᚑᚔᚆᚓᚆᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1246,7 +1267,7 @@
 
 <http://www.i3mainz.de/ogham#NETTA-LAMINACCA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: NETTA-LAMINACCA"@en , "Word: NETTA-LAMINACCA (ᚆᚓᚉᚉᚐᚂᚐᚋᚔᚆᚐᚊᚊᚐ)"@en , "Person Word: NETTA-LAMINACCA"@en ;
+      rdfs:label "Person Word: NETTA-LAMINACCA (ᚆᚓᚉᚉᚐᚂᚐᚋᚔᚆᚐᚊᚊᚐ)"@en , "Person: NETTA-LAMINACCA"@en , "Word: NETTA-LAMINACCA (ᚆᚓᚉᚉᚐᚂᚐᚋᚔᚆᚐᚊᚊᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1280,7 +1301,8 @@
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#IVACATTOS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Tribe: IVACATTOS"@en .
 
 <http://www.i3mainz.de/ogham#Scattery+Island>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -1291,7 +1313,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-TTAL>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: MAQI-TTAL"@en , "Word: MAQI-TTAL (ᚋᚐᚔᚉᚉᚐᚂ)"@en , "Person Word: MAQI-TTAL"@en ;
+      rdfs:label "Person: MAQI-TTAL"@en , "Word: MAQI-TTAL (ᚋᚐᚔᚉᚉᚐᚂ)"@en , "Person Word: MAQI-TTAL (ᚋᚐᚔᚉᚉᚐᚂ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1309,7 +1331,8 @@
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#MEDVVI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MEDVVI"@en .
 
 <http://www.i3mainz.de/ogham#COBRANORA%3F_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
@@ -1333,7 +1356,8 @@
               <http://www.i3mainz.de/ogham#BECCDINN_person> .
 
 <http://www.i3mainz.de/ogham#CATTABBOTT_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CATTABBOTT"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+192.+Martramane_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -1367,11 +1391,13 @@
 
 <http://www.i3mainz.de/ogham#CORBI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CORBI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#LABRID_person> .
 
 <http://www.i3mainz.de/ogham#CUNANETAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CUNANETAS"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382235> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -1393,7 +1419,7 @@
 
 <http://www.i3mainz.de/ogham#COSCIS%2FN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Person: COSCIS/N"@en , "Person Word: COSCIS/N"@en , "Word: COSCIS/N (ᚊᚑᚅᚊᚔᚅᚆ)"@en ;
+      rdfs:label "Tribe: COSCIS/N"@en , "Person: COSCIS/N"@en , "Person Word: COSCIS/N (ᚊᚑᚅᚊᚔᚅᚆ)"@en , "Word: COSCIS/N (ᚊᚑᚅᚊᚔᚅᚆ)"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#MAQI-CUNALIG..._person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -1417,6 +1443,7 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-ERCCIA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQQI-ERCCIA"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382360> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -1432,7 +1459,7 @@
 
 <http://www.i3mainz.de/ogham#MAILE-INBIR>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: MAILE-INBIR (ᚋᚐᚔᚂᚓᚔᚆᚁᚔᚏ)"@en , "Person Word: MAILE-INBIR"@en , "Person: MAILE-INBIR"@en ;
+      rdfs:label "Word: MAILE-INBIR (ᚋᚐᚔᚂᚓᚔᚆᚁᚔᚏ)"@en , "Person: MAILE-INBIR"@en , "Person Word: MAILE-INBIR (ᚋᚐᚔᚂᚓᚔᚆᚁᚔᚏ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1464,7 +1491,7 @@
 
 <http://www.i3mainz.de/ogham#EQQEGGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: EQQEGGNI (ᚓᚓᚌᚌᚆᚔ)"@en , "Person: EQQEGGNI"@en , "Person Word: EQQEGGNI"@en ;
+      rdfs:label "Word: EQQEGGNI (ᚓᚓᚌᚌᚆᚔ)"@en , "Person: EQQEGGNI"@en , "Person Word: EQQEGGNI (ᚓᚓᚌᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1480,7 +1507,7 @@
 
 <http://www.i3mainz.de/ogham#SILLANN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: SILLANN (ᚅᚔᚂᚂᚐᚆᚆ)"@en , "Person Word: SILLANN"@en , "Person: SILLANN"@en ;
+      rdfs:label "Word: SILLANN (ᚅᚔᚂᚂᚐᚆᚆ)"@en , "Person: SILLANN"@en , "Person Word: SILLANN (ᚅᚔᚂᚂᚐᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1505,7 +1532,7 @@
 
 <http://www.i3mainz.de/ogham#DENAVECA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: DENAVECA (ᚈᚓᚆᚐᚄᚓᚊᚐ)"@en , "Person Word: DENAVECA"@en , "Person: DENAVECA"@en ;
+      rdfs:label "Person Word: DENAVECA (ᚈᚓᚆᚐᚄᚓᚊᚐ)"@en , "Word: DENAVECA (ᚈᚓᚆᚐᚄᚓᚊᚐ)"@en , "Person: DENAVECA"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1521,7 +1548,7 @@
 
 <http://www.i3mainz.de/ogham#DUCOVAROS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DUCOVAROS"@en , "Person: DUCOVAROS"@en , "Word: DUCOVAROS (ᚈᚒᚊᚑᚄᚐᚏᚑᚅ)"@en ;
+      rdfs:label "Person: DUCOVAROS"@en , "Person Word: DUCOVAROS (ᚈᚒᚊᚑᚄᚐᚏᚑᚅ)"@en , "Word: DUCOVAROS (ᚈᚒᚊᚑᚄᚐᚏᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1543,12 +1570,13 @@
 
 <http://www.i3mainz.de/ogham#SILLANN_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: SILLANN"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#VATTILLOGG_person> .
 
 <http://www.i3mainz.de/ogham#CATTINI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: CATTINI (ᚊᚐᚉᚉᚔᚆᚔ)"@en , "Person Word: CATTINI"@en , "Person: CATTINI"@en ;
+      rdfs:label "Person Word: CATTINI (ᚊᚐᚉᚉᚔᚆᚔ)"@en , "Word: CATTINI (ᚊᚐᚉᚉᚔᚆᚔ)"@en , "Person: CATTINI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1563,7 +1591,8 @@
               "ᚊᚐᚉᚉᚔᚆᚔ" .
 
 <http://www.i3mainz.de/ogham#VIRAGNI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: VIRAGNI"@en .
 
 <http://www.i3mainz.de/ogham#Keel+West_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -1573,7 +1602,7 @@
 
 <http://www.i3mainz.de/ogham#VINNAGITLET%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: VINNAGITLET?"@en , "Word: VINNAGITLET? (ᚄᚔᚆᚆᚐᚌᚔᚉᚂᚓᚉ)"@en , "Person Word: VINNAGITLET?"@en ;
+      rdfs:label "Person: VINNAGITLET?"@en , "Person Word: VINNAGITLET? (ᚄᚔᚆᚆᚐᚌᚔᚉᚂᚓᚉ)"@en , "Word: VINNAGITLET? (ᚄᚔᚆᚆᚐᚌᚔᚉᚂᚓᚉ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1589,7 +1618,7 @@
 
 <http://www.i3mainz.de/ogham#IAQINI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: IAQINI (ᚔᚐᚔᚆᚔ)"@en , "Person: IAQINI"@en , "Person Word: IAQINI"@en ;
+      rdfs:label "Word: IAQINI (ᚔᚐᚔᚆᚔ)"@en , "Person Word: IAQINI (ᚔᚐᚔᚆᚔ)"@en , "Person: IAQINI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1605,7 +1634,7 @@
 
 <http://www.i3mainz.de/ogham#BIR>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: BIR (ᚁᚔᚏ)"@en , "Person Word: BIR"@en , "Person: BIR"@en ;
+      rdfs:label "Word: BIR (ᚁᚔᚏ)"@en , "Person Word: BIR (ᚁᚔᚏ)"@en , "Person: BIR"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1636,7 +1665,7 @@
 
 <http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: B[AI]D[A]N[I]"@en , "Word: B[AI]D[A]N[I] (ᚁᚐᚔᚈᚐᚆᚔ)"@en , "Person Word: B[AI]D[A]N[I]"@en ;
+      rdfs:label "Person: B[AI]D[A]N[I]"@en , "Word: B[AI]D[A]N[I] (ᚁᚐᚔᚈᚐᚆᚔ)"@en , "Person Word: B[AI]D[A]N[I] (ᚁᚐᚔᚈᚐᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1658,6 +1687,7 @@
 
 <http://www.i3mainz.de/ogham#ERC_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: ERC"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382360> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -1713,19 +1743,23 @@
 
 <http://www.i3mainz.de/ogham#DUNAIDONAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DUNAIDONAS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#MARIANI_person> .
 
 <http://www.i3mainz.de/ogham#SRUSA_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Tribe: SRUSA"@en .
 
 <http://www.i3mainz.de/ogham#SENAQ_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: SENAQ"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#ENA_person> .
 
 <http://www.i3mainz.de/ogham#BRUSCCOS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: BRUSCCOS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#CALIACI_person> .
 
@@ -1737,7 +1771,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MAQI-ERCIAS?"@en , "Word: MAQI-ERCIAS? (ᚋᚐᚔᚓᚏᚊᚔᚐᚅ)"@en , "Person: MAQI-ERCIAS?"@en ;
+      rdfs:label "Person Word: MAQI-ERCIAS? (ᚋᚐᚔᚓᚏᚊᚔᚐᚅ)"@en , "Word: MAQI-ERCIAS? (ᚋᚐᚔᚓᚏᚊᚔᚐᚅ)"@en , "Person: MAQI-ERCIAS?"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1759,7 +1793,7 @@
 
 <http://www.i3mainz.de/ogham#GALEOTOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: GALEOTOS"@en , "Person Word: GALEOTOS"@en , "Word: GALEOTOS (ᚌᚐᚂᚓᚑᚉᚑᚅ)"@en ;
+      rdfs:label "Person: GALEOTOS"@en , "Word: GALEOTOS (ᚌᚐᚂᚓᚑᚉᚑᚅ)"@en , "Person Word: GALEOTOS (ᚌᚐᚂᚓᚑᚉᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1775,6 +1809,7 @@
 
 <http://www.i3mainz.de/ogham#ALATTOS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: ALATTOS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#BR..._person> .
 
@@ -1801,7 +1836,7 @@
 
 <http://www.i3mainz.de/ogham#COIMAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: COIMAGNI"@en , "Person: COIMAGNI"@en , "Word: COIMAGNI (ᚊᚑᚔᚋᚐᚌᚆᚔ)"@en ;
+      rdfs:label "Person Word: COIMAGNI (ᚊᚑᚔᚋᚐᚌᚆᚔ)"@en , "Person: COIMAGNI"@en , "Word: COIMAGNI (ᚊᚑᚔᚋᚐᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1826,7 +1861,7 @@
 
 <http://www.i3mainz.de/ogham#LUGUQRIT>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: LUGUQRIT (ᚂᚒᚌᚒᚏᚔᚉ)"@en , "Person: LUGUQRIT"@en , "Person Word: LUGUQRIT"@en ;
+      rdfs:label "Word: LUGUQRIT (ᚂᚒᚌᚒᚏᚔᚉ)"@en , "Person Word: LUGUQRIT (ᚂᚒᚌᚒᚏᚔᚉ)"@en , "Person: LUGUQRIT"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1853,11 +1888,12 @@
               <http://www.i3mainz.de/ogham#CATTUVIR_person> .
 
 <http://www.i3mainz.de/ogham#TAN..._person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: TAN..."@en .
 
 <http://www.i3mainz.de/ogham#DUGENNGI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: DUGENNGI"@en , "Word: DUGENNGI (ᚈᚒᚌᚓᚆᚆᚌᚔ)"@en , "Person Word: DUGENNGI"@en ;
+      rdfs:label "Person: DUGENNGI"@en , "Word: DUGENNGI (ᚈᚒᚌᚓᚆᚆᚌᚔ)"@en , "Person Word: DUGENNGI (ᚈᚒᚌᚓᚆᚆᚌᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1873,7 +1909,7 @@
 
 <http://www.i3mainz.de/ogham#CCICAMINI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CCICAMINI"@en , "Person: CCICAMINI"@en , "Word: CCICAMINI (ᚊᚊᚔᚊᚐᚋᚔᚆᚔ)"@en ;
+      rdfs:label "Person Word: CCICAMINI (ᚊᚊᚔᚊᚐᚋᚔᚆᚔ)"@en , "Person: CCICAMINI"@en , "Word: CCICAMINI (ᚊᚊᚔᚊᚐᚋᚔᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1889,11 +1925,13 @@
 
 <http://www.i3mainz.de/ogham#DUGENNGI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DUGENNGI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#RODDOS_person> .
 
 <http://www.i3mainz.de/ogham#MAQI-DECEDAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-DECEDAS"@en ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#TURANIAS_person> ;
       <http://www.wikidata.org/prop/direct/P22>
@@ -1928,7 +1966,7 @@
 
 <http://www.i3mainz.de/ogham#MAILAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: MAILAGNI (ᚋᚐᚔᚂᚐᚌᚆᚔ)"@en , "Person Word: MAILAGNI"@en , "Person: MAILAGNI"@en ;
+      rdfs:label "Word: MAILAGNI (ᚋᚐᚔᚂᚐᚌᚆᚔ)"@en , "Person Word: MAILAGNI (ᚋᚐᚔᚂᚐᚌᚆᚔ)"@en , "Person: MAILAGNI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1944,7 +1982,7 @@
 
 <http://www.i3mainz.de/ogham#CUNALEGEA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CUNALEGEA"@en , "Word: CUNALEGEA (ᚊᚒᚆᚐᚂᚓᚌᚓᚐ)"@en , "Person: CUNALEGEA"@en ;
+      rdfs:label "Person Word: CUNALEGEA (ᚊᚒᚆᚐᚂᚓᚌᚓᚐ)"@en , "Word: CUNALEGEA (ᚊᚒᚆᚐᚂᚓᚌᚓᚐ)"@en , "Person: CUNALEGEA"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -1960,6 +1998,7 @@
 
 <http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: B[AID]AGNI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#ADDILONA_person> .
 
@@ -2005,13 +2044,16 @@
               "POINT (-6.254558 53.340408)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#MUIBITI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MUIBITI"@en .
 
 <http://www.i3mainz.de/ogham#DOVVINIA_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DOVVINIA"@en .
 
 <http://www.i3mainz.de/ogham#TOICACI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: TOICACI"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+146.+Ballineanig_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -2021,7 +2063,7 @@
 
 <http://www.i3mainz.de/ogham#LUGA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Word: LUGA (ᚂᚒᚌᚐ)"@en , "Person: LUGA"@en , "Person Word: LUGA"@en ;
+      rdfs:label "Word: LUGA (ᚂᚒᚌᚐ)"@en , "Person: LUGA"@en , "Person Word: LUGA (ᚂᚒᚌᚐ)"@en , "Tribe: LUGA"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#MEDUSI_person> , <http://www.i3mainz.de/ogham#COLLABOT_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -2039,7 +2081,7 @@
 
 <http://www.i3mainz.de/ogham#INEQAGLAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: INEQAGLAS (ᚔᚆᚓᚐᚌᚂᚐᚅ)"@en , "Person Word: INEQAGLAS"@en , "Person: INEQAGLAS"@en ;
+      rdfs:label "Word: INEQAGLAS (ᚔᚆᚓᚐᚌᚂᚐᚅ)"@en , "Person Word: INEQAGLAS (ᚔᚆᚓᚐᚌᚂᚐᚅ)"@en , "Person: INEQAGLAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2070,7 +2112,7 @@
 
 <http://www.i3mainz.de/ogham#TASEGAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: TASEGAGNI"@en , "Word: TASEGAGNI (ᚉᚐᚅᚓᚌᚐᚌᚆᚔ)"@en , "Person: TASEGAGNI"@en ;
+      rdfs:label "Person Word: TASEGAGNI (ᚉᚐᚅᚓᚌᚐᚌᚆᚔ)"@en , "Word: TASEGAGNI (ᚉᚐᚅᚓᚌᚐᚌᚆᚔ)"@en , "Person: TASEGAGNI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2086,7 +2128,7 @@
 
 <http://www.i3mainz.de/ogham#DOLIGENN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DOLIGENN"@en , "Person: DOLIGENN"@en , "Word: DOLIGENN (ᚈᚑᚂᚔᚌᚓᚆᚆ)"@en ;
+      rdfs:label "Person: DOLIGENN"@en , "Word: DOLIGENN (ᚈᚑᚂᚔᚌᚓᚆᚆ)"@en , "Person Word: DOLIGENN (ᚈᚑᚂᚔᚌᚓᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2108,7 +2150,7 @@
 
 <http://www.i3mainz.de/ogham#MUIBITI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: MUIBITI (ᚋᚒᚔᚁᚔᚉᚔ)"@en , "Person Word: MUIBITI"@en , "Person: MUIBITI"@en ;
+      rdfs:label "Word: MUIBITI (ᚋᚒᚔᚁᚔᚉᚔ)"@en , "Person: MUIBITI"@en , "Person Word: MUIBITI (ᚋᚒᚔᚁᚔᚉᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2124,12 +2166,13 @@
 
 <http://www.i3mainz.de/ogham#BIGU_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: BIGU"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#LAG%5B..._person> .
 
 <http://www.i3mainz.de/ogham#ATAR>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Word: ATAR (ᚐᚉᚐᚏ)"@en , "Person: ATAR"@en , "Person Word: ATAR"@en ;
+      rdfs:label "Word: ATAR (ᚐᚉᚐᚏ)"@en , "Tribe: ATAR"@en , "Person Word: ATAR (ᚐᚉᚐᚏ)"@en , "Person: ATAR"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#BIVAIDONAS_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -2158,7 +2201,8 @@
               "POINT (-10.331399 52.154449)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#GLASICONAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: GLASICONAS"@en .
 
 <http://www.i3mainz.de/ogham#BIRRAC_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -2199,7 +2243,7 @@
 
 <http://www.i3mainz.de/ogham#BROINIENAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: BROINIENAS"@en , "Word: BROINIENAS (ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ)"@en , "Person Word: BROINIENAS"@en ;
+      rdfs:label "Person: BROINIENAS"@en , "Person Word: BROINIENAS (ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ)"@en , "Word: BROINIENAS (ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2215,7 +2259,7 @@
 
 <http://www.i3mainz.de/ogham#ALATTO>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: ALATTO"@en , "Person: ALATTO"@en , "Word: ALATTO (ᚐᚂᚐᚉᚉᚑ)"@en ;
+      rdfs:label "Person Word: ALATTO (ᚐᚂᚐᚉᚉᚑ)"@en , "Person: ALATTO"@en , "Word: ALATTO (ᚐᚂᚐᚉᚉᚑ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2231,7 +2275,7 @@
 
 <http://www.i3mainz.de/ogham#SEVERRIT>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: SEVERRIT (ᚅᚓᚄᚓᚏᚏᚔᚉ)"@en , "Person: SEVERRIT"@en , "Person Word: SEVERRIT"@en ;
+      rdfs:label "Word: SEVERRIT (ᚅᚓᚄᚓᚏᚏᚔᚉ)"@en , "Person: SEVERRIT"@en , "Person Word: SEVERRIT (ᚅᚓᚄᚓᚏᚏᚔᚉ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2251,12 +2295,13 @@
 
 <http://www.i3mainz.de/ogham#VRAICCI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: VRAICCI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#MEDVVI_person> .
 
 <http://www.i3mainz.de/ogham#COMOGANN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: COMOGANN"@en , "Person: COMOGANN"@en , "Word: COMOGANN (ᚊᚑᚋᚑᚌᚐᚆᚆ)"@en ;
+      rdfs:label "Person Word: COMOGANN (ᚊᚑᚋᚑᚌᚐᚆᚆ)"@en , "Person: COMOGANN"@en , "Word: COMOGANN (ᚊᚑᚋᚑᚌᚐᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2272,6 +2317,7 @@
 
 <http://www.i3mainz.de/ogham#...ERATI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: ...ERATI"@en ;
       <http://www.wikidata.org/prop/direct/P463>
               <http://www.i3mainz.de/ogham#NETA-SEGAMONAS> .
 
@@ -2314,7 +2360,8 @@
       rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> .
 
 <http://www.i3mainz.de/ogham#RODDOS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: RODDOS"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+252.+Gurrane_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -2330,7 +2377,7 @@
 
 <http://www.i3mainz.de/ogham#MANU>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: MANU"@en , "Person Word: MANU"@en , "Word: MANU (ᚋᚐᚆᚒ)"@en ;
+      rdfs:label "Person: MANU"@en , "Word: MANU (ᚋᚐᚆᚒ)"@en , "Person Word: MANU (ᚋᚐᚆᚒ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2346,7 +2393,7 @@
 
 <http://www.i3mainz.de/ogham#DALI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DALI"@en , "Person: DALI"@en , "Word: DALI (ᚈᚐᚂᚔ)"@en ;
+      rdfs:label "Person: DALI"@en , "Word: DALI (ᚈᚐᚂᚔ)"@en , "Person Word: DALI (ᚈᚐᚂᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2374,7 +2421,7 @@
 
 <http://www.i3mainz.de/ogham#LAG%5B...>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: LAG[... (ᚂᚐᚌ)"@en , "Person Word: LAG[..."@en , "Person: LAG[..."@en ;
+      rdfs:label "Word: LAG[... (ᚂᚐᚌ)"@en , "Person Word: LAG[... (ᚂᚐᚌ)"@en , "Person: LAG[..."@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2400,7 +2447,7 @@
 
 <http://www.i3mainz.de/ogham#UDDAMI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Word: UDDAMI (ᚒᚈᚈᚐᚋᚔ)"@en , "Person: UDDAMI"@en , "Person Word: UDDAMI"@en ;
+      rdfs:label "Word: UDDAMI (ᚒᚈᚈᚐᚋᚔ)"@en , "Person: UDDAMI"@en , "Tribe: UDDAMI"@en , "Person Word: UDDAMI (ᚒᚈᚈᚐᚋᚔ)"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#NOCATI_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -2436,7 +2483,7 @@
 
 <http://www.i3mainz.de/ogham#COROTANI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: COROTANI (ᚊᚑᚏᚑᚉᚐᚆᚔ)"@en , "Person Word: COROTANI"@en , "Person: COROTANI"@en ;
+      rdfs:label "Word: COROTANI (ᚊᚑᚏᚑᚉᚐᚆᚔ)"@en , "Person Word: COROTANI (ᚊᚑᚏᚑᚉᚐᚆᚔ)"@en , "Person: COROTANI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2466,7 +2513,7 @@
 
 <http://www.i3mainz.de/ogham#AMADU>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: AMADU (ᚐᚋᚐᚈᚒ)"@en , "Person Word: AMADU"@en , "Person: AMADU"@en ;
+      rdfs:label "Word: AMADU (ᚐᚋᚐᚈᚒ)"@en , "Person Word: AMADU (ᚐᚋᚐᚈᚒ)"@en , "Person: AMADU"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2500,7 +2547,7 @@
 
 <http://www.i3mainz.de/ogham#GATI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: GATI"@en , "Word: GATI (ᚌᚐᚉᚔ)"@en , "Person Word: GATI"@en ;
+      rdfs:label "Person Word: GATI (ᚌᚐᚉᚔ)"@en , "Person: GATI"@en , "Word: GATI (ᚌᚐᚉᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2515,11 +2562,12 @@
               "ᚌᚐᚉᚔ" .
 
 <http://www.i3mainz.de/ogham#ENA_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: ENA"@en .
 
 <http://www.i3mainz.de/ogham#DUNAIDONAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: DUNAIDONAS"@en , "Word: DUNAIDONAS (ᚈᚒᚆᚐᚔᚈᚑᚆᚐᚅ)"@en , "Person Word: DUNAIDONAS"@en ;
+      rdfs:label "Person: DUNAIDONAS"@en , "Person Word: DUNAIDONAS (ᚈᚒᚆᚐᚔᚈᚑᚆᚐᚅ)"@en , "Word: DUNAIDONAS (ᚈᚒᚆᚐᚔᚈᚑᚆᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2566,7 +2614,7 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-ERCCIA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MAQQI-ERCCIA"@en , "Word: MAQQI-ERCCIA (ᚋᚐᚔᚓᚏᚊᚊᚔᚐ)"@en , "Person: MAQQI-ERCCIA"@en ;
+      rdfs:label "Person Word: MAQQI-ERCCIA (ᚋᚐᚔᚓᚏᚊᚊᚔᚐ)"@en , "Word: MAQQI-ERCCIA (ᚋᚐᚔᚓᚏᚊᚊᚔᚐ)"@en , "Person: MAQQI-ERCCIA"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2582,7 +2630,7 @@
 
 <http://www.i3mainz.de/ogham#GAMICUNAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: GAMICUNAS"@en , "Word: GAMICUNAS (ᚌᚐᚋᚔᚊᚒᚆᚐᚅ)"@en , "Person: GAMICUNAS"@en ;
+      rdfs:label "Word: GAMICUNAS (ᚌᚐᚋᚔᚊᚒᚆᚐᚅ)"@en , "Person Word: GAMICUNAS (ᚌᚐᚋᚔᚊᚒᚆᚐᚅ)"@en , "Person: GAMICUNAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2598,11 +2646,13 @@
 
 <http://www.i3mainz.de/ogham#VURUDDRANN_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: VURUDDRANN"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#DOLIGENN_person> .
 
 <http://www.i3mainz.de/ogham#DALAGNI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DALAGNI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#DALI_person> .
 
@@ -2617,7 +2667,7 @@
 
 <http://www.i3mainz.de/ogham#TUCACAC>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: TUCACAC"@en , "Person Word: TUCACAC"@en , "Word: TUCACAC (ᚉᚒᚊᚐᚊᚐᚊ)"@en ;
+      rdfs:label "Person Word: TUCACAC (ᚉᚒᚊᚐᚊᚐᚊ)"@en , "Person: TUCACAC"@en , "Word: TUCACAC (ᚉᚒᚊᚐᚊᚐᚊ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2648,7 +2698,7 @@
 
 <http://www.i3mainz.de/ogham#RAVASA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: RAVASA (ᚏᚐᚄᚐᚅᚐ)"@en , "Person: RAVASA"@en , "Person Word: RAVASA"@en ;
+      rdfs:label "Word: RAVASA (ᚏᚐᚄᚐᚅᚐ)"@en , "Person: RAVASA"@en , "Person Word: RAVASA (ᚏᚐᚄᚐᚅᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2670,7 +2720,7 @@
 
 <http://www.i3mainz.de/ogham#ERACIAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: ERACIAS"@en , "Word: ERACIAS (ᚓᚏᚐᚊᚔᚐᚅ)"@en , "Person: ERACIAS"@en ;
+      rdfs:label "Person Word: ERACIAS (ᚓᚏᚐᚊᚔᚐᚅ)"@en , "Word: ERACIAS (ᚓᚏᚐᚊᚔᚐᚅ)"@en , "Person: ERACIAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2686,12 +2736,13 @@
 
 <http://www.i3mainz.de/ogham#CEDATTOQA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CEDATTOQA"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#VEDELMETO_person> .
 
 <http://www.i3mainz.de/ogham#BIVAIDONAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: BIVAIDONAS (ᚁᚔᚄᚐᚔᚈᚑᚆᚐᚅ)"@en , "Person Word: BIVAIDONAS"@en , "Person: BIVAIDONAS"@en ;
+      rdfs:label "Word: BIVAIDONAS (ᚁᚔᚄᚐᚔᚈᚑᚆᚐᚅ)"@en , "Person Word: BIVAIDONAS (ᚁᚔᚄᚐᚔᚈᚑᚆᚐᚅ)"@en , "Person: BIVAIDONAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2716,7 +2767,7 @@
 
 <http://www.i3mainz.de/ogham#TULOTANAGIA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: TULOTANAGIA"@en , "Person Word: TULOTANAGIA"@en , "Word: TULOTANAGIA (ᚉᚒᚂᚑᚉᚐᚆᚐᚌᚔᚐ)"@en ;
+      rdfs:label "Person Word: TULOTANAGIA (ᚉᚒᚂᚑᚉᚐᚆᚐᚌᚔᚐ)"@en , "Person: TULOTANAGIA"@en , "Word: TULOTANAGIA (ᚉᚒᚂᚑᚉᚐᚆᚐᚌᚔᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2745,7 +2796,7 @@
 
 <http://www.i3mainz.de/ogham#LOGIDEAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Person Word: LOGIDEAS"@en , "Person: LOGIDEAS"@en , "Word: LOGIDEAS (ᚂᚑᚌᚔᚈᚓᚐᚅ)"@en ;
+      rdfs:label "Person Word: LOGIDEAS (ᚂᚑᚌᚔᚈᚓᚐᚅ)"@en , "Person: LOGIDEAS"@en , "Tribe: LOGIDEAS"@en , "Word: LOGIDEAS (ᚂᚑᚌᚔᚈᚓᚐᚅ)"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#VEDELMETO_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -2763,7 +2814,7 @@
 
 <http://www.i3mainz.de/ogham#ERC>
       a       <http://www.wikidata.org/entity/Q67382150> , <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: ERC"@en , "Word: ERC (ᚓᚏᚊ)"@en , "Person: ERC"@en ;
+      rdfs:label "Word: ERC (ᚓᚏᚊ)"@en , "Person: ERC"@en , "Person Word: ERC (ᚓᚏᚊ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2800,12 +2851,13 @@
 
 <http://www.i3mainz.de/ogham#MOINENA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MOINENA"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#OLACON_person> .
 
 <http://www.i3mainz.de/ogham#CIR>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: CIR (ᚊᚔᚏ)"@en , "Person: CIR"@en , "Person Word: CIR"@en ;
+      rdfs:label "Word: CIR (ᚊᚔᚏ)"@en , "Person Word: CIR (ᚊᚔᚏ)"@en , "Person: CIR"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -2934,7 +2986,8 @@
               <http://www.i3mainz.de/ogham#MAKINI> , <http://www.i3mainz.de/ogham#GOSOCTEAS> .
 
 <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: TOGITTACC[I]?"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+1083.+Rathkenny+I_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -3012,7 +3065,7 @@
 
 <http://www.i3mainz.de/ogham#MINERC%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MINERC?"@en , "Person: MINERC?"@en , "Word: MINERC? (ᚋᚔᚆᚓᚏᚊ)"@en ;
+      rdfs:label "Person: MINERC?"@en , "Word: MINERC? (ᚋᚔᚆᚓᚏᚊ)"@en , "Person Word: MINERC? (ᚋᚔᚆᚓᚏᚊ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3028,7 +3081,7 @@
 
 <http://www.i3mainz.de/ogham#CATTUBUTTAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CATTUBUTTAS"@en , "Word: CATTUBUTTAS (ᚊᚐᚉᚉᚒᚁᚒᚉᚉᚐᚅ)"@en , "Person: CATTUBUTTAS"@en ;
+      rdfs:label "Person Word: CATTUBUTTAS (ᚊᚐᚉᚉᚒᚁᚒᚉᚉᚐᚅ)"@en , "Word: CATTUBUTTAS (ᚊᚐᚉᚉᚒᚁᚒᚉᚉᚐᚅ)"@en , "Person: CATTUBUTTAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3044,7 +3097,7 @@
 
 <http://www.i3mainz.de/ogham#DOVINIA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: DOVINIA (ᚈᚑᚄᚔᚆᚔᚐ)"@en , "Person: DOVINIA"@en , "Person Word: DOVINIA"@en ;
+      rdfs:label "Word: DOVINIA (ᚈᚑᚄᚔᚆᚔᚐ)"@en , "Person: DOVINIA"@en , "Person Word: DOVINIA (ᚈᚑᚄᚔᚆᚔᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3093,7 +3146,7 @@
 
 <http://www.i3mainz.de/ogham#NE%3FTTVRECC>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: NE?TTVRECC (ᚆᚓᚉᚉᚄᚏᚓᚊᚊ)"@en , "Person: NE?TTVRECC"@en , "Person Word: NE?TTVRECC"@en ;
+      rdfs:label "Word: NE?TTVRECC (ᚆᚓᚉᚉᚄᚏᚓᚊᚊ)"@en , "Person: NE?TTVRECC"@en , "Person Word: NE?TTVRECC (ᚆᚓᚉᚉᚄᚏᚓᚊᚊ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3122,6 +3175,7 @@
 
 <http://www.i3mainz.de/ogham#LOBBI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LOBBI"@en ;
       <http://www.wikidata.org/prop/direct/P463>
               <http://www.i3mainz.de/ogham#RINI> .
 
@@ -3132,11 +3186,12 @@
               <http://www.i3mainz.de/ogham#COSCIS%2FN_person> .
 
 <http://www.i3mainz.de/ogham#COROTANI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: COROTANI"@en .
 
 <http://www.i3mainz.de/ogham#LLATIGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: LLATIGNI"@en , "Word: LLATIGNI (ᚂᚂᚐᚉᚔᚌᚆᚔ)"@en , "Person Word: LLATIGNI"@en ;
+      rdfs:label "Person: LLATIGNI"@en , "Word: LLATIGNI (ᚂᚂᚐᚉᚔᚌᚆᚔ)"@en , "Person Word: LLATIGNI (ᚂᚂᚐᚉᚔᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3209,7 +3264,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-DUMILEAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MAQI-DUMILEAS"@en , "Person: MAQI-DUMILEAS"@en , "Word: MAQI-DUMILEAS (ᚋᚐᚔᚈᚒᚋᚔᚂᚓᚐᚅ)"@en ;
+      rdfs:label "Person: MAQI-DUMILEAS"@en , "Person Word: MAQI-DUMILEAS (ᚋᚐᚔᚈᚒᚋᚔᚂᚓᚐᚅ)"@en , "Word: MAQI-DUMILEAS (ᚋᚐᚔᚈᚒᚋᚔᚂᚓᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3238,7 +3293,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-CAIRATINI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: MAQI-CAIRATINI"@en , "Word: MAQI-CAIRATINI (ᚋᚐᚔᚊᚐᚔᚏᚐᚉᚔᚆᚔ)"@en , "Person Word: MAQI-CAIRATINI"@en ;
+      rdfs:label "Person: MAQI-CAIRATINI"@en , "Word: MAQI-CAIRATINI (ᚋᚐᚔᚊᚐᚔᚏᚐᚉᚔᚆᚔ)"@en , "Person Word: MAQI-CAIRATINI (ᚋᚐᚔᚊᚐᚔᚏᚐᚉᚔᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3268,6 +3323,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-INI..._person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-INI..."@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_person> .
 
@@ -3279,10 +3335,12 @@
               "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026003-" .
 
 <http://www.i3mainz.de/ogham#BROCANN_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: BROCANN"@en .
 
 <http://www.i3mainz.de/ogham#CUNAMAQQI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CUNAMAQQI"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382235> ;
       <http://www.i3mainz.de/ogham#descendantOf>
@@ -3333,11 +3391,12 @@
               <http://www.i3mainz.de/ogham#ULCCAGNI> .
 
 <http://www.i3mainz.de/ogham#COILLI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: COILLI"@en .
 
 <http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: VIRR[ACC]ANNI?"@en , "Person: VIRR[ACC]ANNI?"@en , "Word: VIRR[ACC]ANNI? (ᚄᚔᚏᚏᚐᚊᚊᚐᚆᚆᚔ)"@en ;
+      rdfs:label "Person Word: VIRR[ACC]ANNI? (ᚄᚔᚏᚏᚐᚊᚊᚐᚆᚆᚔ)"@en , "Person: VIRR[ACC]ANNI?"@en , "Word: VIRR[ACC]ANNI? (ᚄᚔᚏᚏᚐᚊᚊᚐᚆᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3368,7 +3427,7 @@
 
 <http://www.i3mainz.de/ogham#MEDALO>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Person Word: MEDALO"@en , "Word: MEDALO (ᚋᚓᚈᚐᚂᚑ)"@en , "Person: MEDALO"@en ;
+      rdfs:label "Person Word: MEDALO (ᚋᚓᚈᚐᚂᚑ)"@en , "Tribe: MEDALO"@en , "Word: MEDALO (ᚋᚓᚈᚐᚂᚑ)"@en , "Person: MEDALO"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#DENAVECA_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -3392,7 +3451,7 @@
 
 <http://www.i3mainz.de/ogham#RODDOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: RODDOS (ᚏᚑᚈᚈᚑᚅ)"@en , "Person: RODDOS"@en , "Person Word: RODDOS"@en ;
+      rdfs:label "Word: RODDOS (ᚏᚑᚈᚈᚑᚅ)"@en , "Person: RODDOS"@en , "Person Word: RODDOS (ᚏᚑᚈᚈᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3414,7 +3473,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: MAQI-ERCIAS (ᚋᚐᚔᚓᚏᚊᚔᚐᚅ)"@en , "Person Word: MAQI-ERCIAS"@en , "Person: MAQI-ERCIAS"@en ;
+      rdfs:label "Person Word: MAQI-ERCIAS (ᚋᚐᚔᚓᚏᚊᚔᚐᚅ)"@en , "Word: MAQI-ERCIAS (ᚋᚐᚔᚓᚏᚊᚔᚐᚅ)"@en , "Person: MAQI-ERCIAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3454,7 +3513,7 @@
 
 <http://www.i3mainz.de/ogham#IVACATTOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: IVACATTOS (ᚔᚄᚐᚊᚐᚉᚉᚑᚅ)"@en , "Person: IVACATTOS"@en , "Person Word: IVACATTOS"@en ;
+      rdfs:label "Word: IVACATTOS (ᚔᚄᚐᚊᚐᚉᚉᚑᚅ)"@en , "Person: IVACATTOS"@en , "Person Word: IVACATTOS (ᚔᚄᚐᚊᚐᚉᚉᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3475,7 +3534,8 @@
               "POINT (-9.634923 52.06042)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#QRITTI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: QRITTI"@en .
 
 <http://www.i3mainz.de/ogham#DOVINIAS_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -3499,7 +3559,7 @@
 
 <http://www.i3mainz.de/ogham#ENA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: ENA (ᚓᚆᚐ)"@en , "Person Word: ENA"@en , "Person: ENA"@en ;
+      rdfs:label "Word: ENA (ᚓᚆᚐ)"@en , "Person Word: ENA (ᚓᚆᚐ)"@en , "Person: ENA"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3521,7 +3581,7 @@
 
 <http://www.i3mainz.de/ogham#GLUNLEGGET>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Word: GLUNLEGGET (ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ)"@en , "Person: GLUNLEGGET"@en , "Person Word: GLUNLEGGET"@en ;
+      rdfs:label "Word: GLUNLEGGET (ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ)"@en , "Person: GLUNLEGGET"@en , "Person Word: GLUNLEGGET (ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ)"@en , "Tribe: GLUNLEGGET"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#VEQREQ_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -3542,7 +3602,7 @@
 
 <http://www.i3mainz.de/ogham#GELAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: GELAGNI"@en , "Person: GELAGNI"@en , "Word: GELAGNI (ᚌᚓᚂᚐᚌᚆᚔ)"@en ;
+      rdfs:label "Person Word: GELAGNI (ᚌᚓᚂᚐᚌᚆᚔ)"@en , "Person: GELAGNI"@en , "Word: GELAGNI (ᚌᚓᚂᚐᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3566,7 +3626,8 @@
               <http://www.i3mainz.de/ogham#OLACON_person> , <http://www.i3mainz.de/ogham#MOINENA> , <http://www.i3mainz.de/ogham#OLACON> , <http://www.i3mainz.de/ogham#MOINENA_person> .
 
 <http://www.i3mainz.de/ogham#TULOTANAGIA_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Tribe: TULOTANAGIA"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+256>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -3609,7 +3670,7 @@
 
 <http://www.i3mainz.de/ogham#BIRRAC>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: BIRRAC"@en , "Word: BIRRAC (ᚁᚔᚏᚏᚐᚊ)"@en , "Person Word: BIRRAC"@en ;
+      rdfs:label "Person: BIRRAC"@en , "Word: BIRRAC (ᚁᚔᚏᚏᚐᚊ)"@en , "Person Word: BIRRAC (ᚁᚔᚏᚏᚐᚊ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3625,7 +3686,7 @@
 
 <http://www.i3mainz.de/ogham#ALATTOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: ALATTOS"@en , "Word: ALATTOS (ᚐᚂᚐᚉᚉᚑᚅ)"@en , "Person Word: ALATTOS"@en ;
+      rdfs:label "Person Word: ALATTOS (ᚐᚂᚐᚉᚉᚑᚅ)"@en , "Person: ALATTOS"@en , "Word: ALATTOS (ᚐᚂᚐᚉᚉᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3641,7 +3702,7 @@
 
 <http://www.i3mainz.de/ogham#NILI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: NILI"@en , "Person Word: NILI"@en , "Word: NILI (ᚆᚔᚂᚔ)"@en ;
+      rdfs:label "Person: NILI"@en , "Person Word: NILI (ᚆᚔᚂᚔ)"@en , "Word: NILI (ᚆᚔᚂᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3678,7 +3739,7 @@
 
 <http://www.i3mainz.de/ogham#VRAICCI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: VRAICCI"@en , "Word: VRAICCI (ᚄᚏᚐᚔᚊᚊᚔ)"@en , "Person Word: VRAICCI"@en ;
+      rdfs:label "Person: VRAICCI"@en , "Word: VRAICCI (ᚄᚏᚐᚔᚊᚊᚔ)"@en , "Person Word: VRAICCI (ᚄᚏᚐᚔᚊᚊᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3708,6 +3769,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-CUNALIG..._person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-CUNALIG..."@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382235> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -3726,7 +3788,7 @@
 
 <http://www.i3mainz.de/ogham#DALAGNI>
       a       <http://www.wikidata.org/entity/Q67382150> , <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: DALAGNI (ᚈᚐᚂᚐᚌᚆᚔ)"@en , "Person Word: DALAGNI"@en , "Person: DALAGNI"@en ;
+      rdfs:label "Word: DALAGNI (ᚈᚐᚂᚐᚌᚆᚔ)"@en , "Person: DALAGNI"@en , "Person Word: DALAGNI (ᚈᚐᚂᚐᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3781,6 +3843,7 @@
 
 <http://www.i3mainz.de/ogham#CUNALEGEA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CUNALEGEA"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382235> ;
       <http://www.i3mainz.de/ogham#follows>
@@ -3853,7 +3916,7 @@
 
 <http://www.i3mainz.de/ogham#DEGOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DEGOS"@en , "Person: DEGOS"@en , "Word: DEGOS (ᚈᚓᚌᚑᚅ)"@en ;
+      rdfs:label "Person Word: DEGOS (ᚈᚓᚌᚑᚅ)"@en , "Person: DEGOS"@en , "Word: DEGOS (ᚈᚓᚌᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -3893,6 +3956,7 @@
 
 <http://www.i3mainz.de/ogham#SUVALLOS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: SUVALLOS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#DUCOVAROS_person> .
 
@@ -3952,6 +4016,7 @@
 
 <http://www.i3mainz.de/ogham#DUMELI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DUMELI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#GLASICONAS_person> .
 
@@ -3974,11 +4039,12 @@
       a       owl:DatatypeProperty .
 
 <http://www.i3mainz.de/ogham#MARIN_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MARIN"@en .
 
 <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: [B]RRUA/ENANN"@en , "Word: [B]RRUA/ENANN (ᚁᚏᚏᚒᚐᚓᚆᚐᚆᚆ)"@en , "Person Word: [B]RRUA/ENANN"@en ;
+      rdfs:label "Person Word: [B]RRUA/ENANN (ᚁᚏᚏᚒᚐᚓᚆᚐᚆᚆ)"@en , "Person: [B]RRUA/ENANN"@en , "Word: [B]RRUA/ENANN (ᚁᚏᚏᚒᚐᚓᚆᚐᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4006,7 +4072,7 @@
 
 <http://www.i3mainz.de/ogham#VORGOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: VORGOS"@en , "Word: VORGOS (ᚄᚑᚏᚌᚑᚅ)"@en , "Person Word: VORGOS"@en ;
+      rdfs:label "Person: VORGOS"@en , "Person Word: VORGOS (ᚄᚑᚏᚌᚑᚅ)"@en , "Word: VORGOS (ᚄᚑᚏᚌᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4053,12 +4119,13 @@
 
 <http://www.i3mainz.de/ogham#MAQI-CORABIR_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-CORABIR"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#TAN..._person> .
 
 <http://www.i3mainz.de/ogham#C%5B....%5DSALAR>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: C[....]SALAR"@en , "Person Word: C[....]SALAR"@en , "Word: C[....]SALAR (ᚊᚅᚐᚂᚐᚏ)"@en ;
+      rdfs:label "Person: C[....]SALAR"@en , "Word: C[....]SALAR (ᚊᚅᚐᚂᚐᚏ)"@en , "Person Word: C[....]SALAR (ᚊᚅᚐᚂᚐᚏ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4099,7 +4166,7 @@
 
 <http://www.i3mainz.de/ogham#DOVVINIA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DOVVINIA"@en , "Person: DOVVINIA"@en , "Word: DOVVINIA (ᚈᚑᚄᚄᚔᚆᚔᚐ)"@en ;
+      rdfs:label "Person: DOVVINIA"@en , "Person Word: DOVVINIA (ᚈᚑᚄᚄᚔᚆᚔᚐ)"@en , "Word: DOVVINIA (ᚈᚑᚄᚄᚔᚆᚔᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4135,6 +4202,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-TTAL_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-TTAL"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#VORGOS_person> ;
       <http://www.wikidata.org/prop/direct/P463>
@@ -4157,7 +4225,7 @@
 
 <http://www.i3mainz.de/ogham#DUMELI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DUMELI"@en , "Word: DUMELI (ᚈᚒᚋᚓᚂᚔ)"@en , "Person: DUMELI"@en ;
+      rdfs:label "Person Word: DUMELI (ᚈᚒᚋᚓᚂᚔ)"@en , "Word: DUMELI (ᚈᚒᚋᚓᚂᚔ)"@en , "Person: DUMELI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4179,7 +4247,7 @@
 
 <http://www.i3mainz.de/ogham#MEDVVI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: MEDVVI"@en , "Word: MEDVVI (ᚋᚓᚈᚄᚄᚔ)"@en , "Person Word: MEDVVI"@en ;
+      rdfs:label "Person: MEDVVI"@en , "Word: MEDVVI (ᚋᚓᚈᚄᚄᚔ)"@en , "Person Word: MEDVVI (ᚋᚓᚈᚄᚄᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4223,7 +4291,7 @@
 
 <http://www.i3mainz.de/ogham#CURCI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CURCI"@en , "Person: CURCI"@en , "Word: CURCI (ᚊᚒᚏᚊᚔ)"@en ;
+      rdfs:label "Person Word: CURCI (ᚊᚒᚏᚊᚔ)"@en , "Person: CURCI"@en , "Word: CURCI (ᚊᚒᚏᚊᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4254,7 +4322,7 @@
 
 <http://www.i3mainz.de/ogham#ODR...REA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: ODR...REA"@en , "Word: ODR...REA (ᚑᚈᚏᚏᚓᚐ)"@en , "Person: ODR...REA"@en ;
+      rdfs:label "Person Word: ODR...REA (ᚑᚈᚏᚏᚓᚐ)"@en , "Word: ODR...REA (ᚑᚈᚏᚏᚓᚐ)"@en , "Person: ODR...REA"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4276,7 +4344,7 @@
 
 <http://www.i3mainz.de/ogham#BRUSCCOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: BRUSCCOS"@en , "Person Word: BRUSCCOS"@en , "Word: BRUSCCOS (ᚁᚏᚒᚅᚊᚊᚑᚅ)"@en ;
+      rdfs:label "Person: BRUSCCOS"@en , "Person Word: BRUSCCOS (ᚁᚏᚒᚅᚊᚊᚑᚅ)"@en , "Word: BRUSCCOS (ᚁᚏᚒᚅᚊᚊᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4298,7 +4366,7 @@
 
 <http://www.i3mainz.de/ogham#CUNAMAQQI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: CUNAMAQQI"@en , "Person Word: CUNAMAQQI"@en , "Word: CUNAMAQQI (ᚊᚒᚆᚐᚋᚐᚔ)"@en ;
+      rdfs:label "Person: CUNAMAQQI"@en , "Person Word: CUNAMAQQI (ᚊᚒᚆᚐᚋᚐᚔ)"@en , "Word: CUNAMAQQI (ᚊᚒᚆᚐᚋᚐᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4338,7 +4406,7 @@
 
 <http://www.i3mainz.de/ogham#QRITTI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: QRITTI"@en , "Person: QRITTI"@en , "Word: QRITTI (ᚏᚔᚉᚉᚔ)"@en ;
+      rdfs:label "Person Word: QRITTI (ᚏᚔᚉᚉᚔ)"@en , "Person: QRITTI"@en , "Word: QRITTI (ᚏᚔᚉᚉᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4354,7 +4422,7 @@
 
 <http://www.i3mainz.de/ogham#SENAQ>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: SENAQ"@en , "Person: SENAQ"@en , "Word: SENAQ (ᚅᚓᚆᚐ)"@en ;
+      rdfs:label "Person Word: SENAQ (ᚅᚓᚆᚐ)"@en , "Person: SENAQ"@en , "Word: SENAQ (ᚅᚓᚆᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4370,12 +4438,13 @@
 
 <http://www.i3mainz.de/ogham#ALATTO_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: ALATTO"@en ;
       <http://www.i3mainz.de/ogham#follows>
               <http://www.i3mainz.de/ogham#BATTIGNI_person> .
 
 <http://www.i3mainz.de/ogham#QVECI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: QVECI"@en , "Word: QVECI (ᚄᚓᚊᚔ)"@en , "Person: QVECI"@en ;
+      rdfs:label "Word: QVECI (ᚄᚓᚊᚔ)"@en , "Person Word: QVECI (ᚄᚓᚊᚔ)"@en , "Person: QVECI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4413,6 +4482,7 @@
 
 <http://www.i3mainz.de/ogham#SEDANI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: SEDANI"@en ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#DERCMASOC_person> ;
       <http://www.wikidata.org/prop/direct/P22>
@@ -4431,11 +4501,12 @@
               "POINT (-7.684809 52.194724)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#BIRRAC_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: BIRRAC"@en .
 
 <http://www.i3mainz.de/ogham#GIRAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: GIRAGNI (ᚌᚔᚏᚐᚌᚆᚔ)"@en , "Person Word: GIRAGNI"@en , "Person: GIRAGNI"@en ;
+      rdfs:label "Word: GIRAGNI (ᚌᚔᚏᚐᚌᚆᚔ)"@en , "Person Word: GIRAGNI (ᚌᚔᚏᚐᚌᚆᚔ)"@en , "Person: GIRAGNI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4451,6 +4522,7 @@
 
 <http://www.i3mainz.de/ogham#LUGUDECAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LUGUDECAS"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -4460,7 +4532,7 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-IARI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MAQQI-IARI"@en , "Person: MAQQI-IARI"@en , "Word: MAQQI-IARI (ᚋᚐᚔᚔᚐᚏᚔ)"@en ;
+      rdfs:label "Person: MAQQI-IARI"@en , "Word: MAQQI-IARI (ᚋᚐᚔᚔᚐᚏᚔ)"@en , "Person Word: MAQQI-IARI (ᚋᚐᚔᚔᚐᚏᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4503,7 +4575,8 @@
               "POINT (-7.293729 53.299464)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#C%5B....%5DSALAR_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: C[....]SALAR"@en .
 
 <http://www.i3mainz.de/ogham#QECCIAS%3F_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -4554,6 +4627,7 @@
 
 <http://www.i3mainz.de/ogham#LUGADDON_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LUGADDON"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -4563,7 +4637,7 @@
 
 <http://www.i3mainz.de/ogham#NE%5BT....%5DAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: NE[T....]AS (ᚆᚓᚉᚐᚅ)"@en , "Person Word: NE[T....]AS"@en , "Person: NE[T....]AS"@en ;
+      rdfs:label "Word: NE[T....]AS (ᚆᚓᚉᚐᚅ)"@en , "Person Word: NE[T....]AS (ᚆᚓᚉᚐᚅ)"@en , "Person: NE[T....]AS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4584,11 +4658,12 @@
               <http://www.i3mainz.de/ogham#ALATTOS_person> .
 
 <http://www.i3mainz.de/ogham#ADDILONA_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: ADDILONA"@en .
 
 <http://www.i3mainz.de/ogham#MEDUSI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MEDUSI"@en , "Word: MEDUSI (ᚋᚓᚈᚒᚅᚔ)"@en , "Person: MEDUSI"@en ;
+      rdfs:label "Person Word: MEDUSI (ᚋᚓᚈᚒᚅᚔ)"@en , "Word: MEDUSI (ᚋᚓᚈᚒᚅᚔ)"@en , "Person: MEDUSI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4628,7 +4703,7 @@
 
 <http://www.i3mainz.de/ogham#AILITHIR>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: AILITHIR"@en , "Word: AILITHIR (ᚐᚔᚂᚔᚉᚇᚔᚏ)"@en , "Person: AILITHIR"@en ;
+      rdfs:label "Person Word: AILITHIR (ᚐᚔᚂᚔᚉᚇᚔᚏ)"@en , "Word: AILITHIR (ᚐᚔᚂᚔᚉᚇᚔᚏ)"@en , "Person: AILITHIR"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4644,7 +4719,7 @@
 
 <http://www.i3mainz.de/ogham#RITTAVVECCAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: RITTAVVECCAS"@en , "Word: RITTAVVECCAS (ᚏᚔᚉᚉᚐᚄᚄᚓᚊᚊᚐᚅ)"@en , "Person: RITTAVVECCAS"@en ;
+      rdfs:label "Word: RITTAVVECCAS (ᚏᚔᚉᚉᚐᚄᚄᚓᚊᚊᚐᚅ)"@en , "Person: RITTAVVECCAS"@en , "Person Word: RITTAVVECCAS (ᚏᚔᚉᚉᚐᚄᚄᚓᚊᚊᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4663,7 +4738,7 @@
 
 <http://www.i3mainz.de/ogham#MARIN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MARIN"@en , "Word: MARIN (ᚋᚐᚏᚔᚆ)"@en , "Person: MARIN"@en ;
+      rdfs:label "Word: MARIN (ᚋᚐᚏᚔᚆ)"@en , "Person: MARIN"@en , "Person Word: MARIN (ᚋᚐᚏᚔᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4679,6 +4754,7 @@
 
 <http://www.i3mainz.de/ogham#DERCMASOC_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Tribe: DERCMASOC"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382360> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -4686,7 +4762,7 @@
 
 <http://www.i3mainz.de/ogham#ADDILONA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: ADDILONA (ᚐᚈᚈᚔᚂᚑᚆᚐ)"@en , "Person Word: ADDILONA"@en , "Person: ADDILONA"@en ;
+      rdfs:label "Person Word: ADDILONA (ᚐᚈᚈᚔᚂᚑᚆᚐ)"@en , "Word: ADDILONA (ᚐᚈᚈᚔᚂᚑᚆᚐ)"@en , "Person: ADDILONA"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4702,7 +4778,7 @@
 
 <http://www.i3mainz.de/ogham#CALIACI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: CALIACI"@en , "Person Word: CALIACI"@en , "Word: CALIACI (ᚊᚐᚂᚔᚐᚊᚔ)"@en ;
+      rdfs:label "Person: CALIACI"@en , "Word: CALIACI (ᚊᚐᚂᚔᚐᚊᚔ)"@en , "Person Word: CALIACI (ᚊᚐᚂᚔᚐᚊᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4722,7 +4798,7 @@
 
 <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: SAG(A)RETTOS (ᚅᚐᚌᚐᚏᚓᚉᚉᚑᚅ)"@en , "Person: SAG(A)RETTOS"@en , "Person Word: SAG(A)RETTOS"@en ;
+      rdfs:label "Word: SAG(A)RETTOS (ᚅᚐᚌᚐᚏᚓᚉᚉᚑᚅ)"@en , "Person: SAG(A)RETTOS"@en , "Person Word: SAG(A)RETTOS (ᚅᚐᚌᚐᚏᚓᚉᚉᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4764,11 +4840,12 @@
               "POINT (-9.745808 52.073955)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#BR..._person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: BR..."@en .
 
 <http://www.i3mainz.de/ogham#TURANIAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: TURANIAS"@en , "Word: TURANIAS (ᚉᚒᚏᚐᚆᚔᚐᚅ)"@en , "Person Word: TURANIAS"@en ;
+      rdfs:label "Person: TURANIAS"@en , "Word: TURANIAS (ᚉᚒᚏᚐᚆᚔᚐᚅ)"@en , "Person Word: TURANIAS (ᚉᚒᚏᚐᚆᚔᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4799,6 +4876,7 @@
 
 <http://www.i3mainz.de/ogham#BECCDINN_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: BECCDINN"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#RITTAVVECCAS_person> .
 
@@ -4849,7 +4927,8 @@
               <http://www.i3mainz.de/ogham#VITALIN_person> , <http://www.i3mainz.de/ogham#VITALIN> , <http://www.i3mainz.de/ogham#COIMAGNI> , <http://www.i3mainz.de/ogham#COIMAGNI_person> .
 
 <http://www.i3mainz.de/ogham#NETA-SEGAMONAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: NETA-SEGAMONAS"@en .
 
 <http://www.i3mainz.de/ogham#VATTILLOGG_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -4877,7 +4956,7 @@
 
 <http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: QENILOC[A]GNI"@en , "Person: QENILOC[A]GNI"@en , "Word: QENILOC[A]GNI (ᚓᚆᚔᚂᚑᚊᚐᚌᚆᚔ)"@en ;
+      rdfs:label "Person Word: QENILOC[A]GNI (ᚓᚆᚔᚂᚑᚊᚐᚌᚆᚔ)"@en , "Person: QENILOC[A]GNI"@en , "Word: QENILOC[A]GNI (ᚓᚆᚔᚂᚑᚊᚐᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4892,11 +4971,12 @@
               "ᚓᚆᚔᚂᚑᚊᚐᚌᚆᚔ" .
 
 <http://www.i3mainz.de/ogham#DOVINIAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DOVINIAS"@en .
 
 <http://www.i3mainz.de/ogham#NETA-SALAGIA%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: NETA-SALAGIA?"@en , "Word: NETA-SALAGIA? (ᚆᚓᚉᚐᚅᚐᚂᚐᚌᚔᚐ)"@en , "Person: NETA-SALAGIA?"@en ;
+      rdfs:label "Person Word: NETA-SALAGIA? (ᚆᚓᚉᚐᚅᚐᚂᚐᚌᚔᚐ)"@en , "Word: NETA-SALAGIA? (ᚆᚓᚉᚐᚅᚐᚂᚐᚌᚔᚐ)"@en , "Person: NETA-SALAGIA?"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4958,7 +5038,7 @@
 
 <http://www.i3mainz.de/ogham#VURUDDRANN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: VURUDDRANN"@en , "Word: VURUDDRANN (ᚄᚒᚏᚒᚈᚈᚏᚐᚆᚆ)"@en , "Person Word: VURUDDRANN"@en ;
+      rdfs:label "Person: VURUDDRANN"@en , "Person Word: VURUDDRANN (ᚄᚒᚏᚒᚈᚈᚏᚐᚆᚆ)"@en , "Word: VURUDDRANN (ᚄᚒᚏᚒᚈᚈᚏᚐᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -4987,7 +5067,8 @@
               <http://www.i3mainz.de/ogham#VITALIN_person> .
 
 <http://www.i3mainz.de/ogham#DOVVINIAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DOVVINIAS"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+294>
       a       <http://www.i3mainz.de/ogham#OghamObject> ;
@@ -5026,7 +5107,7 @@
 
 <http://www.i3mainz.de/ogham#OVANOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: OVANOS"@en , "Word: OVANOS (ᚑᚄᚐᚆᚑᚅ)"@en , "Person Word: OVANOS"@en ;
+      rdfs:label "Person: OVANOS"@en , "Person Word: OVANOS (ᚑᚄᚐᚆᚑᚅ)"@en , "Word: OVANOS (ᚑᚄᚐᚆᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5051,6 +5132,7 @@
 
 <http://www.i3mainz.de/ogham#NETTAVROICC_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: NETTAVROICC"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#TRENALUGGO%3F_person> .
 
@@ -5077,6 +5159,7 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-IARI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQQI-IARI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#DOVINIAS_person> .
 
@@ -5097,7 +5180,7 @@
 
 <http://www.i3mainz.de/ogham#DOVATUCI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: DOVATUCI"@en , "Word: DOVATUCI (ᚈᚑᚄᚐᚉᚒᚊᚔ)"@en , "Person Word: DOVATUCI"@en ;
+      rdfs:label "Person: DOVATUCI"@en , "Word: DOVATUCI (ᚈᚑᚄᚐᚉᚒᚊᚔ)"@en , "Person Word: DOVATUCI (ᚈᚑᚄᚐᚉᚒᚊᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5112,7 +5195,8 @@
               "ᚈᚑᚄᚐᚉᚒᚊᚔ" .
 
 <http://www.i3mainz.de/ogham#DALI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DALI"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+36.+Lamoge+I_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -5132,7 +5216,7 @@
 
 <http://www.i3mainz.de/ogham#CURCITTI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: CURCITTI (ᚊᚒᚏᚊᚔᚉᚉᚔ)"@en , "Person: CURCITTI"@en , "Person Word: CURCITTI"@en ;
+      rdfs:label "Word: CURCITTI (ᚊᚒᚏᚊᚔᚉᚉᚔ)"@en , "Person: CURCITTI"@en , "Person Word: CURCITTI (ᚊᚒᚏᚊᚔᚉᚉᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5153,7 +5237,8 @@
               "POINT (-10.407357 52.158683)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#AMMLLONGITT%3F_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: AMMLLONGITT?"@en .
 
 <http://www.i3mainz.de/ogham#UDDAMI_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -5201,7 +5286,8 @@
               "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046030-" .
 
 <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: SAG(A)RETTOS"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+203.+Coolmagort_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -5211,7 +5297,7 @@
 
 <http://www.i3mainz.de/ogham#QENILOCI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: QENILOCI (ᚓᚆᚔᚂᚑᚊᚔ)"@en , "Person Word: QENILOCI"@en , "Person: QENILOCI"@en ;
+      rdfs:label "Word: QENILOCI (ᚓᚆᚔᚂᚑᚊᚔ)"@en , "Person Word: QENILOCI (ᚓᚆᚔᚂᚑᚊᚔ)"@en , "Person: QENILOCI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5248,6 +5334,7 @@
 
 <http://www.i3mainz.de/ogham#MONGEDIAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MONGEDIAS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#MUIBITI_person> .
 
@@ -5287,7 +5374,7 @@
 
 <http://www.i3mainz.de/ogham#LUBBIAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: LUBBIAS (ᚂᚒᚁᚁᚔᚐᚅ)"@en , "Person Word: LUBBIAS"@en , "Person: LUBBIAS"@en ;
+      rdfs:label "Person Word: LUBBIAS (ᚂᚒᚁᚁᚔᚐᚅ)"@en , "Word: LUBBIAS (ᚂᚒᚁᚁᚔᚐᚅ)"@en , "Person: LUBBIAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5303,15 +5390,17 @@
 
 <http://www.i3mainz.de/ogham#CORBBI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CORBBI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#DOVVINIA_person> .
 
 <http://www.i3mainz.de/ogham#TURANIAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Tribe: TURANIAS"@en .
 
 <http://www.i3mainz.de/ogham#MAQI-INI...>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: MAQI-INI..."@en , "Person Word: MAQI-INI..."@en , "Word: MAQI-INI... (ᚋᚐᚔᚔᚆᚔ)"@en ;
+      rdfs:label "Person: MAQI-INI..."@en , "Word: MAQI-INI... (ᚋᚐᚔᚔᚆᚔ)"@en , "Person Word: MAQI-INI... (ᚋᚐᚔᚔᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5349,7 +5438,7 @@
 
 <http://www.i3mainz.de/ogham#CORBI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: CORBI"@en , "Word: CORBI (ᚊᚑᚏᚁᚔ)"@en , "Person Word: CORBI"@en ;
+      rdfs:label "Person: CORBI"@en , "Word: CORBI (ᚊᚑᚏᚁᚔ)"@en , "Person Word: CORBI (ᚊᚑᚏᚁᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5365,7 +5454,7 @@
 
 <http://www.i3mainz.de/ogham#VOTI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: VOTI"@en , "Word: VOTI (ᚄᚑᚉᚔ)"@en , "Person: VOTI"@en ;
+      rdfs:label "Word: VOTI (ᚄᚑᚉᚔ)"@en , "Person: VOTI"@en , "Person Word: VOTI (ᚄᚑᚉᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5381,7 +5470,7 @@
 
 <http://www.i3mainz.de/ogham#DOMANEQI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: DOMANEQI (ᚈᚑᚋᚐᚆᚓᚔ)"@en , "Person Word: DOMANEQI"@en , "Person: DOMANEQI"@en ;
+      rdfs:label "Word: DOMANEQI (ᚈᚑᚋᚐᚆᚓᚔ)"@en , "Person: DOMANEQI"@en , "Person Word: DOMANEQI (ᚈᚑᚋᚐᚆᚓᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5408,7 +5497,7 @@
 
 <http://www.i3mainz.de/ogham#MACORBO%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MACORBO?"@en , "Person: MACORBO?"@en , "Word: MACORBO? (ᚋᚐᚊᚑᚏᚁᚑ)"@en ;
+      rdfs:label "Person: MACORBO?"@en , "Word: MACORBO? (ᚋᚐᚊᚑᚏᚁᚑ)"@en , "Person Word: MACORBO? (ᚋᚐᚊᚑᚏᚁᚑ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5442,6 +5531,7 @@
 
 <http://www.i3mainz.de/ogham#BIR_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: BIR"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#ROTTAIS_person> .
 
@@ -5459,6 +5549,7 @@
 
 <http://www.i3mainz.de/ogham#NOCATI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: NOCATI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#MAQI-RET%2FC..._person> ;
       <http://www.wikidata.org/prop/direct/P463>
@@ -5472,7 +5563,7 @@
 
 <http://www.i3mainz.de/ogham#CALUNOVICA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CALUNOVICA"@en , "Person: CALUNOVICA"@en , "Word: CALUNOVICA (ᚊᚐᚂᚒᚆᚑᚄᚔᚊᚐ)"@en ;
+      rdfs:label "Person: CALUNOVICA"@en , "Person Word: CALUNOVICA (ᚊᚐᚂᚒᚆᚑᚄᚔᚊᚐ)"@en , "Word: CALUNOVICA (ᚊᚐᚂᚒᚆᚑᚄᚔᚊᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5488,12 +5579,13 @@
 
 <http://www.i3mainz.de/ogham#VEQREQ_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: VEQREQ"@en ;
       <http://www.wikidata.org/prop/direct/P463>
               <http://www.i3mainz.de/ogham#GLUNLEGGET> .
 
 <http://www.i3mainz.de/ogham#CUNANETAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CUNANETAS"@en , "Word: CUNANETAS (ᚊᚒᚆᚐᚆᚓᚉᚐᚅ)"@en , "Person: CUNANETAS"@en ;
+      rdfs:label "Person Word: CUNANETAS (ᚊᚒᚆᚐᚆᚓᚉᚐᚅ)"@en , "Word: CUNANETAS (ᚊᚒᚆᚐᚆᚓᚉᚐᚅ)"@en , "Person: CUNANETAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5509,7 +5601,7 @@
 
 <http://www.i3mainz.de/ogham#VORTIGURN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: VORTIGURN"@en , "Person Word: VORTIGURN"@en , "Word: VORTIGURN (ᚄᚑᚏᚉᚔᚌᚒᚏᚆ)"@en ;
+      rdfs:label "Person: VORTIGURN"@en , "Person Word: VORTIGURN (ᚄᚑᚏᚉᚔᚌᚒᚏᚆ)"@en , "Word: VORTIGURN (ᚄᚑᚏᚉᚔᚌᚒᚏᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5548,7 +5640,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: MAQI-?OGGODIKA (ᚋᚐᚔᚑᚌᚌᚑᚈᚔᚐ)"@en , "Person: MAQI-?OGGODIKA"@en , "Person Word: MAQI-?OGGODIKA"@en ;
+      rdfs:label "Word: MAQI-?OGGODIKA (ᚋᚐᚔᚑᚌᚌᚑᚈᚔᚐ)"@en , "Person: MAQI-?OGGODIKA"@en , "Person Word: MAQI-?OGGODIKA (ᚋᚐᚔᚑᚌᚌᚑᚈᚔᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5605,6 +5697,7 @@
 
 <http://www.i3mainz.de/ogham#GATI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: GATI"@en ;
       <http://www.wikidata.org/prop/direct/P463>
               <http://www.i3mainz.de/ogham#MACORBO> .
 
@@ -5613,6 +5706,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-RITEAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-RITEAS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#MAQI-DUMILEAS_person> ;
       <http://www.wikidata.org/prop/direct/P463>
@@ -5631,10 +5725,12 @@
               <http://www.i3mainz.de/ogham#NETA-SEGAMONAS_person> .
 
 <http://www.i3mainz.de/ogham#VATTILLOGG_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: VATTILLOGG"@en .
 
 <http://www.i3mainz.de/ogham#QECCIAS%3F_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: QECCIAS?"@en ;
       <http://www.wikidata.org/prop/direct/P463>
               <http://www.i3mainz.de/ogham#BROENIONAS%3F> .
 
@@ -5652,7 +5748,7 @@
 
 <http://www.i3mainz.de/ogham#SRUSA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: SRUSA"@en , "Word: SRUSA (ᚅᚏᚒᚅᚐ)"@en , "Person Word: SRUSA"@en ;
+      rdfs:label "Person: SRUSA"@en , "Word: SRUSA (ᚅᚏᚒᚅᚐ)"@en , "Person Word: SRUSA (ᚅᚏᚒᚅᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5673,7 +5769,8 @@
               <http://www.i3mainz.de/ogham#TUCACAC_person> .
 
 <http://www.i3mainz.de/ogham#MACORBO%3F_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MACORBO?"@en .
 
 <http://www.i3mainz.de/ogham#Drummin+II_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -5783,10 +5880,12 @@
               <http://www.i3mainz.de/ogham#CUNAMAQQI_person> .
 
 <http://www.i3mainz.de/ogham#DIMAQA_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DIMAQA"@en .
 
 <http://www.i3mainz.de/ogham#LLATIGNI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LLATIGNI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#MINERC%3F_person> .
 
@@ -5796,7 +5895,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-ESEA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MAQI-ESEA"@en , "Person: MAQI-ESEA"@en , "Word: MAQI-ESEA (ᚋᚐᚔᚓᚅᚓᚐ)"@en ;
+      rdfs:label "Person: MAQI-ESEA"@en , "Word: MAQI-ESEA (ᚋᚐᚔᚓᚅᚓᚐ)"@en , "Person Word: MAQI-ESEA (ᚋᚐᚔᚓᚅᚓᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5818,7 +5917,7 @@
 
 <http://www.i3mainz.de/ogham#GLASICONAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: GLASICONAS"@en , "Person Word: GLASICONAS"@en , "Word: GLASICONAS (ᚌᚂᚐᚅᚔᚊᚑᚆᚐᚅ)"@en ;
+      rdfs:label "Person: GLASICONAS"@en , "Person Word: GLASICONAS (ᚌᚂᚐᚅᚔᚊᚑᚆᚐᚅ)"@en , "Word: GLASICONAS (ᚌᚂᚐᚅᚔᚊᚑᚆᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5846,7 +5945,7 @@
 
 <http://www.i3mainz.de/ogham#AMMLLONGITT%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: AMMLLONGITT?"@en , "Person: AMMLLONGITT?"@en , "Word: AMMLLONGITT? (ᚐᚋᚋᚂᚂᚑᚆᚌᚔᚉᚉ)"@en ;
+      rdfs:label "Person Word: AMMLLONGITT? (ᚐᚋᚋᚂᚂᚑᚆᚌᚔᚉᚉ)"@en , "Person: AMMLLONGITT?"@en , "Word: AMMLLONGITT? (ᚐᚋᚋᚂᚂᚑᚆᚌᚔᚉᚉ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5868,7 +5967,7 @@
 
 <http://www.i3mainz.de/ogham#MONGEDIAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: MONGEDIAS"@en , "Word: MONGEDIAS (ᚋᚑᚆᚌᚓᚈᚔᚐᚅ)"@en , "Person Word: MONGEDIAS"@en ;
+      rdfs:label "Person: MONGEDIAS"@en , "Word: MONGEDIAS (ᚋᚑᚆᚌᚓᚈᚔᚐᚅ)"@en , "Person Word: MONGEDIAS (ᚋᚑᚆᚌᚓᚈᚔᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5890,7 +5989,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-CUNALIG...>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: MAQI-CUNALIG..."@en , "Word: MAQI-CUNALIG... (ᚋᚐᚔᚊᚒᚆᚐᚂᚔᚌ)"@en , "Person Word: MAQI-CUNALIG..."@en ;
+      rdfs:label "Person: MAQI-CUNALIG..."@en , "Word: MAQI-CUNALIG... (ᚋᚐᚔᚊᚒᚆᚐᚂᚔᚌ)"@en , "Person Word: MAQI-CUNALIG... (ᚋᚐᚔᚊᚒᚆᚐᚂᚔᚌ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5912,7 +6011,7 @@
 
 <http://www.i3mainz.de/ogham#TEGANN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: TEGANN"@en , "Word: TEGANN (ᚉᚓᚌᚐᚆᚆ)"@en , "Person: TEGANN"@en ;
+      rdfs:label "Word: TEGANN (ᚉᚓᚌᚐᚆᚆ)"@en , "Person: TEGANN"@en , "Person Word: TEGANN (ᚉᚓᚌᚐᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -5981,6 +6080,7 @@
 
 <http://www.i3mainz.de/ogham#SEVERRIT_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: SEVERRIT"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#ROTTAIS_person> .
 
@@ -6060,7 +6160,7 @@
 
 <http://www.i3mainz.de/ogham#NETTAVROICC>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: NETTAVROICC (ᚆᚓᚉᚉᚐᚄᚏᚑᚔᚊᚊ)"@en , "Person Word: NETTAVROICC"@en , "Person: NETTAVROICC"@en ;
+      rdfs:label "Word: NETTAVROICC (ᚆᚓᚉᚉᚐᚄᚏᚑᚔᚊᚊ)"@en , "Person Word: NETTAVROICC (ᚆᚓᚉᚉᚐᚄᚏᚑᚔᚊᚊ)"@en , "Person: NETTAVROICC"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6094,7 +6194,7 @@
 
 <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: [QE]TTEAS"@en , "Person: [QE]TTEAS"@en , "Word: [QE]TTEAS (ᚓᚉᚉᚓᚐᚅ)"@en ;
+      rdfs:label "Person Word: [QE]TTEAS (ᚓᚉᚉᚓᚐᚅ)"@en , "Person: [QE]TTEAS"@en , "Word: [QE]TTEAS (ᚓᚉᚉᚓᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6138,7 +6238,7 @@
 
 <http://www.i3mainz.de/ogham#LOBBI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: LOBBI"@en , "Word: LOBBI (ᚂᚑᚁᚁᚔ)"@en , "Person: LOBBI"@en ;
+      rdfs:label "Word: LOBBI (ᚂᚑᚁᚁᚔ)"@en , "Person Word: LOBBI (ᚂᚑᚁᚁᚔ)"@en , "Person: LOBBI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6154,7 +6254,7 @@
 
 <http://www.i3mainz.de/ogham#CEDATTOQA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: CEDATTOQA"@en , "Word: CEDATTOQA (ᚊᚓᚈᚐᚉᚉᚑᚐ)"@en , "Person Word: CEDATTOQA"@en ;
+      rdfs:label "Person: CEDATTOQA"@en , "Person Word: CEDATTOQA (ᚊᚓᚈᚐᚉᚉᚑᚐ)"@en , "Word: CEDATTOQA (ᚊᚓᚈᚐᚉᚉᚑᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6188,7 +6288,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-AINIA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MAQI-AINIA"@en , "Person: MAQI-AINIA"@en , "Word: MAQI-AINIA (ᚋᚐᚔᚐᚔᚆᚔᚐ)"@en ;
+      rdfs:label "Person Word: MAQI-AINIA (ᚋᚐᚔᚐᚔᚆᚔᚐ)"@en , "Person: MAQI-AINIA"@en , "Word: MAQI-AINIA (ᚋᚐᚔᚐᚔᚆᚔᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6210,7 +6310,7 @@
 
 <http://www.i3mainz.de/ogham#DOVINIAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: DOVINIAS (ᚈᚑᚄᚔᚆᚔᚐᚅ)"@en , "Person: DOVINIAS"@en , "Person Word: DOVINIAS"@en ;
+      rdfs:label "Word: DOVINIAS (ᚈᚑᚄᚔᚆᚔᚐᚅ)"@en , "Person: DOVINIAS"@en , "Person Word: DOVINIAS (ᚈᚑᚄᚔᚆᚔᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6287,7 +6387,7 @@
 
 <http://www.i3mainz.de/ogham#CORBAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CORBAGNI"@en , "Word: CORBAGNI (ᚊᚑᚏᚁᚐᚌᚆᚔ)"@en , "Person: CORBAGNI"@en ;
+      rdfs:label "Person Word: CORBAGNI (ᚊᚑᚏᚁᚐᚌᚆᚔ)"@en , "Word: CORBAGNI (ᚊᚑᚏᚁᚐᚌᚆᚔ)"@en , "Person: CORBAGNI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6303,7 +6403,7 @@
 
 <http://www.i3mainz.de/ogham#BROCANN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: BROCANN"@en , "Person: BROCANN"@en , "Word: BROCANN (ᚁᚏᚑᚊᚐᚆᚆ)"@en ;
+      rdfs:label "Person: BROCANN"@en , "Person Word: BROCANN (ᚁᚏᚑᚊᚐᚆᚆ)"@en , "Word: BROCANN (ᚁᚏᚑᚊᚐᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6331,6 +6431,7 @@
 
 <http://www.i3mainz.de/ogham#LUGUQRIT_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LUGUQRIT"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67383482> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -6340,7 +6441,7 @@
 
 <http://www.i3mainz.de/ogham#COILLI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: COILLI"@en , "Word: COILLI (ᚊᚑᚔᚂᚂᚔ)"@en , "Person Word: COILLI"@en ;
+      rdfs:label "Person: COILLI"@en , "Person Word: COILLI (ᚊᚑᚔᚂᚂᚔ)"@en , "Word: COILLI (ᚊᚑᚔᚂᚂᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6356,7 +6457,7 @@
 
 <http://www.i3mainz.de/ogham#DOVVINIAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DOVVINIAS"@en , "Word: DOVVINIAS (ᚈᚑᚄᚄᚔᚆᚔᚐᚅ)"@en , "Person: DOVVINIAS"@en ;
+      rdfs:label "Person Word: DOVVINIAS (ᚈᚑᚄᚄᚔᚆᚔᚐᚅ)"@en , "Word: DOVVINIAS (ᚈᚑᚄᚄᚔᚆᚔᚐᚅ)"@en , "Person: DOVVINIAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6378,7 +6479,7 @@
 
 <http://www.i3mainz.de/ogham#NETA-CARI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: NETA-CARI"@en , "Word: NETA-CARI (ᚆᚓᚉᚐᚊᚐᚏᚔ)"@en , "Person: NETA-CARI"@en ;
+      rdfs:label "Person Word: NETA-CARI (ᚆᚓᚉᚐᚊᚐᚏᚔ)"@en , "Word: NETA-CARI (ᚆᚓᚉᚐᚊᚐᚏᚔ)"@en , "Person: NETA-CARI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6409,7 +6510,7 @@
 
 <http://www.i3mainz.de/ogham#AGILL...>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: AGILL..."@en , "Person Word: AGILL..."@en , "Word: AGILL... (ᚐᚌᚔᚂᚂ)"@en ;
+      rdfs:label "Person: AGILL..."@en , "Person Word: AGILL... (ᚐᚌᚔᚂᚂ)"@en , "Word: AGILL... (ᚐᚌᚔᚂᚂ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6425,7 +6526,7 @@
 
 <http://www.i3mainz.de/ogham#LUGADDON>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: LUGADDON (ᚂᚒᚌᚐᚈᚈᚑᚆ)"@en , "Person: LUGADDON"@en , "Person Word: LUGADDON"@en ;
+      rdfs:label "Word: LUGADDON (ᚂᚒᚌᚐᚈᚈᚑᚆ)"@en , "Person: LUGADDON"@en , "Person Word: LUGADDON (ᚂᚒᚌᚐᚈᚈᚑᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6445,7 +6546,7 @@
 
 <http://www.i3mainz.de/ogham#RINI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Word: RINI (ᚏᚔᚆᚔ)"@en , "Person Word: RINI"@en , "Person: RINI"@en ;
+      rdfs:label "Person Word: RINI (ᚏᚔᚆᚔ)"@en , "Word: RINI (ᚏᚔᚆᚔ)"@en , "Person: RINI"@en , "Tribe: RINI"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#LOBBI_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -6463,6 +6564,7 @@
 
 <http://www.i3mainz.de/ogham#CORRBRI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CORRBRI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#AMMLLONGITT%3F_person> .
 
@@ -6471,6 +6573,7 @@
 
 <http://www.i3mainz.de/ogham#NETTA-LAMINACCA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: NETTA-LAMINACCA"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#DOVINIAS_person> .
 
@@ -6482,6 +6585,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-ESEA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-ESEA"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#DOMANEQI_person> .
 
@@ -6499,6 +6603,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-ERCIAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-ERCIAS"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382360> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -6516,6 +6621,7 @@
 
 <http://www.i3mainz.de/ogham#MEDUSI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MEDUSI"@en ;
       <http://www.wikidata.org/prop/direct/P463>
               <http://www.i3mainz.de/ogham#LUGA> .
 
@@ -6551,11 +6657,13 @@
 
 <http://www.i3mainz.de/ogham#EQQEGGNI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: EQQEGGNI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#MAQI-CAIRATINI_person> .
 
 <http://www.i3mainz.de/ogham#CALUNOVICA_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CALUNOVICA"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#LITENI_person> .
 
@@ -6572,11 +6680,12 @@
               "POINT (-9.725848 52.169079)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#DUCOVAROS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DUCOVAROS"@en .
 
 <http://www.i3mainz.de/ogham#AKEVRITTI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: AKEVRITTI"@en , "Word: AKEVRITTI (ᚐᚓᚄᚏᚔᚉᚉᚔ)"@en , "Person: AKEVRITTI"@en ;
+      rdfs:label "Person Word: AKEVRITTI (ᚐᚓᚄᚏᚔᚉᚉᚔ)"@en , "Word: AKEVRITTI (ᚐᚓᚄᚏᚔᚉᚉᚔ)"@en , "Person: AKEVRITTI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6598,7 +6707,7 @@
 
 <http://www.i3mainz.de/ogham#GOSOCTEAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: GOSOCTEAS"@en , "Person: GOSOCTEAS"@en , "Word: GOSOCTEAS (ᚌᚑᚅᚑᚊᚉᚓᚐᚅ)"@en ;
+      rdfs:label "Person: GOSOCTEAS"@en , "Word: GOSOCTEAS (ᚌᚑᚅᚑᚊᚉᚓᚐᚅ)"@en , "Person Word: GOSOCTEAS (ᚌᚑᚅᚑᚊᚉᚓᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6614,7 +6723,7 @@
 
 <http://www.i3mainz.de/ogham#CUNOVATOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CUNOVATOS"@en , "Person: CUNOVATOS"@en , "Word: CUNOVATOS (ᚊᚒᚆᚑᚄᚐᚉᚑᚅ)"@en ;
+      rdfs:label "Person: CUNOVATOS"@en , "Person Word: CUNOVATOS (ᚊᚒᚆᚑᚄᚐᚉᚑᚅ)"@en , "Word: CUNOVATOS (ᚊᚒᚆᚑᚄᚐᚉᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6629,11 +6738,12 @@
               "ᚊᚒᚆᚑᚄᚐᚉᚑᚅ" .
 
 <http://www.i3mainz.de/ogham#VORGOS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: VORGOS"@en .
 
 <http://www.i3mainz.de/ogham#CUNAGUSOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: CUNAGUSOS (ᚊᚒᚆᚐᚌᚒᚅᚑᚅ)"@en , "Person: CUNAGUSOS"@en , "Person Word: CUNAGUSOS"@en ;
+      rdfs:label "Person Word: CUNAGUSOS (ᚊᚒᚆᚐᚌᚒᚅᚑᚅ)"@en , "Word: CUNAGUSOS (ᚊᚒᚆᚐᚌᚒᚅᚑᚅ)"@en , "Person: CUNAGUSOS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6648,7 +6758,8 @@
               "ᚊᚒᚆᚐᚌᚒᚅᚑᚅ" .
 
 <http://www.i3mainz.de/ogham#OLACON_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: OLACON"@en .
 
 <http://www.i3mainz.de/ogham#CUNALEGEA_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -6661,7 +6772,7 @@
 
 <http://www.i3mainz.de/ogham#CORRBRI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: CORRBRI"@en , "Word: CORRBRI (ᚊᚑᚏᚏᚁᚏᚔ)"@en , "Person Word: CORRBRI"@en ;
+      rdfs:label "Person: CORRBRI"@en , "Person Word: CORRBRI (ᚊᚑᚏᚏᚁᚏᚔ)"@en , "Word: CORRBRI (ᚊᚑᚏᚏᚁᚏᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6706,6 +6817,7 @@
 
 <http://www.i3mainz.de/ogham#MINERC%3F_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MINERC?"@en ;
       <http://www.i3mainz.de/ogham#definedInWikidata>
               <http://www.wikidata.org/entity/Q67382360> ;
       <http://www.i3mainz.de/ogham#nameRelatesTo>
@@ -6713,7 +6825,7 @@
 
 <http://www.i3mainz.de/ogham#MUNICONA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: MUNICONA"@en , "Person Word: MUNICONA"@en , "Word: MUNICONA (ᚋᚒᚆᚔᚊᚑᚆᚐ)"@en ;
+      rdfs:label "Person: MUNICONA"@en , "Person Word: MUNICONA (ᚋᚒᚆᚔᚊᚑᚆᚐ)"@en , "Word: MUNICONA (ᚋᚒᚆᚔᚊᚑᚆᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6728,7 +6840,8 @@
               "ᚋᚒᚆᚔᚊᚑᚆᚐ" .
 
 <http://www.i3mainz.de/ogham#VITALIN_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: VITALIN"@en .
 
 <http://www.i3mainz.de/ogham#ERC_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -6750,7 +6863,7 @@
 
 <http://www.i3mainz.de/ogham#RONANN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: RONANN"@en , "Word: RONANN (ᚏᚑᚆᚐᚆᚆ)"@en , "Person: RONANN"@en ;
+      rdfs:label "Word: RONANN (ᚏᚑᚆᚐᚆᚆ)"@en , "Person: RONANN"@en , "Person Word: RONANN (ᚏᚑᚆᚐᚆᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6784,6 +6897,7 @@
 
 <http://www.i3mainz.de/ogham#ERACIAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: ERACIAS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#DIMAQA_person> .
 
@@ -6821,7 +6935,8 @@
               "POINT (-6.760801 53.028514)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#INEQAGLAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Tribe: INEQAGLAS"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+255.+Tinnahally+I_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -6843,12 +6958,13 @@
 
 <http://www.i3mainz.de/ogham#DEGOS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DEGOS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#TOICACI_person> .
 
 <http://www.i3mainz.de/ogham#DIMAQA>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: DIMAQA"@en , "Word: DIMAQA (ᚈᚔᚋᚐᚐ)"@en , "Person Word: DIMAQA"@en ;
+      rdfs:label "Person: DIMAQA"@en , "Word: DIMAQA (ᚈᚔᚋᚐᚐ)"@en , "Person Word: DIMAQA (ᚈᚔᚋᚐᚐ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6885,6 +7001,7 @@
 
 <http://www.i3mainz.de/ogham#CORBAGNI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CORBAGNI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#COROTANI_person> .
 
@@ -6913,12 +7030,13 @@
 
 <http://www.i3mainz.de/ogham#DOVATUCI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DOVATUCI"@en ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#TULOTANAGIA_person> .
 
 <http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: NETTA-TTRENALUGOS"@en , "Person: NETTA-TTRENALUGOS"@en , "Word: NETTA-TTRENALUGOS (ᚆᚓᚉᚉᚐᚉᚉᚏᚓᚆᚐᚂᚒᚌᚑᚅ)"@en ;
+      rdfs:label "Person Word: NETTA-TTRENALUGOS (ᚆᚓᚉᚉᚐᚉᚉᚏᚓᚆᚐᚂᚒᚌᚑᚅ)"@en , "Person: NETTA-TTRENALUGOS"@en , "Word: NETTA-TTRENALUGOS (ᚆᚓᚉᚉᚐᚉᚉᚏᚓᚆᚐᚂᚒᚌᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -6940,7 +7058,7 @@
 
 <http://www.i3mainz.de/ogham#VEDELMETO>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: VEDELMETO (ᚄᚓᚈᚓᚂᚋᚓᚉᚑ)"@en , "Person Word: VEDELMETO"@en , "Person: VEDELMETO"@en ;
+      rdfs:label "Word: VEDELMETO (ᚄᚓᚈᚓᚂᚋᚓᚉᚑ)"@en , "Person Word: VEDELMETO (ᚄᚓᚈᚓᚂᚋᚓᚉᚑ)"@en , "Person: VEDELMETO"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7005,7 +7123,7 @@
 
 <http://www.i3mainz.de/ogham#...ERATI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: ...ERATI (ᚓᚏᚐᚉᚔ)"@en , "Person: ...ERATI"@en , "Person Word: ...ERATI"@en ;
+      rdfs:label "Word: ...ERATI (ᚓᚏᚐᚉᚔ)"@en , "Person Word: ...ERATI (ᚓᚏᚐᚉᚔ)"@en , "Person: ...ERATI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7057,7 +7175,7 @@
 
 <http://www.i3mainz.de/ogham#NETA-CAGI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: NETA-CAGI (ᚆᚓᚉᚐᚊᚐᚌᚔ)"@en , "Person: NETA-CAGI"@en , "Person Word: NETA-CAGI"@en ;
+      rdfs:label "Word: NETA-CAGI (ᚆᚓᚉᚐᚊᚐᚌᚔ)"@en , "Person: NETA-CAGI"@en , "Person Word: NETA-CAGI (ᚆᚓᚉᚐᚊᚐᚌᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7087,6 +7205,7 @@
 
 <http://www.i3mainz.de/ogham#RONANN_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: RONANN"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#COMOGANN_person> .
 
@@ -7107,7 +7226,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-CORABIR>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: MAQI-CORABIR"@en , "Word: MAQI-CORABIR (ᚋᚐᚔᚊᚑᚏᚐᚁᚔᚏ)"@en , "Person Word: MAQI-CORABIR"@en ;
+      rdfs:label "Person: MAQI-CORABIR"@en , "Word: MAQI-CORABIR (ᚋᚐᚔᚊᚑᚏᚐᚁᚔᚏ)"@en , "Person Word: MAQI-CORABIR (ᚋᚐᚔᚊᚑᚏᚐᚁᚔᚏ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7153,6 +7272,7 @@
 
 <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: TOGITTACC[I]"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_person> .
 
@@ -7167,7 +7287,7 @@
 
 <http://www.i3mainz.de/ogham#VEQREQ>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: VEQREQ"@en , "Person Word: VEQREQ"@en , "Word: VEQREQ (ᚄᚓᚏᚓ)"@en ;
+      rdfs:label "Person: VEQREQ"@en , "Word: VEQREQ (ᚄᚓᚏᚓ)"@en , "Person Word: VEQREQ (ᚄᚓᚏᚓ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7231,7 +7351,7 @@
 
 <http://www.i3mainz.de/ogham#BROINIONAS%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: BROINIONAS?"@en , "Person: BROINIONAS?"@en , "Word: BROINIONAS? (ᚁᚏᚑᚔᚆᚔᚑᚆᚐᚅ)"@en ;
+      rdfs:label "Person: BROINIONAS?"@en , "Word: BROINIONAS? (ᚁᚏᚑᚔᚆᚔᚑᚆᚐᚅ)"@en , "Person Word: BROINIONAS? (ᚁᚏᚑᚔᚆᚔᚑᚆᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7278,7 +7398,7 @@
 
 <http://www.i3mainz.de/ogham#DEAGOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DEAGOS"@en , "Person: DEAGOS"@en , "Word: DEAGOS (ᚈᚓᚐᚌᚑᚅ)"@en ;
+      rdfs:label "Person Word: DEAGOS (ᚈᚓᚐᚌᚑᚅ)"@en , "Person: DEAGOS"@en , "Word: DEAGOS (ᚈᚓᚐᚌᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7294,7 +7414,7 @@
 
 <http://www.i3mainz.de/ogham#ERCAVICCAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: ERCAVICCAS (ᚓᚏᚊᚐᚄᚔᚊᚊᚐᚅ)"@en , "Person: ERCAVICCAS"@en , "Person Word: ERCAVICCAS"@en ;
+      rdfs:label "Word: ERCAVICCAS (ᚓᚏᚊᚐᚄᚔᚊᚊᚐᚅ)"@en , "Person: ERCAVICCAS"@en , "Person Word: ERCAVICCAS (ᚓᚏᚊᚐᚄᚔᚊᚊᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7316,7 +7436,7 @@
 
 <http://www.i3mainz.de/ogham#ULCCAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: ULCCAGNI"@en , "Person: ULCCAGNI"@en , "Word: ULCCAGNI (ᚒᚂᚊᚊᚐᚌᚆᚔ)"@en ;
+      rdfs:label "Person: ULCCAGNI"@en , "Word: ULCCAGNI (ᚒᚂᚊᚊᚐᚌᚆᚔ)"@en , "Person Word: ULCCAGNI (ᚒᚂᚊᚊᚐᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7346,7 +7466,7 @@
 
 <http://www.i3mainz.de/ogham#SUVALLOS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: SUVALLOS"@en , "Word: SUVALLOS (ᚅᚒᚄᚐᚂᚂᚑᚅ)"@en , "Person Word: SUVALLOS"@en ;
+      rdfs:label "Person: SUVALLOS"@en , "Word: SUVALLOS (ᚅᚒᚄᚐᚂᚂᚑᚅ)"@en , "Person Word: SUVALLOS (ᚅᚒᚄᚐᚂᚂᚑᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7362,7 +7482,7 @@
 
 <http://www.i3mainz.de/ogham#DERCMASOC>
       a       <http://www.wikidata.org/entity/Q67382150> , <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: DERCMASOC (ᚈᚓᚏᚊᚋᚐᚅᚑᚊ)"@en , "Person: DERCMASOC"@en , "Person Word: DERCMASOC"@en ;
+      rdfs:label "Word: DERCMASOC (ᚈᚓᚏᚊᚋᚐᚅᚑᚊ)"@en , "Person: DERCMASOC"@en , "Person Word: DERCMASOC (ᚈᚓᚏᚊᚋᚐᚅᚑᚊ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7387,6 +7507,7 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQQI-LASIRE(N)"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#BIRRAC_person> .
 
@@ -7401,7 +7522,7 @@
 
 <http://www.i3mainz.de/ogham#CORB>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: CORB (ᚊᚑᚏᚁ)"@en , "Person: CORB"@en , "Person Word: CORB"@en ;
+      rdfs:label "Word: CORB (ᚊᚑᚏᚁ)"@en , "Person Word: CORB (ᚊᚑᚏᚁ)"@en , "Person: CORB"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7417,7 +7538,7 @@
 
 <http://www.i3mainz.de/ogham#OLACON>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: OLACON"@en , "Person Word: OLACON"@en , "Word: OLACON (ᚑᚂᚐᚊᚑᚆ)"@en ;
+      rdfs:label "Person: OLACON"@en , "Person Word: OLACON (ᚑᚂᚐᚊᚑᚆ)"@en , "Word: OLACON (ᚑᚂᚐᚊᚑᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7433,6 +7554,7 @@
 
 <http://www.i3mainz.de/ogham#COMMAGGAGNI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: COMMAGGAGNI"@en ;
       <http://www.wikidata.org/prop/direct/P463>
               <http://www.i3mainz.de/ogham#ISAMMNN%3F> .
 
@@ -7442,7 +7564,7 @@
 
 <http://www.i3mainz.de/ogham#TAN...>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: TAN... (ᚉᚐᚆ)"@en , "Person: TAN..."@en , "Person Word: TAN..."@en ;
+      rdfs:label "Person Word: TAN... (ᚉᚐᚆ)"@en , "Word: TAN... (ᚉᚐᚆ)"@en , "Person: TAN..."@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7464,7 +7586,7 @@
 
 <http://www.i3mainz.de/ogham#TRENU>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: TRENU"@en , "Person Word: TRENU"@en , "Word: TRENU (ᚉᚏᚓᚆᚒ)"@en ;
+      rdfs:label "Person: TRENU"@en , "Person Word: TRENU (ᚉᚏᚓᚆᚒ)"@en , "Word: TRENU (ᚉᚏᚓᚆᚒ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7486,6 +7608,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-CAIRATINI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-CAIRATINI"@en ;
       <http://www.i3mainz.de/ogham#descendantOf>
               <http://www.i3mainz.de/ogham#INEQAGLAS_person> .
 
@@ -7502,11 +7625,12 @@
               <http://www.i3mainz.de/ogham#MINERC%3F_person> .
 
 <http://www.i3mainz.de/ogham#CATTINI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CATTINI"@en .
 
 <http://www.i3mainz.de/ogham#VIRAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: VIRAGNI"@en , "Person: VIRAGNI"@en , "Word: VIRAGNI (ᚄᚔᚏᚐᚌᚆᚔ)"@en ;
+      rdfs:label "Person Word: VIRAGNI (ᚄᚔᚏᚐᚌᚆᚔ)"@en , "Person: VIRAGNI"@en , "Word: VIRAGNI (ᚄᚔᚏᚐᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7544,6 +7668,7 @@
 
 <http://www.i3mainz.de/ogham#RITTAVVECCAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: RITTAVVECCAS"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#VEDDONOS_person> .
 
@@ -7587,7 +7712,8 @@
               <http://www.i3mainz.de/ogham#CEDATTOQA_person> .
 
 <http://www.i3mainz.de/ogham#MAQI-AINIA_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-AINIA"@en .
 
 <http://www.i3mainz.de/ogham#CATTUBUTTAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -7598,6 +7724,7 @@
 
 <http://www.i3mainz.de/ogham#DOVETI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: DOVETI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#CATTINI_person> .
 
@@ -7637,7 +7764,7 @@
 
 <http://www.i3mainz.de/ogham#COLLABOT>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: COLLABOT"@en , "Person: COLLABOT"@en , "Word: COLLABOT (ᚊᚑᚂᚂᚐᚁᚑᚉ)"@en ;
+      rdfs:label "Person Word: COLLABOT (ᚊᚑᚂᚂᚐᚁᚑᚉ)"@en , "Person: COLLABOT"@en , "Word: COLLABOT (ᚊᚑᚂᚂᚐᚁᚑᚉ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7690,7 +7817,7 @@
 
 <http://www.i3mainz.de/ogham#CATTUVIR>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CATTUVIR"@en , "Person: CATTUVIR"@en , "Word: CATTUVIR (ᚊᚐᚉᚉᚒᚄᚔᚏ)"@en ;
+      rdfs:label "Person Word: CATTUVIR (ᚊᚐᚉᚉᚒᚄᚔᚏ)"@en , "Person: CATTUVIR"@en , "Word: CATTUVIR (ᚊᚐᚉᚉᚒᚄᚔᚏ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7725,7 +7852,7 @@
 
 <http://www.i3mainz.de/ogham#B%5BAID%5DAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: B[AID]AGNI"@en , "Person: B[AID]AGNI"@en , "Word: B[AID]AGNI (ᚁᚐᚔᚈᚐᚌᚆᚔ)"@en ;
+      rdfs:label "Person: B[AID]AGNI"@en , "Person Word: B[AID]AGNI (ᚁᚐᚔᚈᚐᚌᚆᚔ)"@en , "Word: B[AID]AGNI (ᚁᚐᚔᚈᚐᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7746,7 +7873,8 @@
               <http://www.i3mainz.de/ogham#VEDDONOS_person> .
 
 <http://www.i3mainz.de/ogham#CALIACI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: CALIACI"@en .
 
 <http://www.i3mainz.de/ogham#CIIC+5.+Rusheens+West_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -7765,7 +7893,8 @@
       rdfs:label "sense"@en .
 
 <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: [QE]TTEAS"@en .
 
 <http://www.i3mainz.de/ogham#MARIANI_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
@@ -7782,7 +7911,7 @@
 
 <http://www.i3mainz.de/ogham#LUGUDECAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: LUGUDECAS"@en , "Person Word: LUGUDECAS"@en , "Word: LUGUDECAS (ᚂᚒᚌᚒᚈᚓᚊᚐᚅ)"@en ;
+      rdfs:label "Person: LUGUDECAS"@en , "Word: LUGUDECAS (ᚂᚒᚌᚒᚈᚓᚊᚐᚅ)"@en , "Person Word: LUGUDECAS (ᚂᚒᚌᚒᚈᚓᚊᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7826,7 +7955,7 @@
 
 <http://www.i3mainz.de/ogham#BROENIONAS%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Person: BROENIONAS?"@en , "Word: BROENIONAS? (ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ)"@en , "Person Word: BROENIONAS?"@en ;
+      rdfs:label "Person: BROENIONAS?"@en , "Word: BROENIONAS? (ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ)"@en , "Person Word: BROENIONAS? (ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ)"@en , "Tribe: BROENIONAS?"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#QECCIAS%3F_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -7866,7 +7995,7 @@
 
 <http://www.i3mainz.de/ogham#NETA-SEGAMONAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Word: NETA-SEGAMONAS (ᚆᚓᚉᚐᚅᚓᚌᚐᚋᚑᚆᚐᚅ)"@en , "Person: NETA-SEGAMONAS"@en , "Person Word: NETA-SEGAMONAS"@en ;
+      rdfs:label "Word: NETA-SEGAMONAS (ᚆᚓᚉᚐᚅᚓᚌᚐᚋᚑᚆᚐᚅ)"@en , "Person: NETA-SEGAMONAS"@en , "Tribe: NETA-SEGAMONAS"@en , "Person Word: NETA-SEGAMONAS (ᚆᚓᚉᚐᚅᚓᚌᚐᚋᚑᚆᚐᚅ)"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#...ERATI_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -7884,7 +8013,7 @@
 
 <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: TOGITTACC[I]?"@en , "Word: TOGITTACC[I]? (ᚉᚑᚌᚔᚉᚉᚐᚊᚊᚔ)"@en , "Person: TOGITTACC[I]?"@en ;
+      rdfs:label "Person Word: TOGITTACC[I]? (ᚉᚑᚌᚔᚉᚉᚐᚊᚊᚔ)"@en , "Word: TOGITTACC[I]? (ᚉᚑᚌᚔᚉᚉᚐᚊᚊᚔ)"@en , "Person: TOGITTACC[I]?"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7920,7 +8049,7 @@
 
 <http://www.i3mainz.de/ogham#MAKINI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: MAKINI (ᚋᚐᚔᚆᚔ)"@en , "Person Word: MAKINI"@en , "Person: MAKINI"@en ;
+      rdfs:label "Word: MAKINI (ᚋᚐᚔᚆᚔ)"@en , "Person: MAKINI"@en , "Person Word: MAKINI (ᚋᚐᚔᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7956,7 +8085,8 @@
               "POINT (-10.405999 52.166581)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#MAQI-RET%2FC..._person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: MAQI-RET/C..."@en .
 
 <http://www.i3mainz.de/ogham#CIIC+49.+Baltinglass_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -7981,7 +8111,7 @@
 
 <http://www.i3mainz.de/ogham#COLMAN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: COLMAN"@en , "Word: COLMAN (ᚊᚑᚂᚋᚐᚆ)"@en , "Person Word: COLMAN"@en ;
+      rdfs:label "Person: COLMAN"@en , "Word: COLMAN (ᚊᚑᚂᚋᚐᚆ)"@en , "Person Word: COLMAN (ᚊᚑᚂᚋᚐᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -7997,7 +8127,7 @@
 
 <http://www.i3mainz.de/ogham#ROTTAIS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: ROTTAIS"@en , "Person Word: ROTTAIS"@en , "Word: ROTTAIS (ᚏᚑᚉᚉᚐᚔᚅ)"@en ;
+      rdfs:label "Person: ROTTAIS"@en , "Word: ROTTAIS (ᚏᚑᚉᚉᚐᚔᚅ)"@en , "Person Word: ROTTAIS (ᚏᚑᚉᚉᚐᚔᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8013,7 +8143,7 @@
 
 <http://www.i3mainz.de/ogham#LLOTETI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: LLOTETI"@en , "Person: LLOTETI"@en , "Word: LLOTETI (ᚂᚂᚑᚉᚓᚉᚔ)"@en ;
+      rdfs:label "Person: LLOTETI"@en , "Word: LLOTETI (ᚂᚂᚑᚉᚓᚉᚔ)"@en , "Person Word: LLOTETI (ᚂᚂᚑᚉᚓᚉᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8029,7 +8159,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-DECEDAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MAQI-DECEDAS"@en , "Person: MAQI-DECEDAS"@en , "Word: MAQI-DECEDAS (ᚋᚐᚔᚈᚓᚊᚓᚈᚐᚅ)"@en ;
+      rdfs:label "Person Word: MAQI-DECEDAS (ᚋᚐᚔᚈᚓᚊᚓᚈᚐᚅ)"@en , "Person: MAQI-DECEDAS"@en , "Word: MAQI-DECEDAS (ᚋᚐᚔᚈᚓᚊᚓᚈᚐᚅ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8061,7 +8191,7 @@
 
 <http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: NAG[U]N[I]"@en , "Person Word: NAG[U]N[I]"@en , "Word: NAG[U]N[I] (ᚆᚐᚌᚒᚆᚔ)"@en ;
+      rdfs:label "Person: NAG[U]N[I]"@en , "Word: NAG[U]N[I] (ᚆᚐᚌᚒᚆᚔ)"@en , "Person Word: NAG[U]N[I] (ᚆᚐᚌᚒᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8097,7 +8227,7 @@
 
 <http://www.i3mainz.de/ogham#TALAGNI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: TALAGNI"@en , "Person: TALAGNI"@en , "Word: TALAGNI (ᚉᚐᚂᚐᚌᚆᚔ)"@en ;
+      rdfs:label "Person Word: TALAGNI (ᚉᚐᚂᚐᚌᚆᚔ)"@en , "Person: TALAGNI"@en , "Word: TALAGNI (ᚉᚐᚂᚐᚌᚆᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8128,7 +8258,7 @@
 
 <http://www.i3mainz.de/ogham#NOCATI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: NOCATI"@en , "Word: NOCATI (ᚆᚑᚊᚐᚉᚔ)"@en , "Person: NOCATI"@en ;
+      rdfs:label "Word: NOCATI (ᚆᚑᚊᚐᚉᚔ)"@en , "Person: NOCATI"@en , "Person Word: NOCATI (ᚆᚑᚊᚐᚉᚔ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8177,7 +8307,7 @@
 
 <http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MAQQI-LASIRE(N)"@en , "Word: MAQQI-LASIRE(N) (ᚋᚐᚔᚂᚐᚅᚔᚏᚓᚆ)"@en , "Person: MAQQI-LASIRE(N)"@en ;
+      rdfs:label "Word: MAQQI-LASIRE(N) (ᚋᚐᚔᚂᚐᚅᚔᚏᚓᚆ)"@en , "Person Word: MAQQI-LASIRE(N) (ᚋᚐᚔᚂᚐᚅᚔᚏᚓᚆ)"@en , "Person: MAQQI-LASIRE(N)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8193,7 +8323,7 @@
 
 <http://www.i3mainz.de/ogham#MACORBO>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> , <http://www.wikidata.org/entity/Q3538737> ;
-      rdfs:label "Word: MACORBO (ᚋᚐᚊᚑᚏᚁᚑ)"@en , "Person: MACORBO"@en , "Person Word: MACORBO"@en ;
+      rdfs:label "Word: MACORBO (ᚋᚐᚊᚑᚏᚁᚑ)"@en , "Tribe: MACORBO"@en , "Person Word: MACORBO (ᚋᚐᚊᚑᚏᚁᚑ)"@en , "Person: MACORBO"@en ;
       <http://www.i3mainz.de/ogham#hasMember>
               <http://www.i3mainz.de/ogham#GATI_person> ;
       <http://www.w3.org/ns/lemon/lime#language>
@@ -8228,6 +8358,7 @@
 
 <http://www.i3mainz.de/ogham#COLLABOT_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: COLLABOT"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#LOBACCONA_person> ;
       <http://www.wikidata.org/prop/direct/P463>
@@ -8244,6 +8375,7 @@
 
 <http://www.i3mainz.de/ogham#VEDELMETO_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: VEDELMETO"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F_person> ;
       <http://www.wikidata.org/prop/direct/P463>
@@ -8251,7 +8383,7 @@
 
 <http://www.i3mainz.de/ogham#BIGU>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: BIGU (ᚁᚔᚌᚒ)"@en , "Person: BIGU"@en , "Person Word: BIGU"@en ;
+      rdfs:label "Word: BIGU (ᚁᚔᚌᚒ)"@en , "Person: BIGU"@en , "Person Word: BIGU (ᚁᚔᚌᚒ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8271,6 +8403,7 @@
 
 <http://www.i3mainz.de/ogham#BIVAIDONAS_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: BIVAIDONAS"@en ;
       <http://www.wikidata.org/prop/direct/P463>
               <http://www.i3mainz.de/ogham#ATAR> .
 
@@ -8288,7 +8421,7 @@
 
 <http://www.i3mainz.de/ogham#TRENALUGGO%3F>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: TRENALUGGO?"@en , "Word: TRENALUGGO? (ᚉᚏᚓᚆᚐᚂᚒᚌᚌᚑ)"@en , "Person: TRENALUGGO?"@en ;
+      rdfs:label "Word: TRENALUGGO? (ᚉᚏᚓᚆᚐᚂᚒᚌᚌᚑ)"@en , "Person Word: TRENALUGGO? (ᚉᚏᚓᚆᚐᚂᚒᚌᚌᚑ)"@en , "Person: TRENALUGGO?"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8319,7 +8452,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-RITEAS>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: MAQI-RITEAS"@en , "Word: MAQI-RITEAS (ᚋᚐᚔᚏᚔᚉᚓᚐᚅ)"@en , "Person: MAQI-RITEAS"@en ;
+      rdfs:label "Word: MAQI-RITEAS (ᚋᚐᚔᚏᚔᚉᚓᚐᚅ)"@en , "Person Word: MAQI-RITEAS (ᚋᚐᚔᚏᚔᚉᚓᚐᚅ)"@en , "Person: MAQI-RITEAS"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8334,14 +8467,15 @@
               "ᚋᚐᚔᚏᚔᚉᚓᚐᚅ" .
 
 <http://www.i3mainz.de/ogham#LOBACCONA_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LOBACCONA"@en .
 
 <http://www.i3mainz.de/ogham#NETA-CAGI_person>
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#CATTABBOTT>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: CATTABBOTT"@en , "Word: CATTABBOTT (ᚊᚐᚉᚉᚐᚁᚁᚑᚉᚉ)"@en , "Person: CATTABBOTT"@en ;
+      rdfs:label "Word: CATTABBOTT (ᚊᚐᚉᚉᚐᚁᚁᚑᚉᚉ)"@en , "Person Word: CATTABBOTT (ᚊᚐᚉᚉᚐᚁᚁᚑᚉᚉ)"@en , "Person: CATTABBOTT"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8370,7 +8504,7 @@
 
 <http://www.i3mainz.de/ogham#VORRTIGURN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: VORRTIGURN"@en , "Person: VORRTIGURN"@en , "Word: VORRTIGURN (ᚄᚑᚏᚏᚉᚔᚌᚒᚏᚆ)"@en ;
+      rdfs:label "Person Word: VORRTIGURN (ᚄᚑᚏᚏᚉᚔᚌᚒᚏᚆ)"@en , "Person: VORRTIGURN"@en , "Word: VORRTIGURN (ᚄᚑᚏᚏᚉᚔᚌᚒᚏᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8385,10 +8519,12 @@
               "ᚄᚑᚏᚏᚉᚔᚌᚒᚏᚆ" .
 
 <http://www.i3mainz.de/ogham#LAG%5B..._person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: LAG[..."@en .
 
 <http://www.i3mainz.de/ogham#BATTIGNI_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Tribe: BATTIGNI"@en .
 
 <http://www.i3mainz.de/ogham#Cloghabrody_geom>
       a       <http://www.opengis.net/ont/sf#Point> ;
@@ -8427,6 +8563,7 @@
 
 <http://www.i3mainz.de/ogham#TASEGAGNI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: TASEGAGNI"@en ;
       <http://www.wikidata.org/prop/direct/P22>
               <http://www.i3mainz.de/ogham#MACORBO%3F_person> .
 
@@ -8474,7 +8611,7 @@
 
 <http://www.i3mainz.de/ogham#RETAGIN>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person: RETAGIN"@en , "Person Word: RETAGIN"@en , "Word: RETAGIN (ᚏᚓᚉᚐᚌᚔᚆ)"@en ;
+      rdfs:label "Person: RETAGIN"@en , "Word: RETAGIN (ᚏᚓᚉᚐᚌᚔᚆ)"@en , "Person Word: RETAGIN (ᚏᚓᚉᚐᚌᚔᚆ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8511,7 +8648,7 @@
 
 <http://www.i3mainz.de/ogham#MAQI-RET%2FC...>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Word: MAQI-RET/C... (ᚋᚐᚔᚏᚓᚉᚊ)"@en , "Person: MAQI-RET/C..."@en , "Person Word: MAQI-RET/C..."@en ;
+      rdfs:label "Word: MAQI-RET/C... (ᚋᚐᚔᚏᚓᚉᚊ)"@en , "Person: MAQI-RET/C..."@en , "Person Word: MAQI-RET/C... (ᚋᚐᚔᚏᚓᚉᚊ)"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8527,7 +8664,7 @@
 
 <http://www.i3mainz.de/ogham#DOVETI>
       a       <http://www.w3.org/ns/lemon/ontolex#Word> ;
-      rdfs:label "Person Word: DOVETI"@en , "Word: DOVETI (ᚈᚑᚄᚓᚉᚔ)"@en , "Person: DOVETI"@en ;
+      rdfs:label "Person Word: DOVETI (ᚈᚑᚄᚓᚉᚔ)"@en , "Word: DOVETI (ᚈᚑᚄᚓᚉᚔ)"@en , "Person: DOVETI"@en ;
       <http://www.w3.org/ns/lemon/lime#language>
               <http://www.wikidata.org/entity/Q3320030> ;
       <http://www.w3.org/ns/lemon/ontolex#contains>
@@ -8548,7 +8685,8 @@
               "POINT (-7.222584 52.470256)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#COMOGANN_person>
-      a       <http://xmlns.com/foaf/0.1/Person> .
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      rdfs:label "Person: COMOGANN"@en .
 
 <http://www.i3mainz.de/ogham#CUNAGUSOS_sense>
       a       <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
