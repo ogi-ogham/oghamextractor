@@ -1,5 +1,4 @@
 var search={
-  " Instances Collection": "http://www.i3mainz.de/ogham#_collection",
   "...ERATI Sense": "http://www.i3mainz.de/ogham#...ERATI_sense",
   "...LL... Sense": "http://www.i3mainz.de/ogham#...LL..._sense",
   "ADDILONA Sense": "http://www.i3mainz.de/ogham#ADDILONA_sense",
@@ -291,6 +290,7 @@ var search={
   "LUGUDECAS Sense": "http://www.i3mainz.de/ogham#LUGUDECAS_sense",
   "LUGUQRIT Sense": "http://www.i3mainz.de/ogham#LUGUQRIT_sense",
   "LexicalSense Instances Collection": "http://www.i3mainz.de/ogham#LexicalSense_collection",
+  "Lexicon Instances Collection": "http://www.i3mainz.de/ogham#Lexicon_collection",
   "MACORBO Sense": "http://www.i3mainz.de/ogham#MACORBO_sense",
   "MACORBO? Sense": "http://www.i3mainz.de/ogham#MACORBO%3F_sense",
   "MAILAGNI Sense": "http://www.i3mainz.de/ogham#MAILAGNI_sense",

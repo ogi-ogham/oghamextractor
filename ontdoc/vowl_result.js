@@ -158,25 +158,15 @@ var vowlresult={
    "iri": "http://xmlns.com/foaf/0.1/Person",
    "baseIRI": "http://xmlns.com/foaf/0.1",
    "instances": 0,
-   "label": "Lexicon",
-   "annotations": {},
-   "subClasses": [],
-   "superClasses": []
-  },
-  {
-   "id": 1012,
-   "iri": "http://www.w3.org/ns/lemon/lime#",
-   "baseIRI": "http://www.w3.org/ns/lemon/lime",
-   "instances": 0,
    "label": "Point",
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "1016"
+    "1015"
    ]
   },
   {
-   "id": 1013,
+   "id": 1012,
    "iri": "http://www.opengis.net/ont/sf#Point",
    "baseIRI": "http://www.opengis.net/ont/sf",
    "instances": 0,
@@ -186,48 +176,48 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1014,
+   "id": 1013,
    "iri": "http://www.wikidata.org/entity/Q41812345",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
    "label": "Feature",
    "annotations": {},
    "subClasses": [
-    "1019"
+    "1018"
    ],
    "superClasses": [
-    "1017"
+    "1016"
    ]
   },
   {
-   "id": 1015,
+   "id": 1014,
    "iri": "http://www.opengis.net/ont/geosparql#Feature",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
    "label": "Geometry",
    "annotations": {},
    "subClasses": [
-    "1013"
+    "1012"
    ],
    "superClasses": [
-    "1017"
+    "1016"
    ]
   },
   {
-   "id": 1016,
+   "id": 1015,
    "iri": "http://www.opengis.net/ont/geosparql#Geometry",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
    "label": "Spatial Object",
    "annotations": {},
    "subClasses": [
-    "1015",
-    "1016"
+    "1014",
+    "1015"
    ],
    "superClasses": []
   },
   {
-   "id": 1017,
+   "id": 1016,
    "iri": "http://www.opengis.net/ont/geosparql#SpatialObject",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
@@ -237,7 +227,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1018,
+   "id": 1017,
    "iri": "http://www.w3.org/ns/lemon/ontolex#Character",
    "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
    "instances": 0,
@@ -245,11 +235,11 @@ var vowlresult={
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "1015"
+    "1014"
    ]
   },
   {
-   "id": 1019,
+   "id": 1018,
    "iri": "http://www.i3mainz.de/ogham#OghamObject",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -259,7 +249,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1020,
+   "id": 1019,
    "iri": "http://www.wikidata.org/entity/Q527",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -269,7 +259,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1021,
+   "id": 1020,
    "iri": "http://www.wikidata.org/entity/Q830",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -279,9 +269,19 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1022,
+   "id": 1021,
    "iri": "http://www.wikidata.org/entity/Q178561",
    "baseIRI": "http://www.wikidata.org/entity",
+   "instances": 0,
+   "label": "Lexicon",
+   "annotations": {},
+   "subClasses": [],
+   "superClasses": []
+  },
+  {
+   "id": 1022,
+   "iri": "http://www.w3.org/ns/lemon/lime#Lexicon",
+   "baseIRI": "http://www.w3.org/ns/lemon/lime",
    "instances": 0,
    "label": "Ogham Word",
    "annotations": {},
@@ -4625,7 +4625,7 @@ var vowlresult={
   },
   {
    "id": 1079,
-   "type": "http://www.w3.org/ns/lemon/lime#"
+   "type": "http://www.w3.org/ns/lemon/lime#Lexicon"
   }
  ],
  "propertyAttribute": [
@@ -26099,7 +26099,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#hasMember",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "name relates to",
+   "label": "entry",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -26108,6 +26108,18 @@ var vowlresult={
   },
   {
    "id": 819,
+   "iri": "http://www.w3.org/ns/lemon/lime#entry",
+   "baseIRI": "http://www.w3.org/ns/lemon/lime",
+   "instances": 0,
+   "label": "name relates to",
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 820,
    "iri": "http://www.i3mainz.de/ogham#nameRelatesTo",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26119,21 +26131,9 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 820,
+   "id": 821,
    "iri": "http://www.wikidata.org/prop/direct/P6568",
    "baseIRI": "http://www.wikidata.org/prop/direct",
-   "instances": 0,
-   "label": "entry",
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 821,
-   "iri": "http://www.w3.org/ns/lemon/ontolex#entry",
-   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
    "instances": 0,
    "label": "descendant of",
    "annotations": {},
@@ -34281,9 +34281,9 @@ var vowlresult={
    "instances": 0,
    "label": "Ogham Dictionary",
    "annotations": {
-    "http://www.w3.org/ns/lemon/ontolex#entry": [
+    "http://www.w3.org/ns/lemon/lime#entry": [
      {
-      "identifier": "http://www.w3.org/ns/lemon/ontolex#entry",
+      "identifier": "http://www.w3.org/ns/lemon/lime#entry",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ODR...REA",
       "type": "iri"
