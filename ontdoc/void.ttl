@@ -31,13 +31,6 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.i3mainz.de/ogham#Ogham_From_Epidoc_lemon-model.net_lemon_> a void:Linkset ;
-    rdfs:label "Linkset: Ogham_From_Epidoc - lemon:"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget <http://lemon-model.net/lemon#> ;
-    void:subjectsTarget <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
-    void:triples 458 .
-
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_www.opengis.net_ont_geosparql_> a void:Linkset ;
     rdfs:label "Linkset: Ogham_From_Epidoc - The GeoSPARQL Ontology (gsp:)"@en ;
     void:linkPredicate rdf:type,
@@ -74,6 +67,20 @@
     void:objectsTarget <http://www.w3.org/2006/vcard/ns#> ;
     void:subjectsTarget <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
     void:triples 1 .
+
+<http://www.i3mainz.de/ogham#Ogham_From_Epidoc_www.w3.org_ns_lemon_lime_> a void:Linkset ;
+    rdfs:label "Linkset: Ogham_From_Epidoc - Linguistic Metadata Ontology (lime:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.w3.org/ns/lemon/lime#> ;
+    void:subjectsTarget <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
+    void:triples 1 .
+
+<http://www.i3mainz.de/ogham#Ogham_From_Epidoc_www.w3.org_ns_lemon_ontolex_> a void:Linkset ;
+    rdfs:label "Linkset: Ogham_From_Epidoc - Lexicon Model For Ontologies (ontolex:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.w3.org/ns/lemon/ontolex#> ;
+    void:subjectsTarget <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
+    void:triples 457 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_www.wikidata.org_entity_> a void:Linkset ;
     rdfs:label "Linkset: Ogham_From_Epidoc - Wikidata Entities (wde:)"@en ;
@@ -296,9 +303,14 @@ doap: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
     voaf:usageInDataset doap:_Ogham_From_Epidoc_occ .
 
+<http://www.i3mainz.de/ogham#Ogham_From_Epidoc_> a void:Dataset ;
+    rdfs:label "Class Partition: "@en ;
+    void:class <http://www.w3.org/ns/lemon/lime#> ;
+    void:entities 1 .
+
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Character> a void:Dataset ;
     rdfs:label "Class Partition: Character"@en ;
-    void:class <http://lemon-model.net/lemon#Character> ;
+    void:class <http://www.w3.org/ns/lemon/ontolex#Character> ;
     void:entities 17 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Collection> a void:Dataset ;
@@ -331,13 +343,8 @@ doap: a voaf:Vocabulary ;
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_LexicalSense> a void:Dataset ;
     rdfs:label "Class Partition: LexicalSense"@en ;
-    void:class <http://lemon-model.net/lemon#LexicalSense> ;
+    void:class <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
     void:entities 211 .
-
-<http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Lexicon> a void:Dataset ;
-    rdfs:label "Class Partition: Lexicon"@en ;
-    void:class <http://lemon-model.net/lemon#Lexicon> ;
-    void:entities 1 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_OghamObject> a void:Dataset ;
     rdfs:label "Class Partition: OghamObject"@en ;
@@ -432,7 +439,7 @@ doap: a voaf:Vocabulary ;
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Word> a void:Dataset ;
     rdfs:label "Class Partition: Word"@en ;
-    void:class <http://lemon-model.net/lemon#Word> ;
+    void:class <http://www.w3.org/ns/lemon/ontolex#Word> ;
     void:entities 229 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_asWKT> a void:Dataset ;
@@ -442,7 +449,7 @@ doap: a voaf:Vocabulary ;
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_contains> a void:Dataset ;
     rdfs:label "Property Partition: contains"@en ;
-    void:property <http://lemon-model.net/lemon#contains> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#contains> ;
     void:triples 1301 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_definedInWikidata> a void:Dataset ;
@@ -462,7 +469,7 @@ doap: a voaf:Vocabulary ;
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_entry> a void:Dataset ;
     rdfs:label "Property Partition: entry"@en ;
-    void:property <http://lemon-model.net/lemon#entry> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#entry> ;
     void:triples 229 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_follows> a void:Dataset ;
@@ -499,12 +506,12 @@ doap: a voaf:Vocabulary ;
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_reference> a void:Dataset ;
     rdfs:label "Property Partition: reference"@en ;
-    void:property <http://lemon-model.net/lemon#reference> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#reference> ;
     void:triples 211 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_sense> a void:Dataset ;
     rdfs:label "Property Partition: sense"@en ;
-    void:property <http://lemon-model.net/lemon#sense> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#sense> ;
     void:triples 211 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_subClassOf> a void:Dataset ;
@@ -514,7 +521,7 @@ doap: a voaf:Vocabulary ;
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_transliteration> a void:Dataset ;
     rdfs:label "Property Partition: transliteration"@en ;
-    void:property <http://lemon-model.net/lemon#transliteration> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#transliteration> ;
     void:triples 246 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_type> a void:Dataset ;
@@ -524,7 +531,7 @@ doap: a voaf:Vocabulary ;
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_writtenRep> a void:Dataset ;
     rdfs:label "Property Partition: writtenRep"@en ;
-    void:property <http://lemon-model.net/lemon#writtenRep> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#writtenRep> ;
     void:triples 246 .
 
 rdf: a voaf:Vocabulary ;
@@ -668,7 +675,7 @@ foaf:Person rdfs:label "Person"@en .
     rdfs:label "Ogham_From_Epidoc"@en ;
     vext:averageLiteralLength 0 ;
     vext:averageObjectIRILength 36 ;
-    vext:averagePropertyIRILength 40 ;
+    vext:averagePropertyIRILength 42 ;
     vext:averageSubjectIRILength 42 ;
     vext:datatypes 0 ;
     vext:distinctBlankNodes 0 ;
@@ -678,7 +685,7 @@ foaf:Person rdfs:label "Person"@en .
     vext:languages 0 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-09-22T15:02:45"^^xsd:dateTime ;
+    dcterms:modified "2024-09-22T15:08:41"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -687,7 +694,8 @@ foaf:Person rdfs:label "Person"@en .
     dcterms:title "Ogham_From_Epidoc"@en ;
     vann:preferredNamespacePrefix "ogham"^^xsd:string ;
     vann:preferredNamespaceUri "http://www.i3mainz.de/ogham#"^^xsd:anyURI ;
-    void:classPartition <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Character>,
+    void:classPartition <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_>,
+        <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Character>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Collection>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Feature>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_FeatureCollection>,
@@ -695,7 +703,6 @@ foaf:Person rdfs:label "Person"@en .
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_GeometryCollection>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Group>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_LexicalSense>,
-        <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Lexicon>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_OghamObject>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Person>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Point>,

@@ -68,22 +68,6 @@ var vowlresult={
  "namespace": [],
  "class": [
   {
-   "id": 1007,
-   "type": "http://www.w3.org/2002/07/owl#Class"
-  },
-  {
-   "id": 1008,
-   "type": "http://www.w3.org/2002/07/owl#Class"
-  },
-  {
-   "id": 1009,
-   "type": "http://www.w3.org/2002/07/owl#Class"
-  },
-  {
-   "id": 1010,
-   "type": "http://www.w3.org/2002/07/owl#Class"
-  },
-  {
    "id": 1011,
    "type": "http://www.w3.org/2002/07/owl#Class"
   },
@@ -150,53 +134,49 @@ var vowlresult={
   {
    "id": 1027,
    "type": "http://www.w3.org/2002/07/owl#Class"
+  },
+  {
+   "id": 1028,
+   "type": "http://www.w3.org/2002/07/owl#Class"
+  },
+  {
+   "id": 1029,
+   "type": "http://www.w3.org/2002/07/owl#Class"
+  },
+  {
+   "id": 1030,
+   "type": "http://www.w3.org/2002/07/owl#Class"
+  },
+  {
+   "id": 1031,
+   "type": "http://www.w3.org/2002/07/owl#Class"
   }
  ],
  "classAttribute": [
   {
-   "id": 1007,
+   "id": 1011,
    "iri": "http://xmlns.com/foaf/0.1/Person",
    "baseIRI": "http://xmlns.com/foaf/0.1",
    "instances": 0,
-   "label": "Character",
+   "label": "Lexicon",
    "annotations": {},
    "subClasses": [],
    "superClasses": []
   },
   {
-   "id": 1008,
-   "iri": "http://lemon-model.net/lemon#Character",
-   "baseIRI": "http://lemon-model.net/lemon",
-   "instances": 0,
-   "label": "Word",
-   "annotations": {},
-   "subClasses": [],
-   "superClasses": []
-  },
-  {
-   "id": 1009,
-   "iri": "http://lemon-model.net/lemon#Word",
-   "baseIRI": "http://lemon-model.net/lemon",
-   "instances": 0,
-   "label": "Lexical Sense",
-   "annotations": {},
-   "subClasses": [],
-   "superClasses": []
-  },
-  {
-   "id": 1010,
-   "iri": "http://lemon-model.net/lemon#LexicalSense",
-   "baseIRI": "http://lemon-model.net/lemon",
+   "id": 1012,
+   "iri": "http://www.w3.org/ns/lemon/lime#",
+   "baseIRI": "http://www.w3.org/ns/lemon/lime",
    "instances": 0,
    "label": "Point",
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "1014"
+    "1016"
    ]
   },
   {
-   "id": 1011,
+   "id": 1013,
    "iri": "http://www.opengis.net/ont/sf#Point",
    "baseIRI": "http://www.opengis.net/ont/sf",
    "instances": 0,
@@ -206,60 +186,70 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1012,
+   "id": 1014,
    "iri": "http://www.wikidata.org/entity/Q41812345",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
    "label": "Feature",
    "annotations": {},
    "subClasses": [
-    "1016"
+    "1019"
    ],
    "superClasses": [
-    "1015"
+    "1017"
    ]
   },
   {
-   "id": 1013,
+   "id": 1015,
    "iri": "http://www.opengis.net/ont/geosparql#Feature",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
    "label": "Geometry",
    "annotations": {},
    "subClasses": [
-    "1011"
+    "1013"
    ],
    "superClasses": [
-    "1015"
+    "1017"
    ]
   },
   {
-   "id": 1014,
+   "id": 1016,
    "iri": "http://www.opengis.net/ont/geosparql#Geometry",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
    "label": "Spatial Object",
    "annotations": {},
    "subClasses": [
-    "1013",
-    "1014"
+    "1015",
+    "1016"
    ],
    "superClasses": []
   },
   {
-   "id": 1015,
+   "id": 1017,
    "iri": "http://www.opengis.net/ont/geosparql#SpatialObject",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
+   "instances": 0,
+   "label": "Character",
+   "annotations": {},
+   "subClasses": [],
+   "superClasses": []
+  },
+  {
+   "id": 1018,
+   "iri": "http://www.w3.org/ns/lemon/ontolex#Character",
+   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
    "instances": 0,
    "label": "Ogham Object",
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "1013"
+    "1015"
    ]
   },
   {
-   "id": 1016,
+   "id": 1019,
    "iri": "http://www.i3mainz.de/ogham#OghamObject",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -269,7 +259,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1017,
+   "id": 1020,
    "iri": "http://www.wikidata.org/entity/Q527",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -279,7 +269,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1018,
+   "id": 1021,
    "iri": "http://www.wikidata.org/entity/Q830",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -289,7 +279,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1019,
+   "id": 1022,
    "iri": "http://www.wikidata.org/entity/Q178561",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -299,7 +289,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1020,
+   "id": 1023,
    "iri": "http://www.wikidata.org/entity/Q67384733",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -309,7 +299,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1021,
+   "id": 1024,
    "iri": "http://www.wikidata.org/entity/Q18498",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -319,7 +309,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1022,
+   "id": 1025,
    "iri": "http://www.wikidata.org/entity/Q215683",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -329,7 +319,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1023,
+   "id": 1026,
    "iri": "http://www.wikidata.org/entity/Q67381377",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -339,9 +329,29 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1024,
+   "id": 1027,
    "iri": "http://www.wikidata.org/entity/Q3538737",
    "baseIRI": "http://www.wikidata.org/entity",
+   "instances": 0,
+   "label": "Lexical Sense",
+   "annotations": {},
+   "subClasses": [],
+   "superClasses": []
+  },
+  {
+   "id": 1028,
+   "iri": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
+   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
+   "instances": 0,
+   "label": "Word",
+   "annotations": {},
+   "subClasses": [],
+   "superClasses": []
+  },
+  {
+   "id": 1029,
+   "iri": "http://www.w3.org/ns/lemon/ontolex#Word",
+   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
    "instances": 0,
    "label": "Nomenclature Word",
    "annotations": {},
@@ -349,7 +359,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1025,
+   "id": 1030,
    "iri": "http://www.wikidata.org/entity/Q67382150",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -359,19 +369,9 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 1026,
+   "id": 1031,
    "iri": "http://www.wikidata.org/entity/Q67383482",
    "baseIRI": "http://www.wikidata.org/entity",
-   "instances": 0,
-   "label": "Lexicon",
-   "annotations": {},
-   "subClasses": [],
-   "superClasses": []
-  },
-  {
-   "id": 1027,
-   "iri": "http://lemon-model.net/lemon#Lexicon",
-   "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
    "label": "Person",
    "annotations": {},
@@ -382,331 +382,331 @@ var vowlresult={
  "property": [
   {
    "id": 0,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 2,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 3,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 4,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 5,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 6,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 7,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 8,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 9,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 10,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 11,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 12,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 13,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 14,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 15,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 16,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 17,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 18,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 19,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 20,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 21,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 22,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 23,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 24,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 25,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 26,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 27,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 28,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 29,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 30,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 31,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 32,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 33,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 34,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 35,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 36,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 37,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 38,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 39,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 40,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 41,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 42,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 43,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 44,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 45,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 46,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 47,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 48,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 49,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 50,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 51,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 52,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 53,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 54,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 55,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 56,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 57,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 58,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 59,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 60,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 61,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 62,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 63,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 64,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 65,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 66,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 67,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 68,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 69,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 70,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 71,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 72,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 73,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 74,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 75,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 76,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 77,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 78,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 79,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 80,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 81,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 82,
@@ -714,95 +714,95 @@ var vowlresult={
   },
   {
    "id": 83,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 84,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 85,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 86,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 87,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 88,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 89,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 90,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 91,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 92,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 93,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 94,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 95,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 96,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 97,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 98,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 99,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 100,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 101,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 102,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 103,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 104,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 105,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 106,
@@ -810,363 +810,363 @@ var vowlresult={
   },
   {
    "id": 107,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 108,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 109,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 110,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 111,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 112,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 113,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 114,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 115,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 116,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 117,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 118,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 119,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 120,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 121,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 122,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 123,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 124,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 125,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 126,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 127,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 128,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 129,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 130,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 131,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 132,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 133,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 134,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 135,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 136,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 137,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 138,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 139,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 140,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 141,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 142,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 143,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 144,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 145,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 146,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 147,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 148,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 149,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 150,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 151,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 152,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 153,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 154,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 155,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 156,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 157,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 158,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 159,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 160,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 161,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 162,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 163,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 164,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 165,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 166,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 167,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 168,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 169,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 170,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 171,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 172,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 173,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 174,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 175,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 176,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 177,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 178,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 179,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 180,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 181,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 182,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 183,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 184,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 185,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 186,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 187,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 188,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 189,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 190,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 191,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 192,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 193,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 194,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 195,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 196,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 197,
@@ -1174,127 +1174,127 @@ var vowlresult={
   },
   {
    "id": 198,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 199,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 200,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 201,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 202,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 203,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 204,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 205,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 206,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 207,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 208,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 209,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 210,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 211,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 212,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 213,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 214,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 215,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 216,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 217,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 218,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 219,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 220,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 221,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 222,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 223,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 224,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 225,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 226,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 227,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 228,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 229,
@@ -2798,847 +2798,847 @@ var vowlresult={
   },
   {
    "id": 604,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 605,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 606,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 607,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 608,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 609,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 610,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 611,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 612,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 613,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 614,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 615,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 616,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 617,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 618,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 619,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 620,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 621,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 622,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 623,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 624,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 625,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 626,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 627,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 628,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 629,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 630,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 631,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 632,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 633,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 634,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 635,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 636,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 637,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 638,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 639,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 640,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 641,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 642,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 643,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 644,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 645,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 646,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 647,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 648,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 649,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 650,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 651,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 652,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 653,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 654,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 655,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 656,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 657,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 658,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 659,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 660,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 661,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 662,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 663,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 664,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 665,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 666,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 667,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 668,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 669,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 670,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 671,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 672,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 673,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 674,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 675,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 676,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 677,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 678,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 679,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 680,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 681,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 682,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 683,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 684,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 685,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 686,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 687,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 688,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 689,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 690,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 691,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 692,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 693,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 694,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 695,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 696,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 697,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 698,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 699,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 700,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 701,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 702,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 703,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 704,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 705,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 706,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 707,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 708,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 709,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 710,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 711,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 712,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 713,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 714,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 715,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 716,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 717,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 718,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 719,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 720,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 721,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 722,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 723,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 724,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 725,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 726,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 727,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 728,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 729,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 730,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 731,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 732,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 733,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 734,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 735,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 736,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 737,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 738,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 739,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 740,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 741,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 742,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 743,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 744,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 745,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 746,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 747,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 748,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 749,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 750,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 751,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 752,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 753,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 754,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 755,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 756,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 757,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 758,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 759,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 760,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 761,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 762,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 763,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 764,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 765,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 766,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 767,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 768,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 769,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 770,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 771,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 772,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 773,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 774,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 775,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 776,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 777,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 778,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 779,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 780,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 781,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 782,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 783,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 784,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 785,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 786,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 787,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 788,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 789,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 790,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 791,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 792,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 793,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 794,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 795,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 796,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 797,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 798,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 799,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 800,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 801,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 802,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 803,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 804,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 805,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 806,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 807,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 808,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 809,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 810,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 811,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 812,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 813,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 814,
-   "type": "http://lemon-model.net/lemon#LexicalSense"
+   "type": "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
   },
   {
    "id": 815,
@@ -3698,19 +3698,19 @@ var vowlresult={
   },
   {
    "id": 829,
-   "type": "http://www.i3mainz.de/ogham#OghamObject"
+   "type": "owl:DatatypeProperty"
   },
   {
    "id": 830,
-   "type": "http://www.i3mainz.de/ogham#OghamObject"
+   "type": "owl:DatatypeProperty"
   },
   {
    "id": 831,
-   "type": "http://www.i3mainz.de/ogham#OghamObject"
+   "type": "owl:DatatypeProperty"
   },
   {
    "id": 832,
-   "type": "http://www.i3mainz.de/ogham#OghamObject"
+   "type": "owl:DatatypeProperty"
   },
   {
    "id": 833,
@@ -4354,215 +4354,215 @@ var vowlresult={
   },
   {
    "id": 993,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.i3mainz.de/ogham#OghamObject"
   },
   {
    "id": 994,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.i3mainz.de/ogham#OghamObject"
   },
   {
    "id": 995,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.i3mainz.de/ogham#OghamObject"
   },
   {
    "id": 996,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.i3mainz.de/ogham#OghamObject"
   },
   {
    "id": 997,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 998,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 999,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1000,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1001,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1002,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1003,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1004,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1005,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1006,
-   "type": "http://lemon-model.net/lemon#Word"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
-   "id": 1028,
-   "type": "http://lemon-model.net/lemon#Character"
+   "id": 1007,
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
-   "id": 1029,
-   "type": "http://lemon-model.net/lemon#Character"
+   "id": 1008,
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
-   "id": 1030,
-   "type": "http://lemon-model.net/lemon#Character"
+   "id": 1009,
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
-   "id": 1031,
-   "type": "http://lemon-model.net/lemon#Character"
+   "id": 1010,
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1032,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1033,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1034,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1035,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1036,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1037,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1038,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1039,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1040,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1041,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1042,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1043,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1044,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1045,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1046,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1047,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1048,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1049,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1050,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1051,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1052,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1053,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1054,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1055,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1056,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1057,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1058,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1059,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1060,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1061,
-   "type": "http://lemon-model.net/lemon#Character"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1062,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1063,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1064,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1065,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Character"
   },
   {
    "id": 1066,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1067,
@@ -4570,23 +4570,23 @@ var vowlresult={
   },
   {
    "id": 1068,
-   "type": "http://www.wikidata.org/entity/Q67381377"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1069,
-   "type": "owl:DatatypeProperty"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1070,
-   "type": "owl:DatatypeProperty"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1071,
-   "type": "owl:DatatypeProperty"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1072,
-   "type": "owl:DatatypeProperty"
+   "type": "http://www.w3.org/ns/lemon/ontolex#Word"
   },
   {
    "id": 1073,
@@ -4614,7 +4614,7 @@ var vowlresult={
   },
   {
    "id": 1079,
-   "type": "http://lemon-model.net/lemon#Lexicon"
+   "type": "http://www.w3.org/ns/lemon/lime#"
   }
  ],
  "propertyAttribute": [
@@ -4639,33 +4639,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: LITENI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LITENI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LITENI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1694\u1689\u1693\u1686\u1694",
       "type": "label"
@@ -4684,33 +4684,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: VLATIAMI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VLATIAMI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VLATIAMI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1682\u1690\u1689\u1694\u1690\u168b\u1694",
       "type": "label"
@@ -4729,33 +4729,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: VATTILLOGG",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VATTILLOGG_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VATTILLOGG",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1690\u1689\u1689\u1694\u1682\u1682\u1691\u168c\u168c",
       "type": "label"
@@ -4774,33 +4774,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: QECCIAS? (\u1693\u168a\u168a\u1694\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QECCIAS%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "QECCIAS?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u168a\u168a\u1694\u1690\u1685",
       "type": "label"
@@ -4819,33 +4819,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: LABRID (\u1682\u1690\u1681\u168f\u1694\u1688)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1682_character",
+      "value": "http://www.i3mainz.de/ogham#\u1688_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LABRID_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LABRID",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1690\u1681\u168f\u1694\u1688",
       "type": "label"
@@ -4864,33 +4864,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: VITALIN",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VITALIN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VITALIN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1694\u1689\u1690\u1682\u1694\u1686",
       "type": "label"
@@ -4923,33 +4923,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: BR... (\u1681\u168f)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BR..._sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BR...",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u168f",
       "type": "label"
@@ -4968,33 +4968,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: TOGITTACC[I] (\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168c_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TOGITTACC[I]",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694",
       "type": "label"
@@ -5013,33 +5013,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: COMMAGGAGNI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COMMAGGAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "COMMAGGAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u168b\u168b\u1690\u168c\u168c\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -5072,25 +5072,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: KOI? (\u1691\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1691_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "KOI?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1691\u1694",
       "type": "label"
@@ -5109,33 +5109,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: INISSIONAS (\u1694\u1686\u1694\u1685\u1685\u1694\u1691\u1686\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#INISSIONAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "INISSIONAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1694\u1686\u1694\u1685\u1685\u1694\u1691\u1686\u1690\u1685",
       "type": "label"
@@ -5154,33 +5154,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DROGNO",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DROGNO_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DROGNO",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u168f\u1691\u168c\u1686\u1691",
       "type": "label"
@@ -5199,25 +5199,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MOCOI (\u168b\u1691\u168a\u1691\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1691_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MOCOI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1691\u168a\u1691\u1694",
       "type": "label"
@@ -5236,33 +5236,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MARIANI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MARIANI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MARIANI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u168f\u1694\u1690\u1686\u1694",
       "type": "label"
@@ -5281,33 +5281,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VEDDONOS (\u1684\u1693\u1688\u1688\u1691\u1686\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VEDDONOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VEDDONOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1693\u1688\u1688\u1691\u1686\u1691\u1685",
       "type": "label"
@@ -5326,33 +5326,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: BROINIONAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BROINIONAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BROINIONAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685",
       "type": "label"
@@ -5371,33 +5371,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: BECCDINN (\u1681\u1693\u168a\u168a\u1688\u1694\u1686\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BECCDINN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BECCDINN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u1693\u168a\u168a\u1688\u1694\u1686\u1686",
       "type": "label"
@@ -5416,33 +5416,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: COBRANORA?",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COBRANORA%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "COBRANORA?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u1681\u168f\u1690\u1686\u1691\u168f\u1690",
       "type": "label"
@@ -5461,33 +5461,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: GOSSUCTTIAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GOSSUCTTIAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "GOSSUCTTIAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168c\u1691\u1685\u1685\u1692\u168a\u1689\u1689\u1694\u1690\u1685",
       "type": "label"
@@ -5520,33 +5520,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: ...LL...",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#...LL..._sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "...LL...",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1682",
       "type": "label"
@@ -5565,33 +5565,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DEGLANN (\u1688\u1693\u168c\u1682\u1690\u1686\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DEGLANN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DEGLANN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1693\u168c\u1682\u1690\u1686\u1686",
       "type": "label"
@@ -5610,33 +5610,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CORBBI (\u168a\u1691\u168f\u1681\u1681\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORBBI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CORBBI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u168f\u1681\u1681\u1694",
       "type": "label"
@@ -5655,33 +5655,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CUNACENA (\u168a\u1692\u1686\u1690\u168a\u1693\u1686\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNACENA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CUNACENA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1692\u1686\u1690\u168a\u1693\u1686\u1690",
       "type": "label"
@@ -5700,33 +5700,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: BATTIGNI (\u1681\u1690\u1689\u1689\u1694\u168c\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BATTIGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BATTIGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u1690\u1689\u1689\u1694\u168c\u1686\u1694",
       "type": "label"
@@ -5745,33 +5745,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: SEDANI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SEDANI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "SEDANI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1685\u1693\u1688\u1690\u1686\u1694",
       "type": "label"
@@ -5790,33 +5790,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: VEDABAR",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VEDABAR_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VEDABAR",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1693\u1688\u1690\u1681\u1690\u168f",
       "type": "label"
@@ -5835,33 +5835,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MOINENA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MOINENA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MOINENA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1691\u1694\u1686\u1693\u1686\u1690",
       "type": "label"
@@ -5880,33 +5880,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: NETTA-LAMINACCA (\u1686\u1693\u1689\u1689\u1690\u1682\u1690\u168b\u1694\u1686\u1690\u168a\u168a\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NETTA-LAMINACCA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1693\u1689\u1689\u1690\u1682\u1690\u168b\u1694\u1686\u1690\u168a\u168a\u1690",
       "type": "label"
@@ -5925,33 +5925,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQI-TTAL (\u168b\u1690\u1694\u1689\u1689\u1690\u1682)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-TTAL_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-TTAL",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1689\u1689\u1690\u1682",
       "type": "label"
@@ -5984,33 +5984,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAILE-INBIR",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAILE-INBIR_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAILE-INBIR",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1682\u1693\u1694\u1686\u1681\u1694\u168f",
       "type": "label"
@@ -6029,33 +6029,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: EQQEGGNI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#EQQEGGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "EQQEGGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u1693\u168c\u168c\u1686\u1694",
       "type": "label"
@@ -6074,33 +6074,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: SILLANN",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SILLANN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "SILLANN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1685\u1694\u1682\u1682\u1690\u1686\u1686",
       "type": "label"
@@ -6119,33 +6119,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DENAVECA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DENAVECA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DENAVECA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1693\u1686\u1690\u1684\u1693\u168a\u1690",
       "type": "label"
@@ -6164,33 +6164,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DUCOVAROS (\u1688\u1692\u168a\u1691\u1684\u1690\u168f\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1684_character",
+      "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DUCOVAROS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DUCOVAROS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1692\u168a\u1691\u1684\u1690\u168f\u1691\u1685",
       "type": "label"
@@ -6209,33 +6209,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CATTINI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CATTINI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CATTINI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1690\u1689\u1689\u1694\u1686\u1694",
       "type": "label"
@@ -6254,33 +6254,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VINNAGITLET? (\u1684\u1694\u1686\u1686\u1690\u168c\u1694\u1689\u1682\u1693\u1689)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VINNAGITLET%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VINNAGITLET?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1694\u1686\u1686\u1690\u168c\u1694\u1689\u1682\u1693\u1689",
       "type": "label"
@@ -6299,33 +6299,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: IAQINI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#IAQINI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "IAQINI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1694\u1690\u1694\u1686\u1694",
       "type": "label"
@@ -6344,33 +6344,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: BIR",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BIR_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BIR",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u1694\u168f",
       "type": "label"
@@ -6389,33 +6389,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: B[AI]D[A]N[I] (\u1681\u1690\u1694\u1688\u1690\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "B[AI]D[A]N[I]",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u1690\u1694\u1688\u1690\u1686\u1694",
       "type": "label"
@@ -6434,33 +6434,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAQI-ERCIAS?",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-ERCIAS?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1693\u168f\u168a\u1694\u1690\u1685",
       "type": "label"
@@ -6479,33 +6479,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: GALEOTOS (\u168c\u1690\u1682\u1693\u1691\u1689\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GALEOTOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "GALEOTOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168c\u1690\u1682\u1693\u1691\u1689\u1691\u1685",
       "type": "label"
@@ -6524,33 +6524,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: COIMAGNI (\u168a\u1691\u1694\u168b\u1690\u168c\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COIMAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "COIMAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u1694\u168b\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -6569,33 +6569,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: LUGUQRIT",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LUGUQRIT_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LUGUQRIT",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1692\u168c\u1692\u168f\u1694\u1689",
       "type": "label"
@@ -6614,33 +6614,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DUGENNGI (\u1688\u1692\u168c\u1693\u1686\u1686\u168c\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DUGENNGI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DUGENNGI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1692\u168c\u1693\u1686\u1686\u168c\u1694",
       "type": "label"
@@ -6659,33 +6659,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CCICAMINI (\u168a\u168a\u1694\u168a\u1690\u168b\u1694\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CCICAMINI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CCICAMINI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u168a\u1694\u168a\u1690\u168b\u1694\u1686\u1694",
       "type": "label"
@@ -6704,33 +6704,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAILAGNI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAILAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAILAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1682\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -6749,33 +6749,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CUNALEGEA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNALEGEA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CUNALEGEA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1692\u1686\u1690\u1682\u1693\u168c\u1693\u1690",
       "type": "label"
@@ -6794,25 +6794,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MOSAC (\u168b\u1691\u1685\u1690\u168a)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MOSAC",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1691\u1685\u1690\u168a",
       "type": "label"
@@ -6845,33 +6845,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: INEQAGLAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#INEQAGLAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "INEQAGLAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1694\u1686\u1693\u1690\u168c\u1682\u1690\u1685",
       "type": "label"
@@ -6890,33 +6890,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: TASEGAGNI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TASEGAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TASEGAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u1690\u1685\u1693\u168c\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -6935,33 +6935,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DOLIGENN (\u1688\u1691\u1682\u1694\u168c\u1693\u1686\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOLIGENN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DOLIGENN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1691\u1682\u1694\u168c\u1693\u1686\u1686",
       "type": "label"
@@ -6980,33 +6980,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MUIBITI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MUIBITI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MUIBITI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1692\u1694\u1681\u1694\u1689\u1694",
       "type": "label"
@@ -7039,33 +7039,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: BROINIENAS (\u1681\u168f\u1691\u1694\u1686\u1694\u1693\u1686\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BROINIENAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BROINIENAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u168f\u1691\u1694\u1686\u1694\u1693\u1686\u1690\u1685",
       "type": "label"
@@ -7084,33 +7084,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: ALATTO (\u1690\u1682\u1690\u1689\u1689\u1691)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ALATTO_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ALATTO",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u1682\u1690\u1689\u1689\u1691",
       "type": "label"
@@ -7129,33 +7129,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: SEVERRIT",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SEVERRIT_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "SEVERRIT",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1685\u1693\u1684\u1693\u168f\u168f\u1694\u1689",
       "type": "label"
@@ -7174,33 +7174,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: COMOGANN (\u168a\u1691\u168b\u1691\u168c\u1690\u1686\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COMOGANN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "COMOGANN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u168b\u1691\u168c\u1690\u1686\u1686",
       "type": "label"
@@ -7219,25 +7219,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MUCOI? (\u168b\u1692\u168a\u1691\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1691_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MUCOI?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1692\u168a\u1691\u1694",
       "type": "label"
@@ -7256,33 +7256,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MANU (\u168b\u1690\u1686\u1692)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MANU_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MANU",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1686\u1692",
       "type": "label"
@@ -7301,33 +7301,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DALI (\u1688\u1690\u1682\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1682_character",
+      "value": "http://www.i3mainz.de/ogham#\u1688_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DALI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DALI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1690\u1682\u1694",
       "type": "label"
@@ -7346,33 +7346,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: LAG[...",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LAG%5B..._sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LAG[...",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1690\u168c",
       "type": "label"
@@ -7405,33 +7405,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: COROTANI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COROTANI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "COROTANI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u168f\u1691\u1689\u1690\u1686\u1694",
       "type": "label"
@@ -7464,33 +7464,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: AMADU",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1688_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AMADU_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "AMADU",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u168b\u1690\u1688\u1692",
       "type": "label"
@@ -7509,33 +7509,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: GATI (\u168c\u1690\u1689\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168c_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GATI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "GATI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168c\u1690\u1689\u1694",
       "type": "label"
@@ -7554,33 +7554,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DUNAIDONAS (\u1688\u1692\u1686\u1690\u1694\u1688\u1691\u1686\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DUNAIDONAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DUNAIDONAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1692\u1686\u1690\u1694\u1688\u1691\u1686\u1690\u1685",
       "type": "label"
@@ -7599,33 +7599,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAQQI-ERCCIA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1693_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQQI-ERCCIA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQQI-ERCCIA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1693\u168f\u168a\u168a\u1694\u1690",
       "type": "label"
@@ -7644,33 +7644,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: GAMICUNAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GAMICUNAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "GAMICUNAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168c\u1690\u168b\u1694\u168a\u1692\u1686\u1690\u1685",
       "type": "label"
@@ -7689,33 +7689,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: TUCACAC (\u1689\u1692\u168a\u1690\u168a\u1690\u168a)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1692_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TUCACAC_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TUCACAC",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u1692\u168a\u1690\u168a\u1690\u168a",
       "type": "label"
@@ -7734,33 +7734,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: RAVASA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RAVASA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "RAVASA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168f\u1690\u1684\u1690\u1685\u1690",
       "type": "label"
@@ -7779,33 +7779,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: ERACIAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ERACIAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ERACIAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u168f\u1690\u168a\u1694\u1690\u1685",
       "type": "label"
@@ -7824,33 +7824,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: BIVAIDONAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BIVAIDONAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BIVAIDONAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u1694\u1684\u1690\u1694\u1688\u1691\u1686\u1690\u1685",
       "type": "label"
@@ -7869,33 +7869,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: TULOTANAGIA (\u1689\u1692\u1682\u1691\u1689\u1690\u1686\u1690\u168c\u1694\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TULOTANAGIA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TULOTANAGIA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u1692\u1682\u1691\u1689\u1690\u1686\u1690\u168c\u1694\u1690",
       "type": "label"
@@ -7942,33 +7942,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CIR",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168f_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CIR_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CIR",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1694\u168f",
       "type": "label"
@@ -7987,33 +7987,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MINERC? (\u168b\u1694\u1686\u1693\u168f\u168a)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MINERC%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MINERC?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1694\u1686\u1693\u168f\u168a",
       "type": "label"
@@ -8032,33 +8032,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CATTUBUTTAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CATTUBUTTAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CATTUBUTTAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1690\u1689\u1689\u1692\u1681\u1692\u1689\u1689\u1690\u1685",
       "type": "label"
@@ -8077,33 +8077,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DOVINIA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVINIA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DOVINIA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1691\u1684\u1694\u1686\u1694\u1690",
       "type": "label"
@@ -8122,33 +8122,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: NE?TTVRECC",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NE%3FTTVRECC_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NE?TTVRECC",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1693\u1689\u1689\u1684\u168f\u1693\u168a\u168a",
       "type": "label"
@@ -8167,33 +8167,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: LLATIGNI (\u1682\u1682\u1690\u1689\u1694\u168c\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LLATIGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LLATIGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1682\u1690\u1689\u1694\u168c\u1686\u1694",
       "type": "label"
@@ -8212,33 +8212,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQI-DUMILEAS (\u168b\u1690\u1694\u1688\u1692\u168b\u1694\u1682\u1693\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-DUMILEAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1688\u1692\u168b\u1694\u1682\u1693\u1690\u1685",
       "type": "label"
@@ -8257,33 +8257,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQI-CAIRATINI (\u168b\u1690\u1694\u168a\u1690\u1694\u168f\u1690\u1689\u1694\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-CAIRATINI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u168a\u1690\u1694\u168f\u1690\u1689\u1694\u1686\u1694",
       "type": "label"
@@ -8302,25 +8302,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQQI (\u168b\u1690\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1694_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQQI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694",
       "type": "label"
@@ -8339,33 +8339,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VIRR[ACC]ANNI? (\u1684\u1694\u168f\u168f\u1690\u168a\u168a\u1690\u1686\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VIRR[ACC]ANNI?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1694\u168f\u168f\u1690\u168a\u168a\u1690\u1686\u1686\u1694",
       "type": "label"
@@ -8398,33 +8398,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: RODDOS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RODDOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "RODDOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168f\u1691\u1688\u1688\u1691\u1685",
       "type": "label"
@@ -8443,33 +8443,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAQI-ERCIAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-ERCIAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-ERCIAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1693\u168f\u168a\u1694\u1690\u1685",
       "type": "label"
@@ -8488,33 +8488,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: IVACATTOS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1684_character",
+      "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#IVACATTOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "IVACATTOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1694\u1684\u1690\u168a\u1690\u1689\u1689\u1691\u1685",
       "type": "label"
@@ -8547,33 +8547,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: ENA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ENA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ENA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u1686\u1690",
       "type": "label"
@@ -8606,33 +8606,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: GELAGNI (\u168c\u1693\u1682\u1690\u168c\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GELAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "GELAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168c\u1693\u1682\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -8651,33 +8651,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: BIRRAC (\u1681\u1694\u168f\u168f\u1690\u168a)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BIRRAC_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BIRRAC",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u1694\u168f\u168f\u1690\u168a",
       "type": "label"
@@ -8696,33 +8696,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: ALATTOS (\u1690\u1682\u1690\u1689\u1689\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ALATTOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ALATTOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u1682\u1690\u1689\u1689\u1691\u1685",
       "type": "label"
@@ -8741,33 +8741,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: NILI (\u1686\u1694\u1682\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NILI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NILI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1694\u1682\u1694",
       "type": "label"
@@ -8786,33 +8786,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VRAICCI (\u1684\u168f\u1690\u1694\u168a\u168a\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VRAICCI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VRAICCI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u168f\u1690\u1694\u168a\u168a\u1694",
       "type": "label"
@@ -8831,25 +8831,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQA (\u168b\u1690\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168b_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1690",
       "type": "label"
@@ -8882,33 +8882,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DEGOS (\u1688\u1693\u168c\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DEGOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DEGOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1693\u168c\u1691\u1685",
       "type": "label"
@@ -8927,33 +8927,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: [B]RRUA/ENANN (\u1681\u168f\u168f\u1692\u1690\u1693\u1686\u1690\u1686\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "[B]RRUA/ENANN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u168f\u168f\u1692\u1690\u1693\u1686\u1690\u1686\u1686",
       "type": "label"
@@ -8972,33 +8972,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VORGOS (\u1684\u1691\u168f\u168c\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VORGOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VORGOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1691\u168f\u168c\u1691\u1685",
       "type": "label"
@@ -9017,33 +9017,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: C[....]SALAR (\u168a\u1685\u1690\u1682\u1690\u168f)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "C[....]SALAR",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1685\u1690\u1682\u1690\u168f",
       "type": "label"
@@ -9062,33 +9062,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DOVVINIA (\u1688\u1691\u1684\u1684\u1694\u1686\u1694\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVVINIA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DOVVINIA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1691\u1684\u1684\u1694\u1686\u1694\u1690",
       "type": "label"
@@ -9107,33 +9107,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DUMELI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1688_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DUMELI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DUMELI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1692\u168b\u1693\u1682\u1694",
       "type": "label"
@@ -9152,33 +9152,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MEDVVI (\u168b\u1693\u1688\u1684\u1684\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MEDVVI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MEDVVI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1693\u1688\u1684\u1684\u1694",
       "type": "label"
@@ -9197,33 +9197,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CURCI (\u168a\u1692\u168f\u168a\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168f_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CURCI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CURCI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1692\u168f\u168a\u1694",
       "type": "label"
@@ -9242,33 +9242,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: ODR...REA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1688_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ODR...REA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ODR...REA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1691\u1688\u168f\u168f\u1693\u1690",
       "type": "label"
@@ -9287,33 +9287,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: BRUSCCOS (\u1681\u168f\u1692\u1685\u168a\u168a\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BRUSCCOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BRUSCCOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u168f\u1692\u1685\u168a\u168a\u1691\u1685",
       "type": "label"
@@ -9332,33 +9332,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CUNAMAQQI (\u168a\u1692\u1686\u1690\u168b\u1690\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNAMAQQI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CUNAMAQQI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1692\u1686\u1690\u168b\u1690\u1694",
       "type": "label"
@@ -9377,33 +9377,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: QRITTI (\u168f\u1694\u1689\u1689\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168f_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QRITTI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "QRITTI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168f\u1694\u1689\u1689\u1694",
       "type": "label"
@@ -9422,33 +9422,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: SENAQ (\u1685\u1693\u1686\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SENAQ_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "SENAQ",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1685\u1693\u1686\u1690",
       "type": "label"
@@ -9467,33 +9467,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: QVECI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QVECI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "QVECI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1693\u168a\u1694",
       "type": "label"
@@ -9512,33 +9512,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: GIRAGNI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GIRAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "GIRAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168c\u1694\u168f\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -9557,33 +9557,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQQI-IARI (\u168b\u1690\u1694\u1694\u1690\u168f\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168f_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQQI-IARI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQQI-IARI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1694\u1690\u168f\u1694",
       "type": "label"
@@ -9616,33 +9616,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: NE[T....]AS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NE%5BT....%5DAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NE[T....]AS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1693\u1689\u1690\u1685",
       "type": "label"
@@ -9661,33 +9661,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MEDUSI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MEDUSI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MEDUSI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1693\u1688\u1692\u1685\u1694",
       "type": "label"
@@ -9706,33 +9706,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: AILITHIR",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AILITHIR_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "AILITHIR",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u1694\u1682\u1694\u1689\u1687\u1694\u168f",
       "type": "label"
@@ -9751,33 +9751,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: RITTAVVECCAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1685_character",
+      "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RITTAVVECCAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "RITTAVVECCAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168f\u1694\u1689\u1689\u1690\u1684\u1684\u1693\u168a\u168a\u1690\u1685",
       "type": "label"
@@ -9796,33 +9796,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MARIN",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MARIN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MARIN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u168f\u1694\u1686",
       "type": "label"
@@ -9841,33 +9841,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: ADDILONA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ADDILONA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ADDILONA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u1688\u1688\u1694\u1682\u1691\u1686\u1690",
       "type": "label"
@@ -9886,33 +9886,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CALIACI (\u168a\u1690\u1682\u1694\u1690\u168a\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CALIACI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CALIACI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1690\u1682\u1694\u1690\u168a\u1694",
       "type": "label"
@@ -9931,33 +9931,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: SAG(A)RETTOS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "SAG(A)RETTOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1685\u1690\u168c\u1690\u168f\u1693\u1689\u1689\u1691\u1685",
       "type": "label"
@@ -9976,33 +9976,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: TURANIAS (\u1689\u1692\u168f\u1690\u1686\u1694\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TURANIAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TURANIAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u1692\u168f\u1690\u1686\u1694\u1690\u1685",
       "type": "label"
@@ -10021,33 +10021,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: QENILOC[A]GNI (\u1693\u1686\u1694\u1682\u1691\u168a\u1690\u168c\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "QENILOC[A]GNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u1686\u1694\u1682\u1691\u168a\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -10066,33 +10066,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: NETA-SALAGIA?",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NETA-SALAGIA?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1693\u1689\u1690\u1685\u1690\u1682\u1690\u168c\u1694\u1690",
       "type": "label"
@@ -10111,33 +10111,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VURUDDRANN (\u1684\u1692\u168f\u1692\u1688\u1688\u168f\u1690\u1686\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VURUDDRANN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VURUDDRANN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1692\u168f\u1692\u1688\u1688\u168f\u1690\u1686\u1686",
       "type": "label"
@@ -10156,25 +10156,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MUCO? (\u168b\u1692\u168a\u1691)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1691_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MUCO?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1692\u168a\u1691",
       "type": "label"
@@ -10193,33 +10193,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: OVANOS (\u1691\u1684\u1690\u1686\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#OVANOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "OVANOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1691\u1684\u1690\u1686\u1691\u1685",
       "type": "label"
@@ -10238,33 +10238,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DOVATUCI (\u1688\u1691\u1684\u1690\u1689\u1692\u168a\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVATUCI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DOVATUCI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1691\u1684\u1690\u1689\u1692\u168a\u1694",
       "type": "label"
@@ -10283,33 +10283,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CURCITTI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1692_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CURCITTI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CURCITTI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1692\u168f\u168a\u1694\u1689\u1689\u1694",
       "type": "label"
@@ -10328,33 +10328,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: QENILOCI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QENILOCI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "QENILOCI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u1686\u1694\u1682\u1691\u168a\u1694",
       "type": "label"
@@ -10373,33 +10373,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: LUBBIAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LUBBIAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LUBBIAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1692\u1681\u1681\u1694\u1690\u1685",
       "type": "label"
@@ -10418,33 +10418,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQI-INI... (\u168b\u1690\u1694\u1694\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-INI..._sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-INI...",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1694\u1686\u1694",
       "type": "label"
@@ -10463,33 +10463,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CORBI (\u168a\u1691\u168f\u1681\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORBI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CORBI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u168f\u1681\u1694",
       "type": "label"
@@ -10508,33 +10508,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: VOTI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VOTI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VOTI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1691\u1689\u1694",
       "type": "label"
@@ -10553,33 +10553,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DOMANEQI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOMANEQI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DOMANEQI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1691\u168b\u1690\u1686\u1693\u1694",
       "type": "label"
@@ -10598,33 +10598,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MACORBO? (\u168b\u1690\u168a\u1691\u168f\u1681\u1691)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MACORBO%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MACORBO?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u168a\u1691\u168f\u1681\u1691",
       "type": "label"
@@ -10643,33 +10643,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CALUNOVICA (\u168a\u1690\u1682\u1692\u1686\u1691\u1684\u1694\u168a\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CALUNOVICA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CALUNOVICA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1690\u1682\u1692\u1686\u1691\u1684\u1694\u168a\u1690",
       "type": "label"
@@ -10688,33 +10688,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CUNANETAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNANETAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CUNANETAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1692\u1686\u1690\u1686\u1693\u1689\u1690\u1685",
       "type": "label"
@@ -10733,33 +10733,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VORTIGURN (\u1684\u1691\u168f\u1689\u1694\u168c\u1692\u168f\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VORTIGURN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VORTIGURN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1691\u168f\u1689\u1694\u168c\u1692\u168f\u1686",
       "type": "label"
@@ -10778,33 +10778,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAQI-?OGGODIKA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1688_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-?OGGODIKA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1691\u168c\u168c\u1691\u1688\u1694\u1690",
       "type": "label"
@@ -10823,33 +10823,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: SRUSA (\u1685\u168f\u1692\u1685\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SRUSA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "SRUSA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1685\u168f\u1692\u1685\u1690",
       "type": "label"
@@ -10868,33 +10868,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQI-ESEA (\u168b\u1690\u1694\u1693\u1685\u1693\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-ESEA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-ESEA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1693\u1685\u1693\u1690",
       "type": "label"
@@ -10913,33 +10913,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: GLASICONAS (\u168c\u1682\u1690\u1685\u1694\u168a\u1691\u1686\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GLASICONAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "GLASICONAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168c\u1682\u1690\u1685\u1694\u168a\u1691\u1686\u1690\u1685",
       "type": "label"
@@ -10958,33 +10958,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: AMMLLONGITT? (\u1690\u168b\u168b\u1682\u1682\u1691\u1686\u168c\u1694\u1689\u1689)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "AMMLLONGITT?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u168b\u168b\u1682\u1682\u1691\u1686\u168c\u1694\u1689\u1689",
       "type": "label"
@@ -11003,33 +11003,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MONGEDIAS (\u168b\u1691\u1686\u168c\u1693\u1688\u1694\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MONGEDIAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MONGEDIAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1691\u1686\u168c\u1693\u1688\u1694\u1690\u1685",
       "type": "label"
@@ -11048,33 +11048,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQI-CUNALIG... (\u168b\u1690\u1694\u168a\u1692\u1686\u1690\u1682\u1694\u168c)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-CUNALIG..._sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-CUNALIG...",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u168a\u1692\u1686\u1690\u1682\u1694\u168c",
       "type": "label"
@@ -11093,33 +11093,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: TEGANN",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TEGANN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TEGANN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u1693\u168c\u1690\u1686\u1686",
       "type": "label"
@@ -11138,25 +11138,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: SACATTINI (\u1685\u1690\u168a\u1690\u1689\u1689\u1694\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "SACATTINI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1685\u1690\u168a\u1690\u1689\u1689\u1694\u1686\u1694",
       "type": "label"
@@ -11189,33 +11189,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: NETTAVROICC",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETTAVROICC_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NETTAVROICC",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1693\u1689\u1689\u1690\u1684\u168f\u1691\u1694\u168a\u168a",
       "type": "label"
@@ -11234,33 +11234,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: [QE]TTEAS (\u1693\u1689\u1689\u1693\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "[QE]TTEAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u1689\u1689\u1693\u1690\u1685",
       "type": "label"
@@ -11279,33 +11279,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: LOBBI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LOBBI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LOBBI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1691\u1681\u1681\u1694",
       "type": "label"
@@ -11324,33 +11324,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CEDATTOQA (\u168a\u1693\u1688\u1690\u1689\u1689\u1691\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1688_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CEDATTOQA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CEDATTOQA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1693\u1688\u1690\u1689\u1689\u1691\u1690",
       "type": "label"
@@ -11369,33 +11369,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQI-AINIA (\u168b\u1690\u1694\u1690\u1694\u1686\u1694\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-AINIA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-AINIA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1690\u1694\u1686\u1694\u1690",
       "type": "label"
@@ -11414,33 +11414,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DOVINIAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVINIAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DOVINIAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1691\u1684\u1694\u1686\u1694\u1690\u1685",
       "type": "label"
@@ -11459,33 +11459,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CORBAGNI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORBAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CORBAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u168f\u1681\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -11504,33 +11504,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: BROCANN (\u1681\u168f\u1691\u168a\u1690\u1686\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BROCANN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BROCANN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u168f\u1691\u168a\u1690\u1686\u1686",
       "type": "label"
@@ -11549,33 +11549,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: COILLI (\u168a\u1691\u1694\u1682\u1682\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COILLI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "COILLI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u1694\u1682\u1682\u1694",
       "type": "label"
@@ -11594,33 +11594,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DOVVINIAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1684_character",
+      "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVVINIAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DOVVINIAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1691\u1684\u1684\u1694\u1686\u1694\u1690\u1685",
       "type": "label"
@@ -11639,33 +11639,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: NETA-CARI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETA-CARI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NETA-CARI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1693\u1689\u1690\u168a\u1690\u168f\u1694",
       "type": "label"
@@ -11684,33 +11684,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: AGILL... (\u1690\u168c\u1694\u1682\u1682)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AGILL..._sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "AGILL...",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u168c\u1694\u1682\u1682",
       "type": "label"
@@ -11729,33 +11729,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: LUGADDON",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LUGADDON_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LUGADDON",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1692\u168c\u1690\u1688\u1688\u1691\u1686",
       "type": "label"
@@ -11788,33 +11788,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: AKEVRITTI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AKEVRITTI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "AKEVRITTI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u1693\u1684\u168f\u1694\u1689\u1689\u1694",
       "type": "label"
@@ -11833,33 +11833,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: GOSOCTEAS (\u168c\u1691\u1685\u1691\u168a\u1689\u1693\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GOSOCTEAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "GOSOCTEAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168c\u1691\u1685\u1691\u168a\u1689\u1693\u1690\u1685",
       "type": "label"
@@ -11878,33 +11878,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CUNOVATOS (\u168a\u1692\u1686\u1691\u1684\u1690\u1689\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNOVATOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CUNOVATOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1692\u1686\u1691\u1684\u1690\u1689\u1691\u1685",
       "type": "label"
@@ -11923,33 +11923,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CUNAGUSOS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNAGUSOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CUNAGUSOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1692\u1686\u1690\u168c\u1692\u1685\u1691\u1685",
       "type": "label"
@@ -11968,33 +11968,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CORRBRI (\u168a\u1691\u168f\u168f\u1681\u168f\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORRBRI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CORRBRI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u168f\u168f\u1681\u168f\u1694",
       "type": "label"
@@ -12013,33 +12013,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MUNICONA (\u168b\u1692\u1686\u1694\u168a\u1691\u1686\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MUNICONA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MUNICONA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1692\u1686\u1694\u168a\u1691\u1686\u1690",
       "type": "label"
@@ -12058,33 +12058,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: RONANN",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RONANN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "RONANN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168f\u1691\u1686\u1690\u1686\u1686",
       "type": "label"
@@ -12103,33 +12103,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DIMAQA (\u1688\u1694\u168b\u1690\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1688_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DIMAQA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DIMAQA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1694\u168b\u1690\u1690",
       "type": "label"
@@ -12148,33 +12148,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: NETTA-TTRENALUGOS (\u1686\u1693\u1689\u1689\u1690\u1689\u1689\u168f\u1693\u1686\u1690\u1682\u1692\u168c\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NETTA-TTRENALUGOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1693\u1689\u1689\u1690\u1689\u1689\u168f\u1693\u1686\u1690\u1682\u1692\u168c\u1691\u1685",
       "type": "label"
@@ -12193,33 +12193,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: VEDELMETO",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VEDELMETO_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VEDELMETO",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1693\u1688\u1693\u1682\u168b\u1693\u1689\u1691",
       "type": "label"
@@ -12238,33 +12238,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: ...ERATI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1693_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#...ERATI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "...ERATI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u168f\u1690\u1689\u1694",
       "type": "label"
@@ -12283,33 +12283,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: NETA-CAGI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETA-CAGI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NETA-CAGI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1693\u1689\u1690\u168a\u1690\u168c\u1694",
       "type": "label"
@@ -12328,25 +12328,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DILOGONN (\u1688\u1694\u1682\u1691\u168c\u1691\u1686\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DILOGONN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1694\u1682\u1691\u168c\u1691\u1686\u1686",
       "type": "label"
@@ -12365,33 +12365,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQI-CORABIR (\u168b\u1690\u1694\u168a\u1691\u168f\u1690\u1681\u1694\u168f)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-CORABIR_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-CORABIR",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u168a\u1691\u168f\u1690\u1681\u1694\u168f",
       "type": "label"
@@ -12410,33 +12410,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VEQREQ (\u1684\u1693\u168f\u1693)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VEQREQ_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VEQREQ",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1693\u168f\u1693",
       "type": "label"
@@ -12455,25 +12455,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: NIOTTA (\u1686\u1694\u1691\u1689\u1689\u1690)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NIOTTA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1694\u1691\u1689\u1689\u1690",
       "type": "label"
@@ -12492,25 +12492,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAC (\u168b\u1690\u168a)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168b_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAC",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u168a",
       "type": "label"
@@ -12529,33 +12529,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: BROINIONAS? (\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BROINIONAS%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BROINIONAS?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685",
       "type": "label"
@@ -12574,33 +12574,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: DEAGOS (\u1688\u1693\u1690\u168c\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DEAGOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DEAGOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1693\u1690\u168c\u1691\u1685",
       "type": "label"
@@ -12619,33 +12619,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: ERCAVICCAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1684_character",
+      "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ERCAVICCAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ERCAVICCAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u168f\u168a\u1690\u1684\u1694\u168a\u168a\u1690\u1685",
       "type": "label"
@@ -12664,33 +12664,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: ULCCAGNI (\u1692\u1682\u168a\u168a\u1690\u168c\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ULCCAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ULCCAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1692\u1682\u168a\u168a\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -12723,33 +12723,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: SUVALLOS (\u1685\u1692\u1684\u1690\u1682\u1682\u1691\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1685_character",
+      "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SUVALLOS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "SUVALLOS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1685\u1692\u1684\u1690\u1682\u1682\u1691\u1685",
       "type": "label"
@@ -12782,33 +12782,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CORB",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORB_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CORB",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u168f\u1681",
       "type": "label"
@@ -12827,33 +12827,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: OLACON (\u1691\u1682\u1690\u168a\u1691\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#OLACON_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "OLACON",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1691\u1682\u1690\u168a\u1691\u1686",
       "type": "label"
@@ -12872,33 +12872,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: TAN...",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TAN..._sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TAN...",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u1690\u1686",
       "type": "label"
@@ -12917,33 +12917,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: TRENU (\u1689\u168f\u1693\u1686\u1692)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TRENU_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TRENU",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u168f\u1693\u1686\u1692",
       "type": "label"
@@ -12962,33 +12962,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VIRAGNI (\u1684\u1694\u168f\u1690\u168c\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VIRAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VIRAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1694\u168f\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -13007,33 +13007,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: COLLABOT (\u168a\u1691\u1682\u1682\u1690\u1681\u1691\u1689)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COLLABOT_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "COLLABOT",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u1682\u1682\u1690\u1681\u1691\u1689",
       "type": "label"
@@ -13052,33 +13052,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: CATTUVIR (\u168a\u1690\u1689\u1689\u1692\u1684\u1694\u168f)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CATTUVIR_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CATTUVIR",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1690\u1689\u1689\u1692\u1684\u1694\u168f",
       "type": "label"
@@ -13097,33 +13097,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: B[AID]AGNI (\u1681\u1690\u1694\u1688\u1690\u168c\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "B[AID]AGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u1690\u1694\u1688\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -13142,33 +13142,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: LUGUDECAS (\u1682\u1692\u168c\u1692\u1688\u1693\u168a\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LUGUDECAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LUGUDECAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1692\u168c\u1692\u1688\u1693\u168a\u1690\u1685",
       "type": "label"
@@ -13215,33 +13215,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: TOGITTACC[I]?",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168c_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TOGITTACC[I]?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694",
       "type": "label"
@@ -13260,33 +13260,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAKINI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAKINI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAKINI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1686\u1694",
       "type": "label"
@@ -13305,33 +13305,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: COLMAN (\u168a\u1691\u1682\u168b\u1690\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COLMAN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "COLMAN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1691\u1682\u168b\u1690\u1686",
       "type": "label"
@@ -13350,33 +13350,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: ROTTAIS (\u168f\u1691\u1689\u1689\u1690\u1694\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ROTTAIS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ROTTAIS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168f\u1691\u1689\u1689\u1690\u1694\u1685",
       "type": "label"
@@ -13395,33 +13395,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: LLOTETI (\u1682\u1682\u1691\u1689\u1693\u1689\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LLOTETI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LLOTETI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1682\u1691\u1689\u1693\u1689\u1694",
       "type": "label"
@@ -13440,33 +13440,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MAQI-DECEDAS (\u168b\u1690\u1694\u1688\u1693\u168a\u1693\u1688\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-DECEDAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-DECEDAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1688\u1693\u168a\u1693\u1688\u1690\u1685",
       "type": "label"
@@ -13485,33 +13485,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: NAG[U]N[I] (\u1686\u1690\u168c\u1692\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NAG[U]N[I]",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1690\u168c\u1692\u1686\u1694",
       "type": "label"
@@ -13530,33 +13530,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: TALAGNI (\u1689\u1690\u1682\u1690\u168c\u1686\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TALAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TALAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u1690\u1682\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -13575,33 +13575,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: NOCATI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NOCATI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "NOCATI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686\u1691\u168a\u1690\u1689\u1694",
       "type": "label"
@@ -13620,33 +13620,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAQQI-LASIRE(N)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQQI-LASIRE(N)",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u1682\u1690\u1685\u1694\u168f\u1693\u1686",
       "type": "label"
@@ -13679,33 +13679,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: BIGU",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u168c_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BIGU_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "BIGU",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681\u1694\u168c\u1692",
       "type": "label"
@@ -13724,33 +13724,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: TRENALUGGO?",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TRENALUGGO%3F_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "TRENALUGGO?",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689\u168f\u1693\u1686\u1690\u1682\u1692\u168c\u168c\u1691",
       "type": "label"
@@ -13769,33 +13769,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAQI-RITEAS",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-RITEAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-RITEAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u168f\u1694\u1689\u1693\u1690\u1685",
       "type": "label"
@@ -13814,33 +13814,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: CATTABBOTT",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1681_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CATTABBOTT_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CATTABBOTT",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1690\u1689\u1689\u1690\u1681\u1681\u1691\u1689\u1689",
       "type": "label"
@@ -13859,33 +13859,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: VORRTIGURN (\u1684\u1691\u168f\u168f\u1689\u1694\u168c\u1692\u168f\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VORRTIGURN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "VORRTIGURN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684\u1691\u168f\u168f\u1689\u1694\u168c\u1692\u168f\u1686",
       "type": "label"
@@ -13904,25 +13904,25 @@ var vowlresult={
    "instances": 0,
    "label": "Word: MACI (\u168b\u1690\u168a\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1694_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MACI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u168a\u1694",
       "type": "label"
@@ -13941,33 +13941,33 @@ var vowlresult={
    "instances": 0,
    "label": "Word: RETAGIN (\u168f\u1693\u1689\u1690\u168c\u1694\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RETAGIN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "RETAGIN",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168f\u1693\u1689\u1690\u168c\u1694\u1686",
       "type": "label"
@@ -13986,33 +13986,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: MAQI-RET/C...",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1693_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-RET%2FC..._sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI-RET/C...",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694\u168f\u1693\u1689\u168a",
       "type": "label"
@@ -14031,33 +14031,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DOVETI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVETI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DOVETI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1691\u1684\u1693\u1689\u1694",
       "type": "label"
@@ -21611,9 +21611,9 @@ var vowlresult={
    "instances": 0,
    "label": "AMADU Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AMADU_person",
       "type": "iri"
@@ -21632,9 +21632,9 @@ var vowlresult={
    "instances": 0,
    "label": "CATTABBOTT Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CATTABBOTT_person",
       "type": "iri"
@@ -21653,9 +21653,9 @@ var vowlresult={
    "instances": 0,
    "label": "VORRTIGURN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VORRTIGURN_person",
       "type": "iri"
@@ -21674,9 +21674,9 @@ var vowlresult={
    "instances": 0,
    "label": "QRITTI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QRITTI_person",
       "type": "iri"
@@ -21695,9 +21695,9 @@ var vowlresult={
    "instances": 0,
    "label": "NOCATI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NOCATI_person",
       "type": "iri"
@@ -21716,9 +21716,9 @@ var vowlresult={
    "instances": 0,
    "label": "SILLANN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SILLANN_person",
       "type": "iri"
@@ -21737,9 +21737,9 @@ var vowlresult={
    "instances": 0,
    "label": "MEDVVI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MEDVVI_person",
       "type": "iri"
@@ -21758,9 +21758,9 @@ var vowlresult={
    "instances": 0,
    "label": "CORBI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORBI_person",
       "type": "iri"
@@ -21779,9 +21779,9 @@ var vowlresult={
    "instances": 0,
    "label": "NETA-CARI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETA-CARI_person",
       "type": "iri"
@@ -21800,9 +21800,9 @@ var vowlresult={
    "instances": 0,
    "label": "TRENU Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TRENU_person",
       "type": "iri"
@@ -21821,9 +21821,9 @@ var vowlresult={
    "instances": 0,
    "label": "LUGA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LUGA_person",
       "type": "iri"
@@ -21842,9 +21842,9 @@ var vowlresult={
    "instances": 0,
    "label": "DOVVINIA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVVINIA_person",
       "type": "iri"
@@ -21863,9 +21863,9 @@ var vowlresult={
    "instances": 0,
    "label": "VEDELMETO Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VEDELMETO_person",
       "type": "iri"
@@ -21884,9 +21884,9 @@ var vowlresult={
    "instances": 0,
    "label": "DUCOVAROS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DUCOVAROS_person",
       "type": "iri"
@@ -21905,9 +21905,9 @@ var vowlresult={
    "instances": 0,
    "label": "DERCMASOC Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DERCMASOC_person",
       "type": "iri"
@@ -21926,9 +21926,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-?OGGODIKA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA_person",
       "type": "iri"
@@ -21947,9 +21947,9 @@ var vowlresult={
    "instances": 0,
    "label": "MUNICONA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MUNICONA_person",
       "type": "iri"
@@ -21968,9 +21968,9 @@ var vowlresult={
    "instances": 0,
    "label": "CATTUBUTTAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CATTUBUTTAS_person",
       "type": "iri"
@@ -21989,9 +21989,9 @@ var vowlresult={
    "instances": 0,
    "label": "EQQEGGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#EQQEGGNI_person",
       "type": "iri"
@@ -22010,9 +22010,9 @@ var vowlresult={
    "instances": 0,
    "label": "OLACON Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#OLACON_person",
       "type": "iri"
@@ -22031,9 +22031,9 @@ var vowlresult={
    "instances": 0,
    "label": "TOGITTACC[I] Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_person",
       "type": "iri"
@@ -22052,9 +22052,9 @@ var vowlresult={
    "instances": 0,
    "label": "OVANOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#OVANOS_person",
       "type": "iri"
@@ -22073,9 +22073,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-AINIA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-AINIA_person",
       "type": "iri"
@@ -22094,9 +22094,9 @@ var vowlresult={
    "instances": 0,
    "label": "ULCCAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ULCCAGNI_person",
       "type": "iri"
@@ -22115,9 +22115,9 @@ var vowlresult={
    "instances": 0,
    "label": "TEGANN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TEGANN_person",
       "type": "iri"
@@ -22136,9 +22136,9 @@ var vowlresult={
    "instances": 0,
    "label": "DUNAIDONAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DUNAIDONAS_person",
       "type": "iri"
@@ -22157,9 +22157,9 @@ var vowlresult={
    "instances": 0,
    "label": "NETA-SALAGIA? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F_person",
       "type": "iri"
@@ -22178,9 +22178,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQQI-ERCCIA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQQI-ERCCIA_person",
       "type": "iri"
@@ -22199,9 +22199,9 @@ var vowlresult={
    "instances": 0,
    "label": "BROCANN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BROCANN_person",
       "type": "iri"
@@ -22220,9 +22220,9 @@ var vowlresult={
    "instances": 0,
    "label": "GRAVICAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GRAVICAS_person",
       "type": "iri"
@@ -22241,9 +22241,9 @@ var vowlresult={
    "instances": 0,
    "label": "BR... Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BR..._person",
       "type": "iri"
@@ -22262,9 +22262,9 @@ var vowlresult={
    "instances": 0,
    "label": "DEGLANN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DEGLANN_person",
       "type": "iri"
@@ -22283,9 +22283,9 @@ var vowlresult={
    "instances": 0,
    "label": "SUVALLOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SUVALLOS_person",
       "type": "iri"
@@ -22304,9 +22304,9 @@ var vowlresult={
    "instances": 0,
    "label": "BROINIENAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BROINIENAS_person",
       "type": "iri"
@@ -22325,9 +22325,9 @@ var vowlresult={
    "instances": 0,
    "label": "VORTIGURN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VORTIGURN_person",
       "type": "iri"
@@ -22346,9 +22346,9 @@ var vowlresult={
    "instances": 0,
    "label": "VOTI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VOTI_person",
       "type": "iri"
@@ -22367,9 +22367,9 @@ var vowlresult={
    "instances": 0,
    "label": "BECCDINN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BECCDINN_person",
       "type": "iri"
@@ -22388,9 +22388,9 @@ var vowlresult={
    "instances": 0,
    "label": "ATAR Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ATAR_person",
       "type": "iri"
@@ -22409,9 +22409,9 @@ var vowlresult={
    "instances": 0,
    "label": "BRUSCCOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BRUSCCOS_person",
       "type": "iri"
@@ -22430,9 +22430,9 @@ var vowlresult={
    "instances": 0,
    "label": "AILITHIR Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AILITHIR_person",
       "type": "iri"
@@ -22451,9 +22451,9 @@ var vowlresult={
    "instances": 0,
    "label": "NETTA-LAMINACCA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA_person",
       "type": "iri"
@@ -22472,9 +22472,9 @@ var vowlresult={
    "instances": 0,
    "label": "NILI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NILI_person",
       "type": "iri"
@@ -22493,9 +22493,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQQI-IARI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQQI-IARI_person",
       "type": "iri"
@@ -22514,9 +22514,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-CORABIR Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-CORABIR_person",
       "type": "iri"
@@ -22535,9 +22535,9 @@ var vowlresult={
    "instances": 0,
    "label": "QENILOC[A]GNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI_person",
       "type": "iri"
@@ -22556,9 +22556,9 @@ var vowlresult={
    "instances": 0,
    "label": "GIRAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GIRAGNI_person",
       "type": "iri"
@@ -22577,9 +22577,9 @@ var vowlresult={
    "instances": 0,
    "label": "TURANIAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TURANIAS_person",
       "type": "iri"
@@ -22598,9 +22598,9 @@ var vowlresult={
    "instances": 0,
    "label": "MOINENA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MOINENA_person",
       "type": "iri"
@@ -22619,9 +22619,9 @@ var vowlresult={
    "instances": 0,
    "label": "CATTUVIR Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CATTUVIR_person",
       "type": "iri"
@@ -22640,9 +22640,9 @@ var vowlresult={
    "instances": 0,
    "label": "DOMANEQI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOMANEQI_person",
       "type": "iri"
@@ -22661,9 +22661,9 @@ var vowlresult={
    "instances": 0,
    "label": "GALEOTOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GALEOTOS_person",
       "type": "iri"
@@ -22682,9 +22682,9 @@ var vowlresult={
    "instances": 0,
    "label": "SAG(A)RETTOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_person",
       "type": "iri"
@@ -22703,9 +22703,9 @@ var vowlresult={
    "instances": 0,
    "label": "CORRBRI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORRBRI_person",
       "type": "iri"
@@ -22724,9 +22724,9 @@ var vowlresult={
    "instances": 0,
    "label": "BIRRAC Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BIRRAC_person",
       "type": "iri"
@@ -22745,9 +22745,9 @@ var vowlresult={
    "instances": 0,
    "label": "DOVVINIAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVVINIAS_person",
       "type": "iri"
@@ -22766,9 +22766,9 @@ var vowlresult={
    "instances": 0,
    "label": "ODR...REA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ODR...REA_person",
       "type": "iri"
@@ -22787,9 +22787,9 @@ var vowlresult={
    "instances": 0,
    "label": "NETA-CAGI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETA-CAGI_person",
       "type": "iri"
@@ -22808,9 +22808,9 @@ var vowlresult={
    "instances": 0,
    "label": "LUGADDON Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LUGADDON_person",
       "type": "iri"
@@ -22829,9 +22829,9 @@ var vowlresult={
    "instances": 0,
    "label": "SENAQ Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SENAQ_person",
       "type": "iri"
@@ -22850,9 +22850,9 @@ var vowlresult={
    "instances": 0,
    "label": "DROGNO Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DROGNO_person",
       "type": "iri"
@@ -22871,9 +22871,9 @@ var vowlresult={
    "instances": 0,
    "label": "AGILL... Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AGILL..._person",
       "type": "iri"
@@ -22892,9 +22892,9 @@ var vowlresult={
    "instances": 0,
    "label": "MACORBO Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MACORBO_person",
       "type": "iri"
@@ -22913,9 +22913,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-CUNALIG... Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-CUNALIG..._person",
       "type": "iri"
@@ -22934,9 +22934,9 @@ var vowlresult={
    "instances": 0,
    "label": "TASEGAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TASEGAGNI_person",
       "type": "iri"
@@ -22955,9 +22955,9 @@ var vowlresult={
    "instances": 0,
    "label": "C[....]SALAR Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR_person",
       "type": "iri"
@@ -22976,9 +22976,9 @@ var vowlresult={
    "instances": 0,
    "label": "TULOTANAGIA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TULOTANAGIA_person",
       "type": "iri"
@@ -22997,9 +22997,9 @@ var vowlresult={
    "instances": 0,
    "label": "GELAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GELAGNI_person",
       "type": "iri"
@@ -23018,9 +23018,9 @@ var vowlresult={
    "instances": 0,
    "label": "VRAICCI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VRAICCI_person",
       "type": "iri"
@@ -23039,9 +23039,9 @@ var vowlresult={
    "instances": 0,
    "label": "DUMELI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DUMELI_person",
       "type": "iri"
@@ -23060,9 +23060,9 @@ var vowlresult={
    "instances": 0,
    "label": "CURCI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CURCI_person",
       "type": "iri"
@@ -23081,9 +23081,9 @@ var vowlresult={
    "instances": 0,
    "label": "GAMICUNAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GAMICUNAS_person",
       "type": "iri"
@@ -23102,9 +23102,9 @@ var vowlresult={
    "instances": 0,
    "label": "CALUNOVICA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CALUNOVICA_person",
       "type": "iri"
@@ -23123,9 +23123,9 @@ var vowlresult={
    "instances": 0,
    "label": "RONANN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RONANN_person",
       "type": "iri"
@@ -23144,9 +23144,9 @@ var vowlresult={
    "instances": 0,
    "label": "CORB Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORB_person",
       "type": "iri"
@@ -23165,9 +23165,9 @@ var vowlresult={
    "instances": 0,
    "label": "MEDALO Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MEDALO_person",
       "type": "iri"
@@ -23186,9 +23186,9 @@ var vowlresult={
    "instances": 0,
    "label": "COSCIS/N Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COSCIS%2FN_person",
       "type": "iri"
@@ -23207,9 +23207,9 @@ var vowlresult={
    "instances": 0,
    "label": "VINNAGITLET? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VINNAGITLET%3F_person",
       "type": "iri"
@@ -23228,9 +23228,9 @@ var vowlresult={
    "instances": 0,
    "label": "RITTAVVECCAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RITTAVVECCAS_person",
       "type": "iri"
@@ -23249,9 +23249,9 @@ var vowlresult={
    "instances": 0,
    "label": "VORGOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VORGOS_person",
       "type": "iri"
@@ -23270,9 +23270,9 @@ var vowlresult={
    "instances": 0,
    "label": "...ERATI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#...ERATI_person",
       "type": "iri"
@@ -23291,9 +23291,9 @@ var vowlresult={
    "instances": 0,
    "label": "AMMLLONGITT? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F_person",
       "type": "iri"
@@ -23312,9 +23312,9 @@ var vowlresult={
    "instances": 0,
    "label": "DEAGOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DEAGOS_person",
       "type": "iri"
@@ -23333,9 +23333,9 @@ var vowlresult={
    "instances": 0,
    "label": "GOSSUCTTIAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GOSSUCTTIAS_person",
       "type": "iri"
@@ -23354,9 +23354,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAILAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAILAGNI_person",
       "type": "iri"
@@ -23375,9 +23375,9 @@ var vowlresult={
    "instances": 0,
    "label": "IAQINI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#IAQINI_person",
       "type": "iri"
@@ -23396,9 +23396,9 @@ var vowlresult={
    "instances": 0,
    "label": "GLUNLEGGET Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GLUNLEGGET_person",
       "type": "iri"
@@ -23417,9 +23417,9 @@ var vowlresult={
    "instances": 0,
    "label": "DALAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DALAGNI_person",
       "type": "iri"
@@ -23438,9 +23438,9 @@ var vowlresult={
    "instances": 0,
    "label": "IVACATTOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#IVACATTOS_person",
       "type": "iri"
@@ -23459,9 +23459,9 @@ var vowlresult={
    "instances": 0,
    "label": "DOVINIAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVINIAS_person",
       "type": "iri"
@@ -23480,9 +23480,9 @@ var vowlresult={
    "instances": 0,
    "label": "BIGU Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BIGU_person",
       "type": "iri"
@@ -23501,9 +23501,9 @@ var vowlresult={
    "instances": 0,
    "label": "MACORBO? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MACORBO%3F_person",
       "type": "iri"
@@ -23522,9 +23522,9 @@ var vowlresult={
    "instances": 0,
    "label": "RODDOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RODDOS_person",
       "type": "iri"
@@ -23543,9 +23543,9 @@ var vowlresult={
    "instances": 0,
    "label": "TRENALUGGO? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TRENALUGGO%3F_person",
       "type": "iri"
@@ -23564,9 +23564,9 @@ var vowlresult={
    "instances": 0,
    "label": "DIMAQA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DIMAQA_person",
       "type": "iri"
@@ -23585,9 +23585,9 @@ var vowlresult={
    "instances": 0,
    "label": "TALAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TALAGNI_person",
       "type": "iri"
@@ -23606,9 +23606,9 @@ var vowlresult={
    "instances": 0,
    "label": "ISAMMNN? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ISAMMNN%3F_person",
       "type": "iri"
@@ -23627,9 +23627,9 @@ var vowlresult={
    "instances": 0,
    "label": "INEQAGLAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#INEQAGLAS_person",
       "type": "iri"
@@ -23648,9 +23648,9 @@ var vowlresult={
    "instances": 0,
    "label": "SRUSA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SRUSA_person",
       "type": "iri"
@@ -23669,9 +23669,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAILE-INBIR Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAILE-INBIR_person",
       "type": "iri"
@@ -23690,9 +23690,9 @@ var vowlresult={
    "instances": 0,
    "label": "NETTA-TTRENALUGOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS_person",
       "type": "iri"
@@ -23711,9 +23711,9 @@ var vowlresult={
    "instances": 0,
    "label": "NAG[U]N[I] Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_person",
       "type": "iri"
@@ -23732,9 +23732,9 @@ var vowlresult={
    "instances": 0,
    "label": "ROTTAIS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ROTTAIS_person",
       "type": "iri"
@@ -23753,9 +23753,9 @@ var vowlresult={
    "instances": 0,
    "label": "[B]RRUA/ENANN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN_person",
       "type": "iri"
@@ -23774,9 +23774,9 @@ var vowlresult={
    "instances": 0,
    "label": "ALATTO Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ALATTO_person",
       "type": "iri"
@@ -23795,9 +23795,9 @@ var vowlresult={
    "instances": 0,
    "label": "VEDABAR Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VEDABAR_person",
       "type": "iri"
@@ -23816,9 +23816,9 @@ var vowlresult={
    "instances": 0,
    "label": "LITENI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LITENI_person",
       "type": "iri"
@@ -23837,9 +23837,9 @@ var vowlresult={
    "instances": 0,
    "label": "LOBACCONA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LOBACCONA_person",
       "type": "iri"
@@ -23858,9 +23858,9 @@ var vowlresult={
    "instances": 0,
    "label": "AKEVRITTI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#AKEVRITTI_person",
       "type": "iri"
@@ -23879,9 +23879,9 @@ var vowlresult={
    "instances": 0,
    "label": "VIRR[ACC]ANNI? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F_person",
       "type": "iri"
@@ -23900,9 +23900,9 @@ var vowlresult={
    "instances": 0,
    "label": "GLASICONAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GLASICONAS_person",
       "type": "iri"
@@ -23921,9 +23921,9 @@ var vowlresult={
    "instances": 0,
    "label": "BROINIONAS? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BROINIONAS%3F_person",
       "type": "iri"
@@ -23942,9 +23942,9 @@ var vowlresult={
    "instances": 0,
    "label": "NE[T....]AS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NE%5BT....%5DAS_person",
       "type": "iri"
@@ -23963,9 +23963,9 @@ var vowlresult={
    "instances": 0,
    "label": "MANU Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MANU_person",
       "type": "iri"
@@ -23984,9 +23984,9 @@ var vowlresult={
    "instances": 0,
    "label": "ERACIAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ERACIAS_person",
       "type": "iri"
@@ -24005,9 +24005,9 @@ var vowlresult={
    "instances": 0,
    "label": "QECCIAS? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QECCIAS%3F_person",
       "type": "iri"
@@ -24026,9 +24026,9 @@ var vowlresult={
    "instances": 0,
    "label": "ALATTOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ALATTOS_person",
       "type": "iri"
@@ -24047,9 +24047,9 @@ var vowlresult={
    "instances": 0,
    "label": "COLMAN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COLMAN_person",
       "type": "iri"
@@ -24068,9 +24068,9 @@ var vowlresult={
    "instances": 0,
    "label": "ADDILONA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ADDILONA_person",
       "type": "iri"
@@ -24089,9 +24089,9 @@ var vowlresult={
    "instances": 0,
    "label": "COMOGANN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COMOGANN_person",
       "type": "iri"
@@ -24110,9 +24110,9 @@ var vowlresult={
    "instances": 0,
    "label": "MUIBITI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MUIBITI_person",
       "type": "iri"
@@ -24131,9 +24131,9 @@ var vowlresult={
    "instances": 0,
    "label": "CORBBI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORBBI_person",
       "type": "iri"
@@ -24152,9 +24152,9 @@ var vowlresult={
    "instances": 0,
    "label": "LAG[... Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LAG%5B..._person",
       "type": "iri"
@@ -24173,9 +24173,9 @@ var vowlresult={
    "instances": 0,
    "label": "RETAGIN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RETAGIN_person",
       "type": "iri"
@@ -24194,9 +24194,9 @@ var vowlresult={
    "instances": 0,
    "label": "VATTILLOGG Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VATTILLOGG_person",
       "type": "iri"
@@ -24215,9 +24215,9 @@ var vowlresult={
    "instances": 0,
    "label": "TOGITTACC[I]? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F_person",
       "type": "iri"
@@ -24236,9 +24236,9 @@ var vowlresult={
    "instances": 0,
    "label": "RINI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RINI_person",
       "type": "iri"
@@ -24257,9 +24257,9 @@ var vowlresult={
    "instances": 0,
    "label": "VITALIN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VITALIN_person",
       "type": "iri"
@@ -24278,9 +24278,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-DUMILEAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS_person",
       "type": "iri"
@@ -24299,9 +24299,9 @@ var vowlresult={
    "instances": 0,
    "label": "NE?TTVRECC Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NE%3FTTVRECC_person",
       "type": "iri"
@@ -24320,9 +24320,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-DECEDAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-DECEDAS_person",
       "type": "iri"
@@ -24341,9 +24341,9 @@ var vowlresult={
    "instances": 0,
    "label": "DENAVECA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DENAVECA_person",
       "type": "iri"
@@ -24362,9 +24362,9 @@ var vowlresult={
    "instances": 0,
    "label": "UDDAMI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#UDDAMI_person",
       "type": "iri"
@@ -24383,9 +24383,9 @@ var vowlresult={
    "instances": 0,
    "label": "QVECI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QVECI_person",
       "type": "iri"
@@ -24404,9 +24404,9 @@ var vowlresult={
    "instances": 0,
    "label": "LLOTETI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LLOTETI_person",
       "type": "iri"
@@ -24425,9 +24425,9 @@ var vowlresult={
    "instances": 0,
    "label": "QENILOCI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#QENILOCI_person",
       "type": "iri"
@@ -24446,9 +24446,9 @@ var vowlresult={
    "instances": 0,
    "label": "ERCAVICCAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ERCAVICCAS_person",
       "type": "iri"
@@ -24467,9 +24467,9 @@ var vowlresult={
    "instances": 0,
    "label": "SEDANI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SEDANI_person",
       "type": "iri"
@@ -24488,9 +24488,9 @@ var vowlresult={
    "instances": 0,
    "label": "LUGUDECAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LUGUDECAS_person",
       "type": "iri"
@@ -24509,9 +24509,9 @@ var vowlresult={
    "instances": 0,
    "label": "BIVAIDONAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BIVAIDONAS_person",
       "type": "iri"
@@ -24530,9 +24530,9 @@ var vowlresult={
    "instances": 0,
    "label": "LLATIGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LLATIGNI_person",
       "type": "iri"
@@ -24551,9 +24551,9 @@ var vowlresult={
    "instances": 0,
    "label": "BATTIGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BATTIGNI_person",
       "type": "iri"
@@ -24572,9 +24572,9 @@ var vowlresult={
    "instances": 0,
    "label": "LUGUQRIT Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LUGUQRIT_person",
       "type": "iri"
@@ -24593,9 +24593,9 @@ var vowlresult={
    "instances": 0,
    "label": "DOVETI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVETI_person",
       "type": "iri"
@@ -24614,9 +24614,9 @@ var vowlresult={
    "instances": 0,
    "label": "DOVINIA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVINIA_person",
       "type": "iri"
@@ -24635,9 +24635,9 @@ var vowlresult={
    "instances": 0,
    "label": "NETA-SEGAMONAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_person",
       "type": "iri"
@@ -24656,9 +24656,9 @@ var vowlresult={
    "instances": 0,
    "label": "TUCACAC Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TUCACAC_person",
       "type": "iri"
@@ -24677,9 +24677,9 @@ var vowlresult={
    "instances": 0,
    "label": "ENA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ENA_person",
       "type": "iri"
@@ -24698,9 +24698,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-TTAL Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-TTAL_person",
       "type": "iri"
@@ -24719,9 +24719,9 @@ var vowlresult={
    "instances": 0,
    "label": "COBRANORA? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COBRANORA%3F_person",
       "type": "iri"
@@ -24740,9 +24740,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-RITEAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-RITEAS_person",
       "type": "iri"
@@ -24761,9 +24761,9 @@ var vowlresult={
    "instances": 0,
    "label": "MEDUSI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MEDUSI_person",
       "type": "iri"
@@ -24782,9 +24782,9 @@ var vowlresult={
    "instances": 0,
    "label": "CUNAMAQQI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNAMAQQI_person",
       "type": "iri"
@@ -24803,9 +24803,9 @@ var vowlresult={
    "instances": 0,
    "label": "CUNOVATOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNOVATOS_person",
       "type": "iri"
@@ -24824,9 +24824,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-CAIRATINI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI_person",
       "type": "iri"
@@ -24845,9 +24845,9 @@ var vowlresult={
    "instances": 0,
    "label": "CORBAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CORBAGNI_person",
       "type": "iri"
@@ -24866,9 +24866,9 @@ var vowlresult={
    "instances": 0,
    "label": "COLLABOT Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COLLABOT_person",
       "type": "iri"
@@ -24887,9 +24887,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-RET/C... Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-RET%2FC..._person",
       "type": "iri"
@@ -24908,9 +24908,9 @@ var vowlresult={
    "instances": 0,
    "label": "CURCITTI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CURCITTI_person",
       "type": "iri"
@@ -24929,9 +24929,9 @@ var vowlresult={
    "instances": 0,
    "label": "TOICACI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TOICACI_person",
       "type": "iri"
@@ -24950,9 +24950,9 @@ var vowlresult={
    "instances": 0,
    "label": "BROINIONAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BROINIONAS_person",
       "type": "iri"
@@ -24971,9 +24971,9 @@ var vowlresult={
    "instances": 0,
    "label": "VEQREQ Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VEQREQ_person",
       "type": "iri"
@@ -24992,9 +24992,9 @@ var vowlresult={
    "instances": 0,
    "label": "DOLIGENN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOLIGENN_person",
       "type": "iri"
@@ -25013,9 +25013,9 @@ var vowlresult={
    "instances": 0,
    "label": "RAVASA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#RAVASA_person",
       "type": "iri"
@@ -25034,9 +25034,9 @@ var vowlresult={
    "instances": 0,
    "label": "CCICAMINI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CCICAMINI_person",
       "type": "iri"
@@ -25055,9 +25055,9 @@ var vowlresult={
    "instances": 0,
    "label": "[QE]TTEAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_person",
       "type": "iri"
@@ -25076,9 +25076,9 @@ var vowlresult={
    "instances": 0,
    "label": "B[AID]AGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_person",
       "type": "iri"
@@ -25097,9 +25097,9 @@ var vowlresult={
    "instances": 0,
    "label": "VIRAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VIRAGNI_person",
       "type": "iri"
@@ -25118,9 +25118,9 @@ var vowlresult={
    "instances": 0,
    "label": "CALIACI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CALIACI_person",
       "type": "iri"
@@ -25139,9 +25139,9 @@ var vowlresult={
    "instances": 0,
    "label": "CATTINI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CATTINI_person",
       "type": "iri"
@@ -25160,9 +25160,9 @@ var vowlresult={
    "instances": 0,
    "label": "...LL... Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#...LL..._person",
       "type": "iri"
@@ -25181,9 +25181,9 @@ var vowlresult={
    "instances": 0,
    "label": "B[AI]D[A]N[I] Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D_person",
       "type": "iri"
@@ -25202,9 +25202,9 @@ var vowlresult={
    "instances": 0,
    "label": "LABRID Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LABRID_person",
       "type": "iri"
@@ -25223,9 +25223,9 @@ var vowlresult={
    "instances": 0,
    "label": "CUNALEGEA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNALEGEA_person",
       "type": "iri"
@@ -25244,9 +25244,9 @@ var vowlresult={
    "instances": 0,
    "label": "ERC Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ERC_person",
       "type": "iri"
@@ -25265,9 +25265,9 @@ var vowlresult={
    "instances": 0,
    "label": "DALI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DALI_person",
       "type": "iri"
@@ -25286,9 +25286,9 @@ var vowlresult={
    "instances": 0,
    "label": "CUNACENA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNACENA_person",
       "type": "iri"
@@ -25307,9 +25307,9 @@ var vowlresult={
    "instances": 0,
    "label": "LUBBIAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LUBBIAS_person",
       "type": "iri"
@@ -25328,9 +25328,9 @@ var vowlresult={
    "instances": 0,
    "label": "INISSIONAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#INISSIONAS_person",
       "type": "iri"
@@ -25349,9 +25349,9 @@ var vowlresult={
    "instances": 0,
    "label": "COMMAGGAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COMMAGGAGNI_person",
       "type": "iri"
@@ -25370,9 +25370,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-ERCIAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-ERCIAS_person",
       "type": "iri"
@@ -25391,9 +25391,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAKINI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAKINI_person",
       "type": "iri"
@@ -25412,9 +25412,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQQI-LASIRE(N) Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29_person",
       "type": "iri"
@@ -25433,9 +25433,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-ESEA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-ESEA_person",
       "type": "iri"
@@ -25454,9 +25454,9 @@ var vowlresult={
    "instances": 0,
    "label": "DOVATUCI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DOVATUCI_person",
       "type": "iri"
@@ -25475,9 +25475,9 @@ var vowlresult={
    "instances": 0,
    "label": "BROENIONAS? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BROENIONAS%3F_person",
       "type": "iri"
@@ -25496,9 +25496,9 @@ var vowlresult={
    "instances": 0,
    "label": "GOSOCTEAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GOSOCTEAS_person",
       "type": "iri"
@@ -25517,9 +25517,9 @@ var vowlresult={
    "instances": 0,
    "label": "TAN... Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#TAN..._person",
       "type": "iri"
@@ -25538,9 +25538,9 @@ var vowlresult={
    "instances": 0,
    "label": "BIR Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#BIR_person",
       "type": "iri"
@@ -25559,9 +25559,9 @@ var vowlresult={
    "instances": 0,
    "label": "LOBBI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LOBBI_person",
       "type": "iri"
@@ -25580,9 +25580,9 @@ var vowlresult={
    "instances": 0,
    "label": "CIR Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CIR_person",
       "type": "iri"
@@ -25601,9 +25601,9 @@ var vowlresult={
    "instances": 0,
    "label": "VURUDDRANN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VURUDDRANN_person",
       "type": "iri"
@@ -25622,9 +25622,9 @@ var vowlresult={
    "instances": 0,
    "label": "SEVERRIT Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#SEVERRIT_person",
       "type": "iri"
@@ -25643,9 +25643,9 @@ var vowlresult={
    "instances": 0,
    "label": "DUGENNGI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DUGENNGI_person",
       "type": "iri"
@@ -25664,9 +25664,9 @@ var vowlresult={
    "instances": 0,
    "label": "MINERC? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MINERC%3F_person",
       "type": "iri"
@@ -25685,9 +25685,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-INI... Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-INI..._person",
       "type": "iri"
@@ -25706,9 +25706,9 @@ var vowlresult={
    "instances": 0,
    "label": "CEDATTOQA Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CEDATTOQA_person",
       "type": "iri"
@@ -25727,9 +25727,9 @@ var vowlresult={
    "instances": 0,
    "label": "COROTANI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COROTANI_person",
       "type": "iri"
@@ -25748,9 +25748,9 @@ var vowlresult={
    "instances": 0,
    "label": "CUNANETAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNANETAS_person",
       "type": "iri"
@@ -25769,9 +25769,9 @@ var vowlresult={
    "instances": 0,
    "label": "MAQI-ERCIAS? Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F_person",
       "type": "iri"
@@ -25790,9 +25790,9 @@ var vowlresult={
    "instances": 0,
    "label": "VEDDONOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VEDDONOS_person",
       "type": "iri"
@@ -25811,9 +25811,9 @@ var vowlresult={
    "instances": 0,
    "label": "MARIANI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MARIANI_person",
       "type": "iri"
@@ -25832,9 +25832,9 @@ var vowlresult={
    "instances": 0,
    "label": "DEGOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DEGOS_person",
       "type": "iri"
@@ -25853,9 +25853,9 @@ var vowlresult={
    "instances": 0,
    "label": "NETTAVROICC Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#NETTAVROICC_person",
       "type": "iri"
@@ -25874,9 +25874,9 @@ var vowlresult={
    "instances": 0,
    "label": "COILLI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COILLI_person",
       "type": "iri"
@@ -25895,9 +25895,9 @@ var vowlresult={
    "instances": 0,
    "label": "LOGIDEAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LOGIDEAS_person",
       "type": "iri"
@@ -25916,9 +25916,9 @@ var vowlresult={
    "instances": 0,
    "label": "MONGEDIAS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MONGEDIAS_person",
       "type": "iri"
@@ -25937,9 +25937,9 @@ var vowlresult={
    "instances": 0,
    "label": "VLATIAMI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#VLATIAMI_person",
       "type": "iri"
@@ -25958,9 +25958,9 @@ var vowlresult={
    "instances": 0,
    "label": "GATI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#GATI_person",
       "type": "iri"
@@ -25979,9 +25979,9 @@ var vowlresult={
    "instances": 0,
    "label": "MARIN Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#MARIN_person",
       "type": "iri"
@@ -26000,9 +26000,9 @@ var vowlresult={
    "instances": 0,
    "label": "COIMAGNI Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#COIMAGNI_person",
       "type": "iri"
@@ -26021,9 +26021,9 @@ var vowlresult={
    "instances": 0,
    "label": "CUNAGUSOS Sense",
    "annotations": {
-    "http://lemon-model.net/lemon#reference": [
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
      {
-      "identifier": "http://lemon-model.net/lemon#reference",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#reference",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#CUNAGUSOS_person",
       "type": "iri"
@@ -26052,7 +26052,7 @@ var vowlresult={
    "iri": "http://www.opengis.net/ont/geosparql#hasGeometry",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
-   "label": "sense",
+   "label": "reference",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -26061,8 +26061,8 @@ var vowlresult={
   },
   {
    "id": 816,
-   "iri": "http://lemon-model.net/lemon#sense",
-   "baseIRI": "http://lemon-model.net/lemon",
+   "iri": "http://www.w3.org/ns/lemon/ontolex#reference",
+   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
    "instances": 0,
    "label": "follows",
    "annotations": {},
@@ -26076,18 +26076,6 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#follows",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "entry",
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 818,
-   "iri": "http://lemon-model.net/lemon#entry",
-   "baseIRI": "http://lemon-model.net/lemon",
-   "instances": 0,
    "label": "has member",
    "annotations": {},
    "range": [],
@@ -26096,7 +26084,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 819,
+   "id": 818,
    "iri": "http://www.i3mainz.de/ogham#hasMember",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26108,7 +26096,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 820,
+   "id": 819,
    "iri": "http://www.i3mainz.de/ogham#nameRelatesTo",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26120,9 +26108,21 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 821,
+   "id": 820,
    "iri": "http://www.wikidata.org/prop/direct/P6568",
    "baseIRI": "http://www.wikidata.org/prop/direct",
+   "instances": 0,
+   "label": "entry",
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 821,
+   "iri": "http://www.w3.org/ns/lemon/ontolex#entry",
+   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
    "instances": 0,
    "label": "descendant of",
    "annotations": {},
@@ -26136,7 +26136,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#descendantOf",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "reference",
+   "label": "contains",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -26145,8 +26145,8 @@ var vowlresult={
   },
   {
    "id": 823,
-   "iri": "http://lemon-model.net/lemon#reference",
-   "baseIRI": "http://lemon-model.net/lemon",
+   "iri": "http://www.w3.org/ns/lemon/ontolex#contains",
+   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
    "instances": 0,
    "label": "defined in Wikidata",
    "annotations": {},
@@ -26172,18 +26172,6 @@ var vowlresult={
    "iri": "http://www.wikidata.org/prop/direct/P22",
    "baseIRI": "http://www.wikidata.org/prop/direct",
    "instances": 0,
-   "label": "contains",
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 826,
-   "iri": "http://lemon-model.net/lemon#contains",
-   "baseIRI": "http://lemon-model.net/lemon",
-   "instances": 0,
    "label": "relative",
    "annotations": {},
    "range": [],
@@ -26192,9 +26180,21 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 827,
+   "id": 826,
    "iri": "http://www.wikidata.org/prop/direct/P1038",
    "baseIRI": "http://www.wikidata.org/prop/direct",
+   "instances": 0,
+   "label": "sense",
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 827,
+   "iri": "http://www.w3.org/ns/lemon/ontolex#sense",
+   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
    "instances": 0,
    "label": "part of tribe",
    "annotations": {},
@@ -26208,8 +26208,58 @@ var vowlresult={
    "iri": "http://www.wikidata.org/prop/direct/P463",
    "baseIRI": "http://www.wikidata.org/prop/direct",
    "instances": 0,
+   "label": "transliteration",
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 829,
+   "iri": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
+   "instances": 0,
+   "label": "written representation",
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 830,
+   "iri": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+   "baseIRI": "http://www.w3.org/ns/lemon/ontolex",
+   "instances": 0,
+   "label": "image",
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 831,
+   "iri": "http://www.wikidata.org/prop/direct/P18",
+   "baseIRI": "http://www.wikidata.org/prop/direct",
+   "instances": 0,
    "label": {
-    "IRI-based": "P463"
+    "IRI-based": "P18"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 832,
+   "iri": "http://www.opengis.net/ont/geosparql#asWKT",
+   "baseIRI": "http://www.opengis.net/ont/geosparql",
+   "instances": 0,
+   "label": {
+    "IRI-based": "asWKT"
    },
    "annotations": {
     "http://www.opengis.net/ont/geosparql#hasGeometry": [
@@ -26243,7 +26293,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 829,
+   "id": 833,
    "iri": "http://www.i3mainz.de/ogham#CIIC+152",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26282,7 +26332,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 830,
+   "id": 834,
    "iri": "http://www.i3mainz.de/ogham#CIIC+263",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26321,7 +26371,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 831,
+   "id": 835,
    "iri": "http://www.i3mainz.de/ogham#CIIC+151",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26360,7 +26410,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 832,
+   "id": 836,
    "iri": "http://www.i3mainz.de/ogham#CIIC+175",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26399,7 +26449,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 833,
+   "id": 837,
    "iri": "http://www.i3mainz.de/ogham#CIIC+199",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26438,7 +26488,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 834,
+   "id": 838,
    "iri": "http://www.i3mainz.de/ogham#Drummin+II",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26477,7 +26527,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 835,
+   "id": 839,
    "iri": "http://www.i3mainz.de/ogham#CIIC+154",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26516,7 +26566,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 836,
+   "id": 840,
    "iri": "http://www.i3mainz.de/ogham#CIIC+178",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26555,7 +26605,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 837,
+   "id": 841,
    "iri": "http://www.i3mainz.de/ogham#CIIC+285",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26594,7 +26644,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 838,
+   "id": 842,
    "iri": "http://www.i3mainz.de/ogham#CIIC+153",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26633,7 +26683,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 839,
+   "id": 843,
    "iri": "http://www.i3mainz.de/ogham#CIIC+197",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26664,7 +26714,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 840,
+   "id": 844,
    "iri": "http://www.i3mainz.de/ogham#Keel+West",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26703,7 +26753,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 841,
+   "id": 845,
    "iri": "http://www.i3mainz.de/ogham#CIIC+172",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26742,7 +26792,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 842,
+   "id": 846,
    "iri": "http://www.i3mainz.de/ogham#CIIC+198",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26781,7 +26831,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 843,
+   "id": 847,
    "iri": "http://www.i3mainz.de/ogham#CIIC+171",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26820,7 +26870,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 844,
+   "id": 848,
    "iri": "http://www.i3mainz.de/ogham#CIIC+195",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26859,7 +26909,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 845,
+   "id": 849,
    "iri": "http://www.i3mainz.de/ogham#CIIC+280",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26890,7 +26940,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 846,
+   "id": 850,
    "iri": "http://www.i3mainz.de/ogham#CIIC+80",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26929,7 +26979,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 847,
+   "id": 851,
    "iri": "http://www.i3mainz.de/ogham#CIIC+150",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -26968,7 +27018,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 848,
+   "id": 852,
    "iri": "http://www.i3mainz.de/ogham#CIIC+196",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27007,7 +27057,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 849,
+   "id": 853,
    "iri": "http://www.i3mainz.de/ogham#Shankill",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27046,7 +27096,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 850,
+   "id": 854,
    "iri": "http://www.i3mainz.de/ogham#CIIC+281",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27077,7 +27127,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 851,
+   "id": 855,
    "iri": "http://www.i3mainz.de/ogham#CIIC+173",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27116,7 +27166,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 852,
+   "id": 856,
    "iri": "http://www.i3mainz.de/ogham#CIIC+193",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27147,7 +27197,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 853,
+   "id": 857,
    "iri": "http://www.i3mainz.de/ogham#Scattery+Island",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27186,7 +27236,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 854,
+   "id": 858,
    "iri": "http://www.i3mainz.de/ogham#CIIC+191",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27225,7 +27275,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 855,
+   "id": 859,
    "iri": "http://www.i3mainz.de/ogham#CIIC+170",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27264,7 +27314,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 856,
+   "id": 860,
    "iri": "http://www.i3mainz.de/ogham#CIIC+192",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27303,7 +27353,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 857,
+   "id": 861,
    "iri": "http://www.i3mainz.de/ogham#CIIC+190",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27342,7 +27392,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 858,
+   "id": 862,
    "iri": "http://www.i3mainz.de/ogham#CIIC+40",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27381,7 +27431,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 859,
+   "id": 863,
    "iri": "http://www.i3mainz.de/ogham#CIIC+66",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27412,7 +27462,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 860,
+   "id": 864,
    "iri": "http://www.i3mainz.de/ogham#Tullaherin+II",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27451,7 +27501,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 861,
+   "id": 865,
    "iri": "http://www.i3mainz.de/ogham#CIIC+20",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27490,7 +27540,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 862,
+   "id": 866,
    "iri": "http://www.i3mainz.de/ogham#CIIC+5",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27529,7 +27579,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 863,
+   "id": 867,
    "iri": "http://www.i3mainz.de/ogham#CIIC+217",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27568,7 +27618,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 864,
+   "id": 868,
    "iri": "http://www.i3mainz.de/ogham#Churchclara+II",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27607,7 +27657,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 865,
+   "id": 869,
    "iri": "http://www.i3mainz.de/ogham#CIIC+4",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27646,7 +27696,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 866,
+   "id": 870,
    "iri": "http://www.i3mainz.de/ogham#CIIC+69",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27685,7 +27735,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 867,
+   "id": 871,
    "iri": "http://www.i3mainz.de/ogham#CIIC+218",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27716,7 +27766,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 868,
+   "id": 872,
    "iri": "http://www.i3mainz.de/ogham#CIIC+22",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27755,7 +27805,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 869,
+   "id": 873,
    "iri": "http://www.i3mainz.de/ogham#CIIC+46",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27794,7 +27844,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 870,
+   "id": 874,
    "iri": "http://www.i3mainz.de/ogham#CIIC+215",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27833,7 +27883,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 871,
+   "id": 875,
    "iri": "http://www.i3mainz.de/ogham#CIIC+300",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27864,7 +27914,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 872,
+   "id": 876,
    "iri": "http://www.i3mainz.de/ogham#CIIC+23",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27903,7 +27953,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 873,
+   "id": 877,
    "iri": "http://www.i3mainz.de/ogham#CIIC+47",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27942,7 +27992,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 874,
+   "id": 878,
    "iri": "http://www.i3mainz.de/ogham#CIIC+216",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -27973,7 +28023,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 875,
+   "id": 879,
    "iri": "http://www.i3mainz.de/ogham#CIIC+212",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28004,7 +28054,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 876,
+   "id": 880,
    "iri": "http://www.i3mainz.de/ogham#Rathkenny+IV",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28043,7 +28093,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 877,
+   "id": 881,
    "iri": "http://www.i3mainz.de/ogham#CIIC+48",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28074,7 +28124,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 878,
+   "id": 882,
    "iri": "http://www.i3mainz.de/ogham#CIIC+213",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28105,7 +28155,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 879,
+   "id": 883,
    "iri": "http://www.i3mainz.de/ogham#CIIC+25",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28136,7 +28186,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 880,
+   "id": 884,
    "iri": "http://www.i3mainz.de/ogham#CIIC+49",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28167,7 +28217,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 881,
+   "id": 885,
    "iri": "http://www.i3mainz.de/ogham#CIIC+210",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28198,7 +28248,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 882,
+   "id": 886,
    "iri": "http://www.i3mainz.de/ogham#CIIC+246b",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28237,7 +28287,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 883,
+   "id": 887,
    "iri": "http://www.i3mainz.de/ogham#CIIC+26",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28276,7 +28326,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 884,
+   "id": 888,
    "iri": "http://www.i3mainz.de/ogham#CIIC+100",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28315,7 +28365,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 885,
+   "id": 889,
    "iri": "http://www.i3mainz.de/ogham#CIIC+211",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28354,7 +28404,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 886,
+   "id": 890,
    "iri": "http://www.i3mainz.de/ogham#CIIC+147",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28393,7 +28443,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 887,
+   "id": 891,
    "iri": "http://www.i3mainz.de/ogham#CIIC+256",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28424,7 +28474,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 888,
+   "id": 892,
    "iri": "http://www.i3mainz.de/ogham#Kilgrovan+VI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28463,7 +28513,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 889,
+   "id": 893,
    "iri": "http://www.i3mainz.de/ogham#CIIC+28",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28494,7 +28544,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 890,
+   "id": 894,
    "iri": "http://www.i3mainz.de/ogham#CIIC+102",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28525,7 +28575,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 891,
+   "id": 895,
    "iri": "http://www.i3mainz.de/ogham#CIIC+246a",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28564,7 +28614,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 892,
+   "id": 896,
    "iri": "http://www.i3mainz.de/ogham#CIIC+101",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28603,7 +28653,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 893,
+   "id": 897,
    "iri": "http://www.i3mainz.de/ogham#CIIC+278",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28642,7 +28692,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 894,
+   "id": 898,
    "iri": "http://www.i3mainz.de/ogham#CIIC+230",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28681,7 +28731,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 895,
+   "id": 899,
    "iri": "http://www.i3mainz.de/ogham#Knockmahon+II",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28720,7 +28770,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 896,
+   "id": 900,
    "iri": "http://www.i3mainz.de/ogham#CIIC+120",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28759,7 +28809,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 897,
+   "id": 901,
    "iri": "http://www.i3mainz.de/ogham#CIIC+279",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28798,7 +28848,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 898,
+   "id": 902,
    "iri": "http://www.i3mainz.de/ogham#CIIC+255",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28837,7 +28887,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 899,
+   "id": 903,
    "iri": "http://www.i3mainz.de/ogham#CIIC+276",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28876,7 +28926,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 900,
+   "id": 904,
    "iri": "http://www.i3mainz.de/ogham#CIIC+252",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28915,7 +28965,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 901,
+   "id": 905,
    "iri": "http://www.i3mainz.de/ogham#CIIC+146",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28954,7 +29004,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 902,
+   "id": 906,
    "iri": "http://www.i3mainz.de/ogham#CIIC+277",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -28993,7 +29043,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 903,
+   "id": 907,
    "iri": "http://www.i3mainz.de/ogham#CIIC+253",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29032,7 +29082,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 904,
+   "id": 908,
    "iri": "http://www.i3mainz.de/ogham#CIIC+145",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29071,7 +29121,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 905,
+   "id": 909,
    "iri": "http://www.i3mainz.de/ogham#CIIC+298",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29110,7 +29160,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 906,
+   "id": 910,
    "iri": "http://www.i3mainz.de/ogham#CIIC+274",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29149,7 +29199,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 907,
+   "id": 911,
    "iri": "http://www.i3mainz.de/ogham#CIIC+1083",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29188,7 +29238,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 908,
+   "id": 912,
    "iri": "http://www.i3mainz.de/ogham#CIIC+188",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29227,7 +29277,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 909,
+   "id": 913,
    "iri": "http://www.i3mainz.de/ogham#CIIC+299",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29266,7 +29316,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 910,
+   "id": 914,
    "iri": "http://www.i3mainz.de/ogham#CIIC+275",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29305,7 +29355,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 911,
+   "id": 915,
    "iri": "http://www.i3mainz.de/ogham#CIIC+163",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29344,7 +29394,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 912,
+   "id": 916,
    "iri": "http://www.i3mainz.de/ogham#CIIC+187",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29383,7 +29433,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 913,
+   "id": 917,
    "iri": "http://www.i3mainz.de/ogham#CIIC+296",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29422,7 +29472,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 914,
+   "id": 918,
    "iri": "http://www.i3mainz.de/ogham#CIIC+272",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29453,7 +29503,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 915,
+   "id": 919,
    "iri": "http://www.i3mainz.de/ogham#CIIC+142",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29492,7 +29542,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 916,
+   "id": 920,
    "iri": "http://www.i3mainz.de/ogham#CIIC+166",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29531,7 +29581,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 917,
+   "id": 921,
    "iri": "http://www.i3mainz.de/ogham#CIIC+297",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29570,7 +29620,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 918,
+   "id": 922,
    "iri": "http://www.i3mainz.de/ogham#CIIC+273",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29601,7 +29651,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 919,
+   "id": 923,
    "iri": "http://www.i3mainz.de/ogham#CIIC+1084",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29640,7 +29690,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 920,
+   "id": 924,
    "iri": "http://www.i3mainz.de/ogham#CIIC+141",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29679,7 +29729,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 921,
+   "id": 925,
    "iri": "http://www.i3mainz.de/ogham#CIIC+189",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29718,7 +29768,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 922,
+   "id": 926,
    "iri": "http://www.i3mainz.de/ogham#CIIC+294",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29757,7 +29807,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 923,
+   "id": 927,
    "iri": "http://www.i3mainz.de/ogham#CIIC+160",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29796,7 +29846,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 924,
+   "id": 928,
    "iri": "http://www.i3mainz.de/ogham#CIIC+295",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29835,7 +29885,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 925,
+   "id": 929,
    "iri": "http://www.i3mainz.de/ogham#Ratass",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29874,7 +29924,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 926,
+   "id": 930,
    "iri": "http://www.i3mainz.de/ogham#Bunkilla",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29905,7 +29955,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 927,
+   "id": 931,
    "iri": "http://www.i3mainz.de/ogham#Ardfert+II",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29944,7 +29994,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 928,
+   "id": 932,
    "iri": "http://www.i3mainz.de/ogham#CIIC+292",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -29983,7 +30033,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 929,
+   "id": 933,
    "iri": "http://www.i3mainz.de/ogham#CIIC+162",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30014,7 +30064,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 930,
+   "id": 934,
    "iri": "http://www.i3mainz.de/ogham#CIIC+186",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30053,7 +30103,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 931,
+   "id": 935,
    "iri": "http://www.i3mainz.de/ogham#Church+Island",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30084,7 +30134,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 932,
+   "id": 936,
    "iri": "http://www.i3mainz.de/ogham#CIIC+293",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30115,7 +30165,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 933,
+   "id": 937,
    "iri": "http://www.i3mainz.de/ogham#Kilgrovan+VII",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30154,7 +30204,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 934,
+   "id": 938,
    "iri": "http://www.i3mainz.de/ogham#CIIC+161",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30193,7 +30243,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 935,
+   "id": 939,
    "iri": "http://www.i3mainz.de/ogham#CIIC+185",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30232,7 +30282,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 936,
+   "id": 940,
    "iri": "http://www.i3mainz.de/ogham#CIIC+70",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30271,7 +30321,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 937,
+   "id": 941,
    "iri": "http://www.i3mainz.de/ogham#CIIC+180",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30310,7 +30360,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 938,
+   "id": 942,
    "iri": "http://www.i3mainz.de/ogham#CIIC+71",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30349,7 +30399,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 939,
+   "id": 943,
    "iri": "http://www.i3mainz.de/ogham#Ballybarrack",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30388,7 +30438,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 940,
+   "id": 944,
    "iri": "http://www.i3mainz.de/ogham#CIIC+181",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30427,7 +30477,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 941,
+   "id": 945,
    "iri": "http://www.i3mainz.de/ogham#CIIC+97",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30466,7 +30516,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 942,
+   "id": 946,
    "iri": "http://www.i3mainz.de/ogham#CIIC+50",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30505,7 +30555,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 943,
+   "id": 947,
    "iri": "http://www.i3mainz.de/ogham#CIIC+98",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30544,7 +30594,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 944,
+   "id": 948,
    "iri": "http://www.i3mainz.de/ogham#CIIC+51",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30583,7 +30633,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 945,
+   "id": 949,
    "iri": "http://www.i3mainz.de/ogham#Knockmahon+I",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30614,7 +30664,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 946,
+   "id": 950,
    "iri": "http://www.i3mainz.de/ogham#CIIC+99",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30653,7 +30703,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 947,
+   "id": 951,
    "iri": "http://www.i3mainz.de/ogham#Coumlanders",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30692,7 +30742,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 948,
+   "id": 952,
    "iri": "http://www.i3mainz.de/ogham#CIIC+209",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30731,7 +30781,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 949,
+   "id": 953,
    "iri": "http://www.i3mainz.de/ogham#Cloghabrody",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30770,7 +30820,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 950,
+   "id": 954,
    "iri": "http://www.i3mainz.de/ogham#CIIC+207",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30809,7 +30859,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 951,
+   "id": 955,
    "iri": "http://www.i3mainz.de/ogham#CIIC+31",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30840,7 +30890,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 952,
+   "id": 956,
    "iri": "http://www.i3mainz.de/ogham#CIIC+79",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30871,7 +30921,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 953,
+   "id": 957,
    "iri": "http://www.i3mainz.de/ogham#CIIC+208",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30910,7 +30960,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 954,
+   "id": 958,
    "iri": "http://www.i3mainz.de/ogham#CIIC+32",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30949,7 +30999,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 955,
+   "id": 959,
    "iri": "http://www.i3mainz.de/ogham#CIIC+205",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -30988,7 +31038,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 956,
+   "id": 960,
    "iri": "http://www.i3mainz.de/ogham#CIIC+57",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31027,7 +31077,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 957,
+   "id": 961,
    "iri": "http://www.i3mainz.de/ogham#CIIC+206",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31066,7 +31116,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 958,
+   "id": 962,
    "iri": "http://www.i3mainz.de/ogham#CIIC+202",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31105,7 +31155,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 959,
+   "id": 963,
    "iri": "http://www.i3mainz.de/ogham#CIIC+10",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31144,7 +31194,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 960,
+   "id": 964,
    "iri": "http://www.i3mainz.de/ogham#CIIC+34",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31183,7 +31233,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 961,
+   "id": 965,
    "iri": "http://www.i3mainz.de/ogham#CIIC+58",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31222,7 +31272,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 962,
+   "id": 966,
    "iri": "http://www.i3mainz.de/ogham#CIIC+203",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31261,7 +31311,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 963,
+   "id": 967,
    "iri": "http://www.i3mainz.de/ogham#CIIC+11",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31292,7 +31342,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 964,
+   "id": 968,
    "iri": "http://www.i3mainz.de/ogham#CIIC+35",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31331,7 +31381,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 965,
+   "id": 969,
    "iri": "http://www.i3mainz.de/ogham#CIIC+119",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31370,7 +31420,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 966,
+   "id": 970,
    "iri": "http://www.i3mainz.de/ogham#CIIC+200",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31409,7 +31459,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 967,
+   "id": 971,
    "iri": "http://www.i3mainz.de/ogham#CIIC+12",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31448,7 +31498,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 968,
+   "id": 972,
    "iri": "http://www.i3mainz.de/ogham#CIIC+36",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31487,7 +31537,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 969,
+   "id": 973,
    "iri": "http://www.i3mainz.de/ogham#CIIC+118",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31518,7 +31568,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 970,
+   "id": 974,
    "iri": "http://www.i3mainz.de/ogham#CIIC+201",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31549,7 +31599,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 971,
+   "id": 975,
    "iri": "http://www.i3mainz.de/ogham#CIIC+13",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31588,7 +31638,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 972,
+   "id": 976,
    "iri": "http://www.i3mainz.de/ogham#CIIC+37",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31627,7 +31677,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 973,
+   "id": 977,
    "iri": "http://www.i3mainz.de/ogham#CIIC+38",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31658,7 +31708,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 974,
+   "id": 978,
    "iri": "http://www.i3mainz.de/ogham#CIIC+136",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31697,7 +31747,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 975,
+   "id": 979,
    "iri": "http://www.i3mainz.de/ogham#CIIC+223",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31728,7 +31778,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 976,
+   "id": 980,
    "iri": "http://www.i3mainz.de/ogham#CIIC+15",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31767,7 +31817,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 977,
+   "id": 981,
    "iri": "http://www.i3mainz.de/ogham#CIIC+159",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31806,7 +31856,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 978,
+   "id": 982,
    "iri": "http://www.i3mainz.de/ogham#CIIC+268",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31845,7 +31895,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 979,
+   "id": 983,
    "iri": "http://www.i3mainz.de/ogham#CIIC+220",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31884,7 +31934,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 980,
+   "id": 984,
    "iri": "http://www.i3mainz.de/ogham#CIIC+16",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31915,7 +31965,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 981,
+   "id": 985,
    "iri": "http://www.i3mainz.de/ogham#CIIC+17",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31954,7 +32004,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 982,
+   "id": 986,
    "iri": "http://www.i3mainz.de/ogham#CIIC+266",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -31993,7 +32043,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 983,
+   "id": 987,
    "iri": "http://www.i3mainz.de/ogham#CIIC+242",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -32032,7 +32082,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 984,
+   "id": 988,
    "iri": "http://www.i3mainz.de/ogham#CIIC+156",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -32071,7 +32121,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 985,
+   "id": 989,
    "iri": "http://www.i3mainz.de/ogham#CIIC+267",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -32110,7 +32160,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 986,
+   "id": 990,
    "iri": "http://www.i3mainz.de/ogham#CIIC+155",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -32149,7 +32199,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 987,
+   "id": 991,
    "iri": "http://www.i3mainz.de/ogham#CIIC+19",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -32180,7 +32230,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 988,
+   "id": 992,
    "iri": "http://www.i3mainz.de/ogham#CIIC+264",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -32219,7 +32269,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 989,
+   "id": 993,
    "iri": "http://www.i3mainz.de/ogham#CIIC+158",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -32258,7 +32308,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 990,
+   "id": 994,
    "iri": "http://www.i3mainz.de/ogham#CIIC+265",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -32297,7 +32347,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 991,
+   "id": 995,
    "iri": "http://www.i3mainz.de/ogham#CIIC+241",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -32336,44 +32386,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 992,
+   "id": 996,
    "iri": "http://www.i3mainz.de/ogham#CIIC+157",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Person: TOICACI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1691_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#TOICACI_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "TOICACI",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u1689\u1691\u1694\u168a\u1690\u168a\u1694",
-      "type": "label"
-     }
-    ],
     "http://www.i3mainz.de/ogham#hasMember": [
      {
       "identifier": "http://www.i3mainz.de/ogham#hasMember",
@@ -32381,217 +32399,37 @@ var vowlresult={
       "value": "http://www.i3mainz.de/ogham#MAQI-TTAL_person",
       "type": "iri"
      }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 993,
-   "iri": "http://www.i3mainz.de/ogham#TOICACI",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": "Word: ISAMMNN? (\u1694\u1685\u1690\u168b\u168b\u1686\u1686)",
-   "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1685_character",
+      "value": "http://www.i3mainz.de/ogham#\u1691_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#ISAMMNN%3F_sense",
+      "value": "http://www.i3mainz.de/ogham#TOICACI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
-      "value": "ISAMMNN?",
+      "value": "TOICACI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
-      "value": "\u1694\u1685\u1690\u168b\u168b\u1686\u1686",
+      "value": "\u1689\u1691\u1694\u168a\u1690\u168a\u1694",
       "type": "label"
-     }
-    ],
-    "http://www.i3mainz.de/ogham#hasMember": [
-     {
-      "identifier": "http://www.i3mainz.de/ogham#hasMember",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#COMMAGGAGNI_person",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 994,
-   "iri": "http://www.i3mainz.de/ogham#ISAMMNN%3F",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": "Word: GRAVICAS (\u168c\u168f\u1690\u1684\u1694\u168a\u1690\u1685)",
-   "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1684_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#GRAVICAS_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "GRAVICAS",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u168c\u168f\u1690\u1684\u1694\u168a\u1690\u1685",
-      "type": "label"
-     }
-    ],
-    "http://www.i3mainz.de/ogham#hasMember": [
-     {
-      "identifier": "http://www.i3mainz.de/ogham#hasMember",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#GRAVICAS_person",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 995,
-   "iri": "http://www.i3mainz.de/ogham#GRAVICAS",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": "Word: COSCIS/N (\u168a\u1691\u1685\u168a\u1694\u1685\u1686)",
-   "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1685_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#COSCIS%2FN_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "COSCIS/N",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u168a\u1691\u1685\u168a\u1694\u1685\u1686",
-      "type": "label"
-     }
-    ],
-    "http://www.i3mainz.de/ogham#hasMember": [
-     {
-      "identifier": "http://www.i3mainz.de/ogham#hasMember",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#MAQI-CUNALIG..._person",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 996,
-   "iri": "http://www.i3mainz.de/ogham#COSCIS%2FN",
-   "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": "Person: LUGA",
-   "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1682_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#LUGA_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "LUGA",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u1682\u1692\u168c\u1690",
-      "type": "label"
-     }
-    ],
-    "http://www.i3mainz.de/ogham#hasMember": [
-     {
-      "identifier": "http://www.i3mainz.de/ogham#hasMember",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#COLLABOT_person",
-      "type": "iri"
      }
     ]
    },
@@ -32602,49 +32440,49 @@ var vowlresult={
   },
   {
    "id": 997,
-   "iri": "http://www.i3mainz.de/ogham#LUGA",
+   "iri": "http://www.i3mainz.de/ogham#TOICACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: ATAR",
+   "label": "Word: ISAMMNN? (\u1694\u1685\u1690\u168b\u168b\u1686\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u168f_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#ATAR_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "ATAR",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u1690\u1689\u1690\u168f",
-      "type": "label"
-     }
-    ],
     "http://www.i3mainz.de/ogham#hasMember": [
      {
       "identifier": "http://www.i3mainz.de/ogham#hasMember",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#BIVAIDONAS_person",
+      "value": "http://www.i3mainz.de/ogham#COMMAGGAGNI_person",
       "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1685_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#ISAMMNN%3F_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "ISAMMNN?",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u1694\u1685\u1690\u168b\u168b\u1686\u1686",
+      "type": "label"
      }
     ]
    },
@@ -32655,49 +32493,49 @@ var vowlresult={
   },
   {
    "id": 998,
-   "iri": "http://www.i3mainz.de/ogham#ATAR",
+   "iri": "http://www.i3mainz.de/ogham#ISAMMNN%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: UDDAMI",
+   "label": "Word: GRAVICAS (\u168c\u168f\u1690\u1684\u1694\u168a\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1688_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#UDDAMI_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "UDDAMI",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u1692\u1688\u1688\u1690\u168b\u1694",
-      "type": "label"
-     }
-    ],
     "http://www.i3mainz.de/ogham#hasMember": [
      {
       "identifier": "http://www.i3mainz.de/ogham#hasMember",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#NOCATI_person",
+      "value": "http://www.i3mainz.de/ogham#GRAVICAS_person",
       "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1685_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#GRAVICAS_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "GRAVICAS",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u168c\u168f\u1690\u1684\u1694\u168a\u1690\u1685",
+      "type": "label"
      }
     ]
    },
@@ -32708,49 +32546,49 @@ var vowlresult={
   },
   {
    "id": 999,
-   "iri": "http://www.i3mainz.de/ogham#UDDAMI",
+   "iri": "http://www.i3mainz.de/ogham#GRAVICAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: LOGIDEAS (\u1682\u1691\u168c\u1694\u1688\u1693\u1690\u1685)",
+   "label": "Word: COSCIS/N (\u168a\u1691\u1685\u168a\u1694\u1685\u1686)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.i3mainz.de/ogham#hasMember": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.i3mainz.de/ogham#hasMember",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#MAQI-CUNALIG..._person",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#LOGIDEAS_sense",
+      "value": "http://www.i3mainz.de/ogham#COSCIS%2FN_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
-      "value": "LOGIDEAS",
+      "value": "COSCIS/N",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
-      "value": "\u1682\u1691\u168c\u1694\u1688\u1693\u1690\u1685",
+      "value": "\u168a\u1691\u1685\u168a\u1694\u1685\u1686",
       "type": "label"
-     }
-    ],
-    "http://www.i3mainz.de/ogham#hasMember": [
-     {
-      "identifier": "http://www.i3mainz.de/ogham#hasMember",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#VEDELMETO_person",
-      "type": "iri"
      }
     ]
    },
@@ -32761,49 +32599,49 @@ var vowlresult={
   },
   {
    "id": 1000,
-   "iri": "http://www.i3mainz.de/ogham#LOGIDEAS",
+   "iri": "http://www.i3mainz.de/ogham#COSCIS%2FN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MEDALO",
+   "label": "Person: LUGA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1688_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#MEDALO_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "MEDALO",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u168b\u1693\u1688\u1690\u1682\u1691",
-      "type": "label"
-     }
-    ],
     "http://www.i3mainz.de/ogham#hasMember": [
      {
       "identifier": "http://www.i3mainz.de/ogham#hasMember",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#DENAVECA_person",
+      "value": "http://www.i3mainz.de/ogham#COLLABOT_person",
       "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1682_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#LUGA_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "LUGA",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u1682\u1692\u168c\u1690",
+      "type": "label"
      }
     ]
    },
@@ -32814,49 +32652,49 @@ var vowlresult={
   },
   {
    "id": 1001,
-   "iri": "http://www.i3mainz.de/ogham#MEDALO",
+   "iri": "http://www.i3mainz.de/ogham#LUGA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: GLUNLEGGET",
+   "label": "Person: ATAR",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1686_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#GLUNLEGGET_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "GLUNLEGGET",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u168c\u1682\u1692\u1686\u1682\u1693\u168c\u168c\u1693\u1689",
-      "type": "label"
-     }
-    ],
     "http://www.i3mainz.de/ogham#hasMember": [
      {
       "identifier": "http://www.i3mainz.de/ogham#hasMember",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#VEQREQ_person",
+      "value": "http://www.i3mainz.de/ogham#BIVAIDONAS_person",
       "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u168f_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#ATAR_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "ATAR",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u1690\u1689\u1690\u168f",
+      "type": "label"
      }
     ]
    },
@@ -32867,49 +32705,49 @@ var vowlresult={
   },
   {
    "id": 1002,
-   "iri": "http://www.i3mainz.de/ogham#GLUNLEGGET",
+   "iri": "http://www.i3mainz.de/ogham#ATAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: RINI",
+   "label": "Person: UDDAMI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1686_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#RINI_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "RINI",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u168f\u1694\u1686\u1694",
-      "type": "label"
-     }
-    ],
     "http://www.i3mainz.de/ogham#hasMember": [
      {
       "identifier": "http://www.i3mainz.de/ogham#hasMember",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#LOBBI_person",
+      "value": "http://www.i3mainz.de/ogham#NOCATI_person",
       "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1688_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#UDDAMI_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "UDDAMI",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u1692\u1688\u1688\u1690\u168b\u1694",
+      "type": "label"
      }
     ]
    },
@@ -32920,49 +32758,49 @@ var vowlresult={
   },
   {
    "id": 1003,
-   "iri": "http://www.i3mainz.de/ogham#RINI",
+   "iri": "http://www.i3mainz.de/ogham#UDDAMI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: BROENIONAS? (\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685)",
+   "label": "Word: LOGIDEAS (\u1682\u1691\u168c\u1694\u1688\u1693\u1690\u1685)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.i3mainz.de/ogham#hasMember": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.i3mainz.de/ogham#hasMember",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#VEDELMETO_person",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#BROENIONAS%3F_sense",
+      "value": "http://www.i3mainz.de/ogham#LOGIDEAS_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
-      "value": "BROENIONAS?",
+      "value": "LOGIDEAS",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
-      "value": "\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685",
+      "value": "\u1682\u1691\u168c\u1694\u1688\u1693\u1690\u1685",
       "type": "label"
-     }
-    ],
-    "http://www.i3mainz.de/ogham#hasMember": [
-     {
-      "identifier": "http://www.i3mainz.de/ogham#hasMember",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#QECCIAS%3F_person",
-      "type": "iri"
      }
     ]
    },
@@ -32973,49 +32811,49 @@ var vowlresult={
   },
   {
    "id": 1004,
-   "iri": "http://www.i3mainz.de/ogham#BROENIONAS%3F",
+   "iri": "http://www.i3mainz.de/ogham#LOGIDEAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: NETA-SEGAMONAS",
+   "label": "Person: MEDALO",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1685_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "NETA-SEGAMONAS",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u1686\u1693\u1689\u1690\u1685\u1693\u168c\u1690\u168b\u1691\u1686\u1690\u1685",
-      "type": "label"
-     }
-    ],
     "http://www.i3mainz.de/ogham#hasMember": [
      {
       "identifier": "http://www.i3mainz.de/ogham#hasMember",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#...ERATI_person",
+      "value": "http://www.i3mainz.de/ogham#DENAVECA_person",
       "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1688_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#MEDALO_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "MEDALO",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u168b\u1693\u1688\u1690\u1682\u1691",
+      "type": "label"
      }
     ]
    },
@@ -33026,49 +32864,49 @@ var vowlresult={
   },
   {
    "id": 1005,
-   "iri": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS",
+   "iri": "http://www.i3mainz.de/ogham#MEDALO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MACORBO",
+   "label": "Person: GLUNLEGGET",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
-     {
-      "identifier": "http://lemon-model.net/lemon#contains",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#\u1681_character",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#sense": [
-     {
-      "identifier": "http://lemon-model.net/lemon#sense",
-      "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#MACORBO_sense",
-      "type": "iri"
-     }
-    ],
-    "http://lemon-model.net/lemon#transliteration": [
-     {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
-      "language": "undefined",
-      "value": "MACORBO",
-      "type": "label"
-     }
-    ],
-    "http://lemon-model.net/lemon#writtenRep": [
-     {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
-      "language": "undefined",
-      "value": "\u168b\u1690\u168a\u1691\u168f\u1681\u1691",
-      "type": "label"
-     }
-    ],
     "http://www.i3mainz.de/ogham#hasMember": [
      {
       "identifier": "http://www.i3mainz.de/ogham#hasMember",
       "language": "undefined",
-      "value": "http://www.i3mainz.de/ogham#GATI_person",
+      "value": "http://www.i3mainz.de/ogham#VEQREQ_person",
       "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1686_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#GLUNLEGGET_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "GLUNLEGGET",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u168c\u1682\u1692\u1686\u1682\u1693\u168c\u168c\u1693\u1689",
+      "type": "label"
      }
     ]
    },
@@ -33079,6 +32917,218 @@ var vowlresult={
   },
   {
    "id": 1006,
+   "iri": "http://www.i3mainz.de/ogham#GLUNLEGGET",
+   "baseIRI": "http://www.i3mainz.de/ogham",
+   "instances": 0,
+   "label": "Person: RINI",
+   "annotations": {
+    "http://www.i3mainz.de/ogham#hasMember": [
+     {
+      "identifier": "http://www.i3mainz.de/ogham#hasMember",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#LOBBI_person",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1686_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#RINI_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "RINI",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u168f\u1694\u1686\u1694",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1007,
+   "iri": "http://www.i3mainz.de/ogham#RINI",
+   "baseIRI": "http://www.i3mainz.de/ogham",
+   "instances": 0,
+   "label": "Word: BROENIONAS? (\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685)",
+   "annotations": {
+    "http://www.i3mainz.de/ogham#hasMember": [
+     {
+      "identifier": "http://www.i3mainz.de/ogham#hasMember",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#QECCIAS%3F_person",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1685_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#BROENIONAS%3F_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "BROENIONAS?",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1008,
+   "iri": "http://www.i3mainz.de/ogham#BROENIONAS%3F",
+   "baseIRI": "http://www.i3mainz.de/ogham",
+   "instances": 0,
+   "label": "Person: NETA-SEGAMONAS",
+   "annotations": {
+    "http://www.i3mainz.de/ogham#hasMember": [
+     {
+      "identifier": "http://www.i3mainz.de/ogham#hasMember",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#...ERATI_person",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1685_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "NETA-SEGAMONAS",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u1686\u1693\u1689\u1690\u1685\u1693\u168c\u1690\u168b\u1691\u1686\u1690\u1685",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1009,
+   "iri": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS",
+   "baseIRI": "http://www.i3mainz.de/ogham",
+   "instances": 0,
+   "label": "Person: MACORBO",
+   "annotations": {
+    "http://www.i3mainz.de/ogham#hasMember": [
+     {
+      "identifier": "http://www.i3mainz.de/ogham#hasMember",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#GATI_person",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#\u1681_character",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
+      "language": "undefined",
+      "value": "http://www.i3mainz.de/ogham#MACORBO_sense",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
+      "language": "undefined",
+      "value": "MACORBO",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+     {
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
+      "language": "undefined",
+      "value": "\u168b\u1690\u168a\u1691\u168f\u1681\u1691",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1010,
    "iri": "http://www.i3mainz.de/ogham#MACORBO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33092,7 +33142,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1028,
+   "id": 1032,
    "iri": "http://www.i3mainz.de/ogham#\u1693_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33106,7 +33156,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1029,
+   "id": 1033,
    "iri": "http://www.i3mainz.de/ogham#\u168c_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33120,7 +33170,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1030,
+   "id": 1034,
    "iri": "http://www.i3mainz.de/ogham#\u1682_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33134,7 +33184,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1031,
+   "id": 1035,
    "iri": "http://www.i3mainz.de/ogham#\u168f_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33148,7 +33198,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1032,
+   "id": 1036,
    "iri": "http://www.i3mainz.de/ogham#\u1688_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33162,7 +33212,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1033,
+   "id": 1037,
    "iri": "http://www.i3mainz.de/ogham#\u1690_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33176,7 +33226,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1034,
+   "id": 1038,
    "iri": "http://www.i3mainz.de/ogham#\u1685_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33190,7 +33240,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1035,
+   "id": 1039,
    "iri": "http://www.i3mainz.de/ogham#\u1684_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33204,7 +33254,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1036,
+   "id": 1040,
    "iri": "http://www.i3mainz.de/ogham#\u168a_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33218,7 +33268,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1037,
+   "id": 1041,
    "iri": "http://www.i3mainz.de/ogham#\u168b_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33232,7 +33282,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1038,
+   "id": 1042,
    "iri": "http://www.i3mainz.de/ogham#\u1692_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33246,7 +33296,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1039,
+   "id": 1043,
    "iri": "http://www.i3mainz.de/ogham#\u1687_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33260,7 +33310,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1040,
+   "id": 1044,
    "iri": "http://www.i3mainz.de/ogham#\u1681_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33274,7 +33324,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1041,
+   "id": 1045,
    "iri": "http://www.i3mainz.de/ogham#\u1686_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33288,7 +33338,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1042,
+   "id": 1046,
    "iri": "http://www.i3mainz.de/ogham#\u1691_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33302,7 +33352,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1043,
+   "id": 1047,
    "iri": "http://www.i3mainz.de/ogham#\u1689_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33316,23 +33366,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1044,
+   "id": 1048,
    "iri": "http://www.i3mainz.de/ogham#\u1694_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1693",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "E",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693",
       "type": "label"
@@ -33345,23 +33395,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1045,
+   "id": 1049,
    "iri": "http://www.i3mainz.de/ogham#\u1693_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u168c",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "G",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168c",
       "type": "label"
@@ -33374,23 +33424,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1046,
+   "id": 1050,
    "iri": "http://www.i3mainz.de/ogham#\u168c_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1682",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "L",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682",
       "type": "label"
@@ -33403,23 +33453,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1047,
+   "id": 1051,
    "iri": "http://www.i3mainz.de/ogham#\u1682_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u168f",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "R",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168f",
       "type": "label"
@@ -33432,23 +33482,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1048,
+   "id": 1052,
    "iri": "http://www.i3mainz.de/ogham#\u168f_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1688",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "D",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688",
       "type": "label"
@@ -33461,23 +33511,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1049,
+   "id": 1053,
    "iri": "http://www.i3mainz.de/ogham#\u1688_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1690",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "A",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690",
       "type": "label"
@@ -33490,23 +33540,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1050,
+   "id": 1054,
    "iri": "http://www.i3mainz.de/ogham#\u1690_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1685",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "S",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1685",
       "type": "label"
@@ -33519,23 +33569,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1051,
+   "id": 1055,
    "iri": "http://www.i3mainz.de/ogham#\u1685_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1684",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "V",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1684",
       "type": "label"
@@ -33548,23 +33598,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1052,
+   "id": 1056,
    "iri": "http://www.i3mainz.de/ogham#\u1684_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u168a",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "C",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a",
       "type": "label"
@@ -33577,23 +33627,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1053,
+   "id": 1057,
    "iri": "http://www.i3mainz.de/ogham#\u168a_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u168b",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "M",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b",
       "type": "label"
@@ -33606,23 +33656,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1054,
+   "id": 1058,
    "iri": "http://www.i3mainz.de/ogham#\u168b_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1692",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "U",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1692",
       "type": "label"
@@ -33635,23 +33685,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1055,
+   "id": 1059,
    "iri": "http://www.i3mainz.de/ogham#\u1692_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1687",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "H",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1687",
       "type": "label"
@@ -33664,23 +33714,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1056,
+   "id": 1060,
    "iri": "http://www.i3mainz.de/ogham#\u1687_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1681",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "B",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1681",
       "type": "label"
@@ -33693,23 +33743,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1057,
+   "id": 1061,
    "iri": "http://www.i3mainz.de/ogham#\u1681_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1686",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "N",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1686",
       "type": "label"
@@ -33722,23 +33772,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1058,
+   "id": 1062,
    "iri": "http://www.i3mainz.de/ogham#\u1686_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1691",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "O",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1691",
       "type": "label"
@@ -33751,23 +33801,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1059,
+   "id": 1063,
    "iri": "http://www.i3mainz.de/ogham#\u1691_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1689",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "T",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1689",
       "type": "label"
@@ -33780,23 +33830,23 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1060,
+   "id": 1064,
    "iri": "http://www.i3mainz.de/ogham#\u1689_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Character: \u1694",
    "annotations": {
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "I",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1694",
       "type": "label"
@@ -33809,31 +33859,31 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1061,
+   "id": 1065,
    "iri": "http://www.i3mainz.de/ogham#\u1694_character",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Word: MAQI (\u168b\u1690\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1694_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MAQI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1690\u1694",
       "type": "label"
@@ -33846,7 +33896,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1062,
+   "id": 1066,
    "iri": "http://www.i3mainz.de/ogham#MAQI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
@@ -33858,31 +33908,31 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1063,
+   "id": 1067,
    "iri": "http://www.wikidata.org/entity/Q67381254",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
    "label": "Word: KOI (\u1691\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1691_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "KOI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1691\u1694",
       "type": "label"
@@ -33895,31 +33945,31 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1064,
+   "id": 1068,
    "iri": "http://www.i3mainz.de/ogham#KOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Word: ANM (\u1690\u1686\u168b)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ANM",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u1686\u168b",
       "type": "label"
@@ -33932,31 +33982,31 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1065,
+   "id": 1069,
    "iri": "http://www.i3mainz.de/ogham#ANM",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Word: CELI (\u168a\u1693\u1682\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1682_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "CELI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168a\u1693\u1682\u1694",
       "type": "label"
@@ -33969,31 +34019,31 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1066,
+   "id": 1070,
    "iri": "http://www.i3mainz.de/ogham#CELI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Word: AVI (\u1690\u1684\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1684_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "AVI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1690\u1684\u1694",
       "type": "label"
@@ -34006,31 +34056,31 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1067,
+   "id": 1071,
    "iri": "http://www.i3mainz.de/ogham#AVI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
    "label": "Word: MUCOI (\u168b\u1692\u168a\u1691\u1694)",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1691_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "MUCOI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u168b\u1692\u168a\u1691\u1694",
       "type": "label"
@@ -34043,59 +34093,9 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 1068,
+   "id": 1072,
    "iri": "http://www.i3mainz.de/ogham#MUCOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
-   "instances": 0,
-   "label": "transliteration",
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1069,
-   "iri": "http://lemon-model.net/lemon#transliteration",
-   "baseIRI": "http://lemon-model.net/lemon",
-   "instances": 0,
-   "label": "image",
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1070,
-   "iri": "http://www.wikidata.org/prop/direct/P18",
-   "baseIRI": "http://www.wikidata.org/prop/direct",
-   "instances": 0,
-   "label": {
-    "IRI-based": "P18"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1071,
-   "iri": "http://www.opengis.net/ont/geosparql#asWKT",
-   "baseIRI": "http://www.opengis.net/ont/geosparql",
-   "instances": 0,
-   "label": "written representation",
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 1072,
-   "iri": "http://lemon-model.net/lemon#writtenRep",
-   "baseIRI": "http://lemon-model.net/lemon",
    "instances": 0,
    "label": "CUNA",
    "annotations": {},
@@ -34111,33 +34111,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: ERC",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1693_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ERC_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "ERC",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1693\u168f\u168a",
       "type": "label"
@@ -34168,33 +34168,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DALAGNI",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DALAGNI_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DALAGNI",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1690\u1682\u1690\u168c\u1686\u1694",
       "type": "label"
@@ -34225,33 +34225,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: DERCMASOC",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1685_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#DERCMASOC_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "DERCMASOC",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1688\u1693\u168f\u168a\u168b\u1690\u1685\u1691\u168a",
       "type": "label"
@@ -34270,9 +34270,9 @@ var vowlresult={
    "instances": 0,
    "label": "Ogham Dictionary",
    "annotations": {
-    "http://lemon-model.net/lemon#entry": [
+    "http://www.w3.org/ns/lemon/ontolex#entry": [
      {
-      "identifier": "http://lemon-model.net/lemon#entry",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#entry",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#ODR...REA",
       "type": "iri"
@@ -34291,33 +34291,33 @@ var vowlresult={
    "instances": 0,
    "label": "Person: LOBACCONA",
    "annotations": {
-    "http://lemon-model.net/lemon#contains": [
+    "http://www.w3.org/ns/lemon/ontolex#contains": [
      {
-      "identifier": "http://lemon-model.net/lemon#contains",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#contains",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#\u1686_character",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#sense": [
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
      {
-      "identifier": "http://lemon-model.net/lemon#sense",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#sense",
       "language": "undefined",
       "value": "http://www.i3mainz.de/ogham#LOBACCONA_sense",
       "type": "iri"
      }
     ],
-    "http://lemon-model.net/lemon#transliteration": [
+    "http://www.w3.org/ns/lemon/ontolex#transliteration": [
      {
-      "identifier": "http://lemon-model.net/lemon#transliteration",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#transliteration",
       "language": "undefined",
       "value": "LOBACCONA",
       "type": "label"
      }
     ],
-    "http://lemon-model.net/lemon#writtenRep": [
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
      {
-      "identifier": "http://lemon-model.net/lemon#writtenRep",
+      "identifier": "http://www.w3.org/ns/lemon/ontolex#writtenRep",
       "language": "undefined",
       "value": "\u1682\u1691\u1681\u1690\u168a\u168a\u1691\u1686\u1690",
       "type": "label"
