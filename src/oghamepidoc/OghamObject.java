@@ -41,7 +41,7 @@ public class OghamObject {
 	
 	public Set<Tuple<String,String>> tribePartOfSet=new TreeSet<Tuple<String,String>>();
 	
-	Boolean containskoi=false,containsanm=false,justoneword=false;
+	Boolean containskoi=(Boolean)false,containsanm=(Boolean)false,justoneword=(Boolean)false;
 	
 	public static final String BASEURI="http://www.i3mainz.de/ogham#";
 	

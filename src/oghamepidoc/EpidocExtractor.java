@@ -28,11 +28,11 @@ import org.xml.sax.ext.DefaultHandler2;
 
 public class EpidocExtractor extends DefaultHandler2 {
 
-	boolean geo=false,title=false,foundmaqi=false,foundmucoi=false,foundkoi=false,foundanm=false,founderc=false,foundblind=false,foundeye=false;
+	boolean geo=Boolean.FALSE,title=Boolean.FALSE,foundmaqi=Boolean.FALSE,foundmucoi=Boolean.FALSE,foundkoi=Boolean.FALSE,foundanm=Boolean.FALSE,founderc=Boolean.FALSE,foundblind=Boolean.FALSE,foundeye=Boolean.FALSE;
 	
-	Integer maqicount=0;
-    Integer mucoicount=0;
-    Integer wordcounter=0;
+	Integer maqicount= (Integer) 0;
+    Integer mucoicount= (Integer) 0;
+    Integer wordcounter= (Integer) 0;
 	
 	GeometryFactory fac=new GeometryFactory();
 	
@@ -55,7 +55,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 	}
 	
 
-	private boolean persname,photographs=true,foundnephew,founddescendant,foundfollower;
+	private Boolean persname=Boolean.FALSE,photographs=Boolean.TRUE,foundnephew=Boolean.FALSE,founddescendant=Boolean.FALSE,foundfollower=Boolean.FALSE;
 	
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
@@ -63,10 +63,10 @@ public class EpidocExtractor extends DefaultHandler2 {
 		//super.startElement(uri, localName, qName, attributes);
 		switch(qName) {
 		case "geo": 
-			geo=true;
+			geo=Boolean.TRUE;
 			break;
 		case "title": 
-			title=true;
+			title=Boolean.TRUE;
 			break;
 		case "ref": 
 			if(photographs) {
@@ -75,50 +75,51 @@ public class EpidocExtractor extends DefaultHandler2 {
 			break;
 		case "div": 
 			if(attributes.getValue("n")!=null && attributes.getValue("n").equals("photographs")) {
-				photographs=true;
+				photographs=Boolean.TRUE;
 			}
 			break;
 		case "persName": 
-			persname=true;
+			persname=Boolean.TRUE;
 			break;
 		case "w": 
 			if(attributes.getValue("lemma")!=null) {
 				result.words.add(attributes.getValue("lemma"));
 				result.text+=attributes.getValue("lemma")+" ";
 				if(wordmap.keySet().contains(attributes.getValue("lemma").toLowerCase())) {
-					wordmap.get(attributes.getValue("lemma").toLowerCase()).setTwo(wordmap.get(attributes.getValue("lemma").toLowerCase()).getTwo()+1);
+					wordmap.get(attributes.getValue("lemma").toLowerCase()).setTwo(Integer.valueOf(wordmap.get(attributes.getValue("lemma").toLowerCase()).getTwo()+1));
 				}
 				System.out.println(wordmap);
 			}
 
 			wordcounter++;
 			if(persname) {
-				result.persons.add(attributes.getValue("lemma"));
+				if(attributes.getValue("lemma")!=null)
+					result.persons.add(attributes.getValue("lemma"));
 				if(this.curfatherson.getOne()!=null && this.curfatherson.getTwo()==null && foundmaqi) {
 					this.curfatherson.setTwo(attributes.getValue("lemma"));
 					this.result.sonOfSet.add(this.curfatherson);
 					this.curfatherson=new Tuple<String,String>(null,null);
-					foundmaqi=false;
+					foundmaqi=Boolean.FALSE;
 				}else if(attributes.getValue("lemma")!=null && this.partoftribe.getOne()!=null && this.partoftribe.getTwo()==null && foundmucoi){
 					this.partoftribe.setTwo(attributes.getValue("lemma"));
 					this.result.tribePartOfSet.add(this.partoftribe);
 					this.partoftribe=new Tuple<String,String>(null,null);
-					foundmucoi=false;
+					foundmucoi=Boolean.FALSE;
 				}else if(attributes.getValue("lemma")!=null && this.partoftribe.getOne()!=null && this.partoftribe.getTwo()==null && foundfollower){
 					this.followerof.setTwo(attributes.getValue("lemma"));
 					this.result.followerOfSet.add(this.followerof);
 					this.followerof=new Tuple<String,String>(null,null);
-					foundfollower=false;
+					foundfollower=Boolean.FALSE;
 				}else if(attributes.getValue("lemma")!=null && this.partoftribe.getOne()!=null && this.partoftribe.getTwo()==null && foundnephew){
 					this.nephewof.setTwo(attributes.getValue("lemma"));
 					this.result.nephewOfSet.add(this.nephewof);
 					this.nephewof=new Tuple<String,String>(null,null);
-					foundnephew=false;
+					foundnephew=Boolean.FALSE;
 				}else if(attributes.getValue("lemma")!=null && this.partoftribe.getOne()!=null && this.partoftribe.getTwo()==null && founddescendant){
 					this.descendantof.setTwo(attributes.getValue("lemma"));
 					this.result.descendantOfSet.add(this.descendantof);
 					this.descendantof=new Tuple<String,String>(null,null);
-					founddescendant=false;
+					founddescendant=Boolean.FALSE;
 				}else {					
 					this.curfatherson=new Tuple<>(attributes.getValue("lemma"),null);
 					this.partoftribe=new Tuple<>(attributes.getValue("lemma"),null);
@@ -128,30 +129,30 @@ public class EpidocExtractor extends DefaultHandler2 {
 				}
 			}else {
 				if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("MAQI")) {
-					foundmaqi=true;
+					foundmaqi=Boolean.TRUE;
 					System.out.println("FOUND MAQI!!!!!!");
 					maqicount++;
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("MUCOI")) {
 					System.out.println("FOUND MUCOI!!!!!!");
-					foundmucoi=true;
+					foundmucoi=Boolean.TRUE;
                     mucoicount++;
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("CELI")) {
 					System.out.println("FOUND CELI!!!!!!");
-					foundfollower=true;
+					foundfollower=Boolean.TRUE;
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("NETTA")) {
 					System.out.println("FOUND NETTA!!!!!!");
-					foundnephew=true;
+					foundnephew=Boolean.TRUE;
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("AVI")) {
 					System.out.println("FOUND AVI!!!!!!");
-					founddescendant=true;
+					founddescendant=Boolean.TRUE;
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("KOI")) {
 					System.out.println("FOUND KOI!!!!!!");
-					foundkoi=true;
-					result.containskoi=true;
+					foundkoi=Boolean.TRUE;
+					result.containskoi= (Boolean) true;
 				}else if("formula".equals(attributes.getValue("type")) && attributes.getValue("lemma").equals("ANM")) {
 					System.out.println("FOUND ANM!!!!!!");
-					foundanm=true;
-					result.containsanm=true;
+					foundanm=Boolean.TRUE;
+					result.containsanm= (Boolean) true;
 				}
 			}
 			break;
@@ -178,13 +179,13 @@ public class EpidocExtractor extends DefaultHandler2 {
 		// TODO Auto-generated method stub
 		//super.endElement(uri, localName, qName);
 		switch(qName) {
-		case "geo": this.geo=false;
+		case "geo": this.geo=Boolean.FALSE;
 			break;
-		case "title": this.title=false;
+		case "title": this.title=Boolean.FALSE;
 			break;
-		case "div": this.photographs=false;
+		case "div": this.photographs=Boolean.FALSE;
 			break;
-		case "persName": this.persname=false;
+		case "persName": this.persname=Boolean.FALSE;
 			break;
 		}
 	}
@@ -193,8 +194,8 @@ public class EpidocExtractor extends DefaultHandler2 {
 		Map<String,Tuple<Word,Integer>> wordmap=WordParser.csvToWordMap("words/words.csv");
 		OntModel model=ModelFactory.createOntologyModel();
 		List<OghamObject> resultList=new LinkedList<OghamObject>();
-		Integer globalmaqicount=0;
-        Integer globalmucoicount=0;
+		Integer globalmaqicount= (Integer) 0;
+        Integer globalmucoicount= (Integer) 0;
 		for(File folder:new File("ogham3d_epidoc_files/ogham3d_epidoc_files/").listFiles()) {
 			for(File file:folder.listFiles()) {
 				EpidocExtractor extractor=new EpidocExtractor(wordmap);
@@ -204,7 +205,7 @@ public class EpidocExtractor extends DefaultHandler2 {
 				globalmaqicount+=extractor.maqicount;
                 globalmucoicount+=extractor.mucoicount;
                 if(extractor.wordcounter==1) {
-                	extractor.result.justoneword=true;
+                	extractor.result.justoneword= (Boolean) true;
                 }
 			}
 		}
@@ -216,6 +217,11 @@ public class EpidocExtractor extends DefaultHandler2 {
 		writer=new BufferedWriter(new FileWriter(new File("result.json")));
 		writer.write(listresult.toString(2));
 		writer.close();
+		File directory = new File(String.valueOf("owl"));
+
+		if (!directory.exists()) {
+			directory.mkdir();
+		}
 		
 		model.write(new FileWriter("owl/epidocresult.ttl"), "TTL") ;
 		

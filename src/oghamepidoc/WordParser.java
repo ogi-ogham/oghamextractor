@@ -37,12 +37,12 @@ public class WordParser {
 	    	Word word=new Word(lineContent[0].toLowerCase(),lineContent[3],lineContent[1],lineContent[2],lineContent[4]);
 	    	if(lineContent[0]!=null) {
 	    		System.out.println(lineContent[0]);
-	    		words.put(lineContent[0].toLowerCase(),new Tuple<Word,Integer>(word,0));
+	    		words.put(lineContent[0].toLowerCase(),new Tuple<Word,Integer>(word,Integer.valueOf(0)));
 	    	}
 	    	for(String var:variants) {
 	    		System.out.println(var);
 	    		if(!var.isEmpty())
-	    			words.put(var.toLowerCase(),new Tuple<Word,Integer>(word,0));
+	    			words.put(var.toLowerCase(),new Tuple<Word,Integer>(word,Integer.valueOf(0)));
 	    	}
 	    }
 	   return words;
