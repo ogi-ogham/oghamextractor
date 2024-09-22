@@ -8,10 +8,10 @@
 @prefix doap: <http://usefulinc.com/ns/doap#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix ns1: <http://www.w3.org/ns/lemon/lime#> .
 @prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix ns3: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns4: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns3: <http://www.wikidata.org/prop/direct/> .
+@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ns5: <http://www.i3mainz.de/ogham#> .
 @prefix ns6: <http://ldf.fi/void-ext#> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
@@ -523,7 +523,7 @@ ns5:Ogham_From_Epidoc_www.w3.org_2006_vcard_ns_ a void:Linkset,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: Ogham_From_Epidoc - Vcard Vocabulary (vcard2006:)"@en ;
     void:linkPredicate rdf:type ;
-    void:objectsTarget ns3: ;
+    void:objectsTarget ns4: ;
     void:subjectsTarget ns5:Ogham_From_Epidoc ;
     void:triples 1 .
 
@@ -533,7 +533,7 @@ ns5:Ogham_From_Epidoc_www.w3.org_ns_lemon_lime_ a void:Linkset,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: Ogham_From_Epidoc - Linguistic Metadata Ontology (lime:)"@en ;
     void:linkPredicate rdf:type ;
-    void:objectsTarget ns4: ;
+    void:objectsTarget ns1: ;
     void:subjectsTarget ns5:Ogham_From_Epidoc ;
     void:triples 1 .
 
@@ -571,13 +571,13 @@ ns5:Ogham_From_Epidoc_xmlns.com_foaf_0.1_ a void:Linkset,
     void:subjectsTarget ns5:Ogham_From_Epidoc ;
     void:triples 211 .
 
-ns5:Person_collection a ns3:Group,
+ns5:Person_collection a ns4:Group,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Person Instances Collection"@en ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns3:hasMember <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN_person>,
+    ns4:hasMember <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN_person>,
         <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_person>,
         <http://www.i3mainz.de/ogham#...ERATI_person>,
         <http://www.i3mainz.de/ogham#...LL..._person>,
@@ -1270,7 +1270,7 @@ ns5:Word_collection a skos:Collection,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Ardfert+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046030-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046030-" .
 
 ns5:Ballybarrack a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1278,8 +1278,8 @@ ns5:Ballybarrack a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry ns5:Ballybarrack_geom ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=LH007-072006-" ;
-    ns1:P6568 ns5:MAQI-CORABIR,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=LH007-072006-" ;
+    ns3:P6568 ns5:MAQI-CORABIR,
         ns5:MAQI-CORABIR_person,
         ns5:NETA-SALAGIA%3F,
         <http://www.i3mainz.de/ogham#TAN...>,
@@ -1291,8 +1291,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry ns5:Bunkilla_geom ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-074----" ;
-    ns1:P6568 ns5:BIRRAC,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-074----" ;
+    ns3:P6568 ns5:BIRRAC,
         ns5:BIRRAC_person,
         ns5:MAQQI-LASIRE%28N%29,
         ns5:MAQQI-LASIRE%28N%29_person .
@@ -1303,8 +1303,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+10.+Breastagh_geom> ;
-    ns1:P18 "#MAC1914" ;
-    ns1:P6568 ns5:AMMLLONGITT%3F,
+    ns3:P18 "#MAC1914" ;
+    ns3:P6568 ns5:AMMLLONGITT%3F,
         ns5:AMMLLONGITT%3F_person,
         ns5:CORRBRI,
         ns5:CORRBRI_person .
@@ -1315,8 +1315,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+100.+Ballyhank+IV_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067006-" ;
-    ns1:P6568 ns5:ULCCAGNI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067006-" ;
+    ns3:P6568 ns5:ULCCAGNI .
 
 <http://www.i3mainz.de/ogham#CIIC+101> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1324,8 +1324,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+101.+Ballyhank+V_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067007-" ;
-    ns1:P6568 ns5:DOMANEQI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067007-" ;
+    ns3:P6568 ns5:DOMANEQI,
         ns5:DOMANEQI_person,
         ns5:MAQI-ESEA,
         ns5:MAQI-ESEA_person .
@@ -1336,7 +1336,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+102.+Ballyhank+VI_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067008-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067008-" .
 
 <http://www.i3mainz.de/ogham#CIIC+1083> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1344,8 +1344,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+1083.+Rathkenny+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087002-" ;
-    ns1:P6568 ns5:COMMAGGAGNI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087002-" ;
+    ns3:P6568 ns5:COMMAGGAGNI,
         ns5:COMMAGGAGNI_person,
         ns5:ISAMMNN%3F .
 
@@ -1355,7 +1355,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+1084.+Rathkenny+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087005-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE021-087005-" .
 
 <http://www.i3mainz.de/ogham#CIIC+11> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1363,8 +1363,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+11.+Drummin+I_geom> ;
-    ns1:P18 "#MAC1914" ;
-    ns1:P6568 ns5:CUNOVATOS .
+    ns3:P18 "#MAC1914" ;
+    ns3:P6568 ns5:CUNOVATOS .
 
 <http://www.i3mainz.de/ogham#CIIC+118> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1372,8 +1372,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+118.+Monataggart+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022002-" ;
-    ns1:P6568 ns5:GLUNLEGGET,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022002-" ;
+    ns3:P6568 ns5:GLUNLEGGET,
         ns5:VEQREQ,
         ns5:VEQREQ_person .
 
@@ -1383,8 +1383,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+119.+Monataggart+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022003-" ;
-    ns1:P6568 ns5:DALAGNI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022003-" ;
+    ns3:P6568 ns5:DALAGNI,
         ns5:DALAGNI_person,
         ns5:DALI,
         ns5:DALI_person .
@@ -1395,8 +1395,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+12.+Rathcroghan+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057030-" ;
-    ns1:P6568 ns5:MEDVVI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057030-" ;
+    ns3:P6568 ns5:MEDVVI,
         ns5:MEDVVI_person,
         ns5:VRAICCI,
         ns5:VRAICCI_person .
@@ -1407,8 +1407,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+120.+Monataggart+III_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022004-" ;
-    ns1:P6568 ns5:BROINIENAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO061-022004-" ;
+    ns3:P6568 ns5:BROINIENAS,
         ns5:NETTA-TTRENALUGOS .
 
 <http://www.i3mainz.de/ogham#CIIC+13> a ns5:OghamObject,
@@ -1417,7 +1417,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+13.+Rathcroghan+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057084-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO022-057084-" .
 
 <http://www.i3mainz.de/ogham#CIIC+136> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1425,7 +1425,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+136.+Ardfert+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046018-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE020-046018-" .
 
 <http://www.i3mainz.de/ogham#CIIC+141> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1433,8 +1433,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+141.+Aglish_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032003-" ;
-    ns1:P6568 ns5:MAQI-%3FOGGODIKA .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032003-" ;
+    ns3:P6568 ns5:MAQI-%3FOGGODIKA .
 
 <http://www.i3mainz.de/ogham#CIIC+142> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1442,7 +1442,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+142.+Aglish_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032004-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-032004-" .
 
 <http://www.i3mainz.de/ogham#CIIC+145> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1450,8 +1450,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+145.+Arraglen_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE025-002001-" ;
-    ns1:P6568 ns5:COMOGANN,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE025-002001-" ;
+    ns3:P6568 ns5:COMOGANN,
         ns5:COMOGANN_person,
         ns5:RONANN,
         ns5:RONANN_person .
@@ -1462,8 +1462,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+146.+Ballineanig_geom> ;
-    ns1:P18 "http://titus.uni-frankfurt.de/ogam/html/146x002l.htm" ;
-    ns1:P6568 ns5:LUGUQRIT,
+    ns3:P18 "http://titus.uni-frankfurt.de/ogam/html/146x002l.htm" ;
+    ns3:P6568 ns5:LUGUQRIT,
         ns5:LUGUQRIT_person,
         ns5:QRITTI,
         ns5:QRITTI_person .
@@ -1474,8 +1474,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+147.+Ballineesteenigh_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-248----" ;
-    ns1:P6568 ns5:MOINENA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-248----" ;
+    ns3:P6568 ns5:MOINENA,
         ns5:MOINENA_person,
         ns5:OLACON,
         ns5:OLACON_person .
@@ -1486,7 +1486,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+15.+Clonmore_geom> ;
-    ns1:P18 "http://titus.uni-frankfurt.de/ogam/html/015x001l.htm" .
+    ns3:P18 "http://titus.uni-frankfurt.de/ogam/html/015x001l.htm" .
 
 <http://www.i3mainz.de/ogham#CIIC+150> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1494,8 +1494,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+150.+Ballinrannig+III_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057008-" ;
-    ns1:P6568 ns5:DOVVINIAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057008-" ;
+    ns3:P6568 ns5:DOVVINIAS,
         ns5:DOVVINIAS_person,
         ns5:GRAVICAS,
         ns5:GRAVICAS_person .
@@ -1506,8 +1506,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+151.+Ballinrannig+IV_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057009-" ;
-    ns1:P6568 ns5:BROINIONAS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057009-" ;
+    ns3:P6568 ns5:BROINIONAS .
 
 <http://www.i3mainz.de/ogham#CIIC+152> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1515,8 +1515,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+152.+Ballinrannig+V_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057010-" ;
-    ns1:P6568 ns5:LUBBIAS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057010-" ;
+    ns3:P6568 ns5:LUBBIAS .
 
 <http://www.i3mainz.de/ogham#CIIC+153> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1524,8 +1524,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+153.+Ballinrannig+VI_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057011-" ;
-    ns1:P6568 ns5:CATTINI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057011-" ;
+    ns3:P6568 ns5:CATTINI,
         ns5:CATTINI_person,
         ns5:CCICAMINI,
         ns5:CCICAMINI_person .
@@ -1536,8 +1536,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+154.+Ballinrannig+VII_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057003-" ;
-    ns1:P6568 ns5:CORBBI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-057003-" ;
+    ns3:P6568 ns5:CORBBI,
         ns5:CORBBI_person,
         ns5:CUNAMAQQI,
         ns5:DOVVINIA,
@@ -1549,8 +1549,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+155.+Ballintaggart_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033005-" ;
-    ns1:P6568 ns5:AKEVRITTI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033005-" ;
+    ns3:P6568 ns5:AKEVRITTI .
 
 <http://www.i3mainz.de/ogham#CIIC+156> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1558,8 +1558,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+156.+Ballintaggart_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033006-" ;
-    ns1:P6568 ns5:DOVINIAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033006-" ;
+    ns3:P6568 ns5:DOVINIAS,
         ns5:DOVINIAS_person,
         ns5:MAQQI-IARI,
         ns5:MAQQI-IARI_person .
@@ -1570,8 +1570,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+157.+Ballintaggart_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033007-" ;
-    ns1:P6568 ns5:CATTINI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033007-" ;
+    ns3:P6568 ns5:CATTINI,
         ns5:CATTINI_person,
         ns5:DOVETI,
         ns5:DOVETI_person .
@@ -1582,8 +1582,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+158.+Ballintaggart_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033008-" ;
-    ns1:P6568 ns5:DUCOVAROS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033008-" ;
+    ns3:P6568 ns5:DUCOVAROS,
         ns5:DUCOVAROS_person,
         ns5:SUVALLOS,
         ns5:SUVALLOS_person .
@@ -1594,8 +1594,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+159.+Ballintaggart_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033009-" ;
-    ns1:P6568 ns5:GLASICONAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033009-" ;
+    ns3:P6568 ns5:GLASICONAS,
         ns5:GLASICONAS_person,
         ns5:MAQI-DECEDAS,
         ns5:MAQI-DECEDAS_person .
@@ -1606,8 +1606,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+16.+Rathglass_geom> ;
-    ns1:P18 "http://www.megalithomania.com/show/site/326" ;
-    ns1:P6568 ns5:DUNAIDONAS,
+    ns3:P18 "http://www.megalithomania.com/show/site/326" ;
+    ns3:P6568 ns5:DUNAIDONAS,
         ns5:DUNAIDONAS_person,
         ns5:MARIANI,
         ns5:MARIANI_person .
@@ -1618,8 +1618,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+160.+Ballintaggart_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033010-" ;
-    ns1:P6568 ns5:CURCITTI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033010-" ;
+    ns3:P6568 ns5:CURCITTI,
         ns5:MAILAGNI .
 
 <http://www.i3mainz.de/ogham#CIIC+161> a ns5:OghamObject,
@@ -1628,8 +1628,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+161.+Ballintaggart_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033011-" ;
-    ns1:P6568 ns5:INISSIONAS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033011-" ;
+    ns3:P6568 ns5:INISSIONAS .
 
 <http://www.i3mainz.de/ogham#CIIC+162> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1637,8 +1637,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+162.+Ballintaggart_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033012-" ;
-    ns1:P6568 ns5:CORBI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033012-" ;
+    ns3:P6568 ns5:CORBI,
         ns5:CORBI_person,
         ns5:CUNAMAQQI,
         ns5:CUNAMAQQI_person .
@@ -1649,8 +1649,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+163.+Ballintaggart_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033013-" ;
-    ns1:P6568 ns5:DOVINIAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-033013-" ;
+    ns3:P6568 ns5:DOVINIAS,
         ns5:DOVINIAS_person,
         ns5:NETTA-LAMINACCA,
         ns5:NETTA-LAMINACCA_person .
@@ -1661,8 +1661,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+166.+Ballinvoher_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-105----" ;
-    ns1:P6568 ns5:COIMAGNI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-105----" ;
+    ns3:P6568 ns5:COIMAGNI,
         ns5:COIMAGNI_person,
         ns5:VITALIN,
         ns5:VITALIN_person .
@@ -1673,7 +1673,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+17.+Tuckamine_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CW003-023----" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CW003-023----" .
 
 <http://www.i3mainz.de/ogham#CIIC+170> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1681,8 +1681,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+170.+Ballymorereagh_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-140008-" ;
-    ns1:P6568 ns5:MAQI-AINIA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-140008-" ;
+    ns3:P6568 ns5:MAQI-AINIA,
         ns5:MAQI-AINIA_person,
         ns5:QENILOCI,
         ns5:QENILOCI_person .
@@ -1693,8 +1693,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+171.+Ballynahunt_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-016----" ;
-    ns1:P6568 ns5:DUGENNGI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-016----" ;
+    ns3:P6568 ns5:DUGENNGI,
         ns5:DUGENNGI_person,
         ns5:RODDOS,
         ns5:RODDOS_person .
@@ -1705,8 +1705,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+172.+Ballywiheen_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-093003-" ;
-    ns1:P6568 ns5:SAG%28A%29RETTOS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-093003-" ;
+    ns3:P6568 ns5:SAG%28A%29RETTOS,
         ns5:SAG%28A%29RETTOS_person,
         ns5:TOGITTACC%5BI%5D,
         ns5:TOGITTACC%5BI%5D_person .
@@ -1717,7 +1717,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+173.+Brackloon_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-081002-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE045-081002-" .
 
 <http://www.i3mainz.de/ogham#CIIC+175> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1725,8 +1725,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+175.+Burnham+West_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE000-002----" ;
-    ns1:P6568 ns5:DOVINIA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE000-002----" ;
+    ns3:P6568 ns5:DOVINIA,
         ns5:DOVINIA_person,
         ns5:MAQQI-ERCCIA,
         ns5:MAQQI-ERCCIA_person .
@@ -1737,8 +1737,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+178.+Coumeenole_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE052-059002-" ;
-    ns1:P6568 ns5:DOVINIAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE052-059002-" ;
+    ns3:P6568 ns5:DOVINIAS,
         ns5:ERC,
         ns5:ERC_person,
         ns5:MAQI-ERCIAS,
@@ -1750,8 +1750,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+180.+Emlagh+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-040----" ;
-    ns1:P6568 ns5:BRUSCCOS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-040----" ;
+    ns3:P6568 ns5:BRUSCCOS,
         ns5:BRUSCCOS_person,
         ns5:CALIACI,
         ns5:CALIACI_person .
@@ -1762,8 +1762,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+181.+Emlagh+West_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-167----" ;
-    ns1:P6568 ns5:TALAGNI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-167----" ;
+    ns3:P6568 ns5:TALAGNI .
 
 <http://www.i3mainz.de/ogham#CIIC+185> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1771,8 +1771,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+185.+Inishvickillane_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE061-006008-" ;
-    ns1:P6568 ns5:VLATIAMI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE061-006008-" ;
+    ns3:P6568 ns5:VLATIAMI .
 
 <http://www.i3mainz.de/ogham#CIIC+186> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1780,7 +1780,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+186.+Kilfountain_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-144005-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE043-144005-" .
 
 <http://www.i3mainz.de/ogham#CIIC+187> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1788,8 +1788,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+187.+Kilmalkedar_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-026001-" ;
-    ns1:P6568 ns5:BROCANN,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-026001-" ;
+    ns3:P6568 ns5:BROCANN,
         ns5:BROCANN_person,
         ns5:MAILE-INBIR,
         ns5:MAILE-INBIR_person .
@@ -1800,8 +1800,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+188.+Kinard+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053005-" ;
-    ns1:P6568 ns5:MARIANI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053005-" ;
+    ns3:P6568 ns5:MARIANI .
 
 <http://www.i3mainz.de/ogham#CIIC+189> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1809,8 +1809,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+189.+Kinard+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053002-" ;
-    ns1:P6568 ns5:LLOTETI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE053-053002-" ;
+    ns3:P6568 ns5:LLOTETI,
         ns5:LLOTETI_person,
         ns5:SRUSA,
         ns5:SRUSA_person .
@@ -1821,8 +1821,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+19.+Colbinstown+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044001-" ;
-    ns1:P6568 ns5:IVACATTOS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044001-" ;
+    ns3:P6568 ns5:IVACATTOS,
         ns5:IVACATTOS_person,
         ns5:OVANOS,
         ns5:OVANOS_person .
@@ -1833,8 +1833,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+190.+Lugnagappul_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033002-" ;
-    ns1:P6568 ns5:GOSSUCTTIAS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033002-" ;
+    ns3:P6568 ns5:GOSSUCTTIAS .
 
 <http://www.i3mainz.de/ogham#CIIC+191> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1842,8 +1842,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+191.+Lugnagappul_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033004-" ;
-    ns1:P6568 ns5:GAMICUNAS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE054-033004-" ;
+    ns3:P6568 ns5:GAMICUNAS .
 
 <http://www.i3mainz.de/ogham#CIIC+192> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1851,8 +1851,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+192.+Martramane_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-395----" ;
-    ns1:P6568 ns5:QENILOC%5BA%5DGNI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-395----" ;
+    ns3:P6568 ns5:QENILOC%5BA%5DGNI .
 
 <http://www.i3mainz.de/ogham#CIIC+193> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1860,8 +1860,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+193.+Maumanorig_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-141006-" ;
-    ns1:P6568 ns5:AILITHIR,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-141006-" ;
+    ns3:P6568 ns5:AILITHIR,
         ns5:COLMAN .
 
 <http://www.i3mainz.de/ogham#CIIC+195> a ns5:OghamObject,
@@ -1870,8 +1870,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+195.+Rathmalode_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-165---" ;
-    ns1:P6568 ns5:CURCI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-165---" ;
+    ns3:P6568 ns5:CURCI .
 
 <http://www.i3mainz.de/ogham#CIIC+196> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1879,8 +1879,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+196.+Rathmalode_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-166---" ;
-    ns1:P6568 ns5:ERCAVICCAS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-166---" ;
+    ns3:P6568 ns5:ERCAVICCAS .
 
 <http://www.i3mainz.de/ogham#CIIC+197> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1888,8 +1888,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+197.+Coolmagort_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078003-" ;
-    ns1:P6568 ns5:DEGOS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078003-" ;
+    ns3:P6568 ns5:DEGOS,
         ns5:DEGOS_person,
         ns5:TOICACI,
         ns5:TOICACI_person .
@@ -1900,8 +1900,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+198.+Coolmagort_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078004-" ;
-    ns1:P6568 ns5:MAQI-DUMILEAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078004-" ;
+    ns3:P6568 ns5:MAQI-DUMILEAS,
         ns5:MAQI-DUMILEAS_person,
         ns5:MAQI-RITEAS,
         ns5:MAQI-RITEAS_person,
@@ -1913,8 +1913,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+199.+Coolmagort_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078001-" ;
-    ns1:P6568 ns5:CUNACENA .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078001-" ;
+    ns3:P6568 ns5:CUNACENA .
 
 <http://www.i3mainz.de/ogham#CIIC+20> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1922,8 +1922,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+20.+Colbinstown+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044002-" ;
-    ns1:P6568 ns5:MAQI-DECEDAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044002-" ;
+    ns3:P6568 ns5:MAQI-DECEDAS,
         ns5:MAQI-DECEDAS_person,
         ns5:MARIN,
         ns5:MARIN_person .
@@ -1934,8 +1934,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+200.+Coolmagort_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078005-" ;
-    ns1:P6568 ns5:MAQI-TTAL,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078005-" ;
+    ns3:P6568 ns5:MAQI-TTAL,
         ns5:MAQI-TTAL_person,
         ns5:TOICACI,
         ns5:VORGOS,
@@ -1947,7 +1947,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+201.+Coolmagort_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078006-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078006-" .
 
 <http://www.i3mainz.de/ogham#CIIC+202> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1955,8 +1955,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+202.+Coolmagort_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078007-" ;
-    ns1:P6568 ns5:NE%3FTTVRECC .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078007-" ;
+    ns3:P6568 ns5:NE%3FTTVRECC .
 
 <http://www.i3mainz.de/ogham#CIIC+203> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1964,8 +1964,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+203.+Coolmagort_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078008-" ;
-    ns1:P6568 ns5:MAQI-DECEDAS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-078008-" ;
+    ns3:P6568 ns5:MAQI-DECEDAS .
 
 <http://www.i3mainz.de/ogham#CIIC+205> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1973,8 +1973,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+205.+Derrygariff_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-357----" ;
-    ns1:P6568 ns5:MAQI-ERCIAS%3F .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-357----" ;
+    ns3:P6568 ns5:MAQI-ERCIAS%3F .
 
 <http://www.i3mainz.de/ogham#CIIC+206> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1982,8 +1982,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+206.+Kilcoolaght+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003002-" ;
-    ns1:P6568 ns5:CEDATTOQA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003002-" ;
+    ns3:P6568 ns5:CEDATTOQA,
         ns5:CEDATTOQA_person,
         ns5:VEDELMETO,
         ns5:VEDELMETO_person,
@@ -1995,8 +1995,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+207.+Kilcoolaght+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003005-" ;
-    ns1:P6568 ns5:LUGUQRIT .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003005-" ;
+    ns3:P6568 ns5:LUGUQRIT .
 
 <http://www.i3mainz.de/ogham#CIIC+208> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2004,7 +2004,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+208.+Kilcoolaght+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003006-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003006-" .
 
 <http://www.i3mainz.de/ogham#CIIC+209> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2012,8 +2012,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+209.+Kilcoolaght+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003007-" ;
-    ns1:P6568 <http://www.i3mainz.de/ogham#AGILL...> .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003007-" ;
+    ns3:P6568 <http://www.i3mainz.de/ogham#AGILL...> .
 
 <http://www.i3mainz.de/ogham#CIIC+210> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2021,7 +2021,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+210.+Kilcoolaght+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003009-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003009-" .
 
 <http://www.i3mainz.de/ogham#CIIC+211> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2029,8 +2029,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+211.+Kilcoolaght+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003008-" ;
-    ns1:P6568 ns5:RITTAVVECCAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003008-" ;
+    ns3:P6568 ns5:RITTAVVECCAS,
         ns5:RITTAVVECCAS_person,
         ns5:VEDDONOS,
         ns5:VEDDONOS_person .
@@ -2041,7 +2041,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+212.+Kilcoolaght+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003009-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003009-" .
 
 <http://www.i3mainz.de/ogham#CIIC+213> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2049,7 +2049,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+213.+Kilcoolaght+East_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003010-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE065-003010-" .
 
 <http://www.i3mainz.de/ogham#CIIC+215> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2057,8 +2057,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+215.+Whitefield+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107----" ;
-    ns1:P6568 ns5:ALATTO,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107----" ;
+    ns3:P6568 ns5:ALATTO,
         ns5:ALATTO_person,
         ns5:BATTIGNI,
         ns5:BATTIGNI_person .
@@ -2069,8 +2069,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+216.+Whitefield+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107002-" ;
-    ns1:P6568 ns5:GOSOCTEAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107002-" ;
+    ns3:P6568 ns5:GOSOCTEAS,
         ns5:MAKINI .
 
 <http://www.i3mainz.de/ogham#CIIC+217> a ns5:OghamObject,
@@ -2079,8 +2079,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+217.+Whitefield+III_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107003-" ;
-    ns1:P6568 <http://www.i3mainz.de/ogham#MAQI-RET%2FC...>,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107003-" ;
+    ns3:P6568 <http://www.i3mainz.de/ogham#MAQI-RET%2FC...>,
         ns5:MAQI-RET%2FC..._person,
         ns5:NOCATI,
         ns5:NOCATI_person,
@@ -2092,8 +2092,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+218.+Whitefield+IV_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107004-" ;
-    ns1:P6568 ns5:TUCACAC .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-107004-" ;
+    ns3:P6568 ns5:TUCACAC .
 
 <http://www.i3mainz.de/ogham#CIIC+22> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2101,7 +2101,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+22.+Colbinstown+IV_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044004-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044004-" .
 
 <http://www.i3mainz.de/ogham#CIIC+220> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2109,8 +2109,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+220.+Derrynane_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE106-114----" ;
-    ns1:P6568 ns5:LLATIGNI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE106-114----" ;
+    ns3:P6568 ns5:LLATIGNI,
         ns5:LLATIGNI_person,
         ns5:MINERC%3F,
         ns5:MINERC%3F_person .
@@ -2121,8 +2121,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+223.+Parknasilla_geom> ;
-    ns1:P18 "http://titus.uni-frankfurt.de/ogam/html/223x002l.htm" ;
-    ns1:P6568 ns5:VINNAGITLET%3F .
+    ns3:P18 "http://titus.uni-frankfurt.de/ogam/html/223x002l.htm" ;
+    ns3:P6568 ns5:VINNAGITLET%3F .
 
 <http://www.i3mainz.de/ogham#CIIC+23> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2130,7 +2130,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+23.+Colbinstown+V_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044005-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044005-" .
 
 <http://www.i3mainz.de/ogham#CIIC+230> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2138,8 +2138,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+230.+Cloghanecarhan_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE089-011001-" ;
-    ns1:P6568 ns5:EQQEGGNI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE089-011001-" ;
+    ns3:P6568 ns5:EQQEGGNI,
         ns5:EQQEGGNI_person,
         ns5:MAQI-CAIRATINI,
         ns5:MAQI-CAIRATINI_person .
@@ -2150,8 +2150,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+241.+Kilbonane_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-078002-" ;
-    ns1:P6568 ns5:ADDILONA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-078002-" ;
+    ns3:P6568 ns5:ADDILONA,
         ns5:ADDILONA_person,
         ns5:B%5BAI%5DD%5BA%5DN%5BI%5D,
         ns5:B%5BAID%5DAGNI,
@@ -2164,8 +2164,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+242.+Parkavonear_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE066-016005-" ;
-    ns1:P6568 <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN> .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE066-016005-" ;
+    ns3:P6568 <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN> .
 
 <http://www.i3mainz.de/ogham#CIIC+246a> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2173,7 +2173,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+246a.+Ardcanaght_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026001-" .
+    ns3:P18 "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026001-" .
 
 <http://www.i3mainz.de/ogham#CIIC+246b> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2181,7 +2181,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+246b.+Ardcanaght_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026003-" .
+    ns3:P18 "http://webgis.archaeology.ie/NationalMonuments/FlexViewer/?id=KE047-026003-" .
 
 <http://www.i3mainz.de/ogham#CIIC+25> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2189,7 +2189,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+25.+Colbinstown_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044007-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD032-044007-" .
 
 <http://www.i3mainz.de/ogham#CIIC+252> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2197,8 +2197,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+252.+Gurrane_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE039-148----" ;
-    ns1:P6568 ns5:COBRANORA%3F,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE039-148----" ;
+    ns3:P6568 ns5:COBRANORA%3F,
         ns5:DUMELI,
         ns5:DUMELI_person,
         ns5:GLASICONAS,
@@ -2210,8 +2210,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+253.+Kilorglin_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-393----" ;
-    ns1:P6568 ns5:GALEOTOS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=DU018-393----" ;
+    ns3:P6568 ns5:GALEOTOS .
 
 <http://www.i3mainz.de/ogham#CIIC+255> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2219,8 +2219,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+255.+Tinnahally+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105001-" ;
-    ns1:P6568 ns5:DOLIGENN,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105001-" ;
+    ns3:P6568 ns5:DOLIGENN,
         ns5:DOLIGENN_person,
         ns5:VURUDDRANN,
         ns5:VURUDDRANN_person .
@@ -2231,8 +2231,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+256.+Tinnahally+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105002-" ;
-    ns1:P6568 ns5:DEGLANN,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE057-105002-" ;
+    ns3:P6568 ns5:DEGLANN,
         ns5:TEGANN .
 
 <http://www.i3mainz.de/ogham#CIIC+26> a ns5:OghamObject,
@@ -2241,8 +2241,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+26.+Donaghmore_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD006-005002-" ;
-    ns1:P6568 ns5:NETTAVROICC,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KD006-005002-" ;
+    ns3:P6568 ns5:NETTAVROICC,
         ns5:NETTAVROICC_person,
         ns5:TRENALUGGO%3F,
         ns5:TRENALUGGO%3F_person .
@@ -2253,8 +2253,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+263.+Ardmore+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008005-" ;
-    ns1:P6568 ns5:LUGUDECAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008005-" ;
+    ns3:P6568 ns5:LUGUDECAS,
         ns5:LUGUDECAS_person,
         ns5:NETA-SEGAMONAS,
         ns5:NETA-SEGAMONAS_person .
@@ -2265,7 +2265,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+264.+Ardmore_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008006-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008006-" .
 
 <http://www.i3mainz.de/ogham#CIIC+265> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2273,8 +2273,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+265.+Ardmore+III_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008007-" ;
-    ns1:P6568 ns5:AMADU .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA040-008007-" ;
+    ns3:P6568 ns5:AMADU .
 
 <http://www.i3mainz.de/ogham#CIIC+266> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2282,8 +2282,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+266.+Dromore+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042003-" ;
-    ns1:P6568 ns5:COLLABOT,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042003-" ;
+    ns3:P6568 ns5:COLLABOT,
         ns5:COLLABOT_person,
         ns5:LOBACCONA,
         ns5:LOBACCONA_person,
@@ -2295,8 +2295,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+267.+Dromore+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042006-" ;
-    ns1:P6568 ns5:LUGA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042006-" ;
+    ns3:P6568 ns5:LUGA,
         ns5:MEDUSI,
         ns5:MEDUSI_person .
 
@@ -2306,8 +2306,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+268.+Dromore+III_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042010-" ;
-    ns1:P6568 ns5:CATTUVIR .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA029-042010-" ;
+    ns3:P6568 ns5:CATTUVIR .
 
 <http://www.i3mainz.de/ogham#CIIC+272> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2315,8 +2315,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+272.+Drumlohan+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033006-" ;
-    ns1:P6568 ns5:GATI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033006-" ;
+    ns3:P6568 ns5:GATI,
         ns5:GATI_person,
         ns5:MACORBO,
         ns5:MANU .
@@ -2327,8 +2327,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+273.+Drumlohan+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033007-" ;
-    ns1:P6568 ns5:CALUNOVICA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033007-" ;
+    ns3:P6568 ns5:CALUNOVICA,
         ns5:CALUNOVICA_person,
         ns5:LITENI,
         ns5:LITENI_person .
@@ -2339,8 +2339,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+274.+Drumlohan+III_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033008-" ;
-    ns1:P6568 <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS>,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033008-" ;
+    ns3:P6568 <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS>,
         <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_person>,
         <http://www.i3mainz.de/ogham#MAQI-INI...>,
         ns5:MAQI-INI..._person .
@@ -2351,8 +2351,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+275.+Drumlohan+IV_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033009-" ;
-    ns1:P6568 ns5:C%5B....%5DSALAR,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033009-" ;
+    ns3:P6568 ns5:C%5B....%5DSALAR,
         ns5:C%5B....%5DSALAR_person,
         ns5:CUNALEGEA,
         ns5:CUNALEGEA_person,
@@ -2365,8 +2365,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+276.+Drumlohan+V_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033010-" ;
-    ns1:P6568 ns5:BIGU,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033010-" ;
+    ns3:P6568 ns5:BIGU,
         ns5:BIGU_person,
         <http://www.i3mainz.de/ogham#LAG%5B...>,
         ns5:LAG%5B..._person .
@@ -2377,8 +2377,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+277.+Drumlohan+VI_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033011-" ;
-    ns1:P6568 ns5:BIR,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033011-" ;
+    ns3:P6568 ns5:BIR,
         ns5:BIR_person,
         ns5:ROTTAIS,
         ns5:ROTTAIS_person .
@@ -2389,8 +2389,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+278.+Drumlohan+VII_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033012-" ;
-    ns1:P6568 ns5:NE%5BT....%5DAS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033012-" ;
+    ns3:P6568 ns5:NE%5BT....%5DAS .
 
 <http://www.i3mainz.de/ogham#CIIC+279> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2398,8 +2398,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+279.+Drumlohan+VIII_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033013-" ;
-    ns1:P6568 ns5:DENAVECA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033013-" ;
+    ns3:P6568 ns5:DENAVECA,
         ns5:DENAVECA_person,
         ns5:MEDALO .
 
@@ -2409,8 +2409,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+28.+Churchclara+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-017003-" ;
-    ns1:P6568 ns5:MACORBO%3F,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-017003-" ;
+    ns3:P6568 ns5:MACORBO%3F,
         ns5:MACORBO%3F_person,
         ns5:TASEGAGNI,
         ns5:TASEGAGNI_person .
@@ -2421,8 +2421,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+280.+Drumlohan+IX_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033014-" ;
-    ns1:P6568 ns5:BROINIONAS%3F .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033014-" ;
+    ns3:P6568 ns5:BROINIONAS%3F .
 
 <http://www.i3mainz.de/ogham#CIIC+281> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2430,8 +2430,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+281.+Drumlohan+X_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033015-" ;
-    ns1:P6568 ns5:DEAGOS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033015-" ;
+    ns3:P6568 ns5:DEAGOS .
 
 <http://www.i3mainz.de/ogham#CIIC+285> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2439,8 +2439,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+285.+Kilbeg_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-078----" ;
-    ns1:P6568 ns5:ATAR,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-078----" ;
+    ns3:P6568 ns5:ATAR,
         ns5:BIVAIDONAS,
         ns5:BIVAIDONAS_person .
 
@@ -2450,8 +2450,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+292.+Knockboy+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034006-" ;
-    ns1:P6568 <http://www.i3mainz.de/ogham#...ERATI>,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034006-" ;
+    ns3:P6568 <http://www.i3mainz.de/ogham#...ERATI>,
         <http://www.i3mainz.de/ogham#...ERATI_person>,
         ns5:NETA-SEGAMONAS .
 
@@ -2461,7 +2461,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+293.+Knockboy+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034007-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034007-" .
 
 <http://www.i3mainz.de/ogham#CIIC+294> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2469,8 +2469,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+294.+Knockboy+III_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034008-" ;
-    ns1:P6568 ns5:CORB .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034008-" ;
+    ns3:P6568 ns5:CORB .
 
 <http://www.i3mainz.de/ogham#CIIC+295> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2478,8 +2478,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+295.+Knockboy+IV_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034009-" ;
-    ns1:P6568 ns5:BROENIONAS%3F,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034009-" ;
+    ns3:P6568 ns5:BROENIONAS%3F,
         ns5:QECCIAS%3F,
         ns5:QECCIAS%3F_person .
 
@@ -2489,8 +2489,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+296.+Knockboy+V_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034010-" ;
-    ns1:P6568 ns5:CIR .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034010-" ;
+    ns3:P6568 ns5:CIR .
 
 <http://www.i3mainz.de/ogham#CIIC+297> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2498,8 +2498,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+297.+Knockboy+VI_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034014-" ;
-    ns1:P6568 ns5:VORTIGURN .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034014-" ;
+    ns3:P6568 ns5:VORTIGURN .
 
 <http://www.i3mainz.de/ogham#CIIC+298> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2507,8 +2507,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+298.+Knockboy+VII_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034005-" ;
-    ns1:P6568 ns5:ODR...REA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034005-" ;
+    ns3:P6568 ns5:ODR...REA,
         ns5:VEDABAR .
 
 <http://www.i3mainz.de/ogham#CIIC+299> a ns5:OghamObject,
@@ -2517,8 +2517,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+299.+Knockboy+VIII_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034015-" ;
-    ns1:P6568 ns5:MONGEDIAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA013-034015-" ;
+    ns3:P6568 ns5:MONGEDIAS,
         ns5:MONGEDIAS_person,
         ns5:MUIBITI,
         ns5:MUIBITI_person .
@@ -2529,8 +2529,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+300.+Island_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA032-029002" ;
-    ns1:P6568 ns5:CUNANETAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA032-029002" ;
+    ns3:P6568 ns5:CUNANETAS,
         ns5:CUNANETAS_person,
         ns5:NETA-SEGAMONAS,
         ns5:NETA-SEGAMONAS_person .
@@ -2541,8 +2541,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+31.+Fiddaun_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK029-020----" ;
-    ns1:P6568 ns5:DROGNO .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK029-020----" ;
+    ns3:P6568 ns5:DROGNO .
 
 <http://www.i3mainz.de/ogham#CIIC+32> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2550,8 +2550,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+32.+Gowran_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-060007-" ;
-    ns1:P6568 ns5:DIMAQA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-060007-" ;
+    ns3:P6568 ns5:DIMAQA,
         ns5:DIMAQA_person,
         ns5:ERACIAS,
         ns5:ERACIAS_person .
@@ -2562,8 +2562,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+34.+Legan_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-026002-" ;
-    ns1:P6568 <http://www.i3mainz.de/ogham#...LL...>,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-026002-" ;
+    ns3:P6568 <http://www.i3mainz.de/ogham#...LL...>,
         ns5:LOBBI,
         ns5:LOBBI_person,
         ns5:RINI .
@@ -2574,7 +2574,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+35.+Tullaherin+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062005-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062005-" .
 
 <http://www.i3mainz.de/ogham#CIIC+36> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2582,8 +2582,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+36.+Lamoge+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK034-013003-" ;
-    ns1:P6568 ns5:ROTTAIS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK034-013003-" ;
+    ns3:P6568 ns5:ROTTAIS,
         ns5:ROTTAIS_person,
         ns5:SEVERRIT,
         ns5:SEVERRIT_person .
@@ -2594,8 +2594,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+37.+Lamoge+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK034-013004-" ;
-    ns1:P6568 ns5:DOVATUCI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK034-013004-" ;
+    ns3:P6568 ns5:DOVATUCI,
         ns5:DOVATUCI_person,
         ns5:TULOTANAGIA,
         ns5:TULOTANAGIA_person .
@@ -2606,8 +2606,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+38.+Ballyboodan_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK031-058----" ;
-    ns1:P6568 ns5:CORBI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK031-058----" ;
+    ns3:P6568 ns5:CORBI,
         ns5:CORBI_person,
         ns5:LABRID,
         ns5:LABRID_person .
@@ -2618,8 +2618,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+4.+Kilmannin_geom> ;
-    ns1:P18 "http://titus.uni-frankfurt.de/ogam/html/004x003l.htm" ;
-    ns1:P6568 ns5:LUGADDON,
+    ns3:P18 "http://titus.uni-frankfurt.de/ogam/html/004x003l.htm" ;
+    ns3:P6568 ns5:LUGADDON,
         ns5:LUGADDON_person,
         ns5:LUGUDECAS,
         ns5:LUGUDECAS_person .
@@ -2630,8 +2630,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+40.+Painestown_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=ME026-009----" ;
-    ns1:P6568 ns5:INEQAGLAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=ME026-009----" ;
+    ns3:P6568 ns5:INEQAGLAS,
         ns5:INEQAGLAS_person,
         ns5:MAQI-CAIRATINI,
         ns5:MAQI-CAIRATINI_person .
@@ -2642,8 +2642,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+46.+Houseland_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WX054-004----" ;
-    ns1:P6568 ns5:CATTABBOTT,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WX054-004----" ;
+    ns3:P6568 ns5:CATTABBOTT,
         ns5:CATTABBOTT_person,
         ns5:DERCMASOC,
         ns5:DERCMASOC_person,
@@ -2656,8 +2656,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+47.+Castletimon_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI036-010----" ;
-    ns1:P6568 ns5:NETA-CAGI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI036-010----" ;
+    ns3:P6568 ns5:NETA-CAGI,
         ns5:NETA-CARI .
 
 <http://www.i3mainz.de/ogham#CIIC+48> a ns5:OghamObject,
@@ -2666,8 +2666,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+48.+Donard_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI021-004----" ;
-    ns1:P6568 ns5:IAQINI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI021-004----" ;
+    ns3:P6568 ns5:IAQINI .
 
 <http://www.i3mainz.de/ogham#CIIC+49> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2675,7 +2675,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+49.+Baltinglass_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI027-079----" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI027-079----" .
 
 <http://www.i3mainz.de/ogham#CIIC+5> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2683,8 +2683,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+5.+Rusheens+West_geom> ;
-    ns1:P18 "https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA073-012----" ;
-    ns1:P6568 ns5:ALATTOS,
+    ns3:P18 "https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA073-012----" ;
+    ns3:P6568 ns5:ALATTOS,
         ns5:ALATTOS_person,
         <http://www.i3mainz.de/ogham#BR...>,
         ns5:BR..._person .
@@ -2695,8 +2695,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+50.+Boleycarrigeen_geom> ;
-    ns1:P18 "http://www.megalithicmonumentsofireland.com/COUNTIES/WICKLOW/Boleycarrigeen_OghamStone.html" ;
-    ns1:P6568 ns5:VOTI .
+    ns3:P18 "http://www.megalithicmonumentsofireland.com/COUNTIES/WICKLOW/Boleycarrigeen_OghamStone.html" ;
+    ns3:P6568 ns5:VOTI .
 
 <http://www.i3mainz.de/ogham#CIIC+51> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2704,8 +2704,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+51.+Knickeen_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI022-012----" ;
-    ns1:P6568 ns5:NILI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WI022-012----" ;
+    ns3:P6568 ns5:NILI .
 
 <http://www.i3mainz.de/ogham#CIIC+57> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2713,8 +2713,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+57.+Greenhill+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO042-049002-" ;
-    ns1:P6568 ns5:QRITTI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO042-049002-" ;
+    ns3:P6568 ns5:QRITTI,
         ns5:QRITTI_person,
         ns5:TRENU,
         ns5:TRENU_person .
@@ -2725,8 +2725,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+58.+Greenhill+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO042-049001-" ;
-    ns1:P6568 ns5:CATTUBUTTAS .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO042-049001-" ;
+    ns3:P6568 ns5:CATTUBUTTAS .
 
 <http://www.i3mainz.de/ogham#CIIC+66> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2734,8 +2734,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+66.+Faunkill+and+the+Woods_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO102-013----" ;
-    ns1:P6568 ns5:MAQI-DECEDAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO102-013----" ;
+    ns3:P6568 ns5:MAQI-DECEDAS,
         ns5:MAQI-DECEDAS_person,
         ns5:TURANIAS,
         ns5:TURANIAS_person .
@@ -2746,8 +2746,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+69.+Ahalisky+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO122-049003-" ;
-    ns1:P6568 ns5:GIRAGNI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO122-049003-" ;
+    ns3:P6568 ns5:GIRAGNI .
 
 <http://www.i3mainz.de/ogham#CIIC+70> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2755,8 +2755,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+70.+Ahalisky+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO122-049004-" ;
-    ns1:P6568 ns5:CUNAGUSOS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO122-049004-" ;
+    ns3:P6568 ns5:CUNAGUSOS,
         ns5:CUNAGUSOS_person,
         ns5:VIRAGNI,
         ns5:VIRAGNI_person .
@@ -2767,8 +2767,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+71.+Ahalisky+III_geom> ;
-    ns1:P18 "http://titus.uni-frankfurt.de/ogam/html/071x001l.htm" ;
-    ns1:P6568 ns5:COIMAGNI .
+    ns3:P18 "http://titus.uni-frankfurt.de/ogam/html/071x001l.htm" ;
+    ns3:P6568 ns5:COIMAGNI .
 
 <http://www.i3mainz.de/ogham#CIIC+79> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2776,7 +2776,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+79.+Rathcanning+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-009----" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-009----" .
 
 <http://www.i3mainz.de/ogham#CIIC+80> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2784,7 +2784,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+80.+Rathcanning+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-053----" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO066-053----" .
 
 <http://www.i3mainz.de/ogham#CIIC+97> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2792,8 +2792,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+97.+Ballyhank+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067003-" ;
-    ns1:P6568 ns5:VORRTIGURN .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067003-" ;
+    ns3:P6568 ns5:VORRTIGURN .
 
 <http://www.i3mainz.de/ogham#CIIC+98> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2801,8 +2801,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+98.+Ballyhank+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067004-" ;
-    ns1:P6568 ns5:CORBAGNI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067004-" ;
+    ns3:P6568 ns5:CORBAGNI,
         ns5:CORBAGNI_person,
         ns5:COROTANI,
         ns5:COROTANI_person .
@@ -2813,7 +2813,7 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+99.+Ballyhank+III_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067005-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067005-" .
 
 <http://www.i3mainz.de/ogham#Church+Island> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2821,8 +2821,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Church+Island_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE079-032004-" ;
-    ns1:P6568 ns5:BECCDINN,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE079-032004-" ;
+    ns3:P6568 ns5:BECCDINN,
         ns5:BECCDINN_person,
         ns5:RITTAVVECCAS,
         ns5:RITTAVVECCAS_person .
@@ -2833,8 +2833,8 @@ ns5:Bunkilla a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Churchclara+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-017010-" ;
-    ns1:P6568 ns5:GELAGNI .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK020-017010-" ;
+    ns3:P6568 ns5:GELAGNI .
 
 ns5:Cloghabrody a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2842,8 +2842,8 @@ ns5:Cloghabrody a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry ns5:Cloghabrody_geom ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-062011-" ;
-    ns1:P6568 ns5:LOGIDEAS,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK028-062011-" ;
+    ns3:P6568 ns5:LOGIDEAS,
         ns5:MUNICONA,
         ns5:VEDELMETO,
         ns5:VEDELMETO_person .
@@ -2854,8 +2854,8 @@ ns5:Coumlanders a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry ns5:Coumlanders_geom ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-164----" ;
-    ns1:P6568 ns5:RETAGIN .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-164----" ;
+    ns3:P6568 ns5:RETAGIN .
 
 <http://www.i3mainz.de/ogham#Drummin+II> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2863,8 +2863,8 @@ ns5:Coumlanders a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Drummin+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO015-051004-" ;
-    ns1:P6568 ns5:RAVASA .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=RO015-051004-" ;
+    ns3:P6568 ns5:RAVASA .
 
 <http://www.i3mainz.de/ogham#Keel+West> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2872,7 +2872,7 @@ ns5:Coumlanders a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Keel+West_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=MA053-003009-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=MA053-003009-" .
 
 <http://www.i3mainz.de/ogham#Kilgrovan+VI> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2880,7 +2880,7 @@ ns5:Coumlanders a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Kilgrovan+VI_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045008-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045008-" .
 
 <http://www.i3mainz.de/ogham#Kilgrovan+VII> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2888,7 +2888,7 @@ ns5:Coumlanders a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Kilgrovan+VII_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045015-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA031-045015-" .
 
 <http://www.i3mainz.de/ogham#Knockmahon+I> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2896,8 +2896,8 @@ ns5:Coumlanders a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Knockmahon+I_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128001-" ;
-    ns1:P6568 ns5:ENA,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128001-" ;
+    ns3:P6568 ns5:ENA,
         ns5:ENA_person,
         ns5:SENAQ,
         ns5:SENAQ_person .
@@ -2908,8 +2908,8 @@ ns5:Coumlanders a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Knockmahon+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128002-" ;
-    ns1:P6568 ns5:TOGITTACC%5BI%5D%3F,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA025-128002-" ;
+    ns3:P6568 ns5:TOGITTACC%5BI%5D%3F,
         ns5:TOGITTACC%5BI%5D%3F_person,
         ns5:VEDELMETO,
         ns5:VEDELMETO_person .
@@ -2917,10 +2917,10 @@ ns5:Coumlanders a ns5:OghamObject,
 ns5:OghamDictionary a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
-        ns4:Lexicon ;
+        ns1:Lexicon ;
     rdfs:label "Ogham Dictionary"@en ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns4:entry <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN>,
+    ns1:entry <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN>,
         <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS>,
         <http://www.i3mainz.de/ogham#...ERATI>,
         <http://www.i3mainz.de/ogham#...LL...>,
@@ -3155,7 +3155,7 @@ ns5:Ogham_From_Epidoc_P18 a void:Dataset,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: P18"@en ;
-    void:property ns1:P18 ;
+    void:property ns3:P18 ;
     void:triples 164 .
 
 ns5:Ogham_From_Epidoc_P22 a void:Dataset,
@@ -3163,7 +3163,7 @@ ns5:Ogham_From_Epidoc_P22 a void:Dataset,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: P22"@en ;
-    void:property ns1:P22 ;
+    void:property ns3:P22 ;
     void:triples 63 .
 
 ns5:Ogham_From_Epidoc_P463 a void:Dataset,
@@ -3171,7 +3171,7 @@ ns5:Ogham_From_Epidoc_P463 a void:Dataset,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: P463"@en ;
-    void:property ns1:P463 ;
+    void:property ns3:P463 ;
     void:triples 16 .
 
 ns5:Ogham_From_Epidoc_P6568 a void:Dataset,
@@ -3179,7 +3179,7 @@ ns5:Ogham_From_Epidoc_P6568 a void:Dataset,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: P6568"@en ;
-    void:property ns1:P6568 ;
+    void:property ns3:P6568 ;
     void:triples 387 .
 
 ns5:Ogham_From_Epidoc_asWKT a void:Dataset,
@@ -3219,7 +3219,7 @@ ns5:Ogham_From_Epidoc_entry a void:Dataset,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: entry"@en ;
-    void:property ns4:entry ;
+    void:property ns1:entry ;
     void:triples 229 .
 
 ns5:Ogham_From_Epidoc_follows a void:Dataset,
@@ -3244,7 +3244,7 @@ ns5:Ogham_From_Epidoc_hasMember a void:Dataset,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: hasMember"@en ;
     void:property ns5:hasMember,
-        ns3:hasMember ;
+        ns4:hasMember ;
     void:triples 16,
         211 .
 
@@ -3326,8 +3326,8 @@ ns5:Ratass a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry ns5:Ratass_geom ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE029-157002-" ;
-    ns1:P6568 ns5:SILLANN,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE029-157002-" ;
+    ns3:P6568 ns5:SILLANN,
         ns5:SILLANN_person,
         ns5:VATTILLOGG,
         ns5:VATTILLOGG_person .
@@ -3338,7 +3338,7 @@ ns5:Ratass a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Rathkenny+IV_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=" .
 
 <http://www.i3mainz.de/ogham#Scattery+Island> a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3346,7 +3346,7 @@ ns5:Ratass a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Scattery+Island_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CL067-024016-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CL067-024016-" .
 
 ns5:Shankill a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3354,8 +3354,8 @@ ns5:Shankill a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry ns5:Shankill_geom ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK016-013----" ;
-    ns1:P6568 ns5:COILLI,
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK016-013----" ;
+    ns3:P6568 ns5:COILLI,
         ns5:COILLI_person,
         ns5:COSCIS%2FN,
         <http://www.i3mainz.de/ogham#MAQI-CUNALIG...>,
@@ -3367,7 +3367,7 @@ ns5:Shankill a ns5:OghamObject,
         <http://www.w3.org/ns/ldp#Resource> ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     geo:hasGeometry <http://www.i3mainz.de/ogham#Tullaherin+II_geom> ;
-    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062009-" .
+    ns3:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KK024-062009-" .
 
 <http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN_person> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7175,7 +7175,7 @@ ns5:ALATTOS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:BR..._person .
+    ns3:P22 ns5:BR..._person .
 
 ns5:ALATTO_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7286,7 +7286,7 @@ ns5:B%5BAID%5DAGNI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:ADDILONA_person .
+    ns3:P22 ns5:ADDILONA_person .
 
 ns5:BATTIGNI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7329,7 +7329,7 @@ ns5:BECCDINN_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:RITTAVVECCAS_person .
+    ns3:P22 ns5:RITTAVVECCAS_person .
 
 ns5:BIGU a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7352,7 +7352,7 @@ ns5:BIGU_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:LAG%5B..._person .
+    ns3:P22 ns5:LAG%5B..._person .
 
 ns5:BIR a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7391,7 +7391,7 @@ ns5:BIR_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:ROTTAIS_person .
+    ns3:P22 ns5:ROTTAIS_person .
 
 ns5:BIVAIDONAS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7526,7 +7526,7 @@ ns5:BRUSCCOS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:CALIACI_person .
+    ns3:P22 ns5:CALIACI_person .
 
 ns5:C%5B....%5DSALAR a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7586,7 +7586,7 @@ ns5:CALUNOVICA_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:LITENI_person .
+    ns3:P22 ns5:LITENI_person .
 
 ns5:CATTABBOTT a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7664,7 +7664,7 @@ ns5:CCICAMINI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:CATTINI_person .
+    ns3:P22 ns5:CATTINI_person .
 
 ns5:CEDATTOQA a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7689,7 +7689,7 @@ ns5:CEDATTOQA_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:VEDELMETO_person .
+    ns3:P22 ns5:VEDELMETO_person .
 
 ns5:CELI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7759,7 +7759,7 @@ ns5:COIMAGNI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:VITALIN_person .
+    ns3:P22 ns5:VITALIN_person .
 
 ns5:COLLABOT a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7875,7 +7875,7 @@ ns5:CORBAGNI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:COROTANI_person .
+    ns3:P22 ns5:COROTANI_person .
 
 ns5:CORBBI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7899,7 +7899,7 @@ ns5:CORBBI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:DOVVINIA_person .
+    ns3:P22 ns5:DOVVINIA_person .
 
 ns5:COROTANI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7942,7 +7942,7 @@ ns5:CORRBRI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:AMMLLONGITT%3F_person .
+    ns3:P22 ns5:AMMLLONGITT%3F_person .
 
 ns5:CUNACENA a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -7987,7 +7987,7 @@ ns5:CUNAGUSOS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
     void:inDataset ns5:Ogham_From_Epidoc ;
     ns5:definedInWikidata <http://www.wikidata.org/entity/Q67382235> ;
     ns5:nameRelatesTo <http://www.wikidata.org/entity/Q18498> ;
-    ns1:P22 ns5:VIRAGNI_person .
+    ns3:P22 ns5:VIRAGNI_person .
 
 ns5:CUNALEGEA a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8016,7 +8016,7 @@ ns5:CUNALEGEA_person a <http://www.w3.org/ns/ldp#BasicContainer>,
     ns5:definedInWikidata <http://www.wikidata.org/entity/Q67382235> ;
     ns5:follows ns5:QVECI_person ;
     ns5:nameRelatesTo <http://www.wikidata.org/entity/Q18498> ;
-    ns1:P22 ns5:C%5B....%5DSALAR_person .
+    ns3:P22 ns5:C%5B....%5DSALAR_person .
 
 ns5:CUNAMAQQI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8053,7 +8053,7 @@ ns5:CUNANETAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
     void:inDataset ns5:Ogham_From_Epidoc ;
     ns5:definedInWikidata <http://www.wikidata.org/entity/Q67382235> ;
     ns5:nameRelatesTo <http://www.wikidata.org/entity/Q18498> ;
-    ns1:P22 ns5:NETA-SEGAMONAS_person .
+    ns3:P22 ns5:NETA-SEGAMONAS_person .
 
 ns5:CUNOVATOS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8113,7 +8113,7 @@ ns5:DALAGNI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:DALI_person .
+    ns3:P22 ns5:DALI_person .
 
 ns5:DALI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8189,7 +8189,7 @@ ns5:DEGOS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:TOICACI_person .
+    ns3:P22 ns5:TOICACI_person .
 
 ns5:DENAVECA a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8313,7 +8313,7 @@ ns5:DOVETI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:CATTINI_person .
+    ns3:P22 ns5:CATTINI_person .
 
 ns5:DOVINIA a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8430,7 +8430,7 @@ ns5:DUGENNGI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:RODDOS_person .
+    ns3:P22 ns5:RODDOS_person .
 
 ns5:DUMELI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8455,7 +8455,7 @@ ns5:DUMELI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:GLASICONAS_person .
+    ns3:P22 ns5:GLASICONAS_person .
 
 ns5:DUNAIDONAS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8481,7 +8481,7 @@ ns5:DUNAIDONAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:MARIANI_person .
+    ns3:P22 ns5:MARIANI_person .
 
 ns5:ENA a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8519,7 +8519,7 @@ ns5:EQQEGGNI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:MAQI-CAIRATINI_person .
+    ns3:P22 ns5:MAQI-CAIRATINI_person .
 
 ns5:ERACIAS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8544,7 +8544,7 @@ ns5:ERACIAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:DIMAQA_person .
+    ns3:P22 ns5:DIMAQA_person .
 
 ns5:ERCAVICCAS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8573,7 +8573,7 @@ ns5:ERC_person a <http://www.w3.org/ns/ldp#BasicContainer>,
     ns5:definedInWikidata <http://www.wikidata.org/entity/Q67382360> ;
     ns5:nameRelatesTo <http://www.wikidata.org/entity/Q527>,
         <http://www.wikidata.org/entity/Q830> ;
-    ns1:P22 ns5:MAQI-ERCIAS_person .
+    ns3:P22 ns5:MAQI-ERCIAS_person .
 
 ns5:GALEOTOS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8859,7 +8859,7 @@ ns5:LLATIGNI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:MINERC%3F_person .
+    ns3:P22 ns5:MINERC%3F_person .
 
 ns5:LLOTETI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8963,7 +8963,7 @@ ns5:LUGADDON_person a <http://www.w3.org/ns/ldp#BasicContainer>,
     void:inDataset ns5:Ogham_From_Epidoc ;
     ns5:definedInWikidata <http://www.wikidata.org/entity/Q67383482> ;
     ns5:nameRelatesTo <http://www.wikidata.org/entity/Q215683> ;
-    ns1:P22 ns5:LUGUDECAS_person .
+    ns3:P22 ns5:LUGUDECAS_person .
 
 ns5:LUGUQRIT_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -8972,7 +8972,7 @@ ns5:LUGUQRIT_person a <http://www.w3.org/ns/ldp#BasicContainer>,
     void:inDataset ns5:Ogham_From_Epidoc ;
     ns5:definedInWikidata <http://www.wikidata.org/entity/Q67383482> ;
     ns5:nameRelatesTo <http://www.wikidata.org/entity/Q215683> ;
-    ns1:P22 ns5:QRITTI_person .
+    ns3:P22 ns5:QRITTI_person .
 
 ns5:MACORBO%3F a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9035,7 +9035,7 @@ ns5:MAILE-INBIR_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:BROCANN_person .
+    ns3:P22 ns5:BROCANN_person .
 
 ns5:MAKINI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9140,7 +9140,7 @@ ns5:MAQI-CORABIR_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:TAN..._person .
+    ns3:P22 ns5:TAN..._person .
 
 <http://www.i3mainz.de/ogham#MAQI-CUNALIG...> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9242,7 +9242,7 @@ ns5:MAQI-ESEA_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:DOMANEQI_person .
+    ns3:P22 ns5:DOMANEQI_person .
 
 <http://www.i3mainz.de/ogham#MAQI-INI...> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9265,7 +9265,7 @@ ns5:MAQI-INI..._person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_person> .
+    ns3:P22 <http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_person> .
 
 <http://www.i3mainz.de/ogham#MAQI-RET%2FC...> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9348,7 +9348,7 @@ ns5:MAQQI-ERCCIA_person a <http://www.w3.org/ns/ldp#BasicContainer>,
     ns5:definedInWikidata <http://www.wikidata.org/entity/Q67382360> ;
     ns5:nameRelatesTo <http://www.wikidata.org/entity/Q527>,
         <http://www.wikidata.org/entity/Q830> ;
-    ns1:P22 ns5:DOVINIA_person .
+    ns3:P22 ns5:DOVINIA_person .
 
 ns5:MAQQI-IARI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9371,7 +9371,7 @@ ns5:MAQQI-IARI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:DOVINIAS_person .
+    ns3:P22 ns5:DOVINIAS_person .
 
 ns5:MAQQI-LASIRE%28N%29 a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9398,7 +9398,7 @@ ns5:MAQQI-LASIRE%28N%29_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:BIRRAC_person .
+    ns3:P22 ns5:BIRRAC_person .
 
 ns5:MARIN a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9493,7 +9493,7 @@ ns5:MOINENA_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:OLACON_person .
+    ns3:P22 ns5:OLACON_person .
 
 ns5:MONGEDIAS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9521,7 +9521,7 @@ ns5:MONGEDIAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:MUIBITI_person .
+    ns3:P22 ns5:MUIBITI_person .
 
 ns5:MUCOI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9709,7 +9709,7 @@ ns5:NETTA-LAMINACCA_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:DOVINIAS_person .
+    ns3:P22 ns5:DOVINIAS_person .
 
 ns5:NETTA-TTRENALUGOS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9759,7 +9759,7 @@ ns5:NETTAVROICC_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:TRENALUGGO%3F_person .
+    ns3:P22 ns5:TRENALUGGO%3F_person .
 
 ns5:NILI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -9912,7 +9912,7 @@ ns5:QENILOCI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:MAQI-AINIA_person .
+    ns3:P22 ns5:MAQI-AINIA_person .
 
 ns5:QVECI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10002,7 +10002,7 @@ ns5:RONANN_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:COMOGANN_person .
+    ns3:P22 ns5:COMOGANN_person .
 
 ns5:SAG%28A%29RETTOS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10047,7 +10047,7 @@ ns5:SEDANI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     ns5:descendantOf ns5:DERCMASOC_person ;
-    ns1:P22 ns5:CATTABBOTT_person .
+    ns3:P22 ns5:CATTABBOTT_person .
 
 ns5:SENAQ a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10070,7 +10070,7 @@ ns5:SENAQ_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:ENA_person .
+    ns3:P22 ns5:ENA_person .
 
 ns5:SEVERRIT a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10095,7 +10095,7 @@ ns5:SEVERRIT_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:ROTTAIS_person .
+    ns3:P22 ns5:ROTTAIS_person .
 
 ns5:SILLANN a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10119,7 +10119,7 @@ ns5:SILLANN_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:VATTILLOGG_person .
+    ns3:P22 ns5:VATTILLOGG_person .
 
 ns5:SRUSA a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10160,7 +10160,7 @@ ns5:SUVALLOS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:DUCOVAROS_person .
+    ns3:P22 ns5:DUCOVAROS_person .
 
 ns5:TALAGNI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10219,7 +10219,7 @@ ns5:TASEGAGNI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:MACORBO%3F_person .
+    ns3:P22 ns5:MACORBO%3F_person .
 
 ns5:TEGANN a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10279,7 +10279,7 @@ ns5:TOGITTACC%5BI%5D_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:SAG%28A%29RETTOS_person .
+    ns3:P22 ns5:SAG%28A%29RETTOS_person .
 
 ns5:TRENALUGGO%3F a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10324,7 +10324,7 @@ ns5:TRENU_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:QRITTI_person .
+    ns3:P22 ns5:QRITTI_person .
 
 ns5:TUCACAC a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10657,7 +10657,7 @@ ns5:VRAICCI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:MEDVVI_person .
+    ns3:P22 ns5:MEDVVI_person .
 
 ns5:VURUDDRANN a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10682,7 +10682,7 @@ ns5:VURUDDRANN_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:DOLIGENN_person .
+    ns3:P22 ns5:DOLIGENN_person .
 
 ns5:definedInWikidata a owl:ObjectProperty,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -10719,7 +10719,7 @@ ns5:ᚇ_character a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P463 ns5:NETA-SEGAMONAS .
+    ns3:P463 ns5:NETA-SEGAMONAS .
 
 ns5:ADDILONA_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10750,7 +10750,7 @@ ns5:BIVAIDONAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P463 ns5:ATAR .
+    ns3:P463 ns5:ATAR .
 
 ns5:BR..._person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10829,15 +10829,15 @@ ns5:COLLABOT_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:LOBACCONA_person ;
-    ns1:P463 ns5:LUGA .
+    ns3:P22 ns5:LOBACCONA_person ;
+    ns3:P463 ns5:LUGA .
 
 ns5:COMMAGGAGNI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P463 ns5:ISAMMNN%3F .
+    ns3:P463 ns5:ISAMMNN%3F .
 
 ns5:COMOGANN_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -10916,7 +10916,7 @@ ns5:DENAVECA_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P463 ns5:MEDALO .
+    ns3:P463 ns5:MEDALO .
 
 ns5:DERCMASOC a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11017,7 +11017,7 @@ ns5:GATI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P463 ns5:MACORBO .
+    ns3:P463 ns5:MACORBO .
 
 ns5:GLASICONAS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11044,8 +11044,8 @@ ns5:GRAVICAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:DOVVINIAS_person ;
-    ns1:P463 ns5:GRAVICAS .
+    ns3:P22 ns5:DOVVINIAS_person ;
+    ns3:P463 ns5:GRAVICAS .
 
 ns5:INEQAGLAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11088,7 +11088,7 @@ ns5:LOBBI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P463 ns5:RINI .
+    ns3:P463 ns5:RINI .
 
 ns5:LUGUDECAS a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11166,8 +11166,8 @@ ns5:MAQI-CUNALIG..._person a <http://www.w3.org/ns/ldp#BasicContainer>,
     void:inDataset ns5:Ogham_From_Epidoc ;
     ns5:definedInWikidata <http://www.wikidata.org/entity/Q67382235> ;
     ns5:nameRelatesTo <http://www.wikidata.org/entity/Q18498> ;
-    ns1:P22 ns5:COILLI_person ;
-    ns1:P463 ns5:COSCIS%2FN .
+    ns3:P22 ns5:COILLI_person ;
+    ns3:P463 ns5:COSCIS%2FN .
 
 ns5:MAQI-DUMILEAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11195,16 +11195,16 @@ ns5:MAQI-RITEAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:MAQI-DUMILEAS_person ;
-    ns1:P463 ns5:TOICACI .
+    ns3:P22 ns5:MAQI-DUMILEAS_person ;
+    ns3:P463 ns5:TOICACI .
 
 ns5:MAQI-TTAL_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:VORGOS_person ;
-    ns1:P463 ns5:TOICACI .
+    ns3:P22 ns5:VORGOS_person ;
+    ns3:P463 ns5:TOICACI .
 
 ns5:MARIANI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11240,7 +11240,7 @@ ns5:MEDUSI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P463 ns5:LUGA .
+    ns3:P463 ns5:LUGA .
 
 ns5:MEDVVI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11268,8 +11268,8 @@ ns5:NOCATI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:MAQI-RET%2FC..._person ;
-    ns1:P463 ns5:UDDAMI .
+    ns3:P22 ns5:MAQI-RET%2FC..._person ;
+    ns3:P463 ns5:UDDAMI .
 
 ns5:OLACON_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11282,7 +11282,7 @@ ns5:QECCIAS%3F_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P463 ns5:BROENIONAS%3F .
+    ns3:P463 ns5:BROENIONAS%3F .
 
 ns5:QRITTI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11416,7 +11416,7 @@ ns5:VEQREQ_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P463 ns5:GLUNLEGGET .
+    ns3:P463 ns5:GLUNLEGGET .
 
 ns5:VIRAGNI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11480,7 +11480,7 @@ ns5:CORBI_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:LABRID_person .
+    ns3:P22 ns5:LABRID_person .
 
 ns5:COSCIS%2FN a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11609,7 +11609,7 @@ ns5:LUGUDECAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
     void:inDataset ns5:Ogham_From_Epidoc ;
     ns5:definedInWikidata <http://www.wikidata.org/entity/Q67383482> ;
     ns5:nameRelatesTo <http://www.wikidata.org/entity/Q215683> ;
-    ns1:P22 ns5:NETA-SEGAMONAS_person .
+    ns3:P22 ns5:NETA-SEGAMONAS_person .
 
 ns5:MACORBO a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11644,7 +11644,7 @@ ns5:MAQI-DECEDAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
     ns5:descendantOf ns5:TURANIAS_person ;
-    ns1:P22 ns5:GLASICONAS_person,
+    ns3:P22 ns5:GLASICONAS_person,
         ns5:MARIN_person .
 
 ns5:MEDALO a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -11689,7 +11689,7 @@ ns5:RITTAVVECCAS_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:VEDDONOS_person .
+    ns3:P22 ns5:VEDDONOS_person .
 
 ns5:UDDAMI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -11830,8 +11830,8 @@ ns5:VEDELMETO_person a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     void:inDataset ns5:Ogham_From_Epidoc ;
-    ns1:P22 ns5:TOGITTACC%5BI%5D%3F_person ;
-    ns1:P463 ns5:LOGIDEAS .
+    ns3:P22 ns5:TOGITTACC%5BI%5D%3F_person ;
+    ns3:P463 ns5:LOGIDEAS .
 
 ns5:TOICACI a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -12039,7 +12039,7 @@ ns5:Ogham_From_Epidoc a void:Dataset,
     ns6:languages 0 ;
     ns6:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-09-22T15:55:52"^^xsd:dateTime ;
+    dcterms:modified "2024-09-22T15:57:11"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,

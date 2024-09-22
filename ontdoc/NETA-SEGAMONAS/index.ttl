@@ -1,26 +1,26 @@
-@prefix ns1: <http://www.i3mainz.de/ogham#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns2: <http://www.i3mainz.de/ogham#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns1:NETA-SEGAMONAS a <http://www.w3.org/ns/ldp#Resource>,
-        ns2:Word,
+ns2:NETA-SEGAMONAS a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Word: NETA-SEGAMONAS"@en,
         "Person: NETA-SEGAMONAS"@en,
         "Word: NETA-SEGAMONAS (ᚆᚓᚉᚐᚅᚓᚌᚐᚋᚑᚆᚐᚅ)"@en ;
-    void:inDataset ns1:Ogham_From_Epidoc ;
-    ns1:hasMember <http://www.i3mainz.de/ogham#...ERATI_person> ;
-    ns2:contains ns1:ᚅ_character,
-        ns1:ᚆ_character,
-        ns1:ᚉ_character,
-        ns1:ᚋ_character,
-        ns1:ᚌ_character,
-        ns1:ᚐ_character,
-        ns1:ᚑ_character,
-        ns1:ᚓ_character ;
-    ns2:sense ns1:NETA-SEGAMONAS_sense ;
-    ns2:transliteration "NETA-SEGAMONAS" ;
-    ns2:writtenRep "ᚆᚓᚉᚐᚅᚓᚌᚐᚋᚑᚆᚐᚅ" .
+    void:inDataset ns2:Ogham_From_Epidoc ;
+    ns2:hasMember <http://www.i3mainz.de/ogham#...ERATI_person> ;
+    ns1:contains ns2:ᚅ_character,
+        ns2:ᚆ_character,
+        ns2:ᚉ_character,
+        ns2:ᚋ_character,
+        ns2:ᚌ_character,
+        ns2:ᚐ_character,
+        ns2:ᚑ_character,
+        ns2:ᚓ_character ;
+    ns1:sense ns2:NETA-SEGAMONAS_sense ;
+    ns1:transliteration "NETA-SEGAMONAS" ;
+    ns1:writtenRep "ᚆᚓᚉᚐᚅᚓᚌᚐᚋᚑᚆᚐᚅ" .
 
