@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: writtenRep"@en ;
     void:property <http://www.w3.org/ns/lemon/ontolex#writtenRep> ;
-    void:triples 246 .
+    void:triples 263 .
 

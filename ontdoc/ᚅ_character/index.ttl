@@ -9,5 +9,6 @@
     rdfs:label "Character: ᚅ"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
     ns1:transliteration "S" ;
-    ns1:writtenRep "ᚅ" .
+    ns1:writtenRep <http://www.wikidata.org/entity/Q184661>,
+        "ᚅ" .
 

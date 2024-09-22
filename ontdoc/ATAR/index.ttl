@@ -1,21 +1,24 @@
-@prefix ns1: <http://www.i3mainz.de/ogham#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns2: <http://www.i3mainz.de/ogham#> .
+@prefix ns3: <http://www.w3.org/ns/lemon/lime#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns1:ATAR a <http://www.w3.org/ns/ldp#Resource>,
-        ns2:Word,
+ns2:ATAR a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Word: ATAR"@en,
         "Person: ATAR"@en,
         "Word: ATAR (ᚐᚉᚐᚏ)"@en ;
-    void:inDataset ns1:Ogham_From_Epidoc ;
-    ns1:hasMember ns1:BIVAIDONAS_person ;
-    ns2:contains ns1:ᚉ_character,
-        ns1:ᚏ_character,
-        ns1:ᚐ_character ;
-    ns2:sense ns1:ATAR_sense ;
-    ns2:transliteration "ATAR" ;
-    ns2:writtenRep "ᚐᚉᚐᚏ" .
+    void:inDataset ns2:Ogham_From_Epidoc ;
+    ns2:hasMember ns2:BIVAIDONAS_person ;
+    ns3:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns1:contains ns2:ᚉ_character,
+        ns2:ᚏ_character,
+        ns2:ᚐ_character ;
+    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns1:sense ns2:ATAR_sense ;
+    ns1:transliteration "ATAR" ;
+    ns1:writtenRep "ᚐᚉᚐᚏ" .
 

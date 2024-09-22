@@ -1,23 +1,26 @@
-@prefix ns1: <http://www.i3mainz.de/ogham#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns2: <http://www.i3mainz.de/ogham#> .
+@prefix ns3: <http://www.w3.org/ns/lemon/lime#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns1:LUGA a <http://www.w3.org/ns/ldp#Resource>,
-        ns2:Word,
+ns2:LUGA a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Word: LUGA"@en,
         "Person: LUGA"@en,
         "Word: LUGA (ᚂᚒᚌᚐ)"@en ;
-    void:inDataset ns1:Ogham_From_Epidoc ;
-    ns1:hasMember ns1:COLLABOT_person,
-        ns1:MEDUSI_person ;
-    ns2:contains ns1:ᚂ_character,
-        ns1:ᚌ_character,
-        ns1:ᚐ_character,
-        ns1:ᚒ_character ;
-    ns2:sense ns1:LUGA_sense ;
-    ns2:transliteration "LUGA" ;
-    ns2:writtenRep "ᚂᚒᚌᚐ" .
+    void:inDataset ns2:Ogham_From_Epidoc ;
+    ns2:hasMember ns2:COLLABOT_person,
+        ns2:MEDUSI_person ;
+    ns3:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns1:contains ns2:ᚂ_character,
+        ns2:ᚌ_character,
+        ns2:ᚐ_character,
+        ns2:ᚒ_character ;
+    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns1:sense ns2:LUGA_sense ;
+    ns1:transliteration "LUGA" ;
+    ns1:writtenRep "ᚂᚒᚌᚐ" .
 

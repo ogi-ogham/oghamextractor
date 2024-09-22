@@ -11,5 +11,6 @@
         <http://www.i3mainz.de/ogham#descendantOf>,
         <http://www.i3mainz.de/ogham#follows>,
         <http://www.i3mainz.de/ogham#hasMember>,
-        <http://www.i3mainz.de/ogham#nameRelatesTo> .
+        <http://www.i3mainz.de/ogham#nameRelatesTo>,
+        <http://www.i3mainz.de/ogham#script> .
 

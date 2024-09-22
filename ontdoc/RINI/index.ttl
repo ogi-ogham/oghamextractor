@@ -1,5 +1,6 @@
 @prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix ns2: <http://www.i3mainz.de/ogham#> .
+@prefix ns3: <http://www.w3.org/ns/lemon/lime#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
@@ -12,9 +13,11 @@ ns2:RINI a <http://www.w3.org/ns/ldp#Resource>,
         "Word: RINI (ᚏᚔᚆᚔ)"@en ;
     void:inDataset ns2:Ogham_From_Epidoc ;
     ns2:hasMember ns2:LOBBI_person ;
+    ns3:language <http://www.wikidata.org/entity/Q3320030> ;
     ns1:contains ns2:ᚆ_character,
         ns2:ᚏ_character,
         ns2:ᚔ_character ;
+    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
     ns1:sense ns2:RINI_sense ;
     ns1:transliteration "RINI" ;
     ns1:writtenRep "ᚏᚔᚆᚔ" .

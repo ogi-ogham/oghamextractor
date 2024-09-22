@@ -1061,5 +1061,6 @@ var search={
   "descendant of": "http://www.i3mainz.de/ogham#descendantOf",
   "follows": "http://www.i3mainz.de/ogham#follows",
   "has member": "http://www.i3mainz.de/ogham#hasMember",
-  "name relates to": "http://www.i3mainz.de/ogham#nameRelatesTo"
+  "name relates to": "http://www.i3mainz.de/ogham#nameRelatesTo",
+  "script": "http://www.i3mainz.de/ogham#script"
 }

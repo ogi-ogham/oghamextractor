@@ -40,13 +40,13 @@
     ns1:averageSubjectIRILength 42 ;
     ns1:datatypes 0 ;
     ns1:distinctBlankNodes 0 ;
-    ns1:distinctIRIReferences 3934 ;
+    ns1:distinctIRIReferences 3957 ;
     ns1:distinctLiterals 0 ;
-    ns1:distinctRDFNodes 3934 ;
+    ns1:distinctRDFNodes 3957 ;
     ns1:languages 0 ;
     ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-09-22T15:57:29"^^xsd:dateTime ;
+    dcterms:modified "2024-09-22T16:11:45"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -67,9 +67,11 @@
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_OghamObject>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Person>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Point>,
+        <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q147276>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q178561>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q18498>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q215683>,
+        <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q34770>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q3538737>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q41812345>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q527>,
@@ -77,18 +79,19 @@
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q67382150>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q67383482>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q67384733>,
+        <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q8192>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Q830>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_SpatialObject>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_SpatialObjectCollection>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Word> ;
-    void:classes 26 ;
+    void:classes 29 ;
     void:dataDump <https://ogi-ogham.github.io/oghamextractor/ontdoc//index.ttl> ;
-    void:distinctObjects 2855 ;
-    void:distinctSubjects 1057 ;
-    void:entities 1017 ;
+    void:distinctObjects 2868 ;
+    void:distinctSubjects 1065 ;
+    void:entities 1018 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 22 ;
+    void:properties 24 ;
     void:propertyPartition <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_P18>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_P22>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_P463>,
@@ -102,6 +105,8 @@
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_hasGeometry>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_hasMember>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_label>,
+        <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_language>,
+        <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_lexicalCategory>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_member>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_nameRelatesTo>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_reference>,
@@ -110,7 +115,7 @@
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_transliteration>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_type>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_writtenRep> ;
-    void:triples 7740 ;
+    void:triples 8232 ;
     void:uriSpace "http://www.i3mainz.de/ogham#"^^xsd:string ;
     void:vocabulary ns1:,
         dcam:,

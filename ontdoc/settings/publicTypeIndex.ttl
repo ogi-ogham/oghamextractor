@@ -891,9 +891,13 @@ owl:ObjectProperty a owl:Class .
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Person_collection>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Point>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Point_collection>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q147276>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q178561>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q184661>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q18498>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q215683>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q3320030>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q34770>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q3538737>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q3538737_collection>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q41812345>,
@@ -909,6 +913,7 @@ owl:ObjectProperty a owl:Class .
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q67383338>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q67383482>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q67384733>,
+        <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q8192>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q830>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#QECCIAS%3F>,
         <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#QECCIAS%3F_person>,
@@ -1120,6 +1125,10 @@ geo:GeometryCollection a owl:Class ;
     rdfs:subClassOf skos:Collection .
 
 <http://www.w3.org/ns/lemon/lime#Lexicon> a owl:Class .
+
+<http://www.wikidata.org/entity/Q34770> a owl:Class .
+
+<http://www.wikidata.org/entity/Q8192> a owl:Class .
 
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#%5BB%5DRRUA%2FENANN> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Word> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//%5BB%5DRRUA%2FENANN> .
@@ -3707,14 +3716,26 @@ geo:GeometryCollection a owl:Class ;
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Point_collection> ns1:forClass geo:GeometryCollection ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Point_collection> .
 
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q147276> ns1:forClass <#> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q147276> .
+
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q178561> ns1:forClass <#> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q178561> .
+
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q184661> ns1:forClass <http://www.wikidata.org/entity/Q8192> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q184661> .
 
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q18498> ns1:forClass <#> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q18498> .
 
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q215683> ns1:forClass <#> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q215683> .
+
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q3320030> ns1:forClass <http://www.wikidata.org/entity/Q34770> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q3320030> .
+
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q34770> ns1:forClass <#> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q34770> .
 
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q3538737> ns1:forClass <#> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q3538737> .
@@ -3760,6 +3781,9 @@ geo:GeometryCollection a owl:Class ;
 
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q67384733> ns1:forClass <http://www.w3.org/ns/lemon/ontolex#Word> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q67384733> .
+
+<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q8192> ns1:forClass <#> ;
+    ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q8192> .
 
 <https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/publicTypeIndex.ttl#Q830> ns1:forClass <#> ;
     ns1:instance <https://ogi-ogham.github.io/oghamextractor/ontdoc//Q830> .
