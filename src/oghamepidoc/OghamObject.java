@@ -110,6 +110,7 @@ public class OghamObject {
 		oghamobj.addSuperClass(feature);
 		geometry.addSuperClass(spatialobject);
 		point.addSuperClass(geometry);
+		oghamletter.addSuperClass(character);
 		nomenclature.addSuperClass(oghamword);
 		formular.addSuperClass(oghamword);
 		oghamword.addSuperClass(word);
@@ -175,9 +176,8 @@ public class OghamObject {
 			for(int i=0;i<woord.length();i++) {
 				String curstr=woord.charAt(i)+"";
 				if(OghamUtils.oghammap.containsKey(curstr.toLowerCase())) {
-					Individual chara=character.createIndividual(BASEURI+OghamUtils.oghammap.get(curstr.toLowerCase())+"_character");
+					Individual chara=oghamletter.createIndividual(BASEURI+OghamUtils.oghammap.get(curstr.toLowerCase())+"_character");
 					chara.addLabel("Character: "+OghamUtils.oghammap.get(curstr.toLowerCase()),"en");
-					chara.addRDFType(oghamletter);
 					chara.addProperty(script,oghamscript);
 					wordd.addProperty(contains, chara);
 					chara.addProperty(transliteration, curstr.toUpperCase());

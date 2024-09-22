@@ -155,7 +155,7 @@
               <http://www.i3mainz.de/ogham#NETA-SEGAMONAS_person> , <http://www.i3mainz.de/ogham#LUGUDECAS_person> , <http://www.i3mainz.de/ogham#NETA-SEGAMONAS> , <http://www.i3mainz.de/ogham#LUGUDECAS> .
 
 <http://www.i3mainz.de/ogham#ᚓ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚓ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "E" ;
@@ -845,7 +845,7 @@
               <http://www.i3mainz.de/ogham#OLACON_person> .
 
 <http://www.i3mainz.de/ogham#ᚌ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚌ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "G" ;
@@ -859,7 +859,7 @@
               <http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_person> .
 
 <http://www.i3mainz.de/ogham#ᚂ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚂ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "L" ;
@@ -1702,7 +1702,7 @@
               <http://www.i3mainz.de/ogham#MAQI-CORABIR_person> .
 
 <http://www.i3mainz.de/ogham#ᚏ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚏ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "R" ;
@@ -2291,7 +2291,8 @@
 
 <http://www.wikidata.org/entity/Q41812345>
       a       owl:Class ;
-      rdfs:label "Ogham Letter"@en .
+      rdfs:label "Ogham Letter"@en ;
+      rdfs:subClassOf <http://www.w3.org/ns/lemon/ontolex#Character> .
 
 <http://www.i3mainz.de/ogham#VRAICCI_person>
       a       <http://xmlns.com/foaf/0.1/Person> ;
@@ -3038,7 +3039,7 @@
               "POINT (-7.881039 52.148923)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#ᚈ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚈ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "D" ;
@@ -3819,7 +3820,7 @@
               "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=CO085-067008-" .
 
 <http://www.i3mainz.de/ogham#ᚐ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚐ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "A" ;
@@ -4181,7 +4182,7 @@
               "ᚈᚑᚄᚄᚔᚆᚔᚐ" .
 
 <http://www.i3mainz.de/ogham#ᚅ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚅ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "S" ;
@@ -5631,7 +5632,7 @@
               <http://www.i3mainz.de/ogham#VIRAGNI> , <http://www.i3mainz.de/ogham#CUNAGUSOS_person> , <http://www.i3mainz.de/ogham#VIRAGNI_person> , <http://www.i3mainz.de/ogham#CUNAGUSOS> .
 
 <http://www.i3mainz.de/ogham#ᚄ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚄ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "V" ;
@@ -5804,7 +5805,7 @@
               <http://www.i3mainz.de/ogham#COIMAGNI> .
 
 <http://www.i3mainz.de/ogham#ᚊ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚊ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "C" ;
@@ -5860,7 +5861,7 @@
               <http://www.i3mainz.de/ogham#MAQI-RITEAS_person> .
 
 <http://www.i3mainz.de/ogham#ᚋ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚋ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "M" ;
@@ -6145,7 +6146,7 @@
               "ᚐᚄᚔ" .
 
 <http://www.i3mainz.de/ogham#ᚒ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚒ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "U" ;
@@ -6632,7 +6633,7 @@
               <http://www.i3mainz.de/ogham#...LL..._person> .
 
 <http://www.i3mainz.de/ogham#ᚇ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚇ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "H" ;
@@ -6793,7 +6794,7 @@
               "POINT (-6.254558 53.340408)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#ᚁ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚁ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "B" ;
@@ -7698,7 +7699,7 @@
       a       <http://xmlns.com/foaf/0.1/Person> .
 
 <http://www.i3mainz.de/ogham#ᚆ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚆ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "N" ;
@@ -8040,7 +8041,7 @@
               "POINT (-7.481665 52.113809)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#ᚑ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚑ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "O" ;
@@ -8340,7 +8341,7 @@
               "ᚋᚐᚊᚑᚏᚁᚑ" .
 
 <http://www.i3mainz.de/ogham#ᚉ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚉ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "T" ;
@@ -8539,7 +8540,7 @@
               "POINT (-7.130026 52.57928)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://www.i3mainz.de/ogham#ᚔ_character>
-      a       <http://www.w3.org/ns/lemon/ontolex#Character> , <http://www.wikidata.org/entity/Q41812345> ;
+      a       <http://www.wikidata.org/entity/Q41812345> ;
       rdfs:label "Character: ᚔ"@en ;
       <http://www.w3.org/ns/lemon/ontolex#transliteration>
               "I" ;
