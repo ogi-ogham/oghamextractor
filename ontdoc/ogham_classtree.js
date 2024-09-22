@@ -1654,8 +1654,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
@@ -1665,9 +1665,9 @@ var tree={
               "instancecount": 2
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 1,
-              "http://www.wikidata.org/entity/Q41812345": 1
+              "instancecount": 4,
+              "http://www.w3.org/ns/lemon/ontolex#Character": 5,
+              "http://www.wikidata.org/entity/Q41812345": 5
             },
             "http://www.w3.org/ns/lemon/ontolex#sense": {
               "instancecount": 0,
@@ -1695,7 +1695,7 @@ var tree={
             }
           }
         },
-        "instancecount": 2
+        "instancecount": 6
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+285.+Kilbeg_geom",
@@ -2854,8 +2854,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 0
@@ -4374,8 +4374,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
@@ -4387,6 +4387,10 @@ var tree={
             }
           },
           "from": {
+            "http://www.i3mainz.de/ogham#descendantOf": {
+              "instancecount": 0,
+              "http://xmlns.com/foaf/0.1/Person": 1
+            },
             "http://www.w3.org/2006/vcard/ns#hasMember": {
               "instancecount": 0,
               "http://www.w3.org/2006/vcard/ns#Group": 1
@@ -4397,7 +4401,7 @@ var tree={
             },
             "http://www.wikidata.org/prop/direct/P6568": {
               "instancecount": 0,
-              "http://www.i3mainz.de/ogham#OghamObject": 1
+              "http://www.i3mainz.de/ogham#OghamObject": 2
             }
           }
         },
@@ -5889,8 +5893,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
@@ -5911,6 +5915,7 @@ var tree={
             },
             "http://www.w3.org/ns/lemon/ontolex#sense": {
               "instancecount": 0,
+              "http://www.wikidata.org/entity/Q67382150": 1,
               "http://www.w3.org/ns/lemon/ontolex#Word": 1
             }
           }
@@ -7074,8 +7079,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
@@ -7087,6 +7092,11 @@ var tree={
             },
             "http://www.wikidata.org/prop/direct/P18": {
               "instancecount": 0
+            },
+            "http://www.wikidata.org/prop/direct/P6568": {
+              "instancecount": 3,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 2,
+              "http://xmlns.com/foaf/0.1/Person": 2
             }
           },
           "from": {
@@ -7096,7 +7106,7 @@ var tree={
             }
           }
         },
-        "instancecount": 0
+        "instancecount": 3
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -7107,8 +7117,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -7245,8 +7255,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.i3mainz.de/ogham#hasMember": {
               "instancecount": 0,
@@ -7260,9 +7270,9 @@ var tree={
               "instancecount": 2
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 5,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 6,
-              "http://www.wikidata.org/entity/Q41812345": 6
+              "instancecount": 4,
+              "http://www.w3.org/ns/lemon/ontolex#Character": 5,
+              "http://www.wikidata.org/entity/Q41812345": 5
             },
             "http://www.w3.org/ns/lemon/ontolex#sense": {
               "instancecount": 0,
@@ -7294,7 +7304,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 7
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1693_character_suniv0_",
@@ -7550,8 +7560,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -7574,10 +7584,8 @@ var tree={
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
               "instancecount": 0,
-              "http://www.w3.org/ns/lemon/ontolex#Word": 91,
-              "http://www.wikidata.org/entity/Q3538737": 4,
-              "http://www.wikidata.org/entity/Q67382150": 2,
-              "http://www.wikidata.org/entity/Q67381377": 2
+              "http://www.w3.org/ns/lemon/ontolex#Word": 74,
+              "http://www.wikidata.org/entity/Q3538737": 4
             }
           }
         },
@@ -7641,8 +7649,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -7734,8 +7742,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -7793,8 +7801,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
@@ -7899,8 +7907,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -7909,16 +7917,14 @@ var tree={
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 228,
-              "http://www.w3.org/ns/lemon/ontolex#Word": 229,
-              "http://www.wikidata.org/entity/Q3538737": 14,
-              "http://www.wikidata.org/entity/Q67381377": 6,
-              "http://www.wikidata.org/entity/Q67382150": 3
+              "instancecount": 5,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 6,
+              "http://www.wikidata.org/entity/Q67381377": 6
             }
           },
           "from": {}
         },
-        "instancecount": 229
+        "instancecount": 6
       },
       {
         "id": "http://www.i3mainz.de/ogham#Point_collection",
@@ -7936,8 +7942,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -7977,8 +7983,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -8011,8 +8017,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
