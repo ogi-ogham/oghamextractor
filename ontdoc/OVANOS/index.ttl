@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#OVANOS> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: OVANOS"@en,
+    rdfs:label "Person Word: OVANOS (ᚑᚄᚐᚆᚑᚅ)"@en,
         "Person: OVANOS"@en,
         "Word: OVANOS (ᚑᚄᚐᚆᚑᚅ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

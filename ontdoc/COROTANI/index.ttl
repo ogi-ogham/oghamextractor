@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#COROTANI> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: COROTANI"@en,
+    rdfs:label "Person Word: COROTANI (ᚊᚑᚏᚑᚉᚐᚆᚔ)"@en,
         "Person: COROTANI"@en,
         "Word: COROTANI (ᚊᚑᚏᚑᚉᚐᚆᚔ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#LUGUDECAS> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: LUGUDECAS"@en,
+    rdfs:label "Person Word: LUGUDECAS (ᚂᚒᚌᚒᚈᚓᚊᚐᚅ)"@en,
         "Person: LUGUDECAS"@en,
         "Word: LUGUDECAS (ᚂᚒᚌᚒᚈᚓᚊᚐᚅ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

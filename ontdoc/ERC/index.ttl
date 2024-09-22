@@ -7,7 +7,7 @@
         ns1:Word,
         <http://www.wikidata.org/entity/Q67382150>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: ERC"@en,
+    rdfs:label "Person Word: ERC (ᚓᚏᚊ)"@en,
         "Person: ERC"@en,
         "Word: ERC (ᚓᚏᚊ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

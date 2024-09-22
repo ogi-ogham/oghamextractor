@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#GIRAGNI> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: GIRAGNI"@en,
+    rdfs:label "Person Word: GIRAGNI (ᚌᚔᚏᚐᚌᚆᚔ)"@en,
         "Person: GIRAGNI"@en,
         "Word: GIRAGNI (ᚌᚔᚏᚐᚌᚆᚔ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

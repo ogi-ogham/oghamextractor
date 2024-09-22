@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#SUVALLOS> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: SUVALLOS"@en,
+    rdfs:label "Person Word: SUVALLOS (ᚅᚒᚄᚐᚂᚂᚑᚅ)"@en,
         "Person: SUVALLOS"@en,
         "Word: SUVALLOS (ᚅᚒᚄᚐᚂᚂᚑᚅ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

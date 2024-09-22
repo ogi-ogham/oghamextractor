@@ -8,8 +8,9 @@ ns1:LUGA a <http://www.w3.org/ns/ldp#Resource>,
         ns2:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: LUGA"@en,
+    rdfs:label "Person Word: LUGA (ᚂᚒᚌᚐ)"@en,
         "Person: LUGA"@en,
+        "Tribe: LUGA"@en,
         "Word: LUGA (ᚂᚒᚌᚐ)"@en ;
     void:inDataset ns1:Ogham_From_Epidoc ;
     ns1:hasMember ns1:COLLABOT_person,

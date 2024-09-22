@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#DEGLANN> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: DEGLANN"@en,
+    rdfs:label "Person Word: DEGLANN (ᚈᚓᚌᚂᚐᚆᚆ)"@en,
         "Person: DEGLANN"@en,
         "Word: DEGLANN (ᚈᚓᚌᚂᚐᚆᚆ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

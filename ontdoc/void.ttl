@@ -509,7 +509,7 @@ doap: a voaf:Vocabulary ;
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_label> a void:Dataset ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 1106 .
+    void:triples 1258 .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_language> a void:Dataset ;
     rdfs:label "Property Partition: language"@en ;
@@ -706,13 +706,13 @@ foaf:Person rdfs:label "Person"@en .
     vext:averageSubjectIRILength 42 ;
     vext:datatypes 0 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 3957 ;
+    vext:distinctIRIReferences 3979 ;
     vext:distinctLiterals 0 ;
-    vext:distinctRDFNodes 3957 ;
+    vext:distinctRDFNodes 3979 ;
     vext:languages 0 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-09-22T16:17:07"^^xsd:dateTime ;
+    dcterms:modified "2024-09-22T16:42:23"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -752,7 +752,7 @@ foaf:Person rdfs:label "Person"@en .
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Word> ;
     void:classes 29 ;
     void:dataDump <https://ogi-ogham.github.io/oghamextractor/ontdoc//index.ttl> ;
-    void:distinctObjects 2868 ;
+    void:distinctObjects 2890 ;
     void:distinctSubjects 1065 ;
     void:entities 1018 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
@@ -781,7 +781,7 @@ foaf:Person rdfs:label "Person"@en .
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_transliteration>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_type>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_writtenRep> ;
-    void:triples 8232 ;
+    void:triples 8384 ;
     void:uriSpace "http://www.i3mainz.de/ogham#"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,

@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#SENAQ> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: SENAQ"@en,
+    rdfs:label "Person Word: SENAQ (ᚅᚓᚆᚐ)"@en,
         "Person: SENAQ"@en,
         "Word: SENAQ (ᚅᚓᚆᚐ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

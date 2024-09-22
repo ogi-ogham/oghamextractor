@@ -46,14 +46,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LOBACCONA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: LOBACCONA (LOBACCONA)",
+        "text": "Person: LOBACCONA (LOBACCONA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOICACI_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: TOICACI (TOICACI)",
+        "text": "Tribe: TOICACI (TOICACI)",
         "data": {}
       },
       {
@@ -67,7 +67,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#VLATIAMI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: VLATIAMI (VLATIAMI)",
+        "text": "Person Word: VLATIAMI (\u1684\u1682\u1690\u1689\u1694\u1690\u168b\u1694) (VLATIAMI)",
         "data": {}
       },
       {
@@ -88,14 +88,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LABRID",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: LABRID (LABRID)",
+        "text": "Word: LABRID (\u1682\u1690\u1681\u168f\u1694\u1688) (LABRID)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VITALIN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: VITALIN (VITALIN)",
+        "text": "Person: VITALIN (VITALIN)",
         "data": {}
       },
       {
@@ -116,7 +116,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: TOGITTACC[I] (\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694) (TOGITTACC%5BI%5D)",
+        "text": "Person Word: TOGITTACC[I] (\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694) (TOGITTACC%5BI%5D)",
         "data": {}
       },
       {
@@ -130,7 +130,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#ISAMMNN%3F_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: ISAMMNN? (ISAMMNN%3F)",
+        "text": "Tribe: ISAMMNN? (ISAMMNN%3F)",
         "data": {}
       },
       {
@@ -144,7 +144,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#INISSIONAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: INISSIONAS (INISSIONAS)",
+        "text": "Person Word: INISSIONAS (\u1694\u1686\u1694\u1685\u1685\u1694\u1691\u1686\u1690\u1685) (INISSIONAS)",
         "data": {}
       },
       {
@@ -165,14 +165,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MARIANI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: MARIANI (MARIANI)",
+        "text": "Person Word: MARIANI (\u168b\u1690\u168f\u1694\u1690\u1686\u1694) (MARIANI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDDONOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: VEDDONOS (VEDDONOS)",
+        "text": "Person Word: VEDDONOS (\u1684\u1693\u1688\u1688\u1691\u1686\u1691\u1685) (VEDDONOS)",
         "data": {}
       },
       {
@@ -186,7 +186,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#BECCDINN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: BECCDINN (\u1681\u1693\u168a\u168a\u1688\u1694\u1686\u1686) (BECCDINN)",
+        "text": "Person Word: BECCDINN (\u1681\u1693\u168a\u168a\u1688\u1694\u1686\u1686) (BECCDINN)",
         "data": {}
       },
       {
@@ -200,7 +200,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#GOSSUCTTIAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: GOSSUCTTIAS (GOSSUCTTIAS)",
+        "text": "Person Word: GOSSUCTTIAS (\u168c\u1691\u1685\u1685\u1692\u168a\u1689\u1689\u1694\u1690\u1685) (GOSSUCTTIAS)",
         "data": {}
       },
       {
@@ -214,7 +214,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#...LL...",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: ...LL... (...LL...)",
+        "text": "Person Word: ...LL... (\u1682\u1682) (...LL...)",
         "data": {}
       },
       {
@@ -235,7 +235,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#CUNACENA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: CUNACENA (CUNACENA)",
+        "text": "Person Word: CUNACENA (\u168a\u1692\u1686\u1690\u168a\u1693\u1686\u1690) (CUNACENA)",
         "data": {}
       },
       {
@@ -263,21 +263,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MOINENA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: MOINENA (MOINENA)",
+        "text": "Person Word: MOINENA (\u168b\u1691\u1694\u1686\u1693\u1686\u1690) (MOINENA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: NETTA-LAMINACCA (NETTA-LAMINACCA)",
+        "text": "Word: NETTA-LAMINACCA (\u1686\u1693\u1689\u1689\u1690\u1682\u1690\u168b\u1694\u1686\u1690\u168a\u168a\u1690) (NETTA-LAMINACCA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-TTAL",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: MAQI-TTAL (MAQI-TTAL)",
+        "text": "Person Word: MAQI-TTAL (\u168b\u1690\u1694\u1689\u1689\u1690\u1682) (MAQI-TTAL)",
         "data": {}
       },
       {
@@ -291,21 +291,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAILE-INBIR",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: MAILE-INBIR (MAILE-INBIR)",
+        "text": "Person Word: MAILE-INBIR (\u168b\u1690\u1694\u1682\u1693\u1694\u1686\u1681\u1694\u168f) (MAILE-INBIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#EQQEGGNI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: EQQEGGNI (EQQEGGNI)",
+        "text": "Person Word: EQQEGGNI (\u1693\u1693\u168c\u168c\u1686\u1694) (EQQEGGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SILLANN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: SILLANN (SILLANN)",
+        "text": "Person Word: SILLANN (\u1685\u1694\u1682\u1682\u1690\u1686\u1686) (SILLANN)",
         "data": {}
       },
       {
@@ -333,14 +333,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#VINNAGITLET%3F",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: VINNAGITLET? (VINNAGITLET%3F)",
+        "text": "Word: VINNAGITLET? (\u1684\u1694\u1686\u1686\u1690\u168c\u1694\u1689\u1682\u1693\u1689) (VINNAGITLET%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#IAQINI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: IAQINI (IAQINI)",
+        "text": "Person: IAQINI (IAQINI)",
         "data": {}
       },
       {
@@ -354,7 +354,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: B[AI]D[A]N[I] (B%5BAI%5DD%5BA%5DN%5BI%5D)",
+        "text": "Person Word: B[AI]D[A]N[I] (\u1681\u1690\u1694\u1688\u1690\u1686\u1694) (B%5BAI%5DD%5BA%5DN%5BI%5D)",
         "data": {}
       },
       {
@@ -368,7 +368,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#GALEOTOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: GALEOTOS (\u168c\u1690\u1682\u1693\u1691\u1689\u1691\u1685) (GALEOTOS)",
+        "text": "Person Word: GALEOTOS (\u168c\u1690\u1682\u1693\u1691\u1689\u1691\u1685) (GALEOTOS)",
         "data": {}
       },
       {
@@ -382,14 +382,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LUGUQRIT",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: LUGUQRIT (LUGUQRIT)",
+        "text": "Person: LUGUQRIT (LUGUQRIT)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUGENNGI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: DUGENNGI (DUGENNGI)",
+        "text": "Person Word: DUGENNGI (\u1688\u1692\u168c\u1693\u1686\u1686\u168c\u1694) (DUGENNGI)",
         "data": {}
       },
       {
@@ -424,7 +424,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LUGA_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: LUGA (LUGA)",
+        "text": "Tribe: LUGA (LUGA)",
         "data": {}
       },
       {
@@ -445,28 +445,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DOLIGENN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: DOLIGENN (\u1688\u1691\u1682\u1694\u168c\u1693\u1686\u1686) (DOLIGENN)",
+        "text": "Person Word: DOLIGENN (\u1688\u1691\u1682\u1694\u168c\u1693\u1686\u1686) (DOLIGENN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUIBITI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: MUIBITI (MUIBITI)",
+        "text": "Person Word: MUIBITI (\u168b\u1692\u1694\u1681\u1694\u1689\u1694) (MUIBITI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ATAR_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: ATAR (ATAR)",
+        "text": "Person: ATAR (ATAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIENAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: BROINIENAS (BROINIENAS)",
+        "text": "Word: BROINIENAS (\u1681\u168f\u1691\u1694\u1686\u1694\u1693\u1686\u1690\u1685) (BROINIENAS)",
         "data": {}
       },
       {
@@ -480,7 +480,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#SEVERRIT",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: SEVERRIT (SEVERRIT)",
+        "text": "Person Word: SEVERRIT (\u1685\u1693\u1684\u1693\u168f\u168f\u1694\u1689) (SEVERRIT)",
         "data": {}
       },
       {
@@ -501,14 +501,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MANU",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MANU (\u168b\u1690\u1686\u1692) (MANU)",
+        "text": "Person Word: MANU (\u168b\u1690\u1686\u1692) (MANU)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: DALI (\u1688\u1690\u1682\u1694) (DALI)",
+        "text": "Person Word: DALI (\u1688\u1690\u1682\u1694) (DALI)",
         "data": {}
       },
       {
@@ -522,7 +522,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#UDDAMI_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: UDDAMI (UDDAMI)",
+        "text": "Person Word: UDDAMI (\u1692\u1688\u1688\u1690\u168b\u1694) (UDDAMI)",
         "data": {}
       },
       {
@@ -550,14 +550,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#GATI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: GATI (GATI)",
+        "text": "Word: GATI (\u168c\u1690\u1689\u1694) (GATI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUNAIDONAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: DUNAIDONAS (DUNAIDONAS)",
+        "text": "Word: DUNAIDONAS (\u1688\u1692\u1686\u1690\u1694\u1688\u1691\u1686\u1690\u1685) (DUNAIDONAS)",
         "data": {}
       },
       {
@@ -585,7 +585,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#RAVASA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: RAVASA (RAVASA)",
+        "text": "Person Word: RAVASA (\u168f\u1690\u1684\u1690\u1685\u1690) (RAVASA)",
         "data": {}
       },
       {
@@ -620,21 +620,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#ERC_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: ERC (ERC)",
+        "text": "Person Word: ERC (\u1693\u168f\u168a) (ERC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIR",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: CIR (CIR)",
+        "text": "Person: CIR (CIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MINERC%3F",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MINERC? (\u168b\u1694\u1686\u1693\u168f\u168a) (MINERC%3F)",
+        "text": "Person Word: MINERC? (\u168b\u1694\u1686\u1693\u168f\u168a) (MINERC%3F)",
         "data": {}
       },
       {
@@ -648,21 +648,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DOVINIA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: DOVINIA (DOVINIA)",
+        "text": "Person Word: DOVINIA (\u1688\u1691\u1684\u1694\u1686\u1694\u1690) (DOVINIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NE%3FTTVRECC",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: NE?TTVRECC (NE%3FTTVRECC)",
+        "text": "Person Word: NE?TTVRECC (\u1686\u1693\u1689\u1689\u1684\u168f\u1693\u168a\u168a) (NE%3FTTVRECC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLATIGNI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: LLATIGNI (LLATIGNI)",
+        "text": "Person Word: LLATIGNI (\u1682\u1682\u1690\u1689\u1694\u168c\u1686\u1694) (LLATIGNI)",
         "data": {}
       },
       {
@@ -676,7 +676,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: MAQI-CAIRATINI (MAQI-CAIRATINI)",
+        "text": "Person Word: MAQI-CAIRATINI (\u168b\u1690\u1694\u168a\u1690\u1694\u168f\u1690\u1689\u1694\u1686\u1694) (MAQI-CAIRATINI)",
         "data": {}
       },
       {
@@ -704,7 +704,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#RODDOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: RODDOS (RODDOS)",
+        "text": "Person Word: RODDOS (\u168f\u1691\u1688\u1688\u1691\u1685) (RODDOS)",
         "data": {}
       },
       {
@@ -718,7 +718,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#IVACATTOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: IVACATTOS (IVACATTOS)",
+        "text": "Person Word: IVACATTOS (\u1694\u1684\u1690\u168a\u1690\u1689\u1689\u1691\u1685) (IVACATTOS)",
         "data": {}
       },
       {
@@ -739,7 +739,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#GLUNLEGGET_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: GLUNLEGGET (GLUNLEGGET)",
+        "text": "Tribe: GLUNLEGGET (GLUNLEGGET)",
         "data": {}
       },
       {
@@ -753,14 +753,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#BIRRAC",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: BIRRAC (BIRRAC)",
+        "text": "Person Word: BIRRAC (\u1681\u1694\u168f\u168f\u1690\u168a) (BIRRAC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: ALATTOS (ALATTOS)",
+        "text": "Word: ALATTOS (\u1690\u1682\u1690\u1689\u1689\u1691\u1685) (ALATTOS)",
         "data": {}
       },
       {
@@ -774,7 +774,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#VRAICCI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: VRAICCI (VRAICCI)",
+        "text": "Person Word: VRAICCI (\u1684\u168f\u1690\u1694\u168a\u168a\u1694) (VRAICCI)",
         "data": {}
       },
       {
@@ -788,7 +788,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DALAGNI_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: DALAGNI (DALAGNI)",
+        "text": "Person Word: DALAGNI (\u1688\u1690\u1682\u1690\u168c\u1686\u1694) (DALAGNI)",
         "data": {}
       },
       {
@@ -802,21 +802,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: [B]RRUA/ENANN (%5BB%5DRRUA%2FENANN)",
+        "text": "Word: [B]RRUA/ENANN (\u1681\u168f\u168f\u1692\u1690\u1693\u1686\u1690\u1686\u1686) (%5BB%5DRRUA%2FENANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORGOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: VORGOS (VORGOS)",
+        "text": "Word: VORGOS (\u1684\u1691\u168f\u168c\u1691\u1685) (VORGOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: C[....]SALAR (\u168a\u1685\u1690\u1682\u1690\u168f) (C%5B....%5DSALAR)",
+        "text": "Person Word: C[....]SALAR (\u168a\u1685\u1690\u1682\u1690\u168f) (C%5B....%5DSALAR)",
         "data": {}
       },
       {
@@ -837,7 +837,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MEDVVI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: MEDVVI (MEDVVI)",
+        "text": "Person Word: MEDVVI (\u168b\u1693\u1688\u1684\u1684\u1694) (MEDVVI)",
         "data": {}
       },
       {
@@ -900,7 +900,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQQI-IARI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MAQQI-IARI (\u168b\u1690\u1694\u1694\u1690\u168f\u1694) (MAQQI-IARI)",
+        "text": "Person Word: MAQQI-IARI (\u168b\u1690\u1694\u1694\u1690\u168f\u1694) (MAQQI-IARI)",
         "data": {}
       },
       {
@@ -935,14 +935,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#RITTAVVECCAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: RITTAVVECCAS (RITTAVVECCAS)",
+        "text": "Person Word: RITTAVVECCAS (\u168f\u1694\u1689\u1689\u1690\u1684\u1684\u1693\u168a\u168a\u1690\u1685) (RITTAVVECCAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MARIN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: MARIN (MARIN)",
+        "text": "Person Word: MARIN (\u168b\u1690\u168f\u1694\u1686) (MARIN)",
         "data": {}
       },
       {
@@ -956,21 +956,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#CALIACI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: CALIACI (\u168a\u1690\u1682\u1694\u1690\u168a\u1694) (CALIACI)",
+        "text": "Person Word: CALIACI (\u168a\u1690\u1682\u1694\u1690\u168a\u1694) (CALIACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: SAG(A)RETTOS (SAG%28A%29RETTOS)",
+        "text": "Person Word: SAG(A)RETTOS (\u1685\u1690\u168c\u1690\u168f\u1693\u1689\u1689\u1691\u1685) (SAG%28A%29RETTOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TURANIAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: TURANIAS (TURANIAS)",
+        "text": "Person Word: TURANIAS (\u1689\u1692\u168f\u1690\u1686\u1694\u1690\u1685) (TURANIAS)",
         "data": {}
       },
       {
@@ -991,7 +991,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#VURUDDRANN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: VURUDDRANN (VURUDDRANN)",
+        "text": "Word: VURUDDRANN (\u1684\u1692\u168f\u1692\u1688\u1688\u168f\u1690\u1686\u1686) (VURUDDRANN)",
         "data": {}
       },
       {
@@ -1005,21 +1005,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#OVANOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: OVANOS (OVANOS)",
+        "text": "Word: OVANOS (\u1691\u1684\u1690\u1686\u1691\u1685) (OVANOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVATUCI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: DOVATUCI (DOVATUCI)",
+        "text": "Person Word: DOVATUCI (\u1688\u1691\u1684\u1690\u1689\u1692\u168a\u1694) (DOVATUCI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CURCITTI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: CURCITTI (CURCITTI)",
+        "text": "Person Word: CURCITTI (\u168a\u1692\u168f\u168a\u1694\u1689\u1689\u1694) (CURCITTI)",
         "data": {}
       },
       {
@@ -1040,35 +1040,35 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-INI...",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MAQI-INI... (\u168b\u1690\u1694\u1694\u1686\u1694) (MAQI-INI...)",
+        "text": "Person Word: MAQI-INI... (\u168b\u1690\u1694\u1694\u1686\u1694) (MAQI-INI...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: CORBI (CORBI)",
+        "text": "Person Word: CORBI (\u168a\u1691\u168f\u1681\u1694) (CORBI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VOTI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: VOTI (VOTI)",
+        "text": "Person Word: VOTI (\u1684\u1691\u1689\u1694) (VOTI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOMANEQI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: DOMANEQI (DOMANEQI)",
+        "text": "Person Word: DOMANEQI (\u1688\u1691\u168b\u1690\u1686\u1693\u1694) (DOMANEQI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO%3F",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MACORBO? (\u168b\u1690\u168a\u1691\u168f\u1681\u1691) (MACORBO%3F)",
+        "text": "Person Word: MACORBO? (\u168b\u1690\u168a\u1691\u168f\u1681\u1691) (MACORBO%3F)",
         "data": {}
       },
       {
@@ -1096,21 +1096,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: MAQI-?OGGODIKA (MAQI-%3FOGGODIKA)",
+        "text": "Person Word: MAQI-?OGGODIKA (\u168b\u1690\u1694\u1691\u168c\u168c\u1691\u1688\u1694\u1690) (MAQI-%3FOGGODIKA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SRUSA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: SRUSA (SRUSA)",
+        "text": "Person Word: SRUSA (\u1685\u168f\u1692\u1685\u1690) (SRUSA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ESEA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MAQI-ESEA (\u168b\u1690\u1694\u1693\u1685\u1693\u1690) (MAQI-ESEA)",
+        "text": "Person Word: MAQI-ESEA (\u168b\u1690\u1694\u1693\u1685\u1693\u1690) (MAQI-ESEA)",
         "data": {}
       },
       {
@@ -1131,21 +1131,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MONGEDIAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: MONGEDIAS (MONGEDIAS)",
+        "text": "Person Word: MONGEDIAS (\u168b\u1691\u1686\u168c\u1693\u1688\u1694\u1690\u1685) (MONGEDIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CUNALIG...",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: MAQI-CUNALIG... (MAQI-CUNALIG...)",
+        "text": "Person Word: MAQI-CUNALIG... (\u168b\u1690\u1694\u168a\u1692\u1686\u1690\u1682\u1694\u168c) (MAQI-CUNALIG...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TEGANN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: TEGANN (TEGANN)",
+        "text": "Person Word: TEGANN (\u1689\u1693\u168c\u1690\u1686\u1686) (TEGANN)",
         "data": {}
       },
       {
@@ -1187,7 +1187,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#CEDATTOQA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: CEDATTOQA (CEDATTOQA)",
+        "text": "Word: CEDATTOQA (\u168a\u1693\u1688\u1690\u1689\u1689\u1691\u1690) (CEDATTOQA)",
         "data": {}
       },
       {
@@ -1201,7 +1201,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DOVINIAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: DOVINIAS (DOVINIAS)",
+        "text": "Person Word: DOVINIAS (\u1688\u1691\u1684\u1694\u1686\u1694\u1690\u1685) (DOVINIAS)",
         "data": {}
       },
       {
@@ -1222,7 +1222,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#COILLI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: COILLI (COILLI)",
+        "text": "Word: COILLI (\u168a\u1691\u1694\u1682\u1682\u1694) (COILLI)",
         "data": {}
       },
       {
@@ -1250,14 +1250,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LUGADDON",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: LUGADDON (LUGADDON)",
+        "text": "Person Word: LUGADDON (\u1682\u1692\u168c\u1690\u1688\u1688\u1691\u1686) (LUGADDON)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RINI_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: RINI (RINI)",
+        "text": "Tribe: RINI (RINI)",
         "data": {}
       },
       {
@@ -1271,7 +1271,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#GOSOCTEAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: GOSOCTEAS (\u168c\u1691\u1685\u1691\u168a\u1689\u1693\u1690\u1685) (GOSOCTEAS)",
+        "text": "Person Word: GOSOCTEAS (\u168c\u1691\u1685\u1691\u168a\u1689\u1693\u1690\u1685) (GOSOCTEAS)",
         "data": {}
       },
       {
@@ -1285,14 +1285,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#CUNAGUSOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: CUNAGUSOS (CUNAGUSOS)",
+        "text": "Person: CUNAGUSOS (CUNAGUSOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORRBRI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: CORRBRI (CORRBRI)",
+        "text": "Word: CORRBRI (\u168a\u1691\u168f\u168f\u1681\u168f\u1694) (CORRBRI)",
         "data": {}
       },
       {
@@ -1306,14 +1306,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#RONANN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: RONANN (RONANN)",
+        "text": "Person Word: RONANN (\u168f\u1691\u1686\u1690\u1686\u1686) (RONANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DIMAQA",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: DIMAQA (DIMAQA)",
+        "text": "Person Word: DIMAQA (\u1688\u1694\u168b\u1690\u1690) (DIMAQA)",
         "data": {}
       },
       {
@@ -1334,14 +1334,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#...ERATI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: ...ERATI (...ERATI)",
+        "text": "Person: ...ERATI (...ERATI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-CAGI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: NETA-CAGI (NETA-CAGI)",
+        "text": "Person Word: NETA-CAGI (\u1686\u1693\u1689\u1690\u168a\u1690\u168c\u1694) (NETA-CAGI)",
         "data": {}
       },
       {
@@ -1355,14 +1355,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-CORABIR",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: MAQI-CORABIR (MAQI-CORABIR)",
+        "text": "Person Word: MAQI-CORABIR (\u168b\u1690\u1694\u168a\u1691\u168f\u1690\u1681\u1694\u168f) (MAQI-CORABIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEQREQ",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: VEQREQ (\u1684\u1693\u168f\u1693) (VEQREQ)",
+        "text": "Person Word: VEQREQ (\u1684\u1693\u168f\u1693) (VEQREQ)",
         "data": {}
       },
       {
@@ -1383,7 +1383,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#BROINIONAS%3F",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: BROINIONAS? (\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685) (BROINIONAS%3F)",
+        "text": "Person Word: BROINIONAS? (\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685) (BROINIONAS%3F)",
         "data": {}
       },
       {
@@ -1397,14 +1397,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#ERCAVICCAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: ERCAVICCAS (ERCAVICCAS)",
+        "text": "Person Word: ERCAVICCAS (\u1693\u168f\u168a\u1690\u1684\u1694\u168a\u168a\u1690\u1685) (ERCAVICCAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ULCCAGNI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: ULCCAGNI (\u1692\u1682\u168a\u168a\u1690\u168c\u1686\u1694) (ULCCAGNI)",
+        "text": "Person Word: ULCCAGNI (\u1692\u1682\u168a\u168a\u1690\u168c\u1686\u1694) (ULCCAGNI)",
         "data": {}
       },
       {
@@ -1418,21 +1418,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#SUVALLOS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: SUVALLOS (SUVALLOS)",
+        "text": "Person Word: SUVALLOS (\u1685\u1692\u1684\u1690\u1682\u1682\u1691\u1685) (SUVALLOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DERCMASOC_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: DERCMASOC (DERCMASOC)",
+        "text": "Person Word: DERCMASOC (\u1688\u1693\u168f\u168a\u168b\u1690\u1685\u1691\u168a) (DERCMASOC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORB",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: CORB (CORB)",
+        "text": "Person: CORB (CORB)",
         "data": {}
       },
       {
@@ -1446,7 +1446,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TAN...",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: TAN... (TAN...)",
+        "text": "Person: TAN... (TAN...)",
         "data": {}
       },
       {
@@ -1488,21 +1488,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LUGUDECAS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: LUGUDECAS (\u1682\u1692\u168c\u1692\u1688\u1693\u168a\u1690\u1685) (LUGUDECAS)",
+        "text": "Person Word: LUGUDECAS (\u1682\u1692\u168c\u1692\u1688\u1693\u168a\u1690\u1685) (LUGUDECAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROENIONAS%3F_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: BROENIONAS? (BROENIONAS%3F)",
+        "text": "Tribe: BROENIONAS? (BROENIONAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: NETA-SEGAMONAS (NETA-SEGAMONAS)",
+        "text": "Person Word: NETA-SEGAMONAS (\u1686\u1693\u1689\u1690\u1685\u1693\u168c\u1690\u168b\u1691\u1686\u1690\u1685) (NETA-SEGAMONAS)",
         "data": {}
       },
       {
@@ -1516,28 +1516,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAKINI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: MAKINI (MAKINI)",
+        "text": "Person Word: MAKINI (\u168b\u1690\u1694\u1686\u1694) (MAKINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COLMAN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: COLMAN (COLMAN)",
+        "text": "Person Word: COLMAN (\u168a\u1691\u1682\u168b\u1690\u1686) (COLMAN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ROTTAIS",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: ROTTAIS (\u168f\u1691\u1689\u1689\u1690\u1694\u1685) (ROTTAIS)",
+        "text": "Person Word: ROTTAIS (\u168f\u1691\u1689\u1689\u1690\u1694\u1685) (ROTTAIS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLOTETI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: LLOTETI (\u1682\u1682\u1691\u1689\u1693\u1689\u1694) (LLOTETI)",
+        "text": "Person Word: LLOTETI (\u1682\u1682\u1691\u1689\u1693\u1689\u1694) (LLOTETI)",
         "data": {}
       },
       {
@@ -1551,7 +1551,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: NAG[U]N[I] (\u1686\u1690\u168c\u1692\u1686\u1694) (NAG%5BU%5DN%5BI%5D)",
+        "text": "Person Word: NAG[U]N[I] (\u1686\u1690\u168c\u1692\u1686\u1694) (NAG%5BU%5DN%5BI%5D)",
         "data": {}
       },
       {
@@ -1565,7 +1565,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#NOCATI",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: NOCATI (NOCATI)",
+        "text": "Person Word: NOCATI (\u1686\u1691\u168a\u1690\u1689\u1694) (NOCATI)",
         "data": {}
       },
       {
@@ -1579,14 +1579,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MACORBO_suniv0_",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: MACORBO (MACORBO)",
+        "text": "Person: MACORBO (MACORBO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIGU",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: BIGU (BIGU)",
+        "text": "Person Word: BIGU (\u1681\u1694\u168c\u1692) (BIGU)",
         "data": {}
       },
       {
@@ -1628,14 +1628,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#RETAGIN",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: RETAGIN (\u168f\u1693\u1689\u1690\u168c\u1694\u1686) (RETAGIN)",
+        "text": "Person Word: RETAGIN (\u168f\u1693\u1689\u1690\u168c\u1694\u1686) (RETAGIN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-RET%2FC...",
         "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person Word: MAQI-RET/C... (MAQI-RET%2FC...)",
+        "text": "Person Word: MAQI-RET/C... (\u168b\u1690\u1694\u168f\u1693\u1689\u168a) (MAQI-RET%2FC...)",
         "data": {}
       },
       {
@@ -1662,20 +1662,24 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 0
+              "instancecount": 2
             },
             "http://www.w3.org/ns/lemon/lime#language": {
               "instancecount": 0,
               "http://www.wikidata.org/entity/Q34770": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 5,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 6,
-              "http://www.wikidata.org/entity/Q41812345": 6
+              "instancecount": 6,
+              "http://www.w3.org/ns/lemon/ontolex#Character": 7,
+              "http://www.wikidata.org/entity/Q41812345": 7
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.w3.org/ns/lemon/ontolex#sense": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/ontolex#LexicalSense": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#transliteration": {
               "instancecount": 0
@@ -1692,10 +1696,14 @@ var tree={
             "http://www.w3.org/ns/lemon/lime#entry": {
               "instancecount": 0,
               "http://www.w3.org/ns/lemon/lime#Lexicon": 1
+            },
+            "http://www.wikidata.org/prop/direct/P6568": {
+              "instancecount": 0,
+              "http://www.i3mainz.de/ogham#OghamObject": 1
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 8
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+285.+Kilbeg_geom",
@@ -2899,7 +2907,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TRENALUGGO%3F_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "TRENALUGGO%3F_person (TRENALUGGO%3F_person)",
+        "text": "Person: TRENALUGGO? (TRENALUGGO%3F_person)",
         "data": {}
       },
       {
@@ -2913,7 +2921,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MARIANI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MARIANI_person (MARIANI_person)",
+        "text": "Person: MARIANI (MARIANI_person)",
         "data": {}
       },
       {
@@ -2927,42 +2935,42 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#ROTTAIS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "ROTTAIS_person (ROTTAIS_person)",
+        "text": "Person: ROTTAIS (ROTTAIS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LITENI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LITENI_person (LITENI_person)",
+        "text": "Person: LITENI (LITENI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DENAVECA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DENAVECA_person (DENAVECA_person)",
+        "text": "Person: DENAVECA (DENAVECA_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAGUSOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CUNAGUSOS_person (CUNAGUSOS_person)",
+        "text": "Person: CUNAGUSOS (CUNAGUSOS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLOTETI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LLOTETI_person (LLOTETI_person)",
+        "text": "Person: LLOTETI (LLOTETI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDDONOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "VEDDONOS_person (VEDDONOS_person)",
+        "text": "Person: VEDDONOS (VEDDONOS_person)",
         "data": {}
       },
       {
@@ -2976,28 +2984,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#CCICAMINI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CCICAMINI_person (CCICAMINI_person)",
+        "text": "Person: CCICAMINI (CCICAMINI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OVANOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "OVANOS_person (OVANOS_person)",
+        "text": "Person: OVANOS (OVANOS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOLIGENN_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DOLIGENN_person (DOLIGENN_person)",
+        "text": "Person: DOLIGENN (DOLIGENN_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TRENU_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "TRENU_person (TRENU_person)",
+        "text": "Person: TRENU (TRENU_person)",
         "data": {}
       },
       {
@@ -3011,49 +3019,49 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-DUMILEAS_person (MAQI-DUMILEAS_person)",
+        "text": "Person: MAQI-DUMILEAS (MAQI-DUMILEAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COIMAGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "COIMAGNI_person (COIMAGNI_person)",
+        "text": "Person: COIMAGNI (COIMAGNI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOMANEQI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DOMANEQI_person (DOMANEQI_person)",
+        "text": "Person: DOMANEQI (DOMANEQI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GRAVICAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "GRAVICAS_person (GRAVICAS_person)",
+        "text": "Person: GRAVICAS (GRAVICAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LABRID_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LABRID_person (LABRID_person)",
+        "text": "Person: LABRID (LABRID_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAILE-INBIR_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAILE-INBIR_person (MAILE-INBIR_person)",
+        "text": "Person: MAILE-INBIR (MAILE-INBIR_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QENILOCI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "QENILOCI_person (QENILOCI_person)",
+        "text": "Person: QENILOCI (QENILOCI_person)",
         "data": {}
       },
       {
@@ -3067,7 +3075,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#QVECI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "QVECI_person (QVECI_person)",
+        "text": "Tribe: QVECI (QVECI_person)",
         "data": {}
       },
       {
@@ -3081,7 +3089,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DOVINIA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DOVINIA_person (DOVINIA_person)",
+        "text": "Person: DOVINIA (DOVINIA_person)",
         "data": {}
       },
       {
@@ -3102,7 +3110,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#IVACATTOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "IVACATTOS_person (IVACATTOS_person)",
+        "text": "Tribe: IVACATTOS (IVACATTOS_person)",
         "data": {}
       },
       {
@@ -3116,7 +3124,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MEDVVI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MEDVVI_person (MEDVVI_person)",
+        "text": "Person: MEDVVI (MEDVVI_person)",
         "data": {}
       },
       {
@@ -3130,28 +3138,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#CATTABBOTT_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CATTABBOTT_person (CATTABBOTT_person)",
+        "text": "Person: CATTABBOTT (CATTABBOTT_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CORBI_person (CORBI_person)",
+        "text": "Person: CORBI (CORBI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNANETAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CUNANETAS_person (CUNANETAS_person)",
+        "text": "Person: CUNANETAS (CUNANETAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-ERCCIA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQQI-ERCCIA_person (MAQQI-ERCCIA_person)",
+        "text": "Person: MAQQI-ERCCIA (MAQQI-ERCCIA_person)",
         "data": {}
       },
       {
@@ -3165,21 +3173,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#SILLANN_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "SILLANN_person (SILLANN_person)",
+        "text": "Person: SILLANN (SILLANN_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VIRAGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "VIRAGNI_person (VIRAGNI_person)",
+        "text": "Person: VIRAGNI (VIRAGNI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERC_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "ERC_person (ERC_person)",
+        "text": "Person: ERC (ERC_person)",
         "data": {}
       },
       {
@@ -3193,35 +3201,35 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DUNAIDONAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DUNAIDONAS_person (DUNAIDONAS_person)",
+        "text": "Person: DUNAIDONAS (DUNAIDONAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SRUSA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "SRUSA_person (SRUSA_person)",
+        "text": "Tribe: SRUSA (SRUSA_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SENAQ_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "SENAQ_person (SENAQ_person)",
+        "text": "Person: SENAQ (SENAQ_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BRUSCCOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "BRUSCCOS_person (BRUSCCOS_person)",
+        "text": "Person: BRUSCCOS (BRUSCCOS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "ALATTOS_person (ALATTOS_person)",
+        "text": "Person: ALATTOS (ALATTOS_person)",
         "data": {}
       },
       {
@@ -3235,21 +3243,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TAN..._person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "TAN..._person (TAN..._person)",
+        "text": "Person: TAN... (TAN..._person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUGENNGI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DUGENNGI_person (DUGENNGI_person)",
+        "text": "Person: DUGENNGI (DUGENNGI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-DECEDAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-DECEDAS_person (MAQI-DECEDAS_person)",
+        "text": "Person: MAQI-DECEDAS (MAQI-DECEDAS_person)",
         "data": {}
       },
       {
@@ -3263,28 +3271,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "B%5BAID%5DAGNI_person (B%5BAID%5DAGNI_person)",
+        "text": "Person: B[AID]AGNI (B%5BAID%5DAGNI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUIBITI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MUIBITI_person (MUIBITI_person)",
+        "text": "Person: MUIBITI (MUIBITI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVVINIA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DOVVINIA_person (DOVVINIA_person)",
+        "text": "Person: DOVVINIA (DOVVINIA_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOICACI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "TOICACI_person (TOICACI_person)",
+        "text": "Person: TOICACI (TOICACI_person)",
         "data": {}
       },
       {
@@ -3298,14 +3306,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#BIGU_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "BIGU_person (BIGU_person)",
+        "text": "Person: BIGU (BIGU_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLASICONAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "GLASICONAS_person (GLASICONAS_person)",
+        "text": "Person: GLASICONAS (GLASICONAS_person)",
         "data": {}
       },
       {
@@ -3319,28 +3327,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#VRAICCI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "VRAICCI_person (VRAICCI_person)",
+        "text": "Person: VRAICCI (VRAICCI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#...ERATI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "...ERATI_person (...ERATI_person)",
+        "text": "Person: ...ERATI (...ERATI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RODDOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "RODDOS_person (RODDOS_person)",
+        "text": "Person: RODDOS (RODDOS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ENA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "ENA_person (ENA_person)",
+        "text": "Person: ENA (ENA_person)",
         "data": {}
       },
       {
@@ -3354,28 +3362,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#VURUDDRANN_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "VURUDDRANN_person (VURUDDRANN_person)",
+        "text": "Person: VURUDDRANN (VURUDDRANN_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALAGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DALAGNI_person (DALAGNI_person)",
+        "text": "Person: DALAGNI (DALAGNI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CEDATTOQA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CEDATTOQA_person (CEDATTOQA_person)",
+        "text": "Person: CEDATTOQA (CEDATTOQA_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MOINENA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MOINENA_person (MOINENA_person)",
+        "text": "Person: MOINENA (MOINENA_person)",
         "data": {}
       },
       {
@@ -3389,7 +3397,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "TOGITTACC%5BI%5D%3F_person (TOGITTACC%5BI%5D%3F_person)",
+        "text": "Person: TOGITTACC[I]? (TOGITTACC%5BI%5D%3F_person)",
         "data": {}
       },
       {
@@ -3403,14 +3411,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LOBBI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LOBBI_person (LOBBI_person)",
+        "text": "Person: LOBBI (LOBBI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COROTANI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "COROTANI_person (COROTANI_person)",
+        "text": "Person: COROTANI (COROTANI_person)",
         "data": {}
       },
       {
@@ -3438,35 +3446,35 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-INI..._person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-INI..._person (MAQI-INI..._person)",
+        "text": "Person: MAQI-INI... (MAQI-INI..._person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROCANN_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "BROCANN_person (BROCANN_person)",
+        "text": "Person: BROCANN (BROCANN_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAMAQQI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CUNAMAQQI_person (CUNAMAQQI_person)",
+        "text": "Person: CUNAMAQQI (CUNAMAQQI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COILLI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "COILLI_person (COILLI_person)",
+        "text": "Person: COILLI (COILLI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QRITTI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "QRITTI_person (QRITTI_person)",
+        "text": "Person: QRITTI (QRITTI_person)",
         "data": {}
       },
       {
@@ -3480,7 +3488,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TULOTANAGIA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "TULOTANAGIA_person (TULOTANAGIA_person)",
+        "text": "Tribe: TULOTANAGIA (TULOTANAGIA_person)",
         "data": {}
       },
       {
@@ -3494,7 +3502,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-CUNALIG..._person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-CUNALIG..._person (MAQI-CUNALIG..._person)",
+        "text": "Person: MAQI-CUNALIG... (MAQI-CUNALIG..._person)",
         "data": {}
       },
       {
@@ -3508,7 +3516,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#CUNALEGEA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CUNALEGEA_person (CUNALEGEA_person)",
+        "text": "Person: CUNALEGEA (CUNALEGEA_person)",
         "data": {}
       },
       {
@@ -3522,14 +3530,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#SUVALLOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "SUVALLOS_person (SUVALLOS_person)",
+        "text": "Person: SUVALLOS (SUVALLOS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUMELI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DUMELI_person (DUMELI_person)",
+        "text": "Person: DUMELI (DUMELI_person)",
         "data": {}
       },
       {
@@ -3543,7 +3551,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MARIN_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MARIN_person (MARIN_person)",
+        "text": "Person: MARIN (MARIN_person)",
         "data": {}
       },
       {
@@ -3557,7 +3565,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-CORABIR_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-CORABIR_person (MAQI-CORABIR_person)",
+        "text": "Person: MAQI-CORABIR (MAQI-CORABIR_person)",
         "data": {}
       },
       {
@@ -3571,14 +3579,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-TTAL_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-TTAL_person (MAQI-TTAL_person)",
+        "text": "Person: MAQI-TTAL (MAQI-TTAL_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTO_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "ALATTO_person (ALATTO_person)",
+        "text": "Person: ALATTO (ALATTO_person)",
         "data": {}
       },
       {
@@ -3592,21 +3600,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#SEDANI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "SEDANI_person (SEDANI_person)",
+        "text": "Person: SEDANI (SEDANI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIRRAC_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "BIRRAC_person (BIRRAC_person)",
+        "text": "Person: BIRRAC (BIRRAC_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGUDECAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LUGUDECAS_person (LUGUDECAS_person)",
+        "text": "Person: LUGUDECAS (LUGUDECAS_person)",
         "data": {}
       },
       {
@@ -3620,7 +3628,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "C%5B....%5DSALAR_person (C%5B....%5DSALAR_person)",
+        "text": "Person: C[....]SALAR (C%5B....%5DSALAR_person)",
         "data": {}
       },
       {
@@ -3634,14 +3642,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LUGADDON_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LUGADDON_person (LUGADDON_person)",
+        "text": "Person: LUGADDON (LUGADDON_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ADDILONA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "ADDILONA_person (ADDILONA_person)",
+        "text": "Person: ADDILONA (ADDILONA_person)",
         "data": {}
       },
       {
@@ -3655,7 +3663,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DERCMASOC_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DERCMASOC_person (DERCMASOC_person)",
+        "text": "Tribe: DERCMASOC (DERCMASOC_person)",
         "data": {}
       },
       {
@@ -3669,7 +3677,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#BR..._person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "BR..._person (BR..._person)",
+        "text": "Person: BR... (BR..._person)",
         "data": {}
       },
       {
@@ -3683,21 +3691,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#BECCDINN_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "BECCDINN_person (BECCDINN_person)",
+        "text": "Person: BECCDINN (BECCDINN_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "NETA-SEGAMONAS_person (NETA-SEGAMONAS_person)",
+        "text": "Person: NETA-SEGAMONAS (NETA-SEGAMONAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVINIAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DOVINIAS_person (DOVINIAS_person)",
+        "text": "Person: DOVINIAS (DOVINIAS_person)",
         "data": {}
       },
       {
@@ -3732,14 +3740,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DOVVINIAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DOVVINIAS_person (DOVVINIAS_person)",
+        "text": "Person: DOVVINIAS (DOVVINIAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTAVROICC_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "NETTAVROICC_person (NETTAVROICC_person)",
+        "text": "Person: NETTAVROICC (NETTAVROICC_person)",
         "data": {}
       },
       {
@@ -3753,70 +3761,70 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQQI-IARI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQQI-IARI_person (MAQQI-IARI_person)",
+        "text": "Person: MAQQI-IARI (MAQQI-IARI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DALI_person (DALI_person)",
+        "text": "Person: DALI (DALI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "AMMLLONGITT%3F_person (AMMLLONGITT%3F_person)",
+        "text": "Person: AMMLLONGITT? (AMMLLONGITT%3F_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "SAG%28A%29RETTOS_person (SAG%28A%29RETTOS_person)",
+        "text": "Person: SAG(A)RETTOS (SAG%28A%29RETTOS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MONGEDIAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MONGEDIAS_person (MONGEDIAS_person)",
+        "text": "Person: MONGEDIAS (MONGEDIAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBBI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CORBBI_person (CORBBI_person)",
+        "text": "Person: CORBBI (CORBBI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TURANIAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "TURANIAS_person (TURANIAS_person)",
+        "text": "Tribe: TURANIAS (TURANIAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIR_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "BIR_person (BIR_person)",
+        "text": "Person: BIR (BIR_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NOCATI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "NOCATI_person (NOCATI_person)",
+        "text": "Person: NOCATI (NOCATI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEQREQ_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "VEQREQ_person (VEQREQ_person)",
+        "text": "Person: VEQREQ (VEQREQ_person)",
         "data": {}
       },
       {
@@ -3837,7 +3845,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#GATI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "GATI_person (GATI_person)",
+        "text": "Person: GATI (GATI_person)",
         "data": {}
       },
       {
@@ -3851,28 +3859,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-RITEAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-RITEAS_person (MAQI-RITEAS_person)",
+        "text": "Person: MAQI-RITEAS (MAQI-RITEAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VATTILLOGG_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "VATTILLOGG_person (VATTILLOGG_person)",
+        "text": "Person: VATTILLOGG (VATTILLOGG_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QECCIAS%3F_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "QECCIAS%3F_person (QECCIAS%3F_person)",
+        "text": "Person: QECCIAS? (QECCIAS%3F_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO%3F_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MACORBO%3F_person (MACORBO%3F_person)",
+        "text": "Person: MACORBO? (MACORBO%3F_person)",
         "data": {}
       },
       {
@@ -3893,21 +3901,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DIMAQA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DIMAQA_person (DIMAQA_person)",
+        "text": "Person: DIMAQA (DIMAQA_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLATIGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LLATIGNI_person (LLATIGNI_person)",
+        "text": "Person: LLATIGNI (LLATIGNI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SEVERRIT_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "SEVERRIT_person (SEVERRIT_person)",
+        "text": "Person: SEVERRIT (SEVERRIT_person)",
         "data": {}
       },
       {
@@ -3942,14 +3950,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LUGUQRIT_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LUGUQRIT_person (LUGUQRIT_person)",
+        "text": "Person: LUGUQRIT (LUGUQRIT_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORRBRI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CORRBRI_person (CORRBRI_person)",
+        "text": "Person: CORRBRI (CORRBRI_person)",
         "data": {}
       },
       {
@@ -3963,28 +3971,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "NETTA-LAMINACCA_person (NETTA-LAMINACCA_person)",
+        "text": "Person: NETTA-LAMINACCA (NETTA-LAMINACCA_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ESEA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-ESEA_person (MAQI-ESEA_person)",
+        "text": "Person: MAQI-ESEA (MAQI-ESEA_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ERCIAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-ERCIAS_person (MAQI-ERCIAS_person)",
+        "text": "Person: MAQI-ERCIAS (MAQI-ERCIAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDUSI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MEDUSI_person (MEDUSI_person)",
+        "text": "Person: MEDUSI (MEDUSI_person)",
         "data": {}
       },
       {
@@ -3998,35 +4006,35 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#EQQEGGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "EQQEGGNI_person (EQQEGGNI_person)",
+        "text": "Person: EQQEGGNI (EQQEGGNI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CALUNOVICA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CALUNOVICA_person (CALUNOVICA_person)",
+        "text": "Person: CALUNOVICA (CALUNOVICA_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUCOVAROS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DUCOVAROS_person (DUCOVAROS_person)",
+        "text": "Person: DUCOVAROS (DUCOVAROS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORGOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "VORGOS_person (VORGOS_person)",
+        "text": "Person: VORGOS (VORGOS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OLACON_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "OLACON_person (OLACON_person)",
+        "text": "Person: OLACON (OLACON_person)",
         "data": {}
       },
       {
@@ -4040,28 +4048,28 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MINERC%3F_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MINERC%3F_person (MINERC%3F_person)",
+        "text": "Person: MINERC? (MINERC%3F_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VITALIN_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "VITALIN_person (VITALIN_person)",
+        "text": "Person: VITALIN (VITALIN_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERACIAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "ERACIAS_person (ERACIAS_person)",
+        "text": "Person: ERACIAS (ERACIAS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#INEQAGLAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "INEQAGLAS_person (INEQAGLAS_person)",
+        "text": "Tribe: INEQAGLAS (INEQAGLAS_person)",
         "data": {}
       },
       {
@@ -4082,14 +4090,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DEGOS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DEGOS_person (DEGOS_person)",
+        "text": "Person: DEGOS (DEGOS_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBAGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CORBAGNI_person (CORBAGNI_person)",
+        "text": "Person: CORBAGNI (CORBAGNI_person)",
         "data": {}
       },
       {
@@ -4103,7 +4111,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DOVATUCI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DOVATUCI_person (DOVATUCI_person)",
+        "text": "Person: DOVATUCI (DOVATUCI_person)",
         "data": {}
       },
       {
@@ -4124,7 +4132,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#RONANN_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "RONANN_person (RONANN_person)",
+        "text": "Person: RONANN (RONANN_person)",
         "data": {}
       },
       {
@@ -4145,7 +4153,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "TOGITTACC%5BI%5D_person (TOGITTACC%5BI%5D_person)",
+        "text": "Person: TOGITTACC[I] (TOGITTACC%5BI%5D_person)",
         "data": {}
       },
       {
@@ -4159,35 +4167,35 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQQI-LASIRE%28N%29_person (MAQQI-LASIRE%28N%29_person)",
+        "text": "Person: MAQQI-LASIRE(N) (MAQQI-LASIRE%28N%29_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COMMAGGAGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "COMMAGGAGNI_person (COMMAGGAGNI_person)",
+        "text": "Person: COMMAGGAGNI (COMMAGGAGNI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-CAIRATINI_person (MAQI-CAIRATINI_person)",
+        "text": "Person: MAQI-CAIRATINI (MAQI-CAIRATINI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTINI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CATTINI_person (CATTINI_person)",
+        "text": "Person: CATTINI (CATTINI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RITTAVVECCAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "RITTAVVECCAS_person (RITTAVVECCAS_person)",
+        "text": "Person: RITTAVVECCAS (RITTAVVECCAS_person)",
         "data": {}
       },
       {
@@ -4201,7 +4209,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-AINIA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-AINIA_person (MAQI-AINIA_person)",
+        "text": "Person: MAQI-AINIA (MAQI-AINIA_person)",
         "data": {}
       },
       {
@@ -4215,7 +4223,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DOVETI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "DOVETI_person (DOVETI_person)",
+        "text": "Person: DOVETI (DOVETI_person)",
         "data": {}
       },
       {
@@ -4229,14 +4237,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#CALIACI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "CALIACI_person (CALIACI_person)",
+        "text": "Person: CALIACI (CALIACI_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "%5BQE%5DTTEAS_person (%5BQE%5DTTEAS_person)",
+        "text": "Person: [QE]TTEAS (%5BQE%5DTTEAS_person)",
         "data": {}
       },
       {
@@ -4250,7 +4258,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#MAQI-RET%2FC..._person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "MAQI-RET%2FC..._person (MAQI-RET%2FC..._person)",
+        "text": "Person: MAQI-RET/C... (MAQI-RET%2FC..._person)",
         "data": {}
       },
       {
@@ -4271,7 +4279,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#COLLABOT_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "COLLABOT_person (COLLABOT_person)",
+        "text": "Person: COLLABOT (COLLABOT_person)",
         "data": {}
       },
       {
@@ -4285,14 +4293,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#VEDELMETO_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "VEDELMETO_person (VEDELMETO_person)",
+        "text": "Person: VEDELMETO (VEDELMETO_person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIVAIDONAS_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "BIVAIDONAS_person (BIVAIDONAS_person)",
+        "text": "Person: BIVAIDONAS (BIVAIDONAS_person)",
         "data": {}
       },
       {
@@ -4306,7 +4314,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LOBACCONA_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LOBACCONA_person (LOBACCONA_person)",
+        "text": "Person: LOBACCONA (LOBACCONA_person)",
         "data": {}
       },
       {
@@ -4320,14 +4328,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LAG%5B..._person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "LAG%5B..._person (LAG%5B..._person)",
+        "text": "Person: LAG[... (LAG%5B..._person)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BATTIGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "BATTIGNI_person (BATTIGNI_person)",
+        "text": "Tribe: BATTIGNI (BATTIGNI_person)",
         "data": {}
       },
       {
@@ -4341,7 +4349,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TASEGAGNI_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "TASEGAGNI_person (TASEGAGNI_person)",
+        "text": "Person: TASEGAGNI (TASEGAGNI_person)",
         "data": {}
       },
       {
@@ -4362,7 +4370,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#COMOGANN_person",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
-        "text": "COMOGANN_person (COMOGANN_person)",
+        "text": "Person: COMOGANN (COMOGANN_person)",
         "data": {}
       },
       {
@@ -4380,6 +4388,9 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 0
             },
             "http://www.wikidata.org/prop/direct/P22": {
               "instancecount": 0,
@@ -4405,9 +4416,13 @@ var tree={
               "instancecount": 0,
               "http://www.w3.org/ns/lemon/ontolex#LexicalSense": 1
             },
+            "http://www.wikidata.org/prop/direct/P22": {
+              "instancecount": 0,
+              "http://xmlns.com/foaf/0.1/Person": 1
+            },
             "http://www.wikidata.org/prop/direct/P6568": {
               "instancecount": 0,
-              "http://www.i3mainz.de/ogham#OghamObject": 1
+              "http://www.i3mainz.de/ogham#OghamObject": 3
             }
           }
         },
@@ -7099,10 +7114,8 @@ var tree={
               "instancecount": 0
             },
             "http://www.wikidata.org/prop/direct/P6568": {
-              "instancecount": 2,
-              "http://www.w3.org/ns/lemon/ontolex#Word": 2,
-              "http://www.wikidata.org/entity/Q3538737": 1,
-              "http://xmlns.com/foaf/0.1/Person": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 1
             }
           },
           "from": {
@@ -7112,7 +7125,7 @@ var tree={
             }
           }
         },
-        "instancecount": 2
+        "instancecount": 0
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -7158,14 +7171,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TOICACI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person Word: TOICACI (TOICACI)",
+        "text": "Tribe: TOICACI (TOICACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ISAMMNN%3F_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person Word: ISAMMNN? (ISAMMNN%3F)",
+        "text": "Tribe: ISAMMNN? (ISAMMNN%3F)",
         "data": {}
       },
       {
@@ -7186,21 +7199,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LUGA_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person Word: LUGA (LUGA)",
+        "text": "Tribe: LUGA (LUGA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ATAR_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person Word: ATAR (ATAR)",
+        "text": "Person: ATAR (ATAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#UDDAMI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person Word: UDDAMI (UDDAMI)",
+        "text": "Person Word: UDDAMI (\u1692\u1688\u1688\u1690\u168b\u1694) (UDDAMI)",
         "data": {}
       },
       {
@@ -7221,35 +7234,35 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#GLUNLEGGET_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person Word: GLUNLEGGET (GLUNLEGGET)",
+        "text": "Tribe: GLUNLEGGET (GLUNLEGGET)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RINI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person: RINI (RINI)",
+        "text": "Tribe: RINI (RINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROENIONAS%3F_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person Word: BROENIONAS? (BROENIONAS%3F)",
+        "text": "Tribe: BROENIONAS? (BROENIONAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person Word: NETA-SEGAMONAS (NETA-SEGAMONAS)",
+        "text": "Person Word: NETA-SEGAMONAS (\u1686\u1693\u1689\u1690\u1685\u1693\u168c\u1690\u168b\u1691\u1686\u1690\u1685) (NETA-SEGAMONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person Word: MACORBO (MACORBO)",
+        "text": "Person: MACORBO (MACORBO)",
         "data": {}
       },
       {
@@ -7273,16 +7286,16 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 2
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
+              "instancecount": 3
             },
             "http://www.w3.org/ns/lemon/lime#language": {
               "instancecount": 0,
               "http://www.wikidata.org/entity/Q34770": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 4,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 5,
-              "http://www.wikidata.org/entity/Q41812345": 5
+              "instancecount": 7,
+              "http://www.w3.org/ns/lemon/ontolex#Character": 8,
+              "http://www.wikidata.org/entity/Q41812345": 8
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
               "instancecount": 0,
@@ -7318,7 +7331,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 11
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1693_character_suniv0_",
@@ -7599,10 +7612,10 @@ var tree={
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
               "instancecount": 0,
-              "http://www.w3.org/ns/lemon/ontolex#Word": 154,
-              "http://www.wikidata.org/entity/Q3538737": 8,
-              "http://www.wikidata.org/entity/Q67381377": 5,
-              "http://www.wikidata.org/entity/Q67382150": 1
+              "http://www.w3.org/ns/lemon/ontolex#Word": 173,
+              "http://www.wikidata.org/entity/Q3538737": 11,
+              "http://www.wikidata.org/entity/Q67381377": 3,
+              "http://www.wikidata.org/entity/Q67382150": 2
             }
           }
         },
@@ -7755,7 +7768,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#ERC_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67382150",
         "type": "instance",
-        "text": "Person: ERC (ERC)",
+        "text": "Person Word: ERC (\u1693\u168f\u168a) (ERC)",
         "data": {}
       },
       {
@@ -7769,7 +7782,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DALAGNI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67382150",
         "type": "instance",
-        "text": "Person: DALAGNI (DALAGNI)",
+        "text": "Person Word: DALAGNI (\u1688\u1690\u1682\u1690\u168c\u1686\u1694) (DALAGNI)",
         "data": {}
       },
       {
@@ -7783,7 +7796,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DERCMASOC_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67382150",
         "type": "instance",
-        "text": "Person Word: DERCMASOC (DERCMASOC)",
+        "text": "Person Word: DERCMASOC (\u1688\u1693\u168f\u168a\u168b\u1690\u1685\u1691\u168a) (DERCMASOC)",
         "data": {}
       },
       {
@@ -7810,9 +7823,9 @@ var tree={
               "http://www.wikidata.org/entity/Q34770": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 2,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 3,
-              "http://www.wikidata.org/entity/Q41812345": 3
+              "instancecount": 5,
+              "http://www.w3.org/ns/lemon/ontolex#Character": 6,
+              "http://www.wikidata.org/entity/Q41812345": 6
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
               "instancecount": 0,
@@ -7844,7 +7857,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 8
       },
       {
         "id": "http://www.i3mainz.de/ogham#OghamDictionary",
@@ -7978,14 +7991,16 @@ var tree={
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 16,
-              "http://www.w3.org/ns/lemon/ontolex#Character": 17,
-              "http://www.wikidata.org/entity/Q41812345": 17
+              "instancecount": 228,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 229,
+              "http://www.wikidata.org/entity/Q3538737": 14,
+              "http://www.wikidata.org/entity/Q67382150": 3,
+              "http://www.wikidata.org/entity/Q67381377": 6
             }
           },
           "from": {}
         },
-        "instancecount": 17
+        "instancecount": 229
       },
       {
         "id": "http://www.i3mainz.de/ogham#Point_collection",

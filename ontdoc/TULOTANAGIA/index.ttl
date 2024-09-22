@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#TULOTANAGIA> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: TULOTANAGIA"@en,
+    rdfs:label "Person Word: TULOTANAGIA (ᚉᚒᚂᚑᚉᚐᚆᚐᚌᚔᚐ)"@en,
         "Person: TULOTANAGIA"@en,
         "Word: TULOTANAGIA (ᚉᚒᚂᚑᚉᚐᚆᚐᚌᚔᚐ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

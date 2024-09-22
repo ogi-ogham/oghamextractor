@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#NETA-CARI> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: NETA-CARI"@en,
+    rdfs:label "Person Word: NETA-CARI (ᚆᚓᚉᚐᚊᚐᚏᚔ)"@en,
         "Person: NETA-CARI"@en,
         "Word: NETA-CARI (ᚆᚓᚉᚐᚊᚐᚏᚔ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

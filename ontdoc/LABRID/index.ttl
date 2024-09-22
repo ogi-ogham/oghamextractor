@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#LABRID> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: LABRID"@en,
+    rdfs:label "Person Word: LABRID (ᚂᚐᚁᚏᚔᚈ)"@en,
         "Person: LABRID"@en,
         "Word: LABRID (ᚂᚐᚁᚏᚔᚈ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

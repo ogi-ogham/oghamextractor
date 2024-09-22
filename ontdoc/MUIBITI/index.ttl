@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#MUIBITI> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: MUIBITI"@en,
+    rdfs:label "Person Word: MUIBITI (ᚋᚒᚔᚁᚔᚉᚔ)"@en,
         "Person: MUIBITI"@en,
         "Word: MUIBITI (ᚋᚒᚔᚁᚔᚉᚔ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

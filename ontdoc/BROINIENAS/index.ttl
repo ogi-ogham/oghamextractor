@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#BROINIENAS> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: BROINIENAS"@en,
+    rdfs:label "Person Word: BROINIENAS (ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ)"@en,
         "Person: BROINIENAS"@en,
         "Word: BROINIENAS (ᚁᚏᚑᚔᚆᚔᚓᚆᚐᚅ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

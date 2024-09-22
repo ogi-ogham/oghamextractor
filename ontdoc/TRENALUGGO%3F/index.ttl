@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#TRENALUGGO%3F> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: TRENALUGGO?"@en,
+    rdfs:label "Person Word: TRENALUGGO? (ᚉᚏᚓᚆᚐᚂᚒᚌᚌᚑ)"@en,
         "Person: TRENALUGGO?"@en,
         "Word: TRENALUGGO? (ᚉᚏᚓᚆᚐᚂᚒᚌᚌᚑ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

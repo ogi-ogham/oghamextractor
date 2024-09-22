@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#GOSOCTEAS> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: GOSOCTEAS"@en,
+    rdfs:label "Person Word: GOSOCTEAS (ᚌᚑᚅᚑᚊᚉᚓᚐᚅ)"@en,
         "Person: GOSOCTEAS"@en,
         "Word: GOSOCTEAS (ᚌᚑᚅᚑᚊᚉᚓᚐᚅ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

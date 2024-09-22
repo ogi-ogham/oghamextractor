@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#COMMAGGAGNI> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: COMMAGGAGNI"@en,
+    rdfs:label "Person Word: COMMAGGAGNI (ᚊᚑᚋᚋᚐᚌᚌᚐᚌᚆᚔ)"@en,
         "Person: COMMAGGAGNI"@en,
         "Word: COMMAGGAGNI (ᚊᚑᚋᚋᚐᚌᚌᚐᚌᚆᚔ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

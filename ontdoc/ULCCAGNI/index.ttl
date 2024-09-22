@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#ULCCAGNI> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: ULCCAGNI"@en,
+    rdfs:label "Person Word: ULCCAGNI (ᚒᚂᚊᚊᚐᚌᚆᚔ)"@en,
         "Person: ULCCAGNI"@en,
         "Word: ULCCAGNI (ᚒᚂᚊᚊᚐᚌᚆᚔ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

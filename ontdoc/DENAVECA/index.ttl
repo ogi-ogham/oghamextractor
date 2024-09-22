@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#DENAVECA> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: DENAVECA"@en,
+    rdfs:label "Person Word: DENAVECA (ᚈᚓᚆᚐᚄᚓᚊᚐ)"@en,
         "Person: DENAVECA"@en,
         "Word: DENAVECA (ᚈᚓᚆᚐᚄᚓᚊᚐ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

@@ -8,8 +8,9 @@ ns3:GLUNLEGGET a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: GLUNLEGGET"@en,
+    rdfs:label "Person Word: GLUNLEGGET (ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ)"@en,
         "Person: GLUNLEGGET"@en,
+        "Tribe: GLUNLEGGET"@en,
         "Word: GLUNLEGGET (ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ)"@en ;
     void:inDataset ns3:Ogham_From_Epidoc ;
     ns3:hasMember ns3:VEQREQ_person ;

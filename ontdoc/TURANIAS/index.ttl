@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#TURANIAS> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: TURANIAS"@en,
+    rdfs:label "Person Word: TURANIAS (ᚉᚒᚏᚐᚆᚔᚐᚅ)"@en,
         "Person: TURANIAS"@en,
         "Word: TURANIAS (ᚉᚒᚏᚐᚆᚔᚐᚅ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

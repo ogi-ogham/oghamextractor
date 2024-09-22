@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#IVACATTOS> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: IVACATTOS"@en,
+    rdfs:label "Person Word: IVACATTOS (ᚔᚄᚐᚊᚐᚉᚉᚑᚅ)"@en,
         "Person: IVACATTOS"@en,
         "Word: IVACATTOS (ᚔᚄᚐᚊᚐᚉᚉᚑᚅ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

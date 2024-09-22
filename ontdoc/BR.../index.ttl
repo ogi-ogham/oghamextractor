@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#BR...> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: BR..."@en,
+    rdfs:label "Person Word: BR... (ᚁᚏ)"@en,
         "Person: BR..."@en,
         "Word: BR... (ᚁᚏ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

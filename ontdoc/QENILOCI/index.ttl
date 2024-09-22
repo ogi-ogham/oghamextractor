@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#QENILOCI> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: QENILOCI"@en,
+    rdfs:label "Person Word: QENILOCI (ᚓᚆᚔᚂᚑᚊᚔ)"@en,
         "Person: QENILOCI"@en,
         "Word: QENILOCI (ᚓᚆᚔᚂᚑᚊᚔ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

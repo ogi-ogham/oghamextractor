@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: NAG[U]N[I]"@en,
+    rdfs:label "Person Word: NAG[U]N[I] (ᚆᚐᚌᚒᚆᚔ)"@en,
         "Person: NAG[U]N[I]"@en,
         "Word: NAG[U]N[I] (ᚆᚐᚌᚒᚆᚔ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

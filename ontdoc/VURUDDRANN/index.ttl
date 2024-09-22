@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#VURUDDRANN> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: VURUDDRANN"@en,
+    rdfs:label "Person Word: VURUDDRANN (ᚄᚒᚏᚒᚈᚈᚏᚐᚆᚆ)"@en,
         "Person: VURUDDRANN"@en,
         "Word: VURUDDRANN (ᚄᚒᚏᚒᚈᚈᚏᚐᚆᚆ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#CATTUVIR> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: CATTUVIR"@en,
+    rdfs:label "Person Word: CATTUVIR (ᚊᚐᚉᚉᚒᚄᚔᚏ)"@en,
         "Person: CATTUVIR"@en,
         "Word: CATTUVIR (ᚊᚐᚉᚉᚒᚄᚔᚏ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

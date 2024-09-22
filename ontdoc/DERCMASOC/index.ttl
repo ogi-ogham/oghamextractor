@@ -7,7 +7,7 @@
         ns1:Word,
         <http://www.wikidata.org/entity/Q67382150>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: DERCMASOC"@en,
+    rdfs:label "Person Word: DERCMASOC (ᚈᚓᚏᚊᚋᚐᚅᚑᚊ)"@en,
         "Person: DERCMASOC"@en,
         "Word: DERCMASOC (ᚈᚓᚏᚊᚋᚐᚅᚑᚊ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

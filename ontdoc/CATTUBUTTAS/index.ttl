@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#CATTUBUTTAS> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: CATTUBUTTAS"@en,
+    rdfs:label "Person Word: CATTUBUTTAS (ᚊᚐᚉᚉᚒᚁᚒᚉᚉᚐᚅ)"@en,
         "Person: CATTUBUTTAS"@en,
         "Word: CATTUBUTTAS (ᚊᚐᚉᚉᚒᚁᚒᚉᚉᚐᚅ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

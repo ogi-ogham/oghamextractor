@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#COLLABOT> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: COLLABOT"@en,
+    rdfs:label "Person Word: COLLABOT (ᚊᚑᚂᚂᚐᚁᚑᚉ)"@en,
         "Person: COLLABOT"@en,
         "Word: COLLABOT (ᚊᚑᚂᚂᚐᚁᚑᚉ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

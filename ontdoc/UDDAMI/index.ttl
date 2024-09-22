@@ -1,26 +1,27 @@
 @prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
-@prefix ns3: <http://www.i3mainz.de/ogham#> .
+@prefix ns2: <http://www.i3mainz.de/ogham#> .
+@prefix ns3: <http://www.w3.org/ns/lemon/lime#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns3:UDDAMI a <http://www.w3.org/ns/ldp#Resource>,
+ns2:UDDAMI a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: UDDAMI"@en,
+    rdfs:label "Person Word: UDDAMI (ᚒᚈᚈᚐᚋᚔ)"@en,
         "Person: UDDAMI"@en,
+        "Tribe: UDDAMI"@en,
         "Word: UDDAMI (ᚒᚈᚈᚐᚋᚔ)"@en ;
-    void:inDataset ns3:Ogham_From_Epidoc ;
-    ns3:hasMember ns3:NOCATI_person ;
-    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns1:contains ns3:ᚈ_character,
-        ns3:ᚋ_character,
-        ns3:ᚐ_character,
-        ns3:ᚒ_character,
-        ns3:ᚔ_character ;
+    void:inDataset ns2:Ogham_From_Epidoc ;
+    ns2:hasMember ns2:NOCATI_person ;
+    ns3:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns1:contains ns2:ᚈ_character,
+        ns2:ᚋ_character,
+        ns2:ᚐ_character,
+        ns2:ᚒ_character,
+        ns2:ᚔ_character ;
     ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns1:sense ns3:UDDAMI_sense ;
+    ns1:sense ns2:UDDAMI_sense ;
     ns1:transliteration "UDDAMI" ;
     ns1:writtenRep "ᚒᚈᚈᚐᚋᚔ" .
 

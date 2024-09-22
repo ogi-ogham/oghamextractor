@@ -8,8 +8,9 @@ ns3:RINI a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: RINI"@en,
+    rdfs:label "Person Word: RINI (ᚏᚔᚆᚔ)"@en,
         "Person: RINI"@en,
+        "Tribe: RINI"@en,
         "Word: RINI (ᚏᚔᚆᚔ)"@en ;
     void:inDataset ns3:Ogham_From_Epidoc ;
     ns3:hasMember ns3:LOBBI_person ;

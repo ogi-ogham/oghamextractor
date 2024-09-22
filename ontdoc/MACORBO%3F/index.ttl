@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#MACORBO%3F> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: MACORBO?"@en,
+    rdfs:label "Person Word: MACORBO? (ᚋᚐᚊᚑᚏᚁᚑ)"@en,
         "Person: MACORBO?"@en,
         "Word: MACORBO? (ᚋᚐᚊᚑᚏᚁᚑ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

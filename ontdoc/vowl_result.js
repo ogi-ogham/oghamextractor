@@ -4771,7 +4771,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LITENI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: VLATIAMI",
+   "label": "Person Word: VLATIAMI (\u1684\u1682\u1690\u1689\u1694\u1690\u168b\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -4954,7 +4954,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QECCIAS%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: LABRID",
+   "label": "Word: LABRID (\u1682\u1690\u1681\u168f\u1694\u1688)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -5015,7 +5015,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LABRID",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: VITALIN",
+   "label": "Person: VITALIN",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -5151,7 +5151,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BR...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: TOGITTACC[I] (\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694)",
+   "label": "Person Word: TOGITTACC[I] (\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -5340,7 +5340,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#KOI%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: INISSIONAS",
+   "label": "Person Word: INISSIONAS (\u1694\u1686\u1694\u1685\u1685\u1694\u1691\u1686\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -5515,7 +5515,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MOCOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MARIANI",
+   "label": "Person Word: MARIANI (\u168b\u1690\u168f\u1694\u1690\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -5576,7 +5576,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MARIANI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: VEDDONOS",
+   "label": "Person Word: VEDDONOS (\u1684\u1693\u1688\u1688\u1691\u1686\u1691\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -5698,7 +5698,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROINIONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: BECCDINN (\u1681\u1693\u168a\u168a\u1688\u1694\u1686\u1686)",
+   "label": "Person Word: BECCDINN (\u1681\u1693\u168a\u168a\u1688\u1694\u1686\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -5820,7 +5820,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COBRANORA%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: GOSSUCTTIAS",
+   "label": "Person Word: GOSSUCTTIAS (\u168c\u1691\u1685\u1685\u1692\u168a\u1689\u1689\u1694\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -5895,7 +5895,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GRAVICAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: ...LL...",
+   "label": "Person Word: ...LL... (\u1682\u1682)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -6078,7 +6078,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBBI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: CUNACENA",
+   "label": "Person Word: CUNACENA (\u168a\u1692\u1686\u1690\u168a\u1693\u1686\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -6322,7 +6322,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDABAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MOINENA",
+   "label": "Person Word: MOINENA (\u168b\u1691\u1694\u1686\u1693\u1686\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -6383,7 +6383,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MOINENA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: NETTA-LAMINACCA",
+   "label": "Word: NETTA-LAMINACCA (\u1686\u1693\u1689\u1689\u1690\u1682\u1690\u168b\u1694\u1686\u1690\u168a\u168a\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -6444,7 +6444,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: MAQI-TTAL",
+   "label": "Person Word: MAQI-TTAL (\u168b\u1690\u1694\u1689\u1689\u1690\u1682)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -6519,7 +6519,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COSCIS%2FN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MAILE-INBIR",
+   "label": "Person Word: MAILE-INBIR (\u168b\u1690\u1694\u1682\u1693\u1694\u1686\u1681\u1694\u168f)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -6580,7 +6580,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAILE-INBIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: EQQEGGNI",
+   "label": "Person Word: EQQEGGNI (\u1693\u1693\u168c\u168c\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -6641,7 +6641,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#EQQEGGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: SILLANN",
+   "label": "Person Word: SILLANN (\u1685\u1694\u1682\u1682\u1690\u1686\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -6885,7 +6885,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: VINNAGITLET?",
+   "label": "Word: VINNAGITLET? (\u1684\u1694\u1686\u1686\u1690\u168c\u1694\u1689\u1682\u1693\u1689)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -6946,7 +6946,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VINNAGITLET%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: IAQINI",
+   "label": "Person: IAQINI",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -7068,7 +7068,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: B[AI]D[A]N[I]",
+   "label": "Person Word: B[AI]D[A]N[I] (\u1681\u1690\u1694\u1688\u1690\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -7190,7 +7190,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: GALEOTOS (\u168c\u1690\u1682\u1693\u1691\u1689\u1691\u1685)",
+   "label": "Person Word: GALEOTOS (\u168c\u1690\u1682\u1693\u1691\u1689\u1691\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -7312,7 +7312,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COIMAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: LUGUQRIT",
+   "label": "Person: LUGUQRIT",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -7373,7 +7373,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGUQRIT",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: DUGENNGI",
+   "label": "Person Word: DUGENNGI (\u1688\u1692\u168c\u1693\u1686\u1686\u168c\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -7806,7 +7806,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TASEGAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: DOLIGENN (\u1688\u1691\u1682\u1694\u168c\u1693\u1686\u1686)",
+   "label": "Person Word: DOLIGENN (\u1688\u1691\u1682\u1694\u168c\u1693\u1686\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -7867,7 +7867,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOLIGENN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MUIBITI",
+   "label": "Person Word: MUIBITI (\u168b\u1692\u1694\u1681\u1694\u1689\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -7942,7 +7942,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ATAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: BROINIENAS",
+   "label": "Word: BROINIENAS (\u1681\u168f\u1691\u1694\u1686\u1694\u1693\u1686\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -8064,7 +8064,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ALATTO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: SEVERRIT",
+   "label": "Person Word: SEVERRIT (\u1685\u1693\u1684\u1693\u168f\u168f\u1694\u1689)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -8239,7 +8239,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUCOI%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MANU (\u168b\u1690\u1686\u1692)",
+   "label": "Person Word: MANU (\u168b\u1690\u1686\u1692)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -8300,7 +8300,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MANU",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: DALI (\u1688\u1690\u1682\u1694)",
+   "label": "Person Word: DALI (\u1688\u1690\u1682\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -8572,7 +8572,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMADU",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: GATI",
+   "label": "Word: GATI (\u168c\u1690\u1689\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -8633,7 +8633,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GATI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: DUNAIDONAS",
+   "label": "Word: DUNAIDONAS (\u1688\u1692\u1686\u1690\u1694\u1688\u1691\u1686\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -8877,7 +8877,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TUCACAC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: RAVASA",
+   "label": "Person Word: RAVASA (\u168f\u1690\u1684\u1690\u1685\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -9149,7 +9149,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: CIR",
+   "label": "Person: CIR",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -9210,7 +9210,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MINERC? (\u168b\u1694\u1686\u1693\u168f\u168a)",
+   "label": "Person Word: MINERC? (\u168b\u1694\u1686\u1693\u168f\u168a)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -9332,7 +9332,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTUBUTTAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: DOVINIA",
+   "label": "Person Word: DOVINIA (\u1688\u1691\u1684\u1694\u1686\u1694\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -9393,7 +9393,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVINIA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: NE?TTVRECC",
+   "label": "Person Word: NE?TTVRECC (\u1686\u1693\u1689\u1689\u1684\u168f\u1693\u168a\u168a)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -9454,7 +9454,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NE%3FTTVRECC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: LLATIGNI",
+   "label": "Person Word: LLATIGNI (\u1682\u1682\u1690\u1689\u1694\u168c\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -9576,7 +9576,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: MAQI-CAIRATINI",
+   "label": "Person Word: MAQI-CAIRATINI (\u168b\u1690\u1694\u168a\u1690\u1694\u168f\u1690\u1689\u1694\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -9765,7 +9765,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDALO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: RODDOS",
+   "label": "Person Word: RODDOS (\u168f\u1691\u1688\u1688\u1691\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -9887,7 +9887,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ERCIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: IVACATTOS",
+   "label": "Person Word: IVACATTOS (\u1694\u1684\u1690\u168a\u1690\u1689\u1689\u1691\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -10098,7 +10098,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GELAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: BIRRAC",
+   "label": "Person Word: BIRRAC (\u1681\u1694\u168f\u168f\u1690\u168a)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -10159,7 +10159,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIRRAC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: ALATTOS",
+   "label": "Word: ALATTOS (\u1690\u1682\u1690\u1689\u1689\u1691\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -10281,7 +10281,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NILI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: VRAICCI",
+   "label": "Person Word: VRAICCI (\u1684\u168f\u1690\u1694\u168a\u168a\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -10470,7 +10470,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEGOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: [B]RRUA/ENANN",
+   "label": "Word: [B]RRUA/ENANN (\u1681\u168f\u168f\u1692\u1690\u1693\u1686\u1690\u1686\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -10531,7 +10531,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: VORGOS",
+   "label": "Word: VORGOS (\u1684\u1691\u168f\u168c\u1691\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -10592,7 +10592,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORGOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: C[....]SALAR (\u168a\u1685\u1690\u1682\u1690\u168f)",
+   "label": "Person Word: C[....]SALAR (\u168a\u1685\u1690\u1682\u1690\u168f)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -10775,7 +10775,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUMELI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: MEDVVI",
+   "label": "Person Word: MEDVVI (\u168b\u1693\u1688\u1684\u1684\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -11324,7 +11324,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GIRAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MAQQI-IARI (\u168b\u1690\u1694\u1694\u1690\u168f\u1694)",
+   "label": "Person Word: MAQQI-IARI (\u168b\u1690\u1694\u1694\u1690\u168f\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -11582,7 +11582,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AILITHIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: RITTAVVECCAS",
+   "label": "Person Word: RITTAVVECCAS (\u168f\u1694\u1689\u1689\u1690\u1684\u1684\u1693\u168a\u168a\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -11643,7 +11643,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RITTAVVECCAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MARIN",
+   "label": "Person Word: MARIN (\u168b\u1690\u168f\u1694\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -11765,7 +11765,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ADDILONA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: CALIACI (\u168a\u1690\u1682\u1694\u1690\u168a\u1694)",
+   "label": "Person Word: CALIACI (\u168a\u1690\u1682\u1694\u1690\u168a\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -11826,7 +11826,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CALIACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: SAG(A)RETTOS",
+   "label": "Person Word: SAG(A)RETTOS (\u1685\u1690\u168c\u1690\u168f\u1693\u1689\u1689\u1691\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -11887,7 +11887,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: TURANIAS",
+   "label": "Person Word: TURANIAS (\u1689\u1692\u168f\u1690\u1686\u1694\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12070,7 +12070,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: VURUDDRANN",
+   "label": "Word: VURUDDRANN (\u1684\u1692\u168f\u1692\u1688\u1688\u168f\u1690\u1686\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12184,7 +12184,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUCO%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: OVANOS",
+   "label": "Word: OVANOS (\u1691\u1684\u1690\u1686\u1691\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12245,7 +12245,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OVANOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: DOVATUCI",
+   "label": "Person Word: DOVATUCI (\u1688\u1691\u1684\u1690\u1689\u1692\u168a\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12306,7 +12306,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVATUCI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: CURCITTI",
+   "label": "Person Word: CURCITTI (\u168a\u1692\u168f\u168a\u1694\u1689\u1689\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12489,7 +12489,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUBBIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MAQI-INI... (\u168b\u1690\u1694\u1694\u1686\u1694)",
+   "label": "Person Word: MAQI-INI... (\u168b\u1690\u1694\u1694\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12550,7 +12550,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-INI...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: CORBI",
+   "label": "Person Word: CORBI (\u168a\u1691\u168f\u1681\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12611,7 +12611,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: VOTI",
+   "label": "Person Word: VOTI (\u1684\u1691\u1689\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12672,7 +12672,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VOTI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: DOMANEQI",
+   "label": "Person Word: DOMANEQI (\u1688\u1691\u168b\u1690\u1686\u1693\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12733,7 +12733,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOMANEQI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MACORBO? (\u168b\u1690\u168a\u1691\u168f\u1681\u1691)",
+   "label": "Person Word: MACORBO? (\u168b\u1690\u168a\u1691\u168f\u1681\u1691)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -12977,7 +12977,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORTIGURN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: MAQI-?OGGODIKA",
+   "label": "Person Word: MAQI-?OGGODIKA (\u168b\u1690\u1694\u1691\u168c\u168c\u1691\u1688\u1694\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -13038,7 +13038,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: SRUSA",
+   "label": "Person Word: SRUSA (\u1685\u168f\u1692\u1685\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -13099,7 +13099,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SRUSA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: MAQI-ESEA (\u168b\u1690\u1694\u1693\u1685\u1693\u1690)",
+   "label": "Person Word: MAQI-ESEA (\u168b\u1690\u1694\u1693\u1685\u1693\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -13282,7 +13282,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: MONGEDIAS",
+   "label": "Person Word: MONGEDIAS (\u168b\u1691\u1686\u168c\u1693\u1688\u1694\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -13343,7 +13343,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MONGEDIAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: MAQI-CUNALIG...",
+   "label": "Person Word: MAQI-CUNALIG... (\u168b\u1690\u1694\u168a\u1692\u1686\u1690\u1682\u1694\u168c)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -13404,7 +13404,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-CUNALIG...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: TEGANN",
+   "label": "Person Word: TEGANN (\u1689\u1693\u168c\u1690\u1686\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -13715,7 +13715,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LOBBI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: CEDATTOQA",
+   "label": "Word: CEDATTOQA (\u168a\u1693\u1688\u1690\u1689\u1689\u1691\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -13837,7 +13837,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-AINIA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: DOVINIAS",
+   "label": "Person Word: DOVINIAS (\u1688\u1691\u1684\u1694\u1686\u1694\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -14020,7 +14020,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROCANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: COILLI",
+   "label": "Word: COILLI (\u168a\u1691\u1694\u1682\u1682\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -14264,7 +14264,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AGILL...",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: LUGADDON",
+   "label": "Person Word: LUGADDON (\u1682\u1692\u168c\u1690\u1688\u1688\u1691\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -14400,7 +14400,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AKEVRITTI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: GOSOCTEAS (\u168c\u1691\u1685\u1691\u168a\u1689\u1693\u1690\u1685)",
+   "label": "Person Word: GOSOCTEAS (\u168c\u1691\u1685\u1691\u168a\u1689\u1693\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -14522,7 +14522,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNOVATOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: CUNAGUSOS",
+   "label": "Person: CUNAGUSOS",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -14583,7 +14583,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNAGUSOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: CORRBRI",
+   "label": "Word: CORRBRI (\u168a\u1691\u168f\u168f\u1681\u168f\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -14705,7 +14705,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUNICONA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: RONANN",
+   "label": "Person Word: RONANN (\u168f\u1691\u1686\u1690\u1686\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -14766,7 +14766,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RONANN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: DIMAQA",
+   "label": "Person Word: DIMAQA (\u1688\u1694\u168b\u1690\u1690)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -14949,7 +14949,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDELMETO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: ...ERATI",
+   "label": "Person: ...ERATI",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -15010,7 +15010,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#...ERATI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: NETA-CAGI",
+   "label": "Person Word: NETA-CAGI (\u1686\u1693\u1689\u1690\u168a\u1690\u168c\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -15124,7 +15124,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DILOGONN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: MAQI-CORABIR",
+   "label": "Person Word: MAQI-CORABIR (\u168b\u1690\u1694\u168a\u1691\u168f\u1690\u1681\u1694\u168f)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -15185,7 +15185,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-CORABIR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: VEQREQ (\u1684\u1693\u168f\u1693)",
+   "label": "Person Word: VEQREQ (\u1684\u1693\u168f\u1693)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -15352,7 +15352,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: BROINIONAS? (\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685)",
+   "label": "Person Word: BROINIONAS? (\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -15474,7 +15474,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEAGOS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: ERCAVICCAS",
+   "label": "Person Word: ERCAVICCAS (\u1693\u168f\u168a\u1690\u1684\u1694\u168a\u168a\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -15535,7 +15535,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERCAVICCAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: ULCCAGNI (\u1692\u1682\u168a\u168a\u1690\u168c\u1686\u1694)",
+   "label": "Person Word: ULCCAGNI (\u1692\u1682\u168a\u168a\u1690\u168c\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -15610,7 +15610,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUCOI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: SUVALLOS",
+   "label": "Person Word: SUVALLOS (\u1685\u1692\u1684\u1690\u1682\u1682\u1691\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -15685,7 +15685,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DERCMASOC",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: CORB",
+   "label": "Person: CORB",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -15807,7 +15807,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OLACON",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: TAN...",
+   "label": "Person: TAN...",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -16173,7 +16173,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: LUGUDECAS (\u1682\u1692\u168c\u1692\u1688\u1693\u168a\u1690\u1685)",
+   "label": "Person Word: LUGUDECAS (\u1682\u1692\u168c\u1692\u1688\u1693\u168a\u1690\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -16323,7 +16323,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: MAKINI",
+   "label": "Person Word: MAKINI (\u168b\u1690\u1694\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -16384,7 +16384,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAKINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: COLMAN",
+   "label": "Person Word: COLMAN (\u168a\u1691\u1682\u168b\u1690\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -16445,7 +16445,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COLMAN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: ROTTAIS (\u168f\u1691\u1689\u1689\u1690\u1694\u1685)",
+   "label": "Person Word: ROTTAIS (\u168f\u1691\u1689\u1689\u1690\u1694\u1685)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -16506,7 +16506,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ROTTAIS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: LLOTETI (\u1682\u1682\u1691\u1689\u1693\u1689\u1694)",
+   "label": "Person Word: LLOTETI (\u1682\u1682\u1691\u1689\u1693\u1689\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -16628,7 +16628,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-DECEDAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: NAG[U]N[I] (\u1686\u1690\u168c\u1692\u1686\u1694)",
+   "label": "Person Word: NAG[U]N[I] (\u1686\u1690\u168c\u1692\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -16750,7 +16750,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TALAGNI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: NOCATI",
+   "label": "Person Word: NOCATI (\u1686\u1691\u168a\u1690\u1689\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -16886,7 +16886,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACORBO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: BIGU",
+   "label": "Person Word: BIGU (\u1681\u1694\u168c\u1692)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -17244,7 +17244,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Word: RETAGIN (\u168f\u1693\u1689\u1690\u168c\u1694\u1686)",
+   "label": "Person Word: RETAGIN (\u168f\u1693\u1689\u1690\u168c\u1694\u1686)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -17305,7 +17305,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RETAGIN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: MAQI-RET/C...",
+   "label": "Person Word: MAQI-RET/C... (\u168b\u1690\u1694\u168f\u1693\u1689\u168a)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -20885,9 +20885,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROINIONAS%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROINIONAS%3F_person"
-   },
+   "label": "Person: TRENALUGGO?",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -20947,9 +20945,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGA_person"
-   },
+   "label": "Person: MARIANI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -20975,9 +20971,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AKEVRITTI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AKEVRITTI_person"
-   },
+   "label": "Person: ROTTAIS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -20989,9 +20983,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ROTTAIS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ROTTAIS_person"
-   },
+   "label": "Person: LITENI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21003,9 +20995,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LITENI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LITENI_person"
-   },
+   "label": "Person: DENAVECA",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P463": [
      {
@@ -21026,9 +21016,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DENAVECA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DENAVECA_person"
-   },
+   "label": "Person: CUNAGUSOS",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -21065,9 +21053,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNAGUSOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNAGUSOS_person"
-   },
+   "label": "Person: LLOTETI",
    "annotations": {
     "http://www.i3mainz.de/ogham#descendantOf": [
      {
@@ -21088,9 +21074,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LLOTETI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LLOTETI_person"
-   },
+   "label": "Person: VEDDONOS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21116,9 +21100,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VLATIAMI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VLATIAMI_person"
-   },
+   "label": "Person: CCICAMINI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21139,9 +21121,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CCICAMINI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CCICAMINI_person"
-   },
+   "label": "Person: OVANOS",
    "annotations": {
     "http://www.i3mainz.de/ogham#descendantOf": [
      {
@@ -21162,9 +21142,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OVANOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "OVANOS_person"
-   },
+   "label": "Person: DOLIGENN",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21176,9 +21154,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOLIGENN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOLIGENN_person"
-   },
+   "label": "Person: TRENU",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21213,9 +21189,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TALAGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TALAGNI_person"
-   },
+   "label": "Person: MAQI-DUMILEAS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21227,9 +21201,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-DUMILEAS_person"
-   },
+   "label": "Person: COIMAGNI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21250,9 +21222,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COIMAGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COIMAGNI_person"
-   },
+   "label": "Person: DOMANEQI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21264,9 +21234,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOMANEQI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOMANEQI_person"
-   },
+   "label": "Person: GRAVICAS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21295,9 +21263,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GRAVICAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GRAVICAS_person"
-   },
+   "label": "Person: LABRID",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21309,9 +21275,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LABRID_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LABRID_person"
-   },
+   "label": "Person: MAILE-INBIR",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21332,9 +21296,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAILE-INBIR_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAILE-INBIR_person"
-   },
+   "label": "Person: QENILOCI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21369,9 +21331,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#IAQINI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "IAQINI_person"
-   },
+   "label": "Tribe: QVECI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21397,9 +21357,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MANU_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MANU_person"
-   },
+   "label": "Person: DOVINIA",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21439,9 +21397,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIR_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CIR_person"
-   },
+   "label": "Tribe: IVACATTOS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21467,9 +21423,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ISAMMNN%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ISAMMNN%3F_person"
-   },
+   "label": "Person: MEDVVI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21495,9 +21449,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COBRANORA%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COBRANORA%3F_person"
-   },
+   "label": "Person: CATTABBOTT",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21509,9 +21461,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTABBOTT_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTABBOTT_person"
-   },
+   "label": "Person: CORBI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21532,9 +21482,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORBI_person"
-   },
+   "label": "Person: CUNANETAS",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -21571,9 +21519,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNANETAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNANETAS_person"
-   },
+   "label": "Person: MAQQI-ERCCIA",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -21624,9 +21570,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNOVATOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNOVATOS_person"
-   },
+   "label": "Person: SILLANN",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21647,9 +21591,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SILLANN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SILLANN_person"
-   },
+   "label": "Person: VIRAGNI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21661,9 +21603,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VIRAGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VIRAGNI_person"
-   },
+   "label": "Person: ERC",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -21714,9 +21654,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CURCITTI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CURCITTI_person"
-   },
+   "label": "Person: DUNAIDONAS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21737,9 +21675,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUNAIDONAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUNAIDONAS_person"
-   },
+   "label": "Tribe: SRUSA",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21751,9 +21687,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SRUSA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SRUSA_person"
-   },
+   "label": "Person: SENAQ",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21774,9 +21708,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SENAQ_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SENAQ_person"
-   },
+   "label": "Person: BRUSCCOS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21797,9 +21729,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BRUSCCOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BRUSCCOS_person"
-   },
+   "label": "Person: ALATTOS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21834,9 +21764,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORB_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORB_person"
-   },
+   "label": "Person: TAN...",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21848,9 +21776,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TAN..._person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TAN..._person"
-   },
+   "label": "Person: DUGENNGI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21871,9 +21797,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUGENNGI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUGENNGI_person"
-   },
+   "label": "Person: MAQI-DECEDAS",
    "annotations": {
     "http://www.i3mainz.de/ogham#descendantOf": [
      {
@@ -21916,9 +21840,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GALEOTOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GALEOTOS_person"
-   },
+   "label": "Person: B[AID]AGNI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -21939,9 +21861,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "B%5BAID%5DAGNI_person"
-   },
+   "label": "Person: MUIBITI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21953,9 +21873,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUIBITI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MUIBITI_person"
-   },
+   "label": "Person: DOVVINIA",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21967,9 +21885,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVVINIA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVVINIA_person"
-   },
+   "label": "Person: TOICACI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -21995,9 +21911,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CURCI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CURCI_person"
-   },
+   "label": "Person: BIGU",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22018,9 +21932,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIGU_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIGU_person"
-   },
+   "label": "Person: GLASICONAS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22046,9 +21958,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COSCIS%2FN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COSCIS%2FN_person"
-   },
+   "label": "Person: VRAICCI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22069,9 +21979,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VRAICCI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VRAICCI_person"
-   },
+   "label": "Person: ...ERATI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P463": [
      {
@@ -22092,9 +22000,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#...ERATI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "...ERATI_person"
-   },
+   "label": "Person: RODDOS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22106,9 +22012,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RODDOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RODDOS_person"
-   },
+   "label": "Person: ENA",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22134,9 +22038,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEGLANN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DEGLANN_person"
-   },
+   "label": "Person: VURUDDRANN",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22157,9 +22059,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VURUDDRANN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VURUDDRANN_person"
-   },
+   "label": "Person: DALAGNI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22180,9 +22080,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DALAGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DALAGNI_person"
-   },
+   "label": "Person: CEDATTOQA",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22203,9 +22101,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CEDATTOQA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CEDATTOQA_person"
-   },
+   "label": "Person: MOINENA",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22240,9 +22136,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-SALAGIA%3F_person"
-   },
+   "label": "Person: TOGITTACC[I]?",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22268,9 +22162,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ATAR_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ATAR_person"
-   },
+   "label": "Person: LOBBI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P463": [
      {
@@ -22291,9 +22183,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LOBBI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LOBBI_person"
-   },
+   "label": "Person: COROTANI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22347,9 +22237,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MUNICONA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MUNICONA_person"
-   },
+   "label": "Person: MAQI-INI...",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22370,9 +22258,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-INI..._person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-INI..._person"
-   },
+   "label": "Person: BROCANN",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22384,9 +22270,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROCANN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROCANN_person"
-   },
+   "label": "Person: CUNAMAQQI",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -22423,9 +22307,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CUNAMAQQI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CUNAMAQQI_person"
-   },
+   "label": "Person: COILLI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22437,9 +22319,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COILLI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COILLI_person"
-   },
+   "label": "Person: QRITTI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22465,9 +22345,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#...LL..._person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "...LL..._person"
-   },
+   "label": "Tribe: TULOTANAGIA",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22493,9 +22371,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RAVASA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RAVASA_person"
-   },
+   "label": "Person: MAQI-CUNALIG...",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -22554,9 +22430,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#UDDAMI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "UDDAMI_person"
-   },
+   "label": "Person: CUNALEGEA",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -22615,9 +22489,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ODR...REA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ODR...REA_person"
-   },
+   "label": "Person: SUVALLOS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22638,9 +22510,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SUVALLOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SUVALLOS_person"
-   },
+   "label": "Person: DUMELI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22675,9 +22545,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GOSOCTEAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GOSOCTEAS_person"
-   },
+   "label": "Person: MARIN",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22703,9 +22571,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NE%5BT....%5DAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NE%5BT....%5DAS_person"
-   },
+   "label": "Person: MAQI-CORABIR",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22740,9 +22606,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GIRAGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GIRAGNI_person"
-   },
+   "label": "Person: MAQI-TTAL",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -22771,9 +22635,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-TTAL_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-TTAL_person"
-   },
+   "label": "Person: ALATTO",
    "annotations": {
     "http://www.i3mainz.de/ogham#follows": [
      {
@@ -22808,9 +22670,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AGILL..._person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AGILL..._person"
-   },
+   "label": "Person: SEDANI",
    "annotations": {
     "http://www.i3mainz.de/ogham#descendantOf": [
      {
@@ -22839,9 +22699,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SEDANI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SEDANI_person"
-   },
+   "label": "Person: BIRRAC",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22853,9 +22711,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIRRAC_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIRRAC_person"
-   },
+   "label": "Person: LUGUDECAS",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -22923,9 +22779,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GAMICUNAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GAMICUNAS_person"
-   },
+   "label": "Person: C[....]SALAR",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -22951,9 +22805,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDALO_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MEDALO_person"
-   },
+   "label": "Person: LUGADDON",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -22990,9 +22842,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGADDON_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGADDON_person"
-   },
+   "label": "Person: ADDILONA",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23018,9 +22868,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MACORBO_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MACORBO_person"
-   },
+   "label": "Tribe: DERCMASOC",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -23063,9 +22911,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GLUNLEGGET_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GLUNLEGGET_person"
-   },
+   "label": "Person: BR...",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23091,9 +22937,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RETAGIN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "RETAGIN_person"
-   },
+   "label": "Person: BECCDINN",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23114,9 +22958,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BECCDINN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BECCDINN_person"
-   },
+   "label": "Person: NETA-SEGAMONAS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23128,9 +22970,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-SEGAMONAS_person"
-   },
+   "label": "Person: DOVINIAS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23198,9 +23038,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-CARI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-CARI_person"
-   },
+   "label": "Person: DOVVINIAS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23212,9 +23050,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DOVVINIAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DOVVINIAS_person"
-   },
+   "label": "Person: NETTAVROICC",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23249,9 +23085,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROINIONAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROINIONAS_person"
-   },
+   "label": "Person: MAQQI-IARI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23272,9 +23106,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQQI-IARI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQQI-IARI_person"
-   },
+   "label": "Person: DALI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23286,9 +23118,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DALI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DALI_person"
-   },
+   "label": "Person: AMMLLONGITT?",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23300,9 +23130,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AMMLLONGITT%3F_person"
-   },
+   "label": "Person: SAG(A)RETTOS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23314,9 +23142,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "SAG%28A%29RETTOS_person"
-   },
+   "label": "Person: MONGEDIAS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23337,9 +23163,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MONGEDIAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MONGEDIAS_person"
-   },
+   "label": "Person: CORBBI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23360,9 +23184,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CORBBI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CORBBI_person"
-   },
+   "label": "Tribe: TURANIAS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23374,9 +23196,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TURANIAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TURANIAS_person"
-   },
+   "label": "Person: BIR",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23397,9 +23217,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BIR_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BIR_person"
-   },
+   "label": "Person: NOCATI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23428,9 +23246,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NOCATI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NOCATI_person"
-   },
+   "label": "Person: VEQREQ",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P463": [
      {
@@ -23479,9 +23295,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NILI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NILI_person"
-   },
+   "label": "Person: GATI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P463": [
      {
@@ -23516,9 +23330,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDABAR_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEDABAR_person"
-   },
+   "label": "Person: MAQI-RITEAS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23547,9 +23359,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-RITEAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-RITEAS_person"
-   },
+   "label": "Person: VATTILLOGG",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23561,9 +23371,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VATTILLOGG_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VATTILLOGG_person"
-   },
+   "label": "Person: QECCIAS?",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P463": [
      {
@@ -23584,9 +23392,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QECCIAS%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QECCIAS%3F_person"
-   },
+   "label": "Person: MACORBO?",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23626,9 +23432,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "B%5BAI%5DD%5BA%5DN%5BI%5D_person"
-   },
+   "label": "Person: DIMAQA",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -23640,9 +23444,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DIMAQA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DIMAQA_person"
-   },
+   "label": "Person: LLATIGNI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23663,9 +23465,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LLATIGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LLATIGNI_person"
-   },
+   "label": "Person: SEVERRIT",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23759,9 +23559,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AMADU_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AMADU_person"
-   },
+   "label": "Person: LUGUQRIT",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -23798,9 +23596,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGUQRIT_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LUGUQRIT_person"
-   },
+   "label": "Person: CORRBRI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23835,9 +23631,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TEGANN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TEGANN_person"
-   },
+   "label": "Person: NETTA-LAMINACCA",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23858,9 +23652,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETTA-LAMINACCA_person"
-   },
+   "label": "Person: MAQI-ESEA",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23881,9 +23673,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ESEA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-ESEA_person"
-   },
+   "label": "Person: MAQI-ERCIAS",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -23912,9 +23702,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ERCIAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-ERCIAS_person"
-   },
+   "label": "Person: MEDUSI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P463": [
      {
@@ -23966,9 +23754,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-ERCIAS%3F_person"
-   },
+   "label": "Person: EQQEGGNI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -23989,9 +23775,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#EQQEGGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "EQQEGGNI_person"
-   },
+   "label": "Person: CALUNOVICA",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24012,9 +23796,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CALUNOVICA_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CALUNOVICA_person"
-   },
+   "label": "Person: DUCOVAROS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24026,9 +23808,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DUCOVAROS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DUCOVAROS_person"
-   },
+   "label": "Person: VORGOS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24040,9 +23820,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORGOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VORGOS_person"
-   },
+   "label": "Person: OLACON",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24068,9 +23846,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEAGOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DEAGOS_person"
-   },
+   "label": "Person: MINERC?",
    "annotations": {
     "http://www.i3mainz.de/ogham#definedInWikidata": [
      {
@@ -24099,9 +23875,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MINERC%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MINERC%3F_person"
-   },
+   "label": "Person: VITALIN",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24113,9 +23887,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VITALIN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VITALIN_person"
-   },
+   "label": "Person: ERACIAS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24136,9 +23908,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ERACIAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "ERACIAS_person"
-   },
+   "label": "Tribe: INEQAGLAS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24178,9 +23948,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROENIONAS%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "BROENIONAS%3F_person"
-   },
+   "label": "Person: DEGOS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24201,9 +23969,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#DEGOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "DEGOS_person"
-   },
+   "label": "Person: CORBAGNI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24238,9 +24004,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COLMAN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COLMAN_person"
-   },
+   "label": "Person: DOVATUCI",
    "annotations": {
     "http://www.i3mainz.de/ogham#descendantOf": [
      {
@@ -24306,9 +24070,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LOGIDEAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LOGIDEAS_person"
-   },
+   "label": "Person: RONANN",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24357,9 +24119,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VIRR%5BACC%5DANNI%3F_person"
-   },
+   "label": "Person: TOGITTACC[I]",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24394,9 +24154,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VORTIGURN_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VORTIGURN_person"
-   },
+   "label": "Person: MAQQI-LASIRE(N)",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24417,9 +24175,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQQI-LASIRE%28N%29_person"
-   },
+   "label": "Person: COMMAGGAGNI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P463": [
      {
@@ -24440,9 +24196,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COMMAGGAGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "COMMAGGAGNI_person"
-   },
+   "label": "Person: MAQI-CAIRATINI",
    "annotations": {
     "http://www.i3mainz.de/ogham#descendantOf": [
      {
@@ -24463,9 +24217,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "MAQI-CAIRATINI_person"
-   },
+   "label": "Person: CATTINI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24477,9 +24229,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTINI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTINI_person"
-   },
+   "label": "Person: RITTAVVECCAS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24514,9 +24264,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "QENILOC%5BA%5DGNI_person"
-   },
+   "label": "Person: MAQI-AINIA",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24559,9 +24307,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CATTUBUTTAS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CATTUBUTTAS_person"
-   },
+   "label": "Person: DOVETI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24596,9 +24342,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#AILITHIR_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "AILITHIR_person"
-   },
+   "label": "Person: CALIACI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24610,9 +24354,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CALIACI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "CALIACI_person"
-   },
+   "label": "Person: [QE]TTEAS",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24655,9 +24397,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETTA-TTRENALUGOS_person"
-   },
+   "label": "Person: MAQI-RET/C...",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24697,9 +24437,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TUCACAC_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "TUCACAC_person"
-   },
+   "label": "Person: COLLABOT",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24742,9 +24480,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NE%3FTTVRECC_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NE%3FTTVRECC_person"
-   },
+   "label": "Person: VEDELMETO",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24773,9 +24509,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VEDELMETO_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VEDELMETO_person"
-   },
+   "label": "Person: BIVAIDONAS",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P463": [
      {
@@ -24810,9 +24544,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#VOTI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "VOTI_person"
-   },
+   "label": "Person: LOBACCONA",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24838,9 +24570,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-CAGI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NETA-CAGI_person"
-   },
+   "label": "Person: LAG[...",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24852,9 +24582,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LAG%5B..._person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "LAG%5B..._person"
-   },
+   "label": "Tribe: BATTIGNI",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -24880,9 +24608,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "NAG%5BU%5DN%5BI%5D_person"
-   },
+   "label": "Person: TASEGAGNI",
    "annotations": {
     "http://www.wikidata.org/prop/direct/P22": [
      {
@@ -24948,9 +24674,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GELAGNI_person",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": {
-    "IRI-based": "GELAGNI_person"
-   },
+   "label": "Person: COMOGANN",
    "annotations": {},
    "range": [],
    "domain": [],
@@ -35781,7 +35505,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#CIIC+157",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: TOICACI",
+   "label": "Tribe: TOICACI",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -35850,7 +35574,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#TOICACI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: ISAMMNN?",
+   "label": "Tribe: ISAMMNN?",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -36057,7 +35781,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#COSCIS%2FN",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: LUGA",
+   "label": "Tribe: LUGA",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -36126,7 +35850,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#LUGA",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: ATAR",
+   "label": "Person: ATAR",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -36195,7 +35919,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#ATAR",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: UDDAMI",
+   "label": "Person Word: UDDAMI (\u1692\u1688\u1688\u1690\u168b\u1694)",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -36402,7 +36126,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#MEDALO",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: GLUNLEGGET",
+   "label": "Tribe: GLUNLEGGET",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -36471,7 +36195,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#GLUNLEGGET",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person: RINI",
+   "label": "Tribe: RINI",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -36540,7 +36264,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#RINI",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: BROENIONAS?",
+   "label": "Tribe: BROENIONAS?",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -36609,7 +36333,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#BROENIONAS%3F",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: NETA-SEGAMONAS",
+   "label": "Person Word: NETA-SEGAMONAS (\u1686\u1693\u1689\u1690\u1685\u1693\u168c\u1690\u168b\u1691\u1686\u1690\u1685)",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -36678,7 +36402,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: MACORBO",
+   "label": "Person: MACORBO",
    "annotations": {
     "http://www.i3mainz.de/ogham#hasMember": [
      {
@@ -37844,7 +37568,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q67382235",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": "Person: ERC",
+   "label": "Person Word: ERC (\u1693\u168f\u168a)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -37917,7 +37641,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q67382360",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": "Person: DALAGNI",
+   "label": "Person Word: DALAGNI (\u1688\u1690\u1682\u1690\u168c\u1686\u1694)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -37990,7 +37714,7 @@ var vowlresult={
    "iri": "http://www.wikidata.org/entity/Q67383338",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
-   "label": "Person Word: DERCMASOC",
+   "label": "Person Word: DERCMASOC (\u1688\u1693\u168f\u168a\u168b\u1690\u1685\u1691\u168a)",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {
@@ -38072,7 +37796,7 @@ var vowlresult={
    "iri": "http://www.i3mainz.de/ogham#OghamDictionary",
    "baseIRI": "http://www.i3mainz.de/ogham",
    "instances": 0,
-   "label": "Person Word: LOBACCONA",
+   "label": "Person: LOBACCONA",
    "annotations": {
     "http://www.w3.org/ns/lemon/lime#language": [
      {

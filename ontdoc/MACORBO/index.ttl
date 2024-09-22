@@ -1,27 +1,28 @@
-@prefix ns1: <http://www.w3.org/ns/lemon/lime#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
 @prefix ns3: <http://www.i3mainz.de/ogham#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 ns3:MACORBO a <http://www.w3.org/ns/ldp#Resource>,
-        ns2:Word,
+        ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: MACORBO"@en,
+    rdfs:label "Person Word: MACORBO (ᚋᚐᚊᚑᚏᚁᚑ)"@en,
         "Person: MACORBO"@en,
+        "Tribe: MACORBO"@en,
         "Word: MACORBO (ᚋᚐᚊᚑᚏᚁᚑ)"@en ;
     void:inDataset ns3:Ogham_From_Epidoc ;
     ns3:hasMember ns3:GATI_person ;
-    ns1:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns2:contains ns3:ᚁ_character,
+    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns1:contains ns3:ᚁ_character,
         ns3:ᚊ_character,
         ns3:ᚋ_character,
         ns3:ᚏ_character,
         ns3:ᚐ_character,
         ns3:ᚑ_character ;
-    ns2:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns2:sense ns3:MACORBO_sense ;
-    ns2:transliteration "MACORBO" ;
-    ns2:writtenRep "ᚋᚐᚊᚑᚏᚁᚑ" .
+    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns1:sense ns3:MACORBO_sense ;
+    ns1:transliteration "MACORBO" ;
+    ns1:writtenRep "ᚋᚐᚊᚑᚏᚁᚑ" .
 

@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#MAQI-ESEA> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: MAQI-ESEA"@en,
+    rdfs:label "Person Word: MAQI-ESEA (ᚋᚐᚔᚓᚅᚓᚐ)"@en,
         "Person: MAQI-ESEA"@en,
         "Word: MAQI-ESEA (ᚋᚐᚔᚓᚅᚓᚐ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

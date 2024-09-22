@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#VEQREQ> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: VEQREQ"@en,
+    rdfs:label "Person Word: VEQREQ (ᚄᚓᚏᚓ)"@en,
         "Person: VEQREQ"@en,
         "Word: VEQREQ (ᚄᚓᚏᚓ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

@@ -6,7 +6,7 @@
 <http://www.i3mainz.de/ogham#MAQI-CUNALIG...> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person Word: MAQI-CUNALIG..."@en,
+    rdfs:label "Person Word: MAQI-CUNALIG... (ᚋᚐᚔᚊᚒᚆᚐᚂᚔᚌ)"@en,
         "Person: MAQI-CUNALIG..."@en,
         "Word: MAQI-CUNALIG... (ᚋᚐᚔᚊᚒᚆᚐᚂᚔᚌ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
