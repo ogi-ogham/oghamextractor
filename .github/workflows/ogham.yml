@@ -27,6 +27,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: 🛎 Check out main
+        uses: actions/checkout@main
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
