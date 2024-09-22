@@ -1,0 +1,15 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#CIIC+273> a <http://www.i3mainz.de/ogham#OghamObject>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
+    geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+273.+Drumlohan+II_geom> ;
+    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=WA024-033007-" ;
+    ns1:P6568 <http://www.i3mainz.de/ogham#CALUNOVICA>,
+        <http://www.i3mainz.de/ogham#CALUNOVICA_person>,
+        <http://www.i3mainz.de/ogham#LITENI>,
+        <http://www.i3mainz.de/ogham#LITENI_person> .
+

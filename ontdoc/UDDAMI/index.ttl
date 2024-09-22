@@ -1,0 +1,19 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns2: <http://www.i3mainz.de/ogham#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+ns2:UDDAMI a ns1:Word,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.wikidata.org/entity/Q3538737>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:contains ns2:ᚈ_character,
+        ns2:ᚋ_character,
+        ns2:ᚐ_character,
+        ns2:ᚒ_character,
+        ns2:ᚔ_character ;
+    ns1:sense ns2:UDDAMI_sense ;
+    ns1:transliteration "UDDAMI" ;
+    ns1:writtenRep "ᚒᚈᚈᚐᚋᚔ" ;
+    void:inDataset ns2:Ogham_From_Epidoc ;
+    ns2:hasMember ns2:NOCATI_person .
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wfs:WFS_Capabilities xmlns:wfs="http://www.opengis.net/wfs" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.0.0/WFS-capabilities.xsd https://www.baysis.bayern.de/gis/admin/services/BAYSIS_Strassennetz/MapServer/WFSServer https://www.baysis.bayern.de/gis/services/wfs/BAYSIS_Strassennetz/MapServer/WFSServer?service=wfs%26version=1.0.0%26request=DescribeFeatureType" version="1.0.0">
+    <wfs:Service>
+        <wfs:Name>Static WFS</wfs:Name>
+        <wfs:Title>Static WFS for https://ogi-ogham.github.io/oghamextractor/ontdoc/</wfs:Title>
+        <wfs:Abstract>This Static WFS exposes geodata included in the knowledge grap for the inclusion into GIS applications.</wfs:Abstract>
+        <wfs:Keywords>https://ogi-ogham.github.io/oghamextractor/ontdoc/</wfs:Keywords>
+        <wfs:OnlineResource>https://ogi-ogham.github.io/oghamextractor/ontdoc/</wfs:OnlineResource>
+        <wfs:Fees>none</wfs:Fees>
+        <wfs:AccessConstraints>None</wfs:AccessConstraints>
+    </wfs:Service>
+    <wfs:Capability>
+        <wfs:Request>
+            <wfs:GetCapabilities>
+                <wfs:DCPType><wfs:HTTP><wfs:Get onlineResource="https://ogi-ogham.github.io/oghamextractor/ontdoc//wfs?"/></wfs:HTTP></wfs:DCPType>
+                <wfs:DCPType><wfs:HTTP><wfs:Post onlineResource="https://ogi-ogham.github.io/oghamextractor/ontdoc//wfs?"/></wfs:HTTP></wfs:DCPType>
+            </wfs:GetCapabilities>
+            <wfs:DescribeFeatureType>
+                <wfs:SchemaDescriptionLanguage><wfs:XMLSCHEMA/></wfs:SchemaDescriptionLanguage>
+                <wfs:DCPType><wfs:HTTP><wfs:Get onlineResource="https://ogi-ogham.github.io/oghamextractor/ontdoc//wfs?"/></wfs:HTTP></wfs:DCPType>
+                <wfs:DCPType><wfs:HTTP><wfs:Post onlineResource="https://ogi-ogham.github.io/oghamextractor/ontdoc//wfs"/></wfs:HTTP></wfs:DCPType>
+            </wfs:DescribeFeatureType>
+            <wfs:GetFeature>
+                <wfs:ResultFormat><wfs:JSON/></wfs:ResultFormat>
+                <wfs:DCPType><wfs:HTTP><wfs:Get onlineResource="https://ogi-ogham.github.io/oghamextractor/ontdoc//wfs?"/></wfs:HTTP></wfs:DCPType>
+                <wfs:DCPType><wfs:HTTP><wfs:Post onlineResource="https://ogi-ogham.github.io/oghamextractor/ontdoc//wfs"/></wfs:HTTP></wfs:DCPType>
+            </wfs:GetFeature>
+        </wfs:Request>
+    </wfs:Capability>
+    <wfs:FeatureTypeList><wfs:Operations><wfs:Query/></wfs:Operations>
+        
+                    <wfs:FeatureType>
+            <wfs:Name>OghamObject_collection</wfs:Name>
+            <wfs:Title>OghamObject_collection</wfs:Title>
+            <wfs:Abstract>FeatureCollection OghamObject_collection</wfs:Abstract>
+            <wfs:SRS>http://www.opengis.net/def/crs/EPSG/0/4326</wfs:SRS></wfs:FeatureType>
+
+                    <wfs:FeatureType>
+            <wfs:Name>Point_collection</wfs:Name>
+            <wfs:Title>Point_collection</wfs:Title>
+            <wfs:Abstract>FeatureCollection Point_collection</wfs:Abstract>
+            <wfs:SRS>http://www.opengis.net/def/crs/EPSG/0/4326</wfs:SRS></wfs:FeatureType>
+</wfs:FeatureTypeList>
+    <ogc:Filter_Capabilities></ogc:Filter_Capabilities>
+</wfs:WFS_Capabilities>

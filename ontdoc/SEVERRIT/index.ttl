@@ -1,0 +1,17 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#SEVERRIT> a ns1:Word,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:contains <http://www.i3mainz.de/ogham#ᚄ_character>,
+        <http://www.i3mainz.de/ogham#ᚅ_character>,
+        <http://www.i3mainz.de/ogham#ᚉ_character>,
+        <http://www.i3mainz.de/ogham#ᚏ_character>,
+        <http://www.i3mainz.de/ogham#ᚓ_character>,
+        <http://www.i3mainz.de/ogham#ᚔ_character> ;
+    ns1:sense <http://www.i3mainz.de/ogham#SEVERRIT_sense> ;
+    ns1:transliteration "SEVERRIT" ;
+    ns1:writtenRep "ᚅᚓᚄᚓᚏᚏᚔᚉ" ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+

@@ -1,0 +1,16 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#BIRRAC> a ns1:Word,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:contains <http://www.i3mainz.de/ogham#ᚁ_character>,
+        <http://www.i3mainz.de/ogham#ᚊ_character>,
+        <http://www.i3mainz.de/ogham#ᚏ_character>,
+        <http://www.i3mainz.de/ogham#ᚐ_character>,
+        <http://www.i3mainz.de/ogham#ᚔ_character> ;
+    ns1:sense <http://www.i3mainz.de/ogham#BIRRAC_sense> ;
+    ns1:transliteration "BIRRAC" ;
+    ns1:writtenRep "ᚁᚔᚏᚏᚐᚊ" ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+

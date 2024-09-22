@@ -1,0 +1,15 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#CIIC+187> a <http://www.i3mainz.de/ogham#OghamObject>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
+    geo:hasGeometry <http://www.i3mainz.de/ogham#CIIC+187.+Kilmalkedar_geom> ;
+    ns1:P18 "http://webgis.archaeology.ie/HistoricEnvironment/?SMRS=KE042-026001-" ;
+    ns1:P6568 <http://www.i3mainz.de/ogham#BROCANN>,
+        <http://www.i3mainz.de/ogham#BROCANN_person>,
+        <http://www.i3mainz.de/ogham#MAILE-INBIR>,
+        <http://www.i3mainz.de/ogham#MAILE-INBIR_person> .
+

@@ -1,0 +1,20 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#DERCMASOC> a ns1:Word,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.wikidata.org/entity/Q67382150>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:contains <http://www.i3mainz.de/ogham#ᚅ_character>,
+        <http://www.i3mainz.de/ogham#ᚈ_character>,
+        <http://www.i3mainz.de/ogham#ᚊ_character>,
+        <http://www.i3mainz.de/ogham#ᚋ_character>,
+        <http://www.i3mainz.de/ogham#ᚏ_character>,
+        <http://www.i3mainz.de/ogham#ᚐ_character>,
+        <http://www.i3mainz.de/ogham#ᚑ_character>,
+        <http://www.i3mainz.de/ogham#ᚓ_character> ;
+    ns1:sense <http://www.i3mainz.de/ogham#DERCMASOC_sense> ;
+    ns1:transliteration "DERCMASOC" ;
+    ns1:writtenRep "ᚈᚓᚏᚊᚋᚐᚅᚑᚊ" ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+

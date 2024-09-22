@@ -1,0 +1,16 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#CUNACENA> a ns1:Word,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:contains <http://www.i3mainz.de/ogham#ᚆ_character>,
+        <http://www.i3mainz.de/ogham#ᚊ_character>,
+        <http://www.i3mainz.de/ogham#ᚐ_character>,
+        <http://www.i3mainz.de/ogham#ᚒ_character>,
+        <http://www.i3mainz.de/ogham#ᚓ_character> ;
+    ns1:sense <http://www.i3mainz.de/ogham#CUNACENA_sense> ;
+    ns1:transliteration "CUNACENA" ;
+    ns1:writtenRep "ᚊᚒᚆᚐᚊᚓᚆᚐ" ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+

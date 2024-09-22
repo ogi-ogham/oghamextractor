@@ -1,0 +1,9 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#CIIC+252.+Gurrane_geom> a <http://www.opengis.net/ont/sf#Point>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
+    geo:asWKT "POINT (-6.254558 53.340408)"^^geo:wktLiteral .
+

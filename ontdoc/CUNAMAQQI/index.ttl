@@ -1,0 +1,17 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#CUNAMAQQI> a ns1:Word,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:contains <http://www.i3mainz.de/ogham#ᚆ_character>,
+        <http://www.i3mainz.de/ogham#ᚊ_character>,
+        <http://www.i3mainz.de/ogham#ᚋ_character>,
+        <http://www.i3mainz.de/ogham#ᚐ_character>,
+        <http://www.i3mainz.de/ogham#ᚒ_character>,
+        <http://www.i3mainz.de/ogham#ᚔ_character> ;
+    ns1:sense <http://www.i3mainz.de/ogham#CUNAMAQQI_sense> ;
+    ns1:transliteration "CUNAMAQQI" ;
+    ns1:writtenRep "ᚊᚒᚆᚐᚋᚐᚔ" ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+

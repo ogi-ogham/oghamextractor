@@ -1,0 +1,15 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#COILLI> a ns1:Word,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:contains <http://www.i3mainz.de/ogham#ᚂ_character>,
+        <http://www.i3mainz.de/ogham#ᚊ_character>,
+        <http://www.i3mainz.de/ogham#ᚑ_character>,
+        <http://www.i3mainz.de/ogham#ᚔ_character> ;
+    ns1:sense <http://www.i3mainz.de/ogham#COILLI_sense> ;
+    ns1:transliteration "COILLI" ;
+    ns1:writtenRep "ᚊᚑᚔᚂᚂᚔ" ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+

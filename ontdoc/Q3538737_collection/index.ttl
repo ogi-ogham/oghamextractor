@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#Q3538737_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q3538737 Instances Collection"@en ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
+    rdfs:member <http://www.i3mainz.de/ogham#ATAR>,
+        <http://www.i3mainz.de/ogham#BROENIONAS%3F>,
+        <http://www.i3mainz.de/ogham#COSCIS%2FN>,
+        <http://www.i3mainz.de/ogham#GLUNLEGGET>,
+        <http://www.i3mainz.de/ogham#GRAVICAS>,
+        <http://www.i3mainz.de/ogham#ISAMMNN%3F>,
+        <http://www.i3mainz.de/ogham#LOGIDEAS>,
+        <http://www.i3mainz.de/ogham#LUGA>,
+        <http://www.i3mainz.de/ogham#MACORBO>,
+        <http://www.i3mainz.de/ogham#MEDALO>,
+        <http://www.i3mainz.de/ogham#NETA-SEGAMONAS>,
+        <http://www.i3mainz.de/ogham#RINI>,
+        <http://www.i3mainz.de/ogham#TOICACI>,
+        <http://www.i3mainz.de/ogham#UDDAMI> .
+

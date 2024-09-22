@@ -1,0 +1,18 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#MAQI-RET%2FC...> a ns1:Word,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:contains <http://www.i3mainz.de/ogham#ᚉ_character>,
+        <http://www.i3mainz.de/ogham#ᚊ_character>,
+        <http://www.i3mainz.de/ogham#ᚋ_character>,
+        <http://www.i3mainz.de/ogham#ᚏ_character>,
+        <http://www.i3mainz.de/ogham#ᚐ_character>,
+        <http://www.i3mainz.de/ogham#ᚓ_character>,
+        <http://www.i3mainz.de/ogham#ᚔ_character> ;
+    ns1:sense <http://www.i3mainz.de/ogham#MAQI-RET%2FC..._sense> ;
+    ns1:transliteration "MAQI-RET/C..." ;
+    ns1:writtenRep "ᚋᚐᚔᚏᚓᚉᚊ" ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+

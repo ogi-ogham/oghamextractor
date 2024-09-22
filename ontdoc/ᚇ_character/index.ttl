@@ -1,0 +1,11 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#ᚇ_character> a ns1:Character,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.wikidata.org/entity/Q41812345>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:transliteration "H" ;
+    ns1:writtenRep "ᚇ" ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+

@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.i3mainz.de/ogham#ObjectProperty_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "ObjectProperty Instances Collection"@en ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
+    rdfs:member <http://www.i3mainz.de/ogham#definedInWikidata>,
+        <http://www.i3mainz.de/ogham#descendantOf>,
+        <http://www.i3mainz.de/ogham#follows>,
+        <http://www.i3mainz.de/ogham#hasMember>,
+        <http://www.i3mainz.de/ogham#nameRelatesTo> .
+

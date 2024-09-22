@@ -1,0 +1,19 @@
+@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns2: <http://www.i3mainz.de/ogham#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+ns2:LUGA a ns1:Word,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.wikidata.org/entity/Q3538737>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:contains ns2:ᚂ_character,
+        ns2:ᚌ_character,
+        ns2:ᚐ_character,
+        ns2:ᚒ_character ;
+    ns1:sense ns2:LUGA_sense ;
+    ns1:transliteration "LUGA" ;
+    ns1:writtenRep "ᚂᚒᚌᚐ" ;
+    void:inDataset ns2:Ogham_From_Epidoc ;
+    ns2:hasMember ns2:COLLABOT_person,
+        ns2:MEDUSI_person .
+
