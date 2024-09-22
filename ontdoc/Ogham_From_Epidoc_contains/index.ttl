@@ -6,6 +6,6 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: contains"@en ;
-    void:property <http://lemon-model.net/lemon#contains> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#contains> ;
     void:triples 1301 .
 

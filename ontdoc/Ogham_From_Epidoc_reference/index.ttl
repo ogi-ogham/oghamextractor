@@ -6,6 +6,6 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: reference"@en ;
-    void:property <http://lemon-model.net/lemon#reference> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#reference> ;
     void:triples 211 .
 

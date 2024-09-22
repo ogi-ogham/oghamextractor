@@ -98,18 +98,305 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 13,
-   "target": 0,
-   "valueTo": "entry",
+   "source": 6,
+   "target": 2,
+   "valueTo": "P6568",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/lime#entry"
+   "uriTo": "http://www.wikidata.org/prop/direct/P6568"
   },
   {
-   "source": 13,
-   "target": 11,
-   "valueTo": "entry",
+   "source": 6,
+   "target": 12,
+   "valueTo": "P6568",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/lime#entry"
+   "uriTo": "http://www.wikidata.org/prop/direct/P6568"
+  },
+  {
+   "source": 6,
+   "target": 0,
+   "valueTo": "P6568",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P6568"
+  },
+  {
+   "source": 6,
+   "target": 7,
+   "valueTo": "P6568",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P6568"
+  },
+  {
+   "source": 6,
+   "target": 1,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 15,
+   "target": 0,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 15,
+   "target": 1,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 15,
+   "target": 9,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 15,
+   "target": 7,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 15,
+   "target": 13,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 15,
+   "target": 12,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 15,
+   "target": 3,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 15,
+   "target": 11,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 15,
+   "target": 6,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 15,
+   "target": 10,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 0,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 1,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 9,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 7,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 13,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 12,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 3,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 11,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 6,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 17,
+   "target": 10,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 0,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 1,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 9,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 7,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 13,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 12,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 3,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 11,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 6,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 14,
+   "target": 10,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 7,
+   "target": 9,
+   "valueTo": "contains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
+  },
+  {
+   "source": 7,
+   "target": 10,
+   "valueTo": "contains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
+  },
+  {
+   "source": 12,
+   "target": 9,
+   "valueTo": "contains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
+  },
+  {
+   "source": 12,
+   "target": 10,
+   "valueTo": "contains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
+  },
+  {
+   "source": 0,
+   "target": 9,
+   "valueTo": "contains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
+  },
+  {
+   "source": 0,
+   "target": 10,
+   "valueTo": "contains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
+  },
+  {
+   "source": 11,
+   "target": 9,
+   "valueTo": "contains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
+  },
+  {
+   "source": 11,
+   "target": 10,
+   "valueTo": "contains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
   },
   {
    "source": 13,
@@ -121,6 +408,20 @@ var minivowlresult={
   {
    "source": 13,
    "target": 12,
+   "valueTo": "entry",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/lime#entry"
+  },
+  {
+   "source": 13,
+   "target": 0,
+   "valueTo": "entry",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/lemon/lime#entry"
+  },
+  {
+   "source": 13,
+   "target": 11,
    "valueTo": "entry",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/ns/lemon/lime#entry"
@@ -133,312 +434,32 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/ns/lemon/ontolex#reference"
   },
   {
-   "source": 0,
-   "target": 9,
-   "valueTo": "contains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
-  },
-  {
-   "source": 0,
-   "target": 10,
-   "valueTo": "contains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
-  },
-  {
-   "source": 12,
-   "target": 9,
-   "valueTo": "contains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
-  },
-  {
-   "source": 12,
-   "target": 10,
-   "valueTo": "contains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
-  },
-  {
-   "source": 7,
-   "target": 9,
-   "valueTo": "contains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
-  },
-  {
-   "source": 7,
-   "target": 10,
-   "valueTo": "contains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
-  },
-  {
-   "source": 11,
-   "target": 9,
-   "valueTo": "contains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
-  },
-  {
-   "source": 11,
-   "target": 10,
-   "valueTo": "contains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#contains"
-  },
-  {
-   "source": 0,
+   "source": 16,
    "target": 2,
    "valueTo": "hasMember",
    "propertyTo": "class",
-   "uriTo": "http://www.i3mainz.de/ogham#hasMember"
+   "uriTo": "http://www.w3.org/2006/vcard/ns#hasMember"
   },
   {
    "source": 7,
-   "target": 2,
-   "valueTo": "hasMember",
-   "propertyTo": "class",
-   "uriTo": "http://www.i3mainz.de/ogham#hasMember"
-  },
-  {
-   "source": 15,
-   "target": 9,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 15,
-   "target": 11,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 15,
-   "target": 6,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 15,
-   "target": 0,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 15,
-   "target": 1,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 15,
-   "target": 7,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 15,
-   "target": 12,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 15,
    "target": 3,
-   "valueTo": "member",
+   "valueTo": "sense",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#sense"
   },
   {
-   "source": 15,
-   "target": 13,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 15,
-   "target": 10,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 14,
-   "target": 9,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 14,
-   "target": 11,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 14,
-   "target": 6,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 14,
-   "target": 0,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 14,
-   "target": 1,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 14,
-   "target": 7,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 14,
-   "target": 12,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 14,
+   "source": 12,
    "target": 3,
-   "valueTo": "member",
+   "valueTo": "sense",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#sense"
   },
   {
-   "source": 14,
-   "target": 13,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 14,
-   "target": 10,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
-   "target": 9,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
-   "target": 11,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
-   "target": 6,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
-   "target": 0,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
-   "target": 1,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
-   "target": 7,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
-   "target": 12,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
+   "source": 0,
    "target": 3,
-   "valueTo": "member",
+   "valueTo": "sense",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
-   "target": 13,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 17,
-   "target": 10,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 6,
-   "target": 0,
-   "valueTo": "P6568",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P6568"
-  },
-  {
-   "source": 6,
-   "target": 12,
-   "valueTo": "P6568",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P6568"
-  },
-  {
-   "source": 6,
-   "target": 7,
-   "valueTo": "P6568",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P6568"
-  },
-  {
-   "source": 6,
-   "target": 2,
-   "valueTo": "P6568",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P6568"
+   "uriTo": "http://www.w3.org/ns/lemon/ontolex#sense"
   },
   {
    "source": 2,
@@ -448,34 +469,6 @@ var minivowlresult={
    "uriTo": "http://www.wikidata.org/prop/direct/P22"
   },
   {
-   "source": 16,
-   "target": 2,
-   "valueTo": "hasMember",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/vcard/ns#hasMember"
-  },
-  {
-   "source": 0,
-   "target": 3,
-   "valueTo": "sense",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#sense"
-  },
-  {
-   "source": 12,
-   "target": 3,
-   "valueTo": "sense",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#sense"
-  },
-  {
-   "source": 7,
-   "target": 3,
-   "valueTo": "sense",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/lemon/ontolex#sense"
-  },
-  {
    "source": 2,
    "target": 12,
    "valueTo": "definedInWikidata",
@@ -483,11 +476,11 @@ var minivowlresult={
    "uriTo": "http://www.i3mainz.de/ogham#definedInWikidata"
   },
   {
-   "source": 6,
-   "target": 1,
-   "valueTo": "hasGeometry",
+   "source": 2,
+   "target": 7,
+   "valueTo": "P463",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.wikidata.org/prop/direct/P463"
   },
   {
    "source": 2,
@@ -497,11 +490,18 @@ var minivowlresult={
    "uriTo": "http://www.wikidata.org/prop/direct/P463"
   },
   {
-   "source": 2,
-   "target": 7,
-   "valueTo": "P463",
+   "source": 7,
+   "target": 2,
+   "valueTo": "hasMember",
    "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P463"
+   "uriTo": "http://www.i3mainz.de/ogham#hasMember"
+  },
+  {
+   "source": 0,
+   "target": 2,
+   "valueTo": "hasMember",
+   "propertyTo": "class",
+   "uriTo": "http://www.i3mainz.de/ogham#hasMember"
   },
   {
    "source": 2,

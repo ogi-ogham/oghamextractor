@@ -1,12 +1,14 @@
-@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<http://www.i3mainz.de/ogham#COBRANORA%3F> a ns1:Word,
-        <http://www.w3.org/ns/ldp#Resource>,
+<http://www.i3mainz.de/ogham#COBRANORA%3F> a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person: COBRANORA?"@en,
+    rdfs:label "Person Word: COBRANORA?"@en,
+        "Person: COBRANORA?"@en,
         "Word: COBRANORA? (ᚊᚑᚁᚏᚐᚆᚑᚏᚐ)"@en ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
     ns1:contains <http://www.i3mainz.de/ogham#ᚁ_character>,
         <http://www.i3mainz.de/ogham#ᚆ_character>,
         <http://www.i3mainz.de/ogham#ᚊ_character>,
@@ -15,6 +17,5 @@
         <http://www.i3mainz.de/ogham#ᚑ_character> ;
     ns1:sense <http://www.i3mainz.de/ogham#COBRANORA%3F_sense> ;
     ns1:transliteration "COBRANORA?" ;
-    ns1:writtenRep "ᚊᚑᚁᚏᚐᚆᚑᚏᚐ" ;
-    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+    ns1:writtenRep "ᚊᚑᚁᚏᚐᚆᚑᚏᚐ" .
 

@@ -30,15 +30,15 @@
     <wfs:FeatureTypeList><wfs:Operations><wfs:Query/></wfs:Operations>
         
                     <wfs:FeatureType>
-            <wfs:Name>Point_collection</wfs:Name>
-            <wfs:Title>Point_collection</wfs:Title>
-            <wfs:Abstract>FeatureCollection Point_collection</wfs:Abstract>
-            <wfs:SRS>http://www.opengis.net/def/crs/EPSG/0/4326</wfs:SRS></wfs:FeatureType>
-
-                    <wfs:FeatureType>
             <wfs:Name>OghamObject_collection</wfs:Name>
             <wfs:Title>OghamObject_collection</wfs:Title>
             <wfs:Abstract>FeatureCollection OghamObject_collection</wfs:Abstract>
+            <wfs:SRS>http://www.opengis.net/def/crs/EPSG/0/4326</wfs:SRS></wfs:FeatureType>
+
+                    <wfs:FeatureType>
+            <wfs:Name>Point_collection</wfs:Name>
+            <wfs:Title>Point_collection</wfs:Title>
+            <wfs:Abstract>FeatureCollection Point_collection</wfs:Abstract>
             <wfs:SRS>http://www.opengis.net/def/crs/EPSG/0/4326</wfs:SRS></wfs:FeatureType>
 </wfs:FeatureTypeList>
     <ogc:Filter_Capabilities></ogc:Filter_Capabilities>

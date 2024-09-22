@@ -1,14 +1,17 @@
-@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix ns2: <http://www.i3mainz.de/ogham#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns2:GRAVICAS a ns1:Word,
-        <http://www.w3.org/ns/ldp#Resource>,
+ns2:GRAVICAS a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person: GRAVICAS"@en,
+    rdfs:label "Person Word: GRAVICAS"@en,
+        "Person: GRAVICAS"@en,
         "Word: GRAVICAS (ᚌᚏᚐᚄᚔᚊᚐᚅ)"@en ;
+    void:inDataset ns2:Ogham_From_Epidoc ;
+    ns2:hasMember ns2:GRAVICAS_person ;
     ns1:contains ns2:ᚄ_character,
         ns2:ᚅ_character,
         ns2:ᚊ_character,
@@ -18,7 +21,5 @@ ns2:GRAVICAS a ns1:Word,
         ns2:ᚔ_character ;
     ns1:sense ns2:GRAVICAS_sense ;
     ns1:transliteration "GRAVICAS" ;
-    ns1:writtenRep "ᚌᚏᚐᚄᚔᚊᚐᚅ" ;
-    void:inDataset ns2:Ogham_From_Epidoc ;
-    ns2:hasMember ns2:GRAVICAS_person .
+    ns1:writtenRep "ᚌᚏᚐᚄᚔᚊᚐᚅ" .
 

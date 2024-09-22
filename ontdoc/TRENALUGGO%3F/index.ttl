@@ -1,12 +1,14 @@
-@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<http://www.i3mainz.de/ogham#TRENALUGGO%3F> a ns1:Word,
-        <http://www.w3.org/ns/ldp#Resource>,
+<http://www.i3mainz.de/ogham#TRENALUGGO%3F> a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person: TRENALUGGO?"@en,
+    rdfs:label "Person Word: TRENALUGGO?"@en,
+        "Person: TRENALUGGO?"@en,
         "Word: TRENALUGGO? (ᚉᚏᚓᚆᚐᚂᚒᚌᚌᚑ)"@en ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
     ns1:contains <http://www.i3mainz.de/ogham#ᚂ_character>,
         <http://www.i3mainz.de/ogham#ᚆ_character>,
         <http://www.i3mainz.de/ogham#ᚉ_character>,
@@ -18,6 +20,5 @@
         <http://www.i3mainz.de/ogham#ᚓ_character> ;
     ns1:sense <http://www.i3mainz.de/ogham#TRENALUGGO%3F_sense> ;
     ns1:transliteration "TRENALUGGO?" ;
-    ns1:writtenRep "ᚉᚏᚓᚆᚐᚂᚒᚌᚌᚑ" ;
-    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+    ns1:writtenRep "ᚉᚏᚓᚆᚐᚂᚒᚌᚌᚑ" .
 

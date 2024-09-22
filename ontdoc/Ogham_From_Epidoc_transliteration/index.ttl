@@ -6,6 +6,6 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: transliteration"@en ;
-    void:property <http://lemon-model.net/lemon#transliteration> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#transliteration> ;
     void:triples 246 .
 

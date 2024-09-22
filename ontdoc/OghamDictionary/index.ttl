@@ -1,9 +1,9 @@
-@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/lime#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#OghamDictionary> a <http://www.w3.org/ns/ldp#Resource>,
-        <http://www.w3.org/ns/lemon/lime#>,
+        ns1:Lexicon,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Ogham Dictionary"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;

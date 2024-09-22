@@ -36,17 +36,17 @@
     rdfs:label "Ogham_From_Epidoc"@en ;
     ns1:averageLiteralLength 0 ;
     ns1:averageObjectIRILength 36 ;
-    ns1:averagePropertyIRILength 40 ;
+    ns1:averagePropertyIRILength 42 ;
     ns1:averageSubjectIRILength 42 ;
     ns1:datatypes 0 ;
     ns1:distinctBlankNodes 0 ;
-    ns1:distinctIRIReferences 3722 ;
+    ns1:distinctIRIReferences 3934 ;
     ns1:distinctLiterals 0 ;
-    ns1:distinctRDFNodes 3722 ;
+    ns1:distinctRDFNodes 3934 ;
     ns1:languages 0 ;
     ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-09-22T15:02:45"^^xsd:dateTime ;
+    dcterms:modified "2024-09-22T15:55:52"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -83,7 +83,7 @@
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Word> ;
     void:classes 26 ;
     void:dataDump <https://ogi-ogham.github.io/oghamextractor/ontdoc//index.ttl> ;
-    void:distinctObjects 2643 ;
+    void:distinctObjects 2855 ;
     void:distinctSubjects 1057 ;
     void:entities 1017 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
@@ -110,7 +110,7 @@
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_transliteration>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_type>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_writtenRep> ;
-    void:triples 7526 ;
+    void:triples 7740 ;
     void:uriSpace "http://www.i3mainz.de/ogham#"^^xsd:string ;
     void:vocabulary ns1:,
         dcam:,

@@ -44,1629 +44,1614 @@ var tree={
     "data": [
       {
         "id": "http://www.i3mainz.de/ogham#LOBACCONA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: LOBACCONA (LOBACCONA)",
+        "text": "Person Word: LOBACCONA (LOBACCONA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOICACI_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: TOICACI (TOICACI)",
+        "text": "Person Word: TOICACI (TOICACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LITENI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: LITENI (LITENI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VLATIAMI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: VLATIAMI (VLATIAMI)",
+        "text": "Person Word: VLATIAMI (VLATIAMI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VATTILLOGG",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: VATTILLOGG (VATTILLOGG)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QECCIAS%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: QECCIAS? (\u1693\u168a\u168a\u1694\u1690\u1685) (QECCIAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LABRID",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: LABRID (\u1682\u1690\u1681\u168f\u1694\u1688) (LABRID)",
+        "text": "Person Word: LABRID (LABRID)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VITALIN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: VITALIN (VITALIN)",
+        "text": "Person Word: VITALIN (VITALIN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAQI (\u168b\u1690\u1694) (MAQI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BR...",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: BR... (\u1681\u168f) (BR...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: TOGITTACC[I] (\u1689\u1691\u168c\u1694\u1689\u1689\u1690\u168a\u168a\u1694) (TOGITTACC%5BI%5D)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COMMAGGAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: COMMAGGAGNI (COMMAGGAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ISAMMNN%3F_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: ISAMMNN? (\u1694\u1685\u1690\u168b\u168b\u1686\u1686) (ISAMMNN%3F)",
+        "text": "Person Word: ISAMMNN? (ISAMMNN%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#KOI%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: KOI? (\u1691\u1694) (KOI%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#INISSIONAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: INISSIONAS (\u1694\u1686\u1694\u1685\u1685\u1694\u1691\u1686\u1690\u1685) (INISSIONAS)",
+        "text": "Person Word: INISSIONAS (INISSIONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DROGNO",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: DROGNO (DROGNO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MOCOI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MOCOI (\u168b\u1691\u168a\u1691\u1694) (MOCOI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MARIANI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MARIANI (MARIANI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDDONOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: VEDDONOS (\u1684\u1693\u1688\u1688\u1691\u1686\u1691\u1685) (VEDDONOS)",
+        "text": "Person Word: VEDDONOS (VEDDONOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIONAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: BROINIONAS (BROINIONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BECCDINN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: BECCDINN (\u1681\u1693\u168a\u168a\u1688\u1694\u1686\u1686) (BECCDINN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COBRANORA%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: COBRANORA? (COBRANORA%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GOSSUCTTIAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: GOSSUCTTIAS (GOSSUCTTIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GRAVICAS_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: GRAVICAS (\u168c\u168f\u1690\u1684\u1694\u168a\u1690\u1685) (GRAVICAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#...LL...",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: ...LL... (...LL...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEGLANN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: DEGLANN (\u1688\u1693\u168c\u1682\u1690\u1686\u1686) (DEGLANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBBI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: CORBBI (\u168a\u1691\u168f\u1681\u1681\u1694) (CORBBI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNACENA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: CUNACENA (\u168a\u1692\u1686\u1690\u168a\u1693\u1686\u1690) (CUNACENA)",
+        "text": "Person Word: CUNACENA (CUNACENA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BATTIGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: BATTIGNI (\u1681\u1690\u1689\u1689\u1694\u168c\u1686\u1694) (BATTIGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SEDANI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: SEDANI (SEDANI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDABAR",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: VEDABAR (VEDABAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MOINENA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MOINENA (MOINENA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: NETTA-LAMINACCA (\u1686\u1693\u1689\u1689\u1690\u1682\u1690\u168b\u1694\u1686\u1690\u168a\u168a\u1690) (NETTA-LAMINACCA)",
+        "text": "Person Word: NETTA-LAMINACCA (NETTA-LAMINACCA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-TTAL",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MAQI-TTAL (\u168b\u1690\u1694\u1689\u1689\u1690\u1682) (MAQI-TTAL)",
+        "text": "Person Word: MAQI-TTAL (MAQI-TTAL)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COSCIS%2FN_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: COSCIS/N (\u168a\u1691\u1685\u168a\u1694\u1685\u1686) (COSCIS%2FN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAILE-INBIR",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MAILE-INBIR (MAILE-INBIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#EQQEGGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: EQQEGGNI (EQQEGGNI)",
+        "text": "Person Word: EQQEGGNI (EQQEGGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SILLANN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: SILLANN (SILLANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DENAVECA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: DENAVECA (DENAVECA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUCOVAROS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: DUCOVAROS (\u1688\u1692\u168a\u1691\u1684\u1690\u168f\u1691\u1685) (DUCOVAROS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTINI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: CATTINI (CATTINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VINNAGITLET%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: VINNAGITLET? (\u1684\u1694\u1686\u1686\u1690\u168c\u1694\u1689\u1682\u1693\u1689) (VINNAGITLET%3F)",
+        "text": "Person Word: VINNAGITLET? (VINNAGITLET%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#IAQINI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: IAQINI (IAQINI)",
+        "text": "Person Word: IAQINI (IAQINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIR",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: BIR (BIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: B[AI]D[A]N[I] (\u1681\u1690\u1694\u1688\u1690\u1686\u1694) (B%5BAI%5DD%5BA%5DN%5BI%5D)",
+        "text": "Person Word: B[AI]D[A]N[I] (B%5BAI%5DD%5BA%5DN%5BI%5D)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MAQI-ERCIAS? (MAQI-ERCIAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GALEOTOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: GALEOTOS (\u168c\u1690\u1682\u1693\u1691\u1689\u1691\u1685) (GALEOTOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COIMAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: COIMAGNI (\u168a\u1691\u1694\u168b\u1690\u168c\u1686\u1694) (COIMAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGUQRIT",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: LUGUQRIT (LUGUQRIT)",
+        "text": "Person Word: LUGUQRIT (LUGUQRIT)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUGENNGI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: DUGENNGI (\u1688\u1692\u168c\u1693\u1686\u1686\u168c\u1694) (DUGENNGI)",
+        "text": "Person Word: DUGENNGI (DUGENNGI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CCICAMINI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: CCICAMINI (\u168a\u168a\u1694\u168a\u1690\u168b\u1694\u1686\u1694) (CCICAMINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAILAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MAILAGNI (MAILAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNALEGEA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: CUNALEGEA (CUNALEGEA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MOSAC",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MOSAC (\u168b\u1691\u1685\u1690\u168a) (MOSAC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGA_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: LUGA (LUGA)",
+        "text": "Person Word: LUGA (LUGA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#INEQAGLAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: INEQAGLAS (INEQAGLAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TASEGAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: TASEGAGNI (TASEGAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOLIGENN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: DOLIGENN (\u1688\u1691\u1682\u1694\u168c\u1693\u1686\u1686) (DOLIGENN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUIBITI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MUIBITI (MUIBITI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ATAR_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: ATAR (ATAR)",
+        "text": "Person Word: ATAR (ATAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIENAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: BROINIENAS (\u1681\u168f\u1691\u1694\u1686\u1694\u1693\u1686\u1690\u1685) (BROINIENAS)",
+        "text": "Person Word: BROINIENAS (BROINIENAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTO",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: ALATTO (\u1690\u1682\u1690\u1689\u1689\u1691) (ALATTO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SEVERRIT",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: SEVERRIT (SEVERRIT)",
+        "text": "Person Word: SEVERRIT (SEVERRIT)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COMOGANN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: COMOGANN (\u168a\u1691\u168b\u1691\u168c\u1690\u1686\u1686) (COMOGANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUCOI%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MUCOI? (\u168b\u1692\u168a\u1691\u1694) (MUCOI%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MANU",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MANU (\u168b\u1690\u1686\u1692) (MANU)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: DALI (\u1688\u1690\u1682\u1694) (DALI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LAG%5B...",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: LAG[... (LAG%5B...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#UDDAMI_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: UDDAMI (UDDAMI)",
+        "text": "Person Word: UDDAMI (UDDAMI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COROTANI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: COROTANI (COROTANI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#KOI_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: KOI (\u1691\u1694) (KOI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AMADU",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: AMADU (AMADU)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GATI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: GATI (\u168c\u1690\u1689\u1694) (GATI)",
+        "text": "Person Word: GATI (GATI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUNAIDONAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: DUNAIDONAS (\u1688\u1692\u1686\u1690\u1694\u1688\u1691\u1686\u1690\u1685) (DUNAIDONAS)",
+        "text": "Person Word: DUNAIDONAS (DUNAIDONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-ERCCIA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MAQQI-ERCCIA (MAQQI-ERCCIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GAMICUNAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: GAMICUNAS (GAMICUNAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TUCACAC",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: TUCACAC (\u1689\u1692\u168a\u1690\u168a\u1690\u168a) (TUCACAC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RAVASA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: RAVASA (RAVASA)",
+        "text": "Person Word: RAVASA (RAVASA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERACIAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: ERACIAS (ERACIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIVAIDONAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: BIVAIDONAS (BIVAIDONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TULOTANAGIA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: TULOTANAGIA (\u1689\u1692\u1682\u1691\u1689\u1690\u1686\u1690\u168c\u1694\u1690) (TULOTANAGIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOGIDEAS_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: LOGIDEAS (\u1682\u1691\u168c\u1694\u1688\u1693\u1690\u1685) (LOGIDEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERC_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: ERC (ERC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIR",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: CIR (CIR)",
+        "text": "Person Word: CIR (CIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MINERC%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MINERC? (\u168b\u1694\u1686\u1693\u168f\u168a) (MINERC%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTUBUTTAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: CATTUBUTTAS (CATTUBUTTAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVINIA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: DOVINIA (DOVINIA)",
+        "text": "Person Word: DOVINIA (DOVINIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NE%3FTTVRECC",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: NE?TTVRECC (NE%3FTTVRECC)",
+        "text": "Person Word: NE?TTVRECC (NE%3FTTVRECC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLATIGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: LLATIGNI (\u1682\u1682\u1690\u1689\u1694\u168c\u1686\u1694) (LLATIGNI)",
+        "text": "Person Word: LLATIGNI (LLATIGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAQI-DUMILEAS (\u168b\u1690\u1694\u1688\u1692\u168b\u1694\u1682\u1693\u1690\u1685) (MAQI-DUMILEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MAQI-CAIRATINI (\u168b\u1690\u1694\u168a\u1690\u1694\u168f\u1690\u1689\u1694\u1686\u1694) (MAQI-CAIRATINI)",
+        "text": "Person Word: MAQI-CAIRATINI (MAQI-CAIRATINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAQQI (\u168b\u1690\u1694) (MAQQI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: VIRR[ACC]ANNI? (\u1684\u1694\u168f\u168f\u1690\u168a\u168a\u1690\u1686\u1686\u1694) (VIRR%5BACC%5DANNI%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDALO_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MEDALO (MEDALO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RODDOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: RODDOS (RODDOS)",
+        "text": "Person Word: RODDOS (RODDOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ERCIAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MAQI-ERCIAS (MAQI-ERCIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#IVACATTOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: IVACATTOS (IVACATTOS)",
+        "text": "Person Word: IVACATTOS (IVACATTOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ANM_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: ANM (\u1690\u1686\u168b) (ANM)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ENA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: ENA (ENA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLUNLEGGET_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: GLUNLEGGET (GLUNLEGGET)",
+        "text": "Person Word: GLUNLEGGET (GLUNLEGGET)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GELAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: GELAGNI (\u168c\u1693\u1682\u1690\u168c\u1686\u1694) (GELAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIRRAC",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: BIRRAC (\u1681\u1694\u168f\u168f\u1690\u168a) (BIRRAC)",
+        "text": "Person Word: BIRRAC (BIRRAC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: ALATTOS (\u1690\u1682\u1690\u1689\u1689\u1691\u1685) (ALATTOS)",
+        "text": "Person Word: ALATTOS (ALATTOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NILI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: NILI (\u1686\u1694\u1682\u1694) (NILI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VRAICCI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: VRAICCI (\u1684\u168f\u1690\u1694\u168a\u168a\u1694) (VRAICCI)",
+        "text": "Person Word: VRAICCI (VRAICCI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAQA (\u168b\u1690\u1690) (MAQA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALAGNI_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: DALAGNI (DALAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEGOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: DEGOS (\u1688\u1693\u168c\u1691\u1685) (DEGOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: [B]RRUA/ENANN (\u1681\u168f\u168f\u1692\u1690\u1693\u1686\u1690\u1686\u1686) (%5BB%5DRRUA%2FENANN)",
+        "text": "Person Word: [B]RRUA/ENANN (%5BB%5DRRUA%2FENANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORGOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: VORGOS (\u1684\u1691\u168f\u168c\u1691\u1685) (VORGOS)",
+        "text": "Person Word: VORGOS (VORGOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: C[....]SALAR (\u168a\u1685\u1690\u1682\u1690\u168f) (C%5B....%5DSALAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVVINIA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: DOVVINIA (\u1688\u1691\u1684\u1684\u1694\u1686\u1694\u1690) (DOVVINIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUMELI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: DUMELI (DUMELI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDVVI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MEDVVI (\u168b\u1693\u1688\u1684\u1684\u1694) (MEDVVI)",
+        "text": "Person Word: MEDVVI (MEDVVI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CURCI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: CURCI (\u168a\u1692\u168f\u168a\u1694) (CURCI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ODR...REA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: ODR...REA (ODR...REA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BRUSCCOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: BRUSCCOS (\u1681\u168f\u1692\u1685\u168a\u168a\u1691\u1685) (BRUSCCOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAMAQQI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: CUNAMAQQI (\u168a\u1692\u1686\u1690\u168b\u1690\u1694) (CUNAMAQQI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QRITTI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: QRITTI (\u168f\u1694\u1689\u1689\u1694) (QRITTI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SENAQ",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: SENAQ (\u1685\u1693\u1686\u1690) (SENAQ)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QVECI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: QVECI (QVECI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GIRAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: GIRAGNI (GIRAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-IARI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAQQI-IARI (\u168b\u1690\u1694\u1694\u1690\u168f\u1694) (MAQQI-IARI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CELI_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: CELI (\u168a\u1693\u1682\u1694) (CELI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NE%5BT....%5DAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: NE[T....]AS (NE%5BT....%5DAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDUSI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MEDUSI (MEDUSI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AILITHIR",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: AILITHIR (AILITHIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RITTAVVECCAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: RITTAVVECCAS (RITTAVVECCAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MARIN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MARIN (MARIN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ADDILONA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: ADDILONA (ADDILONA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CALIACI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: CALIACI (\u168a\u1690\u1682\u1694\u1690\u168a\u1694) (CALIACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: SAG(A)RETTOS (SAG%28A%29RETTOS)",
+        "text": "Person Word: SAG(A)RETTOS (SAG%28A%29RETTOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TURANIAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: TURANIAS (\u1689\u1692\u168f\u1690\u1686\u1694\u1690\u1685) (TURANIAS)",
+        "text": "Person Word: TURANIAS (TURANIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: QENILOC[A]GNI (\u1693\u1686\u1694\u1682\u1691\u168a\u1690\u168c\u1686\u1694) (QENILOC%5BA%5DGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: NETA-SALAGIA? (NETA-SALAGIA%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VURUDDRANN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: VURUDDRANN (\u1684\u1692\u168f\u1692\u1688\u1688\u168f\u1690\u1686\u1686) (VURUDDRANN)",
+        "text": "Person Word: VURUDDRANN (VURUDDRANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUCO%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MUCO? (\u168b\u1692\u168a\u1691) (MUCO%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OVANOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: OVANOS (\u1691\u1684\u1690\u1686\u1691\u1685) (OVANOS)",
+        "text": "Person Word: OVANOS (OVANOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVATUCI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: DOVATUCI (\u1688\u1691\u1684\u1690\u1689\u1692\u168a\u1694) (DOVATUCI)",
+        "text": "Person Word: DOVATUCI (DOVATUCI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CURCITTI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: CURCITTI (CURCITTI)",
+        "text": "Person Word: CURCITTI (CURCITTI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QENILOCI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: QENILOCI (QENILOCI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUBBIAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: LUBBIAS (LUBBIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-INI...",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAQI-INI... (\u168b\u1690\u1694\u1694\u1686\u1694) (MAQI-INI...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: CORBI (\u168a\u1691\u168f\u1681\u1694) (CORBI)",
+        "text": "Person Word: CORBI (CORBI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VOTI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: VOTI (VOTI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOMANEQI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: DOMANEQI (DOMANEQI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MACORBO? (\u168b\u1690\u168a\u1691\u168f\u1681\u1691) (MACORBO%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CALUNOVICA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: CALUNOVICA (\u168a\u1690\u1682\u1692\u1686\u1691\u1684\u1694\u168a\u1690) (CALUNOVICA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNANETAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: CUNANETAS (CUNANETAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORTIGURN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: VORTIGURN (\u1684\u1691\u168f\u1689\u1694\u168c\u1692\u168f\u1686) (VORTIGURN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: MAQI-?OGGODIKA (MAQI-%3FOGGODIKA)",
+        "text": "Person Word: MAQI-?OGGODIKA (MAQI-%3FOGGODIKA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SRUSA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: SRUSA (\u1685\u168f\u1692\u1685\u1690) (SRUSA)",
+        "text": "Person Word: SRUSA (SRUSA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ESEA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAQI-ESEA (\u168b\u1690\u1694\u1693\u1685\u1693\u1690) (MAQI-ESEA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLASICONAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: GLASICONAS (\u168c\u1682\u1690\u1685\u1694\u168a\u1691\u1686\u1690\u1685) (GLASICONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: AMMLLONGITT? (\u1690\u168b\u168b\u1682\u1682\u1691\u1686\u168c\u1694\u1689\u1689) (AMMLLONGITT%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MONGEDIAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MONGEDIAS (\u168b\u1691\u1686\u168c\u1693\u1688\u1694\u1690\u1685) (MONGEDIAS)",
+        "text": "Person Word: MONGEDIAS (MONGEDIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CUNALIG...",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MAQI-CUNALIG... (\u168b\u1690\u1694\u168a\u1692\u1686\u1690\u1682\u1694\u168c) (MAQI-CUNALIG...)",
+        "text": "Person Word: MAQI-CUNALIG... (MAQI-CUNALIG...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TEGANN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: TEGANN (TEGANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SACATTINI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: SACATTINI (\u1685\u1690\u168a\u1690\u1689\u1689\u1694\u1686\u1694) (SACATTINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AVI_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: AVI (\u1690\u1684\u1694) (AVI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTAVROICC",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: NETTAVROICC (NETTAVROICC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#%5BQE%5DTTEAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: [QE]TTEAS (\u1693\u1689\u1689\u1693\u1690\u1685) (%5BQE%5DTTEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOBBI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: LOBBI (LOBBI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CEDATTOQA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: CEDATTOQA (\u168a\u1693\u1688\u1690\u1689\u1689\u1691\u1690) (CEDATTOQA)",
+        "text": "Person Word: CEDATTOQA (CEDATTOQA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-AINIA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAQI-AINIA (\u168b\u1690\u1694\u1690\u1694\u1686\u1694\u1690) (MAQI-AINIA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVINIAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: DOVINIAS (DOVINIAS)",
+        "text": "Person Word: DOVINIAS (DOVINIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: CORBAGNI (CORBAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROCANN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: BROCANN (\u1681\u168f\u1691\u168a\u1690\u1686\u1686) (BROCANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COILLI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: COILLI (\u168a\u1691\u1694\u1682\u1682\u1694) (COILLI)",
+        "text": "Person Word: COILLI (COILLI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVVINIAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: DOVVINIAS (DOVVINIAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-CARI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: NETA-CARI (NETA-CARI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AGILL...",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: AGILL... (\u1690\u168c\u1694\u1682\u1682) (AGILL...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGADDON",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: LUGADDON (LUGADDON)",
+        "text": "Person Word: LUGADDON (LUGADDON)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RINI_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: RINI (RINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AKEVRITTI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: AKEVRITTI (AKEVRITTI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GOSOCTEAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: GOSOCTEAS (\u168c\u1691\u1685\u1691\u168a\u1689\u1693\u1690\u1685) (GOSOCTEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNOVATOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: CUNOVATOS (\u168a\u1692\u1686\u1691\u1684\u1690\u1689\u1691\u1685) (CUNOVATOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAGUSOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: CUNAGUSOS (CUNAGUSOS)",
+        "text": "Person Word: CUNAGUSOS (CUNAGUSOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORRBRI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: CORRBRI (\u168a\u1691\u168f\u168f\u1681\u168f\u1694) (CORRBRI)",
+        "text": "Person Word: CORRBRI (CORRBRI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUNICONA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MUNICONA (\u168b\u1692\u1686\u1694\u168a\u1691\u1686\u1690) (MUNICONA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RONANN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: RONANN (RONANN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DIMAQA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: DIMAQA (\u1688\u1694\u168b\u1690\u1690) (DIMAQA)",
+        "text": "Person Word: DIMAQA (DIMAQA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: NETTA-TTRENALUGOS (\u1686\u1693\u1689\u1689\u1690\u1689\u1689\u168f\u1693\u1686\u1690\u1682\u1692\u168c\u1691\u1685) (NETTA-TTRENALUGOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDELMETO",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: VEDELMETO (VEDELMETO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#...ERATI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: ...ERATI (...ERATI)",
+        "text": "Person Word: ...ERATI (...ERATI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-CAGI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: NETA-CAGI (NETA-CAGI)",
+        "text": "Person Word: NETA-CAGI (NETA-CAGI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DILOGONN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: DILOGONN (\u1688\u1694\u1682\u1691\u168c\u1691\u1686\u1686) (DILOGONN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CORABIR",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: MAQI-CORABIR (\u168b\u1690\u1694\u168a\u1691\u168f\u1690\u1681\u1694\u168f) (MAQI-CORABIR)",
+        "text": "Person Word: MAQI-CORABIR (MAQI-CORABIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEQREQ",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: VEQREQ (\u1684\u1693\u168f\u1693) (VEQREQ)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NIOTTA",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: NIOTTA (\u1686\u1694\u1691\u1689\u1689\u1690) (NIOTTA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAC",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAC (\u168b\u1690\u168a) (MAC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIONAS%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: BROINIONAS? (\u1681\u168f\u1691\u1694\u1686\u1694\u1691\u1686\u1690\u1685) (BROINIONAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEAGOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: DEAGOS (\u1688\u1693\u1690\u168c\u1691\u1685) (DEAGOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERCAVICCAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: ERCAVICCAS (ERCAVICCAS)",
+        "text": "Person Word: ERCAVICCAS (ERCAVICCAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ULCCAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: ULCCAGNI (\u1692\u1682\u168a\u168a\u1690\u168c\u1686\u1694) (ULCCAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUCOI_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MUCOI (\u168b\u1692\u168a\u1691\u1694) (MUCOI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SUVALLOS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: SUVALLOS (\u1685\u1692\u1684\u1690\u1682\u1682\u1691\u1685) (SUVALLOS)",
+        "text": "Person Word: SUVALLOS (SUVALLOS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DERCMASOC_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: DERCMASOC (DERCMASOC)",
+        "text": "Person Word: DERCMASOC (DERCMASOC)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORB",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: CORB (CORB)",
+        "text": "Person Word: CORB (CORB)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OLACON",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: OLACON (\u1691\u1682\u1690\u168a\u1691\u1686) (OLACON)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TAN...",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: TAN... (TAN...)",
+        "text": "Person Word: TAN... (TAN...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TRENU",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: TRENU (\u1689\u168f\u1693\u1686\u1692) (TRENU)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VIRAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: VIRAGNI (\u1684\u1694\u168f\u1690\u168c\u1686\u1694) (VIRAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COLLABOT",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: COLLABOT (\u168a\u1691\u1682\u1682\u1690\u1681\u1691\u1689) (COLLABOT)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTUVIR",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: CATTUVIR (\u168a\u1690\u1689\u1689\u1692\u1684\u1694\u168f) (CATTUVIR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: B[AID]AGNI (\u1681\u1690\u1694\u1688\u1690\u168c\u1686\u1694) (B%5BAID%5DAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGUDECAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: LUGUDECAS (\u1682\u1692\u168c\u1692\u1688\u1693\u168a\u1690\u1685) (LUGUDECAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROENIONAS%3F_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: BROENIONAS? (\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685) (BROENIONAS%3F)",
+        "text": "Person Word: BROENIONAS? (BROENIONAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: NETA-SEGAMONAS (NETA-SEGAMONAS)",
+        "text": "Person Word: NETA-SEGAMONAS (NETA-SEGAMONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: TOGITTACC[I]? (TOGITTACC%5BI%5D%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAKINI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MAKINI (MAKINI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COLMAN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Word: COLMAN (\u168a\u1691\u1682\u168b\u1690\u1686) (COLMAN)",
+        "text": "Person Word: COLMAN (COLMAN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ROTTAIS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: ROTTAIS (\u168f\u1691\u1689\u1689\u1690\u1694\u1685) (ROTTAIS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLOTETI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: LLOTETI (\u1682\u1682\u1691\u1689\u1693\u1689\u1694) (LLOTETI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-DECEDAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MAQI-DECEDAS (\u168b\u1690\u1694\u1688\u1693\u168a\u1693\u1688\u1690\u1685) (MAQI-DECEDAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: NAG[U]N[I] (\u1686\u1690\u168c\u1692\u1686\u1694) (NAG%5BU%5DN%5BI%5D)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TALAGNI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: TALAGNI (\u1689\u1690\u1682\u1690\u168c\u1686\u1694) (TALAGNI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NOCATI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: NOCATI (NOCATI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MAQQI-LASIRE(N) (MAQQI-LASIRE%28N%29)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: MACORBO (MACORBO)",
+        "text": "Person Word: MACORBO (MACORBO)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIGU",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: BIGU (BIGU)",
+        "text": "Person Word: BIGU (BIGU)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TRENALUGGO%3F",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: TRENALUGGO? (TRENALUGGO%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-RITEAS",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: MAQI-RITEAS (MAQI-RITEAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTABBOTT",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: CATTABBOTT (CATTABBOTT)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORRTIGURN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: VORRTIGURN (\u1684\u1691\u168f\u168f\u1689\u1694\u168c\u1692\u168f\u1686) (VORRTIGURN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: MACI (\u168b\u1690\u168a\u1694) (MACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RETAGIN",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Word: RETAGIN (\u168f\u1693\u1689\u1690\u168c\u1694\u1686) (RETAGIN)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-RET%2FC...",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
-        "text": "Person: MAQI-RET/C... (MAQI-RET%2FC...)",
+        "text": "Person Word: MAQI-RET/C... (MAQI-RET%2FC...)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVETI",
-        "parent": "http://lemon-model.net/lemon#Word",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
         "type": "instance",
         "text": "Person: DOVETI (DOVETI)",
         "data": {}
       },
       {
-        "id": "http://lemon-model.net/lemon#Word",
+        "id": "http://www.w3.org/ns/lemon/ontolex#Word",
         "parent": "#",
         "type": "class",
-        "text": "Word (lemon:Word) [229]",
+        "text": "Word (ontolex:Word) [229]",
         "data": {
           "to": {
-            "http://lemon-model.net/lemon#contains": {
-              "instancecount": 6,
-              "http://lemon-model.net/lemon#Character": 7,
-              "http://www.wikidata.org/entity/Q41812345": 7
-            },
-            "http://lemon-model.net/lemon#sense": {
-              "instancecount": 0,
-              "http://lemon-model.net/lemon#LexicalSense": 1
-            },
-            "http://lemon-model.net/lemon#transliteration": {
-              "instancecount": 0
-            },
-            "http://lemon-model.net/lemon#writtenRep": {
-              "instancecount": 0
-            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
@@ -1677,25 +1662,32 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/ontolex#contains": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/lemon/ontolex#Character": 2,
+              "http://www.wikidata.org/entity/Q41812345": 2
+            },
+            "http://www.w3.org/ns/lemon/ontolex#transliteration": {
+              "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/ontolex#writtenRep": {
+              "instancecount": 0
             }
           },
           "from": {
-            "http://lemon-model.net/lemon#entry": {
-              "instancecount": 0,
-              "http://lemon-model.net/lemon#Lexicon": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
             },
-            "http://www.wikidata.org/prop/direct/P6568": {
+            "http://www.w3.org/ns/lemon/lime#entry": {
               "instancecount": 0,
-              "http://www.i3mainz.de/ogham#OghamObject": 1
+              "http://www.w3.org/ns/lemon/lime#Lexicon": 1
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 1
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+285.+Kilbeg_geom",
@@ -4377,6 +4369,14 @@ var tree={
               "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
+            "http://www.i3mainz.de/ogham#definedInWikidata": {
+              "instancecount": 0,
+              "http://www.wikidata.org/entity/Q67382150": 1
+            },
+            "http://www.i3mainz.de/ogham#nameRelatesTo": {
+              "instancecount": 0,
+              "http://www.w3.org/2002/07/owl#Class": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
@@ -4384,16 +4384,26 @@ var tree={
             "http://www.wikidata.org/prop/direct/P22": {
               "instancecount": 0,
               "http://xmlns.com/foaf/0.1/Person": 1
+            },
+            "http://www.wikidata.org/prop/direct/P463": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 1,
+              "http://www.wikidata.org/entity/Q3538737": 1
             }
           },
           "from": {
-            "http://lemon-model.net/lemon#reference": {
+            "http://www.i3mainz.de/ogham#hasMember": {
               "instancecount": 0,
-              "http://lemon-model.net/lemon#LexicalSense": 1
+              "http://www.w3.org/ns/lemon/ontolex#Word": 1,
+              "http://www.wikidata.org/entity/Q3538737": 1
             },
             "http://www.w3.org/2006/vcard/ns#hasMember": {
               "instancecount": 0,
               "http://www.w3.org/2006/vcard/ns#Group": 1
+            },
+            "http://www.w3.org/ns/lemon/ontolex#reference": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/ontolex#LexicalSense": 1
             },
             "http://www.wikidata.org/prop/direct/P6568": {
               "instancecount": 0,
@@ -4405,1492 +4415,1488 @@ var tree={
       },
       {
         "id": "http://www.i3mainz.de/ogham#AMADU_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "AMADU Sense (AMADU_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTABBOTT_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CATTABBOTT Sense (CATTABBOTT_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORRTIGURN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VORRTIGURN Sense (VORRTIGURN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QRITTI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "QRITTI Sense (QRITTI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NOCATI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NOCATI Sense (NOCATI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SILLANN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "SILLANN Sense (SILLANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDVVI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MEDVVI Sense (MEDVVI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CORBI Sense (CORBI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-CARI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NETA-CARI Sense (NETA-CARI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TRENU_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TRENU Sense (TRENU_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LUGA Sense (LUGA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVVINIA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DOVVINIA Sense (DOVVINIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDELMETO_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VEDELMETO Sense (VEDELMETO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUCOVAROS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DUCOVAROS Sense (DUCOVAROS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DERCMASOC_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DERCMASOC Sense (DERCMASOC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-%3FOGGODIKA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-?OGGODIKA Sense (MAQI-%3FOGGODIKA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUNICONA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MUNICONA Sense (MUNICONA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTUBUTTAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CATTUBUTTAS Sense (CATTUBUTTAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#EQQEGGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "EQQEGGNI Sense (EQQEGGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OLACON_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "OLACON Sense (OLACON_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TOGITTACC[I] Sense (TOGITTACC%5BI%5D_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#OVANOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "OVANOS Sense (OVANOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-AINIA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-AINIA Sense (MAQI-AINIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ULCCAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ULCCAGNI Sense (ULCCAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TEGANN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TEGANN Sense (TEGANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUNAIDONAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DUNAIDONAS Sense (DUNAIDONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SALAGIA%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NETA-SALAGIA? Sense (NETA-SALAGIA%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-ERCCIA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQQI-ERCCIA Sense (MAQQI-ERCCIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROCANN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BROCANN Sense (BROCANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GRAVICAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GRAVICAS Sense (GRAVICAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BR..._sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BR... Sense (BR..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEGLANN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DEGLANN Sense (DEGLANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SUVALLOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "SUVALLOS Sense (SUVALLOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIENAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BROINIENAS Sense (BROINIENAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORTIGURN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VORTIGURN Sense (VORTIGURN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VOTI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VOTI Sense (VOTI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BECCDINN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BECCDINN Sense (BECCDINN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ATAR_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ATAR Sense (ATAR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BRUSCCOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BRUSCCOS Sense (BRUSCCOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AILITHIR_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "AILITHIR Sense (AILITHIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTA-LAMINACCA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NETTA-LAMINACCA Sense (NETTA-LAMINACCA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NILI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NILI Sense (NILI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-IARI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQQI-IARI Sense (MAQQI-IARI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CORABIR_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-CORABIR Sense (MAQI-CORABIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QENILOC%5BA%5DGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "QENILOC[A]GNI Sense (QENILOC%5BA%5DGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GIRAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GIRAGNI Sense (GIRAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TURANIAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TURANIAS Sense (TURANIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MOINENA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MOINENA Sense (MOINENA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTUVIR_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CATTUVIR Sense (CATTUVIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOMANEQI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DOMANEQI Sense (DOMANEQI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GALEOTOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GALEOTOS Sense (GALEOTOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SAG%28A%29RETTOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "SAG(A)RETTOS Sense (SAG%28A%29RETTOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORRBRI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CORRBRI Sense (CORRBRI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIRRAC_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BIRRAC Sense (BIRRAC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVVINIAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DOVVINIAS Sense (DOVVINIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ODR...REA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ODR...REA Sense (ODR...REA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-CAGI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NETA-CAGI Sense (NETA-CAGI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGADDON_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LUGADDON Sense (LUGADDON_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SENAQ_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "SENAQ Sense (SENAQ_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DROGNO_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DROGNO Sense (DROGNO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AGILL..._sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "AGILL... Sense (AGILL..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MACORBO Sense (MACORBO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CUNALIG..._sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-CUNALIG... Sense (MAQI-CUNALIG..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TASEGAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TASEGAGNI Sense (TASEGAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#C%5B....%5DSALAR_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "C[....]SALAR Sense (C%5B....%5DSALAR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TULOTANAGIA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TULOTANAGIA Sense (TULOTANAGIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GELAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GELAGNI Sense (GELAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VRAICCI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VRAICCI Sense (VRAICCI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUMELI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DUMELI Sense (DUMELI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CURCI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CURCI Sense (CURCI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GAMICUNAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GAMICUNAS Sense (GAMICUNAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CALUNOVICA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CALUNOVICA Sense (CALUNOVICA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RONANN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "RONANN Sense (RONANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORB_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CORB Sense (CORB_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDALO_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MEDALO Sense (MEDALO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COSCIS%2FN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "COSCIS/N Sense (COSCIS%2FN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VINNAGITLET%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VINNAGITLET? Sense (VINNAGITLET%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RITTAVVECCAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "RITTAVVECCAS Sense (RITTAVVECCAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VORGOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VORGOS Sense (VORGOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#...ERATI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "...ERATI Sense (...ERATI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AMMLLONGITT%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "AMMLLONGITT? Sense (AMMLLONGITT%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEAGOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DEAGOS Sense (DEAGOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GOSSUCTTIAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GOSSUCTTIAS Sense (GOSSUCTTIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAILAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAILAGNI Sense (MAILAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#IAQINI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "IAQINI Sense (IAQINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLUNLEGGET_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GLUNLEGGET Sense (GLUNLEGGET_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DALAGNI Sense (DALAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#IVACATTOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "IVACATTOS Sense (IVACATTOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVINIAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DOVINIAS Sense (DOVINIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIGU_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BIGU Sense (BIGU_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MACORBO? Sense (MACORBO%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RODDOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "RODDOS Sense (RODDOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TRENALUGGO%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TRENALUGGO? Sense (TRENALUGGO%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DIMAQA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DIMAQA Sense (DIMAQA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TALAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TALAGNI Sense (TALAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ISAMMNN%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ISAMMNN? Sense (ISAMMNN%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#INEQAGLAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "INEQAGLAS Sense (INEQAGLAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SRUSA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "SRUSA Sense (SRUSA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAILE-INBIR_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAILE-INBIR Sense (MAILE-INBIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTA-TTRENALUGOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NETTA-TTRENALUGOS Sense (NETTA-TTRENALUGOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NAG[U]N[I] Sense (NAG%5BU%5DN%5BI%5D_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ROTTAIS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ROTTAIS Sense (ROTTAIS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#%5BB%5DRRUA%2FENANN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "[B]RRUA/ENANN Sense (%5BB%5DRRUA%2FENANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTO_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ALATTO Sense (ALATTO_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDABAR_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VEDABAR Sense (VEDABAR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LITENI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LITENI Sense (LITENI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOBACCONA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LOBACCONA Sense (LOBACCONA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#AKEVRITTI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "AKEVRITTI Sense (AKEVRITTI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VIRR%5BACC%5DANNI%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VIRR[ACC]ANNI? Sense (VIRR%5BACC%5DANNI%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GLASICONAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GLASICONAS Sense (GLASICONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIONAS%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BROINIONAS? Sense (BROINIONAS%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NE%5BT....%5DAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NE[T....]AS Sense (NE%5BT....%5DAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MANU_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MANU Sense (MANU_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERACIAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ERACIAS Sense (ERACIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QECCIAS%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "QECCIAS? Sense (QECCIAS%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ALATTOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ALATTOS Sense (ALATTOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COLMAN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "COLMAN Sense (COLMAN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ADDILONA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ADDILONA Sense (ADDILONA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COMOGANN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "COMOGANN Sense (COMOGANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MUIBITI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MUIBITI Sense (MUIBITI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBBI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CORBBI Sense (CORBBI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LAG%5B..._sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LAG[... Sense (LAG%5B..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RETAGIN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "RETAGIN Sense (RETAGIN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VATTILLOGG_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VATTILLOGG Sense (VATTILLOGG_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOGITTACC%5BI%5D%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TOGITTACC[I]? Sense (TOGITTACC%5BI%5D%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RINI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "RINI Sense (RINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VITALIN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VITALIN Sense (VITALIN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-DUMILEAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-DUMILEAS Sense (MAQI-DUMILEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NE%3FTTVRECC_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NE?TTVRECC Sense (NE%3FTTVRECC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-DECEDAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-DECEDAS Sense (MAQI-DECEDAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DENAVECA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DENAVECA Sense (DENAVECA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#UDDAMI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "UDDAMI Sense (UDDAMI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QVECI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "QVECI Sense (QVECI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLOTETI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LLOTETI Sense (LLOTETI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#QENILOCI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "QENILOCI Sense (QENILOCI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERCAVICCAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ERCAVICCAS Sense (ERCAVICCAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SEDANI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "SEDANI Sense (SEDANI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGUDECAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LUGUDECAS Sense (LUGUDECAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIVAIDONAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BIVAIDONAS Sense (BIVAIDONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LLATIGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LLATIGNI Sense (LLATIGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BATTIGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BATTIGNI Sense (BATTIGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUGUQRIT_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LUGUQRIT Sense (LUGUQRIT_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVETI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DOVETI Sense (DOVETI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVINIA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DOVINIA Sense (DOVINIA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NETA-SEGAMONAS Sense (NETA-SEGAMONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TUCACAC_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TUCACAC Sense (TUCACAC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ENA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ENA Sense (ENA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-TTAL_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-TTAL Sense (MAQI-TTAL_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COBRANORA%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "COBRANORA? Sense (COBRANORA%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-RITEAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-RITEAS Sense (MAQI-RITEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MEDUSI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MEDUSI Sense (MEDUSI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAMAQQI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CUNAMAQQI Sense (CUNAMAQQI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNOVATOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CUNOVATOS Sense (CUNOVATOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-CAIRATINI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-CAIRATINI Sense (MAQI-CAIRATINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CORBAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CORBAGNI Sense (CORBAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COLLABOT_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "COLLABOT Sense (COLLABOT_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-RET%2FC..._sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-RET/C... Sense (MAQI-RET%2FC..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CURCITTI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CURCITTI Sense (CURCITTI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TOICACI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TOICACI Sense (TOICACI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROINIONAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BROINIONAS Sense (BROINIONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEQREQ_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VEQREQ Sense (VEQREQ_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOLIGENN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DOLIGENN Sense (DOLIGENN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#RAVASA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "RAVASA Sense (RAVASA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CCICAMINI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CCICAMINI Sense (CCICAMINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#%5BQE%5DTTEAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "[QE]TTEAS Sense (%5BQE%5DTTEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#B%5BAID%5DAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "B[AID]AGNI Sense (B%5BAID%5DAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VIRAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VIRAGNI Sense (VIRAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CALIACI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CALIACI Sense (CALIACI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CATTINI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CATTINI Sense (CATTINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#...LL..._sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "...LL... Sense (...LL..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#B%5BAI%5DD%5BA%5DN%5BI%5D_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "B[AI]D[A]N[I] Sense (B%5BAI%5DD%5BA%5DN%5BI%5D_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LABRID_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LABRID Sense (LABRID_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNALEGEA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CUNALEGEA Sense (CUNALEGEA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ERC_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "ERC Sense (ERC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DALI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DALI Sense (DALI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNACENA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CUNACENA Sense (CUNACENA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LUBBIAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LUBBIAS Sense (LUBBIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#INISSIONAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "INISSIONAS Sense (INISSIONAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COMMAGGAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "COMMAGGAGNI Sense (COMMAGGAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ERCIAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-ERCIAS Sense (MAQI-ERCIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAKINI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAKINI Sense (MAKINI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQQI-LASIRE%28N%29_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQQI-LASIRE(N) Sense (MAQQI-LASIRE%28N%29_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ESEA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-ESEA Sense (MAQI-ESEA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DOVATUCI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DOVATUCI Sense (DOVATUCI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BROENIONAS%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BROENIONAS? Sense (BROENIONAS%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GOSOCTEAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GOSOCTEAS Sense (GOSOCTEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#TAN..._sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "TAN... Sense (TAN..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#BIR_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "BIR Sense (BIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOBBI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LOBBI Sense (LOBBI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIR_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CIR Sense (CIR_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VURUDDRANN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VURUDDRANN Sense (VURUDDRANN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#SEVERRIT_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "SEVERRIT Sense (SEVERRIT_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DUGENNGI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DUGENNGI Sense (DUGENNGI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MINERC%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MINERC? Sense (MINERC%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-INI..._sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-INI... Sense (MAQI-INI..._sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CEDATTOQA_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CEDATTOQA Sense (CEDATTOQA_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COROTANI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "COROTANI Sense (COROTANI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNANETAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CUNANETAS Sense (CUNANETAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MAQI-ERCIAS%3F_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MAQI-ERCIAS? Sense (MAQI-ERCIAS%3F_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VEDDONOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VEDDONOS Sense (VEDDONOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MARIANI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MARIANI Sense (MARIANI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#DEGOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "DEGOS Sense (DEGOS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETTAVROICC_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "NETTAVROICC Sense (NETTAVROICC_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COILLI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "COILLI Sense (COILLI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#LOGIDEAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "LOGIDEAS Sense (LOGIDEAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MONGEDIAS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MONGEDIAS Sense (MONGEDIAS_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#VLATIAMI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "VLATIAMI Sense (VLATIAMI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#GATI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "GATI Sense (GATI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MARIN_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "MARIN Sense (MARIN_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#COIMAGNI_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "COIMAGNI Sense (COIMAGNI_sense)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#CUNAGUSOS_sense",
-        "parent": "http://lemon-model.net/lemon#LexicalSense",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "type": "instance",
         "text": "CUNAGUSOS Sense (CUNAGUSOS_sense)",
         "data": {}
       },
       {
-        "id": "http://lemon-model.net/lemon#LexicalSense",
+        "id": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
         "parent": "#",
         "type": "class",
-        "text": "LexicalSense (lemon:LexicalSense) [211]",
+        "text": "LexicalSense (ontolex:LexicalSense) [211]",
         "data": {
           "to": {
-            "http://lemon-model.net/lemon#reference": {
-              "instancecount": 0,
-              "http://xmlns.com/foaf/0.1/Person": 1
-            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
@@ -5902,17 +5908,20 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/ontolex#reference": {
+              "instancecount": 0,
+              "http://xmlns.com/foaf/0.1/Person": 1
             }
           },
           "from": {
-            "http://lemon-model.net/lemon#sense": {
-              "instancecount": 0,
-              "http://lemon-model.net/lemon#Word": 1,
-              "http://www.wikidata.org/entity/Q3538737": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
+            },
+            "http://www.w3.org/ns/lemon/ontolex#sense": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 1
             }
           }
         },
@@ -7091,9 +7100,8 @@ var tree={
             },
             "http://www.wikidata.org/prop/direct/P6568": {
               "instancecount": 3,
-              "http://lemon-model.net/lemon#Word": 3,
-              "http://www.wikidata.org/entity/Q3538737": 1,
-              "http://xmlns.com/foaf/0.1/Person": 1
+              "http://www.w3.org/ns/lemon/ontolex#Word": 2,
+              "http://xmlns.com/foaf/0.1/Person": 2
             }
           },
           "from": {
@@ -7149,14 +7157,14 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#TOICACI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person: TOICACI (TOICACI)",
+        "text": "Person Word: TOICACI (TOICACI)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ISAMMNN%3F_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Word: ISAMMNN? (\u1694\u1685\u1690\u168b\u168b\u1686\u1686) (ISAMMNN%3F)",
+        "text": "Person Word: ISAMMNN? (ISAMMNN%3F)",
         "data": {}
       },
       {
@@ -7177,21 +7185,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#LUGA_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person: LUGA (LUGA)",
+        "text": "Person Word: LUGA (LUGA)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#ATAR_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person: ATAR (ATAR)",
+        "text": "Person Word: ATAR (ATAR)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#UDDAMI_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person: UDDAMI (UDDAMI)",
+        "text": "Person Word: UDDAMI (UDDAMI)",
         "data": {}
       },
       {
@@ -7212,7 +7220,7 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#GLUNLEGGET_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person: GLUNLEGGET (GLUNLEGGET)",
+        "text": "Person Word: GLUNLEGGET (GLUNLEGGET)",
         "data": {}
       },
       {
@@ -7226,21 +7234,21 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#BROENIONAS%3F_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Word: BROENIONAS? (\u1681\u168f\u1691\u1693\u1686\u1694\u1691\u1686\u1690\u1685) (BROENIONAS%3F)",
+        "text": "Person Word: BROENIONAS? (BROENIONAS%3F)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#NETA-SEGAMONAS_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person: NETA-SEGAMONAS (NETA-SEGAMONAS)",
+        "text": "Person Word: NETA-SEGAMONAS (NETA-SEGAMONAS)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#MACORBO_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q3538737",
         "type": "instance",
-        "text": "Person: MACORBO (MACORBO)",
+        "text": "Person Word: MACORBO (MACORBO)",
         "data": {}
       },
       {
@@ -7250,21 +7258,6 @@ var tree={
         "text": "Q3538737 (wde:Q3538737) [14]",
         "data": {
           "to": {
-            "http://lemon-model.net/lemon#contains": {
-              "instancecount": 7,
-              "http://lemon-model.net/lemon#Character": 8,
-              "http://www.wikidata.org/entity/Q41812345": 8
-            },
-            "http://lemon-model.net/lemon#sense": {
-              "instancecount": 0,
-              "http://lemon-model.net/lemon#LexicalSense": 1
-            },
-            "http://lemon-model.net/lemon#transliteration": {
-              "instancecount": 0
-            },
-            "http://lemon-model.net/lemon#writtenRep": {
-              "instancecount": 0
-            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
@@ -7279,17 +7272,32 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 2
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
+            },
+            "http://www.w3.org/ns/lemon/ontolex#contains": {
+              "instancecount": 5,
+              "http://www.w3.org/ns/lemon/ontolex#Character": 6,
+              "http://www.wikidata.org/entity/Q41812345": 6
+            },
+            "http://www.w3.org/ns/lemon/ontolex#sense": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/ontolex#LexicalSense": 1
+            },
+            "http://www.w3.org/ns/lemon/ontolex#transliteration": {
+              "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/ontolex#writtenRep": {
+              "instancecount": 0
             }
           },
           "from": {
-            "http://lemon-model.net/lemon#entry": {
-              "instancecount": 0,
-              "http://lemon-model.net/lemon#Lexicon": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 2
+            },
+            "http://www.w3.org/ns/lemon/lime#entry": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/lime#Lexicon": 1
             },
             "http://www.wikidata.org/prop/direct/P463": {
               "instancecount": 0,
@@ -7301,132 +7309,132 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 8
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1693_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1693 (\u1693_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168c_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u168c (\u168c_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1682_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1682 (\u1682_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168f_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u168f (\u168f_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1688_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1688 (\u1688_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1690_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1690 (\u1690_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1685_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1685 (\u1685_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1684_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1684 (\u1684_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168a_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u168a (\u168a_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u168b_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u168b (\u168b_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1692_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1692 (\u1692_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1687_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1687 (\u1687_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1681_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1681 (\u1681_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1686_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1686 (\u1686_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1691_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1691 (\u1691_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1689_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1689 (\u1689_character)",
         "data": {}
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1694_character_suniv0_",
-        "parent": "http://lemon-model.net/lemon#Character",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Character",
         "type": "instance",
         "text": "Character: \u1694 (\u1694_character)",
         "data": {}
       },
       {
-        "id": "http://lemon-model.net/lemon#Character",
+        "id": "http://www.w3.org/ns/lemon/ontolex#Character",
         "parent": "#",
         "type": "class",
-        "text": "Character (lemon:Character) [17]",
+        "text": "Character (ontolex:Character) [17]",
         "data": {}
       },
       {
@@ -7555,12 +7563,6 @@ var tree={
         "text": "Q41812345 (wde:Q41812345) [17]",
         "data": {
           "to": {
-            "http://lemon-model.net/lemon#transliteration": {
-              "instancecount": 0
-            },
-            "http://lemon-model.net/lemon#writtenRep": {
-              "instancecount": 0
-            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
@@ -7572,18 +7574,25 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/ontolex#transliteration": {
+              "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/ontolex#writtenRep": {
+              "instancecount": 0
             }
           },
           "from": {
-            "http://lemon-model.net/lemon#contains": {
-              "instancecount": 0,
-              "http://lemon-model.net/lemon#Word": 51,
-              "http://www.wikidata.org/entity/Q3538737": 3,
-              "http://www.wikidata.org/entity/Q67381377": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 2
+            },
+            "http://www.w3.org/ns/lemon/ontolex#contains": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 81,
+              "http://www.wikidata.org/entity/Q3538737": 5,
+              "http://www.wikidata.org/entity/Q67382150": 2,
+              "http://www.wikidata.org/entity/Q67381377": 1
             }
           }
         },
@@ -7640,22 +7649,11 @@ var tree={
       },
       {
         "id": "http://www.wikidata.org/entity/Q67381377",
-        "parent": "#",
+        "parent": "http://www.wikidata.org/entity/Q67384733",
         "type": "class",
         "text": "Q67381377 (wde:Q67381377) [7]",
         "data": {
           "to": {
-            "http://lemon-model.net/lemon#contains": {
-              "instancecount": 4,
-              "http://lemon-model.net/lemon#Character": 5,
-              "http://www.wikidata.org/entity/Q41812345": 5
-            },
-            "http://lemon-model.net/lemon#transliteration": {
-              "instancecount": 0
-            },
-            "http://lemon-model.net/lemon#writtenRep": {
-              "instancecount": 0
-            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
@@ -7667,20 +7665,38 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/ontolex#contains": {
+              "instancecount": 2,
+              "http://www.w3.org/ns/lemon/ontolex#Character": 3,
+              "http://www.wikidata.org/entity/Q41812345": 3
+            },
+            "http://www.w3.org/ns/lemon/ontolex#transliteration": {
+              "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/ontolex#writtenRep": {
+              "instancecount": 0
             }
           },
           "from": {
-            "http://lemon-model.net/lemon#entry": {
-              "instancecount": 0,
-              "http://lemon-model.net/lemon#Lexicon": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 2
+            },
+            "http://www.w3.org/ns/lemon/lime#entry": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/lime#Lexicon": 1
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 3
+      },
+      {
+        "id": "http://www.wikidata.org/entity/Q67384733",
+        "parent": "http://www.w3.org/ns/lemon/ontolex#Word",
+        "type": "class",
+        "text": "Q67384733 (wde:Q67384733)",
+        "data": {}
       },
       {
         "id": "http://www.wikidata.org/entity/Q67382235",
@@ -7721,31 +7737,16 @@ var tree={
         "id": "http://www.i3mainz.de/ogham#DERCMASOC_suniv1_",
         "parent": "http://www.wikidata.org/entity/Q67382150",
         "type": "instance",
-        "text": "Person: DERCMASOC (DERCMASOC)",
+        "text": "Person Word: DERCMASOC (DERCMASOC)",
         "data": {}
       },
       {
         "id": "http://www.wikidata.org/entity/Q67382150",
-        "parent": "#",
+        "parent": "http://www.wikidata.org/entity/Q67384733",
         "type": "class",
         "text": "Q67382150 (wde:Q67382150) [6]",
         "data": {
           "to": {
-            "http://lemon-model.net/lemon#contains": {
-              "instancecount": 2,
-              "http://lemon-model.net/lemon#Character": 3,
-              "http://www.wikidata.org/entity/Q41812345": 3
-            },
-            "http://lemon-model.net/lemon#sense": {
-              "instancecount": 0,
-              "http://lemon-model.net/lemon#LexicalSense": 1
-            },
-            "http://lemon-model.net/lemon#transliteration": {
-              "instancecount": 0
-            },
-            "http://lemon-model.net/lemon#writtenRep": {
-              "instancecount": 0
-            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
@@ -7756,17 +7757,32 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 2
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
+            },
+            "http://www.w3.org/ns/lemon/ontolex#contains": {
+              "instancecount": 7,
+              "http://www.w3.org/ns/lemon/ontolex#Character": 8,
+              "http://www.wikidata.org/entity/Q41812345": 8
+            },
+            "http://www.w3.org/ns/lemon/ontolex#sense": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/ontolex#LexicalSense": 1
+            },
+            "http://www.w3.org/ns/lemon/ontolex#transliteration": {
+              "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/ontolex#writtenRep": {
+              "instancecount": 0
             }
           },
           "from": {
-            "http://lemon-model.net/lemon#entry": {
-              "instancecount": 0,
-              "http://lemon-model.net/lemon#Lexicon": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 2
+            },
+            "http://www.w3.org/ns/lemon/lime#entry": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/lime#Lexicon": 1
             },
             "http://www.wikidata.org/prop/direct/P6568": {
               "instancecount": 0,
@@ -7774,29 +7790,22 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 10
       },
       {
         "id": "http://www.i3mainz.de/ogham#OghamDictionary",
-        "parent": "http://lemon-model.net/lemon#Lexicon",
+        "parent": "http://www.w3.org/ns/lemon/lime#Lexicon",
         "type": "instance",
         "text": "Ogham Dictionary (OghamDictionary)",
         "data": {}
       },
       {
-        "id": "http://lemon-model.net/lemon#Lexicon",
+        "id": "http://www.w3.org/ns/lemon/lime#Lexicon",
         "parent": "#",
-        "type": "class",
-        "text": "Lexicon (lemon:Lexicon) [1]",
+        "type": "collectionclass",
+        "text": "Lexicon (lime:Lexicon) [1]",
         "data": {
           "to": {
-            "http://lemon-model.net/lemon#entry": {
-              "instancecount": 228,
-              "http://lemon-model.net/lemon#Word": 229,
-              "http://www.wikidata.org/entity/Q3538737": 14,
-              "http://www.wikidata.org/entity/Q67381377": 6,
-              "http://www.wikidata.org/entity/Q67382150": 3
-            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
@@ -7808,6 +7817,13 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 0
+            },
+            "http://www.w3.org/ns/lemon/lime#entry": {
+              "instancecount": 228,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 229,
+              "http://www.wikidata.org/entity/Q3538737": 14,
+              "http://www.wikidata.org/entity/Q67381377": 6,
+              "http://www.wikidata.org/entity/Q67382150": 3
             }
           },
           "from": {
@@ -7817,7 +7833,7 @@ var tree={
             }
           }
         },
-        "instancecount": 228
+        "instancecount": 229
       },
       {
         "id": "http://www.i3mainz.de/ogham#Word_collection",
@@ -7908,13 +7924,14 @@ var tree={
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#Class": 1
+              "instancecount": 13,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 14,
+              "http://www.wikidata.org/entity/Q3538737": 14
             }
           },
           "from": {}
         },
-        "instancecount": 1
+        "instancecount": 14
       },
       {
         "id": "http://www.i3mainz.de/ogham#Point_collection",
@@ -8051,13 +8068,6 @@ var tree={
         "parent": "#",
         "type": "class",
         "text": "Q178561 (wde:Q178561)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q67384733",
-        "parent": "#",
-        "type": "class",
-        "text": "Q67384733 (wde:Q67384733)",
         "data": {}
       },
       {

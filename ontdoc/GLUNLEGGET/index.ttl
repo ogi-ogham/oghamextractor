@@ -1,23 +1,24 @@
-@prefix ns1: <http://lemon-model.net/lemon#> .
-@prefix ns2: <http://www.i3mainz.de/ogham#> .
+@prefix ns1: <http://www.i3mainz.de/ogham#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns2:GLUNLEGGET a ns1:Word,
-        <http://www.w3.org/ns/ldp#Resource>,
+ns1:GLUNLEGGET a <http://www.w3.org/ns/ldp#Resource>,
+        ns2:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person: GLUNLEGGET"@en,
+    rdfs:label "Person Word: GLUNLEGGET"@en,
+        "Person: GLUNLEGGET"@en,
         "Word: GLUNLEGGET (ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ)"@en ;
-    ns1:contains ns2:ᚂ_character,
-        ns2:ᚆ_character,
-        ns2:ᚉ_character,
-        ns2:ᚌ_character,
-        ns2:ᚒ_character,
-        ns2:ᚓ_character ;
-    ns1:sense ns2:GLUNLEGGET_sense ;
-    ns1:transliteration "GLUNLEGGET" ;
-    ns1:writtenRep "ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ" ;
-    void:inDataset ns2:Ogham_From_Epidoc ;
-    ns2:hasMember ns2:VEQREQ_person .
+    void:inDataset ns1:Ogham_From_Epidoc ;
+    ns1:hasMember ns1:VEQREQ_person ;
+    ns2:contains ns1:ᚂ_character,
+        ns1:ᚆ_character,
+        ns1:ᚉ_character,
+        ns1:ᚌ_character,
+        ns1:ᚒ_character,
+        ns1:ᚓ_character ;
+    ns2:sense ns1:GLUNLEGGET_sense ;
+    ns2:transliteration "GLUNLEGGET" ;
+    ns2:writtenRep "ᚌᚂᚒᚆᚂᚓᚌᚌᚓᚉ" .
 

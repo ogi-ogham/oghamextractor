@@ -1,14 +1,18 @@
-@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix ns2: <http://www.i3mainz.de/ogham#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns2:TOICACI a ns1:Word,
-        <http://www.w3.org/ns/ldp#Resource>,
+ns2:TOICACI a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person: TOICACI"@en,
+    rdfs:label "Person Word: TOICACI"@en,
+        "Person: TOICACI"@en,
         "Word: TOICACI (ᚉᚑᚔᚊᚐᚊᚔ)"@en ;
+    void:inDataset ns2:Ogham_From_Epidoc ;
+    ns2:hasMember ns2:MAQI-RITEAS_person,
+        ns2:MAQI-TTAL_person ;
     ns1:contains ns2:ᚉ_character,
         ns2:ᚊ_character,
         ns2:ᚐ_character,
@@ -16,8 +20,5 @@ ns2:TOICACI a ns1:Word,
         ns2:ᚔ_character ;
     ns1:sense ns2:TOICACI_sense ;
     ns1:transliteration "TOICACI" ;
-    ns1:writtenRep "ᚉᚑᚔᚊᚐᚊᚔ" ;
-    void:inDataset ns2:Ogham_From_Epidoc ;
-    ns2:hasMember ns2:MAQI-RITEAS_person,
-        ns2:MAQI-TTAL_person .
+    ns1:writtenRep "ᚉᚑᚔᚊᚐᚊᚔ" .
 

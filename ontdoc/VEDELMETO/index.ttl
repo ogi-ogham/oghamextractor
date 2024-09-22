@@ -1,12 +1,14 @@
-@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<http://www.i3mainz.de/ogham#VEDELMETO> a ns1:Word,
-        <http://www.w3.org/ns/ldp#Resource>,
+<http://www.i3mainz.de/ogham#VEDELMETO> a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person: VEDELMETO"@en,
+    rdfs:label "Person Word: VEDELMETO"@en,
+        "Person: VEDELMETO"@en,
         "Word: VEDELMETO (ᚄᚓᚈᚓᚂᚋᚓᚉᚑ)"@en ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
     ns1:contains <http://www.i3mainz.de/ogham#ᚂ_character>,
         <http://www.i3mainz.de/ogham#ᚄ_character>,
         <http://www.i3mainz.de/ogham#ᚈ_character>,
@@ -16,6 +18,5 @@
         <http://www.i3mainz.de/ogham#ᚓ_character> ;
     ns1:sense <http://www.i3mainz.de/ogham#VEDELMETO_sense> ;
     ns1:transliteration "VEDELMETO" ;
-    ns1:writtenRep "ᚄᚓᚈᚓᚂᚋᚓᚉᚑ" ;
-    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+    ns1:writtenRep "ᚄᚓᚈᚓᚂᚋᚓᚉᚑ" .
 

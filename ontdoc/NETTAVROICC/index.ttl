@@ -1,12 +1,14 @@
-@prefix ns1: <http://lemon-model.net/lemon#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<http://www.i3mainz.de/ogham#NETTAVROICC> a ns1:Word,
-        <http://www.w3.org/ns/ldp#Resource>,
+<http://www.i3mainz.de/ogham#NETTAVROICC> a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Person: NETTAVROICC"@en,
+    rdfs:label "Person Word: NETTAVROICC"@en,
+        "Person: NETTAVROICC"@en,
         "Word: NETTAVROICC (ᚆᚓᚉᚉᚐᚄᚏᚑᚔᚊᚊ)"@en ;
+    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
     ns1:contains <http://www.i3mainz.de/ogham#ᚄ_character>,
         <http://www.i3mainz.de/ogham#ᚆ_character>,
         <http://www.i3mainz.de/ogham#ᚉ_character>,
@@ -18,6 +20,5 @@
         <http://www.i3mainz.de/ogham#ᚔ_character> ;
     ns1:sense <http://www.i3mainz.de/ogham#NETTAVROICC_sense> ;
     ns1:transliteration "NETTAVROICC" ;
-    ns1:writtenRep "ᚆᚓᚉᚉᚐᚄᚏᚑᚔᚊᚊ" ;
-    void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
+    ns1:writtenRep "ᚆᚓᚉᚉᚐᚄᚏᚑᚔᚊᚊ" .
 

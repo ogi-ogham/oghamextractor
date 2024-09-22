@@ -6,6 +6,6 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: sense"@en ;
-    void:property <http://lemon-model.net/lemon#sense> ;
+    void:property <http://www.w3.org/ns/lemon/ontolex#sense> ;
     void:triples 211 .
 
