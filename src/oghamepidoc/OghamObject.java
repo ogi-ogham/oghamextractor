@@ -97,7 +97,6 @@ public class OghamObject {
 		godlugh.addLabel("God Lugh","en");
         OntClass lug=model.createClass("http://www.wikidata.org/entity/Q67383482");
 		lug.addLabel("God Lugh","en");
-		tribe.addLabel("Tribe","en");
 		feature.addSuperClass(spatialobject);
 		oghamobj.addSuperClass(feature);
 		geometry.addSuperClass(spatialobject);
@@ -113,13 +112,17 @@ public class OghamObject {
 		ObjectProperty fatherrel=model.createObjectProperty("http://www.wikidata.org/prop/direct/P22");
 		fatherrel.setLabel("father", "en");
 		ObjectProperty inscriptionmentions=model.createObjectProperty("http://www.wikidata.org/prop/direct/P6568");
-		inscriptionmentions.addLabel("inscriptionmentions","en");
+		inscriptionmentions.addLabel("inscription mentions","en");
 		ObjectProperty relative=model.createObjectProperty("http://www.wikidata.org/prop/direct/P1038");
-		inscriptionmentions.addLabel("relative","en");
+		relative.addLabel("relative","en");
 		ObjectProperty entry=model.createObjectProperty("http://lemon-model.net/lemon#entry");
+		entry.addLabel("entry","en");
 		ObjectProperty sense=model.createObjectProperty("http://lemon-model.net/lemon#sense");
+		sense.addLabel("sense","en");
 		ObjectProperty contains=model.createObjectProperty("http://lemon-model.net/lemon#contains");
+		contains.addLabel("contains","en");
 		ObjectProperty reference=model.createObjectProperty("http://lemon-model.net/lemon#reference");
+		reference.addLabel("reference","en");
 		ObjectProperty hasMember=model.createObjectProperty(BASEURI+"hasMember");
 		hasMember.addLabel("has member","en");
 		ObjectProperty follows=model.createObjectProperty(BASEURI+"follows");
@@ -131,16 +134,18 @@ public class OghamObject {
         ObjectProperty definedInWikidata=model.createObjectProperty(BASEURI+"definedInWikidata");
 		definedInWikidata.addLabel("defined in Wikidata","en");
 		ObjectProperty partofTribe=model.createObjectProperty("http://www.wikidata.org/prop/direct/P463");
-		partofTribe.addLabel("member of","en");
+		partofTribe.addLabel("part of tribe","en");
 		DatatypeProperty image=model.createDatatypeProperty("http://www.wikidata.org/prop/direct/P18");
 		image.addLabel("image","en");
 		DatatypeProperty transliteration=model.createDatatypeProperty("http://lemon-model.net/lemon#transliteration");
+		transliteration.addLabel("transliteration","en");
 		DatatypeProperty script=model.createDatatypeProperty("http://lemon-model.net/lemon#writtenRep");
+		script.addLabel("written representation","en");
 		Individual oghamdict=dictionary.createIndividual(BASEURI+"OghamDictionary");
 		oghamdict.addLabel("Ogham Dictionary","en");
 		for(String woord:words) {
 			Individual wordd=word.createIndividual(BASEURI+URLEncoder.encode(woord));
-			wordd.addLabel("Word: "+woord,"en");
+			wordd.addLabel("Word: "+woord+" ("+OghamUtils.translitToUnicode(woord)+")","en");
 			if(OghamUtils.nomenclature.contains(woord)) {
 				wordd.addRDFType(nomenclature);
 			}
@@ -151,6 +156,7 @@ public class OghamObject {
 				String curstr=woord.charAt(i)+"";
 				if(OghamUtils.oghammap.containsKey(curstr.toLowerCase())) {
 					Individual chara=character.createIndividual(BASEURI+OghamUtils.oghammap.get(curstr.toLowerCase())+"_character");
+					chara.addLabel("Character: "+OghamUtils.oghammap.get(curstr.toLowerCase()),"en");
 					chara.addRDFType(oghamletter);
 					wordd.addProperty(contains, chara);
 					chara.addProperty(transliteration, curstr.toUpperCase());
