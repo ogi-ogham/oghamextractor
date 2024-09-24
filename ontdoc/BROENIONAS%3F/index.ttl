@@ -1,10 +1,10 @@
 @prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix ns2: <http://www.i3mainz.de/ogham#> .
-@prefix ns3: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns3: <http://www.i3mainz.de/ogham#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns2:BROENIONAS%3F a <http://www.w3.org/ns/ldp#Resource>,
+ns3:BROENIONAS%3F a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
@@ -12,19 +12,19 @@ ns2:BROENIONAS%3F a <http://www.w3.org/ns/ldp#Resource>,
         "Person: BROENIONAS?"@en,
         "Tribe: BROENIONAS?"@en,
         "Word: BROENIONAS? (ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ)"@en ;
-    void:inDataset ns2:Ogham_From_Epidoc ;
-    ns2:hasMember ns2:QECCIAS%3F_person ;
-    ns3:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns1:contains ns2:ᚁ_character,
-        ns2:ᚅ_character,
-        ns2:ᚆ_character,
-        ns2:ᚏ_character,
-        ns2:ᚐ_character,
-        ns2:ᚑ_character,
-        ns2:ᚓ_character,
-        ns2:ᚔ_character ;
+    void:inDataset ns3:Ogham_From_Epidoc ;
+    ns3:hasMember ns3:QECCIAS%3F_person ;
+    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns1:contains ns3:ᚁ_character,
+        ns3:ᚅ_character,
+        ns3:ᚆ_character,
+        ns3:ᚏ_character,
+        ns3:ᚐ_character,
+        ns3:ᚑ_character,
+        ns3:ᚓ_character,
+        ns3:ᚔ_character ;
     ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns1:sense ns2:BROENIONAS%3F_sense ;
+    ns1:sense ns3:BROENIONAS%3F_sense ;
     ns1:transliteration "BROENIONAS?" ;
     ns1:writtenRep "ᚁᚏᚑᚓᚆᚔᚑᚆᚐᚅ" .
 

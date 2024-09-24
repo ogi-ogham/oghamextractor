@@ -1,20 +1,20 @@
-@prefix ns1: <http://www.w3.org/ns/lemon/lime#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#MOSAC> a <http://www.w3.org/ns/ldp#Resource>,
-        ns2:Word,
+        ns1:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Word: MOSAC (ᚋᚑᚅᚐᚊ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
-    ns1:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns2:contains <http://www.i3mainz.de/ogham#ᚅ_character>,
+    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns1:contains <http://www.i3mainz.de/ogham#ᚅ_character>,
         <http://www.i3mainz.de/ogham#ᚊ_character>,
         <http://www.i3mainz.de/ogham#ᚋ_character>,
         <http://www.i3mainz.de/ogham#ᚐ_character>,
         <http://www.i3mainz.de/ogham#ᚑ_character> ;
-    ns2:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns2:transliteration "MOSAC" ;
-    ns2:writtenRep "ᚋᚑᚅᚐᚊ" .
+    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns1:transliteration "MOSAC" ;
+    ns1:writtenRep "ᚋᚑᚅᚐᚊ" .
 

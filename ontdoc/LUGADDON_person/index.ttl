@@ -1,15 +1,15 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://www.wikidata.org/prop/direct/> .
-@prefix ns2: <http://www.i3mainz.de/ogham#> .
+@prefix ns1: <http://www.i3mainz.de/ogham#> .
+@prefix ns2: <http://www.wikidata.org/prop/direct/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns2:LUGADDON_person a <http://www.w3.org/ns/ldp#Resource>,
+ns1:LUGADDON_person a <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person: LUGADDON"@en ;
-    void:inDataset ns2:Ogham_From_Epidoc ;
-    ns2:definedInWikidata <http://www.wikidata.org/entity/Q67383482> ;
-    ns2:nameRelatesTo <http://www.wikidata.org/entity/Q215683> ;
-    ns1:P22 ns2:LUGUDECAS_person .
+    void:inDataset ns1:Ogham_From_Epidoc ;
+    ns1:definedInWikidata <http://www.wikidata.org/entity/Q67383482> ;
+    ns1:nameRelatesTo <http://www.wikidata.org/entity/Q215683> ;
+    ns2:P22 ns1:LUGUDECAS_person .
 
